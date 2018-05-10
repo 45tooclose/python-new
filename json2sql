@@ -1,0 +1,88 @@
+import mysql.connector
+import json
+import pprint
+from mysql.connector import errorcode
+
+
+
+
+
+
+def get_column_names():
+
+    query  =" SELECT `COLUMN_NAME` "
+    query +="FROM `INFORMATION_SCHEMA`.`COLUMNS` "
+    query +="WHERE `TABLE_SCHEMA`='chat_bitcoin' "
+    query +="AND `TABLE_NAME`='mytable';"
+
+    column_names = []
+    cursor.execute(query)
+
+    for item in cursor:
+        column_names.append(''.join(item))
+
+    #TEST
+    #print(column_names)
+    return column_names
+
+def select_raw_json():
+
+    query = "SELECT json "
+    query +="FROM channel_chat_bitcoin "
+    query +="LIMIT 1"
+
+    cursor.execute(query)
+    #TEST
+    print("query exectued")
+    json_arr=()
+    for a in cursor:
+        json_arr = json.loads(''.join(a))
+    return json_arr
+
+def insert_into():
+    query=""
+
+def connect_to_db(config):
+
+
+
+    try:
+      cnx = mysql.connector.connect(**config)
+
+    except mysql.connector.Error as err:
+      if err.errno == errorcode.ER_ACCESS_DENIED_ERROR:
+        print("Something is wrong with your user name or password")
+      elif err.errno == errorcode.ER_BAD_DB_ERROR:
+        print("Database does not exist")
+      else:
+        print(err)
+
+    else:
+        print("mysql connected")
+        cursor = cnx.cursor()
+        print("cursor created")
+
+        raw_json_val = select_raw_json()
+        print(raw_json_val)
+
+        #TEST
+        #for item in cursor
+
+        cursor.close()
+        print("cursor closed")
+        cnx.close()
+
+def main():
+    print("main")
+
+if __name__ == "__main__":
+    # CONFIG for MYSQL
+    config = {
+        'user': 'root',
+        'password': '',
+        'host': '127.0.0.1',
+        'database': 'chat_bitcoin',
+    }
+    connect_to_db(config)
+    select_raw_json()
+    get_column_names()
