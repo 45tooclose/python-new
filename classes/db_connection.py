@@ -1,20 +1,23 @@
 import mysql.connector
 import json
 import datetime
+import io
 import pprint
 from mysql.connector import errorcode
 
 
 class DBConnection:
-    # CONNECTION CONFIG IN connection_config.txt
+
     # CONFIG TO ACCESS TABLES
     db_config = {
         # DEFAULT
         'default': 'rss_medium_sample',
+        'structure data': 'structured_data',
         'article base': 'article_base',
         'rss medium': 'rss_medium'
     }
-
+    #GET CONNECTION CONFIG FROM FILE
+    # CONNECTION CONFIG IN connection_config.txt
     def get_connection_config(self, loc):
         with open(loc, 'r') as f:
             read_data = []
@@ -32,7 +35,7 @@ class DBConnection:
     def get_column_names(self, table_name=None, db_name=None):
         print("in get_column_names")
 
-        if table_name is None: table_name = self.db_config['table']
+        if table_name is None: table_name = self.db_config['default']
         if db_name is None: db_name = self.db_config['article base']
 
         query = " SELECT `COLUMN_NAME` "
@@ -51,32 +54,52 @@ class DBConnection:
         return column_names
 
     # GETTING JSON RAW FILE FROM DB
-    # RETURNS LIST
-    def get_raw_json(self, table_name=None, column_name=None):
+    # args:
+    # table_name - name of the table
+    # column_name - name of column to retrive data
+    # return_dic - if false will retrun list, else dictionary
+    # RETURNS LIST OR DIC
+    # json_list - json_dic_val:
+    # 1 - topic
+    # 2 - link_hub
+    # 3 - link
+    # 4 - time_created
+    # 5 - tags
+    # 6 - author
+    # 7 - summary
+    def get_raw_json(self, table_name=None, column_name=None,return_dic=None):
 
-        if table_name is None: table_name = self.db_config['table']
+        if table_name is None: table_name = self.db_config['default']
         if column_name is None: column_name = self.db_config['json']
+        if return_dic is None: return_dic = False
 
-        #print(column_name)
-
-        query = "SELECT " + column_name + " "
-        query += "FROM " + table_name + " "
-        query += "LIMIT 1 "
-
-        #print(query)
-
-        self.execute_query(query)
+        self.execute_query(self.select_query(table_name=table_name,column_name=column_name))
         row = self.cursor.fetchone()
 
         for item in row:
             json_dic = json.loads(''.join(item))
 
         json_list = []
+        json_dic_val = {}
+        keys = ['topic','link_hub','links','time_created','tags','author', 'summary']
+        json_dic_val= dict.fromkeys(keys)
+
+        #TODO do refactoringu  dla json_list
+        json_dic_list = ['id',
+                         'title',
+                         ['title_detail','base'],
+                         'link',
+                         'published_parsed',
+                         ['tags','term'],
+                         'author',
+                         'summary']
+
+
+        #TODO zmienic for item in json_dic_list żeby bral bezposrednio z listy a nie z ifow
+        print(json_list)
 
         json_list.append(json_dic['title'])
-
         json_list.append(json_dic['title_detail']['base'])
-
         json_list.append(json_dic['link'])
 
         time_list = []
@@ -92,41 +115,120 @@ class DBConnection:
         json_list.append(tags_str)
 
         json_list.append(json_dic['author'])
-
         json_list.append(json_dic['summary'])
-        #TEST
-        # Check the json_list without 'summary' and it's length
-        # pprint.pprint(json_list[0:6])
-        # print(json_list.__len__())
 
-        return json_list
+        if return_dic == True:
+            ite = 0
+            for key,value in json_dic_val.items():
+                json_dic_val[key]=json_list[ite]
+                ite += 1
+
+
+
+        # TEST
+        # Check the json_list without 'summary' and json_list length
+        #print.pprint(json_list[0:6])
+        #print(json_list.__len__())
+        # print(json_dic_val)
+        if return_dic:
+            return json_dic_val
+        else:
+            return json_list
+
+    def select_query(self,table_name,column_name=None,limit='1'):
+        if column_name is None:
+            column_name='*'
+        if table_name is None:
+            table_name = self.db_config['default']
+
+        query = "SELECT " + column_name + " "
+        query += "FROM " + table_name + " "
+        query += "LIMIT"+limit+" ;"
+
+        return query
+
+    def get_sql_values(self):
+        query = self.select_query(table_name='rss_medium_sample',column_name='*',limit='1')
+        self.execute_query(query)
+        row = self.cursor.fetchone()
+        sql_dic_val={}
+        keys = ['id_rss_medium','html','main_text']
+        sql_dic_val= dict.fromkeys(keys)
+        sql_dic_val['id_rss_medium'] = row[0]
+
+        # HTML
+        # sql_dic_val['html'] = row[4]
+        sql_dic_val['main_text'] = row[5]
+        return sql_dic_val
 
     # CONVERTING JSON FILES TO INSERT_SQL QUERY
-    def json_to_sql_values(self, json_dic):
-        print("hyy")
-    #
-    # TODO INSERTING TO TABLE
-    def insert_query(self, query=None, table=None):
+    def json_dic_to_sql_values(self, json_dic,sql_dic=None):
 
+        list_of_columns = self.get_column_names(table_name='structured_data')
+        sql_l = []
+        list_of_none_columns =['id_structured_data','id_rss_medium','main_text','html','date_created']
+        for inum, val_c in enumerate(list_of_columns):
+                if val_c in list_of_none_columns:
+                    sql_l.append(None)
+                for key, val_d in json_dic.items():
+                        if val_c == key:
+                            sql_l.append(val_d)
+                            break
+        if sql_dic != None:
+            #sql_l[]
+            print(sql_l)
+            sql_l[1] = sql_dic['id_rss_medium']
+            sql_l[6] = sql_dic['main_text']
+            sql_l[9] = sql_dic['html']
+            #TODO
+        print(sql_l)
+
+        return sql_l
+
+    # TODO INSERTING TO TABLE
+    def insert_query(self, query=None, table=None,values=None):
         #Get Column names from table
         if table is None:
             table='structured_data'
             columns = self.get_column_names(table_name=table)
         else:
             columns = self.get_column_names(table_name=table)
-        #print(columns)
-
-        # for c,item in enumerate(columns):
-        #     print(c , item)
 
         #FIXME poprawic query
         query = " INSERT INTO "
-        query +="`"+table+"` ("
+        query += "`" + table + "` ("
         for i,value in enumerate(columns):
-            if i==columns.__len__()-1:
+            if i == columns.__len__()-1:
                 query += "`" + columns[i] + "`)"
+
             else:query += "`" + columns[i] + "`,"
-        print(query)
+        query +="VALUES("
+
+        for i, val in enumerate(values):
+
+            #print(type(val), val)
+            if val is None:
+                print('null')
+            elif type(val) is int:
+                print('int')
+            elif type(val) is datetime.datetime:
+                print('datetime')
+            elif type(val) is str:
+                print('str')
+            # if val=='None':
+            #     val='null'
+            #     query += " "+ val + " "
+            # else:
+            #     query += "`" + val + "`"
+            #
+            # if i == columns.__len__() - 1:
+            #         query += " )"
+            # else:
+            #     query += ","
+
+        with io.open("kek","w",encoding="utf-8") as f:
+            f.write(query)
+        # self.execute_query(query)
         # query +=`id_structured_data`,
         # query +=`id_rss_medium`,
         # query +=`time_created`,
@@ -138,6 +240,8 @@ class DBConnection:
         # query +=`link_hub`,
         # query +=`html`,
         # query +=`summary`)
+
+
         # query +=VALUES(
         # query += null,
         # query += 124,
@@ -165,7 +269,7 @@ class DBConnection:
         try:
             self.cursor.execute(query)
             self.cnx.commit()
-            print("sucess.")
+            print("success.")
         except mysql.connector.Error as err:
             print(self.cnx.rollback())
             print(err)
@@ -186,13 +290,13 @@ class DBConnection:
 
 
 def main():
-    print("in main")
     db = DBConnection()
-
+    db.get_sql_values()
     # column_names= db.get_column_names(table_name='rss_medium_sample')
-    db.insert_query()
-    # db.get_raw_json(column_name="json")
-
-
+    # db.insert_query()
+    json_dic = db.get_raw_json(column_name="json",return_dic=True)
+    sql_dic = db.get_sql_values()
+    values = db.json_dic_to_sql_values(json_dic,sql_dic=sql_dic)
+    db.insert_query(values=values)
 if __name__ == "__main__":
     main()
