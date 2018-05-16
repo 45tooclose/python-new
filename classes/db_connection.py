@@ -43,9 +43,7 @@ class DBConnection:
 
         self.execute_query(query)
 
-        for item in self.cursor:
-            print(item)
-
+        #Creating list
         for item in self.cursor:
             column_names.append(''.join(item))
 
@@ -59,13 +57,13 @@ class DBConnection:
         if table_name is None: table_name = self.db_config['table']
         if column_name is None: column_name = self.db_config['json']
 
-        print(column_name)
+        #print(column_name)
 
         query = "SELECT " + column_name + " "
         query += "FROM " + table_name + " "
         query += "LIMIT 1 "
 
-        print(query)
+        #print(query)
 
         self.execute_query(query)
         row = self.cursor.fetchone()
@@ -112,43 +110,48 @@ class DBConnection:
 
         #Get Column names from table
         if table is None:
-            columns = self.get_column_names(table_name='structured_data')
+            table='structured_data'
+            columns = self.get_column_names(table_name=table)
         else:
             columns = self.get_column_names(table_name=table)
         #print(columns)
 
-        #query_temp = "INSERT INTO `" + table + "`("
-        for item in columns:
-            print(item)
+        # for c,item in enumerate(columns):
+        #     print(c , item)
 
-        query = """  INSERT INTO
-        `structured_data`(`id_structured_data`, 
-        `id_rss_medium`, 
-        `time_created`, 
-        `topic`,
-        `author`, 
-        `main_text`, 
-        `tags`,
-        `links`, 
-        `link_hub`,
-        `html`,
-        `summary`)
-        VALUES(
-        null,
-         124,
-        '2011-06-06 13:15:20',
-        'raz',
-        'peja',
-        'dlugitext',
-        'tekst,teskt',
-        'http://ayy.com',
-        'szto',
-        '<html></html>', 
-        'traeszakfg'
-        )
-        ;    
-        """
-        self.execute_query(query)
+        #FIXME poprawic query
+        query = " INSERT INTO "
+        query +="`"+table+"` ("
+        for i,value in enumerate(columns):
+            if i==columns.__len__()-1:
+                query += "`" + columns[i] + "`)"
+            else:query += "`" + columns[i] + "`,"
+        print(query)
+        # query +=`id_structured_data`,
+        # query +=`id_rss_medium`,
+        # query +=`time_created`,
+        # query +=`topic`,
+        # query +=`author`,
+        # query +=`main_text`,
+        # query +=`tags`,
+        # query +=`links`,
+        # query +=`link_hub`,
+        # query +=`html`,
+        # query +=`summary`)
+        # query +=VALUES(
+        # query += null,
+        # query += 124,
+        # query +='2011-06-06 13:15:20',
+        # query +='raz',
+        # query +='peja',
+        # query +='dlugitext',
+        # query +='tekst,teskt',
+        # query +='http://ayy.com',
+        # query +='szto',
+        # query +='<html></html>',
+        # query +='traeszakfg'
+        #);
+        #self.execute_query(query)
 
     # TODO CREATING QUERY
     def create_query(self):
@@ -187,7 +190,7 @@ def main():
     db = DBConnection()
 
     # column_names= db.get_column_names(table_name='rss_medium_sample')
-    db.insert_query('')
+    db.insert_query()
     # db.get_raw_json(column_name="json")
 
 
