@@ -2,6 +2,7 @@ import mysql.connector
 import json
 import datetime
 import io
+import datetime
 import pprint
 from mysql.connector import errorcode
 
@@ -67,7 +68,7 @@ class DBConnection:
     # 5 - tags
     # 6 - author
     # 7 - summary
-    def get_raw_json(self, table_name=None, column_name=None,return_dic=None):
+    def get_raw_json(self, table_name=None, column_name=None,return_dic=None,return_pos=None):
 
         if table_name is None: table_name = self.db_config['default']
         if column_name is None: column_name = self.db_config['json']
@@ -96,7 +97,7 @@ class DBConnection:
 
 
         #TODO zmienic for item in json_dic_list żeby bral bezposrednio z listy a nie z ifow
-        print(json_list)
+
 
         json_list.append(json_dic['title'])
         json_list.append(json_dic['title_detail']['base'])
@@ -122,9 +123,6 @@ class DBConnection:
             for key,value in json_dic_val.items():
                 json_dic_val[key]=json_list[ite]
                 ite += 1
-
-
-
         # TEST
         # Check the json_list without 'summary' and json_list length
         #print.pprint(json_list[0:6])
@@ -133,7 +131,10 @@ class DBConnection:
         if return_dic:
             return json_dic_val
         else:
-            return json_list
+            if return_pos is  None:
+                return json_list
+            else:
+                return json_list[return_pos]
 
     def select_query(self,table_name,column_name=None,limit='1'):
         if column_name is None:
@@ -147,7 +148,7 @@ class DBConnection:
 
         return query
 
-    def get_sql_values(self):
+    def get_rss_medium_sample_vals(self):
         query = self.select_query(table_name='rss_medium_sample',column_name='*',limit='1')
         self.execute_query(query)
         row = self.cursor.fetchone()
@@ -156,10 +157,26 @@ class DBConnection:
         sql_dic_val= dict.fromkeys(keys)
         sql_dic_val['id_rss_medium'] = row[0]
 
-        # HTML
+        # HTML OPTIONAL
         # sql_dic_val['html'] = row[4]
+
         sql_dic_val['main_text'] = row[5]
         return sql_dic_val
+
+    #GET text from rss_medium_sample,
+    #RETURN FILE with name of topic
+    def get_rss_medium_sample_text(self,f_name=None):
+        if f_name is None:
+            now =datetime.datetime.now()
+            f_name = now.strftime("%Y-%m-%d %H-%M")
+
+        query = self.select_query(table_name='rss_medium_sample',column_name='*',limit='1')
+        self.execute_query(query)
+        row = self.cursor.fetchone()
+        main_text=row[5]
+        print(main_text)
+        with io.open("../main_text/" + f_name + ".txt","w",encoding="utf-8") as f:
+            f.write(main_text)
 
     # CONVERTING JSON FILES TO INSERT_SQL QUERY
     def json_dic_to_sql_values(self, json_dic,sql_dic=None):
@@ -178,7 +195,7 @@ class DBConnection:
             #sql_l[]
             print(sql_l)
             sql_l[1] = sql_dic['id_rss_medium']
-            sql_l[6] = sql_dic['main_text']
+            sql_l[5] = sql_dic['main_text']
             sql_l[9] = sql_dic['html']
             #TODO
         print(sql_l)
@@ -209,12 +226,22 @@ class DBConnection:
             #print(type(val), val)
             if val is None:
                 print('null')
+                query+='null'
             elif type(val) is int:
                 print('int')
+                query+= str(val)
             elif type(val) is datetime.datetime:
                 print('datetime')
+                query+="'"+str(val)+"'"
             elif type(val) is str:
+                query+=" '"+val+"' "
                 print('str')
+
+            if i ==columns.__len__()-1:
+                query+= ")"
+            else:
+                query +=", "
+
             # if val=='None':
             #     val='null'
             #     query += " "+ val + " "
@@ -291,12 +318,16 @@ class DBConnection:
 
 def main():
     db = DBConnection()
-    db.get_sql_values()
+    topic = db.get_raw_json(column_name='json',return_pos=0)
+    db.get_rss_medium_sample_text(f_name=topic)
+    # db.get_rss_medium_sample_vals()
     # column_names= db.get_column_names(table_name='rss_medium_sample')
     # db.insert_query()
-    json_dic = db.get_raw_json(column_name="json",return_dic=True)
-    sql_dic = db.get_sql_values()
-    values = db.json_dic_to_sql_values(json_dic,sql_dic=sql_dic)
-    db.insert_query(values=values)
+    # json_dic = db.get_raw_json(column_name="json",return_dic=True)
+    # sql_dic = db.get_rss_medium_sample_vals()
+
+    # values = db.json_dic_to_sql_values(json_dic,sql_dic=sql_dic)
+    # print(values[5])
+    #db.insert_query(values=values)
 if __name__ == "__main__":
     main()
