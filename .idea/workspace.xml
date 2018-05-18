@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ab4c4fe-12c8-4cb7-89d2-61a848377e21" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/classes/aylien_connection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/text_cleaner.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/db_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/db_connection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pip-selfcheck.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/text_cleaner.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/text_cleaner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/txtfiles.gitignore" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,36 +22,44 @@
       <file leaf-file-name="db_connection.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/db_connection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
+            <state relative-caret-position="17">
               <caret line="177" selection-start-line="177" selection-end-line="179" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
-                <element signature="e#2091#4320#0" />
-                <element signature="e#4290#4572#0" />
-                <element signature="e#4612#5052#0" />
-                <element signature="e#5510#6286#0" />
-                <element signature="e#6390#8702#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="text_cleaner.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="text_cleaner.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/text_cleaner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+            <state relative-caret-position="394">
+              <caret line="35" column="6" lean-forward="true" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
-                <marker date="1526594408393" expanded="true" signature="614:681" ph="..." />
+                <marker date="1526662466271" expanded="true" signature="1009:1076" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aylien_connection.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/aylien_connection.py">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="Untitled.ipynb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Untitled Folder/Untitled.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -80,17 +87,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/classes/aylien_connection.py" />
         <option value="$PROJECT_DIR$/classes/db_connection.py" />
+        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/classes/text_cleaner.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="57" />
-    <option name="y" value="15" />
-    <option name="width" value="1285" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1083" />
+    <option name="y" value="7" />
+    <option name="width" value="819" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -111,6 +118,11 @@
               <item name="python-new" type="462c0819:PsiDirectoryNode" />
               <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="python-new" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python-new" type="462c0819:PsiDirectoryNode" />
+              <item name="main_text" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -118,8 +130,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Kamil/Documents/GitHub/python-new/classes/db_connection.py" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -245,7 +258,21 @@
       <option name="project" value="LOCAL" />
       <updated>1526493148990</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added text_cleaner, aylien_connection, exporting main_text to /main_text">
+      <created>1526594491236</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1526594491236</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added folder">
+      <created>1526594608553</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1526594608553</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -258,20 +285,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="15" width="1285" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48987108" visible="true" weight="0.32157177" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49019608" visible="true" weight="0.11643836" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.0" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32896176" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32896176" />
-      <window_info anchor="bottom" x="0" y="64" width="1920" height="949" id="Run" order="2" type="WINDOWED" weight="1.0" />
-      <window_info id="Structure" order="1" sideWeight="0.5101289" side_tool="true" visible="true" weight="0.32157177" />
+      <window_info anchor="bottom" x="0" y="115" width="1920" height="949" id="Run" order="2" type="WINDOWED" weight="1.0" />
+      <window_info active="true" id="Structure" order="1" sideWeight="0.50980395" side_tool="true" visible="true" weight="0.11643836" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Favorites" order="2" sideWeight="0.5049505" side_tool="true" weight="0.2574178" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.40264025" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40264025" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -279,6 +304,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -287,7 +313,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Refactoring, changing tags_list to tags_str" />
     <MESSAGE value="added select_query, json_to_sql" />
-    <option name="LAST_COMMIT_MESSAGE" value="added select_query, json_to_sql" />
+    <MESSAGE value="added text_cleaner, aylien_connection, exporting main_text to /main_text" />
+    <MESSAGE value="added folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="added folder" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -306,21 +334,37 @@
           <properties exception="BaseException" />
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="21" />
+      <option name="time" value="22" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/classes/db_connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2907">
+          <caret line="177" selection-start-line="177" selection-end-line="179" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/text_cleaner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <marker date="1526662466271" expanded="true" signature="1009:1076" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/classes/db_connection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5253">
           <caret line="309" column="59" lean-forward="true" selection-start-line="309" selection-start-column="59" selection-end-line="309" selection-end-column="59" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
-            <element signature="e#2091#4320#0" />
-            <element signature="e#4290#4572#0" />
-            <element signature="e#4612#5052#0" />
-            <element signature="e#5510#6286#0" />
-            <element signature="e#6390#8702#0" />
           </folding>
         </state>
       </provider>
@@ -331,11 +375,6 @@
           <caret line="207" lean-forward="true" selection-start-line="207" selection-end-line="207" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
-            <element signature="e#2091#4320#0" />
-            <element signature="e#4290#4572#0" />
-            <element signature="e#4612#5052#0" />
-            <element signature="e#5510#6286#0" />
-            <element signature="e#6390#8702#0" />
           </folding>
         </state>
       </provider>
@@ -346,11 +385,6 @@
           <caret line="206" column="24" lean-forward="true" selection-start-line="206" selection-start-column="24" selection-end-line="206" selection-end-column="24" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
-            <element signature="e#2091#4320#0" />
-            <element signature="e#4290#4572#0" />
-            <element signature="e#4612#5052#0" />
-            <element signature="e#5510#6286#0" />
-            <element signature="e#6390#8702#0" />
           </folding>
         </state>
       </provider>
@@ -361,11 +395,6 @@
           <caret line="107" column="25" lean-forward="true" selection-start-line="107" selection-start-column="25" selection-end-line="107" selection-end-column="25" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
-            <element signature="e#2091#4320#0" />
-            <element signature="e#4290#4572#0" />
-            <element signature="e#4612#5052#0" />
-            <element signature="e#5510#6286#0" />
-            <element signature="e#6390#8702#0" />
           </folding>
         </state>
       </provider>
@@ -383,11 +412,6 @@
           <caret line="123" column="29" selection-start-line="123" selection-start-column="29" selection-end-line="123" selection-end-column="29" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
-            <element signature="e#2091#4320#0" />
-            <element signature="e#4290#4572#0" />
-            <element signature="e#4612#5052#0" />
-            <element signature="e#5510#6286#0" />
-            <element signature="e#6390#8702#0" />
           </folding>
         </state>
       </provider>
@@ -398,11 +422,6 @@
           <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
-            <element signature="e#2091#4320#0" />
-            <element signature="e#4290#4572#0" />
-            <element signature="e#4612#5052#0" />
-            <element signature="e#5510#6286#0" />
-            <element signature="e#6390#8702#0" />
           </folding>
         </state>
       </provider>
@@ -414,35 +433,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/text_cleaner">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/aylien_connection.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/classes/db_connection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
+        <state relative-caret-position="17">
           <caret line="177" selection-start-line="177" selection-end-line="179" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
-            <element signature="e#2091#4320#0" />
-            <element signature="e#4290#4572#0" />
-            <element signature="e#4612#5052#0" />
-            <element signature="e#5510#6286#0" />
-            <element signature="e#6390#8702#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/text_cleaner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        <state relative-caret-position="394">
+          <caret line="35" column="6" lean-forward="true" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
-            <marker date="1526594408393" expanded="true" signature="614:681" ph="..." />
+            <marker date="1526662466271" expanded="true" signature="1009:1076" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Untitled Folder/Untitled.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
         </state>
       </provider>
     </entry>
