@@ -1,2 +1,6 @@
+x=["abc","cde"]
+y=['hej','ho']
+z={}
 
-example_string = " \|/?.>,<"
+z[x[0]]=y[0]
+print(z)

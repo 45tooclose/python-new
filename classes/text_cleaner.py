@@ -25,7 +25,6 @@ else:
 # In[11]:
 
 
-print(text)
 
 
 # In[12]:
@@ -39,7 +38,6 @@ for match in re_matches_split:
       #  print(match[0])
         fixed_match=match[0][:-2]+" "+match[0][-2:]
         text= text.replace(match[0],fixed_match)
-print(text)
 
 
 # In[13]:
@@ -51,7 +49,6 @@ re_matches_split =re.findall(re_pattern_split,text)
 for match in re_matches_split:
         fixed_match=match[0][:-1]+" "+match[0][-1]
         text= text.replace(match[0],fixed_match)
-print(text)
 
 
 # In[14]:
@@ -70,11 +67,6 @@ for match in re_match:
     match_str+=''.join(match[2])
     text=text.replace(match_str," ")
     links_list.append(match_str)
-print(text)
-for v in links_list:
-    print(v)
-
-print(text)
 # In[15]:
 
 
@@ -98,8 +90,6 @@ for char in text:
             not_alnum.append(char)
         else:
             pass
-print(not_alnum)
-
 
 # In[17]:
 
@@ -112,5 +102,9 @@ dates_list=[]
 for match in re_match:
     dates_list.append(match[0])
     text=text.replace(match[0]," ")
-print(text)
 
+#deleting special characters
+for char in text:
+    if char in not_alnum:
+        text=text.replace(char," ")
+print(text)
