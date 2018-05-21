@@ -1,110 +1,138 @@
 
-# coding: utf-8
-
-# In[1]:
-
-
 import io
 import re
 
+class text_cleaner:
 
-# In[10]:
-
-
-text = ""
-f_name = "../res/main_txt/Binance Flash Update!.txt"
-try:
-    f = io.open(f_name,"r",encoding="utf-8")
-    text = f.read()
-except FileNotFoundError:
-    print("File Not Found")
-else:
-    f.close()
+    text = ""
+    f_name = "../res/main_txt/Binance Flash Update!.txt"
+    links_list =[]
+    special_chars = []
+    dates_list = []
 
 
-# In[11]:
-
-
-
-
-# In[12]:
-
-
-# pattern for detecting binded words 'XXYy' splitting them
-re_pattern_split ='(([A-Z]+([a-z])))'
-re_matches_split =re.findall(re_pattern_split,text)
-for match in re_matches_split:
-    if match[0].__len__()  > 2:
-      #  print(match[0])
-        fixed_match=match[0][:-2]+" "+match[0][-2:]
-        text= text.replace(match[0],fixed_match)
-
-
-# In[13]:
-
-
-# pattern for detecting binded words 'yyyXx' splitting them
-re_pattern_split ='(([a-z])+([A-Z]))'
-re_matches_split =re.findall(re_pattern_split,text)
-for match in re_matches_split:
-        fixed_match=match[0][:-1]+" "+match[0][-1]
-        text= text.replace(match[0],fixed_match)
-
-
-# In[14]:
-
-
-#Detection of links
-
-# pattern for main site names 2
-re_pattern_2='(http|ftp|https)\:\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:/~+#-]*[\w@?^=%&/~+#-])?'
-re_match = re.findall(re_pattern_2,text)
-links_list=[]
-for match in re_match:
-    # print(match[0],match[1],match[2])
-    match_str=''.join(match[0])+'://'
-    match_str+=''.join(match[1])
-    match_str+=''.join(match[2])
-    text=text.replace(match_str," ")
-    links_list.append(match_str)
-# In[15]:
-
-
-#check if elements exists in list
-def is_unqiue(element,u_set):
-    if element in u_set:
-        return False
-    else:
-        return True
-
-
-# In[16]:
-
-
-# Finding special characters
-not_alnum=[]
-for char in text:
-    if not char.isalnum() and not char.isspace():
-        # print(char, char.isalnum(), char.isspace())
-        if not char in not_alnum:
-            not_alnum.append(char)
+    def open_file(self):
+        try:
+            f = io.open(self.f_name, "r", encoding="utf-8")
+            self.text = f.read()
+        except FileNotFoundError:
+            print("File Not Found")
         else:
-            pass
+            f.close()
 
-# In[17]:
+    # Clears  binded wrods
+    def clear_binded_words(self):
 
+        # Function for detecting binded words 'XXYy' splitting them
 
-#looking for dates using regex
-re_pattern_date='(([0-9]{2,4})(\/|\-|\s)([0-9]{1,2})(\/|\-|\s)([0-9]{1,4}))'
-re_match = re.findall(re_pattern_date,text)
+        def clean_XXYy():
+            re_pattern_split = '(([A-Z]+([a-z])))'
+            re_matches_split = re.findall(re_pattern_split, self.text)
+            for match in re_matches_split:
+                if match[0].__len__() > 2:
+                    #  print(match[0])
+                    fixed_match = match[0][:-2] + " " + match[0][-2:]
+                    self.text = self.text.replace(match[0], fixed_match)
 
-dates_list=[]
-for match in re_match:
-    dates_list.append(match[0])
-    text=text.replace(match[0]," ")
+        # pattern for detecting binded words 'xxYy' splitting them
 
-#deleting special characters
-for char in text:
-    if char in not_alnum:
-        text=text.replace(char," ")
-print(text)
+        def clean_xxYy():
+            re_pattern_split = '(([a-z])+([A-Z]))'
+            re_matches_split = re.findall(re_pattern_split, self.text)
+            for match in re_matches_split:
+                fixed_match = match[0][:-1] + " " + match[0][-1]
+                self.text = self.text.replace(match[0], fixed_match)
+
+        clean_XXYy()
+        clean_xxYy()
+
+    # Clears links
+    def clear_links(self):
+        # pattern for main site names
+        re_pattern = '(http|ftp|https)\:\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:/~+#-]*[\w@?^=%&/~+#-])?'
+        re_match = re.findall(re_pattern, self.text)
+        for match in re_match:
+            # print(match[0],match[1],match[2])
+            match_str = ''.join(match[0]) + '://'
+            match_str += ''.join(match[1])
+            match_str += ''.join(match[2])
+            self.text = self.text.replace(match_str, " ")
+            self.links_list.append(match_str)
+
+    # Clears special chars
+
+    def find_special_chars(self):
+
+        # Finding special characters
+
+        for char in self.text:
+            if not char.isalnum() and not char.isspace():
+                # print(char, char.isalnum(), char.isspace())
+                if not char in self.special_chars:
+                    self.special_chars.append(char)
+                else:
+                    pass
+
+    # Find dates using regex
+
+    def clear_dates(self):
+
+        re_pattern_date = '(([0-9]{2,4})(\/|\-|\s)([0-9]{1,2})(\/|\-|\s)([0-9]{1,4}))'
+        re_match = re.findall(re_pattern_date, self.text)
+
+        for match in re_match:
+            self.dates_list.append(match[0])
+            self.text = self.text.replace(match[0], " ")
+
+    # Clears special characters
+
+    def clear_special_char(self):
+        for char in self.text:
+            if char in self.special_chars:
+                self.text = self.text.replace(char, " ")
+
+    # Clears digitis
+
+    def clear_digits(self):
+        for char in self.text:
+            if char.isdigit():
+                self.text = self.text.replace(char, " ")
+
+    # Clears multispace
+
+    def clear_multispace(self):
+        self.text = ' '.join(self.text.split())
+
+    # text words to list
+    # return words[]
+
+    def text_to_list(self):
+        words= self.text.split()
+        return words
+
+    def clear_text(self):
+        self.clear_binded_words()
+        self.clear_links()
+        self.find_special_chars()
+        self.clear_dates()
+        self.clear_special_char()
+        self.clear_digits()
+        self.clear_multispace()
+
+    def get_text(self):
+        return self.text
+
+    def __init__(self, file_name=None):
+        if file_name is not None:
+            self.f_name=file_name
+        self.open_file()
+
+# Work as God intended
+def main():
+    
+    tc = text_cleaner()
+    tc.clear_text()
+    print(tc.get_text())
+
+if __name__=="__main__":
+    main()

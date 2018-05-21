@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3ab4c4fe-12c8-4cb7-89d2-61a848377e21" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Binance Flash Update!" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/coins_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/coins_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/db_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/db_connection.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/text_cleaner.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/text_cleaner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json2sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,8 +22,42 @@
       <file leaf-file-name="db_connection.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classes/db_connection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-629">
-              <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="68">
+              <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aylien_connection.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes/aylien_connection.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="text_cleaner.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes/text_cleaner.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="137" column="39" lean-forward="true" selection-start-line="137" selection-start-column="39" selection-end-line="137" selection-end-column="39" />
+              <folding>
+                <element signature="e#29#38#0" expanded="true" />
+                <element signature="e#47#3554#0" />
+                <element signature="e#2039#2369#0" />
+                <element signature="e#2112#2369#0" />
+                <element signature="e#2174#2369#0" />
+                <element signature="e#2438#2708#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="coins_list.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes/coins_list.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,9 +101,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="787" />
-    <option name="y" value="360" />
-    <option name="width" value="1586" />
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -106,7 +137,7 @@
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Kamil/Documents/GitHub/python-new/classes/db_connection.py" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -286,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1526594608553</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added folder, added coins_list &#10;in text_cleaner added deleting special characters">
+      <created>1526911701117</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1526911701117</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -299,15 +337,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4825708" visible="true" weight="0.17228661" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48039216" visible="true" weight="0.17228661" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.0" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32453245" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32896176" />
-      <window_info anchor="bottom" x="308" y="159" width="1488" height="1017" id="Run" order="2" type="WINDOWED" weight="1.0" />
-      <window_info id="Structure" order="1" sideWeight="0.5174292" side_tool="true" visible="true" weight="0.17228661" />
+      <window_info anchor="bottom" x="982" y="393" width="814" height="783" id="Run" order="2" type="WINDOWED" weight="1.0" />
+      <window_info id="Structure" order="1" sideWeight="0.51960784" side_tool="true" visible="true" weight="0.17228661" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Favorites" order="2" sideWeight="0.5049505" side_tool="true" weight="0.2574178" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36819172" />
@@ -329,7 +367,8 @@
     <MESSAGE value="added select_query, json_to_sql" />
     <MESSAGE value="added text_cleaner, aylien_connection, exporting main_text to /main_text" />
     <MESSAGE value="added folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="added folder" />
+    <MESSAGE value="added folder, added coins_list &#10;in text_cleaner added deleting special characters" />
+    <option name="LAST_COMMIT_MESSAGE" value="added folder, added coins_list &#10;in text_cleaner added deleting special characters" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -354,6 +393,20 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/classes/db_connection.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/db_connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/db_connection.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2907">
           <caret line="177" selection-start-line="177" selection-end-line="179" />
         </state>
@@ -364,7 +417,12 @@
         <state relative-caret-position="357">
           <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#29#38#0" expanded="true" />
+            <element signature="e#47#3554#0" />
+            <element signature="e#2039#2369#0" />
+            <element signature="e#2112#2369#0" />
+            <element signature="e#2174#2369#0" />
+            <element signature="e#2438#2708#0" />
           </folding>
         </state>
       </provider>
@@ -405,7 +463,12 @@
         <state relative-caret-position="561">
           <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#29#38#0" expanded="true" />
+            <element signature="e#47#3554#0" />
+            <element signature="e#2039#2369#0" />
+            <element signature="e#2112#2369#0" />
+            <element signature="e#2174#2369#0" />
+            <element signature="e#2438#2708#0" />
           </folding>
         </state>
       </provider>
@@ -436,7 +499,12 @@
         <state relative-caret-position="561">
           <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#29#38#0" expanded="true" />
+            <element signature="e#47#3554#0" />
+            <element signature="e#2039#2369#0" />
+            <element signature="e#2112#2369#0" />
+            <element signature="e#2174#2369#0" />
+            <element signature="e#2438#2708#0" />
           </folding>
         </state>
       </provider>
@@ -467,7 +535,12 @@
         <state relative-caret-position="561">
           <caret line="35" column="6" lean-forward="true" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#29#38#0" expanded="true" />
+            <element signature="e#47#3554#0" />
+            <element signature="e#2039#2369#0" />
+            <element signature="e#2112#2369#0" />
+            <element signature="e#2174#2369#0" />
+            <element signature="e#2438#2708#0" />
           </folding>
         </state>
       </provider>
@@ -492,7 +565,12 @@
         <state relative-caret-position="306">
           <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#29#38#0" expanded="true" />
+            <element signature="e#47#3554#0" />
+            <element signature="e#2039#2369#0" />
+            <element signature="e#2112#2369#0" />
+            <element signature="e#2174#2369#0" />
+            <element signature="e#2438#2708#0" />
           </folding>
         </state>
       </provider>
@@ -559,21 +637,17 @@
         <state relative-caret-position="357">
           <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/txt_cleaner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="11" lean-forward="true" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-          <folding>
             <element signature="e#29#38#0" expanded="true" />
+            <element signature="e#47#3554#0" />
+            <element signature="e#2039#2369#0" />
+            <element signature="e#2112#2369#0" />
+            <element signature="e#2174#2369#0" />
+            <element signature="e#2438#2708#0" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/classes/txt_cleaner.py" />
     <entry file="file://$PROJECT_DIR$/ipnyb/Untitled.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -581,16 +655,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/json2sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-875">
-          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/json2sql" />
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -600,28 +665,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/text_cleaner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+        <state relative-caret-position="238">
+          <caret line="137" column="39" lean-forward="true" selection-start-line="137" selection-start-column="39" selection-end-line="137" selection-end-column="39" />
           <folding>
             <element signature="e#29#38#0" expanded="true" />
+            <element signature="e#47#3554#0" />
+            <element signature="e#2039#2369#0" />
+            <element signature="e#2112#2369#0" />
+            <element signature="e#2174#2369#0" />
+            <element signature="e#2438#2708#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/coins_list.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="326">
+          <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/classes/aylien_connection.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/classes/db_connection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-629">
-          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="68">
+          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
         </state>
       </provider>
     </entry>
