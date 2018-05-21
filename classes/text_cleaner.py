@@ -1,63 +1,116 @@
-import nltk
+
+# coding: utf-8
+
+# In[1]:
+
+
 import io
 import re
-text=""
-new_text=[]
 
-new_string=""
-f_name = "Binance Flash Update!"
-f_name = "../main_text/" + f_name + ".txt"
 
-with io.open(f_name, "r", encoding="utf-8") as f:
+# In[10]:
+
+
+text = ""
+f_name = "../res/main_txt/Binance Flash Update!.txt"
+try:
+    f = io.open(f_name,"r",encoding="utf-8")
     text = f.read()
+except FileNotFoundError:
+    print("File Not Found")
+else:
+    f.close()
+
+
+# In[11]:
+
 
 print(text)
 
-# text.translate(None,text.punctuation)
+
+# In[12]:
 
 
-# for char in text:
-#     print(char, char.isalnum(),char in str.)
-#     if not char.isalnum():
-#         char = " "
-#     new_text.append(char)
-#
-# new_string=''.join(new_text)
-
-# removing links
-# slabo dziala re_pattern_link ='/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/g'
-
-#po_re = re.search(re_pattern_link,text)
-#print(po_re)
-#TODO
-#TOCONSIDER
-#TOREFACTOR
-#TEST
-#FIXME
-re_pattern_link ='/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}([-a-zA-Z0-9@:%_\+.~#?&//=]*)/g'
-re_pattern_link_new='(www|http:|https:)+[^\s]+[\w]'
-po_re =re.search(re_pattern_link_new,text)
-po_re = re.finditer(re_pattern_link_new,text)
-for x in po_re:
-    print(po_re.__next__())
+# pattern for detecting binded words 'XXYy' splitting them
+re_pattern_split ='(([A-Z]+([a-z])))'
+re_matches_split =re.findall(re_pattern_split,text)
+for match in re_matches_split:
+    if match[0].__len__()  > 2:
+      #  print(match[0])
+        fixed_match=match[0][:-2]+" "+match[0][-2:]
+        text= text.replace(match[0],fixed_match)
+print(text)
 
 
-str.__len__()
-# for i,v  in enumerate(po_re_many):
-    # print(po_re_many.group(i))
-# text =text.__repr__()
-# print(text)
-# test = text.split(sep = ' ')
-# print(test)
+# In[13]:
 
-#remove not digit not alhaphbets words:
 
-#
-# words = new_string.split(sep=" ")
-# #for word in words:
-#     #print(word)
-#
-# for i,word in enumerate(words):
-#     print(word, end=" ")
-#     if i%10==0:
-#         print("\n")
+# pattern for detecting binded words 'yyyXx' splitting them
+re_pattern_split ='(([a-z])+([A-Z]))'
+re_matches_split =re.findall(re_pattern_split,text)
+for match in re_matches_split:
+        fixed_match=match[0][:-1]+" "+match[0][-1]
+        text= text.replace(match[0],fixed_match)
+print(text)
+
+
+# In[14]:
+
+
+#Detection of links
+
+# pattern for main site names 2
+re_pattern_2='(http|ftp|https)\:\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:/~+#-]*[\w@?^=%&/~+#-])?'
+re_match = re.findall(re_pattern_2,text)
+links_list=[]
+for match in re_match:
+    # print(match[0],match[1],match[2])
+    match_str=''.join(match[0])+'://'
+    match_str+=''.join(match[1])
+    match_str+=''.join(match[2])
+    text=text.replace(match_str," ")
+    links_list.append(match_str)
+print(text)
+for v in links_list:
+    print(v)
+
+print(text)
+# In[15]:
+
+
+#check if elements exists in list
+def is_unqiue(element,u_set):
+    if element in u_set:
+        return False
+    else:
+        return True
+
+
+# In[16]:
+
+
+# Finding special characters
+not_alnum=[]
+for char in text:
+    if not char.isalnum() and not char.isspace():
+        # print(char, char.isalnum(), char.isspace())
+        if not char in not_alnum:
+            not_alnum.append(char)
+        else:
+            pass
+print(not_alnum)
+
+
+# In[17]:
+
+
+#looking for dates using regex
+re_pattern_date='(([0-9]{2,4})(\/|\-|\s)([0-9]{1,2})(\/|\-|\s)([0-9]{1,4}))'
+re_match = re.findall(re_pattern_date,text)
+
+dates_list=[]
+for match in re_match:
+    dates_list.append(match[0])
+    text=text.replace(match[0]," ")
+print(text)
+

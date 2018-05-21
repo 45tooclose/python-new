@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ab4c4fe-12c8-4cb7-89d2-61a848377e21" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/classes/coins_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ipnyb/Untitled.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Untitled Folder/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Untitled Folder/Untitled.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/text_cleaner.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/text_cleaner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/txtfiles.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_text/Binance Flash Update!.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,7 +26,7 @@
       <file leaf-file-name="db_connection.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/db_connection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state>
               <caret line="177" selection-start-line="177" selection-end-line="179" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
@@ -31,24 +35,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="text_cleaner.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="text_cleaner.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classes/text_cleaner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="35" column="6" lean-forward="true" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+            <state relative-caret-position="263">
+              <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
-                <marker date="1526662466271" expanded="true" signature="1009:1076" ph="..." />
+                <element signature="e#29#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Untitled.ipynb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Untitled Folder/Untitled.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="0" />
+      <file leaf-file-name="coins_list.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes/coins_list.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,12 +97,17 @@
         <option value="$PROJECT_DIR$/classes/db_connection.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/classes/text_cleaner.py" />
+        <option value="$PROJECT_DIR$/Untitled Folder/Untitled.ipynb" />
+        <option value="$PROJECT_DIR$/classes/coins_list.py" />
+        <option value="$PROJECT_DIR$/ipnyb/Untitled.ipynb" />
+        <option value="$PROJECT_DIR$/classes/txt_cleaner.py" />
+        <option value="$PROJECT_DIR$/classes/abc.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1083" />
-    <option name="y" value="7" />
+    <option name="x" value="996" />
+    <option name="y" value="32" />
     <option name="width" value="819" />
     <option name="height" value="1047" />
   </component>
@@ -121,7 +132,7 @@
             <path>
               <item name="python-new" type="b2602c69:ProjectViewProjectNode" />
               <item name="python-new" type="462c0819:PsiDirectoryNode" />
-              <item name="main_text" type="462c0819:PsiDirectoryNode" />
+              <item name="ipnyb" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -160,6 +171,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="abc" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-new" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Kamil\Documents\GitHub\python-new\classes\text_cleaner.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -219,15 +248,37 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="txt_cleaner" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-new" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classes/txt_cleaner.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="Python.Unnamed" />
       <item itemvalue="Python.db_connection" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.text_cleaner" />
+      <item itemvalue="Python.abc" />
+      <item itemvalue="Python.txt_cleaner" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.text_cleaner" />
+        <item itemvalue="Python.txt_cleaner" />
+        <item itemvalue="Python.abc" />
         <item itemvalue="Python.db_connection" />
         <item itemvalue="Python.test" />
       </list>
@@ -286,17 +337,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49019608" visible="true" weight="0.11643836" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48269582" visible="true" weight="0.17228661" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.0" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32896176" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32461873" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32896176" />
-      <window_info anchor="bottom" x="0" y="115" width="1920" height="949" id="Run" order="2" type="WINDOWED" weight="1.0" />
-      <window_info active="true" id="Structure" order="1" sideWeight="0.50980395" side_tool="true" visible="true" weight="0.11643836" />
+      <window_info active="true" anchor="bottom" x="0" y="45" width="1920" height="949" id="Run" order="2" type="WINDOWED" visible="true" weight="1.0" />
+      <window_info id="Structure" order="1" sideWeight="0.5173042" side_tool="true" visible="true" weight="0.17228661" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Favorites" order="2" sideWeight="0.5049505" side_tool="true" weight="0.2574178" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40264025" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4019608" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -350,11 +402,150 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/text_cleaner.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/coins_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ipnyb/Untitled.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/db_connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2907">
+          <caret line="177" selection-start-line="177" selection-end-line="179" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/text_cleaner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ipnyb/Untitled.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/db_connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2907">
+          <caret line="177" selection-start-line="177" selection-end-line="179" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/text_cleaner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ipnyb/Untitled.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/db_connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2907">
+          <caret line="177" selection-start-line="177" selection-end-line="179" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/text_cleaner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="35" column="6" lean-forward="true" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Untitled Folder/Untitled.ipynb" />
+    <entry file="file://$PROJECT_DIR$/classes/db_connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2907">
+          <caret line="177" selection-start-line="177" selection-end-line="179" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/text_cleaner.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
-            <marker date="1526662466271" expanded="true" signature="1009:1076" ph="..." />
           </folding>
         </state>
       </provider>
@@ -433,16 +624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/db_connection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="177" selection-start-line="177" selection-end-line="179" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -450,21 +631,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Untitled Folder/Untitled.ipynb" />
     <entry file="file://$PROJECT_DIR$/classes/text_cleaner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="35" column="6" lean-forward="true" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+        <state relative-caret-position="357">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
-            <marker date="1526662466271" expanded="true" signature="1009:1076" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Untitled Folder/Untitled.ipynb">
+    <entry file="file://$PROJECT_DIR$/classes/txt_cleaner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="11" lean-forward="true" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+          <folding>
+            <element signature="e#29#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ipnyb/Untitled.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/db_connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="177" selection-start-line="177" selection-end-line="179" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/coins_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/text_cleaner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+          <folding>
+            <element signature="e#29#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
