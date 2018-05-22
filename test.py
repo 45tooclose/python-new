@@ -1,6 +1,6 @@
-x=["abc","cde"]
-y=['hej','ho']
-z={}
+x=[1,2,3,4,5,6,7]
 
-z[x[0]]=y[0]
-print(z)
+for i,v in x:
+    if i==3:
+        pass
+    print(i,v)

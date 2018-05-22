@@ -5,6 +5,7 @@ import re
 class text_cleaner:
 
     text = ""
+    #test
     f_name = "../res/main_txt/Binance Flash Update!.txt"
     links_list =[]
     special_chars = []
@@ -19,7 +20,7 @@ class text_cleaner:
             print("File Not Found")
         else:
             f.close()
- # benis beins benis
+
     # Clears  binded wrods
     def clear_binded_words(self):
 
@@ -104,11 +105,14 @@ class text_cleaner:
         self.text = ' '.join(self.text.split())
 
     # text words to list
-    # return words[]
+    # return words_list
 
     def text_to_list(self):
         words= self.text.split()
         return words
+
+    def lower_text(self):
+        self.text = self.text.lower()
 
     def clear_text(self):
         self.clear_binded_words()
@@ -118,20 +122,23 @@ class text_cleaner:
         self.clear_special_char()
         self.clear_digits()
         self.clear_multispace()
+        self.lower_text()
 
     def get_text(self):
         return self.text
 
-    def __init__(self, file_name=None):
+    def __init__(self, file_name=None,txt=None):
+
         if file_name is not None:
             self.f_name=file_name
-        self.open_file()
+
+        if txt is None:
+            self.open_file()
+        else:
+            self.text =txt
 
 def main():
-    
-    tc = text_cleaner()
-    tc.clear_text()
-    print(tc.get_text())
+    pass
 
 if __name__=="__main__":
     main()
