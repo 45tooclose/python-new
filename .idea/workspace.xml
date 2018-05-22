@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ab4c4fe-12c8-4cb7-89d2-61a848377e21" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/classes/mysql_connector.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python-new.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-new.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/db_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/db_connection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/text_cleaner.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/text_cleaner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/mysql_connector.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/mysql_connector.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,14 +42,15 @@
           <file leaf-file-name="mysql_connector.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/classes/mysql_connector.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="527">
-                  <caret line="76" column="12" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
+                <state relative-caret-position="388">
+                  <caret line="82" column="8" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="8" />
                   <folding>
                     <element signature="e#0#22#0" expanded="true" />
                     <element signature="e#188#570#0" />
                     <element signature="e#687#1062#0" />
                     <element signature="e#1100#1640#0" />
                     <element signature="e#1700#1725#0" />
+                    <element signature="e#1895#2126#0" />
                     <element signature="e#2051#2199#0" />
                     <element signature="e#2238#2485#0" />
                     <element signature="e#2096#2107#0" />
@@ -79,21 +76,18 @@
           <file leaf-file-name="db_connection.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/classes/db_connection.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="375">
-                  <caret line="149" selection-start-line="149" selection-end-line="153" selection-end-column="38" />
+                <state relative-caret-position="1483">
+                  <caret line="156" column="14" selection-start-line="156" selection-start-column="14" selection-end-line="156" selection-end-column="14" />
                   <folding>
                     <element signature="e#0#22#0" expanded="true" />
                     <element signature="e#236#421#0" />
                     <element signature="e#441#529#0" />
                     <element signature="e#560#942#0" />
                     <element signature="e#1064#1626#0" />
-                    <element signature="e#2150#4414#0" />
                     <element signature="e#4842#5267#0" />
                     <element signature="e#5336#5550#0" />
                     <element signature="e#5679#5929#0" />
                     <element signature="e#5947#6656#0" />
-                    <element signature="e#6727#7985#0" />
-                    <element signature="e#9221#9235#0" />
                     <element signature="e#8497#8772#0" />
                   </folding>
                 </state>
@@ -395,7 +389,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527000049930</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="created new mysql_connector from scratch, deprecating db_connection">
+      <created>1527009917299</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1527009917299</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -417,7 +418,7 @@
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49783236" weight="0.32893288" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32453245" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32896176" />
-      <window_info anchor="bottom" x="194" y="81" width="1308" height="885" id="Run" order="2" type="WINDOWED" weight="1.0" />
+      <window_info anchor="bottom" x="0" y="23" width="1920" height="1017" id="Run" order="2" type="WINDOWED" weight="1.0" />
       <window_info id="Structure" order="1" sideWeight="0.5463917" side_tool="true" visible="true" weight="0.19910179" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.77963525" weight="0.32893288" />
       <window_info id="Favorites" order="2" sideWeight="0.5049505" side_tool="true" weight="0.2574178" />
@@ -442,7 +443,8 @@
     <MESSAGE value="added folder, added coins_list &#10;in text_cleaner added deleting special characters" />
     <MESSAGE value="Changed text_cleaner.py into proper class" />
     <MESSAGE value="moved coins_list and market_list from classes to scripts" />
-    <option name="LAST_COMMIT_MESSAGE" value="moved coins_list and market_list from classes to scripts" />
+    <MESSAGE value="created new mysql_connector from scratch, deprecating db_connection" />
+    <option name="LAST_COMMIT_MESSAGE" value="created new mysql_connector from scratch, deprecating db_connection" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -461,7 +463,7 @@
           <properties exception="BaseException" />
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="50" />
+      <option name="time" value="54" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -826,14 +828,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/mysql_connector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="76" column="12" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
+        <state relative-caret-position="388">
+          <caret line="82" column="8" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="8" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
             <element signature="e#188#570#0" />
             <element signature="e#687#1062#0" />
             <element signature="e#1100#1640#0" />
             <element signature="e#1700#1725#0" />
+            <element signature="e#1895#2126#0" />
             <element signature="e#2051#2199#0" />
             <element signature="e#2238#2485#0" />
             <element signature="e#2096#2107#0" />

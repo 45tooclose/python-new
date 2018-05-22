@@ -12,6 +12,7 @@ class MysqlConnector:
     connection_config={}
 
     #TABLES AND COLUMNS FROM connection_config['database']
+    #todo refactor default value
     tables_config={'default':'structured_data'}
 
     def get_connection_config(self, loc):
@@ -69,16 +70,21 @@ class MysqlConnector:
 
         query = "SELECT " + columns + " "
         query += "FROM " + table + " "
-        if where is None:
+        if where != None:
             query += "WHERE" + where + ""
-        if limit is None:
+        if limit != None:
             query += "LIMIT" + limit + ""
         query +=";"
 
         return query
 
-    def execute_query(self, query=""):
 
+    def execute_query(self, query="", returns=None):
+
+        """
+        Executes query
+
+        """
         if query == "":
             query = self.query
         print("executing")
@@ -91,8 +97,10 @@ class MysqlConnector:
             print(err)
             print("failure.")
 
-
-
+        if returns !=None:
+            print("fetching")
+            rows = self.cursor.fetchall()
+            return rows
 
     def init_tables(self):
         tables = self.get_tables()
@@ -117,6 +125,8 @@ class MysqlConnector:
 
 def main():
     db = MysqlConnector()
-    pprint.pprint(db.get_tables_config())
+    query = db.select_query('*','rss_medium_sample')
+    print(query)
+    db.execute_query(query=query,returns=True)
 if __name__ == '__main__':
     main()
