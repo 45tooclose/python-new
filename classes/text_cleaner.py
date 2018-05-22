@@ -10,7 +10,7 @@ class text_cleaner:
     special_chars = []
     dates_list = []
 
-
+    #TODO adding one list of removed chars, add deleted matches position(low priority)
     def open_file(self):
         try:
             f = io.open(self.f_name, "r", encoding="utf-8")
@@ -19,7 +19,7 @@ class text_cleaner:
             print("File Not Found")
         else:
             f.close()
-
+ # benis beins benis
     # Clears  binded wrods
     def clear_binded_words(self):
 
@@ -127,7 +127,6 @@ class text_cleaner:
             self.f_name=file_name
         self.open_file()
 
-# Work as God intended
 def main():
     
     tc = text_cleaner()

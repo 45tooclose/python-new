@@ -8,7 +8,6 @@ from mysql.connector import errorcode
 
 
 class DBConnection:
-
     # CONFIG TO ACCESS TABLES
     db_config = {
         # DEFAULT
@@ -17,7 +16,8 @@ class DBConnection:
         'article base': 'article_base',
         'rss medium': 'rss_medium'
     }
-    #GET CONNECTION CONFIG FROM FILE
+
+    # GET CONNECTION CONFIG FROM FILE
     # CONNECTION CONFIG IN connection_config.txt
     def get_connection_config(self, loc):
         with open(loc, 'r') as f:
@@ -47,7 +47,7 @@ class DBConnection:
 
         self.execute_query(query)
 
-        #Creating list
+        # Creating list
         for item in self.cursor:
             column_names.append(''.join(item))
 
@@ -68,13 +68,16 @@ class DBConnection:
     # 5 - tags
     # 6 - author
     # 7 - summary
-    def get_raw_json(self, table_name=None, column_name=None,return_dic=None,return_pos=None):
+    def get_raw_json(self, table_name=None, column_name=None, return_dic=None, return_pos=None):
 
-        if table_name is None: table_name = self.db_config['default']
-        if column_name is None: column_name = self.db_config['json']
-        if return_dic is None: return_dic = False
+        if table_name is None:
+            table_name = self.db_config['default']
+        if column_name is None:
+            column_name = self.db_config['json']
+        if return_dic is None:
+            return_dic = False
 
-        self.execute_query(self.select_query(table_name=table_name,column_name=column_name))
+        self.execute_query(self.select_query(table_name=table_name, column_name=column_name))
         row = self.cursor.fetchone()
 
         for item in row:
@@ -82,22 +85,20 @@ class DBConnection:
 
         json_list = []
         json_dic_val = {}
-        keys = ['topic','link_hub','links','time_created','tags','author', 'summary']
-        json_dic_val= dict.fromkeys(keys)
+        keys = ['topic', 'link_hub', 'links', 'time_created', 'tags', 'author', 'summary']
+        json_dic_val = dict.fromkeys(keys)
 
-        #TODO do refactoringu  dla json_list
+        # TODO do refactoringu  dla json_list
         json_dic_list = ['id',
                          'title',
-                         ['title_detail','base'],
+                         ['title_detail', 'base'],
                          'link',
                          'published_parsed',
-                         ['tags','term'],
+                         ['tags', 'term'],
                          'author',
                          'summary']
 
-
-        #TODO zmienic for item in json_dic_list żeby bral bezposrednio z listy a nie z ifow
-
+        # TODO zmienic for item in json_dic_list żeby bral bezposrednio z listy a nie z ifow
 
         json_list.append(json_dic['title'])
         json_list.append(json_dic['title_detail']['base'])
@@ -120,41 +121,41 @@ class DBConnection:
 
         if return_dic == True:
             ite = 0
-            for key,value in json_dic_val.items():
-                json_dic_val[key]=json_list[ite]
+            for key, value in json_dic_val.items():
+                json_dic_val[key] = json_list[ite]
                 ite += 1
         # TEST
         # Check the json_list without 'summary' and json_list length
-        #print.pprint(json_list[0:6])
-        #print(json_list.__len__())
+        # print.pprint(json_list[0:6])
+        # print(json_list.__len__())
         # print(json_dic_val)
         if return_dic:
             return json_dic_val
         else:
-            if return_pos is  None:
+            if return_pos is None:
                 return json_list
             else:
                 return json_list[return_pos]
 
-    def select_query(self,table_name,column_name=None,limit='1'):
+    def select_query(self, table_name, column_name=None, limit='1'):
         if column_name is None:
-            column_name='*'
+            column_name = '*'
         if table_name is None:
             table_name = self.db_config['default']
 
         query = "SELECT " + column_name + " "
         query += "FROM " + table_name + " "
-        query += "LIMIT"+limit+" ;"
+        query += "LIMIT" + limit + " ;"
 
         return query
 
     def get_rss_medium_sample_vals(self):
-        query = self.select_query(table_name='rss_medium_sample',column_name='*',limit='1')
+        query = self.select_query(table_name='rss_medium_sample', column_name='*', limit='1')
         self.execute_query(query)
         row = self.cursor.fetchone()
-        sql_dic_val={}
-        keys = ['id_rss_medium','html','main_text']
-        sql_dic_val= dict.fromkeys(keys)
+        sql_dic_val = {}
+        keys = ['id_rss_medium', 'html', 'main_text']
+        sql_dic_val = dict.fromkeys(keys)
         sql_dic_val['id_rss_medium'] = row[0]
 
         # HTML OPTIONAL
@@ -163,84 +164,85 @@ class DBConnection:
         sql_dic_val['main_text'] = row[5]
         return sql_dic_val
 
-    #GET text from rss_medium_sample,
-    #RETURN FILE with name of topic
-    def get_rss_medium_sample_text(self,f_name=None):
+    # GET text from rss_medium_sample,
+    # RETURN FILE with name of topic
+    def get_rss_medium_sample_text(self, f_name=None):
         if f_name is None:
-            now =datetime.datetime.now()
+            now = datetime.datetime.now()
             f_name = now.strftime("%Y-%m-%d %H-%M")
 
-        query = self.select_query(table_name='rss_medium_sample',column_name='*',limit='1')
+        query = self.select_query(table_name='rss_medium_sample', column_name='*', limit='1')
         self.execute_query(query)
         row = self.cursor.fetchone()
-        main_text=row[5]
+        main_text = row[5]
         print(main_text)
-        with io.open("../main_text/" + f_name + ".txt","w",encoding="utf-8") as f:
+        with io.open("../main_text/" + f_name + ".txt", "w", encoding="utf-8") as f:
             f.write(main_text)
 
     # CONVERTING JSON FILES TO INSERT_SQL QUERY
-    def json_dic_to_sql_values(self, json_dic,sql_dic=None):
+    def json_dic_to_sql_values(self, json_dic, sql_dic=None):
 
         list_of_columns = self.get_column_names(table_name='structured_data')
         sql_l = []
-        list_of_none_columns =['id_structured_data','id_rss_medium','main_text','html','date_created']
+        list_of_none_columns = ['id_structured_data', 'id_rss_medium', 'main_text', 'html', 'date_created']
         for inum, val_c in enumerate(list_of_columns):
-                if val_c in list_of_none_columns:
-                    sql_l.append(None)
-                for key, val_d in json_dic.items():
-                        if val_c == key:
-                            sql_l.append(val_d)
-                            break
+            if val_c in list_of_none_columns:
+                sql_l.append(None)
+            for key, val_d in json_dic.items():
+                if val_c == key:
+                    sql_l.append(val_d)
+                    break
         if sql_dic != None:
-            #sql_l[]
+            # sql_l[]
             print(sql_l)
             sql_l[1] = sql_dic['id_rss_medium']
             sql_l[5] = sql_dic['main_text']
             sql_l[9] = sql_dic['html']
-            #TODO
+            # TODO
         print(sql_l)
 
         return sql_l
 
-    # TODO INSERTING TO TABLE
-    def insert_query(self, query=None, table=None,values=None):
-        #Get Column names from table
+    # FIXME poprawic query
+    def insert_query(self, query=None, table=None, values=None):
+        # Get Column names from table
         if table is None:
-            table='structured_data'
+            table = 'structured_data'
             columns = self.get_column_names(table_name=table)
         else:
             columns = self.get_column_names(table_name=table)
 
-        #FIXME poprawic query
+
         query = " INSERT INTO "
         query += "`" + table + "` ("
-        for i,value in enumerate(columns):
-            if i == columns.__len__()-1:
+        for i, value in enumerate(columns):
+            if i == columns.__len__() - 1:
                 query += "`" + columns[i] + "`)"
 
-            else:query += "`" + columns[i] + "`,"
-        query +="VALUES("
+            else:
+                query += "`" + columns[i] + "`,"
+        query += "VALUES("
 
         for i, val in enumerate(values):
 
-            #print(type(val), val)
+            # print(type(val), val)
             if val is None:
                 print('null')
-                query+='null'
+                query += 'null'
             elif type(val) is int:
                 print('int')
-                query+= str(val)
+                query += str(val)
             elif type(val) is datetime.datetime:
                 print('datetime')
-                query+="'"+str(val)+"'"
+                query += "'" + str(val) + "'"
             elif type(val) is str:
-                query+=" '"+val+"' "
+                query += " '" + val + "' "
                 print('str')
 
-            if i ==columns.__len__()-1:
-                query+= ")"
+            if i == columns.__len__() - 1:
+                query += ")"
             else:
-                query +=", "
+                query += ", "
 
             # if val=='None':
             #     val='null'
@@ -253,7 +255,7 @@ class DBConnection:
             # else:
             #     query += ","
 
-        with io.open("kek","w",encoding="utf-8") as f:
+        with io.open("kek", "w", encoding="utf-8") as f:
             f.write(query)
         # self.execute_query(query)
         # query +=`id_structured_data`,
@@ -268,7 +270,6 @@ class DBConnection:
         # query +=`html`,
         # query +=`summary`)
 
-
         # query +=VALUES(
         # query += null,
         # query += 124,
@@ -281,8 +282,8 @@ class DBConnection:
         # query +='szto',
         # query +='<html></html>',
         # query +='traeszakfg'
-        #);
-        #self.execute_query(query)
+        # );
+        # self.execute_query(query)
 
     # TODO CREATING QUERY
     def create_query(self):
@@ -318,7 +319,7 @@ class DBConnection:
 
 def main():
     db = DBConnection()
-    topic = db.get_raw_json(column_name='json',return_pos=0)
+    topic = db.get_raw_json(column_name='json', return_pos=0)
     db.get_rss_medium_sample_text(f_name=topic)
     # db.get_rss_medium_sample_vals()
     # column_names= db.get_column_names(table_name='rss_medium_sample')
@@ -328,6 +329,8 @@ def main():
 
     # values = db.json_dic_to_sql_values(json_dic,sql_dic=sql_dic)
     # print(values[5])
-    #db.insert_query(values=values)
+    # db.insert_query(values=values)
+
+
 if __name__ == "__main__":
     main()
