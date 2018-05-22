@@ -83,7 +83,9 @@ class MysqlConnector:
 
         """
         Executes query
+        Keyword arguments:
 
+        Returns
         """
         if query == "":
             query = self.query

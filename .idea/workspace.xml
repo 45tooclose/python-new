@@ -42,8 +42,8 @@
           <file leaf-file-name="mysql_connector.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/classes/mysql_connector.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="388">
-                  <caret line="82" column="8" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="8" />
+                <state relative-caret-position="215">
+                  <caret line="86" column="12" lean-forward="true" selection-start-line="86" selection-start-column="12" selection-end-line="86" selection-end-column="12" />
                   <folding>
                     <element signature="e#0#22#0" expanded="true" />
                     <element signature="e#188#570#0" />
@@ -396,7 +396,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527009917299</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added return to execute_query()">
+      <created>1527010772284</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1527010772284</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -414,7 +421,7 @@
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.45360824" visible="true" weight="0.19910179" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.0" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50216764" side_tool="true" visible="true" weight="0.14631464" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.50216764" side_tool="true" visible="true" weight="0.14631464" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49783236" weight="0.32893288" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32453245" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32896176" />
@@ -444,7 +451,8 @@
     <MESSAGE value="Changed text_cleaner.py into proper class" />
     <MESSAGE value="moved coins_list and market_list from classes to scripts" />
     <MESSAGE value="created new mysql_connector from scratch, deprecating db_connection" />
-    <option name="LAST_COMMIT_MESSAGE" value="created new mysql_connector from scratch, deprecating db_connection" />
+    <MESSAGE value="added return to execute_query()" />
+    <option name="LAST_COMMIT_MESSAGE" value="added return to execute_query()" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -828,8 +836,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/mysql_connector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="82" column="8" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="8" />
+        <state relative-caret-position="215">
+          <caret line="86" column="12" lean-forward="true" selection-start-line="86" selection-start-column="12" selection-end-line="86" selection-end-column="12" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
             <element signature="e#188#570#0" />
