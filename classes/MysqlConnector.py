@@ -1,19 +1,18 @@
 import mysql.connector
 import json
-import datetime
 import io
 import datetime
 import pprint
 from TextCleaner import TextCleaner
 
+
 class MysqlConnector:
+    # FROM EXTERNAL FILE
+    connection_config = {}
 
-    #FROM EXTERNAL FILE
-    connection_config={}
-
-    #TABLES AND COLUMNS FROM connection_config['database']
-    #todo refactor default value
-    tables_config={'default':'structured_data'}
+    # TABLES AND COLUMNS FROM connection_config['database']
+    # todo refactor default value
+    tables_config = {'default': 'structured_data'}
 
     def get_connection_config(self, loc):
         with open(loc, 'r') as f:
@@ -29,18 +28,18 @@ class MysqlConnector:
 
     def get_tables(self):
 
-     database = self.connection_config['database']
+        database = self.connection_config['database']
 
-     query  = "SELECT TABLE_NAME "
-     query += "FROM INFORMATION_SCHEMA.TABLES "
-     query += "WHERE TABLE_TYPE = 'BASE TABLE' "
-     query += "AND TABLE_SCHEMA = '"+database+"';"
-     table_names=[]
+        query = "SELECT TABLE_NAME "
+        query += "FROM INFORMATION_SCHEMA.TABLES "
+        query += "WHERE TABLE_TYPE = 'BASE TABLE' "
+        query += "AND TABLE_SCHEMA = '" + database + "';"
+        table_names = []
 
-     self.execute_query(query)
-     for item in self.cursor:
-         table_names.append(''.join(item))
-     return table_names
+        self.execute_query(query)
+        for item in self.cursor:
+            table_names.append(''.join(item))
+        return table_names
 
     def get_columns(self, table=None):
 
@@ -66,7 +65,7 @@ class MysqlConnector:
     def get_tables_config(self):
         return self.tables_config
 
-    def select_query(self,columns,table,limit=None,where=None):
+    def select_query(self, columns, table, limit=None, where=None):
 
         query = "SELECT " + columns + " "
         query += "FROM " + table + " "
@@ -74,7 +73,7 @@ class MysqlConnector:
             query += "WHERE" + where + ""
         if limit != None:
             query += "LIMIT" + limit + ""
-        query +=";"
+        query += ";"
 
         return query
 
@@ -88,6 +87,7 @@ class MysqlConnector:
         """
         if query == "":
             query = self.query
+        print(query[0:20])
         print("executing")
         try:
             self.cursor.execute(query)
@@ -98,17 +98,21 @@ class MysqlConnector:
             print(err)
             print("failure.")
 
-        if returns !=None:
+        if returns != None:
             print("fetching")
             rows = self.cursor.fetchall()
             return rows
 
-    def insert_to_table(self,table,values):
+        # TODO one column fix
+    def insert_to_table(self, table, values, dictionary=False,one_column=None):
         """
         Inserting to table with values
         """
         columns = self.get_columns(table=table)
 
+        if one_column is not None:
+            if one_column in columns:
+                columns=[one_column]
         query = " INSERT INTO "
         query += "`" + table + "` ("
         for i, value in enumerate(columns):
@@ -118,36 +122,68 @@ class MysqlConnector:
                 query += "`" + columns[i] + "`,"
         query += "VALUES("
 
-        for i, val in enumerate(values):
-            if val=='default':
-                query += 'default'
-            elif val is None:
-                query += 'null'
-            elif type(val) is int:
-                query += str(val)
-            elif type(val) is str or datetime.datetime:
-                query += " '" + val + "'"
-            if i == columns.__len__() - 1:
-                query += ")"
-            else:
-                query += ", "
-        print(query)
+        if dictionary:
 
-        #self.execute_query(query)
+            match=False
 
-    def init_tables(self):
+            for i,column in enumerate(columns):
+                match=False
+                default_out='null'
+
+                for key, value in values.items():
+                    if match:
+                        break
+                    if column == key:
+                        query +=  self.check_datatype(value)
+                        match=True
+
+                if match==False:
+                    query+=default_out
+
+                if i == columns.__len__() - 1:
+                    query += ")"
+                else:
+                    query += ","
+        else:
+            for i, val in enumerate(values):
+                query += self.check_datatype(val)
+                if i == columns.__len__() - 1:
+                    query += ")"
+                else:
+                    query += ", "
+        #return(query)
+        self.execute_query(query)
+
+    def check_inser(self,query):
+        pass
+
+    def check_datatype(self,val):
+        if val == 'default':
+            val='default'
+            return val
+        elif val is None:
+            val='null'
+            return val
+        elif type(val) is int:
+            val=" '"+str(val)+"'"
+            return val
+        elif type(val) is str or datetime.datetime:
+            val=" '" + val + "'"
+            return val
+
+    def init_tables_config(self):
         tables = self.get_tables()
 
         for table in tables:
             columns = self.get_columns(table)
-            self.tables_config[table]=columns
+            self.tables_config[table] = columns
 
     def __init__(self):
         self.connection_config = self.get_connection_config('../connection_config.txt')
         self.cnx = mysql.connector.connect(**self.connection_config)
         self.cursor = self.cnx.cursor(buffered=True)
         self.query = ""
-        self.init_tables()
+        self.init_tables_config()
 
     def __enter__(self):
         return self
@@ -156,7 +192,17 @@ class MysqlConnector:
         if self.cnx:
             self.cnx.close()
 
+
 def main():
-    pass
+    mc=MysqlConnector()
+    values={
+        'id_rss_medium':5,
+        'date_posted':'2018-03-14',
+        'topic':'binance',
+        'tags':'some tags'
+    }
+
+    query = mc.insert_to_table('structured_data',values=values,dictionary=True)
+    print(query)
 if __name__ == '__main__':
     main()

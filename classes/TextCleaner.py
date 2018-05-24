@@ -1,24 +1,28 @@
 
 import io
 import re
-
+import datetime
 class TextCleaner:
 
     text = ""
-    #test
-    f_name = ""
+    f_name = "txt"+datetime.datetime.now().strftime("%d-%m %H %M")
     links_list =[]
     special_chars = []
     dates_list = []
 
     #TODO adding one list of removed chars, add deleted matches position(low priority)
-    def open_file(self):
+    def read_file(self):
         try:
             f = io.open(self.f_name, "r", encoding="utf-8")
             self.text = f.read()
         except FileNotFoundError:
             print("File Not Found")
         else:
+            f.close()
+
+    def write_file(self):
+         with   io.open(self.f_name, "w", encoding="utf-8") as f:
+            f.write(self.text)
             f.close()
 
     # Clears  binded wrods
@@ -126,14 +130,16 @@ class TextCleaner:
 
     def get_text(self):
         return self.text
-
+    def get_trash(self):
+        trash = [self.links_list,self.special_chars,self.dates_list]
+        return trash
     def __init__(self, file_name=None,txt=None):
 
         if file_name is not None:
             self.f_name=file_name
 
         if txt is None:
-            self.open_file()
+            self.read_file()
         else:
             self.text =txt
 
