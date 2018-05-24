@@ -3,12 +3,14 @@ import json
 import datetime
 import io
 import datetime
-from text_cleaner import text_cleaner
+from TextCleaner import TextCleaner
 
 import pprint
 from mysql.connector import errorcode
 
-
+"""
+ABANDONED, DONT USE
+"""
 class DBConnection:
     # CONFIG TO ACCESS TABLES
     db_config = {
@@ -187,7 +189,7 @@ class DBConnection:
         query = self.select_query(table_name='rss_medium_sample', column_name='text', limit='1')
         self.execute_query(query)
         row = self.cursor.fetchone()
-        tc = text_cleaner(txt=row[0])
+        tc = TextCleaner(txt=row[0])
         tc.clear_text()
         return tc.get_text()
 

@@ -2,11 +2,11 @@
 import io
 import re
 
-class text_cleaner:
+class TextCleaner:
 
     text = ""
     #test
-    f_name = "../res/main_txt/Binance Flash Update!.txt"
+    f_name = ""
     links_list =[]
     special_chars = []
     dates_list = []

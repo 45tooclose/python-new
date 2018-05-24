@@ -4,7 +4,7 @@ import datetime
 import io
 import datetime
 import pprint
-from text_cleaner import text_cleaner
+from TextCleaner import TextCleaner
 
 class MysqlConnector:
 
@@ -78,7 +78,6 @@ class MysqlConnector:
 
         return query
 
-
     def execute_query(self, query="", returns=None):
 
         """
@@ -104,6 +103,38 @@ class MysqlConnector:
             rows = self.cursor.fetchall()
             return rows
 
+    def insert_to_table(self,table,values):
+        """
+        Inserting to table with values
+        """
+        columns = self.get_columns(table=table)
+
+        query = " INSERT INTO "
+        query += "`" + table + "` ("
+        for i, value in enumerate(columns):
+            if i == columns.__len__() - 1:
+                query += "`" + columns[i] + "`)"
+            else:
+                query += "`" + columns[i] + "`,"
+        query += "VALUES("
+
+        for i, val in enumerate(values):
+            if val=='default':
+                query += 'default'
+            elif val is None:
+                query += 'null'
+            elif type(val) is int:
+                query += str(val)
+            elif type(val) is str or datetime.datetime:
+                query += " '" + val + "'"
+            if i == columns.__len__() - 1:
+                query += ")"
+            else:
+                query += ", "
+        print(query)
+
+        #self.execute_query(query)
+
     def init_tables(self):
         tables = self.get_tables()
 
@@ -126,9 +157,6 @@ class MysqlConnector:
             self.cnx.close()
 
 def main():
-    db = MysqlConnector()
-    query = db.select_query('*','rss_medium_sample')
-    print(query)
-    db.execute_query(query=query,returns=True)
+    pass
 if __name__ == '__main__':
     main()
