@@ -2,12 +2,14 @@ from StructuredDataInserter import StructuredDataInserter
 
 sdi = StructuredDataInserter()
 medium_columns = 'id,entry_id,text'
-medium_table = 'rss_medium'
+medium_table = 'rss_entries'
+
 data = sdi.get_data(medium_table, medium_columns)
-structured_columns = ['id_rss_medium', 'link', 'main_text']
+structured_columns = ['id_rss_entries', 'link', 'main_text']
 structured_table = 'structured_data'
 dicts = []
 clean_text = []
+
 for x in data:
     t = sdi.clean_text(x[2])
     clean_text.append(t)
