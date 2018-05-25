@@ -194,15 +194,7 @@ class MysqlConnector:
 
 
 def main():
-    mc=MysqlConnector()
-    values={
-        'id_rss_medium':5,
-        'date_posted':'2018-03-14',
-        'topic':'binance',
-        'tags':'some tags'
-    }
+    pass
 
-    query = mc.insert_to_table('structured_data',values=values,dictionary=True)
-    print(query)
 if __name__ == '__main__':
     main()

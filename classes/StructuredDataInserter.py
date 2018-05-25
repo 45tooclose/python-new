@@ -1,5 +1,6 @@
 from MysqlConnector import MysqlConnector
 from TextCleaner import TextCleaner
+import io
 class StructuredDataInserter:
 
     mysqlc= MysqlConnector()
@@ -11,7 +12,15 @@ class StructuredDataInserter:
 
     def clean_text(self,txt):
         txtc = TextCleaner(txt=txt)
-        txtc.clear_text()
+
+        #Cleaning everything but not lowering text
+        txtc.clear_binded_words()
+        txtc.clear_links()
+        txtc.find_special_chars()
+        txtc.clear_dates()
+        txtc.clear_special_char()
+        txtc.clear_digits()
+        txtc.clear_multispace()
         raw_text=txtc.get_text()
         return raw_text
 
@@ -21,24 +30,12 @@ class StructuredDataInserter:
     def send_data(self,table,data,dictionary):
         self.mysqlc.insert_to_table(table=table,values=data,dictionary=dictionary)
 
+    def write_to_file(self,f_name,data):
+            with io.open(f_name, 'w', encoding="utf-8") as f:
+                f.write(data)
+
 def main():
-    sdi = StructuredDataInserter()
-    medium_columns='id,entry_id,text'
-    medium_table='rss_medium'
-    data = sdi.get_data(medium_table,medium_columns)
-    structured_columns=['id_rss_medium','link','main_text']
-    structured_table='structured_data'
-    dicts=[]
-    clean_text=[]
-    for x in data:
-       t=sdi.clean_text(x[2])
-       clean_text.append(t)
-
-    for i,x in enumerate(data):
-        dicts.append({structured_columns[0]:x[0],structured_columns[1]:x[1],structured_columns[2]:clean_text[i]})
-
-    for dic in dicts:
-         sdi.send_data(structured_table,dic,dictionary=True)
+    pass
 
 if __name__ == '__main__':
     main()

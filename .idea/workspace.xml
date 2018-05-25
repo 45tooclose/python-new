@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ab4c4fe-12c8-4cb7-89d2-61a848377e21" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/rss_entries_getter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/text_to_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/tokenizer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/MysqlConnector.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/MysqlConnector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/StructuredDataInserter.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/StructuredDataInserter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/TextCleaner.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/TextCleaner.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/rss_medium_getter.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/rss_medium_getter.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,21 +25,10 @@
       <file leaf-file-name="MysqlConnector.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/MysqlConnector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="106" column="79" selection-start-line="106" selection-start-column="79" selection-end-line="106" selection-end-column="79" />
+            <state relative-caret-position="3400">
+              <caret line="200" lean-forward="true" selection-start-line="200" selection-end-line="200" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
-                <element signature="e#394#776#0" />
-                <element signature="e#810#1188#0" />
-                <element signature="e#1238#1785#0" />
-                <element signature="e#1828#1853#0" />
-                <element signature="e#1928#2178#0" />
-                <element signature="e#2243#2780#0" />
-                <element signature="e#2830#3795#0" />
-                <element signature="e#2817#2965#0" />
-                <element signature="e#2999#3251#0" />
-                <element signature="e#3286#3297#0" />
-                <element signature="e#3358#3399#0" />
               </folding>
             </state>
           </provider>
@@ -44,8 +37,8 @@
       <file leaf-file-name="StructuredDataInserter.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/StructuredDataInserter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="24" selection-start-line="24" selection-end-line="40" selection-end-column="60" />
+            <state relative-caret-position="578">
+              <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -53,20 +46,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rss_medium_getter.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/rss_medium_getter.py">
+      <file leaf-file-name="tokenizer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/tokenizer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="35" lean-forward="true" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+            <state>
+              <caret column="53" lean-forward="true" selection-start-column="53" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rss_entries_getter.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scripts/rss_entries_getter.py">
+      <file leaf-file-name="text_to_file.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/text_to_file.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+            <state relative-caret-position="68">
+              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -87,8 +80,9 @@
       <find>article_base</find>
       <find>json_dic</find>
       <find>get_sql_values</find>
-      <find>print</find>
       <find>current</find>
+      <find>print</find>
+      <find>write</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -110,20 +104,22 @@
         <option value="$PROJECT_DIR$/classes/mysql_connector.py" />
         <option value="$PROJECT_DIR$/classes/structured_data_inserter.py" />
         <option value="$PROJECT_DIR$/classes/db_connection.py" />
-        <option value="$PROJECT_DIR$/classes/TextCleaner.py" />
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/classes/MysqlConnector.py" />
-        <option value="$PROJECT_DIR$/classes/StructuredDataInserter.py" />
         <option value="$PROJECT_DIR$/rss_medium_getter.py" />
-        <option value="$PROJECT_DIR$/scripts/rss_medium_getter.py" />
         <option value="$PROJECT_DIR$/scripts/rs_entries_getter.py" />
+        <option value="$PROJECT_DIR$/classes/TextCleaner.py" />
+        <option value="$PROJECT_DIR$/classes/MysqlConnector.py" />
+        <option value="$PROJECT_DIR$/scripts/rss_medium_getter.py" />
+        <option value="$PROJECT_DIR$/classes/TextTokenizer.py" />
+        <option value="$PROJECT_DIR$/scripts/tokenizer.py" />
+        <option value="$PROJECT_DIR$/classes/StructuredDataInserter.py" />
+        <option value="$PROJECT_DIR$/scripts/text_to_file.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="668" />
-    <option name="y" value="13" />
-    <option name="width" value="1199" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="1003" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -131,6 +127,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,7 +149,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -180,7 +176,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.rs_entries_getter">
+  <component name="RunManager" selected="Python.rss_entries_getter">
     <configuration name="MysqlConnector" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-new" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -253,6 +249,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="rss_entries_getter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-new" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/rss_entries_getter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="rss_medium_getter" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-new" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -271,39 +285,21 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python-new" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
       <item itemvalue="Python.Unnamed" />
       <item itemvalue="Python.MysqlConnector" />
-      <item itemvalue="Python.test" />
       <item itemvalue="Python.StructuredDataInserter" />
       <item itemvalue="Python.rs_entries_getter" />
       <item itemvalue="Python.rss_medium_getter" />
+      <item itemvalue="Python.rss_entries_getter" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.rs_entries_getter" />
+        <item itemvalue="Python.rss_entries_getter" />
         <item itemvalue="Python.rss_medium_getter" />
+        <item itemvalue="Python.rs_entries_getter" />
         <item itemvalue="Python.StructuredDataInserter" />
         <item itemvalue="Python.MysqlConnector" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -405,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527165535327</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added rss_entries_getter">
+      <created>1527167784427</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1527167784427</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView">
@@ -418,20 +421,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="668" y="13" width="1199" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4527027" visible="true" weight="0.22911283" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.45070422" visible="true" weight="0.12802951" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.0" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.17743325" side_tool="true" visible="true" weight="0.3487349" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49683878" weight="0.3278867" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5036881" side_tool="true" visible="true" weight="0.30392158" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4963119" visible="true" weight="0.30392158" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32453245" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49894625" weight="0.3278867" />
       <window_info anchor="bottom" x="0" y="15" width="1920" height="1017" id="Run" order="2" type="WINDOWED" weight="1.0" />
-      <window_info id="Structure" order="1" sideWeight="0.5472973" side_tool="true" visible="true" weight="0.22911283" />
+      <window_info id="Structure" order="1" sideWeight="0.5492958" side_tool="true" visible="true" weight="0.12802951" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.7787144" weight="0.3278867" />
       <window_info id="Favorites" order="2" sideWeight="0.5049505" side_tool="true" weight="0.2574178" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.82256675" visible="true" weight="0.3487349" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.82256675" weight="0.3487349" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -456,7 +459,8 @@
     <MESSAGE value="added return to execute_query()" />
     <MESSAGE value="Refactored Python files and class names, added insert_to_table function&#10;in MysqlConnector" />
     <MESSAGE value="Added StructuredDataInserter, MysqlConnector directory handling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added StructuredDataInserter, MysqlConnector directory handling" />
+    <MESSAGE value="Added rss_entries_getter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added rss_entries_getter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -475,7 +479,7 @@
           <properties exception="BaseException" />
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="92" />
+      <option name="time" value="93" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -484,13 +488,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/classes/TextCleaner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/coins_list.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -747,19 +744,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/coins_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="57" column="47" lean-forward="true" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/sql_processer">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/aylien_connection.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -767,65 +751,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/MysqlConnector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="106" column="79" selection-start-line="106" selection-start-column="79" selection-end-line="106" selection-end-column="79" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-            <element signature="e#394#776#0" />
-            <element signature="e#810#1188#0" />
-            <element signature="e#1238#1785#0" />
-            <element signature="e#1828#1853#0" />
-            <element signature="e#1928#2178#0" />
-            <element signature="e#2243#2780#0" />
-            <element signature="e#2830#3795#0" />
-            <element signature="e#2817#2965#0" />
-            <element signature="e#2999#3251#0" />
-            <element signature="e#3286#3297#0" />
-            <element signature="e#3358#3399#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/db_connection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1904">
-          <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/StructuredDataInserter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="24" selection-start-line="24" selection-end-line="40" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classes/TextCleaner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
+        <state relative-caret-position="78">
+          <caret line="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="25" />
           <folding>
             <element signature="e#1#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/rss_medium_getter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="35" lean-forward="true" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/rss_entries_getter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/rss_medium_getter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/MysqlConnector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3400">
+          <caret line="200" lean-forward="true" selection-start-line="200" selection-end-line="200" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/TextTokenizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/tokenizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="53" lean-forward="true" selection-start-column="53" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/db_connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/coins_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/StructuredDataInserter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/text_to_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
         </state>
       </provider>
     </entry>

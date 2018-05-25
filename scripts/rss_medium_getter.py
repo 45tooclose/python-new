@@ -3,6 +3,7 @@ from StructuredDataInserter import StructuredDataInserter
 sdi = StructuredDataInserter()
 medium_columns = 'id,entry_id,text'
 medium_table = 'rss_medium'
+
 data = sdi.get_data(medium_table, medium_columns)
 structured_columns = ['id_rss_medium', 'link', 'main_text']
 structured_table = 'structured_data'

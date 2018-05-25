@@ -35,7 +35,6 @@ class TextCleaner:
             re_matches_split = re.findall(re_pattern_split, self.text)
             for match in re_matches_split:
                 if match[0].__len__() > 2:
-                    #  print(match[0])
                     fixed_match = match[0][:-2] + " " + match[0][-2:]
                     self.text = self.text.replace(match[0], fixed_match)
 
@@ -57,7 +56,6 @@ class TextCleaner:
         re_pattern = '(http|ftp|https)\:\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:/~+#-]*[\w@?^=%&/~+#-])?'
         re_match = re.findall(re_pattern, self.text)
         for match in re_match:
-            # print(match[0],match[1],match[2])
             match_str = ''.join(match[0]) + '://'
             match_str += ''.join(match[1])
             match_str += ''.join(match[2])
@@ -72,7 +70,6 @@ class TextCleaner:
 
         for char in self.text:
             if not char.isalnum() and not char.isspace():
-                # print(char, char.isalnum(), char.isspace())
                 if not char in self.special_chars:
                     self.special_chars.append(char)
                 else:
