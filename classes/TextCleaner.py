@@ -93,6 +93,10 @@ class TextCleaner:
             if char in self.special_chars:
                 self.text = self.text.replace(char, " ")
 
+    def clear_special_char_no_punctuation(self):
+        for char in self.text:
+            if char in self.special_chars and not (char=='.' or char==',' or char=='/'):
+                self.text= self.text.replace(char," ")
     # Clears digitis
 
     def clear_digits(self):
@@ -124,6 +128,14 @@ class TextCleaner:
         self.clear_digits()
         self.clear_multispace()
         self.lower_text()
+    def clear_text_light(self):
+        self.clear_binded_words()
+        self.clear_links()
+        self.find_special_chars()
+        self.clear_dates()
+        self.clear_special_char_no_punctuation()
+        self.clear_digits()
+        self.clear_multispace()
 
     def get_text(self):
         return self.text
