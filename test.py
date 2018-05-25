@@ -1,7 +1,9 @@
-from pprint import pprint
+f_name = None
+loc = "../res/main_text/"
+iterator =1
+if f_name is None:
+    f_name = "txt-" + str(iterator) + ".txt"
+    if loc is not None:
+        f_name = loc + f_name
 
-some_list=[[0,1,2],
-           [3,4,5],
-           [6,7,8]]
-
-print(some_list)
+print(f_name)

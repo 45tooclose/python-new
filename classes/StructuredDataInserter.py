@@ -30,9 +30,17 @@ class StructuredDataInserter:
     def send_data(self,table,data,dictionary):
         self.mysqlc.insert_to_table(table=table,values=data,dictionary=dictionary)
 
-    def write_to_file(self,f_name,data):
-            with io.open(f_name, 'w', encoding="utf-8") as f:
-                f.write(data)
+    def write_to_file(self,data,f_name=None,loc=None,iterator=None):
+        #TODO check for / at the end of loc
+        if f_name is None:
+            f_name = "txt-" + str(iterator) + ".txt"
+            if loc is not None:
+             f_name=loc+f_name
+
+
+
+        with io.open(f_name, 'w', encoding="utf-8") as f:
+            f.write(data)
 
 def main():
     pass
