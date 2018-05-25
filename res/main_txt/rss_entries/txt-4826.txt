@@ -1,0 +1,141 @@
+
+
+    
+                          What is an 'At-The-Opening Order'
+
+      An at-the-opening order is an investor's directive to her broker or brokerage firm to buy or sell a specific security in her account at the very beginning of the trading day. If the order cannot be executed at the opening of the market, it will be canceled.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Day Order                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Cancel Former Order - CFO                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Below the Market                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Immediate Or Cancel Order - IOC                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'At-The-Opening Order'
+      An investor might place an at-the-opening order based on something that happened after the market closed on the previous trading day that is expected to affect the stock's opening price on the following trading day. An at-the-opening order may not be executed at the security's exact opening price, but it should be within the opening range. An indication of the opening price of a stock may be given by pre-market trading activity, if applicable, particularly if important news such as a quarterly earnings report or announcement of a significant corporate action hits the tape before the market officially opens in the morning.
+A Decisive Investor Submitting an At-The-Opening Order
+An investor who has made up her mind to buy or sell a security upon commencement of trading will instruct her broker to execute the order, or in cases of the average investor, submit the trade online. ( Online brokers typically will send back messages to warn the investor of the price execution risk of an at-the-opening order.) By putting through the order, the investor may be trying to get ahead of other buyers if, for example, a company announces positive news that can move the stock up. The investor may pay a price that is higher than the previous day's closing price, but she has a belief that it will continue to rise. Conversely, if bad news is made public before the trading day begins, she may submit an at-the-opening sell order to step out of a stock before a possible stampede out of the shares and thus minimize losses from the prior day's close.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

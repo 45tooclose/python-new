@@ -1,0 +1,141 @@
+
+
+    
+                          DEFINITION of 'The Celler-Kefauver Act'
+
+      The Celler-Kefauver Act was an anti-merger act passed by the U.S. Congress in 1950, to prevent mergers and acquisitions that could reduce competition.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Clayton Antitrust Act                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Horizontal Merger                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Vertical Merger                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Merger Arbitrage                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'The Celler-Kefauver Act'
+      The Celler-Kefauver Act was designed to prevent certain mergers and acquisitions from creating monopolies or otherwise significantly reducing competition in the United States. It went further than the previously enacted antitrust laws, the Sherman Antitrust Act of 1890 and the Clayton Antitrust Act of 1914 (which only tried to prevent horizontal mergers) and targeted vertical mergers and conglomerate mergers.
+In vertical mergers, companies on different tiers of a supply chain merge, which can be an antitrust problem if a company is buying its competitors’ suppliers. In conglomerate mergers, two companies that are involved in different sectors or geographic areas, merge together, to expand their markets by extending the corporate territory and product range. Both types of mergers raise the barriers to entry by making competitors internalize more production to match the cost savings that come from economies of scale.
+Vertical and conglomerate mergers were not banned by the Celler-Kefauver Act, unless they significantly reduced competition. While previous antitrust laws had been circumvented – because they only applied to outstanding equity, rather than the assets of the target corporation – the Celler-Kefauver Act eliminated this work-around.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

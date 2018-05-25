@@ -1,0 +1,84 @@
+
+
+
+    
+        
+            
+        
+          
+                
+      
+
+    
+
+    
+        Exchange-traded funds (ETFs) are one of the most successful innovations in the recent history of finance. New ETFs debut constantly in a market that’s grown more than 600% over the last 10 years, according to some measures. The industry has seen roughly $177 billion in net inflows through early November, keeping pace with last year but not setting any records.
+More than 80% of advisors use ETFs and recommend them for clients, according to the Financial Planning Association and the Journal of Financial Planning. U.S.-listed ETFs alone took in $20 billion in October, with most of those funds going into large-cap offerings and big index trackers, like the the SPDR S&P 500 ETF (SPY). (For more, see: Why ETFs Are Popular with Wealthy Investors.)
+Investors across the spectrum are moving to these kinds of lower-cost passive vehicles. ETFs capture market share from their mutual fund peers because they offer a way to diversify, they’re inexpensive and tax efficient. They also offer liquidity, because they trade daily, giving investors the power to move in and out of positions with relative ease. But with great power, as the saying goes, comes great responsibility and the tradability of ETFs can be their greatest liability, experts say.
+The Risks
+Liquidity is supposed to be an unambiguously beneficial feature for an investment product. But if an ETF’s daily liquidity allows retail investors the chance to live out their fantasies of trading like a hedge fund manager, that good characteristic can hurt investment returns in the form of fees, fees and more fees.  Experts say that, for most investors, uninterrupted trading is not an advantage since it presents non-professional investors with the temptation to chase alpha. Even professional investors who try to time the market have a notoriously bad track record. The average lay person can be expected to do even worse on average.
+ Vanguard Group founder Jack Bogle, speaking in 2010 on the “astonishing” trading volumes of some ETFs, noted that the SPDR S&P 500 ETF from State Street Global Advisors turns over 10,000% per year. Many ETFs have turnover in the 2,000% range (Bogle thinks even 30% is too high). Buy and hold, and do not trade, is Bogle’s advice. And less impressive authorities than Bogle agree: intra-day trading can completely destroy the advantages ETFs offer for most investors. (For more, see: The Most Popular ETFs with Financial Advisors.)
+And it’s not only transaction fees that can impact returns. Moving in and out of ETF positions can increase portfolio risk without providing any offsetting benefit to return expectations. Even with big, index-tracking ETFs, macroeconomic risks and liquidity risks still apply. But these can be multiplied when investors chase performance.
+Investing in niche ETFs – and there are new ones every week – can increase political risk, liquidity risk and risks from particular business sectors. It can also increase tax risks. Plus most small funds take a while to establish themselves. Many close every year, and when they do they can pay out capital gains distributions that can offset any tax benefits for the unwary. Some ETFs don’t offer big tax advantages to begin with. Investors need to know the tax implications of increasing allocations to a given fund before they make moves, and the tax consequences of their buying and selling activity.
+Educating Clients
+Advisors with clients who may be prone to trade, rather than buy and hold ETF shares, should point out how fees quickly add up and erode returns.
+Even more important than controlling costs is controlling emotions, says Rusty Vanneman, chief investment officer of CLS Investments. Advisors need to ensure that investors don’t chase performance but instead chase quality investment guidance. As with any investment, clients also need to understand the risks involved.
+The Bottom Line
+ETFs, particularly passive ETFs, are low-cost investment vehicles. That’s the key to their attractiveness to retail investors. Like mutual funds before them, they give mom-and-pop investors an inexpensive way to diversify. Yet ETF investors may be tempted to chase alpha even more so than mutual fund investors do, and advisors are well-positioned to provide clear guidance for clients who want to pursue this kind of strategy. (For more. see: How ETFs Are Being Used by Advisors.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '',
+     'leadGenVertical' : '',
+     'leadGenLayout' : '',
+     'leadGenPage' : ''
+    });
+                    
+            
+                

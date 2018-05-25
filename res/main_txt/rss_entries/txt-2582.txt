@@ -1,0 +1,141 @@
+
+
+    
+                          What is an 'Offering Price'
+
+      The offering price is the per share value at which publicly issued securities are made available for purchase by the investment bank underwriting the issue. A security's offering price includes the underwriter's fee and any management fees applicable to the issue. The term offering price is almost exclusively used in reference to the initial public offering (IPO) process, although it could apply to other securities such as bonds, structured investments and so on. 
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Negotiated Underwriting                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Underwriting                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Underwriting Income                     
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Initial Offering Date                     
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Offering Price'
+      The offering price is set by the lead manager of an IPO. Underwriters analyze numerous factors when attempting to determine a security's offering price. Ideally, an investment bank assesses the current and near-term value of the underlying company, and sets an offering price that is fair to the company in terms of capital and fair to investors in terms of potential value for risk. In practice, supply and demand play a large role in the pricing. There are many examples where an offering price is set much higher than any intrinsic value can justify based on the perceived market appetite for shares in the sector or industry a company operates in as opposed to solely focussing on that particular company.
+Setting the Offering Price
+Setting the offering price is more hollywood script writing than high finance, especially when high profile private companies go public. The syndicate handling the IPO wants to set the offering price at a point where the company going public is happy with the amount of money raised, but just low enough that the opening price and the trading on the first few days of listing provides a nice IPO pop as the public finally gets a chance at shares. This IPO pop makes for good news and also helps to mask any unloading if early stage investors choose to cash out from the company. While this IPO pop makes for good headlines, it can be frustrating for some venture capitalist as it represents a discount they’ve taken on their investment if they sold their holdings at the offering price pre-IPO.
+Offering Price and Opening Price
+The offering price was, and sometimes still is, referred to as the public offering price. This is a bit misleading as almost no individual investors are able to purchase an IPO at the offering price. The syndicate generally sells all the shares at the offering price to institutional and accredited investors. The opening price, therefore, is the first opportunity for the public to purchase shares and it is set purely by supply and demand as buy and sell orders queue up for the first day of trading. Individual investors shouldn’t be too upset about missing out on the offering price, however, as many IPOs hit a patch of post-IPO blues where they can be snapped up below the offering price as initial market expectations and a company’s performance in reality finally collide.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

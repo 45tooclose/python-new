@@ -1,0 +1,79 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Shares of e-commerce and cloud computing giant Amazon.com Inc. (AMZN) are skyrocketing Friday following better-than-expected earnings results from the Seattle-based tech giant. The Q1 beat has Wall Street gushing over results, honing in on plans to increase the price of its Prime membership by 20%—to $119 from $99 for one year—starting on May 11. The annual Prime price hike, the first in four years and applicable to renewals starting June 16, is intended to help Amazon offset rising costs to the service. 
+"The value of Prime to customers has never been greater. And the cost is also high, as we pointed out especially with shipping options and digital benefits, we continue to see rises in costs," said Amazon Chief Financial Officer Brian Olsavsky on the Q1 earnings call. 
+While Amazon investors have been forgiving on the company's use of cash to break into new markets, willing to take a short-term loss in exchange for long-term revenues, the new price hike will give the retail behemoth more leeway to make its Prime service more attractive while it pushes into markets such as apparel, grocery, media and entertainment. Any initiative to improve the value of its Prime membership is also seen as a positive driver for the company, as its more than 100 million subscribers spend almost twice as much on Amazon per year, according to Consumer Intelligence Research Partners. 
+100 Million Members, and Growing
+In efforts to bolster its Prime package and steal consumers away from on-demand video services such as Netflix Inc. (NFLX), Amazon has doubled down on investing in original content and sports streaming, pouring $4.5 billion on non-sports programming in 2017. 
+Competitors like Walmart Inc. (WMT), the world's largest retailer, have tried to compete with Amazon for a slice of the booming online shopping space. Earlier this month, the Bentonville, Arkansas-based company announced plans to link up with on-demand delivery service Postmates as part of a larger effort to reach 40% of households around the U.S. (See also: Walmart Inks Deal With Postmates for Deliveries.)
+Meanwhile, bulls such as JPMorgan Chase & Co.'s Dough Anmuth expect the price hike to do little to move demand for the company's monthly Prime membership service, which offers special deals, free two-day shipping, Whole Foods discounts and access to exclusive TV shows, movies and music. (See also: Whole Foods: Discounts for Amazon Prime Members?)
+No Pushback Expected
+"The last time AMZN raised the price of Prime was in March 2014, & we do not expect the company to get much pushback from consumers given the increasing value of the service," wrote the JPMorgan analyst. 
+UBS expects Amazon's Prime price hike to boost its subscription services sales growth, which saw a 60% jump over last year to $3.1 billion. Analyst Eric Sheridan wrote a note to clients Thursday indicating that strong Prime member growth and faster seller adoption of Fulfillment by Amazon (FBA), the company's new delivery service, will drive a compound annual revenue growth (CAGR) of approximately 20% through 2022. 
+AMZN stock is up about 6% on Friday morning at $1,610.02, reflecting a 37.6% return year-to-date (YTD), an a near 76% increase over 12 months, far outperforming the broader S&P 500's near-flat run and 12% gain over the same respective periods. (See also: Amazon to Be #1 in Apparel in 2018: Morgan Stanley.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

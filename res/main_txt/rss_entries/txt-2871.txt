@@ -1,0 +1,143 @@
+
+
+    
+                          What is 'Cutoff Point'
+
+      The cutoff point is the point at which an investor decides whether or not a particular security is worth purchasing. The cutoff point is very subjective and will be based on the personal characteristics of the individual investor. Some examples of personal characteristics that may determine the cutoff point include the investor's required rate of return and his or her risk aversion level.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Daily Cut-Off                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Call Over                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Accrued Monthly Benefit                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Quintiles                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Cutoff Point'
+      Because cutoff points are largely subjective, they will vary widely among investors. For example, if an investor has a lower required rate of return, he or she will likely pay more for the same security than a person with a higher required rate of return. This translates into a higher cutoff point for the first investor.
+A cutoff point may also be considered a good "rule of thumb" when considering particular securities, as it may help the investor make more consistent investment decisions.
+Cutoff Points and Stop Losses
+Cutoff points are often acted on by an investor by using a stop loss. Unless a trader or investor has extraordinary discipline, using a stop loss is the easiest way to act on a strict cutoff point. An investor places a stop loss on a trade before they enter into it. If the stock declines past this cutoff point, a stop loss order instructs your broker to sell immediately. By using a stop loss, an investor can limit their losses and be more disciplined in their trading methodology.
+If an investor continues holding a stock on its way down without implementing a stop loss to enforce their cutoff point, the value could continue to fall, and the pain could be severe or that investor.
+There is more than one type of stop loss. A standard stop loss is set as a percentage below the price paid for the stock. A trailing stop loss, by contrast, is established against the previous day's closing price. The percentage an investor sets as their stop loss is their effective cutoff point.
+Investing experts suggest setting a stop loss percentage at 15 to 20 percent. Any less would cause a stock to be sold on temporary dips. If trading on smaller, more volatile stocks, a stop loss is suggested to be set at 30 to 40 percent. Some traders will set two trailing stop losses. If the stock hits the lower percentage stop loss, it could be a warning...and a stop loss could perhaps be set to sell half a position. At the higher percentage stop-loss, such a strategy would liquidate the entire position.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

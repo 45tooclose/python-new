@@ -1,0 +1,223 @@
+
+
+
+Private Blockchains - the Good, the Bad and All the Misconceptions
+Blockchain deployment has several factors which need to be considered. This article discusses the applicable configurations and their pros and cons.
+
+
+ by  Contributor
+Author,
+15 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  Blockchain applications are being deployed across a wide spectrum of configurations, ranging from pure public blockchains, to pure, closed, private chains, and everything in between. Why? And where is all this heading?
+If you’re an entrepreneur or even a so-called intrapreneur, creating a revolutionary blockchain-based application, you will be faced with the question of where and how to deploy.
+This fundamental question touches the core point of why blockchain technology should be used in the first place. Making the wrong choice is likely to undermine any perceived value and benefits.
+If you’re an entrepreneur your considerations are likely to include:
+
+Public blockchain for token issuance, and fund raising (e.g. Ethereum)
+Public blockchain for utilising an already deployed highly distributed trustless network, albeit at a (high transaction) cost. However, absolute transaction and data/state replication mean transaction volume and throughput are very limited, and so your application will struggle to scale with the current technical solutions (all of this is well documented)
+Creation of your own private blockchain network, as an alternative to the public blockchains. You could use Ethereum or Hyperledger Fabric software, and this will be much more scalable, although you will need to build out (and incentivise) your own network of hosting parties in order to decentralise, and therefore increase trust in your network and solution
+A range of alternative blockchain platforms that claim to have solved scalability for public chains. In practice, most of these are hybrid solutions where the number of nodes is limited (this is how improved performance / scalability is achieved), and trust is therefore still dependent on a relatively small number of participants. The security and integrity of these types of solutions is yet to be proven. Celebrity VC Fred Wilson recently posted on this subject, and referenced this website that illustrates just how centralised many of these networks really are. Their developer eco-system tends to be much smaller than that of established public blockchains like Ethereum, but some have raised substantial funds, and are using those funds to gain traction.
+
+If you’re an intrapreneur working for a large corporate enterprise your considerations are likely to include:
+
+Create own private network using Ethereum, Hyperledger Fabric (IBM), Corda (R3), and seek to find hosting partners to expand your network.
+Create or join an industry consortium, where consortium members host nodes
+
+We see four dimensions when considering a blockchain deployment:
+
+Scalability <> Privacy <> Token <> Trustlessness
+Startups prioritise token acceptance and network trustlessness.
+Corporates tend to prioritise privacy and scalability, although there’s very little benefit for them, and they’re not really harnessing the technology, if they don’t grow a trustless network.
+
+What we find in practice, having developed numerous blockchain applications for both entrepreneurs and intrapreneurs, is that the apparently different requirements tend to converge over time.
+That is, many applications built by entrepreneurs will integrate with one or more large corporate enterprises at some point, and will therefore need to address their requirements, and similarly, many enterprise applications would like to make their solutions more open and trustless and eventually incorporate tokens of some form, although they currently have many obstacles to overcome before they may do so.
+Where is all this heading?
+Just as the requirements of startups and corporates are converging, so are the blockchain networks. Both startups and corporates are ultimately heading towards networks of networks. Corporates will, at some point, require integration outside their private network. Initiatives including Polkadot, Cosmos, and Ethereum sharding, as well as various side chains, all involve creating networks of networks.
+We envisage a world of interoperability across multiple public and private chains.
+About the Author
+Adi Ben-Ari is the Founder and CEO of Applied Blockchain - a company of blockchain smart contract application experts and developers based in London. Adi has extensive experience in enterprise technology spanning almost two decades. He has delivered major software projects with major institutions both in the UK and abroad in different industries including finance. He is a recognized expert in the blockchain field, talks frequently at conferences and industry forums, and has led the delivery of a number of Blockchain smart contract solutions. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

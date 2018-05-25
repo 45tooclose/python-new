@@ -1,0 +1,55 @@
+
+
+
+    
+    
+    
+        
+          
+                
+          
+    A:
+            Declaring and paying dividends has nothing directly to do with current earnings per share (EPS). A company whose EPS is lower than its dividend in a current year may be coming off of a string of more profitable years, with higher EPS, from which it has set aside cash to pay future dividends.
+Many well-known Fortune 500 companies have paid dividends in years where they posted negative earnings per share.
+The only real numbers that matter in paying dividends are "retained earnings" and available cash. From a management point of view, retaining some of the shareholders' earnings quarterly or yearly makes a lot of sense. Having a large retained earnings balance allows a company to pay consistent dividends with no negative surprises. In addition, the company can to keep cash on hand to reinvest in its future expansion.
+On a related note, many investors do not realize that a company's earnings per share is calculated after the higher yielding preferred stock dividends have been paid. In other words, a large portion of a company's dividend costs already may be reflected in the EPS number that most investors look at. (See also: Types of EPS.)
+        
+    
+
+    
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'FAQ'
+    });
+                

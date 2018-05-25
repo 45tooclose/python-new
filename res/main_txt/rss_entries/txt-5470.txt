@@ -1,0 +1,80 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Hertz Global Holdings, Inc. (HTZ) is a global vehicle rental company that concentrates on airport services. The company operates under the brand names Hertz, Dollar and Thrifty. It also offers car sharing, leasing agreements and fleet management services. The auto rental company is due to release results after the close on Monday, May 7.
+Hertz stock closed Friday at $21.37, down 3.3% year to date and in correction territory at 15% below its 2018 high of $25.14 set on Jan. 11. The stock is in bull market territory at 30.9% above its 2018 low of $16.32 set on Feb. 28. Analysts expect Hertz to report a loss of $1.28 per share when it reports earnings on Monday. The company has missed earnings estimates seven consecutive quarters. The consensus rating from investment analysts is "Hold." (See also: Time to Buy Hertz at an 8-Year Low?)
+The daily chart for Hertz
+Courtesy of MetaStock Xenith
+The daily chart shows that Hertz is poised to test a downtrend on a positive reaction to earnings. After trading as high as $27.27 on Oct. 11, the stock has been trading sideways to down. A secondary high of $24.90 was set on Jan. 29, establishing the downtrend that stands as a chart resistance at $22.74 for Monday's earnings report. There is also a downtrend connecting the recent lows. This is established from the low of $17.04 set on Nov. 15 going through $16.32 on Feb. 28. This trend provides chart support at $15.87. Note how the stock is holding its 50-day and 200-day simple moving averages of $20.47 and $20.97, respectively.
+[Check out Chapter 2 of the Technical Analysis course on the Investopedia Academy to learn about using moving averages to develop your trading strategy.]
+The weekly chart for Hertz
+Courtesy of MetaStock Xenith
+The weekly chart for Hertz is positive, with the stock above its five-week modified moving average of $20.92. The stock is well below its 200-week simple moving average of $49.43, also known as the "reversion to the mean," last tested during the week of June 26, 2015, when the average was $81.07. The 12 x 3 x 3 weekly slow stochastic reading rose to 58.40 last week, up from 52.51 on April 27.
+Given these charts and analysis, investors should buy Hertz shares on weakness to the downtrend support at $15.87 and reduce holdings on strength to downtrend resistance at $22.74. (For more, see: Hertz, Avis Link with Apple, Google on Self-Driving.) 
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Chartadvisor-Article'
+    });
+                    
+            
+                

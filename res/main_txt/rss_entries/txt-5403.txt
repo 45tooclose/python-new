@@ -1,0 +1,80 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Large institutional financial organizations are continuously exploring and embracing blockchain technology.
+Details of a patent filing by JPMorgan Chase & Co. (JPM) was published by the U.S. Patents and Trademark Office on Thursday, which was originally filed by the bank in October of last year and lists how the leading investment bank plans to utilize the distributed-ledger-based system. It plans to use the system to record payments sent from one bank to another using a peer-to-peer network. The filing goes on to explain the abstract as follows:
+“In one embodiment, a method for processing network payments using a distributed ledger may include: (1) a payment originator initiating a payment instruction to a payment beneficiary; (2) a payment originator bank posting and committing the payment instruction to a distributed ledger on a peer-to-peer network; (3) the payment beneficiary bank posting and committing the payment instruction to the distributed ledger on a peer-to-peer network; and (4) the payment originator bank validating and processing the payment through a payment originator bank internal system and debiting an originator account.”
+
+While the real-world financial industry, working under regulatory purview, often appears to be in opposition to open, anonymous, decentralized cryptocurrencies like bitcoin and ethereum, their underlying distributed ledger technology is being embraced by such banks with open arms owing to the several benefits it offers. (See also: Banks Claim They're Building Blockchains. They're Not.)
+Benefits of Distributed Ledger Technology
+Highlighting the benefits of using the distributed ledgers, like blockchain, which are supported by cryptography and digital signatures, it makes it easy to ensure validity of transacting parties as well as the transactions, the bank’s patent application explains. With real-time settlement and updates available with a verifiable audit trail, the distributed ledger technology provides an ideal storage container as well as processing medium for handling payment transactions.
+Major benefits are achieved for cross-border payments using distributed ledgers technology. The bank mentions a comparison with the conventional payment method, which requires involvement of multiple intermediaries like banks and clearing houses, along with their charges that significantly increases the cost of such transactions. The process also remains operationally inefficient and time-consuming, as multiple messages are required to be relayed to confirm the transaction and its reporting. Use of blockchain as a storage as well as transaction medium will help achieve efficiency and accuracy in executing such transactions instantaneously, as well as a foolproof recording method that will remain compliant with all regulatory requirements.
+This application adds to the continuous efforts of the leading investment bank in the area of distributed ledgers. In October 2016, JPMorgan had launched an interbank payment platform on an ethereum-variant called quorum. (See also: JPMorgan Chase Looking to Ethereum Blockchain.)
+Investing in cryptocurrencies and Initial Coin Offerings ("ICOs") is highly risky and speculative, and this article is not a recommendation by Investopedia or the writer to invest in cryptocurrencies or ICOs. Since each individual's situation is unique, a qualified professional should always be consulted before making any financial decisions. Investopedia makes no representations or warranties as to the accuracy or timeliness of the information contained herein. As of the date this article was written, the author owns no cryptocurrencies.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

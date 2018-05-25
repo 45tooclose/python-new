@@ -1,0 +1,140 @@
+
+
+    
+                          WHAT IS 'Munifacts'
+
+      Munifacts was a newswire service for municipal bonds that provided information on new municipal bond issues in the primary market and secondary market. In 1996 it was renamed Thomson Municipal News, then it was folded into The Municipal Market Monitor (TM3), a subscription service available from Thomson Reuters.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Taxable Municipal Bond                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Net Debt To Estimated Valuation                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Municipal Note                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Double Barreled                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Munifacts'
+      Though Munifacts no longer exists, it's replacement service is of interest to municipal bond traders and is a reporting service traders use to analyze bond issues, including the terms included in the bond's indenture and financial information used to assess the quality of an issue. A 14-day free trial is available for TM3, and subscriptions are available for municipal market participants, who must first be verified by Thomson Reuters sales personnel in a telephone interview.
+Elements of TM3
+The main features of TM3 are news, municipal market data, primary markets, secondary markets, muni/data analysis, and Variable Rate Demand Notice network. News is provided by Thomson Municipal News (formerly Munifacts) and The Bond Buyer top stories. Tools includes an analyst directory and a glossary. Useful tools for traders can be found, such as deal and Committee on Uniform Securities Identification Procedures search and a bond calculator. The dashboard shows Top 5 Competitive Issues, Top 5 Negotiated issues, and 5 Most Active Trades at Volume. Other services available from the dashboard are links to MuniStatements, the Securities Industry and Financial Markets Association  Swap Index and Exchange Traded Funds Index.
+Tables on the dashboard are MIG1 and MMD Scales. MIG is a Moody’s rating scale to measure municipal bond risk and issuer creditworthiness. The ratings are number one through four, with a one (MIG 1) representing the highest quality and a four (MIG 4) representing the lowest quality. The Municipal Market Data (MMD) AAA Curve is a proprietary yield curve that provides the offer-side of AAA rated state general obligation bonds, as determined by the MMD analyst team. The AAA scale (MMD Scale), is published by Municipal Market Data every day at 3:00 p.m. Eastern Standard Time with earlier indications of market movement provided throughout the trading day. The MMD AAA curve represents the MMD analyst team’s opinion of AAA valuation, based on institutional block size ($2 million+) market activity in both the primary and secondary municipal bond market. In the interest of transparency, MMD publishes extensive yield curve assumptions relating to various structural criteria, which are used in filtering market information for the purpose of benchmark yield curve creation.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

@@ -1,0 +1,315 @@
+
+
+    
+                        
+            
+                Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/ActiveTrading/Markets/IC-Video/Term");} else {return "/8397/INV-NA/ActiveTrading/Markets/IC-Video/Term";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/terms/s/stockmarket.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/NPPlfRXz.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/NPPlfRXz-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/dimages/graphics/stock_market_0.jpg?quality=80&width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "560",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "NPPlfRXz-G9NhEyAa.mp4";
+                
+          
+            document.addEventListener("DOMContentLoaded", function() {
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                        var initializeJWPlayerSetup = function () {
+                            if (new VideoInit().canRun()) {
+                                setUpJwpPlayer();
+                            } else {
+                                new VideoInit().callBack = setUpJwpPlayer;
+                            }
+                        }
+            initializeJWPlayerSetup();
+          });
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "NPPlfRXz-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "What is the Stock Market?",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };            
+          
+                    What is the 'Stock Market'
+
+      The stock market refers to the collection of markets and exchanges where the issuing and trading of equities or stocks of publicly held companies, bonds, and other classes of securities take place. This trade is either through formal exchanges or over-the-counter (OTC) marketplaces. 
+Also known as the equity market, the stock market is one of the most vital components of a free-market economy. It provides companies with access to capital in exchange for giving investors a slice of ownership.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Exchange                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            New York Stock Exchange - NYSE                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Listing Requirements                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Primary Exchange                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Stock Market'
+      The stock market consists of two main sections, the primary market, and the secondary market. The primary market is where new issues are first sold through initial public offerings (IPOs). Institutional investors typically purchase most of these shares from investment banks. 
+The worth of the company going public and the number of shares issued will determine the opening price of the IPO stock. All subsequent trading happens in the secondary market, where participants include both institutional and individual investors. A company uses the money raised from its IPO to grow, but once its stock starts trading, it does not receive funds from the buying and selling of its shares.
+Stocks of larger companies are usually traded through exchanges. Such exchanges exist in major cities all over the world, including London and Tokyo. Exchanges are entities that bring together buyers and sellers in an organized manner. On exchanges, stocks are listed and traded. Today, the execution of most transactions is by electronic means. Even the stocks themselves are mostly held in an electronic format, not as physical certificates. 
+Regarding market capitalization, the two most prominent stock exchanges in the United States are the New York Stock Exchange (NYSE), founded in 1792 and located on Wall Street, which colloquially is often the synonym for the NYSE, and the Nasdaq, founded in 1971. The Nasdaq originally featured over-the-counter (OTC) securities, but today it lists all types of stocks. Stocks may be listed on either exchange if they meet the listing criteria of the exchange. However, in general technology, firms tend to be listed on the Nasdaq.
+The NYSE is still the largest and, arguably, most powerful stock exchange in the world. The Nasdaq has more companies listed, but the NYSE has a market capitalization that is larger than Tokyo, London, and the Nasdaq combined.
+The Securities and Exchange Commission (SEC) is the regulatory body charged with overseeing the U.S. stock markets. The SEC is a federal agency, which is independent of the political party in power. Explicitly, the mission of the SEC states it is "to protect investors, maintain fair, orderly, and efficient markets, and facilitate capital formation." Shortly after the stock market crash of 1929, the birth of the Securities and Exchange Commission (SEC) set a goal to restore investor faith in the financial sector.
+(Learn more about it in Policing The Securities Market: An Overview Of The SEC.)
+Stock Trading
+Over-the-counter (OTC) and listed securities are the two primary types of securities transacted on stock markets. Listed securities are those stocks traded on exchanges. These securities need to meet reporting regulations of the SEC as well as the requirements of the exchanges where they trade.
+Over-the-counter securities are exchanged directly between parties, usually via a dealer network. These securities do not list on any stock market exchange but will show on the pink sheets. Pink sheet security often will not meet the requirements to list on an exchange and tend to have a low float, such as closely held companies or thinly-traded stocks. Also, companies in bankruptcy are typically listed on the pink sheets, as are penny stocks, which are loosely defined as stocks that trade below $5 a share.
+OTC securities do not need to comply with SEC reporting requirements, so finding credible information on them can be difficult. This lack of data makes investing in pink sheet securities similar to investing in private companies.
+Who Works in the Stock Market?
+There are many different players associated with the stock market, including stockbrokers, traders, stock analysts, portfolio managers and investment bankers. Each has a unique role, but many of the roles are intertwined and depend on each other to make the market run effectively.
+
+Stockbrokers, also known as registered representatives in the U.S., are the licensed professionals who buy and sell securities on behalf of investors. The brokers act as intermediaries between the stock exchanges and the investors by buying and selling stocks on the investors' behalf.
+
+
+Stock analysts perform research and rate the securities as buy, sell, or hold. This research gets disseminated to clients and interested parties who decide whether to buy or sell the stock.
+
+ Portfolio managers are professionals who invest portfolios, or collections of securities, for clients. These managers get recommendations from analysts and make the buy or sell decisions for the portfolio. Mutual fund companies, hedge funds, and pension plans use portfolio managers to make decisions and set the investment strategies for the money they hold.
+Investment bankers represent companies in various capacities, such as private companies that want to go public via an IPO or companies that are involved in pending mergers and acquisitions.
+(Learn more in Evaluating Your  Stock Broker.)
+The Stock Market Performance Indicators
+If you want to know how the stock market is performing, you can consult an index of stocks for that whole market or that segment of the market. Indexes are used to measure changes in the overall stock market. 
+There are many different indexes, with each made up of a different pool of stocks. Some indexes may overlap in the stocks they represent. In the United States, examples of indexes include the Dow Jones Industrial Average, NASDAQ Composite Index, Russell 2000, and Standard and Poor’s 500 (S&P 500), but there are many more.
+The Dow Jones Industrial Average (DJIA) is perhaps the best-known of the indexes. The Dow is made up of the 30 largest companies in the U.S., and the daily Dow shows how their stocks perform on a given day. The Dow average is a price-weighted average. Price-weighted means the value has a basis on the price of the included stocks. 
+The S&P 500 is comprised of the 500 largest capitalization stocks traded in the U.S.
+These two indexes are the most followed measurements of the U.S. stock market. As such, they are the most accepted representatives of the overall American economy. However, there are many other indexes which represent mid- and small-sized U.S. companies, such as the Russell 2000. 
+In the U.S., the indexes that measure the value of stocks are widely followed. As a financial barometer, the stock market has become an integral and influential part of decision-making for everyone from the average family to the wealthiest executive.
+(For more on indexes and their function, check out The History Of Stock Market Indexes.)
+Why is the Stock Market Important?
+The stock market allows companies to raise money by offering stock shares and corporate bonds. It lets investors participate in the financial achievements of the companies, making money through dividends. Dividends are cuts of the company's profits as they may payouts. Investors also make a profit by selling appreciated stocks. This is known as a capital gain. Of course, the downside is that investors can lose money as well if the share price falls or if the investor must sell the shares at a loss.
+One of the whole points of open exchange is to provide transparency and opportunity for all investors. Furthermore, laws and governing bodies, such as the SEC, exist to "level the playing field" for investors. However, there are undeniable advantages that institutional investors and professional money managers have over the individual investor. 
+Advantages of large institutional investors include the timely access to privileged information, full-time research departments, vast amounts of capital to invest, discounts on commissions, transaction fees, and even share prices based on the large dollar amount they invest, political influence, and more significant experience. 
+While the Internet has been somewhat of an equalizing factor, the reality is that many institutional clients get news and analysis before the public does and can act on information more quickly.
+History of the Stock Market
+It can be difficult for investors to imagine a time when the stock market and the NYSE, in particular, wasn't synonymous with investing. Of course, it wasn't always this way. There were many steps along the road to our current system of exchange. In fact, the first stock exchange thrived for decades without a single stock being traded.
+Belgium boasted a stock exchange as far back as 1531 in Antwerp. Brokers and moneylenders would meet there to deal with business, government, and even individual debt issues. It is odd to think of a stock exchange that traded exclusively in promissory notes and bonds, but in the 1500's, there were no real stocks. There were financier partnerships that produced income as stocks do, but there was no official share that changed hands.
+In the 1600's, the Dutch, British, and French governments all gave charters to companies with East India in their names. On the cusp of imperialism's high point, it seems like everyone had a stake in the profits from the East Indies and Asia except the people living there. Sea voyages that brought back goods from the East were perilous with threats of Barbary pirates, risks of bad weather, and poor navigation.
+To lessen the risk of a lost ship ruining their fortunes, ship owners had long been in the practice of seeking investors who would put up money for the voyage. The investors fund the outfitting of the ship and crew in return for a percentage of the proceeds if the voyage was successful. These early limited liability companies often lasted for only a single voyage.
+When the East India companies formed, they changed the way business was done. These companies had stocks that would pay dividends on all the proceeds from all the voyages, rather than journey by journey. These were the first modern joint stock companies. This allowed the companies to demand more for their shares and build larger fleets. The size of the companies, combined with royal charters forbidding competition, meant huge profits for the investors.
+Because the shares in the various East India companies were issued on paper, investors could sell their holdings to other investors. Unfortunately, there was no stock exchange in existence, so the investor would have to track down a broker to carry out a trade. In England, most brokers and investors did their business in various coffee shops around London. Debt issues and shares for sale were written up and posted on the shops' doors or mailed as a newsletter.
+The British East India Company had one of the biggest competitive advantages in financial history as a government-backed monopoly. When the investors began to receive huge dividends and sell their shares for fortunes, other investors were hungry for a piece of the action. The budding financial boom in England came so quickly that were no rules or regulations for the issuing of shares. The South Seas Company (SSC) emerged with a similar charter from the king and its shares, and the numerous re-issues, sold as soon as they were listed. Before the first ship ever left the harbor, the SSC had used its newfound investor fortune to open posh offices in the best parts of London.
+Encouraged by the success of the SSC and realizing that the company hadn't done a thing except for issue shares, other "businessmen" rushed in to offer new shares in their own ventures. Some of these were as ludicrous as reclaiming the sunshine from vegetables or, better yet, a company promising investors shares in an undertaking of such vast importance that they couldn't revealed the details, something known today as a blind pool.
+Inevitably, the bubble burst when the SSC failed to pay any dividends off its meager profits, highlighting the difference between these new share issues and the British East India Company. The subsequent crash caused the government to outlaw the issuing of shares and the ban held until 1825.
+The New York Stock Exchange
+The first stock exchange in London was officially formed in 1773, a scant 19 years before the New York Stock Exchange. Whereas the London Stock Exchange (LSE) was handcuffed by the law restricting shares, the New York Stock Exchange has dealt in the trading of stocks since its inception. The NYSE wasn't the first stock exchange in the U.S. That honor goes to the Philadelphia Stock Exchange (1790). However, the NYSE quickly became the most powerful.
+Formed by brokers under the spreading boughs of a buttonwood tree, the New York Stock Exchange made its home on Wall Street. The exchange's location, more than anything else, led to the dominance that the NYSE quickly attained. It was in the heart of all the business and trade coming to and going from the United States, as well as the domestic base for most banks and large corporations. By setting listing requirements and demanding fees, the New York Stock Exchange became a very wealthy institution.
+The NYSE faced very little serious domestic competition for the next two centuries. Its international prestige rose in tandem with the burgeoning American economy in the 20th century, and it was soon the most important stock exchange in the world. London emerged as the major exchange for Europe, but many companies that were able to list internationally still listed in New York. Other countries, including Germany, France, the Netherlands, Switzerland, South Africa, Hong Kong, Japan, Australia, and Canada developed their own stock exchanges, but these were largely seen as proving grounds for domestic companies to inhabit until they were ready to make the leap to the LSE and from there to the big leagues of the NYSE.
+The NYSE had its share of ups and downs during the same period, too. Everything from the Great Depression to the Wall Street bombing of 1920 left scars on the exchange. Marks remain on the buildings from the blast, which left 38 people dead. After the Stock Market Crash of 1929, less literal scars came in the form of stricter listing and reporting requirements and increased government regulation.
+Still, the NYSE suffered relatively little disruption during the world wars and didn't have the prolonged declines that many of the European and Asian markets experienced in the late 1940s. Reflecting the economic dominance of the U.S. throughout the world, it was arguably the most powerful stock exchange domestically and internationally, despite the existence of stock exchanges in Chicago, Los Angeles, and Philadelphia. 
+In 1971, however, an upstart emerged to challenge the NYSE hegemony. The Nasdaq was the brainchild of the National Association of Securities Dealers (NASD), now called the Financial Industry Regulatory Authority (FINRA). From its inception, it has been a different type of stock exchange. It does not inhabit a physical space, as does the NYSE at 11 Wall Street. Instead, it is a network of computers that execute trades electronically.
+The introduction of an electronic exchange made trades more efficient and reduced the bid-ask spread, a spread the NYSE wasn't above profiting from. The competition from Nasdaq has forced the NYSE to evolve, both by listing itself and by merging with Euronext. Euronex was created in 2000 from the merger of the Amsterdam, Brussels, and Paris stock exchanges. The Nasdaq-Euronext merger in 2007 formed the first trans-Atlantic exchange. With this merger, the influence of movements on the NYSE truly became global in scope.
+For years, the Nasdaq was the second-largest equity U.S. exchange, after the NYSE. Today, Nasdaq is still number two in terms of market capitalization. In the 21st century it was superseded in terms of market share, by another electronic exchange, currently known as BATS Global Markets. Founded in 2005, Better Alternative Trading System (BATS) now runs four domestic stock exchanges, representing 20.5% of the U.S. equities markets, and has also branched out into forex , options, European equities, and ETFs. In fact, it's the largest ETF exchange in the country.
+(To learn more, check out The Tale Of Two Exchanges: NYSE And Nasdaq and The Global Electronic Stock Market.)
+The Bottom Line
+Once upon a time, "stock market" was synonymous with "stock exchange" as a place where people literally gathered to buy and sell securities. In this era of computerized trading and electronic communication networks (ECNs) like those run by Nasdaq and BATS, that is no longer true. 
+The human element has been reduced even further by the advent of high-speed or high-frequency trading. High-frequency trading uses automated trading platforms with computer algorithms to transact a large number of orders at extremely high speeds. Millions of orders are processed in a matter of seconds. High-frequency trading became popular when exchanges started to offer incentives for companies to become market makers in stocks, thus providing liquidity to the market. For example, after the subprime mortgage crisis of 2008 and the failure of broker-dealers like Lehman Brothers, the NYSE launched a program which pays firms a per-transaction rebate for actively trading securities.
+While physical exchanges of paper are now rare and actual trading floors may continue to dwindle, the concept of a stock market remains intact. Be it literal or figurative, societies, companies, and individuals all like the idea of an open, public forum for raising, investing, and making money.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

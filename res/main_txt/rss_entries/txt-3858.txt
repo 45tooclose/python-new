@@ -1,0 +1,144 @@
+
+
+    
+                          What is 'Probable Reserves'
+
+      Probable reserves are oil reserves calculated to be at least 50 percent likely to be recovered by drilling. Recovery probabilities help estimate the present and future value of assets owned or operated by firms in the oil and gas sector.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Proven Reserves                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Bank Reserve                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Reserve Requirements                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Reserves to Production Ratio                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Probable Reserves'
+      Probable reserves make up a portion of the oil present in an area surveyed by an oil and gas exploration firm. Firms use the results of a seismic survey of a piece of land to determine the amount of oil available beneath that land. The companies then categorize the amount of oil based upon an estimate of the relative ease or difficulty of getting the oil or gas out of the ground. Any combination of regulatory, economic and technological challenges could reduce the likelihood that a firm can profitably extract the reserve. When firms determine those factors combine to give them between a 50 percent and 89 percent chance of successfully extracting the oil or gas, they categorize the reserves as probable.
+For example, reserves may appear to be a good fit with an established commercial recovery method that a firm does not currently have in use on the site or had not initially planned to use. In that case, the firm would classify the reserves as probable, since their recovery would depend on the planning and execution of a new project, which may or may not be economically viable. In this case, even though the reserves would almost certainly be available to the company, the economics involved in extracting them might reasonably lead the firm to decide not to bother with extraction.
+Probable Reserves compared to proven and possible reserves
+The Society of Petroleum Engineers recognizes three main categories of oil reserves based upon how likely an exploration and drilling company believes they are to be extracted. Possible reserves lie at the low end of the scale, with odds of commercial extraction under 50 percent, but greater than 10 percent. Proved reserves sit at the top of the scale, at a 90 percent or above likelihood of commercial extraction. The likelihood of recovery for probable reserves sits between possible and proved reserves.
+These categories help experts determine the fair market value  of a company’s reserves. The process involves application of a discount rate to expected cash flow from reserves based on the category into which they fall. Fair market valuations can help a company for planning and accounting purposes, but rules about what metrics oil companies must disclose to their investors vary among different countries. Most major oil and gas firms report proven reserves to help investors and analysts model future returns. Not all public companies necessarily report probable reserves, however.
+Among companies that do report probable reserves, the most common formulation uses a 2P valuation, which includes both proved and probable reserves. This is typically understood to be a best-case scenario for recovered liquids from the firm’s portfolio. Some companies also use a 3P equation, which uses the sum of proved, probable and possible reserves. Because of the low likelihood that some portion of a 3P estimate will get recovered, investors generally can consider it a high-end estimate of likely recoveries.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

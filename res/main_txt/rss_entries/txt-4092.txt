@@ -1,0 +1,83 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        A business taking over another promising business is a common occurrence in the corporate world. Such acquisitions, also called takeovers, are usually executed as part of company’s growth strategy and are made for any number of reasons. The acquiring company may be planning to diversify into a new sector or product line, or it may want to increase its market share and geographical outreach, reduce competition, or profit from patents and licensing that may belong to the acquired target company. Such acquisitions occur at domestic as well as global levels. Investopedia lists the top high-value acquisitions in global corporate history.
+Vodafone acquires Mannesmann AG
+In 1999, British multinational telecom company Vodafone Group (VOD) decided to buy German telecom giant Mannesmann AG. The long-running effort by Vodafone’s AirTouch PLC finally paid off in February 2000 when Mannesmann accepted its offer for a $180.95 billion acquisition, making the takeover the largest M&A deal in history. As the mobile market gained momentum across the globe and growth was at its peak, the large-value merger was expected to reshape the global telecommunications landscape. However, the deal was a failure and Vodafone was forced to write off billions of dollars in the following years.
+Verizon Communications acquires Verizon Wireless from Vodafone
+The second largest acquisition in history was worth $130 billion and took place in 2013, when Verizon Communications Inc. (VZ), a leading American multinational telecom conglomerate, took over Verizon Wireless, a dominant player in the U.S. wireless services market. Verizon Wireless came into existence in 1999 through a merger of Vodafone’s Airtouch and Bell Atlantic’s mobile division. As a part of the acquisition, Verizon Communications took full control of Verizon Wireless from the UK’s Vodafone, leading to the end of Vodafone’s 14-year long stint in the U.S. telecom market. The deal resulted in windfall gains for Vodafone investors as they pocketed £54.3 billion (around $87 billion).
+RFS Holdings Consortium acquires ABN Amro 
+One of the worst banking acquisitions was executed in the year 2007, when a consortium under the name of RFS Holdings acquired the Dutch-based banking giant ABN Amro prior to the global financial crisis of 2008. The three-bank consortium was led by Royal Bank of Scotland Group PLC (RBS), and was partnered by the Belgian-Dutch bank Fortis and Spanish banking group Banco Santander. The acquisition was worth $98 billion. As a part of the deal, RBS got ABN Amro's London investment banking business along with a few Asian operations. Fortis secured ABN Amro's Dutch banking, asset management, and private banking businesses, while Santander got assets in Italy and Brazil. Unfortunately, the bad timing in the lead-up to the 2008 financial crisis and the high deal price led to big problems for the acquirers. Fortis was nationalized, and RBS got two big bailouts that lead to the British Treasury owning two-thirds of the bank.
+Pfizer acquires Warner-Lambert
+In February 2000, Pfizer Inc. (PFE) announced its plans to acquire the Warner-Lambert Company for $90.27 billion in stock, making Pfizer the second largest drug company in the world. Pfizer's hostile takeover bid for Warner-Lambert was a result of latter’s top-selling cholesterol drug, Lipitor. Though Pfizer had commercial rights to Lipitor, it was splitting profits on the drug with Warner-Lambert. As the drug's sales grew, Warner-Lambert sued Pfizer in 1999 to end their licensing pact. Pfizer retaliated with a hostile takeover bid, and eventually acquired the company to gain full control of Lipitor. This deal is dubbed as one of the most successful pharma acquisitions ever.
+AT&T’s acquisition of BellSouth
+In December 2006, AT&T Inc. (T) secured regulatory approval for the $86 billion acquisition of BellSouth in what was the largest telecommunications merger in American history at the time. The deal helped rebuild AT&T, which was dismantled in 1984 into seven different local phone companies and one long distance company. The acquisition also brought Cingular Wireless completely under AT&T's control. Cingular was then the largest wireless provider in the United States and was a 60-40 joint venture between AT&T and BellSouth. This is cited as one of the most successful acquisitions to date, as market leader AT&T continues to derive significant gains from the mobile segment.
+The Bottom Line
+While acquisitions in the corporate world are common, not all of them lead to success. Most get executed during a bull run in the economy or a particular industry sector with an expectation of success. However, failures are inevitable for incorrectly executed deals, are attributable to multiple factors that may or may not be under the direct control of the entities involved. These include internal issues like cultural integration between the two companies, or macro-level problems like overall economic conditions and geopolitical issues. (See also, Biggest Merger and Acquisition Disasters.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

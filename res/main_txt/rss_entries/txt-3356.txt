@@ -1,0 +1,146 @@
+
+
+    
+                          What are the 'Rules of Fair Practice'
+
+      The Rules of Fair Practice is a code of conduct for U.S. broker-dealers that requires loyalty to and fair dealing with customers. Developed by the National Association of Securities Dealers and now administered by the Financial Industry Regulatory Authority (FINRA), the Rules of Fair Practice provide detailed guidelines on how brokers can adhere to its mission, which is to protect investors and to maintain the integrity of the market. The Rules of Fair Practice, which set and promote ethical standards, are in addition to the full range of legal requirements as specified by securities laws.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Financial Industry Regulatory Authority ...                     
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            NASD Rule 2790                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Securities Industry Regulatory ...                     
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Five Percent Rule                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      Breaking Down 'Rules of Fair Practice'
+      Put succinctly, the Rules of Fair Practice require broker-dealers to treat customers fairly and equitably. In a broad view, the Rules of Fair Practice cover the fair dealing, duty of loyalty, obligation of disclosure and other duties broker and dealers perform for their customers.
+Rules of Fair Practice: Prohibited Conduct
+With its Rules of Fair Practice FINRA places a number of restrictions on brokers and dealers. For example, brokers are prohibited from using information gleaned from a seller to solicit sales from other clients unless the seller explicitly approves such an action. The rules also cover several other unethical behaviors, such as churning, in which a broker creates an excessive amount of activity in a client account to generate outsized commissions.
+The Rules of Fair Practice also address fraudulent and deceptive practices. For example, trading ahead, which involves a broker executing trades for their firm's account while there are still customer order outstanding, is a prohibited practice. In addition, the rules forbid brokers from making trades in a customer account without their knowledge. Other prohibited actions include:
+Making performance guarantees, making short-term mutual funds trades or switching from one fund to another for no reason, or personally lending money to a client or borrowing money from a client.
+Recommending complex, high-risk products, such as derivatives, options and other risky securities until they know that a customer can afford a significant loss.
+Misrepresenting products, making blanket recommendations, selling dividends or omitting key facts about a security or investment product.
+For more, see FINRA's informational page on prohibited conduct.
+Rules of Fair Practice: Penalties
+Violation of the Rules of Fair Practice can lead to serious penalties for brokers and dealers. For example, brokers and dealers may be subject to fines, sanctions, restrictions to their practices, public censure of their behavior, the revocation of their FINRA membership or even a prohibition on associating with other FINRA members. FINRA publishes list of monthly and quarterly list of disciplinary actions taken against individuals or firms that violate its rules.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

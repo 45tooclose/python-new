@@ -1,0 +1,82 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Following the steady rally in the most popular cryptocurrency, bitcoin, ether appears all set to catch up. (For more, see Bitcoin Crosses $9,000 Again: A Good Sign?)
+Ether Surges past $700 Mark
+On Tuesday evening ET, the price of ether crossed a major milestone as it topped the $700 mark for the first time since mid-March. The second most valuable cryptocurrency managed to add around $33 billion market cap to its valuation, taking it to nearly $70 billion mark, all thanks to the late evening spike.
+Though bitcoin, the most popular cryptocurrency, is losing market share to its peers, it continues to advance further in terms of valuation. It too surged more than 6 percent on Tuesday as it continues to push towards the $10,000 mark. Market analysts believe that the bull run will continue in the short term, and many proponents continue to see stellar returns in the long run. (For more, see Bitcoin Will Hit $250K Within 4 Years: Tim Draper)
+Over the past 5 days, the two leading cryptocurrencies have seen their valuations surge in the range of 16 percent to 20 percent.
+
+Image Courtesy: TradingView
+Altcoins Rally with Big Gains
+The rally was across the board, as all major cryptocurrencies surged in the range of 7 percent to 26 percent on Tuesday. Among the top 10 cryptocurrencies by marketcap, EOS was the best performer that surged more than 26 percent on Tuesday, while IOTA was the weakest as it managed only a 4 percent upward run. Other popular coins, like ripple, bitcoin cash, litecoin, cardano, stellar and NEO were trading above 7 percent. Ripple, trading in the range of 0.93 per USD is expected to achieve dollar parity.
+Owing to the recent run-up in the prices of the various cryptocurrencies, their combined valuation stands at around  $430 billion, which brings it closer to the social media giant Facebook Inc. (FB) that has a market cap of around $465 billion.
+
+Image Courtesy: CoinMarketCap.com
+The spike was short-lived, and ether prices declined to the levels of $625 on Wednesday morning ET.
+Investing in cryptocurrencies and Initial Coin Offerings ("ICOs") is highly risky and speculative, and this article is not a recommendation by Investopedia or the writer to invest in cryptocurrencies or ICOs. Since each individual's situation is unique, a qualified professional should always be consulted before making any financial decisions. Investopedia makes no representations or warranties as to the accuracy or timeliness of the information contained herein. As of the date this article was written, the author owns no cryptocurrencies.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

@@ -1,0 +1,87 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        On May 15, 1940, a small restaurant called McDonald's opened near U.S. Route 66, at West 14th St and 1398 North E St. in San Bernadino. Seventy-eight years later, the enterprise boasts 70 million customers a day, all of them buying a burger or fries or chicken nuggets; is anyone else suddenly hungry?
+On the way to serving hundreds of billions, McDonald’s Corp. (MCD) has blazed multiple corporate trails since its 1955 incorporation. Franchising, institutionalized training — McDonald’s even had a mission statement long before mission statements were a thing. “Quality, Service, Cleanliness and Value” is self-explanatory, and McDonald’s has set standards for at least the first and fourth of those qualities. As legendary Michelin chef, Ferran Adria, once said of the Big Mac: “Ferran Adria and the 100 best chefs in the world cannot do better for the price.”
+The superlatives change from day to day, but the latest reports have McDonald’s employing 375,000 people (not counting franchise employees), and has over 36,000 restaurants in more than 100 countries. In May of 2017, McDonald's announced it would partner with Uber for home delivery for the first time in the U.S. The burger house made news in February of 2018 when it announced it would be cutting burgers for the long running "Happy Meal" menu in a bid to appeal to healthy eating critics. 
+Thick Margins
+The restaurant industry is infamous for its turnover, and as any restaurateur will tell you, one major reason is that the margins can be thinner than a slice of processed American cheese. Yet McDonald’s operating margins are Double Quarter Pounder-thick around 40%. How is that possible in a business whose very purpose is providing inexpensive food?
+Largely because the food is even cheaper to prepare than you might think. Some menu items — coffee, for instance — sell for dozens of times their cost. Note to people who think nothing of paying $4.44 for an iced mocha — you’re drinking a few pennies’ worth of beans, boiled in water that’s too cheap to measure, and some chocolate syrup. 
+Markets
+McDonald's differentiates four markets; U.S., International Lead Markets, High Growth Markets and Foundational Markets and Corporate. Each segment accounts for 35%, 32.2%, 24.2% and 8.5% of revenues respectively as of the company's most recent annual report. 
+U.S. — the Company's largest segment with revenues of $8 billion in 2017.
+International Lead Markets — established markets such as Australia, Canada, France, Germany, the U.K., and similar. This segment had $7.3 billion in revenues in 2017.
+High Growth Markets — markets McDonald's believes have a higher growth potential including China, Italy, Korea, Poland, Russia, Spain, Switzerland, the Netherlands, and similar. This segment had $5.5 billion in revenues in 2017.
+Foundational Markets & Corporate — the remaining markets. Corporate activities are also reported within this segment, and total revenues were $1.9 billion in 2017.
+Franchises
+McDonald’s has notoriously strict criteria for its franchisees (net worth, liquidity etc.). Franchisees are also responsible for paying salaries, ordering supplies and paying rent/owning the premises. In return, McDonald’s provides them with an almost guaranteed moneymaker. About 85% of restaurants are owned by franchisees, the rest by the corporation itself. As of their Q1 2018 report, the company's goal is to be around 95% franchised. 
+Leadership
+The company's net income in 2017 was $5.2 billion, which is up 11% from the previous year. In 2015, for the first time since the McDonald brothers sold their interest in the business to Ray Kroc, the company had something of a management crisis. Chief executive officer Don Thompson, a McDonald’s lifer and the hand-picked successor of legendary boss Jim Skinner, was sent packing barely two years into his tenure. Not only did annual income fall under Thompson, but the stock price stayed constant despite huge jumps in the Dow. 
+In April of 2017, three other key executives — the chief marketing officer, the vice president of menu strategy and the vice president of digital — were replaced. Most recently in May, CEO Steve Easterbrook announced that the company would partner with UberEATS for home delivery across the U.S. The partnership is part of a strategy to keep up with current trends, and the newer generations prefer home delivery over pickup, Easterbrook said.
+The Bottom Line
+Fast food should be as stable an industry as any. People need to eat, and often don’t want to spend unnecessarily — though the industry does face challenges relating to a shift in demand towards healthy eating. A restaurant chain that sells familiarity and consistency needs to recognize that those qualities themselves are enormous assets. Even when McDonald’s has an underperforming year, it’s still profitable. When operating at its peak, it’s a must-have stock in any comprehensive portfolio. 
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Deposit',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

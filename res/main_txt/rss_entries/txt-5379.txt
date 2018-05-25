@@ -1,0 +1,256 @@
+
+
+
+Ripple Faces Lawsuit for Securities Violations From Angry Investor
+A former XRP purchaser who presumably lost money in his investment is now suing Ripple for damages, alleging that it is selling unregistered securities.
+
+
+ by  Miguel
+Gomez,
+14 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  Ryan Coffey, an investor who appears to have made losses trading Ripple, filed a lawsuit against the company “on behalf of all investors who purchased Ripple tokens” on Thursday.
+The action starts out by summarizing how Ripple works, pointing out that 20% of the XRP supply was initially distributed by Ripple, with the remaining 80% kept by the company.
+It then proceeds with the allegations:
+
+“Defendants have since earned massive profits by quietly selling off this XRP to the general public, in what is essentially a never-ending initial coin offering (‘ICO’). [...] In order to increase demand for XRP, and thereby increase the profits it can derive by selling XRP, Ripple Labs has consistently portrayed XRP as a good investment, relayed optimistic price predictions, and conflated Ripple Labs’ enterprise customers with usage of XRP.”
+
+Coffey claims that Ripple violated the Securities Act because what it is selling is essentially a security that isn’t registered with the SEC. However, XRP’s status as a security is still under debate. In fact, the SEC still isn’t clear on which ICOs should be regulated as such or not, making this a landmark case that could potentially establish a legal precedent for future regulatory actions.
+
+Users on Reddit that discussed the case consider that Coffey is suing Ripple simply because he regrets a FOMO purchase of XRP that resulted in losses.
+User father_mucker jokingly asked, “Can I sue them as well for not mooning already?”
+
+“If loss of investment caused by FOMO is a legitimate case, then I guess all the people from December should start lining up with their lawyers for a payout,” wrote user Kenjiquest.
+
+In the filing, Coffey insists that XRP is a security because “purchasers reasonably expected to derive profits from their ownership” of it. However, the feeling that purchasers have about a product does not define what it is.
+Although Coffey feels wronged by Ripple, it’s likely that the SEC would have already acted against such a high-profile company by now if it thought it was violating any laws.
+This simple fact makes it unlikely that the lawsuit will reach any headway. However, if it does, we might see it used as a conduit by which the SEC would regulate the cryptocurrency market going forward. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 
+
+
+Tags
+
+Ripple News
+
+ 
+
+.tag-element .taghoverext {
+    display: inline-block;
+    width: 5px;
+    background: #ff8931 !important;
+    border-radius: 2px;
+    height: 26px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background:#454b50;
+    transition:all 0.3s;
+}
+.tag-element:hover .taghoverext {
+    width:100%;
+}
+.tag-element .tag-href {
+    position:relative;
+    z-index:2;
+    background:none !important;
+    margin-top:0px !important;
+    color:#959595 !important;
+}
+.tag-element .tag-href:hover {
+    background:none !important;
+}
+.tag-element:hover .tag-href {
+    background:none !important;
+    color:#fff !important;
+}
+.tag-element {
+    position:relative;
+    border-radius: 2px;
+    border: solid 1px rgba(206, 212, 218, 0.2);
+    height: 27px;
+    display: inline-block;
+}
+ 

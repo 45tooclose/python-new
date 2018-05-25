@@ -1,0 +1,263 @@
+
+
+    
+                        
+            
+                Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/Entrepreneur/SmallBusiness/IC-Video/Term");} else {return "/8397/INV-NA/Entrepreneur/SmallBusiness/IC-Video/Term";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/terms/c/costofequity.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/mYry11NI.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/mYry11NI-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/dimages/graphics/cost-of-equity.jpg?quality=80&width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "560",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "mYry11NI-G9NhEyAa.mp4";
+                
+          
+            document.addEventListener("DOMContentLoaded", function() {
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                        var initializeJWPlayerSetup = function () {
+                            if (new VideoInit().canRun()) {
+                                setUpJwpPlayer();
+                            } else {
+                                new VideoInit().callBack = setUpJwpPlayer;
+                            }
+                        }
+            initializeJWPlayerSetup();
+          });
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "mYry11NI-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "Cost of Equity",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };            
+          
+                    What is 'Cost Of Equity'
+
+      The cost of equity is the return a company requires to decide if an investment meets capital return requirements. It is often used as a capital budgeting threshold for required rate of return. A firm's cost of equity represents the compensation the market demands in exchange for owning the asset and bearing the risk of ownership. The traditional formulas for cost of equity (COE) are the dividend capitalization model and the capital asset pricing model.
+
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Market Risk Premium                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Capital Asset Pricing Model - CAPM                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Equity                     
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Debt Financing                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Cost Of Equity'
+      The cost of equity refers to two separate concepts depending on the party involved. If you are the investor, the cost of equity is the rate of return required on an investment in equity. If you are the company, the cost of equity is used to determine the required rate of return on a particular project or investment.
+Cost of Equity
+There are two ways in which a company can raise capital: debt or equity. Debt is cheap, but it must be paid back. Equity does not need to be paid back, but it generally costs more than debt due to the tax advantages of interest payments. Even though the cost of equity is higher than debt, equity generally provides a higher rate of return than debt. Analysts calculate the cost of equity with the dividend growth model and the capital asset pricing model (CAPM).
+Cost of Equity Models and Theory
+The dividend growth model is used to calculate the cost of equity, but it requires that a company pays dividends. The calculation is based on future dividends. The theory behind the equation is the company's obligation to pay dividends is the cost of paying shareholders and therefore the cost of equity. This is a limited model in its interpretation of costs. The capital asset pricing model, however, can be used on any stock even if the company does not pay dividends. That said, the theory behind CAPM is more complicated. The theory suggests the cost of equity is based on the stock's volatility and level of risk compared to the general market.
+The CAPM formula is: Cost of Equity = Risk-Free Rate of Return + Beta * (Market Rate of Return - Risk-Free Rate of Return).
+In this equation, the risk-free rate is the rate of return paid on risk-free investments such as Treasuries. Beta is a measure of risk calculated as a regression on the company's stock price. The higher the volatility, the higher the beta and relative risk compared to the general market. The market rate of return is the average market rate, which has generally been assumed to be 11 to 12% over the past 80 years. In general, a company with a high beta, that is, a company with a high degree of risk, is going to pay more to obtain equity.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

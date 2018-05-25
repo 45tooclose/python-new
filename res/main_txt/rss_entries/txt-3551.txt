@@ -1,0 +1,79 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Apple Inc. (AAPL) reports quarterly earnings after the closing bell on Tuesday, May 1, with the stock below quarterly, semiannual and quarterly risky levels, along with the challenge of a negative weekly chart. Most investors call Apple a value play, as they say that the P/E ratio is reasonable at 16.16. I liked Apple as a value stock when its P/E ratio was 12.00 and lower. Therefore, I now look at Apple as a momentum stock that has lost its mojo. A wildcard for investors would be a surprise special dividend, but that is a benefit for those with long-term core holdings.
+Analysts expect Apple to post earnings per share between $2.69 and $2.80 when the company reports results on Tuesday. Some say that the concerns surrounding sales of the iconic iPhone are real and that the company doesn't have another hot product to pick up the slack. In bean counting iPhone sales, the consensus estimate is for 53 million units sold in the first quarter of 2018 versus 62 million in the fourth quarter of 2017.
+Let's explore the daily and weekly charts for Apple and establish updated trading strategies. Apple closed Friday at $162.32, down 4.1% year to date and in correction territory at 11.5% below its all-time intraday high of $183.50 set on March 13. The stock is 8% above its Feb. 9 low of $150.24. (See also: Samsung's Warning Could Spell Bad News for Apple.)
+The daily chart for Apple
+Courtesy of MetaStock Xenith
+When Apple set its 2018 high of $183.50 on March 13, the stock closed that day below the March 12 low of $180.21 for what's called a "key reversal," which is a bearish warning. The stock is now below its 200-day simple moving average of $166.00, which indicates risk to my weekly value level of $154.80. As shown by the horizontal lines, my semiannual, quarterly and annual pivots are $170.50, $173.47 and $176.57, respectively.
+[Learn more about using simple moving averages to develop your trading strategy in Chapter 2 of the Technical Analysis course on the Investopedia Academy]
+The weekly chart for Apple
+Courtesy of MetaStock Xenith
+The weekly chart for Apple is negative, with the stock below its five-week modified moving average of $168.76. The stock is well above its 200-week simple moving average, which is the "reversion to the mean," at $126.06. Note how the "reversion to the mean" was a buying opportunity during the week of July 1, 2016, when the average was $93.31. The 12x3x3 weekly slow stochastic reading ended last week declining to 58.24, down from 61.27 on April 20.
+Based on this analysis, traders should buy Apple shares on weakness to my weekly value level of $154.80 and reduce holdings on strength to my semiannual, quarterly and annual pivots of $170.50, $173.47 and $176.57, respectively. (For more, see: Apple vs. Facebook: May the Best Stock Win.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Chartadvisor-Article'
+    });
+                    
+            
+                

@@ -1,0 +1,78 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        What does a Marvel villain have in common with an 18th century philosopher from England?
+In the new Walt Disney Company (DIS) movie "Avengers: Infinity War," superheroes scramble to stop a mighty figure known as Thanos from acquiring all the infinity stones and culling half of all living things in the universe. Thanos believes this is necessary to make the universe more balanced and prosperous. In the movies, his motivations are framed as noble and altruistic almost, but in the comic books he is told of the dangers of overpopulation by the personification of Death and looks to commit mass murder to impress her.
+Although he never owned a gem-studded gauntlet designed to wreak havoc, Cambridge University-educated scholar Thomas Robert Malthus also held strong beliefs about population growth. In 1789, he wrote in his bestselling book, "An Essay on the Principle of Population," that since population increases in a geometric ratio and food increases arithmetically, certain "checks," like poverty, plague and abstinence, stop unsustainable population growth. Malthus, who did not have the benefit of witnessing the Industrial Revolution, is largely derided today as a prophet of gloom and doom, and pop culture journalists love adding references to him in articles about Thanos.
+Can you tell whether these statements were made by classical economist Malthus or deranged environmental activist Thanos?
+ 
+Sources:
+"An Essay on the Principle of Population" by Thomas Robert Malthus
+Book Riot: 10 Thanos Quotes to Prepare for 'Avengers: Infinity War'
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

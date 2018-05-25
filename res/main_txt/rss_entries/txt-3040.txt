@@ -1,0 +1,181 @@
+
+
+
+    
+            
+            Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/Investing/Investing/IC-Video/FAQ");} else {return "/8397/INV-NA/Investing/Investing/IC-Video/FAQ";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/ask/answers/033015/what-difference-between-paidup-capital-and-share-capital.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/2iCdLYSo.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/2iCdLYSo-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/content/video/contrasting_paidup_/contrastingpaidupcapitalandsharecapital.png?width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "100%",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "2iCdLYSo-G9NhEyAa.mp4";
+                
+          
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                    var initializeJWPlayerSetup = function () {
+                        if (new VideoInit().canRun()) {
+                            setUpJwpPlayer();
+                        } else {
+                            new VideoInit().callBack = setUpJwpPlayer;
+                        }
+                    }
+          initializeJWPlayerSetup();
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "2iCdLYSo-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "Contrasting Paid-Up Capital And Share Capital",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };        
+    
+    
+          
+    A:
+            Companies issue shares of stock or equity for various reasons including to fund expansion or pay down debt. In this article, we'll explore the various terms that are used in the process of issuing stock to raise capital.
+Share Capital
+Share capital consists of all funds raised by a company in exchange for shares of either common or preferred shares of stock. The amount of share capital or equity financing a company has can change over time. A company that wishes to raise more equity can obtain authorization to issue and sell additional shares, thereby increasing its share capital.
+Share capital is only generated by the initial sale of shares by the company to investors and does not include shares being sold in a secondary market after they've been issued.
+Authorized Share Capital
+Authorized Share Capital is the maximum amount of share capital that a company is authorized to raise. This limit is outlined in its constitutional documents and can only be changed with the approval of the shareholders. Before a publicly traded company can sell stock, it must specify a certain limit to the amount of share capital that it is authorized to raise. 
+A company does not usually issue the full amount of its authorized share capital. Instead, some will be held in reserve by the company for possible future use. The amount of share capital or equity financing a company has can change over time. A company that wishes to raise more equity can obtain authorization to issue and sell additional shares, thereby increasing its share capital.
+Issued Share Capital
+Issued share capital is the total value of the shares a company elects to sell. In other words, a company may elect to only issue a portion of the total share capital with the plan of issuing more shares at a later date. Not all these shares may sell right away, and the par value of the issued capital cannot exceed the value of the authorized capital. The total par value of the shares that the company sells is called its paid share capital. This is what most people refer to when speaking about share capital. Issued share capital is simply the monetary value of the portion of shares of stock a company actually offers for sale to investors. 
+Paid-Up Capital
+Paid-Up Capital is the amount of money a company has been paid from shareholders in exchange for shares of its stock. Paid-up capital is created when a company sells its shares on the primary market, directly to investors. Paid-up capital is important because it's capital that is not borrowed. A company that is fully paid-up has sold all available shares and thus cannot increase its capital unless it borrows money by taking on debt. Paid-up capital can never exceed authorized share capital. In other words, the authorized share capital represents the upward bound on possible paid-up capital. 
+Characteristics of Paid-Up Capital
+Paid up capital doesn't need to be repaid which is a major benefit of funding business operations in this manner. Also called paid-in capital, equity capital or contributed capital, paid-up capital is simply the total amount of money shareholders have paid for shares at the initial issuance. It does not include any amount that investors later pay to purchase shares on the open market.
+Paid-up capital may have costs associated with it. In capital budgeting, paid-up capital is most often referred to as equity capital. In the great debate on the relative benefits of debt versus equity, the absence of required repayment is among equity's main advantages. However, shareholders expect a certain amount of return on their investments in the form of capital gains and dividends. While the business is not required to return shareholder investment, the cost of equity capital can still be quite high.
+Paid-up capital is listed under stockholder's equity on the balance sheet. This category is further subdivided into the common stock and additional paid-up capital sub-accounts. The price of a share of stock is comprised of two parts: the par value and the additional premium paid that is above the par value. The total par value of all shares sold is entered under common stock, while the remainder is assigned to the additional paid-up capital account.
+Paid-up capital can be used in fundamental analysis. Companies that utilize large amounts of equity funding may carry lower amounts of debt than companies that do not. A company with a debt to equity ratio that is lower than the average for its industry may be a good candidate for investing because it indicates prudent financial practices and a decreased debt burden relative to its peers.
+Finding Authorized Vs. Paid-Up Capital
+The amount of authorized share capital must be listed in the company's founding documents. Any time the authorized share capital changes, these changes must be documented and made public.
+Paid-up capital can be found or calculated in the company's financial statements. The Securities and Exchange Commission (SEC) requires publicly traded companies to disclose all sources of funding to the public.
+For more on this topic, please read The Basics of Outstanding Shares and the Float, Issued versus Subscribed Share Capital, and the Difference Between Authorized and Outstanding Shares.
+        
+    
+
+    
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'FAQ'
+    });
+                

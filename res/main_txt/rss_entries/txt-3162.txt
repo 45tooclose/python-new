@@ -1,0 +1,146 @@
+
+
+    
+                          What is a 'Deferred Month'
+
+      A deferred month, or months, are the latter months of an option or futures contract. A deferred month is a significant term for futures and options markets traders, enabling market participants to distinguish between differing months of a contract. 
+
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Deferred Option Month                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Nearby Month                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Back Months                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Deferred Billing                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Deferred Month'
+      
+A futures contract is an agreement to buy an asset at an agreed upon date, while an option contract bestows the option, but not the obligation, to buy or sell an asset at an agreed upon time. Futures and options contracts are popular in markets for commodities like oil or wheat, because producers and consumers need to protect themselves against future swings in prices.
+Futures and options markets are also popular with sophisticated investors hoping to leverage complicated trading techniques and exotic products to make a profit. One such strategy is futures spread trading, in which traders make bets on the spread between the value of a commodity in the nearby month and the deferred months of a contract.
+For example, if it is May, and you buy an oil futures contract for July delivery, then the months of June and July would be the deferred months. The month of May would is the nearby month. Fast-forward to June. At this point, June is the nearby month, and only July is now the only deferred month.
+Use of Deferred Months in Futures Spread Trading
+For example, if a trader wanted to bet that the price of oil will fall in the future because he expects the global economy to slow, he could short sell oil futures contracts. But such bets are very risky, and the trader stands to lose a lot of money if oil prices remain steady or rise.
+To make the same bet, but to hedge some of the risks of the trade, the investor may decide to execute a futures spread position, whereby he sells oil in the nearby month but buys contracts for oil in the deferred months. This strategy works because price swings tend to be greater for nearby months and more stable in the deferred months.
+For example, suppose that it’s May and oil is trading at $60 a barrel. The trader sells short a futures contract for delivery of oil at $60 in the nearby month of June but, buys contracts for oil at $61 per barrel to be delivered in July. If the trader’s instinct is right, and oil falls to $55 a barrel before the June execution date, he pockets the $5 difference.
+Some of that profit is reduced by the July delivery, deferred month, contract when the price fell to $59 per barrel. But, because the price changes in the nearby month are more significant than in the deferred month, he will still make money.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

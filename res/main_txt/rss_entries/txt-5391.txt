@@ -1,0 +1,144 @@
+
+
+    
+                          What is 'Identity Theft'
+
+      Identity theft is the crime of obtaining the personal or financial information of another person for the sole purpose of assuming that person's name or identity to make transactions or purchases. Identity theft is committed in many different ways. Some identity thieves sift through trash bins looking for bank account and credit card statements; other more high-tech methods involve accessing corporate databases to steal lists of customer information Once they have the information they are looking for, identity thieves can ruin a person's credit rating and the standing of other personal information.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Synthetic Identity Theft                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Social Identity                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Medical Identity Theft                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Phishing                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Identity Theft'
+      Types of identity theft include criminal, medical, financial and child identity theft. In criminal identity theft, a criminal misrepresents himself as another person during arrest to try to avoid a summons, prevent the discovery of a warrant issued in his real name or avoid an arrest or conviction record. In medical identity theft, someone identifies himself as another person to obtain free medical care. In financial identity theft, someone uses another person's identity or information to obtain credit, goods, services or benefits. This is the most common form of identity theft.
+In child identity theft, someone uses a child's identity for various forms of personal gain. This is common, as children typically do not have information associated with them that could pose obstacles for the perpetrator, who may use the child's name and Social Security number to obtain a residence, find employment, obtain loans or avoid arrest on outstanding warrants. Often, the victim is a family member, child of a friend or someone else close to the perpetrator.
+High-Tech Identity Theft
+Identity thieves increasingly use computer technology to obtain other people's personal information for identity fraud. To find such information, they may search the hard drives of stolen or discarded computers; hack into computers or computer networks; access computer-based public records; use information gathering malware to infect computers; browse social networking sites; or use deceptive emails or text messages.
+Identify Theft Protection
+Many types of identity theft can be prevented. One way is to continually check the accuracy of personal documents and promptly deal with any discrepancies. Lots of businesses provide products that help people avoid and mitigate the effects of identity theft. Typically, such services provide information helping people to safeguard their personal information; monitor public records, as well as private records such as credit reports, to alert their clients of certain transactions and status changes; and provide assistance to victims to help them resolve problems associated with identity theft. In addition, some government agencies and nonprofit organizations provide similar assistance, typically with websites that have information and tools to help people avoid, remedy and report incidents of identity theft.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

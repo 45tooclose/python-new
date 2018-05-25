@@ -1,0 +1,107 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Small-cap stocks are considered riskier than large caps or even mid caps. Of course, this means that smaller stocks have greater potential to make profits for investors.
+This does not mean that you should buy risky stocks randomly. Some due diligence will help you find winners that can overcome the risks to move higher and provide you with good returns. (See also: An Introduction to Small-Cap Stocks.)
+We have selected four top small-cap stocks that are already winners and that look like they offer a good possibility for more growth. Let's look at these four stocks more closely to see what is driving their prices. All figures are current as of May 3, 2018.
+Lithia Motors, Inc. (LAD)
+This company is an automobile retailer. It earns its living selling new and used cars, as well as warranties, parts, insurance and maintenance services. The company operates in three divisions – imports, luxury cars and domestic vehicles – and it offers more than 30 brands of automobiles. The stock is trying to leave the small-cap category as it moves upward, giving the company a market capitalization of $2.374 billion.
+After a drop in February through April 2017, the stock started climbing again in a high-volume breakout. Following a brief downturn in October 2017, the stock headed upward again, reaching a high of nearly $128 in January 2018 before returning to current levels of $95.08. After an extended period with the 50-day moving average exceeding the 200-day moving average, the recent declines have the short-term moving average on the verge of crossing below its longer-term counterpart, which suggests that investors should be cautious about additional declines. However, the company's solid return on equity and attractive valuation continue to make Lithia Motors a potentially strong small-cap pick. (See also: Lithia Motors Q3 Earnings Miss, Revenues Top Estimates.)
+Average Volume: 329,475
+Market Cap: $2.374 billion
+P/E Ratio (TTM): 9.76
+EPS (TTM): $9.75
+Dividend and Yield: $1.16 (1.21%)
+The Brink's Company (BCO)
+This is the famous armored car company. Apparently, transferring cash has been earning cash for Brinks. Income has been climbing for the past four quarters. Of course, the company performs more high-tech tasks than merely driving sacks of money around. It also provides "intelligent" safes, offers cash management services, processes bill payments and designs security systems.
+The chart shows that Brink's stock had a high-volume breakout in early February 2017 and followed through with several more up days. It has climbed since then, rising sharply again in July and to start 2018. This is a confirmed uptrend that is part of an already existing uptrend that began in July 2016. Investors would be wise to buy on low-volume pullbacks, which are nearly inevitable. The stock declined along with the broader market in February 2018 and has struggled to post gains since then. With a solid growth outlook driven by management's plans to build on its success in emerging markets, it may be a good time to buy Brink's shares. (For more, see: Top 3 Growth Stocks for 2018.)
+Average Volume: 489,431
+Market Cap: $3.722 billion
+P/E Ratio (TTM): 225.77
+EPS (TTM): $0.33
+Dividend and Yield: $0.60 (0.80%)
+Spectrum Pharmaceuticals Inc. (SPPI)
+Spectrum is a biotech company, so there is added risk here. Biotech stocks can soar or sink based on a single product. Spectrum Pharmaceuticals has six products, none of which you may have heard of because they are for the treatment of cancer and some exotic diseases. The company also has some significant licensing agreements, and it collaborates with other drug companies.
+This small-cap stock had a high-volume breakout in November 2016, and after moving sideways for a while, it moved sharply higher. The stock price soared again at the end of September 2017 on news that lung cancer drug poziotinib showed success in early clinical trials. More positive news on the drug sent the stock even higher in October. Despite these 2017 gains, this biotech play could still be a winner in 2018 for investors who believe that the stock has more room to run. (See also: Spectrum Q2 Loss Narrower Than Expected, Sales Beat.)
+Average Volume: 1,559,459
+Market Cap: $1.619 billion
+P/E Ratio (TTM): N/A
+EPS (TTM): -$1.07
+Dividend and Yield: N/A (N/A)
+Axcelis Technologies, Inc. (ACLS)
+This is a semiconductor company that sells equipment to manufacturers of semiconductor chips. The stock dropped precipitously in November 2016 but recovered immediately and began to march higher.
+Axcelis has a product called Purion that is finding great demand. In September 2017, the stock price skyrocketed in response to the company obtaining large orders for its Purion systems from several top chip makers, and the stock's significant gains continued through October 2017. The stock price ticked downward at the end of November and into December, and it continued its decline in the first months of 2018, possibly owing to profit taking after the strong performance. However, the company's solid positioning suggests a chance for continued upside. (For more, see: The Industry Handbook: The Semiconductor Industry.) 
+Average Volume: 365,765
+Market Cap: $689.279 million
+P/E Ratio (TTM): 5.64
+EPS (TTM): $3.80
+Dividend and Yield: N/A (N/A)
+The Bottom Line
+Too often, investors see a stock with a long winning streak and assume that they missed the time to get in. However, buying small caps that are trending upwards can be a winning strategy. Stocks that have been moving upward for an extended period and then experience a pullback – as is the case for several small-cap stocks on our list – may present even more lucrative buying opportunities. (For additional reading, check out: Small Cap Investing: How to Think About Illiquidity.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

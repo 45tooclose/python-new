@@ -1,0 +1,145 @@
+
+
+    
+                          What is a 'Fractional Share'?
+
+      A fractional share is a share of equity that is less than one full share. Fractional shares may be the result of a stock splits, dividend reinvestment plans (DRIPs), or similar corporate actions. Typically, fractional shares cannot be acquired from the market, and while they have value to the investor, they can be difficult to sell.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Fractional Reserve Banking                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Dividend Reinvestment Plan - DRIP                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Reinvestment Risk                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Decimalization                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Fractional Share'
+      The only way to sell fractional shares is through a major brokerage firm who can pair them with other partial shares until a whole share can be attained. If the selling stock does not have a high demand in the market place, selling the fractional shares might take longer than expected.
+Shares Resulting from a Stock Split
+Fractional shares can be created in a situation where a company has a 3-for-2 stock split. Suppose you have three shares of XYZ Corporation, and XYZ has a 3-for-2 stock split. In this case, you should get an extra 1 1/2 shares, which would be 4 1/2 shares in total. Typically, a half a share cannot be bought on the stock market; however, in this case, it might be possible to obtain a fractional share. Most companies tend to round up to the nearest whole number of shares when fractional shares occur. In the above example, XYZ Corporation could opt to round up the 1/2 share to leave five shares.
+Shares Resulting from a Merger or Acquisition
+Another scenario where fractional shares can be acquired is from a merger or acquisition between two companies. In this scenario, the combined new common stock shares are often calculated using a predetermined ratio. Shareholders usually obtain either a fractional share of the new common stock or cash in lieu of the fractional shares.
+Mutual Fund Fractional Shares
+Mutual fund investors often reinvest both dividends and capital gains distributions. This often leaves the investor with fractional mutual fund shares. Unlike stocks that trade instantaneously on an exchange, mutual fund fractional shares are much easier to sell. Since mutual funds are often reinvested and sold at the end of the market day, brokerage firms find it easy to compile fractional shares.
+Partial or Odd-Lot Bonds
+It is much less common that an investor will have an odd number of bonds. Individual bonds are usually sold in increments, such as by 10s, 20s, 25s, 50s or 100s. Selling 11 bonds on the marketplace will often lead to a sell order not being filled or inaccurate pricing. It is often difficult to buy bonds that are not sold in increments. However, this might occur if an individual inherits bonds. If an investor were to inherit half of 25 bonds, that would be an odd lot of 12 1/2 bonds. If the newly inherited bonds are to be sold, they would be required to be packaged in a lot of 10. The remaining 2 1/2 bonds would need to be packaged with other partial bonds to be sold.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

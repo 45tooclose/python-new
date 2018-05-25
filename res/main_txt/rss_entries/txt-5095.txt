@@ -1,0 +1,145 @@
+
+
+    
+                          WHAT IS 'Buyer's Call'
+
+      A buyer’s call is an agreement between a buyer and seller whereby a commodity is purchased at a specific price above a futures contract for an identical grade and quantity. Also known as a call sale, the agreement gives the buyer the option to fix the price of the commodity by either purchasing a futures contract from the seller or indicating to the seller the time at which the price of the transaction will be set. 
+There are two types of options: calls and puts. A call option increases in value if the price of the underlying commodity rises. It gives an investor the right to buy the commodity at a predetermined price within a certain time frame. A put option functions similarly, but it increases in value if the price of the underlying commodity falls.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Seller's Call                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Buyer's Option                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Buyer's Market                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            WHAT IS Seller Financing                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Buyer's Call'
+      A buyer's call is used instead of buying the commodity on the spot market because of the possibility that its price will depreciate. The spot is a market for financial instruments such as commodities, which are traded immediately or on the spot.
+A buyer’s call occurs when a buyer needs a commodity that the seller has in stock. However, the buyer does not need the commodity immediately; instead, both parties agree to delivery at a later date. Binding that agreement is the futures contract on the specific commodity that both the buyer and seller agree to. 
+The transaction itself is done at a price above a futures contract. A buyer’s call satisfies the immediate requirement of a commodity by the buyer and the seller gets in exchange a futures contract that would recoup his inventory for the commodity at a later date. The commodity needs to match in both quantity and quality.
+Example of a Buyer’s Call
+A buyer that needs 10 barrels of sweet crude oil today could purchase them on the spot market for $50 per barrel. However, if that same buyer does not need the oil for another six months, a buyer’s call would allow the buyer to enter a contract with an oil company that has the oil.
+By entering into the call, the buyer would either offer to buy a six-month future contract from the oil company in exchange for the barrels of oil, or offer to buy 10 barrels of oil at some point in the future at a fixed market price. In this scenario, the oil company would be able to make a profit from the buyer’s purchase while still obtaining their required amount of oil six months in the future.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

@@ -1,0 +1,77 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        [OPINION: The views expressed by Investopedia columnists are those of the author and do not necessarily reflect the views of the website.]
+Consumers have begun to run ahead of themselves, threatening the recovery’s durability. Perhaps because incomes have accelerated so dramatically over the past 14-15 months, households have dispensed with their former caution and increased their spending even faster. They have less of a relative surplus than before for savings, which have declined as a percent of after-tax income to levels not seen since 2007. If households keep up this behavior, and it looks as though they will, the sector in not too long a time will confront a new round of debt excesses that, if not as severe as in 2008, will nonetheless require a retrenchment sufficient to precipitate a recession, perhaps as soon as 2019.
+This recent behavior makes for quite a dramatic departure from the patterns maintained through much of this long recovery. For most of the time since 2009, consumers have proceeded with extreme caution. When their spending outpaced their income growth, they promptly slowed down, adjusted that spending back so that they could maintain historically high rates of savings. In 2010, for example, when the recovery first gained some momentum, and savings rates fell for a while below 5 percent of after-tax incomes, consumers slowed this spending in 2011 and 2012 so that by the end of that period savings rates rose above 7 percent. When again in 2013, spending growth outpaced of income and savings rates again fell below 5 percent, consumers pulled back so that savings rates by 2015 again rose above 6 percent. This cautious behavior contributed to the maddeningly slow pace of the overall recovery, but also prolonged the expansion by ensuring no excesses developed that would need the kind of corrections that lead to recessions.
+Last year, however, this pattern changed. Incomes accelerated dramatically. In 2016, overall income increased by a mere 1.6 percent, but in the 15 months since, it has grown at an annualized rate of 4.0 percent. Similarly, employee compensation, which grew at a mere 1.1 percent in 2016, jumped at a 4.6 percent annualized rate during this most recent period. Little of this income went to savings. Instead, spending surged at a still faster pace so that savings rates by late 2017 fell below 2 ½ percent. Savings rates have risen above 3 percent in the opening months of 2018, but that reflects consumer attitudes less than the one-time surge in the growth of after-tax income from the tax cuts passed late last year. Were it not for this one-time effect, the savings rate would have remained well below 3 percent.
+Households could, of course, return to their former caution. But that seems unlikely given how things have played out since the beginning of 2017. If as is likely, then, this more aggressive pattern of spending behavior persists, households will face debt excesses by mid-to-late 2019. That would not lead immediately to recession.  These matters are more elastic and less mechanical than that. They could, in fact, stretch into 2020. But the pattern cannot go on indefinitely. The longer it persists, the more pressure for a correction will build and the greater the likelihood of recession. If it is impossible to pinpoint an exact date, it should be easy to conclude that this long and sometimes frustrating recovery is entering its final stage.
+Milton Ezrati is an economist and author who has worked in the financial services industry for decades and currently serves as chief economist of Vested.
+ 
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '',
+     'leadGenVertical' : '',
+     'leadGenLayout' : '',
+     'leadGenPage' : ''
+    });
+                    
+            
+                

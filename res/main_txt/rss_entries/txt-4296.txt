@@ -1,0 +1,58 @@
+
+
+
+    
+    
+    
+          
+    A:
+            Shares outstanding and floating stock are different measures of the shares of a particular stock. Shares outstanding is the total amount of shares that are held by all its shareholders. Conversely, floating stock is the number of shares that are available for trading of a stock.
+Difference Between Shares Outstanding and Floating Stock
+Outstanding shares are all the shares of a public company that have been authorized and issued. Investors who purchase and hold shares of a public company have rights and ownership of the company. They are initially determined by the implementation of an initial public offering (IPO) and can be owned by business insiders, individual investors and institutional investors. Outstanding shares is generally not a static number and will increase if a company issues additional shares or if convertible securities are exercised.
+Contrary to outstanding shares, floating stock indicates the number of shares of a particular company that are available for trading.  Shares that have been given or sold to owners of the company, members of the board of directors, or family members of company executives or board members are excluded from the float number, as these shares are typically restricted. The shares owned by business insiders are held for an extended period of time and do not trade often.
+Restricted stock refers to the shares of a company that could only be traded in compliance within Securities and Exchange Commission (SEC) regulations. To calculate the number of shares available for trading, subtract restricted stock of a company from its total outstanding shares. 
+For example, as of Feb 1, 2018, based on trailing 12-month data, Tesla Motors Incorporated (TSLA) has shares outstanding of 168.87 million. This figure represents all of the company's stock held by its shareholders. Tesla has 125.51 million shares of floating stock; 43.36 million shares are restricted stock and closely held by insiders, employees and major shareholders. Tesla has floating stock that is 74.32% of its total shares outstanding.
+The Bottom Line
+When deciding whether to invest in a particular company, be aware of both the number of outstanding shares as well as the float. If the float is close to the number of outstanding shares, it could mean that company insiders are not completely committed to increasing the price of the company's stock. However, this scenario could also reduce the fear of large insider trades that could affect a stock's price in a negative way. Conversely, if the float is small and the majority of stocks are owned by insiders, a sell-off could pose a threat to stock price for common shareholders.
+        
+    
+
+    
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'FAQ'
+    });
+                

@@ -1,0 +1,52 @@
+
+“I [used to think] Bitcoin’s great, Ethereum’s great, those people in financial services probably don’t know what they’re doing. I’m much more humble now. They know what they are doing.” So said Shaul Kfir, chief technology officer at Digital Asset. It was a refreshing admission that the cryptocurrency community is suffering from the arrogance of youth. Those old fogeys in traditional financial institutions just might know a thing or two that they don’t. 
+If only others were as humble. Just as Kfir made his remarks, a new post went up on Medium that said it answered "15 claims against Lightning." It was written by pseudonymous “Cryptoconomy,” who also produces a podcast. 
+ 
+  
+   
+  
+  
+   
+    
+    KRAKOW, POLAND - 2018/04/08: A Bitcoin Embassy ATM seen at the train station in Krakow. Bitcoin is currently the most popular cryptocurrency in circulation. (Photo by Omar Marques/SOPA Images/LightRocket via Getty Images) 
+    
+   
+  
+ 
+Lightning is the second-layer network that Bitcoiners hope will eventually make Bitcoin usable as a mainstream medium of exchange. It is a complex system which is poorly understood both outside the Bitcoin community and, unfortunately, within it. So, this piece starts off with a useful layman’s explanation of how Lightning works. And it then attempts to address some of the technical misunderstandings of the system. I disagree with some of the conclusions – for example, I think that if Lightning is to function efficiently as a medium of exchange, it will end up being considerably centralized. But this is a matter of opinion. Thus far, it’s a useful post. 
+ 
+  
+But when it reaches point #10, it goes badly off the rails. Firstly, it claims that “Lightning is not an IOU.” Now, whether or not Lightning channels are IOUs is a contentious issue. When you commit funds to a Lightning channel, are you lending those funds to the other party? When someone makes a multi—hop payment using your funds “in passing,” have they borrowed those funds? These are not technical questions, they are legal ones. 
+I hoped to read a reasoned case explaining why committing funds to a Lightning channel isn’t lending, and why multi-hop payments don’t involve borrowing. But that’s not what the piece does. Instead, it constructs a straw man about banks: 
+ 
+ 
+ A traditional IOU is often an empty promise with no guarantee. It screams of the current banking system, they tell me they will pay me back, but I have no idea if they can and no way to enforce their promise if they fail to keep it. I am wholly at the bank’s mercy and competence. In short, we would never want to build the new financial system on the same weak promises that have undermined the legacy system and drowned it in debts that are impossible to pay back. 
+ 
+IOUs can be, and often are, entirely backed by collateral. Mortgages, for example, are loans that are fully backed by property assets. Furthermore, in the U.S. and Europe, deposits in banks are fully guaranteed up to a limit. In the U.S., you can put up to $250,000 in a bank account in the certain knowledge that you will get it back. In Europe, the limit is lower – currently €100,000 or the equivalent in local currency. But it’s still high enough for most purposes. To say that there is “no guarantee” for bank deposits is, to use the article’s own terminology, FUD. 
+The article then goes on to demolish its straw man: 
+ 
+ So if we take a close look at all the pieces involved in the commitment transaction, but still insist on using the IOU language, here’s my best description of Lightning. It is a mutually agreed upon Bitcoin smart contract that can be updated only with the express consent of both parties…. 
+ 
+Just like a bank loan or deposit then, except that the contract is a piece of code instead of a piece of paper. 
+ 
+ It has confirmed, on-chain proof-of-reserves; 
+ 
+Just like a mortgage, then. Or a bank deposit account that is backed by a fully-funded deposit insurance scheme. 
+ 
+  it has a wait time for withdrawal if only one party is present 
+ 
+Why should I have to wait until the other party is open for business in order to withdraw my funds? Back in the olden days, I couldn’t withdraw my funds if my bank was closed. But now, technology (ATMs, online banking) enables me to withdraw my funds and make payments whenever I want, regardless of whether my bank is open for business. Lightning’s “wait time” is hardly progress. 
+ 
+  it has a built-in insurance policy in the case of dispute 
+ 
+Just like a deposit account, then. 
+ 
+ and it has a punishment clause for any party that initiates an attempt to rescind an updated and signed version of this contract. 
+ 
+Yes, so does a bank account. The only difference is that the recourse is to the courts. I agree automating this might be clever. 
+So now we’ve established that there is no significant difference between a Lightning channel and a bank deposit account, can we agree that Lightning channels are IOUs? 
+Apparently not: 
+ 
+ This is not exactly an agreement that I would simplify to a label as unenlightened as “an IOU.” 
+ 
+It’s not enlightened to call something a duck, even if it waddles like a duck and quacks like a duck. Right.

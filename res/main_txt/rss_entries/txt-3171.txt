@@ -1,0 +1,258 @@
+
+
+    
+                        
+            
+                Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/Investing/Investing/IC-Video/Term");} else {return "/8397/INV-NA/Investing/Investing/IC-Video/Term";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/terms/w/washsalerule.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/K2lZF9Cb.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/K2lZF9Cb-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/dimages/graphics/wash_sale_rule.png?width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "560",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "K2lZF9Cb-G9NhEyAa.mp4";
+                
+          
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                    var initializeJWPlayerSetup = function () {
+                        if (new VideoInit().canRun()) {
+                            setUpJwpPlayer();
+                        } else {
+                            new VideoInit().callBack = setUpJwpPlayer;
+                        }
+                    }
+          initializeJWPlayerSetup();
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "K2lZF9Cb-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "Explaining the Wash Sale Rule",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };            
+          
+                    What is the 'Wash-Sale Rule'
+
+      The wash-sale rule is an Internal Revenue Service (IRS) regulation established to disallow a tax deduction for a security sold in a wash sale. The rule defines a wash sale as one that occurs when an individual sells or trades a security at a loss and, within 30 days before or after this sale, buys a “substantially identical” stock or security, or acquires a contract or option to do so. A wash sale also results if an individual sells a security, and the spouse or a company controlled by the individual buys a substantially equivalent security.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Wash Trading                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Capital Loss                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Bond Washing                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Robo Tax Loss Harvesting                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Wash-Sale Rule'
+      The intent of the wash-sale rule is to prevent taxpayers from claiming artificial losses. Conversely, if a taxpayer were to see a gain by selling securities and within 30 days buy identical replacement securities, the proceeds from that transaction would still be taxable. The sale of options, which are quantified the same ways as stocks, at a loss and reacquisition of identical options in the 30 day timeframe would also fall under the terms of the wash-sale rule. So the wash-sale period is actually 61 days, consisting of the 30 days before to 30 days after the date of sale.
+For example, you buy 100 shares of XYZ tech stock on November 1 for $10,000. On December 15, the value of the 100 shares has declined to $7,000, so you sell the entire position to realize a capital loss of $3,000 for tax deduction purposes. On December 27 of the same year, you repurchase the 100 shares of XYZ tech stock back again to reestablish your position in the stock. The initial loss will be not be allowed since the security was repurchased within the limited time interval.
+What Constitutes a Wash Sale
+Stocks or securities of one company are generally not considered substantially identical by the IRS to those of another. As well, bonds and preferred stock of a company are also ordinarily not considered substantially identical to the company’s common stock. However, there may be circumstances in which preferred stock, for example, may be considered substantially identical to the common stock. This would be the case if the preferred stock is convertible into common stock without any restriction, has the same voting rights as the common stock, and trades at a price close to the conversion ratio.
+ 
+If the loss is disallowed by the IRS because of the wash sale rule, the taxpayer has to add the loss to the cost of the new stock, which becomes the cost basis for the new stock. For example, consider the case of an investor who purchased 100 shares of Microsoft for $33, sold the shares at $30, and within 30 days bought 100 shares at $32. In this case, while the loss of $300 would be disallowed by the IRS because of the wash sale rule, it can be added to the $3,200 cost of the new purchase. The new cost basis therefore becomes $3,500 for the 100 shares that were purchased the second time, or $35 per share.
+However, there are some simple techniques that you can use to keep yourself in the market until the wash-sale period has expired. Using the fictional-company example above, if you sold your 100 shares of XYZ tech stock on December 15, you could purchase a tech exchange-traded fund (ETF) or tech mutual fund to retain a similar position in the technology sector, although this strategy does not entirely replicate the initial position. When the 30-day period has passed, sell the fund or ETF and then repurchase your XYZ stock if you so desire. Of course, the initial stocks can be repurchased prior to the end of the 30 day period, but the tax deductions will not be realized.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

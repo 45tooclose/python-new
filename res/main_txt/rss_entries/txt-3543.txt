@@ -1,0 +1,149 @@
+
+
+    
+                          What is 'Down Volume'
+
+      Down volume occurs when a security’s price decreases with a high volume of trading. Down volume is a trading scenario that may also be referred to as down on volume.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Up Volume                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Uptick Volume                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Dollar Volume Liquidity                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Market Momentum                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Down Volume'
+      Down volume refers to high volume trading that affects the stock negatively. Down volume is the opposite of up volume in which a security’s price increases with higher volume. Down volume indicates bearish trading while up volume indicates bullish trading.
+Volume
+Volume is one market factor that can influence the price of a security. Volume is defined by the number of shares of a security traded over a specified period of time. Generally, traders will watch the volume of a security from day to day, referring to days when a price decreases as down volume days.
+There are numerous factors that can influence volume. Down volume days are typically influenced by negative news about a stock directly or news influencing the stock indirectly. Lower than expected earnings reports or negative news about a company’s sales, management or management decisions can cause a high volume of trades in what may be known as a selloff. In a selloff the majority of volume trading is to the downside meaning investors are rapidly selling versus buying which has a negative effect on price. Generally high-volume days can be heavily influenced by noise traders who are non-professional traders that tend to trade more often when high profile news about a company is released. Trading from noise traders can cause more drastic negative effects on the stock than necessary which can at times create a buy opportunity from overselling.
+Volume Indicators
+There are several indicators traders can watch to interpret volume and understand its effects on a security’s price. Three of the most popular indicators are volume weighted average price (VWAP), Positive Volume Index (PVI) and Negative Volume Index (NVI).
+The volume weighted average price is a trendline drawn from a moving average of the following calculation:
+VWAP = (Security Shares Bought x Security Share Price) / Security Shares Bought
+Traders monitoring volume’s influence on price will typically watch for a VWAP cross. When a VWAP cross spikes to the downside and crosses over a security’s candlestick pattern it is a sign of down volume selling. If this pattern is detected it can be an early indicator of a bearish trend in a security’s price. Traders typically seek to benefit from this signal by selling to take advantage of a falling price.
+Traders may also follow the Positive and Negative Volume Indexes. These indexes are calculated from the following:
+PVI: If current volume is greater than the previous day's volume, PVI = Previous PVI + {[(Today's Closing Price-Yesterday's Closing Price)/Yesterday's Closing Price)] x Previous PVI}. If current volume is lower than the previous day's volume, PVI is unchanged. NVI: If current volume is less than the previous day’s volume,
+NVI = Previous NVI + {[(Today's Closing Price-Yesterday's Closing Price)/Yesterday's Closing Price)] x Previous NVI}. If current volume is higher than the previous day's volume, NVI is unchanged.
+These indicators also show volume is affecting price. If the PVI is decreasing it is another sign of down volume.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

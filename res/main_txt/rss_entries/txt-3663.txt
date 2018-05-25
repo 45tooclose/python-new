@@ -1,0 +1,146 @@
+
+
+    
+                          What is 'Depth'
+
+      Depth is a market measure that shows the ability of a security to absorb buy and sell orders without the stock price dramatically moving in either direction. Depth is closely related to the liquidity of the market. A deep market can be expected to absorb larger buy and sell orders before an order moves the price. Generally, deep markets will have smaller bid-ask spreads because of the increased competition among market makers for order flow.
+Also referred to as "market depth” or “depth of market."
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Order Driven Market                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Absorbed                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Level 1                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Market Maker                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Depth'
+      Depth in a market can be measured in several ways through various indicators.
+Depth Indicators
+The following are some of the leading factors and indicators that can help an investor to identify and understand market depth for a security:
+Liquidity: Liquidity is an important indicator for depth in a security. Liquidity is typically shown by volume. If a security has a high average daily trading volume, then an investor can be confident that they can easily transact either a buy or sell order at the market price on any given day.
+Bid-ask spread: The bid-ask spread is a market measure that is created from the use of market makers. Market makers buy securities at the bid price and sell at the ask price. The difference goes to the market maker as profit. In a heavily traded security that is considered to have significant market depth, the bid-ask spread will typically be relatively small. This means that there is high supply with high demand for the security. When demand and supply are high, bid and ask prices are typically more closely in line.
+Open orders: Open orders, also known as good ‘til canceled (GTC) orders, on a security can also be a signal of market depth. Investors have the option to place both limit and stop order trades. Limit orders designate a specific price at which to buy a security and a specific price at which to sell a security. Stop orders are typically used to stop losses and set a price floor. When there are a significant number of these orders open on a security it will contribute to the security’s depth. When the price points on these orders are triggered they help to increase supply and demand.
+Depth Inferences
+In a deep market there will be a long list of buyers and sellers at various prices in the order book. This is good for investors because it means that the market is not dependent on any one entity to provide adequate liquidity. As market depth increases the effects of a single trade decrease. Therefore, deep markets can sustain large market orders without showing a significant effect on the stock’s price.
+Depth is particularly important for institutional investors who routinely need to buy and sell large amounts of a security. It is much easier for an institution to trade a security that has a deep market without broadcasting its intentions or moving the market against itself.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

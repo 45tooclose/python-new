@@ -1,0 +1,144 @@
+
+
+    
+                          WHAT IS 'Substitution Swap'
+
+      A substitution swap is a bond exchange that trades a fixed-income security for a higher yielding security with a similar coupon rate, maturity date, call feature, credit quality, etc. A substitution swap allows the investor to increase returns without altering the terms or risk level of the security. Investors participate in substitution swaps when they believe there is a temporary discrepancy in bond prices or yields-to-maturity due to market disequilibrium.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Rate Anticipation Swap                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Swap Curve                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Swap Bank                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Swap Spread                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Substitution Swap'
+      A swap is the exchange of one security for another to change some feature of the security, or because investment objectives have changed. For example, an investor may engage in a swap to change the maturity date or the credit quality of a security. Bond swaps are often undertaken to avoid capital gains taxes that would occur in an outright sale. There are many types of swaps including currency swaps, commodity swaps and interest rate swaps.
+Example of a Substitution Swap
+A substitution swap might occur between two bonds that are each 20-year AAA-rated corporate bonds with a 10 percent coupon, but one costs $1,000 and another is temporarily discounted at $950. Over a year, both bonds yield $100 in interest but the holder of the first bond has gained 10 percent per dollar invested while the holder of the second bond has gained 10.5 percent per dollar invested, since they paid $50 less for their bond.
+As the example shows, the imbalance in yield of two otherwise identical bonds is often quite small, perhaps a few basis points. But by reinvesting the extra yield over the period of time that the two bonds differ, the gain can add up to a full percentage point or more. This strategy is called realized compound yield and is what makes substitution swaps attractive. After a period of time (called the workout period), market forces will bring the two yields together, so substitution swaps are usually considered short-term market plays—generally a year or less.
+Inherent Risks
+Swaps are not traded on an exchange but through the over-the-counter (OTC) market between private parties. As such there is a risk of a counterparty default, or the misrepresentation of bond qualities. Moreover, the strategy involves some element of market prediction, which is inherently risky. Because of these factors, the complexity of the process and the need to invest large sums to realize meaningful gains over incremental yield shifts, substitution swaps are primarily undertaken by specialty firms and institutions rather than individual investors.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

@@ -1,0 +1,115 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        A wide variety of swaps are utilized in finance in order to hedge risks, including interest rate swaps, credit default swaps, asset swaps, and currency swaps. An interest rate swap is a contractual agreement between two parties agreeing to exchange cash flows of an underlying asset for a fixed period of time. The two parties are often referred to as counterparties and typically represent financial institutions. Vanilla swaps are the most common type of interest rate swaps. These convert floating interest payments into fixed interest payments and vice versa.
+The counterparty making payments on a variable rate typically utilizes benchmark interest rates such as LIBOR. Payments from fixed interest rate counterparties are benchmarked to U.S. Treasury Bonds. Parties may want to enter into such exchange transactions for several reasons, including the need to change the nature of the assets or liabilities to protect against anticipated adverse movements of interest rates. Plain vanilla swaps, like most derivative instruments, have zero value at initiation. This value changes over time, however, due to changes in factors affecting the value of the underlying rates. Like all derivatives, swaps are zero sum instruments, so any positive value increase to one party is a loss to the other.
+How Is the Fixed Rate Determined?
+The value of the swap at the initiation date will be zero to both parties. For this statement to be true, the values of the cash flow streams that the swap parties are going to exchange should be equal. Let's illustrate this concept with a hypothetical example in which the value of the fixed leg and floating leg of the swap will be Vfix and Vfl respectively. Thus, at initiation:
+Vfix =Vfl 
+Notional amounts are not exchanged in interest rate swaps because these amounts are equal and it does not make sense to exchange them. If we assume that parties also decide to exchange the notional amount at the end of the period, the process will be similar to an exchange of a fixed rate bond to a floating rate bond with the same notional amount. Therefore we can value swap contracts in terms of fixed and floating rate bonds.
+Let’s imagine that Apple decides to enter a 1-year, fixed-rate receiver swap contract with quarterly installments on a notional amount of $2.5 billion while Goldman Sachs is the counterparty for this transaction that provides fixed cash flows which determine the fixed rate. Assume the USD LIBOR rates are the following:
+
+Let’s denote the annual fixed rate of the swap by c, the annual fixed amount by C and the notional amount by N. 
+Thus, the investment bank should pay c/4*N or C/4 each quarter and will receive Libor rate * N.  c is a rate that equates the value of the fixed cash flow stream to the value of the floating cash flow stream. This is the same as saying that the value of a fixed-rate bond with the coupon rate of c must be equal to the value of the floating rate bond.
+
+Where Bfix is the notional value of the fixed rate bond that is equal to the notional amount of the swap - $2.5 billion, and Bfl  is the notional value of the fixed rate bond that is equal to notional amount of swap - $2.5 billion.
+Recall that at the issue date and immediately after each coupon payment the value of the floating rate bonds equals the nominal amount. That is why the right hand side of the equation is equal to the notional amount of the swap.
+We can rewrite the equation as:
+
+On the left hand side of the equation discount factors (DF) for different maturities are given.
+Recall that:
+
+so if we denote DFi  for i-th maturity, we will have the following equation:
+
+which in turn can be re-written as:
+
+Where q is the frequency of swap payments in a year.
+We know that in interest rate swaps, parties exchange fixed and floating cash flows based on the same notional value. Thus, the final formula to find fixed rate will be:
+
+Now let’s go back to our observed LIBOR rates and use them to find the fixed rate for hypothetical swap.
+The following are the discount factors corresponding to the LIBOR rates given:
+
+
+Thus, if Apple wishes to enter into a swap agreement on a notional amount of $2.5 billion in which it seeks to receive the fixed rate and pay the floating rate, the annualized swap rate will be equal to 0.576%. This means that the quarterly fixed swap payment that Apple is going to receive will equal to $3.6 million (0.576%/4* $ 2,500 million).
+
+Now let’s assume that Apple decides to enter the swap on October 1, 2014. The first payments will be exchanged on January 1st, 2015.  Based on the swap pricing results Apple will receive $3.6 million fixed payment each quarter. Only the Apple’s first floating payment is known in advance because it’s set on the swap initiation date and based on the 3-month LIBOR rate on that day: 0.233%/4* $2500 = $1.46 million. The next floating amount payable at the end of the second quarter will be determined based on the 3-month LIBOR rate effective in the end of the first quarter. The following figure illustrates the structure of the payments.
+
+Suppose that 60 days elapsed after this decision and today is December 1st, 2014; there is only one month left until the next payment, and all other payments are now 2 months closer. What is the value of the swap for Apple on this date? We need a term structure for 1, 4, 7 and 10 months. Suppose that following term structure is given:
+
+We need to revalue the fixed leg and floating leg of the swap contract after the interest rates change and compare them in order to find the value for the position.  We can do so by re-pricing respective fixed and floating rate bonds.
+Thus the value of fixed rate bond is:
+
+And the value of floating rate bond is:
+
+From Apple’s perspective the value of swap today is $ -0.45 million (the results are rounded) that is equal to the difference between the fixed rate bond and floating rate bond.
+
+The swap value is negative for Apple under the given circumstances. This is logical, because the decrease in the value of the fixed cash flow is higher than the decrease in the value of the floating cash flow.
+The Bottom Line
+Swaps have increased in popularity in the last decade due to their high liquidity and ability to hedge risk. In particular, interest rate swaps are widely utilized in fixed income markets such as bonds. While history suggests that swaps have contributed to economic downturns, interest rate swaps can prove to be valuable tools when financial institutions utilize them effectively. 
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

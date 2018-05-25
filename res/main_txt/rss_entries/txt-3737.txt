@@ -1,0 +1,142 @@
+
+
+    
+                          WHAT IS 'Treasury Automated Auction Processing System - TAAPS'
+
+      Treasury Automated Auction Processing System, also known as TAAPS, is a computer network system developed by the Federal Reserve Bank, and facilitated by its banks, to process the bids and tenders received for Treasury securities. The Treasury securities are traded through an auction process in the primary market. Tenders are received by TAAPS from brokers wishing to purchase marketable securities. Each bid is processed and reviewed automatically by TAAPS to ensure it is in compliance with the Treasury's Uniform Offering Circular.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Competitive Tender                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Dutch Auction                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Treasury Direct                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Auction Market                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Treasury Automated Auction Processing System - TAAPS'
+      Treasury Automated Auction Processing System was developed to become the heart of the operational process for the auctioning of Treasury securities. The system is responsible for receiving bids, separating competitive and non-competitive bids, the ranking of competitive bids by increasing yield or discount rate and preparing a summary of the auction results.
+The U.S. Government sells securities through the Treasury Department and Federal Reserve Bank to raise money to fund the national public debt. Treasury auctions began in 1929 with the auctioning of 3-Month Treasury Bills. From 1973 through 1976 the auction system expanded to include bills, notes, bonds, Treasury Inflation Protected Securities, or TIPS, and Floating Rate Notes, or FRNs. Until 1993, bids were received in paper form and processed manually, which was an extremely time-consuming and inefficient process. The TAAPS system created the streamlined and efficient process needed to handle the growing volume of treasury securities trades.
+Institutional investors, including banks, broker/dealers, investment funds, retirement funds and pensions, foreign accounts, insurance companies and other organizations may bid on treasury securities through TAAPS or through Treasury Direct. Individual investors do not have access to TAAPS and must use Treasury Direct or go through an organization with access to TAAPS.
+Using Treasury Automated Auction Processing System -TAAPS
+To use TAAPS, a financial institution must submit an application for an account. This application includes an agreement certifying that the institution is not engaging in fraud by trading treasury securities and a certification of authority that the contacts listed on the application have the authority to use TAAPS on behalf of the organization.
+Once the TAAPS account is established, institutions follow the published regular schedule of auctions of different types of securities to make bids. For each auction the Treasury announces the amount of the security being sold, auction date, issue date of the security, maturity date, terms and conditions of the purchase, eligibility rules and close times for competitive and non-competitive bidding. Institutions, organization and individuals submit bids, and at the closing times for those bids TAAPS sorts out the bids and awards them to bidders according to a set of rules designed both to fund the Treasury at the lowest cost and to maintain a competitive financial market. Winning bids are determined and tenders are submitted by the winners, and securities are issued to the winners.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Deposit',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

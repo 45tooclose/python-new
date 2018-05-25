@@ -1,0 +1,139 @@
+
+
+    
+                          What is an 'Actuarial Adjustment'
+
+      An actuarial adjustment refers to a revision made to reserves, premiums, benefit payments or other values based on a change in actuarial assumptions. Actuarial assumptions are estimates and predictions for certain unknown variables, such as the age at which a person will die given certain factors or the likelihood that an insurance company will have to pay out a benefit. When the probability of an event such as these changes, it shifts the actions a pension fund or insurance company will have to take in order to adequately prepare for such an event. Items that might change include the amount of money that needs to be accumulated in reserves for future payments, increasing the amount of premiums charged for an insurance policy to remain in effect, or reducing the amount of future benefit payments.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Actuarial Cost Method                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Actuary                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Actuarial Service                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Actuarial Age                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Actuarial Adjustment'
+      An actuarial adjustment occurs when the assumptions surrounding the timing or amount of a future benefit payout change. In pension arrangements, actuarial adjustments are made to the retirement benefits when an individual retires before or after normal pension age. The most common actuarial adjustment is an actuarial reduction made to retirement benefits when a member retires before the normal pension age, which takes into consideration the additional years the member is expected to receive benefits.
+Example of an Actuarial Adjustment
+For example, XYZ Company pays its employees a pension when they retire from the company. The retiree is eligible to receive a payment every year that is 80% of their ending salary. They are eligible to retire at age 65 and will receive the payment every year until they pass away. Recently, mortality tables changed. People are living longer. This causes actuarial adjustments to be made to the plan. Since people are now more likely to live longer, the assumed number of years a person will receive payments has increased. This means XYZ Company will have to contribute more money to the plan to build up its cash reserves to make payments for longer. They may also make adjustments to the investment lineup. Finally, there is always the option to change the benefit payout amount. Changing the benefit from 80% of final salary per year to 75% would allow the money to be stretched over a longer period of time.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'LifeInsurance',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

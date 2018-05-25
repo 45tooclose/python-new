@@ -1,0 +1,78 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Frustrated by the stock market’s recent swings, long-term investors may be tempted to boost their returns by adopting a more short-term investing strategy—that of timing the market. Yet doing so means taking on a huge amount of risk, as even the pros have had a rough time so far this year timing the market’s tops and bottoms, according to MarketWatch.
+Long-Term vs. Short-Term Investing
+Over the past 10 years, the long-term stock investor would have earned an 89% return (as measured using the S&P 500 index), despite the market crashing hard in early 2009 during the global financial crisis. Year to date, however, the S&P is basically flat, but with a lot of volatile movement between the start of the year and now—an ideal setting for short-term market timers. (To read more, see: 9 Energy Stocks With 15% Upside: Goldman.)
+Indeed, grouping together all of the market’s rallies and declines from the start of the year until April 17, the total return would have been just 1.8%. That would be the return earned by the typical long-term buy and hold investor if they bought the S&P 500 at the start of the year. In contrast, a short-term market timer that perfectly called the tops and bottoms “by being 100% long during the rallies and 100% short during the declines” would have earned a return of 43.7% as of April 17, according to MarketWatch.
+The Difficulty in Timing the Market
+While the difference between the buy and hold strategy and that of calling the market’s peaks and troughs is huge, perfectly timing the market is easier said than done. Looking at the average equity exposures of short-term market timers during the tops and bottoms of the market provides a good indication of just how difficult such a strategy can be.
+From a sample of five dozen short-term timers, 68.7% had stock market exposure at this year’s January 26 top, while just 19.4% had a similar exposure at the market’s bottom on February 8, which is precisely “the opposite of what they should have done,” according to MarketWatch. (To read more, see: Training your Mind in Volatile Markets.)
+Timing the market is all about selling high and buying low, which means these short-term timers—who are not amateurs by the way—should have had relatively low exposures at the market peak and relatively higher exposures at the market trough. Actually implementing this strategy means being a contrarian; in other words, being bullish when the market is at its most bearish and being bearish when the market appears to be most bullish, a mental challenge making it difficult for even professionals that follow markets religiously to execute at the right moment.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

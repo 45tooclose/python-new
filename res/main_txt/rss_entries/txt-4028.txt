@@ -1,0 +1,84 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Heightened volatility and sideways momentum seem to be the basis of the new trading environment in most assets classes. Prices of commodities seem to be countering this trend and have actually been faring quite well. In this article, we take a look at the charts of a key commodities-related exchange-traded fund (ETF) and two energy-specific funds to see how active traders are positioning themselves to take advantage of a move higher. (For more on this topic, check out: Long-Term Traders Are Bullish on Commodities.)
+PowerShares DB Commodity Index Tracking Fund (DBC)
+One of the most popular ETFs used by retail investors for gaining exposure to commodities is the PowerShares DB Commodity Index Tracking Fund. In case you aren't familiar, this fund comprises futures contracts on 14 of the world's most in-demand commodities such as oil, natural gas, gold, wheat and soybeans. Taking a look at the chart below, you can see that the fund is trading within an established uptrend and that the bulls have sent the price beyond the recent swing high, which suggests that the bulls are in clear control of the momentum. The strong price action suggests that there will likely be increased interest in purchasing commodities over the days and weeks ahead, and most bulls will likely look to protect their positions by placing stop-loss orders below the dotted trendline or the 200-day moving average, depending on risk tolerance. (See also: 3 Reasons to Be Bullish on Commodities in 2018.)
+
+[Learn more about using simple moving averages to develop your trading strategy in Chapter 2 of the Technical Analysis course on the Investopedia Academy]
+Energy Select Sector SPDR Fund (XLE)
+Energy commodities have a weighting of more than 50% of the DBC ETF. In the chart of the Energy Select Sector SPDR Fund, you can see that the support of the 200-day moving average propped up the price on a recent pullback, and the subsequent bounce pushed the price above the resistance of a confined range. The strong price action suggests that energy is one of the segments to watch in the weeks ahead and that a move beyond the 2018 high could act as a catalyst to a continued move higher. (For further reading, see: Active Traders Shift Their Attention to Energy.)
+
+United States Brent Oil Fund (BNO)
+When it comes to oil prices, the markets are generally referring to the price of West Texas Intermediate crude, also known as WTI. This is the benchmark based on which much of the oil within the U.S. is priced. Another popular benchmark is known as Brent crude, which refers to oil extruded from the North Sea. Taking a look at the chart of the United States Brent Oil Fund, you can see that the uptrend looks fairly similar to that of DBC above but that the price has already been able to move above the resistance. This breakout could be a leading indicator of what's to come across the commodities market in the coming days, so it will remain one of the charts to watch. (For further reading, see: Understanding Benchmark Oils: Brent Blend, WTI and Dubai.)
+
+The Bottom Line
+Commodities are traditionally regarded as safe havens during tumultuous times, and it appears that the heightening volatility in recent months is ensuring that this thesis remains true. Based on the charts discussed above, with strong uptrends combined with nearby support, it could be time to add exposure to the broad commodities market, especially positions in energy. (For more, see: 3 Charts Suggest Commodities Uptrend Is Just Getting Started.)
+Charts courtesy of StockCharts.com. At the time of writing, Casey Murphy did not own a position in any of the assets mentioned.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Chartadvisor-Article'
+    });
+                    
+            
+                

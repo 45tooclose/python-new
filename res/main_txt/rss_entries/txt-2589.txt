@@ -1,0 +1,146 @@
+
+
+    
+                          What is a 'Combination'
+
+      Combination is a blanket term for any of several options strategies that involve more than one option type, strike price and expiration date on the same underlying asset. They are popular with experienced traders and investors because they can provide specific risk-reward payoffs that suit the individual's risk tolerance and preferences.
+Examples of combinations are straddles, strangles, spreads and collars.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Iron Condor                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Long Leg                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Vanilla Option                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Option                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Combination'
+      Depending on the individual's needs, option combinations can create risk and reward profiles which either limit risk or take advantage of specific options characteristics such as volatility and time decay. Options combination strategies take advantage of the many choices available in the options series for a given underlying asset. 
+Combinations comprise a wide range of broad approaches, starting with relatively simple combinations of two options as in collars, to more difficult straddle and strangle trades. More advanced strategies using three or more options, such as butterfly spread and iron condors, can further hone the risk and reward profiles to profit from more specific changes in the underlying asset's price. The primary disadvantage of these complex strategies is increased commission costs.
+For any given underlying asset, the trader or investor has two principal goals. One approach is to speculate on the future movement of the asset's price, higher, lower or that it stays the same. The second goal for the combination is to protect against movement away from the desired direction of the trade. But more likely, both targets will exist in the same strategy. Risk protection does come at the cost of potential reward, either by capping that reward or having a higher cost upfront due to the extra options involved.
+An example of an options combination would be in a bullish spread. Here the holder wants to the underlying asset to increase in price. However, this trade has a limited upside potential so works best when the investor thinks the underlying asset will increase only modestly.
+Example of a Combination
+There is a combination strategy for almost any need but to illustrate the concept, let's look at the relatively complex iron butterfly. The investor using this combination believes that the price of the underlying asset will remain within a narrow range until the options expire. The iron butterfly is an excellent example to show the full spectrum of combinations possible because it consists of two more straightforward combinations set within the more complex butterfly structure. Specifically, it is a combination of a bull put spread and a bear call spread with the spreads sharing a central strike price.
+An iron butterfly is a short options strategy created with four options consisting of two puts, two calls, and three strike prices, all with the same expiration date. Its goal is to profit from low volatility in the underlying asset. In other words, it earns the maximum profit when the underlying asset closes at the middle strike price at expiration. 
+
+The iron butterfly strategy has limited upside and downside risk because the high and low strike options, the wings, protect against significant moves in either direction. Due to this limited risk, its profit potential is also limited. The commission to place this trade can be a notable factor here, as there are four options involved, which will increase the fee.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

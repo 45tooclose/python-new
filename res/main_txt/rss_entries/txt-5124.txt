@@ -1,0 +1,85 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Apple Incorporated (NASDAQ: AAPL) is the world's largest company by market capitalization. As of May 4, 2018, Apple recorded a market capitalization of $931 billion, almost triple the market capitalizations of Exxon Mobil Corporation (XOM), and over triple the market capitalization of Wal-Mart Stores Incorporated (NYSE: WMT). An investment of $990 on Apple's initial public offering (IPO) date on Dec. 12, 1980 would have generated over $442,225 after stock splits and dividends.
+You would have also benefited from the dividends that Apple paid out since its IPO. In 2017 alone, Apple has declared four dividends which are the most recent in its long dividend payouts. The figures below are reflective of the dividend payouts.
+How Much Money You Would Have if You Invested in AAPL
+If you had invested $990 right after Apple's IPO, assuming that you could purchase each share of Apple at its IPO price of $22, you would have 45 shares. After Apple's four stock splits, you would have over 2,500 shares of AAPL.
+1987 Two for One Stock Split
+Apple's first stock split occurred on June 16, 1987. On the day before, its stock price closed at $78.50 per share. Thereafter, Apple issued a two for one stock split, and shares of Apple opened at $41.50 on June 16, 1987. Those 45 shares bought on the IPO date were worth $3,532.50, a profit of $2,452.50, as of the market close on June 15, 1987. Since Apple issued a two for one stock split, you would own 90 shares, at $41.50 per share. The investment was worth a total of $3,537 at the close of the market on June 16, 1987.
+2000 Two for One Stock Split
+Apple's second stock split occurred on June 21, 2000. The day before, Apple closed at $101.25 per share. The initial investment had grown to a value of $9,112.50, or $101.25 multiplied by 90 shares, which is a 820.45% return on the initial investment. On June 21, 2000, after Apple issued another two for one stock split, so those 90 shares of Apple become 180 shares. Apple closed at $55.62 per share on June 21, 2000, when the investment would have been worth over $10,000.
+2005 Two for One Stock Split
+On Feb. 25, 2005, Apple closed at $88.99 per share. On Feb. 28, 2005, it issued another two for one stock split, so those 180 shares would double to become 360 shares. On Feb. 28, 2005, Apple closed at $44.86 per share. The initial investment of $990 would have been worth $16,149.60, a return on investment (ROI) of 1,531.27%.
+On Sept. 18, 2012, Apple topped $700 per share, with a high of $702.33. The initial investment would have been worth $252,838.80 at the high on Sept. 18, 2012. Over 22 years, the initial investment generated a tremendous return on investment of 25,439.27%.
+2014 Seven for One Stock Split
+Apple issued its fourth stock split – this time, a seven for one stock split – on June 9, 2014. Apple closed at $645.57 per share on June 6, 2014. Thereafter, your 360 shares would have become 2,520 shares. On June 9, 2014, Apple closed at $93.70 per share. The total position would yield $236,124 at the close, which was a decrease of $16,714.80 since its last stock split in 2012.
+Present-Day Value From an Apple IPO Investment
+As of May 3, 2018, Apple stock closed at $176.89 per share. Currently, the initial investment of $990 would be worth $442,225. The ROI is an immense 44,569.19%.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

@@ -1,0 +1,80 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Software giant Microsoft Corporation (MSFT) is a component of the Dow Jones Industrial Average and is one of the better performing stocks so far in 2018. Microsoft stock is up 7.9% year to date, while the Dow 30 has slipped 2.6%. The company is set to report earnings after the close on Thursday, April 26.
+Microsoft has beaten earnings per share estimates in seven consecutive quarters. When you look at the daily chart below, you will see a price gap higher on Oct. 27 on a positive reaction to third quarter earnings released on Oct. 26. In addition, the company reported fourth quarter earnings on Jan. 31, and the stock set an all-time high the following day on Feb. 1.
+Microsoft shares closed Wednesday, April 25, at $92.31, up 7.9% year to date and 5.1% below the all-time intraday high of $97.24 set on March 13, the same day that the Nasdaq Composite set its high. Between the Feb. 1 high and the March 13 high, the stock traded as low as $83.83 on Feb. 9. Microsoft shares are up 10.1% since this correction low, outperforming the Nasdaq.
+Analysts expect Microsoft to post earnings per share between 85 cents and 91 cents when the company reports results on Thursday. Investors should look beyond Microsoft's old-line products in its Office segment and consider its initiatives to better compete with Amazon.com, Inc. (AMZN), Oracle Corporation (ORCL) and Alphabet Inc. (GOOGL). New services include expansion in cloud computing and artificial intelligence. Increased spending in these areas could be a drag on first quarter earnings. A wildcard could be the status of LinkedIn given the scandal at Facebook, Inc. (FB). (See also: Microsoft Traders See 10% Stock Drop as Earnings Near.)
+The daily chart for Microsoft
+Courtesy of MetaStock Xenith
+The daily chart for Microsoft shows how the stock is above my second quarter value level of $88.83, which is the highest of three horizontal lines. Note the price gap high on Oct. 26 and the sideways pattern in play so far in 2018. Wednesday's close was below the 50-day simple moving average of $92.87 and well above the 200-day simple moving average of $83.38.
+[Learn more about using simple moving averages to develop your trading strategy in Chapter 2 of the Technical Analysis course on the Investopedia Academy]
+The weekly chart for Microsoft
+Courtesy of MetaStock Xenith
+The weekly chart for Microsoft will be positive if the stock ends the week above its five-week modified moving average of $92.25. The 200-week simple moving average, or its "reversion to the mean," is at $59.33. The 12 x 3 x 3 weekly slow stochastic reading is projected to end this week at 65.21, up from 61.89 on April 20.
+Given these charts and analysis, investors should buy Microsoft shares on weakness to my quarterly and semiannual value levels of $88.83 and $82.83, respectively, and reduce holdings on strength to my monthly risky level of $99.18. (For more, see: Microsoft Warms Up to Former Rival Linux.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Chartadvisor-Article'
+    });
+                    
+            
+                

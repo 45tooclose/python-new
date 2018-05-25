@@ -1,0 +1,226 @@
+
+
+
+Why the Crypto Ads Crackdown and What It Means for Future Crypto Companies
+Crypto ads faced a crackdown recently, with major platforms blocking and banning them. In this post we discuss the reasons and the implications.
+
+
+ by  Contributor
+Author,
+19 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  Back in January, Facebook banned all advertisements related to cryptocurrency, blockchain, ICOs, wallets, trading advice, and similar topics. Google will enact the same policy in June, which means companies involved in the crypto game will face some tough challenges.
+What triggered the ban
+Why are heavyweights such as Facebook and Google doing this? In a blog post dated March 14, Google clarified:
+
+“We updated several policies to address ads in unregulated or speculative financial products like binary options, cryptocurrency, foreign exchange markets, and contracts for difference (or CFDs)... As consumer trends evolve, as our methods to protect the open web get better, so do online scams. Improving the ads experience across the web, whether that’s removing harmful ads or intrusive ads, will continue to be a top priority for us.”
+
+Members of the crypto community are understandably upset. Cryptocurrency and blockchain are meant to be safe and traceable, so why are they being bundled with other advertisements Google is cracking down on, like gambling and fraudulent rehabilitation centers?
+The reason is that the cryptoverse is still largely unregulated. Despite being on peer-to-peer networks, cryptocurrency values fluctuate all the time. ICOs are sometimes outright scams where fraudsters provide nothing in return to investors. Besides, blockchain is yet to go mainstream, so the general public is wary, as can be expected. Currencies with no government affiliation and physical form? It’s no wonder mainstream internet users find the general premise nerve-wracking and volatile.
+Scott Spencer, director of sustainable ads at Google, told CNBC:
+
+“We don’t have a crystal ball to know where the future is going to go with cryptocurrencies, but we’ve seen enough consumer harm or potential harm that it’s an area that we want to approach with extreme caution.”
+
+The Register reported that Bitcoin’s value fell from $9,144 to $8,700 after news of the ad ban reached the public.
+Twitter is expected to follow in the footsteps of Google and Facebook. However, Bing and others are still accepting crypto advertisements, which will hopefully help slow the bleeding.
+What does this mean for crypto companies?
+Cracking down on crypto ads will be beneficial for weeding out scams but troublesome for people hosting legitimate ICOs or investment firms that specialize in cryptocurrency transactions. Many businesses are afraid they won’t be able to market themselves properly, and if an ICO fails, the product or service behind it may follow suit.
+Ivan Goldensohn, chief marketing officer of Dispatch Labs, believes the move to ban these types of advertisements is a double-edged sword. Goldensohn states:
+
+“Reducing the danger to novice investors by removing the ability of illegitimate companies to advertise directly to those populations is important, but it also supports a negative stigma which is developing around the world of blockchain in general and is mostly the result of a few bad actors. Any decent project won’t be too heavily affected by this, however, it just requires more creative, inventive marketing focused on the core channels, community, and events in the space.”
+
+However, some companies are finding ways to circumnavigate the ad crackdown. One of the pioneers is a business named ZEN. Founded by Frank Erik Banks, ZEN is an app that enables teenagers to converse with one another and share short videos; it’s similar to Instagram, but the experience is monetized with ZENCoin cryptocurrency. Users earn these coins by building a social media audience on the platform, and then the company connects them to advertisers targeting their demographic.
+
+“Banks created an even further differentiator for the company; he decided to pre-sell ZEN’s cryptocurrency through an SEC-regulated equity crowdfunding campaign on StartEngine, a top SEC-compliant crowdfunding platform. ‘We chose this path to provide the broadest access and build the strongest investor community possible,’ he explains. ‘Our ethos of empowerment extends to every facet of this business including how we choose to raise money… We’ve already demonstrated our ability to overcome obstacles more challenging than an ad ban or an SEC oversight. This blockchain wave won’t be stopped, and we intend on being one of the premiere companies pushing things forward,” according to Forbes.
+
+Banks’ secret was hosting his ICO through a platform approved by the Securities Exchange Commission (SEC). StartEngine is the first US platform to offer SEC-registered ICOs and, as the company advertises itself and its clients, it also publishes the StartEngine Index -- a list of all its campaigns and how successful they are. It can help get the word out to investors and encourage them to participate.
+You may have noticed that the consequences of this ad ban apply mostly to startups rather than established blockchain companies. So, what else can new businesses exploring blockchain do?
+Stan Schroeder from Mashable spoke with Darren Marble, CEO of CrowdfundX, who said:
+
+“The only people who are disappointed in Twitter’s purported ban of crypto ads are the scammers and con artists. The big money raised in ICOs is relationship-based, and the most legitimate issuers are well connected to active crypto and blockchain funds. I think the ban on crypto advertising is actually positive change for the industry, and will help clean up a lot of the garbage.”
+
+Networking and relationship building are what startups need to focus on. In any case, few people who participate in ICOs act on a cue from Facebook. Once projects are funded, blockchain companies should still leverage connections to advertise — there are many outlets available, and worthy blockchain opportunities will still excite the right people. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

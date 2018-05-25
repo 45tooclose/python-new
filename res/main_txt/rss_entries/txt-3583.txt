@@ -1,0 +1,102 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        The proliferation of new financial products and services has led to many changes in how the industry has marketed itself to consumers. Traditionally, insurance companies marketed their policies as being the best, banks tried to lure customers with higher rates on certificates of deposit, and tax preparers vied to offer the best services for the lowest possible price.
+Now, using a product's best attributes within marketing campaigns is still relevant today, but service is rapidly overtaking product offerings as the primary criterion customers consider when choosing where to do business. This trend has naturally led financial service providers to put forward comprehensive product and service offerings under one umbrella. There can be several advantages for both the provider and the customer in this type of arrangement, but planners need to carefully consider several issues before implementing this approach in their practices.
+What Does One-Stop Shopping Entail?
+The definition of one-stop shopping today includes more products and services than ever. The major sectors are:
+Cash management and other banking services
+Brokerage and alternative investments
+All forms of tax preparation and advice
+College and estate planning
+All major forms of insurance coverage, including life, health, and property-casualty lines
+The latest mortgage and loan products
+Comprehensive financial planning
+Accounting and payroll services
+This list will continue to grow as the borders between commercial banks, brokers, and insurance companies become less distinct with every new product innovation. Much of this integration occurred as a result of the repeal of the Glass-Steagall Act of 1933, which had originally established firm boundaries between brokerage, insurance, and banking in the wake of the stock market crash of 1929.
+The One-Stop Shopping Advantage
+There are a number of advantages to offering comprehensive financial services to customers. These include:
+Revenues
+One of the most obvious benefits is that one-stop shopping allows planners to generate much higher levels of revenue from the same customers than their competition. If a customer walks into the local office of a household-name insurance company, no matter how much the customer likes and trusts the agent, the agent will only be able to sell the customer insurance.
+On the other hand, a firm with comprehensive offerings can also make money from refinancing the customer's debt, preparing his or her income tax return, opening a Roth IRA, and preparing a custom-made financial plan showing how it all fits together. As a bonus for the customer, the custom-made financial plan could be offered for free, as an incentive to use the other services. The additional revenue garnered from just one client allows a business to reduce the effort required to prospect for new business. This difference in revenue is hard to beat, especially in today's flooded, ultra-competitive market.
+Customer Loyalty
+A higher level of service will result in a correspondingly higher level of client trust. After all, if a client must give the planner his or her tax information, it is not hard to go ahead and get an estate plan completed as well. Furthermore, if a client wants to maintain a proper balance between insurance and investments, why not simply do both at the same place where they can monitor the balance directly?
+Convenience
+If the client receives a comprehensive financial plan with a list of recommendations, it is easy to see the benefits of having them all implemented in-house, instead of running around to a dozen other firms or agents to complete each item. This line of reasoning is hard to argue with, assuming that all services are provided competently and diligently.
+Coordinating the Key Players
+Of course, the ability to offer comprehensive services efficiently requires tremendous effort and coordination. Command of multiple disciplines are required to build and maintain a practice that offers several services competently, and so firms pursuing this strategy must hire qualified personnel for each service area offered.
+For example, the head of a firm could be a Certified Financial Planner who does comprehensive financial, college, and estate planning for clients. Another associate could then be licensed to transact all banking, brokerage, and life insurance business, while another handles mortgages and perhaps property and casualty insurance. A health and long-term care specialist might also be involved, as would someone who works chiefly with alternative investments. Finally, an accountant or CPA would be in place to handle all tax-related business and advice.
+Furthermore, the head of the firm must be sufficiently knowledgeable about each service to coordinate and supervise them effectively. Supervision of this kind of operation will also require an intimate understanding of the laws regarding consumer privacy. To avoid legal liability, each client would need to sign a set of relevant disclosures allowing for the sharing of information between the associates at the firm. A firm that neglects this procedure and assumes that a client will allow the information provided for one service to be used for other purposes, is exposing itself to risk.
+Spreading Resources Too Thinly
+Another matter to consider is the possibility of a firm overextending itself through offering too many products or services. This mistake can be costly – not just literally, but also in terms of compromised trust and liability. The firm must therefore carefully consider whether it is able to handle the administrative and supervisory issues that attend each service offered. Failure to provide one branch of service correctly can reflect badly on the whole firm, and the liability incurred from a mistake in one area can drain resources earmarked to sustain other areas of the business.
+Corporate Vs. Retail
+Both large and small firms have attempted to offer one-stop shopping with varying degrees of success. While larger firms are able to provide more corporate support and structure for their offerings, retail boutique firms are naturally better at tailoring their services to the customer's needs and circumstances. Unsurprisingly, large conglomerates typically have more bureaucracy and strict company policies that make it difficult for them to match a smaller firm's level of personalized service. As a result, they tend to rely more on brand-name recognition in order to draw customers.
+At the same time, efficient coordination of financial services at the corporate level can be difficult. For example, all associates in a retail firm can readily confer with each other regarding a client's situation and come to a consensus on an issue much faster than employees who work in different branches of a conglomerate. In a smaller firm, virtually all of the relevant information for any given client will be readily available in one place easily accessible to all staff members; this is definitely not true for larger companies.
+The Bottom Line
+Providing one-stop shopping services can be both rewarding and demanding for firms of any size. Smaller firms must remember that they face the same legal issues pertaining to information sharing as their corporate counterparts, and larger firms need to apprehend the amount of effort required to coordinate an individual client's needs between various branches. Either way, the firms that manage to successfully integrate comprehensive services into their product offerings stand to benefit by increasing revenues while offering lower costs. At the same time, customers can reap the rewards of lower fees and convenience. The ability to successfully integrate comprehensive services into a financial planning practice can give planners a substantial edge over their competition.
+SEE: How To Target Ideal Customers
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

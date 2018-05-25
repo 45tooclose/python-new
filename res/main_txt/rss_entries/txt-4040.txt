@@ -1,0 +1,83 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        T-Mobile US, Inc. (TMUS) and Sprint Corporation (S) ended months of speculation with an all-stock merger agreement over the weekend, but the news was met with widespread skepticism because Wall Street analysts believe that U.S. regulators won't approve the deal. Both stocks got hammered in Monday's session, dropping T-Mobile shares 13.7% while Sprint stock fell 6.2%, with the shareholder exodus likely to continue in the coming weeks. 
+Rivals AT&T Inc. (T) and Verizon Communications Inc. (VZ) fell in sympathy, but both carriers would stand to gain following approval of the deal because the merger would reduce competition, allowing the remaining cartel to raise subscriber prices in a stagnating smartphone market. The industry grew just 2.7% in 2017, while many research firms expect zero growth in 2018, with users finding few technical reasons to upgrade. AT&T reports earnings after Tuesday's close. (See also: How T-Mobile-Sprint Deal Will Change Telecom Arena.)
+ 
+T-Mobile US, Inc. (TMUS) came public in the upper $20s in April 2007 and topped out at $40.87 three months later. The subsequent downtrend continued through the bear market and into the next decade, finally bottoming out near $5.50 in the first quarter of 2010. It bounced into the upper teens in 2011 and stalled out, while a pullback into 2012 found support at the prior low, completing a multi-year double bottom reversal. 
+The stock rallied above the 2011 high in May 2013, setting off long-term buying signals ahead of an uptrend that topped out in the mid-$40s in September 2015. It fell to the mid-$30s in the first quarter of 2016 and took off in a final rally wave, posting an all-time high at $68.88 in May 2017. Price action since that time has failed to match bullish benchmarks, with a decline to a 52-week low in November, followed by a bounce that just reversed at 10-month resistance in the mid-$60s.
+The merger announcement triggered the highest-volume selling day since April 2013, dropping the stock into a six-month trendline of rising lows. A turnaround right here could save the day for discouraged bulls, carving a higher low in a possible inverse head and shoulders basing pattern. However, heavy selling pressure signals a major change of heart, raising the odds for a breakdown that tests the 2017 low. (For more, see: T-Mobile Challenges Young People to Create Change.)
+ 
+Sprint Corporation (S) has struggled for nearly two decades, posting an all-time high near $70 in 1999 and entering a steep downtrend that ended at an all-time low just above a buck in November 2008. The subsequent uptick unfolded in two broad rally waves, lifting the stock to a six-year high at $11.47 in December 2013. It gave up most of those gains into 2016, dropping into a test of the 2011 low at $2.10. Buyers emerged at that depressed level, triggering a sturdy bounce that ended just two points under the 2013 high in January 2017.
+The decline into April 2018 found support at the ,618 Fibonacci rally retracement level, generating a breakout above the 200-day exponential moving average (EMA) last week, followed by a high-volume reversal and pattern failure. This sets off strong sell signals that presage a test at the 2018 low under $5.00 in the coming sessions. On-balance volume (OBV) gave up its strongest technical positioning since February during the sell-off, dropping to the lowest low since 2016. This adds considerable danger to the current downswing because the stock was trading close to $4.00 at that time.
+[Learn more about using Fibonacci retracements to develop your trading strategy in Chapter 6 of the Technical Analysis course on the Investopedia Academy.]
+The Bottom Line
+T-Mobile and Sprint are selling off after their merger announcement, with market players expecting U.S. telecom regulators to deny the hook-up. A large supply of bullish speculators appears trapped in this bearish scenario, forced to sell in an evolving feedback loop rather than wait for committed buyers to bail out their losing positions. (For additional reading, check out: The Industry Handbook: The Telecommunications Industry.)
+<Disclosure: The author held no positions in the aforementioned securities at the time of publication.>
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Chartadvisor-Article'
+    });
+                    
+            
+                

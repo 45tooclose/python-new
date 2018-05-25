@@ -1,0 +1,142 @@
+
+
+    
+                          WHAT is 'Election Period'
+
+      An election period is the period in time during which an investor who owns an extendable or retractable bond, or the issuer of those bonds, must indicate whether or not they will will exercise their option to extend or retract those bonds.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Retract                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Bond Option                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Call Date                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Average Effective Maturity                     
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Election Period'
+      An election period can vary in duration from just a few weeks or months up to the entire life of the original bond issue. Typically, a bond holder will require some degree of advanced notice if a bond issuer intends to extend the maturity of the loan.
+Election Periods for Extendable Bonds
+For example, let’s say that a group real estate investors buys an office building for $10 million, by putting down $1 million of their own cash, and borrowing the other $9 million from the bank at 3% interest over ten years. The real estate investors, plan, however, is to sell the building well before the loan is due, because they expect property values in this location to quickly rise. So they decide to take out an interest-only loan, wherein the principal is due in one lump-sum at the end of 10 years. But to hedge their bets, they make sure that their loan is extendable by between one and three years, just in case the property doesn't appreciate as quickly as they expect.
+The bank agrees to making the loan extendable, but to compensate for the added risk, the real estate investors will pay 4% interest in the 11th year, 5% interest in the 12th and 6% interest in the 13th. After 13 years, the principal is due, with no more extensions allowed. In this scenario, there are three different election periods, during the 12th month of the 10th, 11th and 12th years, respectively. The real estate investors will be given one month to tell the bank whether they intend to extend the bond another year.
+Election periods for Retractable Bonds
+Companies will sometimes decide to sell retractable bonds to investors, which are bonds where the holder has the option to demand full repayment of a bond before maturity, at one or more predetermined dates. Investors like retractable bonds because they offer protection during times of rising interest rates, because if rates rise, investors have the option of retracting the bond and issuing a new one at a higher interest rate. Companies may decide to issue retractable bonds because they can receive more favorable terms from lenders in exchange for taking on that interest-rate risk. In such a scenario, there would be an election period in the lending agreement during which the lender would have to let the borrower know whether it has decided to retract the bond.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

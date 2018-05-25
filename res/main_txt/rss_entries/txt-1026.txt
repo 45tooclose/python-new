@@ -1,0 +1,65 @@
+
+
+Cryptocurrency is crawling with ambitious visions for the future.
+Indeed, one of the most hyped ways in which the technology could come to proliferate is through its union with a concept called the internet of things (IoT), whereby nearly everything (think watches, refrigerators and automobiles) is connected to the internet and as such, "talks" to each other. For instance, a sensor on your milk carton in the refrigerator might notice that you're down to the last cup and send out an order to the local grocery store.
+The project IOTA is garnering quite a bit of attention for adding cryptocurrency-inspired technology to this use case, turning it into a more open market.
+Indeed, at tech meetups in New York City, it's not uncommon to hear developers remark that IOTA's underpinning technology, the "blockchainless blockchain," or the so-called "tangle," is the future of the blockchain space. 
+
+Not only is IOTA touted as a way to upend the silos of the current centralized system, streamlining business in terms of time and cost, but also as a way to rid the blockchain industry of all that plagues it - such as the technology's scaling issues, which cause transaction backlogs and high fees and the massive amounts of energy the technology's architecture consumes.
+"The obvious thing is that [IOTA] is the first project that went beyond blockchain. Got rid of miners. In the process we solved the main pain points of transactions - no fees," said IOTA co-founder David Sonstebo, in an interview with CoinDesk. 
+These bold claims appear bolstered by partnerships with large enterprises and agencies, including Volkswagen and the City of Taipei in Taiwan.
+Yet, the IOTA team of 150 developers, cryptographers and others can't always keep their stories straight, and have other times dealt poorly with criticism, especially as it relates to security holes in its architecture.
+As such, experts question whether many of IOTA's ideas will actually work in practice and if they don't, whether current investors and users, which are supporting a $2.7 billion network by market cap, will be left out of luck.
+"It's pretty horrifying. The horrifying thing is their market cap is so high," said Aviv Zohar, a crypto researcher and senior lecturer at The Hebrew University.
+Since researchers have pointed out so many holes in IOTA already, he expects more to come, and the IOTA bashing to continue.
+Zohar told CoinDesk:
+"IOTA is a currency I love to hate."
+MIT head-to-head
+Zohar isn't alone there.
+The negativity surrounding IOTA's tech started in September after an investigation by researchers from MIT's Digital Currency Initiative (DCI) found what they argue is a vulnerability in the project's code.
+According to the researchers, IOTA developers used a hash function created in-house (called P-Curl) to secure data within the system, a huge no-no among cryptographers, who argue it's preferred to use the highly studied and scrutinized functions that already exist today.
+But IOTA developers say, in fact, the decision was intentional - designed to prevent anyone from copying their open-source software.
+Researchers, though, have shot back, arguing that doesn't make much sense since the basis of open-source software is that it is given to the broader developer community to be freely copied.
+"The IOTA developers haven't been able to explain to me why they think their insecure hash function is safe," tweeted Matthew Green, a cryptography professor at John Hopkins.
+But things escalated even further from there.
+"He should be scared, there are lawyers working on that already," tweeted IOTA co-founder Sergei Ivancheglo, threatening Boston University's Ethan Heilman, one of the researchers who reported the hash function vulnerability.
+During the Financial Crypto 2018 conference at the end of February, Ivancheglo's tweet was a major discussion point. While nerdy debates turning vicious is nothing new for the cryptocurrency space, security researchers argue that threatening lawsuits can severely undermine the industry.
+As UCL computer science researcher Sarah Azouvi told CoinDesk:
+"The founder suing researchers is very, very concerning. Researchers try to measure and try to make things more secure. It could have a serious impact if people are afraid to report bugs."
+A $4 million hole
+While it doesn't appear any IOTA users have lost money because of the custom-made hash function, some IOTA users lost a substantial amount of their cryptocurrency - to the tune of $4 million - in what some industry observers argue is sheer incompetence on behalf of the IOTA team.
+IOTA's official wallet didn't have what's called a "seed generator" to help users produce keys for controlling their coins.
+Although the IOTA Foundation detailed the most secure way to generate randomness, giving a list of all the websites that were secure for doing so, some users went to websites that weren't on the list - one being a scam that stored keys created on its site and eventually used those to steal funds.
+"A lot of naive people gave their private keys away to this individual. This was a very unfortunate event," IOTA's Sonstebo said, calling the perpetrator a "scumbag."
+Yet, critics argue IOTA is victim shaming when, in fact, the project's foundation should have made sure its official wallet had a seed generator attached.
+"It's past Hanlon's razor for me," tweeted Tadge Dryja, a lightning network developer and crypto enthusiast, pointing to the aphorism, ""Never attribute to malice that which is adequately explained by stupidity."
+He continued, saying that he must "assume malice" since adding a seed generator is "absolutely trivial," requiring only a single line of code.
+Speaking to the issues that arise when a cryptocurrency project doesn't provide seed generation tools to their users, Heilman told CoinDesk, "Almost all cryptographic software is designed to generate secure random numbers for their users. Making users responsible for secure randomness generation is dangerous as users may use a bad source of randomness."
+IOTA co-founders are mixed on their responses to this event though.
+Co-founder Dominik Schiener acknowledged that the user experience is far from ideal, but argued that IOTA shouldn't get lambasted for it since the user experience throughout the crypto community is inferior as a whole. While Sønstebø argued that the project wants to leave randomness generation up to the user so they have more control.
+"We leave it up to the individual to get their own randomness," he said, adding:
+"We give them the liberty to do that. You're in crypto. The entire point is you don't have to trust anyone."
+That said, Sønstebø pointed out that IOTA would be launching a new wallet called Trinity in the coming weeks to address the issue. Not only will this wallet have a built-in random address generator, but the team is also planning to run its code through a security audit for good measure.
+"If your grandma smokes crack, then she should still be able to use it," he said.
+Unique isn't always useful
+Another unique quirk of IOTA is it's addressing scheme.
+While the scheme was created to work even after the inception of quantum computers - powerful computers that could unwind much of the cryptography underlying cryptocurrency systems - it's drawn criticism for the fact that users can only use an address once, otherwise it becomes susceptible to theft.
+One Reddit user going by the name "guselbindel" even claims this type of hack happened to him a couple months ago, leading him to lose $30,000.
+And actually, the exploit goes further than that. In fact, Willem Pinckaers, a researcher at security firm Lekkertech found that even without using the public keys, they can be exploited.
+"Still, the fact you can't reuse public keys safely is still batshit crazy," blockchain consultant Peter Todd tweeted.
+At their core, the criticisms of IOTA seem to be focused on the project's lofty ambitions, but less than ideal execution on those promises.
+While IOTA advertises itself as a "permissionless" and "scalable" solution, there is some subtlety in those terms.
+For instance, IOTA is a bit more centralized - with its development team having more authority over the protocol - than most cryptocurrency enthusiasts might like. Some IOTA users even figured that out the hard way, actually, when the IOTA Foundation discovered a technical vulnerability that put user's funds at risk, and as such, seized trillions (yes with a "T") of IOTA coins from users.
+The foundation eventually returned those coins after the vulnerability was patched, but the incident nonetheless left a lasting impression on some that IOTA's developers have too much control.
+Sonstebo even doesn't really deny this - despite the claims of decentralization made on the IOTA website and its marketing material.
+"Currently it's semi-centralized," he said. "There's a central coordinator node."
+IOTA nodes today can validate transactions without this coordinator node, but it's less secure. As such, a significant amount of trust is put on the central coordinator node.
+That said, IOTA developers are working on it.
+Just as more bitcoin and other cryptocurrencies become more decentralized as adoption increases, so to will IOTA, Sonstebo said. And it's important to note that IOTA isn't the only cryptocurrency that has sought to project a message that change is coming, with time.
+He concluded:
+"You can't create a fully decentralized network overnight. You have to start somewhere."
+Iota coin image via Shutterstock
+var riuyojisrlntqyiu,riuyojisrlntqyiu_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){riuyojisrlntqyiu_poll(function(){if(window['om_loaded']){if(!riuyojisrlntqyiu){riuyojisrlntqyiu=new OptinMonsterApp();return riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="//a.optnmnstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;riuyojisrlntqyiu=new OptinMonsterApp();riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");
+
+The leader in blockchain news, CoinDesk is a media outlet that strives for the highest journalistic standards and abides by a strict set of editorial policies. CoinDesk is an independent operating subsidiary of Digital Currency Group, which invests in cryptocurrencies and blockchain startups.
+

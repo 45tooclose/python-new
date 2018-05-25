@@ -1,0 +1,141 @@
+
+
+    
+                          WHAT IS 'Retractable Bond'
+
+      A retractable bond is a bond that features an option for the holder to force the issuer to redeem the bond before maturity at par value. It combines a bond with a put option, allowing the holder the right to prematurely cash in on the bond’s principal. An investor may choose to shorten the maturity on a bond due to adverse market conditions or if they require the principal sooner than anticipated.
+A retractable bond is sometimes also referred to as a put bond, putable bond or puttable bond.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Election Period                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Extendable Bond                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Pull To Par                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Discount Bond                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Retractable Bond'
+      A retractable bond’s put feature sets a base limit on the bond price, irrespective of the increase in interest rates before its maturity date. Originally, the rule of thumb was that retractable bonds were issued at 0.2% less in yield than a normal bond of the same issuer. More recently, with the growth of options and swap markets, these bonds are priced using options pricing techniques. To determine a retractable bond’s price, the value of the underlying debt must first be determined using the discounted cash flow approach. The put feature is then measured as the benefit of holding or exercising the embedded option using options pricing modeling, which is based on the value of the debt at various option valuation dates up to the bond’s maturity point. Therefore, the value of a retractable bond is equal to its cash flows plus the value of the put feature.
+On the other hand, for investors wanting the right to extend the initial maturity to a longer maturity date, extendable bonds function in much the same way as retractable bonds. Investors use both retractable and extendable bonds to amend the terms of their portfolios to take advantage of changes in interest rates. When interest rates rise, extendable and retractable bonds act like bonds with shorter terms; when interest rates fall, they act like bonds with longer terms.
+Example of Retractable Bond
+Suppose a company issues 20-year retractable bonds to the market. This means the investor who buys the bond from the issuer has the right to receive the par value, or face value, of the bond at any time before its maturity date. If the investor exercises the right to retract, then they will forfeit the remaining coupon payments on the bond. An investor might exercise the retraction option due to unfavorable economic conditions such as a rise in interest rates, since an increase in interest rates would translate into lower bond prices. As a result, investors might consider switching to higher-yielding bonds.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

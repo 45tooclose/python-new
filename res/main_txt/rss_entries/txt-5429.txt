@@ -1,0 +1,210 @@
+
+
+
+Exclusive: Philippine Blockchain Community Asks Government to Help with Upskilling
+The Philippine blockchain community is working closely with the government to offer Filipinos training courses in blockchain development.
+
+
+ by  Komfie
+Manalo,
+16 mins ago
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+Subscribe
+
+
+  The Philippine Association of Digital Commerce and Decentralized Industry (PADCDI) wants closer collaboration with the government to improve the skills of local workers and put them on a par with world-class software developers so that the country can realize its ambition of becoming a major global blockchain hub.
+In an exclusive interview for Cryptovest, PADCDI chairman Mary Rose Magsaysay said she had already approached the Technical Education and Skills Development Authority (TESDA) to offer training courses in blockchain development in one of its many accredited schools across the country. TESDA is the government agency tasked with providing alternative training to Filipinos in need of quality skills for employment.
+
+Magsaysay said:
+
+"I had a meeting with TESDA director general, Secretary Guiling A. Mamondiong, and I suggested to him that he include blockchain software development training in TESDA's curriculum. He was actually receptive to the suggestion. He just wants more information so he would have a better understanding of the technology and can justify its funding."
+
+According to Magsaysay, PADCI and TESDA are initially looking at several accredited schools to offer blockchain-related courses and see how things progress.
+To fast-track the implementation of the program, PADCDI is currently consolidating the requirements for the blockchain courses, as well as drafting position papers and informational materials to be presented to TESDA.
+
+“One of the main issues here is that blockchain is very new. Even PADCDI is still in its infancy. The government does not understand what blockchain is and the public does have an idea about it. What we are doing is we want to help all the stakeholders to understand what the technology is so they can come up with appropriate programs and even regulations,” Magsaysay added.
+
+In a separate interview, blockchain developer and consultant Todd Kandariz of StepWyze said there were only about 5,000 qualified blockchain developers in the world, which underscores the need to develop more skills.
+PADCDI was officially launched in Manila last week with nearly 70 member groups and individuals engaged in crypto and blockchain-related businesses.
+Aside from pushing for skills development in the blockchain space, PADCDI is also collaborating with domestic regulators such as the Securities and Exchange Commission and the central bank to draft appropriate rules to advance blockchain in the country. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

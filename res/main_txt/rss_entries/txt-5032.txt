@@ -1,0 +1,101 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        The retail sector so far this year is showing no signs that the dismal scene of bankruptcies and closings will end soon. Traditional retailers like Macy's, JC Penney, and Sears are struggling to attract customers as online retailers like Amazon consume more and more of the market. 
+Major retail companies that are riddled with debt from leveraged buyouts are falling like dominos as consumers shift their attention to online channels. Last year, 26 major retailers, or those with more than $50 million in liabilities, filed for bankruptcies, according to data from research firm AlixPartners.
+So far this year, several major retailers have filed for bankruptcy, with some working to restructure and others planning to liquidate. Most recently, iconic guitar-maker Gibson filed for Chapter 11 bankruptcy protection as it grapples with $500 million in debt. 
+Gibson said it will continue to operate while it works to streamline its business model by focusing on musical instruments rather than consumer electronics. But other retailers have had to shutter locations. Toys R Us, which filed for bankruptcy in September, recently said it would liquidate. (See also: Retail Sector Likely to See More Defaults.)
+S&P Global Ratings recently said it expects even more retailers to default this year than last year, with risks spreading from specialty apparel to other specialty retail, and even grocery. The ratings firm has downgraded 11 retailers so far this year.
+Here are some of the major bankruptcies in the retail sector so far this year:
+A’gaci
+A’gaci, a women’s apparel retailer based in malls, filed for Chapter 11 protection January 9 , saying it was spread “too thin to effectively respond to the rapidly changing trends in the retail market.” A’gaci is closing about 65% of its locations after opening 21 new stores in the last two years.
+Kiko USA
+Beauty retailer Kiko USA filed for bankruptcy Jan. 11 saying it would close 25 or its 29 locations as it struggled with declines in mall traffic. Kiko USA said it expects the closures to save it $7.1 million in operating losses each year.
+The Bon-Ton
+The Bon-Ton stores filed for bankruptcy Feb. 4 and its fate is still undecided. Recently U.S. mall owners Namdar Realty Group and Washington Prime Group said they will bid together to try to acquire the department store chain.
+Bon-Ton said it was planning to close 47 of its 256 stores this year. (See also: Bon-Ton Stores Files for Chapter 11 Bankruptcy.)
+The Walking Company Holdings
+Shoe retailer the Walking Company filed its second bankruptcy in 10 years on March 6, calling it the “final step in transforming … into a more vertically integrated, omni-channel retailer.”
+Now, its working under a $50 million bankruptcy loan from Wells Fargo, but that loan hinges on The Walking Company “conforming their lease portfolio to market rents,” CEO Andrew Feshbach said, according to the bankruptcy filing.
+Claire’s Stores Inc.
+Accessories retailer Claire’s filed for bankruptcy March 19 and has remained operating its some 1,600 stores, saying it hopes to reemerge after reorganization later this year. The company is trying to pare back its $2.1 billion debt load by $1.9 billion.
+More than a decade ago, Claire’s struck a deal with private equity firm Apollo Management that left it saddled with debt it has yet to escape.
+Remington Outdoor Brands
+Remington, the two century-old American gun manufacturer headquartered in North Carolina, filed for Chapter 11 protection on March 26. The firm had suffered from declining sales amidst the current protests against gun violence. In the lead-up to the bankruptcy filing, Remington announced in February that it had reached a deal with its creditors to write off about $700 million of its debt.  
+Southeastern Grocers
+Southeastern Grocers, parent company of Winn-Dixie and Bi-Lo supermarket chains, filed for bankruptcy March 27.
+Listing liabilities of between $1 billion and $10 billion, it said it planned to reduced debt by $500 million and continue operating its more than 580 locations. It has secured 100% exit financing with a $525 million six-year loan and a revolving credit facility.
+Nine West Holdings Inc.
+Women's shoe and accessory retailer Nine West filed for bankruptcy protection on April 6. At the time of the filing, the company had more than $1 billion in debt. Nine West said it will continue to operate while it works to restructure and sell some of its brands (See also: Nine West Files for Bankruptcy.)
+Gibson
+Legendary guitar-maker Gibson Brands Inc. filed for Chapter 11 protection on May 1. According to MarketWatch, the company has struggled to manage its debt load after its recent acquisition of companies including Royal Phillips’s home-entertainment systems, TEAC and Onkyo stereos. Gibson will continue manufacturing musical instruments and equipment but will phase out its Innovations unit, which makes speakers, headphones, and audio equipment. 
+The Bottom Line
+Traditional retailers saddled with debt, including massive debt resulting from leveraged buyouts, are struggling to stay solvent. Foot-traffic at malls and physical locations has declined as consumers turn to online shopping, which have caused sales to plunge for many brick-and-mortar retailers.
+Those retailers that can adapt to the change, for example by improving their in-store experiences or focusing on their online channel, have a better chance at survival. But those that are just too far into debt to fund the changes they need to thrive in the new retail world face a likelihood of going bankrupt. (See also: Tesla on the Verge of Bankruptcy.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

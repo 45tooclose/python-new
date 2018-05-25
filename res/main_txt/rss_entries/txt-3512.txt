@@ -1,0 +1,233 @@
+
+
+
+EOS Rising: A New Paradigm, or Just a Pump?
+EOS has been presented as a replacement of Ethereum, but its price climb once again looks unsustainable.
+
+
+ by  Christine
+Masters,
+11 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  EOS broke above $20 again before starting to slide - and triggered new talks of displacing Ethereum. EOS, which has a supply about 10 times larger than Ethereum, is still far from the three-digit prices. However, Ethereum just a year ago was in the price range of EOS.
+EOS started to slide on Monday after a wild weekend, losing 18% of its price to $17.75. Over the weekend, volumes peaked to record levels, as the price both in dollar terms and against BTC outstripped all expectations. EOS trading volumes are higher than $4.3 billion in 24 hours, remaining high in the past few days. With this trading activity, EOS has lined up among the most active coins, surpassing older projects and coins.
+
+
+baseUrl = "https://widgets.cryptocompare.com/";
+
+var scripts = document.getElementsByTagName("script");
+
+var embedder = scripts[ scripts.length - 1 ];
+
+(function (){
+
+var appName = encodeURIComponent(window.location.hostname);
+
+if(appName==""){appName="local";}
+
+var s = document.createElement("script");
+
+s.type = "text/javascript";
+
+s.async = true;
+
+var theUrl = baseUrl+'serve/v3/coin/chart?fsym=EOS&tsyms=USD,BTC';
+
+s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+
+embedder.parentNode.appendChild(s);
+
+})();
+
+
+The extremely active EOS trade on OKEx may be one of the reasons why Tethers (USDT) are rising in volumes. EOS is paired with the fixed-price token, and profit taking or stop losses are showing that the USDT is a necessity when it comes to securing crypto gains.
+https://twitter.com/DJROMANROXFORD/status/990442156895555584
+EOS is one of the hottest digital assets right now, taking up more than 13% of all trades for the day. EOS far outstripped the activity in Ethereum, and the momentum may take the price further up. However, some believe the climb of EOS is not sustainable, and is another short-term pump before a steep correction.
+
+At the moment, users on social media are complaining about the EOS trading on Binance. The EOS/BTC pair is extremely active, taking up 10% of the exchange’s volume, second only to the BTC pairings. But the lack of a fixed-price asset may mean that even switching to BTC and locking profits may lead to losses, as the whole market is having a short-term correction.
+Daily auctions for EOS also heated up, collecting around 50,000 ETH in a single day to boost the price to the equivalent of $19.
+In the case of EOS, the wild series of volume records, unprecedented BTC and dollar prices, may be broken by skeptics. The involvement of Brock Pierce in the project, the talks of price manipulation, and the potential troubles around the elections for block producers may shake the confidence in this project. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

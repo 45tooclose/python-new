@@ -1,0 +1,74 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        While Amazon.com Inc. (AMZN) and the popularity of online shopping have shaken up the traditional apparel and accessories markets, one team of analysts on the Street has highlighted two high-end handbag makers that they view as among the best positioned to outperform the broader market in 2018, as reported by Barron's. (See also: Amazon to Be #1 in Apparel in 2018: Morgan Stanley.)
+In a note to clients on Wednesday, Cowen & Co. offered an upbeat outlook on shares of Coach parent company Tapestry Inc. (TPR), which has already returned near 25% year-to-date (YTD) and Michael Kors Holdings Ltd. (KORS), also a Credit Suisse favorite, which is up 7.5% in 2018. 
+Cowen's Oliver Chen expects the luxury brands to continue to outperform on healthier pricing trends, new product launches and inventory and distribution improvements in the larger handbag sector. This handful of positive factors should contributed to handbag sector growth between 3% to 4%, according to Cowen. 
+Coach Parent and UK-Based Brand to Shine 
+Chen foresees shares of New York City-based Tapestry to gain 13.5% over the next 12 months to reach $62, lifting his price target from $56. The analyst remains optimistic regarding a rise in customer traction thanks to the firm's investment in its products, and a "heightened level of newness which is being well received by customers." Trading up 2.2% on Thursday afternoon, TPR has returned 38.5% to shareholders over the most recent 12 months, sharply outperforming the S&P 500's 11.9% return over the year. The stock's 3% dividend yield also makes it an attractive play for income-oriented investors, noted Cowen. 
+London-based brand Michael Kors, while cheaper than its U.S.-based rival, is more of a work in progress, according to Chen. The analyst refrained from issuing a buy rating on shares, yet lifted his price target to $74, from $71, reflecting a near 8% upside from Thursday afternoon. Trading up 2.6% at $68.63, KORS has gained about 9% YTD and whopping 80% over 12 months. (See also: 8 Contrarian Stock Picks for a Rocky Market: CS.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

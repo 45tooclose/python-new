@@ -1,0 +1,90 @@
+
+
+
+    
+        
+            
+        
+          
+                
+      
+
+    
+
+    
+        All portfolios contain risk. Risk can benefit our portfolios greatly, and just as quickly it can be responsible for the majority of our losses. But, by using derivatives and certain investment vehicles, such as hedge funds, we can offset some of that risk and prevent losses in certain situations, while still maintaining upside exposure.
+Using Options to Offset Risk
+A simple exchange-traded option is the most versatile financial instrument available. There are five different types of risk that an option can protect against: price differentials, the rate of change in those price differentials, interest rate changes, time and volatility. These risks are conversely expressed quantitatively as the options Greeks.
+Most option strategies that protect against particular risks will be completed by using more than one option, such as an option spread. Before we get to this, let's take a look at a few option strategies that utilize only one option to protect against risk. (For a quick primer, see Reducing Risk With Options.)
+Covered Calls: While a covered call is a relatively simple strategy to utilize, don't dismiss it as useless. It can be used to protect against relatively small price movements ad interim by providing the seller with the proceeds. The risk comes from the fact that in exchange for these proceeds, in particular circumstances, you are giving up at least some of your upside rewards to the buyer.
+Option Buying: Buying an option outright may not seem to be a measure to offset risk per se, but it can be when paired with the situation where a position contains a large on-paper profit. Instead of keeping the entire position invested, it can be divested, using a small portion of the proceeds to purchase put options. This strategy will act as a hedge against the potential downside risk of your originally invested capital. This strategy can also be viewed as offsetting opportunity risk. Theoretically, the cost of the option should be equal to this opportunity risk (as an option-pricing model may lead you to believe), but in more practical terms the cost of the option can often outweigh this opportunity risk and be beneficial to the investor.
+More complex option spreads can be used to offset particular risks, such as the risk of price movement. These require a bit more calculation than the formerly discussed strategies.
+Offsetting Price Risk: To offset a position's price risk, one can create an option position with a delta inversely equivalent to the position at hand. By definition, the equity has a delta of one per unit, so the position's delta is therefore equivalent to the number of shares. An investor can sell a particular number of calls (some naked) to offset the delta because the delta of a call sold is negative. This does come with some risk, as selling naked calls has potentially unlimited liability.
+Using Futures to Offset Risk
+Just as we used options to offset risks in particular scenarios, we can also use futures. The underlying assets of a futures contract are usually quite large, larger than most individual investors deal with. For this reason, individual investors might choose to execute the strategies below with options instead of futures.
+Offsetting Systematic Risk: During times of market turmoil, some investors may choose to neutralize the effect of systematic risk on their portfolios. Some investors choose to do this throughout time in order to produce pure and semi-pure alpha. To do this, one must calculate the aggregate beta of their portfolio and multiply the beta by the amount of capital. This shows the amount of capital directly correlated to market returns. By using short futures with the underlying assets equivalent to this amount, one can hedge the effect of systematic risk to the portfolio.
+This method of using futures is a dynamic one, as the investor will have to maintain this market neutral position as time passes due to market fluctuations. Options can also achieve this effect by using the delta of put spreads, although this latter method of using put options will result in a slight cost of the option premium.
+Using Hedge Funds to Offset Risk
+Given their notorious reputations, you might wonder how investing in hedge funds can result in the lowering of total risk. When an investor or institution has a large amount of market-correlated assets, this becomes a risk in and of itself. Risks that affect the entire market in a largely negative way can have devastating effects on the aforementioned types of investors.
+Hedge funds are market-neutral funds that aim to eliminate systematic risk. Market-neutral funds, by their nature, try to achieve returns that consist of pure untainted alpha. By investing part of one's assets into these vehicles, it will diversify the source of alpha, at the same time hedging the systematic risk from that portion of capital invested.
+The Bottom Line
+We all take risks by investing in the market, but savvy investors control their risk and use it to their advantage. These investors can do that through the use of option strategies, futures and even by diversifying their asset allocation to include hedge funds.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

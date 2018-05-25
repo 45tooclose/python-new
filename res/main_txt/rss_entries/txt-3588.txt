@@ -1,0 +1,140 @@
+
+
+    
+                          What is a 'Transactor'
+
+      A transactor is a consumer who pays their credit card balance in full and on time every month. Transactors do not carry a balance from month to month; they always pay their credit card bills in full by the due date. Transactors do not pay interest or late fees.
+The only way credit card companies make money off of transactors is by cross-selling them other financial products and from the percentage fees merchants pay on each transaction the transactor charges to their card. Credit cards can often serve as lead generators for other lucrative lines of business, such as mortgages or banking accounts.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Available Credit                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Zero Balance Card                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Balance Chasing                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Consumer Credit                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Transactor'
+      The opposite of a transactor is a revolver — a consumer who carries a credit card balance from one month to the next. Revolvers as a group are a major source of revenue for credit card companies because they pay interest on their balances. But individual revolvers who accumulate large balances and then become delinquent on their debt can cause creditors to lose money.
+Credit bureaus largely treat transactors who pay their balances in full and on time each month the same as revolvers who just make their minimum payments on time. From a credit score perspective, there is no advantage to paying in full. The amount the borrower owes at the time the credit card company issues the borrower’s monthly statement is the amount reported to the credit bureaus. As a result, all else being equal, a revolver and a transactor who are applying for the same loan are considered to present the same level of risk to the lender.
+Starting in 2013, the credit bureaus began including in consumers’ credit reports a two-year history of the amounts consumers are actually paying on their debts. This additional information provides a more accurate picture of how responsible a consumer is with debt and whether a consumer may be overextended. While the credit bureaus haven’t incorporated this information into consumers’ credit scores, a lender who takes the time to evaluate a prospective borrower’s credit report can see the difference between a transactor who has a $3,000 balance each month that gets paid in full (and on time) and a revolver who carries a $3,000 balance from month-to-month and is only managing to make the minimum payment. The credit utilization ratio is an important factor when determining a consumer's creditworthiness, as it compares the revolving balances on open accounts against the available lines of credit.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

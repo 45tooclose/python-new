@@ -1,0 +1,222 @@
+
+
+
+Ethereum (ETH) Headed for $800?
+Despite criticisms, ETH has established itself in the crypto ecosystem, and invited bullish moods once again.
+
+
+ by  Christine
+Masters,
+4 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+Subscribe
+
+
+  Ethereum (ETH) went through another one of its usual valleys before roaring up, settling with a price above $770. ETH grew by 17% net this week, adding another 7% on Asian trading. And just like many other digital assets, in the past month, ETH has pushed off from the lows, moving with a gradual upward trend and volumes returning and becoming more consistent.
+ 
+baseUrl = "https://widgets.cryptocompare.com/";
+var scripts = document.getElementsByTagName("script");
+var embedder = scripts[ scripts.length - 1 ];
+(function (){
+var appName = encodeURIComponent(window.location.hostname);
+if(appName==""){appName="local";}
+var s = document.createElement("script");
+s.type = "text/javascript";
+s.async = true;
+var theUrl = baseUrl+'serve/v3/coin/chart?fsym=ETH&tsyms=USD,BTC';
+s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+embedder.parentNode.appendChild(s);
+})();
+
+However, some see regulatory risks gravely affecting ETH prices. While ETH is active on the Korean markets, it also has significant exposure to US-based buyers through Coinbase. Hence, any actions by the US Securities and Exchange Commission may affect the choice to own Ethereum:
+https://twitter.com/CarpeNoctom/status/992089190044127232
+ETH is extremely important and instrumental in owning any tokens - without them, even free airdropped tokens are inactive, requiring gas fees in ETH to transact. Hence ETH may always rely on commanding a price as a utility coin. However, some believe the price may be relatively low, at around $400.
+Others are bullish, seeing ETH climb to $1,500 by the end of 2018.
+The project itself is one of the most technologically active. The issue of scaling is coming up, and for Ethereum, the solution would be sharding. Recently, Vitalik Buterin sent out a teaser suggesting the sharding solution is closer than expected.
+https://twitter.com/VitalikButerin/status/991031317046292480
+But the sharding suggestion may have been a bit too esoteric, and the market price spike in ETH came days afterwards.
+Sharding is a database approach where some transactions are settled on side chains, before being also secured on the main chain. Some compare the approach to bank branches settling their accounts and sending the information to the headquarters. OmiseGo (OMG) will be one of the projects aiming to scale through sharding.
+According to the proof of concept by Buterin, shards will be high-capacity chains that will communicate with the main chain through predetermined rules of governance, ensuring the accuracy of the distributed ledger. While the Ethereum blockchain produces a block every minute, sidechains, or shards, may produce blocks every few seconds.
+So far, no recipe has been found for scaling a blockchain, which is by definition a slow type of data structure. However, even now, Ethereum handles up to three times the transactions on the Bitcoin network, with up to 25 transactions per second.
+Networks that promise hundreds of thousands of transactions per second usually rely on a form of centralization. EOS, TRON, and others, are planning to build a system of verifying servers to verify the distributed ledger. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

@@ -1,0 +1,89 @@
+
+
+
+    
+        
+            
+        
+          
+                
+      
+
+    
+
+    
+        [Rick Seaney is the CEO and cofounder of FareCompare, and columnist for Investopedia. The views expressed by columnists are those of the author and do not necessarily reflect the views of Investopedia.
+We live in an era of DIY (do-it-yourself) so unless you travel for business at a very big company or can hire travel agents to plan vacations for you, you do all the work and you step up when things go wrong. The good news is, just a little more DIY now will mean a smoother trip later, and the following tips will help. So will keeping cool when things go wrong, but then why shouldn’t you? You’ve got a back-up plan.
+1. The Captain Yells, “Brace, brace!”
+Okay, most of us will never ever hear these words but it’s always smart to know what to do in such scenarios, just in case. Don’t get anxious, though; last month’s single fatality aboard a Southwest plane, while very scary and incredibly sad, was the first U.S. commercial airline fatality in nine years. And according to an air travel safety group, 2017 was the safest year on record for commercial air travel worldwide. (See 4 Travel Warnings You Really, Really Shouldn't Ignore.)
+Plan B: If your plane does get into trouble, listen to the captain or flight attendant or any crew member and follow their instructions. They’ll show you how to brace, and tell you when to leave the plane. When you do exit, do it as quickly as possible and leave all belongings on the aircraft.
+2. You Arrive, Your Luggage Doesn't
+This has happened to many of us. You wait at the carousel to collect your checked-bag and, no bag. What to do: Immediately go to your airline’s baggage office and fill out the form to report your loss. Do not leave the airport thinking you can call it in or send an email; do it while you’re at the facility. When filling out the form, do not exaggerate the value of any missing items. As American Airlines puts it, “We may reject your claim if you: falsify information on your claim or submit the same claim with more than 1 airline.” (For more, see Airline Baggage Policies: What's New, How to Save.)
+Plan B: Use a carry-on. It’s the one bag that can’t get lost since it travels by your side. However, if your carry-on is too big or too heavy, the gate agent may take it from you to stow in cargo so be sure to check your airline's bag rules.
+3. Your Wallet Goes Missing
+Keep an eye on your valuables as much as possible, especially wallets or purses that can get lost, stolen or lifted by clever scammers (see Traveler, Beware: 6 Scams and Theft Rackets). This isn’t as much of a problem if you’ve tucked away an extra credit card (kept outside of wallet/purse) for just such emergencies. Also, give a trusted friend/family member your credit card info, plus a phone number to call in case it goes missing. The biggest problem is if the disappearance relieves you of your driver’s license or passport.
+Plan B: Go to the nearest embassy/consulate for passport replacement; it’ll go quicker if you can show up with passport-sized photos of yourself. You'll also need a photocopy of your passport or birth certificate. As for the driver’s license, you’ll usually have to take care of that once you are home. If you’ve been using it as your ID to get through airport security, don’t worry. TSA agents see this a lot: Just get to the airport a little early because they’ll have to ask a few questions to verify that you are who you say you are. Handling these problems is why it's essential to travel with copies of your passport and your driver's license, kept in a separate place, such as your briefcase or computer bag.
+4. Your Flight Is Cancelled
+If this happens to you, Plan A is to get in line at the airport and get on the phone (assuming it’s a long line). You should also use Twitter. Follow your airline and if trouble arises, tweet about your dilemma. Airlines don’t like bad publicity so they constantly monitor social media channels to try and resolve problems before they blow up. You want to calmly and politely explain your dilemma to someone in charge and secure your spot on the next available flight. This is what everyone else is trying to do, but you give yourself a leg up with the three-pronged contact approach. Flight Cancelled? 5 Tips to Get the Next Plane Out has further advice.
+Plan B: If planes are going nowhere and you really have to get to your destination, see if trains or buses are available and book some seats. If you’re feeling particularly ambitious, you could rent a car. Or resign yourself to waiting another day.
+Moral of the Story
+Never leave home without a Plan B. Several of them.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '',
+     'leadGenVertical' : '',
+     'leadGenLayout' : '',
+     'leadGenPage' : ''
+    });
+                    
+            
+                

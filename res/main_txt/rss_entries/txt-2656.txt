@@ -1,0 +1,137 @@
+
+
+    
+                          DEFINITION of 'Liquidity Squeeze'
+
+      A liquidity squeeze happens when concern about the short-term availability of money causes reluctance among financial institutions to lend out money from their reserves. This hold on reserves causes the interbank market rate to rise, making it more expensive for banks to borrow from each other. Ultimately, this causes credit standards to tighten, making it more difficult and expensive for consumers to receive loans.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Interbank Rate                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Federal Reserve Credit                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Interbank Deposits                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Financing Squeeze                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Liquidity Squeeze'
+      Liquidity squeezes happen when banks become reluctant to lend money from their reserves because the availability of money might tighten. If banks lend from their reserves but cannot replace the reserves by cheaply borrowing from other institutions, they might not meet their reserve requirements. A lack of available loans to consumers may cause a pullback in consumer spending, which if prolonged, can hamper economic growth. In order to limit the impact of liquidity squeezes, central banks will often increase liquidity by injecting more money into the economy by reducing interest rates.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Deposit',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

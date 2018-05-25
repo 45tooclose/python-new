@@ -1,0 +1,264 @@
+
+
+    
+                        
+            
+                Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/PersonalFinance/Insurance/IC-Video/Term");} else {return "/8397/INV-NA/PersonalFinance/Insurance/IC-Video/Term";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/terms/g/group-term-life-insurance.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/xbvSMyqM.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/xbvSMyqM-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/thumbnails/live/13_lifeinsurance_421x236.jpg?quality=80&width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "560",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "xbvSMyqM-G9NhEyAa.mp4";
+                
+          
+            document.addEventListener("DOMContentLoaded", function() {
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                        var initializeJWPlayerSetup = function () {
+                            if (new VideoInit().canRun()) {
+                                setUpJwpPlayer();
+                            } else {
+                                new VideoInit().callBack = setUpJwpPlayer;
+                            }
+                        }
+            initializeJWPlayerSetup();
+          });
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "xbvSMyqM-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "Life Insurance",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };            
+          
+                    What is 'Group Term Life Insurance'
+
+      Group term life insurance is term insurance in which the insurer issues the employer a master contract with coverage extended to employees. Group term life insurance is relatively inexpensive compared to individual life insurance. As a result, participation is high. It is commonly a component of a comprehensive benefits package. 
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Group Life Insurance                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Group Carve-Out Plan                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Coincidental Excess Coverage                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Insurance Coverage Area                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Group Term Life Insurance'
+      
+Group term life insurance is a group benefit offered to employees who meet eligibility requirements, such as being a permanent employee or 30 days after hire. Group term life coverage can be adjusted for qualifying life events or during an open-enrollment period. The standard amount of coverage is usually 1-times the annual salary of the permanent employee. Employers typically pay most or all of the premiums for basic coverage. Additional amounts, ordinarily in multiples of the employee's annual salary, are usually offered for an extra premium paid by the employee. 
+Insured members receive certificates of insurance as proof of coverage. As with individual life insurance, insureds choose their beneficiaries. Underwriting is typically not required for nominal face amounts. However, most companies set a threshold whereby limited or full underwriting is required.  
+Total Coverage Available
+Employers or association groups offering term life insurance often limit the total coverage available to employees or members based on a variety of factors. These limiting factors include tenure, base salary, number of dependents, and employment statuses such as full-time, associate or executive. 
+The amount of available coverage varies per group. Most commonly, employers offer multiples of an employee's salary or fixed amounts, such as $20,000 or $50,000. Dependent benefits may also be available at no cost to the insured. The face amounts for dependents are typically fixed in $5,000 or $10,000 increments. 
+As with the employee, or member, the premiums for dependents are relatively inexpensive as compared to individual coverage. Group term life insurance for members of an association are generally offered at a discount, with none of the cost borne by the organization. Coverage is usually provided with annual renewable terms.
+Continuation of Term Coverage
+Group term insurance continues until termination of employment or when the coverage term ends. Often, employers offer terminated employees the option to convert to an individual term or permanent life insurance policy. Premiums for an individual term and permanent policies are commonly higher premium products than the group policy's premium. Alternatively, some employers allow terminated employees to continue group coverage for an extended period or indefinitely.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'LifeInsurance',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

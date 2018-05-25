@@ -1,0 +1,77 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Apple Inc. (AAPL) shares spiked this week as the smartphone maker posted better-than-expected results for its highly anticipated fiscal second-quarter report. While the Street continued to lower forecasts prior to the announcement Tuesday, fearing slowing demand for iPhones and shook by what were viewed as negative omens from a handful of Apple suppliers, the tech giant managed to rebuild investor confidence. (See also: Apple's Stock May Plunge Into a Bear Market.)
+The iPhone maker's upbeat Q2 results, in which top line and bottom line numbers came in above expectations yet iPhone sales were slightly less than the consensus estimate, forced many on the Street who had become more bearish on the FAANG stock in the recent period to explain their miscalculations. In a note to clients on Wednesday, Morgan Stanley analysts admitted that they repeatedly messed up their analysis and forecasts for the smartphone maker, overestimating the impact of weaker June quarter outlooks from suppliers like Taiwan Semiconductor (TSM) and AMD.
+"Weaker iPhone supplier results suggested meaningful downside in the June quarter which didn't come to fruition," wrote Morgan Stanley analyst Katy Huberty. 
+Street Overreacted to Weak June Quarter Guide From AAPL Suppliers
+Apple guided for iPhone shipments of 39 million units during its June-ending quarter, falling short of Morgan Stanley's estimate of 42 million a month ago, yet coming in well ahead of investment firm's revised forecast of 34 million units in sales. Huberty rates AAPL at overweight and expects share to gain nearly more than 13% over 12 months to reach $200 a share. "Even if smartphone replacement cycles continue to lengthen," wrote Huberty, Morgan Stanley expects Apple to deliver 4% revenue and 16% earnings per share (EPS) growth over the next three years, highlighting its services business as "the primary growth engine."
+Bank of America also issued a note to clients Wednesday attributing a disconnect between iPhone unit guide from supply chain data paints to the fact that consumers are buying cheaper iPhones than expected. The demand shift resulted in "lower iPhone X demand (focus of supply chain)" and "transferred to higher iPhone 8/7 demand (hence lower adjusted ASP)," wrote Bank of America's Wamsi Mohan, citing Apple's average selling price for the March quarter at $728 versus the consensus of $742. Mohan, who reiterated his buy rating on AAPL shares, lifted his price target by $5 to $225, implying an over 27% upside from Wednesday close. 
+Closing up 4.4% on Wednesday at $176.57, AAPL reflects a 4.3% increase year-to-date (YTD) and a 19.1% return over 12 months, compared to the S&P 500's 1.4% loss and 10.2% gain over the same respective periods. (See also: Apple Vs. Facebook: May the Best Stock Win.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

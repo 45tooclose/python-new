@@ -1,0 +1,81 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Shares of Spotify Technology S.A. (SPOT) jumped on Monday following a handful of upbeat notes including a bullish outlook from one team of analysts on the Street that recommend buying shares of the on-demand music streaming platform due to its similarity to Netflix Inc. (NFLX). 
+Secular Shift in Streaming Model
+In a note to clients, J.P. Morgan initiated coverage on the shares of the recently-public music streaming industry leader at overweight, expecting strong user growth to continue over the next five years despite heightened competition from new players such as Apple Inc. (AAPL). (See also: Can Apple, Amazon, Pandora, Compete With Spotify?)
+"Spotify is the largest pure play music streaming service, and is both driving and benefiting from the ongoing secular shift from a 'transaction-based' model to an 'access-based' streaming model," wrote JPMorgan's Doug Anmuth.
+As consumers become more accustomed to paying for key "tech utilities" on a subscription basis, analysts see companies like Netflix, Amazon.com Inc. (AMZN) and Spotify continuing to attract "premium" subscribers for monthly memberships. 
+Double Digit Growth Ahead
+"We believe Netflix is the closest operating comp to Spotify, as both benefit from the secular shift to streaming through subscription based models,” stated Anmuth. He views Spotify and Netflix as "under-penetrated in their markets" and foresees "secular shifts in both audio and video markets towards streaming to drive double-digit user growth for both."
+SPOT shares were also initiated at outperform by Evercore ISI analysts on Monday, who write that the service "maintains a long runway for subscriber additions" ahead of all other platforms in their coverage group. 
+Over the last three years, Spotify has managed to boost its monthly active user base by 38% annually, wrote Anmuth. The analyst expects the company to post a more than 20% annual user growth rate through 2023. 
+SPOT hit the public market in April with a reference price of $132, in an unusual initial public offering (IPO) with no underwriters. JP Morgan's 12-month price target at $190 implies a near 18% upside from Monday close at $161.67.
+(See also: How Spotify CEO Daniel Ek Got Rich.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

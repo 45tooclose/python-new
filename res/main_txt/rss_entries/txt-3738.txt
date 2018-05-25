@@ -1,0 +1,142 @@
+
+
+    
+                          What is a 'Zero Prepayment Assumption'
+
+      A zero prepayment assumption describes a baseline scenario used in financial modeling. In this model, a borrower or borrowers make no early debt payments. It provides a point of comparison for more complex prepayment models and allows an analyst to examine the effects of other variables on valuation in the absence of prepayment risk.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Public Securities Association Standard ...                     
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Constant Percent Prepayment                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Prepayment Risk                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Prepayment Penalty                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Zero Prepayment Assumption'
+      A zero prepayment assumption is one crucial and simple scenario of many used by analysts to construct complex financial models for valuing asset- and mortgage-backed securities (MBS). It is crucial as a baseline against which to evaluate scenarios with different rates of prepayment. Zero prepayment assumptions present a clean if unrealistic, circumstance where not a single borrower makes a payment ahead of the due date.
+Prepayment is a crucial variable in the valuation of debt securities. It tends to be driven by prevailing interest rates, especially in the case of mortgage-backed securities (MBS). As interest rates climb, borrowers are likely to be content with their borrowing rates and will see no incentive to make advanced installation payments. If interest rates decline, borrowers will be motivated to refinance their debt or to take advantage of a new loan with a lower rate and will be more likely to make prepayments.
+A second variable contributing to the prepayment of residential loans is turnover. Turnover is the rate at which homes change hands due to life events such as relocation or job change. Over extended periods of time, turnover tends to remain constant. During periods of stable or rising interest rates, however, analysts examine turnover to explain prepayment activity. Factors contributing to turnover include seasonality and the age of a loan.
+Prepayment is a significant risk to holders of MBS for two reasons. First, early payment leads to lost cash flows later in the life of the mortgage. Second, there is a strong possibility that the borrower is prepaying to refinance at a lower rate, earning the lender lower interest payments, if any, as part of the new loan.
+How Realistic is Zero Prepayment?
+Zero prepayment is not a realistic scenario. It is not intended as a model for valuing mortgage-backed security during a period with zero prepayments. The zero prepayment assumption is a benchmark for comparison to the multiple scenarios brought about by complex financial models. Explicitly, by holding the hypothetical prepayment at zero, analysts can model the impacts of other variables on debt valuation. Such factors might include default, severity, or catastrophic loss.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

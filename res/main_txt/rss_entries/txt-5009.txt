@@ -1,0 +1,77 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Amazon.com Inc. (AMZN) and other technology companies are setting their sights on the financial services market as they look for the next industry to disrupt, but they may want to rethink that. According to bankers, it’s just not profitable enough.  
+That was the message emanating out of a recent banking conference, covered by Quartz.  One banker suggested that the industry didn’t make enough money to warrant more competitors. While there are a whole host of fintechs that have already entered the space, the likes of Amazon, Facebook (FB), Apple Inc. (AAPL) and other technology powerhouses have just started to dabble in it. The tech companies would be formidable competitors, which is worrying lots of bankers and financial players even as they attempt to rationalize them away. (See more:  TD Ameritrade Partners with Apple for Business Chat.)
+Return On Equity Is Less In Financial Services
+According to Quartz, the banker pointed to return on equity, which is a way to measure profitability, as evidence. After al,l tech companies rank higher in terms of profitability than financial services companies. With Amazon making a lot of money hawking products to consumers and selling cloud computing to corporations why would it want to bother with checking accounts or lending products, the argument goes.
+Will Regulation Keep Tech Cos At Bay?
+Another reason why financial services executives and bankers don’t think tech companies will enter the market is regulation. In a recent interview with Bloomberg, Charles Schwab's Chief Executive Officer Walt Bettinger warned that technology companies will face even more regulation if they enter the financial services market. "If you're a FAANG-type company and you decide you want to come into our space in a manner consistent with the way we operate, you will invite the Federal Reserve into every single thing you do," the  discount brokerage's chief said. "It’s a wide moat and a big decision to make." (See more: Alexa Comes to Wall Street Thanks to JPMorgan.)
+Despite all the forewarning, it may be only a matter of time. Numerous reports have tech companies looking at digital payments and other areas of financial services. Take Amazon. Chief Executive Officer Jeff Bezos told staffers last year that entering the financial services market is a major initiative for Amazon. In early March, The Wall Street Journal reported Amazon was holding preliminary talks with JPMorgan Chase & Co. (JPM) about creating a product similar to a checking account. The idea, which is still in its infancy, would be to create a checking account-type product that would be attractive to younger consumers and those who already have banking accounts. Many think that banking, managing money, and investment advice will be the next markets some or all of the tech companies enter.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

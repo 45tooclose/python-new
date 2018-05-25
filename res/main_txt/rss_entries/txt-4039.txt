@@ -1,0 +1,112 @@
+
+
+
+
+Ethereum News
+ May 01, 2018 14:53
+ Ethereum Creator Says Sharding is Coming, Significant Improvement in Scaling
+
+
+
+
+ 
+
+
+Advertisement 
+
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1513203250972-0'); });
+
+
+ 
+Join our community of 10 000 traders on Hacked.com for just $39 per month.
+Ethereum creator Vitalik Buterin has announced that Sharding, a much awaited scaling solution for the Ethereum blockchain protocol, is coming.
+What is Sharding?
+In essence, Sharding is a solution that optimizes the process of verifying transactions and smart contracts by splitting the blockchain network into partitions called shards. Instead of having every single node go through the entire transaction history of the Ethereum blockchain network, Sharding allows certain nodes to be assigned to certain shards, optimizing the process of nodes verifying transactions.
+Previously, James Ray, an Ethereum developer working on a scaling solution called Drops of Diamond, said that the requirement of nodes to verify all transactions in a blockchain network limits the ability of the blockchain to scale. He noted:
+“In large part because of this, Bitcoin is limited to ~3-7 transactions per second, Ethereum to 7-15, etc. However, this poses a question: are there ways to create a new mechanism, where only small subset of nodes verifies each transaction?”
+Contrary to bitcoin, Litecoin, and other payment-focused blockchain networks, blockchain protocols like Cardano, Ethereum, and EOS are in need of a larger blockchain capacity and flexible network as they support large-scale decentralized applications. Apps like CryptoKitties and decentralized exchanges such as Kyber Network and AirSwap broadcast substantially large amounts of transactions to the Ethereum network per second, even with the use of off-chain methods that reduce the burden on the main chain.
+As such, Buterin revealed a proof of concept of Sharding uploaded to GitHub and hinted that the development of Sharding is near on social media, as he wrote “Sharding is coming.”
+On Reddit Ethereum, an online community wherein Ethereum users, investors, enthusiasts, and developers discuss various projects and solutions, Buterin published a more in-depth description of the proof of concept he released this week.
+According to Buterin, the fundamental idea of the current version of Sharding’s proof of concept surrounds the implementation of a proof-of-stake beacon chain or full Casper, that is merged into the main Ethereum blockchain network.
+“The basic idea is based on a concept of dependent fork choice rules. First, there is a proof of stake beacon chain (in phase 4, aka full casper, this will just be merged into the main chain), which is tied to the main chain; every beacon chain block must specify a recent main chain block, and that beacon chain block being part of the canonical chain is conditional on the referenced main chain block being part of the canonical main chain,” explained Buterin.
+He added that the proof-of-stake beacon chain with Sharding enabled can issue new blocks every two to eight seconds, which is significantly faster than existing proof-of-work blockchains like bitcoin, which has an average block time of 10 minutes.
+Scaling is Necessary
+Coinbase co-founder Fred Ehrsam said that in order for Ethereum to support decentralized applications with millions of active users, it will need to improve by more than 100-fold in terms of scalability. Currently, developers expect Sharding, Casper, and Plasma to bring the scalability of Ethereum to the next level to support large-scale decentralized applications and smart contracts.
+Featured image from Flickr/TechCrunch.
+Follow us on Telegram.
+Advertisement
+
+
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1513203355638-0'); });
+
+
+
+
+
+
+POSTED IN:  Ethereum News, News 
+
+TAGS:  casper, Cryptokitties, Ethereum scaling, Kyber Network, Plasma, sharding, Vitalik Buterin 
+
+
+
+
+AUTHOR
+Joseph Young
+
+
+
+Share post
+
+ 
+
+
+
+
+Hong Kong-Based Finance and Cryptocurrency Analyst / Writer. Contributing regularly to CCN and Hacked. Offering cryptocurrency news and Insights Into Asian Market (South Korea, Japan, and more).
+
+
+
+
+
+
+
+
+
+	/* <![CDATA[ */
+		var disqus_url = 'https://www.ccn.com/ethereum-creator-says-sharding-is-coming-significant-improvement-in-scaling/';
+		var disqus_identifier = '135938 https://www.ccn.com/?p=135938';
+		var disqus_container_id = 'disqus_thread';
+		var disqus_domain = 'disqus.com';
+		var disqus_shortname = 'cryptocoinsnews';
+		var disqus_title = "Ethereum Creator Says Sharding is Coming, Significant Improvement in Scaling";
+		var disqus_config = function () {
+			var config = this; // Access to the config object
+			config.language = '';
+
+			/* Add the ability to add javascript callbacks */
+			
+			/*
+			   All currently supported events:
+				* preData — fires just before we request for initial data
+				* preInit - fires after we get initial data but before we load any dependencies
+				* onInit  - fires when all dependencies are resolved but before dtpl template is rendered
+				* afterRender - fires when template is rendered but before we show it
+				* onReady - everything is done
+			 */
+
+			config.callbacks.preData.push(function() {
+				// clear out the container (its filled for SEO/legacy purposes)
+				document.getElementById(disqus_container_id).innerHTML = '';
+			});
+								};
+	/* ]]> */
+	
+
+	/* <![CDATA[ */
+		var DsqLocal = {
+			'trackbacks': [
+				],
+			'trackback_url': "https:\/\/www.ccn.com\/ethereum-creator-says-sharding-is-coming-significant-improvement-in-scaling\/trackback\/"		};
+	/* ]]> */
+	

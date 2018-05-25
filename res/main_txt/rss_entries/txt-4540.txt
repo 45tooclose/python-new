@@ -1,0 +1,144 @@
+
+
+    
+                          DEFINITION of 'Market Letter'
+
+      A short publication that informs investors and other stakeholders, often via paid subscription, about a particular category of investments. For example, some newsletters focus on growth stocks and recommend or caution against particular holdings to its readers. A real estate market letter would provide data and commentary on commercial or residential real estate or Real Estate Investment Trusts (REITS) .
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Shareholder Letter                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Cover Letter                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Bank Confirmation Letter - BCL                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Demand Letter                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Market Letter'
+      There are thousands of market newsletters available online and in print, covering a vast array of asset classes, from Bitcoin to buying land in Mexico. Not all of the advice is necessarily sound since anyone can start a newsletter. Some financial service providers and others rate various market letters by evaluating how well investors would fare if they followed the advice of those letters. Mark Hulbert, who has written about and tracked newsletter performance for more than 30 years, told Kiplingers in 2016 that fewer than 10 percent of the advisers followed by his Hulbert Financial Digest beat their stated benchmarks.
+Not all market letters strictly provide investment advice. For example, some cover automobiles, for example providing information ad advice to Ferrari enthusiasts, while others focus on science such as biotechnology and pharmaceuticals. 
+Searching for an Edge
+The quest to beat the market or find undervalued sectors is as old as investing itself. Given the difficultly of trying to outperform the market or predict swings in sectors, some market letters have nonetheless managed to compile solid long-term records. Some of the prognosticators have even outperformed with strategies that Modern Portfolio Theory maintains is a fool's errand over the long term, such as market timing.
+Hulbert's website publishes an honor role of market letters that have outperformed over up and down markets. Here's his advice on how to use newsletters: "I would urge you to pay close attention to the Honor Roll even if the newsletters on it didn’t end up outperforming those that do not. That’s because the 'slow-and-steady' Honor Roll newsletters are least likely to be ones that you stop following at inopportune times. That’s important, since the key to long-term success is actually following a strategy through thick and thin. It doesn’t do you any good to follow an adviser with a good rating if you dump him when the markets move against you."
+Newsletters tend to proliferate around hot or new sectors, such as cryptocurrency and blockchain. Investors would do well to keep in mind that these markets and technologies are so new that there are few experts with long-term track records, and outsized risk.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

@@ -1,0 +1,88 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        As the final project for a product design class at Stanford in 2011, Evan Spiegel pitched the idea for a mobile app that permanently deletes photos and texts after opening them. His classmates balked and thought it was a terrible idea. Five years later, Snapchat – the company's official name is Snap Inc.(SNAP) – has become one of the hottest social media apps, the kind that feels comfortable turning down a $3 billion offer from Facebook Inc. (FB). The company went public with a market cap of $24 billion in March 2017, significantly more than Twitter's market cap, which was at $11 billion at the time. The price of the stock soared to $24 per share and pushed its market cap to $33 billion on the day after its IPO. After the IPO, Mr Spiegel received a stock rewards of more than 37 million shares of Snap stock, worth around $640 million at the end of the year, which granted him the best-paid CEO of 2017.
+However, only three months later, the stock price plummeted to a level under its IPO price. After another two months, on August 11, the stock hit its record-low price of $11.83 as it missed user growth for the second quarter in a row. (For more, see Snap Shares Getting Closer to Post-IPO Low ). Since then, the price has stayed under $17 per share until it rose 48% after the release of its better-than-expected Q4 earnings results on February 6, 2018. (For more, see Snap Stock Surges After Surprising Earnings Beat).
+As of Q4 2017, Snapchat draws 187 million daily active users worldwide, up 18% compared to a year ago. However, many users complain about the re-design of the app launched in November 2017. A petition demanding the remove of the redesign was signed by more than 1.2 billion users. Snap Inc. rejected the petition and said that the users just needed time to adapt. The shares of Snap tumbled further after celebrity Kylie Jenner's twitter post about her lost of interest in the re-designed Snapchat, BBC reported.
+Snap's stock dropped 21% to a record-low level of $11 per share on May 2, 2018 following worse-than-expected Q1 2018 earnings. It has a market capitalization of only $13.6 billion as of May 2, 2018.
+The "Black Hole"
+Before it went public in March 2017, few believe that Snapchat was profitable at that stage, but outside a small circle of venture capital investors, the startup's financials were anyone's guess. Gawker published a leaked income statement for the 11 months to November 2014, which showed the company generating shockingly little revenue: just $3.1 million, while the bottom line stood at -$128.4 million. Its balance sheet as of the end of November 2014 was more promising: it showed the company with $320.6 million in cash and equivalents.
+Things change quickly in Silicon Valley. Re/code reported that Snapchat was aiming for revenues of $300-$350 million in 2016, having hit a $100 million revenue run rate the previous October. Where exactly these revenues were coming from wasn't clear since Snapchat had not gone public at that time, which made Snapchat a black hole from potential investors' perspective, and it was even more of one from its customers'. According to an unnamed executive quoted in Digiday, Snapchat is "a black hole of nothingness" when it comes to disclosing performance metrics that advertisers crave – and receive in generous measure from Alphabet Inc. (GOOG, GOOGL) and Facebook.
+Cranking Up the Ad Engine
+Because of Snapchat's demonstrated appeal to the coveted 18 to 34-year-old demographic, advertisers will probably continue to line up. The company says it reaches 41% of this cohort in the U.S. every day in 2016. According to a more recent research by RBC Capital Markets at the end of 2017, 79% of the teen cohort (13-18 years old) in the US has a Snapchat account, followed by Instagram (73%) and Facebook(57%). The company generated its revenue primarily through the sale of its advertising products, which accounted for 97% of its total revenue in 2017, according to its 2017 annual report.  
+Snapchat offers brands different options for gaining exposure to young impulse-buyers. Geofilters are set to display branded images when the user is within the vicinity of a certain location; for example, fries pouring out over the user's head when they stray within range of a McDonald's Corp. (MCD) location. Sponsored Lenses allow users to play with an image a brand has created. You might raise your eyebrows to turn your head into a taco, for example, and then – if so moved – send the lens along to a friend.
+In January 2015 Snapchat introduced its "Discover" feature, allowing media partners such as CNN and ESPN to publish in the form of a "story," a series of snaps that began as a purely user-generated feature (see below). Re/code reported the following March that Snapchat was charging these partners around $100 per thousand views (CPM). Snapchat took 30% of the ad revenue, if the media company sold the ad space, or 50%, if Snapchat sold it.
+A year and a half later, Snapchat appears to want to change up the terms. Re/code reported in October that the company wants to pay content partners upfront license fees, sell all ads on its own  and keep all the resulting revenue. Presumably the change in tack means advertisers are buying, though it's uncertain whether Snapchat will be able to renegotiate with publishers on exactly those terms. (For more, see How The Internet Web Ad Industry Works.)
+Some have speculated that Snapchat will consider offering in-app purchases, which its sometimes-profitable Japanese rival Line Corp. (LN), has had success with.
+According to CEO Evan Spiegel, Snapchat's ambitions go well beyond the features we've seen so far. The company revealed a hardware product called Spectacles in September, which it has begun selling through vending machines (possibly just as a marketing promotion). The 27-year-old co-founder once floated the idea of a buying record label. In other words, Snapchat's approach to making money is likely to change significantly as time goes on.
+Core Features of Snapchat
+Snapchat allows users to send and receive texts, photos and videos – collectively known as "snaps" – among fellow users of the app. A user can choose to add a series of snaps to a "story," which is publicly viewable by anyone following that user. Alternatively, users can choose to privately send snaps directly to other users. In both cases, photos and videos have a maximum duration of 10 seconds.
+Unlike most other messaging apps, Snapchat deletes private snaps immediately after they're opened and public snaps 24 hours after they're posted. If your friend sends you a two-second snap, and for whatever reason you accidentally open it or miss the snap while it's being displayed, then it's gone – although as a Federal Trade Commission settlement from the end of 2014 shows, the snaps are not permanently deleted or entirely inaccessible to third parties.
+In November 2017, Snapchat re-designed the user interface - separating social from the media, which caused much confusions among the users and a petition against the re-design. (For more, see Petition to Reverse Snapchat's Redesign Crosses 1 Million Signatures)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '',
+     'leadGenVertical' : '',
+     'leadGenLayout' : '',
+     'leadGenPage' : ''
+    });
+                    
+            
+                

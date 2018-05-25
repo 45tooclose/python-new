@@ -1,0 +1,149 @@
+
+
+    
+                          DEFINITION of 'Envelope'
+
+      Envelopes are technical indicators that are typically plotted over a price chart with upper and lower bounds. The most common example of an envelope is a moving average envelope, which is created using two moving averages that define upper and lower price range levels. Envelopes are commonly used to help traders and investors identify extreme overbought and oversold conditions as well as trading ranges.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Envelope Channel                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Oversold Bounce                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Overbought                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Oversold                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Envelope'
+      
+Traders interpret envelopes in many different ways, but most use them to define trading ranges. When the price reaches the upper bound, the security is considered overbought, and a sell signal is generated. Conversely, when the price reaches the lower bound, the security is considered oversold, and a buy signal is generated. These strategies are based on mean reversion principles.
+The upper and lower bounds are typically defined such that the price tends to stay within the upper and lower thresholds during normal conditions. For a volatile security, traders may use higher percentages when creating the envelope to avoid whipsaw trading signals. Meanwhile, less volatile securities may necessitate lower percentages to create a sufficient number of trading signals.
+Envelopes are commonly used in conjunction with other forms of technical analysis to enhance the odds of success. For example, traders may identify potential opportunities when the price moves outside of the envelope and then looking at chart patterns or volume metrics to identify when a tipping point is about to occur. After all, securities can trade at overbought or oversold conditions for a prolonged period of time.
+Example of an Envelope
+Moving average envelopes are the most common type of envelope indicator. Using either a simple or exponential moving average, an envelope is created by defining a fixed percentage to create upper and lower bounds. 
+Let's take a look at a five percent simple moving average envelope for the S&P 500 SPDR (SPY):
+
+The calculations for this envelope are:
+Upper Bound - 50-day SMA + (50-day SMA x 0.05)
+Lower Bound - 50-day SMA - (50-day SMA x 0.05)
+Midpoint - 50-day SMA
+Traders may have taken a short position in the exchange-traded fund when the price moved beyond the upper range and a long position when the price moved below the lower range. In these cases, the trader would have benefited from the reversion to the mean over the following periods. Traders may set stop-loss points at a fixed percentage beyond the upper and lower bounds, while take-profit points are often set at the midpoint line.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'ActiveTrading',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

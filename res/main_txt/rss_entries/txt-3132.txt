@@ -1,0 +1,140 @@
+
+
+    
+                          DEFINITION of 'Bjerksund-Stensland Model'
+
+      Bjerksund-Stensland model is a closed-form option pricing model used to calculate the price of an American option. The Bjerksund-Stensland model competes with the Black-Scholes model, though the Black-Scholes model is specifically designed to price European options.
+American options differ from European options in that they can be exercised at any point during the contract period, rather than only on the expiration date. This feature should make the premium on an American option greater than the premium on a European option, since the party selling the option is exposed to the risk of the option being exercised over the entire duration of the contract.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Option Pricing Theory                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Early Exercise                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Exercise Price                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Black's Model                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Bjerksund-Stensland Model'
+      The Bjerksund-Stensland model was developed in 1993 by Norwegians Petter Bjerksund and Gunnar Stensland. It is able to complete complex calculations more quickly and efficiently compared to other methods. This was especially important because computers at the time were less powerful than modern computers, and inefficient formulas could slow down calculations. Investors use this model in order to generate an estimate for the best time to execute an American option, though it is unable to provide the most optimal exercise strategy due to the estimates that it uses in calculations.
+The model is used specifically to determine the American call value at early exercise when the price of the underlying asset reaches a flat boundary, and works for American options that have a continuous dividend, constant dividend yield and discrete dividends. Bjerksund-Stensland divides the time to maturity into two periods with flat exercise boundaries — one flat boundary for each of the two periods.
+Investors can use binomial and trinomial trees as an alternative to the Bjerksund-Stensland model. Trees are considered “numerical” methods, while Bjerksund-Stensland is considered an approximation method. Computers are typically able to complete approximation calculations faster than they can complete numerical methods.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

@@ -1,0 +1,76 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Microsoft Corp. (MSFT) is seeing brisk business for its Xbox One video game console, with the company revealing that sales are up 15% compared to the same period a year ago.
+In a blog post ahead of the Redmond, Washington software giant’s attendance at E3 2018, the gaming industry’s annual conference, Mike Nichols, CMO for Gaming at Microsoft said the company is witnessing a “record-setting number of players, playing at record levels, and engaging in new ways.” He said that Xbox Live players are up 13% compared to this time last year and that more than 600,000 “friendships” have been made through its “Looking For Group” feature, with now more than 1.2 million Clubs on Xbox Live. (See more: Microsoft Unveils World's Most Powerful Gaming Console.)
+Mega-hits Fortnite and Far Cry 5
+“We’re seeing tremendous engagement of mega-hits like Fortnite and Far Cry 5, both of which play best in 4K Ultra HD on Xbox One X,” wrote Nichols. “But we’re also seeing fantastic engagement with Xbox One console exclusives like Sea of Thieves, the fastest-selling Microsoft Studios new IP of this console generation, and PlayerUnknown’s Battlegrounds.” Nichols noted that its Xbox Game Pass subscription service has been a big driver of growth in terms of players and engagement. With users able to access more than 100 games it has been seeing strong growth. The executive said Microsoft is adding more games to the subscription service with State of Decay 2 coming to Game Pass on the same day of its global release. (See more: Microsoft's Xbox Game Pass Is Coming June 1.)
+The company has never released sales figures, so the base number underlying that growth is not clear, according to Verge. When the first iteration of the Xbox One came out in 2013, Microsoft provided sales numbers but after passing the ten million mark it stopped offering that data, focusing on active users instead of hardware sales, noted the Verge.
+In June it launched the latest Xbox One, which features a UHD Blu-ray player, 4K resolution gaming capabilities, 12 gigabytes (GB) of ram and 6 teraflops of graphics processing power. Microsoft has said it is 40%  more powerful than any other console on the market. It is also the smallest one yet, which made it the most advanced console the gaming industry has seen. The console sells for $499, which some had worried would be too pricey for gamers.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

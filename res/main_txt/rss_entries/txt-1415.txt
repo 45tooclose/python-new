@@ -1,0 +1,37 @@
+
+
+"The least evil."
+That's how one ethereum user described the latest effort to recover $264 million in cryptocurrency lost due to a code fault in a popular ethereum wallet. But while the recovery efforts that have proliferated since the November incident have been so far shunned, a new effort, now documented in code, aims for a simpler and less invasive way to implement the fix.
+Stepping back, in November, the code library associated with U.K. startup Parity's multi-sig wallet was deleted by a pseudonymous hacker who "accidentally" exploited a function called "self-destruct." In the fallout, Parity proposed a modification to the ethereum software whereby the self-destruct mechanism would lose its functionality, but the proposal was found to contain significant security risks.
+This new proposal, published on April 15 by Parity Technologies communications officer Afri Schoeden, suggests simply restoring the lost wallet library with a version of the code that does not contain a self-destruct function. 
+
+Users would be able to regain access to their funds, and on top of that, the new code would protect Parity from similar exploits going forward. As such, the new proposal sends a clear message - when it comes to fund recovery, some developers have no intention of giving up the fight.
+"I think simply recovering funds is both more technically sound and more honest than the original proposal to modify the self-destruct opcode," ethereum core developer Nick Johnson told CoinDesk.
+And a number of others agree.
+Co-founder of ethereum prediction protocol Augur, Joey Krug, told CoinDesk:
+"I do believe it doesn't make sense to just have all this capital senselessly locked up."
+Case-specific recovery
+What seems to be different about this proposal is its limited reach.
+Not only is it focused on the Parity software client only, but it's also targeted specifically at only the 513,774.16 ether lost in the November hack. (This provides a contrast to past proposals, which have aimed at fund recovery broadly).
+"Speaking personally, I'm in favor of helping people recover lost funds if the cost to do so is low relative to the funds being recovered, the owner is unambiguous, and the funds are definitively locked up," Johnson said. "I think the case with the Parity multi-sig bug fits all three criteria."
+The other thing EIP-999 seems to have going for it is that it's simple to execute. Instead of trying to rework the whole ethereum virtual machine, the proposal would be released to Parity software clients only by way of hard fork upgrade.
+Schoeden emphasized this ease to implement, pointing to the pull-request he already submitted to Parity's code base.
+And Krug, like others, believe this request might actually see enough community support to finally put an end to the Parity fund recovery debate.
+Although for some, including Krug, the balance between protecting ethereum users and encouraging good security practices should be taken into account when deciding whether recoveries should happen.
+"In my opinion, proposals like these should be accepted provided the code was actually audited," Krug said, adding:
+"If it wasn't, the community should be less forgiving."
+Debate continues
+But with the broader debate over the recovery of funds due to code vulnerabilities splitting the community for years, some aren't so sure even EIP-999 will settle the mess.
+"Allowing case-by-case proposals for mistake reversals is a terrible idea and opens up all kinds of concerns. This would set a terrible and dangerous precedent," one user wrote on an ethereum forum.
+This sentiment seems to be the current majority on social media and GitHub, where many are worried about future corruption and bribery.
+Indeed, a Reddit user warned, "Some unknown amount of developer mindshare will leave ethereum if this happens."
+Wrapping up what he sees as the sentiment among the community, Johnson told CoinDesk, "It seems plain to me based on an informal survey that a large proportion of the community is opposed to the idea. I think it's unlikely this proposal will be implemented."
+Yet, the debates have brought about some sort of silver lining.
+After EIP editor Yoichi Hirai stepped down from his role as a result of an eruption of criticism over the frozen fund recovery efforts, the EIP process was streamlined.
+Still, Schoeden is aggravated by the opposition, telling CoinDesk:
+"Even though I hear the feedback and apply changes to the new proposal, I get the feeling we're running in circles here."
+Frozen ether coin image via Shutterstock
+var riuyojisrlntqyiu,riuyojisrlntqyiu_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){riuyojisrlntqyiu_poll(function(){if(window['om_loaded']){if(!riuyojisrlntqyiu){riuyojisrlntqyiu=new OptinMonsterApp();return riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="//a.optnmnstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;riuyojisrlntqyiu=new OptinMonsterApp();riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");
+
+The leader in blockchain news, CoinDesk is a media outlet that strives for the highest journalistic standards and abides by a strict set of editorial policies. CoinDesk is an independent operating subsidiary of Digital Currency Group, which invests in cryptocurrencies and blockchain startups.
+

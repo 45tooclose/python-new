@@ -1,0 +1,146 @@
+
+
+    
+                          What are 'Contingent Value Rights - CVR'?
+
+      Contingent value rights (CVRs) are provided to shareholders of a company facing significant restructuring or a company that has been acquired. These rights ensure that the shareholders receive additional benefits if a certain event occurs. These rights are similar to options because they frequently have an expiration date beyond which the shareholders' rights to additional benefits will not apply.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Contingency                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Contingent Asset                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Contingent Payment Sale                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Contingency Order                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Contingent Value Rights - CVR'
+      For example, the shareholders of a company that has been acquired may receive a CVR that allows them to gain additional shares of a target company if that target company’s share price drops below a certain value by a predetermined date. CVRs related to a company’s stock are typically concerned with the price performance of the security.
+CVRs as Unsecured Obligations
+In many cases, the true value of CVRs is dependent upon a specific stock’s future performance. In certain instances, these rights are similar to options because an investor contractually maintains rights but is under no obligation to complete a sale of a certain security at a specified price within a predetermined period. The New York Stock Exchange Listed Company Manual refers to CVRs as "unsecured obligations." Congruent with this, shareholders are not guaranteed that a right or "reward" will be granted to them when the right is based on the price of a certain stock. In addition, all CVRs have an expiration date. Should the required event or events not occur within the specified contingent period, shareholders holding a CVR in a specified stock receive no additional benefits other than those that the stock itself offers.
+Additional Stock Shares
+CVRs also serve to benefit shareholders of a company that has been acquired by offering them the option to gain additional shares of stock in the acquired company as long as a previously established target price has not been met during the period set by the CVR. Because stock prices cannot be predicted with any certainty, the target price may be reached within the given period, at which point the CVR is of no value to the shareholders.
+Risk
+At the time of issuance, the true value of a CVR is not discernible. The risk that shareholders face remains unknown because the rights are based entirely on the anticipated price of the stock in the future or on some unpredictable event.
+If CVRs are part of a merger or an acquisition, a large part of the risk that would affect the acquirer is effectively transferred to the shareholders of the company being acquired, thus making it easier for the buyer to offer a more attractive price.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

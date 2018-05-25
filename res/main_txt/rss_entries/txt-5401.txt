@@ -1,0 +1,85 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Billionaire investor Sam Zell is sounding a bearish note on equities and real estate alike, telling Bloomberg TV: "The stock market, despite all its gyrations, is still at an all-time high. Real estate is priced to perfection...I'm a bit like that old Wendy's commercial, "Where's the beef?"... I think it's a very challenging situation, one that requires discipline." Indeed, he feels most comfortable holding cash, agreeing with his Bloomberg interviewer's comment that "There is a ton, a tsunami, of capital chasing too few opportunities."
+In January, prior to the stock market correction, Zell told CNBC, "I think the current situation seems like irrational exuberance." He went to say that he saw overvaluation in real estate as well, and thus was content to hold large cash balances. Though stock prices have dipped since early January, valuations are still high by historic standards. The CAPE ratio developed by Nobel Laureate in Economics Robert Shiller has been in a range similar to that preceding the 1929 Stock Market Crash. (For more, see also: Why The 1929 Market Crash Could Happen in 2018.)
+'Not Enough Tenants'
+Regarding real estate, Zell told Bloomberg that "prices are out of line." He also expressed concerns about rampant overbuilding across the country: "We're building too much industrial space. I'm not sure there are enough tenants." Citing the massive Hudson Yards project in the west 30s of Manhattan as just one example, he continued: "We're adding tremendous office space and I don't think there's enough demand." Scott Minerd, global chief investment officer (CIO) at Guggenheim Partners, also sees overbuilding, particularly in multi-family housing, that will lead to a steep drop in real estate values. (For more, see also: Stocks On 'Collision Course With Disaster,' Face 40% Drop.)
+Sitting on Cash
+In discussing a troubled, underperforming Chicago-based office REIT that his firm bought five years ago, Zell noted: "Since we took it over, we've done nothing but sell. Today we have $3.2 billion in cash, uncommitted, and we're just sitting there, waiting for the world to come to us." Asked about sitting on that cash and being patient about reinvesting it, he continued: "It's very hard to sit there and not pull the trigger, but it's the guys who don't pull the trigger who are around to pull it when it works."
+Dumping Stocks
+Zell is not alone in his unease about stock valuations. Mutual funds and ETFs that invest primarily in U.S. equities are in line for three straight months of net outflows, pending the compilation of final data for April, The Wall Street Journal reports. From the start of February through April 25, net redemptions have equaled $72 billion, per analysis by the Investment Company Institute (ICI), as cited by the WSJ.
+Prepare for Descent
+Based on projections of slowing worldwide economic growth, Barry Bannister, chief equity strategist at brokerage and investment banking firm Stifel Nicolaus & Co., predicts a decline in the S&P 500 Index (SPX) to a value of 2,520 by the middle of the third quarter, MarketWatch reports. This would be 5.4% below its close on May 4. This is modestly bearish, given that several other market gurus have been calling for precipitous market declines of 30%, 40% or even 60%. (For more, see also: Contrarian Mobius Sees a 30% Stock Plunge.)
+Lowered Expectations
+Using analysts' earning projections as its key input, a model developed by Morgan Stanley indicates that the implied growth rates are slowing, pointing to the lowest expectations for future stock market gains since January 2007. Meanwhile, both Scott Minerd of Guggenheim, and longtime stock market bull Jeremy Siegel of The Wharton School, indicate that tax cuts are delivering big year-over-year (YOY) increases in earnings and cash flow that will not be replicated in 2019. (For more, see also: Stock Investors' Expectations Lowest Since 2008 Crisis.)
+'Business Was Waterboarded'
+While Zell sees widespread overpricing of investment assets, he also believes that regulation places an undue burden on the economy. The Bloomberg interviewer noted that Zell has estimated that the cost of regulation is about one percent of GDP. Zell also said, citing a recent comment by JPMorgan Chase & Co. CEO Jamie Dimon, "in the eight years of the Obama administration, business was waterboarded."
+He is encouraged by the deregulatory efforts of the Trump administration, which he said are restoring confidence and spurring growth. "But that deregulation is still relatively small compared to what happened over that eight year period," he added. By way of an example, he continued, "You have a banking bill right now that's being driven by the fact that over-regulation has eliminated community banks; the people who know the borrower the best are the people who have been put out of business." Zell expressed his hope that this bill gains passage, and indicated that he welcomes other efforts to free the economy.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

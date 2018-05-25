@@ -1,0 +1,91 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        A trust is a vehicle for holding, and passing on, family property. As such, it typically serves at least one of two purposes: It can reduce a family’s taxes by shifting income to members in lower tax brackets, and it can provide for less fortunate (or more impulsive) members by controlling how their money is disbursed.
+Because of the dividend tax credit and personal tax credit, for example, a Canadian without any other income – especially a student with deductible education expenses – could receive tens of thousands of dollars in dividends from Canadian companies tax-free. But while the family trust has a well-earned reputation as a tool for the wealthy, these benefits can reach deep into the middle class. For example, a special rule known as an estate freeze can make a trust indispensable for even modestly successful family businesses.
+A trust is nothing more than a relationship. It occurs when one person, often called the settlor​, gives property to another person, the trustee, to manage on behalf of still other people (the beneficiaries). Using the estate freeze, for instance, owners of a growing company convert their shares of the existing business into preferred stock calibrated to the value of the business, and sell new common stock to the family trust that capture the company’s future growth.
+By locking in the current generation’s stake at the company’s current value, they can prepare for the tax liability when they die without worrying about having to sell the company. Meanwhile, the next generation can share in the company’s profits through dividends allocated to the common shares.
+A trust is not a legal entity that can enter into contracts or incur liability. Nor is the trust itself a contract that enforces obligations between any of the parties, though a beneficiary may sue a trustee for failing to act in the beneficiary’s best interest, which is known as a breach of fiduciary duty. As such, trusts are not particularly difficult to establish – in fact, technically speaking, most trusts don’t even require a founding document. But the tax law surrounding trusts is just as complex as one might expect – an individual interested in setting up a trust ought to talk to a lawyer first. Here is some of what you can expect to discuss.
+Living or Estate Trust?
+There are fundamentally two kinds of trusts. Testamentary trusts are created as part of a will and take effect upon the death of the testator. Recent changes to Canadian law took away the tax advantage of setting up long-term testamentary estate trusts,making them less useful.
+Any other trust, including one using an estate freeze, is a living, or inter-vivos, trust, established while its architect is still alive. A living trust can be established for a variety of purposes – Canada Revenue Agency (CRA) has identified 31 different types of living trusts – for a variety of different beneficiaries.
+Indeed, two new kinds of living trusts for senior citizens, so-called alter-ego and joint-spousal or common-law trusts, have begun replacing wills, according to tax lawyer Evelyn R. Schusheim of Toronto. Special rules allow an individual age 65 or older to roll over assets into these trusts without having to pay capital gains on the assets first. Only the individual (and the partner, in the case of a joint trust) can benefit from the trust while he or she is alive. When the settlor (or surviving partner) dies, the trust pays tax on realized capital gains, but the property in the trust can be distributed to heirs without being subject to probate fees.
+Mind the Attribution Rules.
+Though a Canadian trust is not a legal entity, it is under Canadian law a taxpayer – at the highest rates. That is why trustees try to pass on any income earned by trust property to beneficiaries – so they can pay the taxes at their own, presumably lower, rates. But in an effort to limit using trusts for tax avoidance, Canadian tax law attributes trust income to the person who transferred the property to the trust if the recipients are close relatives.
+In general, these attribution rules apply when the beneficiary is either a spouse, or under the age of 18, in the case of dividend and interest income (but not capital gains). The attribution rules do not apply when the beneficiary is an adult child (or grandchild, or niece or nephew).
+Other rules attribute the income to a transferor who can effectively control, or reclaim, the assets in the trust. There are exceptions, including alter-ego trusts and joint-partner trusts. But otherwise, the rules make revocable trusts, increasingly common in, for example, the U.S., difficult to use in Canada. (See also: How To Set Up A Trust Fund If You're Not Rich.)
+Choose a Settlor and Trustee.
+The attribution rules guide these decisions. Since a transferor can’t control the property in a trust, she can’t be a sole trustee. (A transferor can be one of at least three trustees, provided she does not wield disproportionate influence.)
+Usually, then, the person who is transferring the property that is to be put into trust asks someone else to be the settlor – a grandparent, perhaps, or close family friend. There are times, however, when you must appoint someone else, such as a trust company, as a trustee. For example, if you want to establish a trust in another province, the trustee (or a majority of trustees) must reside there. Other times to appoint an outside trustee are when you want pure independence or anticipate conflict within the family.
+It's important that the people who are designated trustees actually perform the work of trustee. In recent years Canada Revenue Agency has sought to clamp down on settlors or beneficiaries acting as de facto trustees.
+Decide on What Property to Transfer.
+A trust does not exist without some property being transferred, or as it’s called, settled – the prospect or promise of making the transfer is not enough to create a trust in advance. Moreover, given the attribution rules, it may be unwise to settle a trust with the actual property that will provide income or capital to the beneficiaries, though the settling property should have some value, otherwise, says Weigl, the trust’s legitimacy could be challenged. Weigl suggests using a silver or gold coin that is easily identified and kept in a safety deposit box. (If the trust is ever audited, revenue officials will want to know if the trustee still has it. “It becomes a bit of a record-keeping issue.”)
+If a trust’s beneficiaries would otherwise trigger the attribution rules, the settlor or the individual with the real assets can avoid them by making what’s known as a prescribed interest rate loan, a documented loan with an interest rate no lower than the CRA prescribed interest rate.
+The trust can then use the proceeds of the loan to purchase the assets it will hold. For example, in the case of an estate freeze, a small loan of, say, $100, ought be enough for the trust to buy the family company’s new common shares at a nominal par value. The trust can repay the loan when it receives the first dividend check.
+The Bottom Line 
+A trust is not a contract or a legal entity, but given the complex attribution rules, it’s best to talk to a lawyer before setting one up. (See also: How To Set Up A Trust Fund In The U.K.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

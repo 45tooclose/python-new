@@ -1,0 +1,36 @@
+
+
+Building enterprise blockchains can be a pain in the neck.
+Since the technology is so new, much of its underlying infrastructure isn't yet stable or automated, and as such, it demands that developers spend time rebuilding. The executives of Elemential know that headache well, and as such, are using their company to simplify the process of building enterprise blockchains.
+To do this Elemential, which is based in Mumbai, India, seeks to remove the pain of "blockchain administration" - which translates into the many hours every week that developers must spend on things like node deployment and configuration and maintenance activities, such as ensuring run-time and language dependencies.
+These are all things the firm's executives, CEO Raunaq Vaisoha and chief technology officer Anil Dukkipatty, dealt with during their first three years working with blockchain, first using "colored coins" (an early protocol that ran on top of bitcoin) and later with enterprise solutions like Hyperledger and Tendermint. 
+
+"When we started looking at blockchains, whenever we tried to take an application to production things would always go wrong," Vaisoha recalled, adding:
+"As developers trying to build business value on top of blockchain, we had to spend way too much of our time actually worrying about the risk and actually automating stuff at the protocol levels."
+But the process of automating these processes is tricky on a blockchain since there's no single administrator. So the team at Elemential put together a node-level software called Hadron and a decentralized protocol for administrative communication and decision-making called the Federated Network Protocol (FNP).
+"What we are trying to solve here is the logistics of decentralised decision making for large-scale enterprise networks," Vaisoha said.
+And according to several high-profile investors, including Matrix Partners, Lightspeed India Partners and Digital Currency Group (among others), who recently put a combined $1 million into the company, the project is exactly what the industry needs.
+Blockchain 'hall monitor'
+Administration on private blockchains has proven to be a challenging problem.
+This is because many tasks, such as allowing another member to join or leave the network, will need to be executed in a coordinated manner.
+For example, if a new member has to be added everyone on the network will have to whitelist the new member's IP, open certain ports and make changes to configuration files like the genesis file, Vaisoha said.
+In such a scenario it is much more efficient and reliable to automate these tasks - what FNP looks to do.
+"Coordinating a decision on important activities such as adding or removing network members, network topology design [and] scaling up the network requires federated as opposed to a centralized method of decision making," Vaisoha said.
+As such, the FNP essentially acts like "a hall monitor" to ensure nodes are behaving, he continued. If a validator node is about to crash, for example, a so-called "predictive correction feature" kicks in.
+The Federated Network Protocol is aware of the number of validators, and their health, at all times. This awareness allows Hadron to predict the point of failure on the network and prevent it by spinning up temporary validators that keep the network alive while participants are alerted to the imbalance and instructed to remedy it.
+In this way, Dukkipatty said, the blockchains that use Elemential (which has designed its middleware for Hyperledger Fabric, Corda, Tendermint and private instances of ethereum) can continue working even when a problem arises.
+Currently, Elemential is working with the National Stock Exchange of India on a know-your-customer (KYC ) compliance scheme that's built on a private blockchain. The pilot includes ICICI Bank, IDFC Bank, Kotak Mahindra Bank, IndusInd Bank and RBL Bank, as well as HDFC Securities, a Mumbai-based brokerage.
+More to come
+While the system allows nodes on the same networks to communicate with each other, Elemential's aspirations go further than that.
+For one, the company would like to create a solution that works across private blockchains so that one organization using Hyperledger Fabric could connect to another organization running Hyperledger Sawtooth.
+And after that, Elemential is interested in even expanding its work to public blockchains.
+Ironically, since public blockchains are typically seen as less manageable than private ones, though, Vaisoha said public blockchains are easier to develop administration for since their networks are completely open, allowing anyone to glean configuration data.
+The main goal, Dukkipatty said, is to make managing a blockchain network a risk-free and seamless one-click experience.
+This is why Elemential calls itself the "WordPress of blockchain," since - like WordPress did to blogging (increasing the ease of creating blogs which led to an explosion from 40 million in 2003 to more than 1 billion today) - Elemential plans to do for blockchain development.
+Dukkipatty concluded:
+"A lot of work has been done at the protocol level, but now it's about time that people start building applications - and we can see what's holding them back."
+Watches image via Shutterstock
+var riuyojisrlntqyiu,riuyojisrlntqyiu_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){riuyojisrlntqyiu_poll(function(){if(window['om_loaded']){if(!riuyojisrlntqyiu){riuyojisrlntqyiu=new OptinMonsterApp();return riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="//a.optnmnstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;riuyojisrlntqyiu=new OptinMonsterApp();riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");
+
+The leader in blockchain news, CoinDesk is a media outlet that strives for the highest journalistic standards and abides by a strict set of editorial policies. CoinDesk is an independent operating subsidiary of Digital Currency Group, which invests in cryptocurrencies and blockchain startups.
+

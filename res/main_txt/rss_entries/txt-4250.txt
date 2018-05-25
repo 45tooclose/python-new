@@ -1,0 +1,264 @@
+
+
+    
+                        
+            
+                Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/PersonalFinance/WealthManagement/IC-Video/Term");} else {return "/8397/INV-NA/PersonalFinance/WealthManagement/IC-Video/Term";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/terms/e/endowment-fund.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/EISFbSyj.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/EISFbSyj-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/dimages/graphics/endowment_fund.png?width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "560",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "EISFbSyj-G9NhEyAa.mp4";
+                
+          
+            document.addEventListener("DOMContentLoaded", function() {
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                        var initializeJWPlayerSetup = function () {
+                            if (new VideoInit().canRun()) {
+                                setUpJwpPlayer();
+                            } else {
+                                new VideoInit().callBack = setUpJwpPlayer;
+                            }
+                        }
+            initializeJWPlayerSetup();
+          });
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "EISFbSyj-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "Explaining Endowment Funds",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };            
+          
+                    What is an 'Endowment Fund'
+
+      An endowment fund is an investment fund established by a foundation that makes consistent withdrawals from invested capital. The capital in endowment funds, often used by universities, nonprofit organizations, churches and hospitals, is generally utilized for specific needs or to further a company’s operating process. Endowment funds are typically funded entirely by donations that are deductible for the donors.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Endowment                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Unitized Endowment Pool - UEP                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Restricted Asset                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Institutional Fund                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Endowment Fund'
+      Financial endowments are typically structured so the principal amount invested remains intact, while investment income is available for immediate funding for use to keep a nonprofit company operating efficiently. For endowments structured so a portion of the principal is released for use each year, the donation has an impact over a longer period of time.
+Primary Components of Endowment Funds
+There are three basic components of typical endowment funds. The first is the investment policy. This policy lays out what types of investments a manager is permitted to make and dictates how aggressive the manager can be when seeking to meet return targets.
+The second component is the withdrawal policy. This piece of the endowment fund establishes the amount the organization or institution is permitted to take out from the fund at each period or installment. The withdrawal policy is usually based on the needs of the organization and also takes into account the amount that remains in the fund.
+The third component of an endowment fund is the usage policy. This policy explains the purposes for which the fund may be used and also serves to ensure all funding is adhering to these purposes and being used appropriately and effectively.
+Types of Endowment Funds
+There are several types of endowment funds. Term endowment funds have a built-in stipulation that either part or all of the principal may be used only after a pre-established period of time has passed or until a specified event has occurred; the term depends on the wishes of the donor.
+There are also restricted and unrestricted endowments. The funds of the unrestricted variety may be used in any way the recipient chooses. Restricted endowment revenue may have limitations put in place by the donor to serve a specific purpose. A common example is a university scholarship that is restricted to students pursuing a career in a certain field or could be restricted more specifically to students pursuing one very specific career.
+Another type of endowment is a quasi-endowment. These funds are earmarked by the governing board of an organization instead of being restricted by donors or some other outside agency. These endowment funds are to be invested to generate income for a lengthy, unspecified time period.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

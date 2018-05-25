@@ -1,0 +1,145 @@
+
+
+    
+                          WHAT IS 'Intermarket Spread'
+
+      An intermarket spread is the simultaneous purchase of a given delivery month of a futures contract on one exchange, and the simultaneous sale of the same delivery month of the same futures contract on another exchange in the hope that the sale price is greater than the purchase price.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Interdelivery Spread                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Horizontal Spread                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Intercommodity Spread                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Delivery Price                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Intermarket Spread'
+      An intermarket spread, along with intramarket and interexchange spreads, are the three basic types of spreads. A spread combines a long and a short position put on at the same time in related futures contracts. The idea is to mitigate the risks of holding only a long or a short position. Spread traders are only concerned that their long positions rise in value relative to their short positions. 
+An intermarket spread involves going long futures in one market, and short futures of the same month in another. For example, if gold increases in price, the gain on the long position will offset the loss on the short one. If gold were to fall, the opposite would be true. The risk is that both legs of the spread move in the opposite direction of what the trader may have expected. Margin requirements tend to be lower due to the more risk adverse nature of this arrangement.
+Another example would be if a trader purchases May Chicago Board of Trade corn and simultaneously sells May corn in the same year. The hope is that the long position will increase in price and the short position will fall in price.
+Intramarket spreads are created only as calendar spreads, meaning a trader is in long and short futures in the same market, but in different months. An example of would be an investor going long in July corn and also short in December corn.
+An interexchange spread uses contracts in similar markets, but on different exchanges. They can be calendar spreads with different months, or they can be spreads in which the same month is used. The markets may be similar, but they can be traded because the contracts occur on different exchanges. 
+Spread trading reminders
+Spreads can be less risky because the trade is the difference between two prices, not an outright futures position. Related markets tend to move in the same direction, with one side of the spread affected more than the other, but there are times when spreads can be as volatile as outrights. Knowing the economic fundamentals of the market, including seasonal and historical price patterns, is important. Being able to recognize the potential for spread changes can be a differentiator as well.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

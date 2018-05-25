@@ -1,0 +1,145 @@
+
+
+    
+                          DEFINITION of 'Profit Warning'
+
+      Profit warning occurs when a company advises shareholders and the public that its earnings results will not meet analyst expectations. A company generally issues a profit warning prior to the public announcement of its official earnings results.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Profit                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Earnings Season                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Profit Margin                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Adjusted Earnings                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Profit Warning'
+      A company usually announces a profit warning two or more weeks before an earnings announcement. Some companies do this to soften the blow to investors, allowing both them and the market as a whole more time to adjust accordingly, This ideally takes some of the sting out of the expected price adjustment. If a company does not issue a profit warning, its earnings announcement is called a negative earnings surprise.
+A profit warning may occur if the company is in a down business cycle; however, since this event is more expected it is often due to poor performance or a single challenging incident either internal to the company or external from the industry or business environment.
+During a profit warning the company might mention issues related to key growth drivers like sales and margins, its supply chain; new customers, and more. As with regular earnings reports, a profit warning can get into granular detail or can remain more general, noting only a few places in its financial statements where its performance could fall below what shareholders anticipate.
+Example of a Profit Warning
+One of the largest outsourcing companies in Britain, Capita, issued a profit warning in January 2018, noting it had not been awarded any central government contracts. (Capital supplies a wide variety of public services, including assessments for disabled benefit claimants, electronic tagging for offenders, facilitating the administration of teachers’ pensions and more.) The announcement erased £1bn off its market capitalization in a single day. While Capita had received contracts from the BBC and Northern Ireland authorities, its lack of government contracts represented a large gap in a major source of revenue. The company also noted a pre-tax loss of £535m in 2017, which was up from £90m in 2016.   
+Profit Warning and Earnings Announcement
+Following a profit warning usually comes the company’s official earnings announcement. The format of this is often a call with management that shareholders and the public may dial into. A company’s investor relations team subsequently publishes a transcript of this call, including questions and answers from those listening in. If the earnings announcement follows the profit warning it will often expand upon the reasons for the miss in expectations, particularly in the management discussion and analysis (MD&A) section.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

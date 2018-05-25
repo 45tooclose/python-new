@@ -1,0 +1,75 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        When bitcoin cash split off from bitcoin in August 2017, it was the result of a heated and contentious debate about the future of the world's leading digital currency. Only months after that, the debate continued, as a November announcement emerged indicating that another bitcoin cash software upgrade would be in the works. Now, roughly six months after that announcement, the upgrade is slated to take place on May 15. Why is bitcoin cash going through another software upgrade at this time?
+According to a report by CoinDesk, a number of elements of the new upgrade seem designed to help the underlying network to be able to process more transactions than bitcoin itself. Among other features, the new upgrade will quadruple bitcoin cash's block size (from 8 megabytes to 32 megabytes). The result of this increase in capacity is a huge swell in the number of transactions possible per block.
+At the same time, bitcoin itself has tended to be more limited and conservative in its approach. But the dramatic move seems to be in keeping with bitcoin cash, which was generated as a result of developers who felt that bitcoin was not progressing quickly enough. Indeed, the team behind bitcoin cash ignored the advice of bitcoin's developers, who had argued that an increase in block size could cause trouble for the network.
+Into the Unknown
+In a way, the proposed software upgrade will bring bitcoin cash, with a market cap of more than $24 billion, into unknown territory. Bitcoin cash software implementer Joshua Yabut indicated that "block size increases are kind of non-controversial at this point, but it's nice to see on-chain scaling happen." He suggests that users will likely eagerly adopt the upgrade when it becomes available.
+Aside from the increase to block size, the developers of the upgrade are adding in old features that were stripped from the original bitcoin in its early days. Perhaps most notable among these is a smart contracts component. There's no question that this represents a bit of a gamble for bitcoin cash, but its a step that its developers are clearly interested in taking on.
+Investing in cryptocurrencies and Initial Coin Offerings ("ICOs") is highly risky and speculative, and this article is not a recommendation by Investopedia or the writer to invest in cryptocurrencies or ICOs. Since each individual's situation is unique, a qualified professional should always be consulted before making any financial decisions. Investopedia makes no representations or warranties as to the accuracy or timeliness of the information contained herein. As of the date this article was written, the author owns bitcoin and ripple.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

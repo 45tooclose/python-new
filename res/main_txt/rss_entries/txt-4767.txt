@@ -1,0 +1,263 @@
+
+
+    
+                        
+            
+                Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/ActiveTrading/ActiveTrading/IC-Video/Term");} else {return "/8397/INV-NA/ActiveTrading/ActiveTrading/IC-Video/Term";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/terms/u/underwater.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/42rOqOiR.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/42rOqOiR-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/thumbnails/live/85_underwater-loans_421x236.jpg?quality=80&width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "560",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "42rOqOiR-G9NhEyAa.mp4";
+                
+          
+            document.addEventListener("DOMContentLoaded", function() {
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                        var initializeJWPlayerSetup = function () {
+                            if (new VideoInit().canRun()) {
+                                setUpJwpPlayer();
+                            } else {
+                                new VideoInit().callBack = setUpJwpPlayer;
+                            }
+                        }
+            initializeJWPlayerSetup();
+          });
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "42rOqOiR-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "Explaining Underwater Loans",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };            
+          
+                    What is 'Underwater'
+
+      Underwater is the term for a financial contract or asset that is worth less than its notional value. This item could be an out-of-the-money call option where the stock currently trades above the option's strike price. Underwater is also a term for a home, or other substantial assets, which has an outstanding mortgage or loan with a higher amount due than the value of the asset could bring in the open market. 
+In either case, the holder has an asset without actual value.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Underwater Mortgage                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Put Option                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Pegging                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Deep Out Of The Money                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Underwater'
+      In options trading, an out-of-the-money (OTM) call has a strike price above the current price of the underlying stock or commodity. An OTM put has a stroke below the current price of the underlying. If the underlying asset cannot move above the call strike or below the put strike, the option will expire worthlessly. This occurrence is because all of the value of OTM options derives from its time value and the potential for the underlying to move in price. However, unless it moves, all of that time value decays, leaving the options holder with a worthless asset.
+Traders use OTM options when they believe the underlying asset will eventually move in the desired direction.
+Another usage of the term underwater has to do with solvency. When notional, or book value, is higher than market value, the holder of the assets cannot meet financial obligations. For securities trading, this can lead to margin calls.
+Underwater Real Estate
+In real estate, underwater refers to the situation where a house or other property is worthless if sold right now than the money owed on loan. This poor value presents problems for both the homeowner and the holder of the mortgage. If the homeowner needs to move, the sale of the home will not produce sufficient monies to pay the mortgage holder, even before any transaction fees. In this case, the homeowner must find additional funds or enter into a short sale with a third party. These types of problems, in turn, lead to legal battles and possible difficulties down the road for both the original homeowner and the third party lender.
+While a short sale does complicate the process by which the original lender recovers their money, a more significant problem with underwater mortgages emerged after the housing bubble in 2006 and bust in 2007. Homeowners with owing more than their home's value quietly walked away from their investments. This resulted in mortgage defaults, leaving the lending banks with losses and the added expenses of liquidating their acquired homes.
+The problem turned into a crisis when collateralized mortgage obligations (CMO), a type of mortgage-backed security (MBS) issued by a third party dealing in residential mortgages, failed. The issuer of the CMO collects residential mortgages and repackages them into a loan pool. The pool then becomes the basis of collateral for issuing a new set of securities.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

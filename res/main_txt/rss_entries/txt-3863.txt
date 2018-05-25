@@ -1,0 +1,147 @@
+
+
+    
+                          What is 'Spot Commodity'
+
+      A spot commodity is a commodity up for immediate trade, as opposed to a commodity under contract for trade at a future date. Unlike commodities traded on the futures market, commodities traded on the spot market are actually expected to be delivered at settlement.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Cash Price                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Current Delivery                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Spot Trade                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Cash Commodity                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Spot Commodity'
+      Spot commodities must be ready for immediate sale and delivery, as most trades typically settle within two days. Because of this, the price of a spot commodity has more exposure to supply and demand pressures within the market than futures contracts, which specify a price for delivery of a certain quantity of a commodity at a later date. The perishability of a commodity also factors into the volatility of its spot price in times of high supply, since the cost of spoilage eventually outweighs the cost of holding the commodity.
+Spot commodities compared to futures contracts
+Futures contracts originally involved to provide a hedging mechanism for buyers and producers. When farmers plan to grow crops or raise animals for the meat industry, for example, futures contracts provide some certainty around their financial return at harvest or slaughter regardless of what may happen to market prices in the meantime. For buyers expecting to take physical delivery of commodities at settlement, a futures contract provides protection against a spike in prices.
+By contrast, commodities speculators use futures contracts to profit on price volatility in commodities markets. Speculators do not intend to take delivery of a commodity at settlement, instead buying and selling the contracts themselves on an exchange.
+Backwardation and contango
+Since the value of a commodity futures contract derives from the value of the underlying commodity, it’s reasonable to expect the price of the futures contract to trend toward the spot price of a commodity as the futures contract approaches its settlement date.
+Typically, the price of a futures contract for a commodity declines toward the expected spot price as the futures contract approaches its settlement date. This process is known as normal backwardation. Economists believe the higher prices on futures contracts price in the risk of a shortage of the commodity in the spot market.
+The opposite situation, when futures contracts trade below the expected spot price of a commodity at settlement, is known as contango.
+For example, hog markets can experience supply and demand shortages when animals are affected by illness or by weather fluctuations. In a normal year, one might expect the price of a futures contract to be higher than the expected spot price, hedging the risk of trouble that might constrict supply or demand. If a combination of bad weather and infection decimated the hog population, spot prices would be expected to rise due to the unexpectedly constrained supply. The rise in spot prices could then push the market into contango as futures contracts adjust to match the rise in expected spot market prices.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

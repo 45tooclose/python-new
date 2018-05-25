@@ -1,0 +1,149 @@
+
+
+    
+                          What is 'Equalization Payments'
+
+      An equalization payment is made to a state, province or individual from the federal government for the purpose of offsetting monetary imbalances between different parts of the country or between individuals. Equalization payments help create comparable levels of public services, such as education and healthcare, and to supplement disadvantaged individuals with disabilities or low income.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Equalizing Dividend                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Order Imbalance                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Supplemental Security Income - ...                     
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Fiscal Imbalance                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Equalization Payments'
+      Equalization payments are also known as "transfer payments." 
+In many countries, there is a vast diversity between states and provinces in terms of the availability of employment, natural resources, etc. Equalization payments help correct these imbalances by spreading wealth from richer parts of the country to poorer areas, or from richer individuals to poorer ones if a progressive personal tax system is in place.
+Although there is no formalized equalization payment program in the United States, many of the poorer areas receive assistance through grants and various social programs. These programs include Medicaid and Social Security.
+Equalization payments are commonly distributed in Canada, Australia and Switzerland.
+Equalization Payments in Canada
+In Canada, the federal government provides equalization payments to less wealthy Canadian provinces to equalize their ability to generate tax revenues. In 2009-2010, six provinces received $14.2 billion in equalization payments from the federal government. Until the 2009-2010 fiscal year, Ontario was the only province to have never received equalization payments. Meanwhile, Newfoundland, which had been receiving payments since the program's creation, now does not require equalization payments and is considered a net contributor.
+Canada's territories are not included in the equalization program - the federal government addresses territorial fiscal needs through the Territorial Formula Financing (TFF) program.
+Equalization Payments in Australia
+In 1933, Australia introduced a formal system of equalization payments to compensate states and territories with lower capacities to raise revenue. The objective is full equalization, in which each of the six states, the Australian Capital Territory and the Northern Territory has the capacity to provide services and infrastructure at the same standard – if each state or territory made the same effort to raise revenue from its own sources and operated at the same level of efficiency.
+Equalization Payments in Switzerland
+Equalization payment were first introduced in Switzerland in 1938 in the form of conditional grants. These varied according to the tax capacity of the cantons. In 1958, a constitutional article authorized the federal government to equalize fiscal disparities. In 1958, Christopher Hengan-Braun, a Swiss economist, helped guide the Swiss federal government to help balance the country's fiscal disparities.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

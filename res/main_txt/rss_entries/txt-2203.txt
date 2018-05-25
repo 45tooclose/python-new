@@ -1,0 +1,28 @@
+
+ 
+  
+   
+  
+  
+   
+    
+    Ether has been the target of repeated hacks. Now one has abused a core part of internet infrastructure . (Photo by Jaap Arriens/NurPhoto via Getty Images) 
+    
+   
+  
+
+Another day, another significant theft of Ether. This time the theft, from users of MyEtherWallet.com, resulted in a loss of around 215 Ether, or roughly $152,000-worth of the cryptocurrency, according to data from Chainalysis, which tracks digital money. The figure could rise if the attackers are able to access more accounts.
+But at the heart of the hack was something far more significant: the abuse of a gaping flaw in the internet, one that highlights the fragility of the web's infrastructure we use everyday.
+As explained by MyEtherWallet on Reddit, hackers were able to take control of a number of Domain Name System (DNS) servers to redirect users who were trying to reach myetherwallet.com, taking them instead to a phishing site where the keys to their accounts could be stolen. Think of DNS as the address book of the internet, directing people who type in web addresses to the relevant web server.
+This redirection was happening for two hours without anyone noticing. And it was possible because of what MyEtherWallet described as a decade-old attack, taking advantage of vulnerabilities in public facing DNS servers.
+ 
+ 
+The internet's blind spot
+The weaknesses reside in the way in which core internet infrastructure is managed, not just at the DNS level, but with the linked Border Gateway Protocol (BGP). Perhaps the simplest definition of both is this from networking giant Cisco: "DNS looks up and resolves domains, like google.com, to their correct IP addresses, which are the real destination. If DNS is the address book that finds the destination, BGP is the system of freeway signs that show which routes can get there.
+"BGP is the complex, interweaving system that gets internet traffic where it needs to go, hopefully as efficiently as possible."
+If it's possible to take control of BGP routers, it's possible to carry out a DNS hijack attack. That's likely what happened in the case of MyEtherWallet, where traffic heading to Amazon Web Services' DNS infrastructure was redirected to one hackers controlled in Russia. That's where the phishing site was served and private keys to accounts stolen. It appeared a server in Chicago, run by provider a server at Equinix, was abused in the process. The company hadn't responded to a request for comment at the time of publication.
+
+And it's a technique that continues to work. Just last December, a BGP hijack saw traffic to major websites, including those of Apple, Facebook, Google and Microsoft, redirected to Russia. Researchers deemed it highly suspicious. In January, $400,000 in the Stellar Lumen cryptocurrency (XLM) was pilfered with another DNS hijack.
+But this latest hack was significant, noted security practitioner Kevin Beaumont, in a blog post, in which he said it was unlikely MyEtherWallet was the only target given the access the attackers had. "The security vulnerabilities in BGP and DNS are well known, and have been attacked before. This is the largest scale attack I have seen which combines both, and it underscores the fragility of internet security," Beaumont wrote. "It also highlights how almost nobody noticed until the attack stopped. There is a blind spot."
+That blind spot exists because of the very design of BGP, said Andrew Hay, a DNS expert as well as CTO and co-founder at LEO Cyber Security. Once a BGP router has been compromised, and for however long it can go unnoticed, large chunks of traffic will be automatically redirected. The process is automated because of the dynamic nature of the internet, noted Hay. It was designed for dynamic changes because of events such as global outages, he added.
+"So unless you are very diligent about which route you choose to accept… it's kind of the wild west. You're [automatically] trusting the other routers you peer with."

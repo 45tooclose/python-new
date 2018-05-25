@@ -1,0 +1,83 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Occasionally a company will spin off a department, only to have the child outgrow the parent. Pharmaceutical company Abbott Laboratories (ABT) now has a considerably smaller market capitalization than does spinoff AbbVie Inc. (ABBV), which is now worth more than $144 billion. 
+Devised as the research arm of Abbott and based in Chicago, AbbVie became a major pharmaceutical company in its own right in 2013. The diminished Abbott now retains the non-research interests – everything from baby formula to sports nutrition to heart stents. As for AbbVie and its separation from its progenitor, management claimed that the move gave investors a chance to objectively value two businesses that were heading in disparate directions. Cynical investors retorted that Abbott’s board of directors constructed AbbVie as a repository in which to dump some of its imminently expiring patents. 
+Product Line
+AbbVie’s entire product line consists of nearly 40 drugs, several of which have become household names – among them Vicodin (an industrial-strength painkiller), Androgel (a testosterone booster) and Marinol (cannabis without the baggage). But the company’s undisputed heavyweight champion is Humira, an anti-inflammatory medication that just happens to be one of the world's best-selling drugs. 
+AbbVie sold more than $18 billion worth of Humira in 2017, and if you’ve never used it, thank the deity of your choice. Physicians use Humira to treat such ailments as Crohn’s disease and rheumatoid arthritis, a far more damaging and painful counterpart to common, non-inflammatory osteoarthritis. A standard prescription costs about $5,000, which means AbbVie sells about 3.6 million prescriptions a year. Humira means almost as much to AbbVie as tires do to Michelin. The drug alone was responsible for 63% of AbbVie's revenue in 2017. 
+Humira is expensive, but so were the years of research and testing that went into developing it and preparing it for market. Your average Crohn’s patient will take that trade. Humira brings in almost seven times more revenue than AbbVie’s next most lucrative drug, Imbruvica, which is used to treat certain types of leukemia and lymphoma. 
+One of AbbVie’s most versatile drugs, Lupron, brought in $224 million in revenue in 2017. Developed to fight everything from prostate cancer to vaginal fibroid tumors to early puberty, Lupron is a drug for every age and both sexes. 
+Expiring Patents
+The drugs that generate money one year aren’t necessarily the drugs that generate it the next. That’s not necessarily because superior drugs have supplanted the older ones, but rather because patents have expired and the market share of the drug in question has thus shrunk. For instance, AbbVie sells multiple drugs for the treatment of dyslipidemia (unhealthy levels of lipids in the blood) like TriCor and Niaspan, but some of the patents expired in the last couple of years, significantly reducing the drugs' contribution to AbbVie’s income.
+The patents protecting Humira began expiring in 2016, but sales of the name brand drug continued to grow as AbbVie filed additional patents to protect its main source of revenue. AbbVie reported a 14.6% increase in global Humira sales in 2017.
+While a biosimilar Humira competitor is not expected hit the market in the United States until 2023, Humira’s first competitor arrived in India in late 2014 and sold for $200 a vial, one fifth of the US price of the drug at the time.
+The Bottom Line
+If there’s one thing we’ve learned from analyzing the financial reports of large pharmaceutical companies like Merck & Co. (MRK), Pfizer Inc. (PFE) and Novartis (NVS), it’s that in general, it’s far better to produce an expensive drug with a small user base than a low-margin one taken by tens of millions. Walmart Stores, Inc. (WMT) might dwarf Trader Joe’s, but pharmaceuticals are a different game with a different strategy. The more ambitious the drug and the more serious the ailments it counters, the better for the manufacturer. AbbVie is testimony to that, generating profit margins of 23% as of the third quarter of 2017. As long as AbbVie can bring its new drugs to market faster than its patents expire, the company should be in great position in the long run.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '',
+     'leadGenVertical' : '',
+     'leadGenLayout' : '',
+     'leadGenPage' : ''
+    });
+                    
+            
+                

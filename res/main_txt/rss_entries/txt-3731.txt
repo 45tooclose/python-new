@@ -1,0 +1,141 @@
+
+
+    
+                          WHAT IS 'Term Securities Lending Facility - TSLF'
+
+      The Term Securities Lending Facility, or TSLF, was a weekly lending facility through the Federal Reserve Bank that allowed primary dealers to borrow Treasury securities on a 28-day term by pledging eligible collateral. The eligible securities under the TSLF included AAA to Aaa rated mortgage-backed securities not under review for downgrade, and all securities eligible for tri-party repurchase agreements. In exchange for this collateral, the primary dealers received a basket of Treasury general collateral, which included Treasury bills, notes, bonds and inflation-indexed securities from the Federal Reserve's system open market account. The TSLF opened in 2008 and closed in 2010.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Lending Facility                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Primary Dealer                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Securities Lending                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Cash for Bond Lending                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Term Securities Lending Facility - TSLF'
+      The Term Securities Lending Facility was operated by the Federal Reserve’s open market trading desk. The TSLF held weekly auctions in which dealers submitted competitive bids for the basket of Treasury securities in $10 million increments. At the Federal Reserve's discretion, primary dealers were allowed to borrow up to 20 percent of the announced amount. 
+Created on March 11, 2008, the TSLF was intended to ease the credit market for Treasury securities without affecting currency or manipulating security prices. The Federal Reserve originally pledged $200 billion to this facility in an attempt to relieve liquidity pressure in the credit markets, specifically the mortgage-backed securities market. By creating this facility, primary dealers including Fannie Mae, Freddie Mac and major banks could access highly liquid and secure Treasury securities in exchange for far less liquid and less safe eligible securities. This helped to increase the liquidity in the credit market for these securities. 
+This facility was chosen as a bond-for-bond lending alternative to the Term Auction Facility, or TAF, a cash-for-bond program that injects cash directly into the market. A direct injection of cash can affect the federal funds rate and have a negative impact on the value of the dollar. The TSLF was also an alternative to direct purchases of the mortgaged investments, which goes against the Federal Reserve's aim to avoid directly affecting security prices.
+Effects of the Term Securities Lending Facility 
+Financial researchers discovered a strong negative correlation between using the TSLF and acquiring funds from other bailout programs, including the Troubled Asset Relief Program, or TARP, during 2008 and 2009. This indicates that the credit issued to these dealers by the TSLF prevented the dealers from needing other bailouts. The researchers found that dealers with more highly-paid CEOs were more likely to borrow during the next TSLF auction cycle than those dealers with lower-paid CEOs. The TSLF was closed on February 1, 2010.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Deposit',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

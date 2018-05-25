@@ -1,0 +1,146 @@
+
+
+    
+                          WHAT IS 'Farm Price Index - FPI'
+
+      The Farm Price Index, also known as the Farm Products Price Index or the US Department of Agriculture Farm Index, monitors the prices farmers receive for sales of crops and livestock. 
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Farm Income                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Content Farm                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Deflation                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Farm Credit System - FCS                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Farm Price Index - FPI'
+      The Farm Price Index, or FPI, is considered an important measure by analysts, as many view farm prices as a leading indicator in the Producer Price Index, or PPI, and the Consumer Price Index, or CPI. 
+As a result, farm prices can be a sign of overall inflation and deflation in the economy, or, respectively, the rates at which the general level of prices for goods and services is rising or falling. Because inflation, whether high or low, can have drastic effects on the investment markets, the FPI can be a valuable tool in formulating predictions about market movements.
+The PPI for food tracks changes in prices paid to domestic producers. It measures price changes over time and is similar in construct to the CPI for food. The CPI measures the average change over time in the prices paid by urban consumers for a representative market basket of consumer goods and services. While the all-items CPI measures the price changes for all consumer goods and services, including food, the CPI for food measures the changes in the retail prices of food items only. 
+Industry analysts, food market participants and policymakers follow the PPI and CPI closely. Of particular interest to those in the food sector is data that tracks farm products and processed foodstuffs and feedstuffs.
+The FPI and the Economic Research Service
+A mission of the research arm of the USDA, its Economic Research Service, or ERS, is to research and report on trends and issues pertaining to the nation’s agriculture and food industries. The ERS conducts its research to aid those who make and influence public policy. Its key clientele include White House and USDA policy officials, Congress, various federal agencies and state and local governments. Farm and industry groups, including processors and wholesalers, as well as many consumers follow the ERS’ work with agriculture and food. 
+The ERS commodity outlook program delivers objective information about agricultural markets. It also provides projections pertaining to US and world agricultural commodity production, consumption and trade. Food research has become increasingly important due to changing views about food and how agricultural economies cope with new dynamics, including those related to the climate. 
+The ERS' monthly food price outlook usually comes out on the 25th of every month, except when the 25th falls on a weekend or a holiday. In that case, the ERS publishes its update on the 23rd or 24th.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

@@ -1,0 +1,141 @@
+
+
+    
+                          What is an 'Upstairs Market'
+
+      An upstairs market describes the trading of securities, such as stocks, that occurs within a broker-dealer firm instead of at an exchange, such as a stock exchange, or between two broker-dealers in the over-the-counter (OTC) market. In an upstairs market transaction, the broker-dealer typically represents both parties (buyer and seller).
+You may also find an upstairs market described as being "off board," meaning a transaction has occurred off the New York Stock Exchange (NYSE) which is also called the Big Board. The term is used either for a trade that is executed over the counter or for a transaction entailing listed securities that are not completed on a national exchange.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Broker-Dealer                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Stuffing                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Principal Orders                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            OTC Pink                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Upstairs Market'
+      
+The upstairs market is a network of broker trading desks and institutional investors where block trades are matched. Unlike trades that are paired at an exchange (or ATS), these trades are typically negotiated by phone. Once a trade has been consummated, it is “printed” on a marketplace. In order for brokers to source liquidity for their clients’ trades, they distribute details of those orders via phone calls and electronic indications of interest.
+An upstairs market exists when trading occurs within a broker-dealer firm and not through a regular exchange such as a stock exchange. The Securities and Exchange Commission (SEC) prohibits this type of trading activity if the prices given to customers are less favorable than the prices available to customers in the general market.
+The primary benefits of transactions taking place 'upstairs' or off-exchange include anonymity, pricing and rate of execution. For certain block trades, executing trades away from an organized exchange can offer a range of investment strategy enhancement. Transparency and oversight are sacrificed when transactions occur outside the purview of organized exchanges. This can prove tricky when resolving legal disputes between counterparties — which is not uncommon given the competitive nature of institutional investing. Transactions filling off organized exchanges can also have an impact on investor confidence, which long-term can affect investor trust in the financial system.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

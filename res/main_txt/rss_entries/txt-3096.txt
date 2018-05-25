@@ -1,0 +1,86 @@
+
+
+
+    
+        
+            
+        
+          
+                
+      
+
+    
+
+    
+        Doctors are one of our most esteemed professions. They’re held up as geniuses, seemingly unable to do wrong. Except when it comes to money.
+It's a stereotype that doctors are often lax with their finances. But it's true: They rack up debt, are careless with their earnings, and fail to save for retirement.
+Joe Saul-Seh, of the personal finance podcast Stacking Benjamins  (and a physician's husband) says because doctors have high salaries, they think it’s okay to spend accordingly. “Many spend their money on trappings that make them appear rich: nice vacations, expensive cars, maybe a boat and a large house,” he notes.
+A God Complex
+Dr. Jim Dahle, a blogger at the White Coat Investor, says that the common reasons that most people struggle with money apply to doctors. These include “a lack of financial literacy, poor financial discipline and a lack of long-term perspective.” “In addition, there is a bit of a culture within academic medicine where you don't talk about financial topics,” he says. (For related reading, see: These Professionals Need Financial Advisors.)
+There’s also the God complex. Doctors are used to being in charge and having people rely on them. Because they are so used to being looked up to, that they find it difficult to seek out advice on anything, Saul-Sehy says. To them, asking for advice is a sign of weakness. Physicians are supposed to be confident and it’s hard for them to trust someone else, or appear vulnerable to anyone. And the feeling is mutual: Saul-Sehy says he knows of a financial advisor who refused to work with doctors. When asked why, he said, “Because I can only worship one god.”
+Careers Start Late, Mounds of Debt
+Most doctors spend years getting their undergraduate and medical degrees. Their friends are 22 when they graduate, start working and earn a real living. In contrast, most physicians don't finish their training until their early 30s. After years of studying, exams and living on a student budget, they’re ready to splurge. (For more, see: A Look at Advisors Serving Niche Clients.)
+Dahle says for many, the income jump is one of the reasons for poor financial habits. But being a doctor also comes with its own set of financial baggage. Even though they’re earning well into six figures, most are also paying off hundreds of thousands of dollars of student loans.
+Alexi Zemsky, cardiologist and blogger at MilesDividendMD, finds that many doctors fail to account for being in a higher tax bracket. “Unique challenges for professions with high levels of earned income really have to do with keeping effective tax rates as low as possible,” he says.
+Some of the ways he saves on taxes include maxing out contributions to his retirement accounts, health savings account and recording any losses from investing.
+Finding a good financial advisor is one way physicians can avoid the problems so common to their profession. But they shouldn't neglect developing their own financial literacy. Dahl himself got interested in investments was after a bad experience with an advisor.
+The Bottom Line
+Just because doctors have a reputation for being bad with money doesn't mean they're doomed to a life of debt or worse. If they seek professional help, live within their means and remember to save for retirement, they're as likely to succeed as anyone. Like anyone, they should start saving while they're young and continue to maintain good habits throughout their careers. (For more, see: How Advisors Can Tap the Doctor Niche.)
+“Physicians have already won the money game,” Dahle says. “Their high incomes get them 90% of the way. If they just manage to do a few things right, they will be financially successful.”
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

@@ -1,0 +1,84 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        The U.S. economy added more than 2 million jobs in 2017 as the employment situation continued to shine under the first year of Donald Trump's presidency. According to the Labor Department's April hiring and unemployment report, 164,000 jobs were added in the past month. The recovery in the job market has dragged the unemployment rate to its lowest level, at 3.9%, since 2000. The unemployment rate had been at 4.1% since October 2017. With unemployment rate declining to such a low level, pundits are now asking what may seem like an illogical question: is the unemployment rate too low?
+The unemployment rate is defined as the percentage of workers who are unemployed and actively looking for a job, and at 3.9 percent one could argue it's too low. So why is the unemployment rate too low? Is it a detriment to the economy when too many people have jobs? (See also: Jobs with the Lowest Unemployment Rates)
+A Question of Productivity
+The labor market will reach a point where each additional job added does not create enough productivity to cover its cost, making every successive job after that point inefficient; this is the output gap, often called the slack in the labor market. In an ideal world, an economy has no slack, meaning the economy is at full capacity and there is no output gap. In economics, slack is calculated by U6 minus U3, where U6 is the total unemployment, hidden unemployment and part-time workers seeking full-time work, and U3 is simply total unemployment.
+​
+Just as an economy rises and falls, so does the output gap. When there is a negative output gap, the economy's resources — its labor market — are being underutilized. Conversely, when there is a positive output gap, the market is overusing resources and the economy is becoming inefficient — this occurs when the unemployment rate falls. 
+The level at which unemployment equals positive output is a highly debated. However, economists suggest as the U.S. unemployment rate gets below 5 percent, the economy is very close to or at full capacity. So at 3.9 percent, one could argue the level of unemployment is too low, and the U.S. economy is becoming inefficient.
+Rising Wage Inflation
+Inflation is generally a good thing. However, across certain industries wage inflation above the natural pace of inflation is a bad thing. Sectors such as industrials and consumer discretionary struggle with wage inflation and small-cap firms don't have the margins to cope with rising wages. "In addition to profitability, small caps generate less revenue per employee and conduct a larger share of their business in the U.S." Goldman Sachs said in a note earlier this year.
+"We estimate that a 100 bp acceleration in labor cost inflation would pose a 2% headwind to Russell 2000 EPS, roughly double the 1% impact we estimate for the S&P 500."
+Wage inflation comes about by increasing demand for labor as the unemployment rate is falling. With fewer people available to work, employers are forced to increase wages to attract and maintain talent. (See also: How Inflation and Unemployment Are Related)
+A knock-on effect from rising wages is that some small firms have to dip into the less talented work pool, reducing productivity. 
+The Bottom Line
+At a decade low, the U.S. unemployment rate is ironically becoming a problem for policy makers. As the Federal Reserve adjusts monetary policy to reach the sweet spot of full capacity, it is faced with both economic and social problems. Accelerating wage inflation from too low unemployment will dent profits, but with 7 million people still looking for work, it's hard to deny them the opportunity.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

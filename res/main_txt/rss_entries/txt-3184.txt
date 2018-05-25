@@ -1,0 +1,221 @@
+
+
+
+    
+        
+        Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/ActiveTrading/ActiveTrading/IC-Video/Article");} else {return "/8397/INV-NA/ActiveTrading/ActiveTrading/IC-Video/Article";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/articles/technical/111401.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/0isxDu1t.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/0isxDu1t-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/thumbnails/live/53_elliotwave_421x236.jpg?quality=80&width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "100%",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "0isxDu1t-G9NhEyAa.mp4";
+                
+          
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                    var initializeJWPlayerSetup = function () {
+                        if (new VideoInit().canRun()) {
+                            setUpJwpPlayer();
+                        } else {
+                            new VideoInit().callBack = setUpJwpPlayer;
+                        }
+                    }
+          initializeJWPlayerSetup();
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "0isxDu1t-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "Elliott Wave Theory Basics",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };    
+        
+            
+      
+
+    
+
+    
+        Ralph Nelson Elliott developed the Elliott Wave Theory in the late 1920s. Elliott believed that stock markets, generally thought to behave in a somewhat chaotic manner, in fact traded in repetitive cycles. In this article, we'll take a look at the history behind Elliott Wave Theory and how it is applied to trading. 
+Cycles and Waves
+Elliott proposed that market cycles resulted from investors' reactions to outside influences, or predominant psychology of the masses at the time. He found that the upward and downward swings of the mass psychology always showed up in the same repetitive patterns, which were then divided further into patterns he termed "waves." (For more on the history of technical analysis, check out The Pioneers of Technical Analysis.)
+Elliott's theory is somewhat based on the Dow theory in that stock prices move in waves. Because of the "fractal" nature of markets, however, Elliott was able to break down and analyze them in much greater detail. Fractals are mathematical structures, which on an ever-smaller scale infinitely repeat themselves. Elliott discovered stock trading patterns were structured in the same way. He then began to look at how these repeating patterns could be used as predictive indicators of future market moves. 
+[If you want to supplement your knowledge about Elliott Wave Theory with lessons on the history of Dow Theory and other indicators that every active trader must know, check out Investopedia Academy's technical analysis course.]
+Market Predictions Based on Wave Patterns
+Elliott made detailed stock market predictions based on unique characteristics he discovered in the wave patterns. An impulsive wave, which goes with the main trend, always shows five waves in its pattern. On a smaller scale, within each of the impulsive waves, five waves can again be found. In this smaller pattern, the same pattern repeats itself ad infinitum. These ever-smaller patterns are labeled as different wave degrees in the Elliott Wave Principle. Only much later were fractals recognized by scientists.
+In the financial markets we know that "every action creates an equal and opposite reaction" as a price movement up or down must be followed by a contrary movement. Price action is divided into trends and corrections or sideways movements. Trends show the main direction of prices while corrections move against the trend. Elliott labeled these "impulsive" and "corrective" waves.
+Theory Interpretation
+The Elliott Wave Theory is interpreted as follows:
+Every action is followed by a reaction.
+Five waves move in the direction of the main trend followed by three corrective waves (a 5-3 move).
+A 5-3 move completes a cycle.
+This 5-3 move then becomes two subdivisions of the next higher 5-3 wave.
+The underlying 5-3 pattern remains constant, though the time span of each may vary.
+Let's have a look at the following chart made up of eight waves (five up and three down) labeled 1, 2, 3, 4, 5, A, B and C.
+
+You can see that the three waves in the direction of the trend are impulses, so these waves also have five waves within them. The waves against the trend are corrections and are composed of three waves each.
+
+Theory's Popularity
+In the 1970s, this wave principle gained popularity through the work of A.J. Frost and Robert Prechter. They published a legendary book on the Elliott Wave entitled Elliott Wave Principle: Key to Stock Market Profits. In this book, the authors predicted the bull market of the 1970s, and Prechter predicted the crash of 1987. (For related reading, see Digging Deeper Into Bull and Bear Markets and The Greatest Market Crashes.)
+
+The corrective wave formation normally has three distinct price movements - two in the direction of the main correction (A and C) and one against it (B). Waves 2 and 4 in the above picture are corrections. These waves have the following structure:
+
+Note that waves A and C move in the direction of the shorter-term trend and, therefore, are impulsive and composed of five waves, which are shown in the picture above.
+An impulse-wave formation, followed by a corrective wave, form an Elliott wave degree consisting of trends and countertrends. Although the patterns pictured above are bullish, the same applies for bear markets where the main trend is down.
+Series of Wave Categories
+The Elliott Wave Theory assigns a series of categories to the waves from largest to smallest. They are:
+Grand Supercycle
+Supercycle
+Cycle
+Primary
+Intermediate
+Minor
+Minute
+Minuette
+Sub-Minuette
+To use the theory in everyday trading, the trader determines the main wave, or supercycle, goes long and then sells or shorts the position as the pattern runs out of steam and a reversal is imminent.
+The Bottom Line
+Elliott Wave Theory has its devotees and its detractors like many of the other technical analysis theories out there. One of the key weaknesses is that the practitioners can always blame their reading of the charts rather than weaknesses in the theory. Failing that, there is the open-ended interpretation of how long a cycle takes to complete. That said, the traders who commit to Elliott Wave Theory passionately defend it. To dig deeper into Elliott Wave Theory check out Elliott Wave in the 21st Century.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '',
+     'leadGenVertical' : '',
+     'leadGenLayout' : '',
+     'leadGenPage' : ''
+    });
+                    
+            
+                

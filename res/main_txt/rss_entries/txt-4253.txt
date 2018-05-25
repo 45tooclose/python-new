@@ -1,0 +1,245 @@
+
+
+
+Cryptovest Exclusive: Did James Altucher Impersonate Ben Shapiro to Spam His Crypto Seminars?
+Through Agora Financial, James Altucher might be using shady marketing tactics to get the word out on his products after major advertising platforms banned cryptocurrency-related ads like his.
+
+
+ by  Miguel
+Gomez,
+8 mins ago
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+Subscribe
+
+
+  It started on the morning of April 27, when I got an email that purported to be from Ben Shapiro—one of the most successful conservative podcasters—inviting me to view a video about some entrepreneur who said I can make a fortune off of cryptocurrencies.
+ 
+There was something very “off” about this email, especially because this is far from the tone Ben Shapiro typically uses—even when he markets things—and the man doesn’t endorse cryptocurrencies in this fashion.
+Either something happened and Shapiro had started peddling so-called entrepreneurial material from “to the moon in my lambo” enthusiasts, or someone is using his name and reach to sell something. I had to investigate this.
+The first step to look at was the email header:
+ 
+According to this, the email was sent from IP 63.143.57.178, an address in Dallas, Texas. The Daily Wire host neither lives in Dallas nor did he have any appearances in that area the moment the email was sent. Of course, this could have been sent by an intermediary using his own address.
+Unsatisfied with simply finding out where the email was sent from, I had a look at “benshapiroreport.com”. The website looks semi-legitimate, but the WHOIS information and its IP address reveal something peculiar.
+Apparently, the site is hosted on GoDaddy, the domain name was registered on June 10, 2016 and details about the company are masked.That’s normal. But when I looked at the IP address, something different came up.
+We could safely assume that The Daily Wire, a media company that Ben Shapiro runs with his partner Andrew Klavan, would be run under a shared server with the same IP as any other website that Ben Shapiro owns. Content from The Daily Wire is run through Cloudflare on IP addresses 104.20.47.182 and 104.20.46.182 from Arizona.
+However, “benshapiroreport.com” was run on IP address 188.130.131.189 the morning I started looking through the mystery behind this email. That is an IP in Moscow, Russia, served by the NetArt Group ISP.
+ 
+The IP changed some 3 hours later to 184.168.221.26, an IP address belonging to GoDaddy in Arizona.
+ 
+This change of IP might have happened because the domain owner did not want people to discover the true location of the domain.
+The website itself is just a front page with a few text fields, and a button to subscribe to exclusive articles from Shapiro and all of his headlines from the web. Attempting to subscribe leads to an error page. This apparently has been the case since the website’s creation.
+All of the information here leads to one of three possibilities:
+
+Shapiro owns benshapiroreport.com and suddenly decided to break character and send this email,
+Shapiro owns the website and was compromised for long enough for hackers to send this information,
+Someone is impersonating Shapiro and sending dubious material through an email that looks like his, tied to a non-functioning website whose copyright on the bottom was last updated in 2016, or
+Shapiro owns the website and email address and someone spoofed it successfully in a way that bypasses any of the safeguards Gmail has, making me end up with this in my inbox.
+
+ 
+Considering that he wasn’t in Dallas when the email was sent from there, the domain “benshapiroreport.com” shortly had an IP address in Moscow, and there’s no evidence of him promoting the website extensively like he does The Daily Wire and his podcast, we can safely arrive at the conclusion that one of the latter three possibilities are more likely.
+When I sent an email to “[email protected],” I got an “Address not found” notice from my service’s mail delivery system as a reply. This means that the message was sent using a web mailer script, which makes such an address easier to spoof.
+Looking At The Video
+The one thing that made me highly suspicious of the email was the video it linked to. It says that people can invest $100 in Bitcoin today and eventually end up with a retirement fund because Amazon might accept it someday.
+ 
+The video appears to be dictated by James Altucher, an entrepreneur who aggressively markets his books. The warning appears to be tailor-made for the date in which I received this email, which was April 26. Looking through the video, I could hear “April 27, 2018” pasted into the audio poorly every time he mentioned the date when the so-called opportunity would go away.
+To add to the evidence, I looked through more of Altucher’s marketing material posted several months ago on Reddit, which leads to another page that offers a “secret $1.8 million cryptocurrency script” that conveniently expires tomorrow, whichever day it is.
+
+“Just a few days from now, retail giant Amazon will create a once-in-a-generation opportunity for anyone to turn a single $100 bill into a retirement fortune in the booming cryptocurrency market in a matter of months. Once Amazon executives utter the 5 words you see below, they’ll release a wealth explosion like we’ve never seen before,” Altucher said in his video.
+
+Watchers are asked later on in the half-hour video to subscribe to a newsletter and receive a variety of gifts. There’s a catch to all of this, however. Reddit user “Eph1997” points out that Altucher charges $4,000 per year for this subscription.
+These kinds of elevator pitches are similar to those that came during the dot-com bubble when several scammers were attempting to show their legitimacy as experts in the market and sold merchandise to an impressionable audience.
+This time, the target is people who haven’t yet explored cryptocurrencies. It bears mentioning that the man has been given credibility by news outlets that interviewed him as a cryptocurrency expert, including CNBC.
+The Facebook Ad Ban
+James Altucher relied mostly on advertising from Google and Facebook to spread his material and market his cryptocurrency books online. His ads were so spread across the internet that a Fortune Magazine senior writer even tweeted about his frustration with coming across them.
+https://twitter.com/rhhackett/status/950891655015682048/photo/1
+Another writer at Forbes considered Altucher a “sentient Twitter ad.”
+https://twitter.com/alexrkonrad/status/949755022803374081
+Over a month ago, Twitter, Google, and Facebook banned advertisements related to cryptocurrencies, ICOs, and tokens. This move may have been partially influenced by the number of ads like Altucher’s that were pervasive around the web. Now that this option was off the table for the enterprising marketer, it seems that other methods to gain visibility were in order.
+Digging a Bit Deeper
+When looking at the URL behind the video, I found the domain “chooseyourselfmedia.us”. As soon as I entered the domain name into my browser’s address bar, I found that it points its A record to “nhsreports.org”, a website apparently owned by Agora Financial.
+ 
+Interestingly enough, the site that “chooseyourselfmedia.us” leads to also has other domain names pointing to it like “danielsdiabetes.org”.
+Could there be a link between Agora Financial and James Altucher?
+In a January interview, Altucher told Inc. Magazine that he uses Agora Financial to manage his advertising campaigns. Is he aware of the type of marketing tactics the company uses?
+During the interview, he clarified that he has left the whole marketing part to Agora, but it is clear that he may need to look deeper into the company’s marketing strategies. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

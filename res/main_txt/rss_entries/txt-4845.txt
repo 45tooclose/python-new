@@ -1,0 +1,144 @@
+
+
+    
+                          DEFINITION of 'Vested Benefit Obligation - VBO'
+
+      Vested benefit obligation (VBO)refers to the actuarial present value of the pension plan that has been earned by employees, and is one measure of a firm's pension fund liability.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Vesting                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Graduated Vesting                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Graded Vesting                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Cliff Vesting                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Vested Benefit Obligation - VBO'
+      Vested benefit obligation (VBO) is one of three approaches firms use to measure and disclose pension obligations as well as the performance and financial condition of their plans at the end of each accounting period — as they are required to under FASB Statement of Financial Accounting Standards No. 87. The other two measures are the firm’s accumulated benefit obligation and projected benefit obligation.
+The VBO is the portion of the accumulated benefit obligation that employees will receive regardless of their continued participation in the company's pension plan. This is the benefit that has vested in employees — as opposed to the accumulated benefit obligation, which represents the present value of any benefits, whether vested or not.
+The Employee Retirement Income Security Act (ERISA) of 1974 requires companies to vest benefits using one of the following two approaches:
+Pension benefits must fully vest in five years or less; alternatively
+A company can choose to vest 20% of the employee's pension benefits in three years or less, then vest another 20% per year until the employee is 100% vested in the program after seven years of service.
+Since minimum vesting requirements are generally five years, the values of the vested benefit obligation and accumulated benefit obligation are very close in most pension plans. While the ABO and VBO values are required to be disclosed at fiscal year-end, in cases where the values are almost similar, companies' financial statements show the ABO value and state that the VBO and ABO values are not materially different.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

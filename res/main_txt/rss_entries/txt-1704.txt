@@ -1,0 +1,44 @@
+
+
+The views expressed here are the author’s own and do not necessarily represent the views of Cointelegraph.com.
+For an economy that emphasizes decentralization, cryptocurrency has ironically relied primarily on centralized platforms of exchange. This is problematic as they often hold funds in giant “honeypot” addresses that attract sophisticated attackers. This has resulted in several cases where exchange funds have been drained. In fact, there were two in the past 3 months alone! Bitgrail reported on Feb.12 that over $170 mln in XRB was stolen from their wallets. Coincheck suffered one of the largest losses ever with over $400 mln in NEM being stolen.
+Decentralized Exchanges
+Fortunately, alternative solutions to centralized exchanges are available and are called decentralized exchanges (DEXs). These platforms are structured in such a way that users retain ownership of their coins with their private keys. This is a much-needed solution because it prevents cryptocurrencies from being accumulated into one centralized point of attack.
+The demand for DEXs are growing. For example, the Radar Relay exchange exceeded $1 mln in volume over a 24 hour period for the first time back in the beginning of January.
+But even this type of exchange is not without its limitations - they are liquid and front-running.
+Liquidity
+The way decentralized exchanges work is that people individually set and take orders. However, these orders exist on separate order books that are hosted independently of each other. Therefore, the orders placed on one book won’t appear on another. This creates an issue as users suffer from a lack of liquidity and may have to look at several different books to place their orders.  
+This can be fairly solved through a process called “Networked Liquidity.” The basic premise is that different order books utilize an API in order to share their orders with one another. In this way, orders flow between “relayers” and provide the needed liquidity in the network.  
+
+Front running
+Front running is the concept that people can outbid an order placed on a DEX. Many decentralized exchanges running on Ethereum rely on smart contracts. But because the network is a public Blockchain, this creates a problem as anyone can check the memory pool to see who is intending to take an order.  
+Once a bad actor identifies that an order has been placed on a DEX, they can simply jump in front of them by placing the same order except with more gas. Therefore the first order that was
+placed is never realized as the order is now gone from the book.  
+
+One solution that Ivan Bogatyy, a former Software Engineer at Google, suggested to the Bancor team in his blog is to implement a ‘minReturn’ on trades which effectively cancels the order once the user realizes someone is trying to cut in front of them. Another solution he suggested was to set a max gas price so that people can’t bid higher than the limit.
+But these are short-term fixes. Adding a minReturn doesn’t prevent front-running - it just cuts a user’s losses. Further, adding a gas limit isn’t ideal during a congested network.
+Another way to mitigate this issue is through a “Commit-Reveal Scheme,” a solution presented by Will Warren, co-founder of the 0x project, an open protocol for decentralized exchanges. This means that a trader secretly commits his funds with a transaction, but doesn’t reveal it. Once the transaction is mined, a second transaction is sent with all the details - therefore executing the order on the DEX.  
+Unfortunately, this method isn’t perfect as it doesn’t prevent accidental collisions, for example when two of the same orders placed at the same time.
+Off-Chain Atomic Swaps
+
+On March 15, 2018, Lightning Labs announced the first Lightning beta release for mainnet on both Bitcoin and Litecoin. One of the most anticipated applications of the Lightning Network (LN) is Atomic Swaps.
+Atomic Swaps describes the “all or nothing” exchange of one currency for another, for example, Bitcoin for Litecoin. Even though the LN is not needed, it would make Atomic Swaps instantaneous, private, and fee-less in regards to mining.
+Let’s take a look at how the LN stacks up against the problem of liquidity and front running that DEXs face.
+Liquidity
+There are two generally understood paths to perform Atomic Swaps on the LN, although alternative ways are being researched: directly from one LN node to another LN node and routing your swap through an intermediary.
+In regards to liquidity, one issue the LN may face is fund and channel availability. The very nature of the network requires users to create payment channels through multisigs. This means you can only get on the LN channel if you have something to spend. Alternatively, intermediaries can only route payments if they have a sufficient amount of funds.  
+This issue can be solved in a similar way to DEXs. Just like how DEXs order books can share their information with one another, so too can transactions be routed and shared between nodes that have the funds and the channels to perform the swap. All that would be required is to extend the number of “hops” your swap goes through. As of press time, this is a challenge as the LN is still in its early development stage with more and more channels and funds being added to it. But as the network grows and larger players come online, this will be less of an issue.
+Front running
+Atomic Swaps utilize a technique called Hash Time Locked Contracts (HTLC). By simultaneously submitting both currencies into these contracts, HTLCs ensure that the amount you are exchanging for is ensured and cannot be “outbid” as they can be on DEXs. Similarly, there is no danger of “accidental collision.”
+
+For example, if I would like to exchange my Litecoin for Bitcoin, I would need to find someone on the LN to exchange with. We then commit respective coins to the swap. These are then routed through other nodes if we need other connection points and don’t want to pay for fees to create two payment channels between us. In this way, the exchange is guaranteed.  
+The LN does face a different problem: bad actors may try to cheat or steal another person’s funds. However, severe punishing contracts have been designed in such a way so as to disincentivize anyone from doing so.
+Looking forward
+Currently, many DEXs serve an important role in providing a way for the cryptocurrency ecosystem to trade without relying on centralized exchanges and removing the enormous financial incentives for sophisticated attackers. At the same time, they almost exclusively serve Ethereum based tokens.
+Alternatively, Atomic Swaps have yet to be widely implemented as the LN is still growing. It will also be limited to the currencies which are LN compatible.  
+Taking these facts into consideration, it may appear that the two forms of exchange will develop independently of one another as they serve different ecosystems. Still, this may not always be the case. It’s possible that these two ecosystems may eventually become compatible with one another. Alex Bosworth, a LN developer, recently shared in a podcast that one of his goals is to enable Atomic Swap compatibility between as many coins as possible. This would include the exchange of ERC20 tokens and LN compatible currencies.  
+
+Overall, the future of cryptocurrency exchanges seems to be bright as they are continually evolving. How we trade now may seem like a relic of the past in the next 5 to 10 years. The hope is that the developmental trend will continue down the path that is reflective of the principles of the coins they are hosting; by emphasizing censorship resistance and decentralization.
+The article is written by ecurrencyhodler, an author of "Understanding Litecoin: The Digital Currency for Payments."
+
+

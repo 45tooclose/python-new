@@ -1,0 +1,79 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        The Starbucks Corporation's (NASDAQ: SBUX) rise to fame started from a single coffee shop in Seattle's Pike Place Market in 1971. By the end of 2017, there were 27,000 company-operated and licensed stores globally. With humble beginnings, Starbucks' explosive success is among the many great American business stories that entrepreneurs study.
+While Starbucks is known for its coffee, the company continues to find growth through other beverages, such as tea, beer and wine. Starbucks has also continued to focus on its café presence through a wider range of food options, stylish restaurant remodeling, a revamped rewards program and continued international expansion. The company is making a major push into China, reportedly opening a new location every 15 hours. The company reported a strong FY 2017, with Non-GAAP* earnings per share (“EPS”) growing 11.4% over FY 2016, to $2.06 per share. 
+Howard Schultz
+The founder and former chief executive officer (CEO) of Starbucks Corporation, Howard Schultz is the single largest holder of Starbucks shares. Schultz holds over 37 million of the coffee giant's common stock as of his SEC Form 4 filed Nov. 21, 2017. Schultz joined the Starbucks Coffee Company as the director of retail and marketing in 1982. He later incorporated Starbucks in 1985, after his Il Giornale Coffee Company bought up Starbucks Coffee Company's assets. Since returning to Starbucks in 2008, Schultz served as the president and CEO. At the end of 2016, he announced that he would be turning over the position of CEO to Kevin Johnson. Schultz remains Executive Chairman of the Board for the company. 
+Mellody L Hobson
+Mellody Hobson, who has served on the Starbucks board of directors since February 2005, is the second-highest individual shareholder. Hobson owns a reported 493,228 shares of the company, per the 2018 Notice of Annual Meeting of Shareholders & Proxy Statement, dated Jan. 26, 2018. Hobson is president of Ariel Investments LLC, a Chicago-based firm, and was appointed to the board of directors of JP Morgan Chase & Co. in March 2018. She is also on the board of directors at Estee Lauder Companies, Inc. and was formerly chair of the board of directors of DreamWorks Animation SKG, Inc.
+John Culver
+As of the Jan. 26, 2018 SEC filing, Culver holds 290,091 shares of Starbucks, making him the company's third-largest individual shareholder. Since joining Starbucks in August 2002, Culver has held many positions, including president of Starbucks' China and Asia-Pacific business, president of Starbucks Coffee International, and served in other senior executive roles with the company's Global Consumer Products segment, food service business and Seattle's Best Coffee business. Culver currently is a group president of Global Retail at Starbucks.
+Clifford Burrows
+Clifford Burrows, who has worked at Starbucks since April 2001, is Starbucks' group president of Siren Retail and the fourth-largest individual shareholder of Starbucks, with 190,098 shares. Burrows served as a vice president of U.K. Starbucks in 2006 and president of the company's Europe, Middle East and Africa business from 2006 to 2008. He managed Starbucks Coffee U.S. from 2008 to 2011 and took over supervision of Americas and U.S. in 2011. In 2014, Burrows joined Teavana as the company's group president of U.S. and Americas.
+ 
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

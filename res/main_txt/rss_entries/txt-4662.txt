@@ -1,0 +1,207 @@
+
+
+
+Wemark Aims to Drive Out Middlemen by Placing Digital Content Industry on Blockchain
+Wemark is creating a blockchain-based marketplace for digital content to facilitate efficient and direct interaction between image creators and consumers.
+
+
+ by  News
+Desk,
+7 mins ago
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+Subscribe
+
+
+  Wemark, the project focused on creating a blockchain-based system for digital content distribution, is taking things a step further with its aim to remove intermediaries from the stock photography industry by allowing content creators to license their work directly to consumers. With that goal in mind, the Wemark team has developed a "distributed marketplace" where photographers and digital artists have handy tools to control copyrights and manage their projects.
+The global stock images market is forecast to exceed $4 billion, growing 7% annually, according to London-based market research company Technavio. Unfortunately, large agencies like Shutterstock and Getty currently command the lion's share of the market, making stock photography one of the most heavily centralized industries of the global economy. These big players control the distribution and thus dominate over individual photographers, who are forced to play by constantly changing rules imposed on them by stock image aggregators. What is more, photographers have to pay confiscatory fees of up to 85% of their image sale prices, which means they receive a tiny share of the revenue their work generates.
+
+Wemark wants to oust the agencies and replace them with blockchain technology to support the direct interaction between creators and content consumers. The Wemark team has developed a unique protocol that will be used to process payments, register copyrights, grant access to the purchased content, and distribute revenues under pre-defined and immutable rules, documented in blockchain.
+The project is introducing a dedicated token, WMK, for use within the ecosystem of a “distributed marketplace” for digital content. WMK will serve as the means of payment within the network and will be used to reward parties engaged in creating, sharing, and promoting digital content. Creators will be paid with WMK and receive rewards as the system economy grows, which creates a positive incentive and makes different creators stakeholders in the platform.
+The startup is utilizing venture capital financing and its advisory board includes industry luminaries such as Picasa founder and former CEO Lars Perkins, former Shutterstock content development director Keren Sachs, and Canva marketplace director Lee Torrens.
+
+“The current system for distributing digital content is not working anymore, with creators giving up many of their rights and only receiving a fraction of their content’s real value,” says Wemark co-founder and CEO Tai Kaish. “We have recognized that the current system, even beyond just photography, needs to be replaced. A distributed approach, where content is licensed directly between creators and consumers, is inevitable.”
+“Despite the explosion in demand that the Internet has fueled, photographers are having a tougher time than ever realizing value for their creative work,” comments Perkins, currently an advisor to Wemark.
+“Monolithic content marketplaces are middlemen who stand between them and their customers, extracting an ever-higher share of revenues by exploiting the fact that individual photographers lack the power to be heard in a crowded market. Wemark’s blockchain-based smart contracts allow content creators to re-establish a direct relationship with their customers and ensure that value is distributed more equitably. After all, don’t the creators of the content deserve more than the aggregators?”
+
+Visit Wemark’s official website to get more detailed information about the project or subscribe to its updates on Twitter or Telegram. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

@@ -1,0 +1,211 @@
+
+
+
+    
+        
+        Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/ActiveTrading/Markets/IC-Video/Article");} else {return "/8397/INV-NA/ActiveTrading/Markets/IC-Video/Article";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/insights/digging-deeper-bull-and-bear-markets/?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/xiQ7tNNE.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/xiQ7tNNE-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/content/video/bear_market_my_favo/bearmarket.png?width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "100%",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "xiQ7tNNE-G9NhEyAa.mp4";
+                
+          
+            document.addEventListener("DOMContentLoaded", function() {
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                        var initializeJWPlayerSetup = function () {
+                            if (new VideoInit().canRun()) {
+                                setUpJwpPlayer();
+                            } else {
+                                new VideoInit().callBack = setUpJwpPlayer;
+                            }
+                        }
+            initializeJWPlayerSetup();
+          });
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "xiQ7tNNE-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "Bear Market: My Favorite Financial Term",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };    
+        
+            
+      
+
+    
+
+    
+        Almost every day in the investing world, you will hear the terms "bull" and "bear" to describe market conditions. Because the direction of the market is a major force affecting your portfolio, it's important that you know exactly what the terms signify and how each affects you.
+What Are Bear and Bull Markets?
+The terms "bull" and "bear" market is used to describe how stock markets are doing in general -- that is, whether they are appreciating or depreciating in value. At the same time, because the market is determined by investors' attitudes, these terms also denote how investors feel about the market and the ensuing trends.
+Simply put, a bull market refers to a market that is on the rise. It is typified by a sustained increase in market share prices. In such times, investors often have faith that the uptrend will continue over the long term. Typically, in this scenario, the country's economy is strong and employment levels are high.
+By contrast, a bear market is one that is in decline. Share prices are continuously dropping, resulting in a downward trend that investors believe will continue, which, in turn, perpetuates the downward spiral. During a bear market, the economy will typically slow down and unemployment will rise as companies begin laying off workers. 
+Where Did the Terms Come From?
+The origins of the terms "bull" and "bear" are unclear, but here are two of the most common explanations:
+The bear and bull markets are named after the way in which each animal attacks its victims. It is characteristic of the bull to drive its horns up into the air, while a bear, on the other hand, like the market that bears its name, will swipe its paws downward upon its unfortunate prey. Furthermore, bears and bulls were literally once fierce opponents, when it was popular to put bulls and bears into the arena to fight. Matches using bulls and bears (whether together or against other animals) took place in the Elizabethan era in London and were also a popular spectator sport in ancient Rome.
+Historically, the middlemen who were involved in the sale of bearskins would sell the skins that they had not yet received and, as such, these middlemen were the first short sellers. After promising their customers to deliver the paid-for bearskins, these middlemen would hope that the near-future purchase price of the skins from the trappers would decrease from the current market price. If the decrease occurred, the middlemen would make a personal profit from the spread between the price for which they had sold the skins and the price at which they later bought the skins from the trappers. These middlemen became known as bears, short for "bearskin jobbers," and the term stuck because it describes a person who expects or hopes for a decrease in the market.
+Characteristics of a Bull and Bear Market
+Although we know that a bull or bear market condition is marked by the direction of stock prices, there are some accompanying characteristics that investors should be aware of. The following list describes some of those factors. 
+Supply and Demand for Securities - In a bull market, we see strong demand and weak supply for securities. In other words, many investors are wishing to buy securities while few are willing to sell. As a result, share prices will rise as investors compete to obtain available equity. In a bear market, the opposite is true as more people are looking to sell than buy. The demand is significantly lower than supply and, as a result, share prices drop. 
+Investor Psychology - Because the market's behavior is impacted and determined by how individuals perceive that behavior, investor psychology and sentiment affect whether the market will rise or fall. Stock market performance and investor psychology are mutually dependent. In a bull market, investors willingly participate in the hope of obtaining a profit. During a bear market, market sentiment is negative as investors are beginning to move their money out of equities and into fixed-income securities, as they wait for a positive move in the stock market. In sum, the decline in stock market prices shakes investor confidence, which causes investors to keep their money out of the market - which, in turn, causes the decline in the stock market. 
+Change in Economic Activity - Because the businesses whose stocks are trading on the exchanges are participants in the greater economy, the stock market and the economy are strongly linked. A bear market is associated with a weak economy as most businesses are unable to record huge profits because consumers are not spending nearly enough. This decline in profits, of course, directly affects the way the market values stocks. In a bull market, the reverse occurs, as people have more money to spend and are willing to spend it, which, in turn, drives and strengthens the economy.
+
+Learn about the fundamentals of trading in Investopedia Academy's Trading for Beginners course.
+How to Gauge Market Changes
+The key determinant of whether the market is bull or bear is not to just the market's knee-jerk reaction to a particular event, but how it's performing over the long term. Small movements only represent a short-term trend or a market correction. It's a longer time period that will determine whether you see a bull or bear market.
+For instance, the last two weeks may have shown the market to be bullish while the last two years displayed a bearish tendency. In that case, most would agree that a decided reversal in the market should be ascertained by the degree of the change: if multiple indexes have changed by at least 15-20%, investors can be quite certain the market has taken a different direction. If the new trend does continue, it is because investors are perceiving a change in both market and economic conditions, and are thus making decisions accordingly.
+Not all long movements in the market, however, can be characterized as bull or bear. Sometimes a market may go through a period of stagnation as it tries to find direction. In this case, a series of up and downward movements would actually cancel-out gains and losses resulting in a flat market trend.
+What To Do?
+In a bull market, the ideal thing for an investor to do is to take advantage of rising prices by buying stocks early in the trend and then selling them when they have reached their peak. (Of course, determining exactly when the bottom and the peak will occur is almost impossible.) During the bull market, any losses should be minor and temporary; an investor can typically actively and confidently invest in more equity with a higher probability of making a return.
+In a bear market, however, the chance of losses is greater because prices are continually losing value and the end is often not in sight. Even if you do decide to invest with the hope of an upturn, you are likely to take a loss before any turnaround occurs. Thus, most of the profitability will be found in short selling or safer investments such as fixed-income securities. An investor may also turn to defensive stocks, whose performances are only minimally affected by changing trends in the market and are therefore stable in both economic gloom and boom cycles. These are industries such as utilities, which are often owned by the government and are necessities that people buy regardless of the economic condition. (For related reading, see Bear-Proof Your Retirement Portfolio.)
+The Bottom Line
+There is no sure way to predict market trends, so investors would be wise to invest their money based on the quality of the investments. At the same time, you should have an understanding of long-term market trends from a historical perspective. Both bear and bull markets will have a large influence on your investments, so it's a good idea to take some time to determine what the market is doing when making an investment decision. Remember that over the long term the stock market has posted a positive return.
+
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

@@ -1,0 +1,217 @@
+
+
+
+Blockchain Adoption by Major Companies in the Works: A Brief Review
+Blockchain technology has many uses apart from cryptocurrencies, and the same is being realized by major companies around the world.
+
+
+ by  Contributor
+Author,
+18 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  While many startups specialize in blockchain technology, an increasing number of established businesses are seeing that blockchain is their answer to adapting to the future economic model. Previous methods of storing data and conducting transactions fall short when compared to blockchain tech, so this adoption is natural.
+In fact, a Juniper Research survey contacted over 400 company founders, managers, executives, and other officials and found that six out of ten large corporations are considering employing blockchain technology, or are already developing their own applications.
+The research discovered that the companies which would most benefit from blockchain are those with 1) a need for transparency and clarity in transactions, 2) a current dependence on paper-based legacy storage systems, and 3) a high volume of transmitted information. So what are some companies with prior business that have transitioned to blockchain, and how has the technology benefited them?
+
+IBM
+International Business Machines Corp. was once the go-to company for computers. The massive corporation doesn’t sell computers anymore, and has since moved to creating cloud-based solutions for other businesses (along with other products and services). IBM is 106 years old, but it’s one of the larger companies adopting blockchain in its business model.
+
+IBM even has a new division called IBM Blockchain. The division’s Vice President of Technology, Jerry Cuomo, says that certain technological products “will get a new life because of blockchain. Our sales team loves blockchain because a customer that is buying blockchain rarely walks out of the store with just blockchain. They walk out with multiple things in their cart.” When people realize the technology’s potential, they see all of its potential uses and use IBM as an opportunity to realize them.
+
+Microsoft
+Yes, Microsoft itself is very interested in blockchain technology. Microsoft believes that it can simplify operations and greatly increase their business speed, but a recent company blog post also mentions that it is seeking to create “new types of digital identities,” which are designed to improve personal privacy and control.
+Thanks to blockchain tech, Microsoft can help empower people with no reliable identification to have all of their data consolidated in one secure place to access it and change it easily. ID is necessary for utilizing many different services, so having a decentralized form of identification that can keep people’s identities safe and improve quality of life will be beneficial for both users and providers.
+Success Resources
+Since 1993, Success Resources has been a leading worldwide provider of all things related to professional and personal development: seminars, workshops, coaching opportunities, and other educational resources targeted towards adults. One of their more famous programs for example, is the National Achievers Congress. The Congress consists of multiple large-scale events where speakers, coaches, and other leaders can share their wisdom regarding self-improvement to impact the lives of millions of listeners.
+Now Success Resources has a new subsidiary known as SuccessLife. SuccessLife is a blockchain-based platform intended to be the world’s leading digital marketplace for all sorts of professional and personal development tools. Events and conferences are great, but not everyone can afford to travel to them or take the time to participate. To make adult education more accessible, one of SuccessLife’s main functions is:
+
+“to aggregate written, audio, and video content, which is then curated, catalogued and filtered by categories and for varying demographics. This overcomes the difficulty of finding and searching for content that is relevant to one’s individual needs within [their] vast and growing volume of content in [their] archives.”
+
+By using blockchain, SuccessLife’s platform will use an all-purpose cryptocurrency to enable transparent transactions between customers, the platform’s original content, and other participants looking to share wisdom and resources (which works well with the technology’s decentralized nature). Success Resources has over 20 years of prior business, but now they are ready to revolutionize the entire self-improvement industry.
+Other companies
+Bloomberg reports that just a few months ago, dividends for “furniture maker Nova LifeStyle Inc. quintupled after saying it’s starting a unit called ‘I Design Blockchain Technology Inc.’ The list includes juice makers, gold miners, and a designer of sports bras.” Customers are eager to participate in whatever uses blockchain to optimize its operations, which has implications for anyone involved in the business process.
+Many other companies are acquiring blockchain patents. Bank of America holds 45 (though it is unclear what their intentions are, as BoA banned cryptocurrency purchases on credit cards), ETC Holdings has 41, Coinplug has 39, Alibaba owns 36, and the previously mentioned IBM possesses 34. Blockchain can revolutionize entire industries and the way people interact with one another financially, so while there is no shortage of tech startups exploring the blockchain space, previously established companies are also hoping to capitalize on all the technology can offer. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

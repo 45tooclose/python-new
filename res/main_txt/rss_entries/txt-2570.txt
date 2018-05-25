@@ -1,0 +1,88 @@
+
+
+
+    
+        
+            
+        
+          
+                
+      
+
+    
+
+    
+        American retirees have been moving out of the United States and into surrounding countries at a rapid pace. Seeking a cheaper lifestyle with better weather, Latin America has become a popular destination for retired Americans.
+Panama, with a low cost of living, good health care, low language barrier and modern infrastructure, has become one of the top retirement destinations for Americans. However, before you decide to pack up and leave for Panama, understand why so many Americans are choosing to retire there.
+1. Low Cost of Living
+Similar to most Latin American countries, Panama has a very low cost of living. The cost of living in Panama is about 24% lower than in the U.S. (based on aggregate data), a three course meal for two at a mid-range restaurant will cost you somewhere between $25-$50. Panama is considered to be an international banking center. It's possible to find banks in Panama from all over the world, and there are as many ATMs as there are in the U.S., providing easy access to funds. Further, the national currency is the U.S. dollar, so there is no need to exchange money.
+2. Panama Is Used to American Retirees
+Since Panama is such a desirable place for expatriates, it has been experiencing an influx of American retirees for decades, and Panamanians are used to Americans. The country offers many options for establishing a bona fide foreign residency, and it has a plethora of retirement communities. You can find almost any product or service in Panama that you are used to finding in the U.S.
+3. Amazing Shopping Options for Low Prices
+Panama boasts very similar stores and shops to the types of stores you can find in the U.S. The Riba Smith grocery chain, for example, resembles the big-box grocery stores in the U.S. and carries all the products you would expect to find there.
+Additionally, Panama City has the Do-It Center, carrying everything you need for home repairs and general maintenance. The country also has shopping malls that feature a range of brand-name stores from around the world, including Zara, Ann Klein, Nine West, Levi’s, Tommy Hilfiger, Hermes, Tiffany and Cartier.
+4. Low Language Barrier
+The U.S. has had a presence in Panama for years. Many Panamanians can speak English, or at least they can understand the gist of what you're saying in English. While it's always easier to speak the local language, it's possible to retire to Panama and only speak one language.
+5. Good and Affordable Health Care Coverage
+Health care in Panama is up to American standards. Hospital Punta Pacifica in Panama City is the only Latin American hospital to be affiliated with and managed by Johns Hopkins International. Almost every doctor in the major Panamanian cities can speak fluent English.
+Medical care in Panama is comparatively cheap, given the high level of service. In the most expensive regions of Panama, a routine doctor's visit costs $50 or less, even if you have no insurance. You can obtain great health care coverage for roughly $100 per month.
+6. Modern Infrastructure
+The country's infrastructure is modern and kept in good repair. Panama's system of roads and public transportation provides great travel options, and the roads are constantly being expanded and improved.
+The Internet, cable television and phone services offered in Panama are all as reliable as the services in the U.S., and there are no issues with drinkable water. Panama City also provides an international travel hub that is very accessible from North America. The flight between Panama City and Miami is roughly two-and-a-half hours, making it easy to travel back and forth between Panama and the U.S.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'IRA',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

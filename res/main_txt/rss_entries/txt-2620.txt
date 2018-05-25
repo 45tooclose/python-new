@@ -1,0 +1,82 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        When news broke on Tuesday, March 13, 2018 that President Trump had blocked a bid from Broadcom Limited (AVGO) take over the fellow chipmaker Qualcomm, shareholders for both companies came to the end of a saga that saw them facing a big decisions about the future of their companies. The proposed takeover saw many twists and turns, such as on January 16, 2018 when Qualcomm held a surprise proxy meeting involving their strategy to fight back against Broadcom's takeover. These announcements included a $1 billion expense reduction program, and a video in which CEO Steve Mollenkopf urged shareholders to reject Broadcom's proposal.
+This is not the only test that the company has had to face recently. Qualcomm's woes increased when the European Union fined the company $1.2 billion, claiming that the tech giant had offered financial incentives to Apple so they would be the only chip maker suppling equipment to the company and that they had used their dominance to squeeze out other competition from popping up. Add onto this an ongoing lawsuit against Apple over pricing issues, an ongoing acquisition fight of their own to buy NXP Semiconductors (NXPI), offering up a reported $44 billion, and things haven't been exactly drama-free over at Qualcomm. 
+These are the shareholders who will surely be watching closely in the coming months. 
+According to Qualcomm Inc.'s Jan. 2 proxy statement, its largest beneficial shareholder was BlackRock Inc. (NYSE: BLK) with 109 million shares, 7.37% of the outstanding shares.  Vanguard Group Inc. was the second-largest beneficial holder with 105 million shares, or 7.1% of outstanding shares. The third largest beneficial holder is CEO Steve Mollenkopf, who has 442,818 shares. 
+While Blackrock's Qualcomm holdings are spread among several investment vehicles and funds, Vanguard's are more concentrated in its larger mutual funds. Two of Vanguard's funds make up the top two mutual fund investors in Qualcomm, with the ever-present SPY coming in at #3. 
+Vanguard Total Stock Market Index Fund  (VTSMX) 
+As of March 31, 2018, the Vanguard Total Stock Market Index Fund ("VTSMX") held 36,522,408 shares of Qualcomm. The Vanguard Total Stock Market Index Fund was launched in 1992 and is designed to give investors broad exposure to the entire U.S. equity market. All market capitalizations are represented. The fund's advisor is the Vanguard Equity Investment Group, and it has been managed by Gerard C. O'Reilly since December 1994. The fund's minimum investment is $3,000.
+As of April 25, 2018, the fund held 3,637 different stocks, with 17.7% of the portfolio concentrated in the 10 largest positions. U.S. equities make up 98.53% of the fund's assets. The fund is most heavily invested in the technology sector, at 20.99% of the total value, followed by financial services at 16.84% and then healthcare at 13.48%. Morningstar rates the Vanguard Total Stock Market Index at average risk in its category, with above average returns. At 0.15%, the fund's expense ratio is substantially lower than the average of the peer group. 
+Vanguard 500 Index Fund (VFINX) 
+As of March 31, 2018, the Vanguard 500 Index Fund (VFINX) held 26,238,132 shares of Qualcomm. The fund was launched in 1976 with the expressed goal of providing investors exposure to the 500 largest U.S. companies. The fund advisor is Vanguard Equity Investment Group, and it has been managed by Michael H. Buek since December 1991. The fund's minimum investment threshold is $3,000.
+As of April 25, 2018, the Vanguard 500 Index Fund held 507 different stocks. The 10 largest positions accounted for 21.6% of the total fund value. By taking positions on the 500 largest U.S. equities, the fund is exposed to a broad range of sectors and industries. Technology represented 21.83% of the fund's total holdings, while financials accounted for 16.98% and healthcare 13.97%. Relative to its category, Morningstar rates the Vanguard 500 Index Fund average risk and above-average return, resulting in a four-star overall rating. Like Vanguard's Total Stock Market Index Fund, the 500 Index Fund has an expense ratio of 0.14%, which is significantly lower than the category average. 
+SPDR S&P 500 ETF (SPY) 
+As of April 24, 2018, the SPDR S&P 500 ETF held 16,762,300 shares of Qualcomm. Launched in 1993, the fund seeks to track the S&P 500 as accurately as possible, providing results that correspond to the performance of the S&P 500. There is no fund manager, as it is an automated fund. 
+As of April 25, 2018, SPY held 505 stocks, with assets in the top 10 holdings accounting for 20.29% of the total ETF value. The largest sector SPY is invested in is technology, with 20.00% of its stock dedicated to the area, followed by financial services, with 17.00%. Relative to the category, Morningstar rates SPY as average risk, above average return, giving it a four-star overall rating. SPY has a net expense ratio of 0.09%, well below the category average. 
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

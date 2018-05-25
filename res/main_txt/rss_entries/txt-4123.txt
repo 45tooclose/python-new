@@ -1,0 +1,82 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        After bitcoin, the world’s second most popular cryptocurrency by market capitalization, ethereum, is facing the regulatory heat.
+This morning, the valuation of ethereum fell by around 6% as The Wall Street Journal reported that the cryptocurrency is under regulatory scrutiny over “whether rules designed for stocks should apply to virtual currencies such as ether.”
+Additionally, the creation of the leading cryptocurrency itself is being questioned as "probably an illegal securities sale," as per WSJ, which quotes people familiar with the matter. The Ethereum Foundation conducted the first ethereum sale in July 2014 and successfully raised more than 31,000 bitcoins by selling 60 million ether tokens, then valued at around $18.3 million. As this activity is being looked up as a speculative launch that could lead to a rise in asset value of ethereum, it is being considered as a security offering. (See also: What Is Ether? Is It the Same as Ethereum?)
+Regulatory Point of View
+The regulatory analysis is based on drawing parallels between the workings and influence of cryptocurrency founders with that of a listed stock’s company managers and promoters. Depending on the strategic and investment-related decisions company executives take, they may have an influence on the company’s stock price. Similarly, whether the founders of such virtual tokens have any influence on the cryptocurrency valuation is the root of this regulatory analysis.
+Ambiguity prevails among the different regulatory agencies. The Commodity Futures Trading Commission (CFTC) has labeled cryptocoins commodities, implying that they are exempt from any regulations of the Securities and Exchange Commission (SEC). However, SEC has indicated that it considers cryptocurrencies securities. Additionally, it announced plans to apply securities rules to all activities related to cryptocurrency, including the cryptocurrency exchanges and digital asset storage companies known as wallets. (See also: Is Ethereum a Security? SEC Chair Sows Confusion.)
+Based on the above possibilities, today's decline in ethereum was primarily attributed to possible actions by regulators that may trigger panic selling and even unsettle major marketplaces like Coinbase. While Coinbase has discussed plans to apply to the SEC for a brokerage license, brokers are not allowed to deal in unregistered securities, which would seem to rule out dealing in ether.
+What Drives Ether Prices?
+While proponents of ether submitted a proposal to SEC in March requesting “a broad regulatory exemption” since ether is mined by a diversified network of participants and “has become so decentralized it should not be deemed a security,” the situation remains unclear.
+Ether’s value is being driven by various factors. They include its creation via mining, the role of participants who develop and improve upon the platform to make it more valuable, reward programs to identify bugs and vulnerabilities and cryptocoin circulation needed to run applications on the network. Regulators eye such factors to be a qualifying case for calling ether a security.
+Gary Gensler, a former CFTC chairman, mentioned last week that “there is a strong case that one or both of ETH and [Ripple’s] XRP are noncompliant securities,” using the shorthand for the virtual currencies, reported the Journal.
+Following the update, ethereum was trading at a price of $650.47 on Tuesday morning, down more than 6% over the 24-hour period. Its market cap is now down to $64.5 billion. (See also: Bitcoin Government Regulations Around the World.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

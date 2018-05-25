@@ -1,0 +1,212 @@
+
+
+
+    
+        
+        Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/Investing/Investing/IC-Video/Article");} else {return "/8397/INV-NA/Investing/Investing/IC-Video/Article";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/investing/warren-buffetts-investing-style-reviewed/?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/OpS4VPiA.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/OpS4VPiA-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/content/video/what_is_warren_buffe/warrenbuffetinvestmentstyle.png?width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "100%",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "OpS4VPiA-G9NhEyAa.mp4";
+                
+          
+            document.addEventListener("DOMContentLoaded", function() {
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                        var initializeJWPlayerSetup = function () {
+                            if (new VideoInit().canRun()) {
+                                setUpJwpPlayer();
+                            } else {
+                                new VideoInit().callBack = setUpJwpPlayer;
+                            }
+                        }
+            initializeJWPlayerSetup();
+          });
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "OpS4VPiA-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "Key Tenets In Warren Buffett's Investment Choices",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };    
+        
+            
+      
+
+    
+
+    
+        Berkshire Hathaway (BRK.A) Chairman and CEO Warren Buffett, is a great role model if you want to emulate a classic value investing style. Early in his legendary investing career Buffett said, "I'm 85% Benjamin Graham." Graham is considered the godfather of value investing and introduced the idea of intrinsic value – the underlying fair value of a stock based on its future earnings power.
+However, Buffett invests using a more qualitative and concentrated approach than Graham did. Graham preferred to find undervalued, average companies and diversify his holdings among them; Buffett favors quality businesses that have reasonable valuations and the ability for large growth.
+Buffett's Investing Style
+There are a few things worth noting about Buffett's interpretation of value investing that may surprise you. Like many successful formulas, Buffett's looks simple. But simple does not mean easy.
+To guide him in his decisions, Buffett uses twelve investing tenets, or key considerations, which are categorized in the areas of business, management, financial measures and value (see detailed explanations below).
+Buffett's tenets may sound cliché and easy to understand, but they can be very difficult to execute. For example, one tenet asks if management is candid with shareholders. This is not easy to answer. Conversely, there are interesting examples of the reverse: concepts that appear complex yet are easy to execute, such as economic value added (EVA). The full calculation of EVA is not easy to comprehend, and the explanation of EVA tends to be complex. But once you understand that EVA is a laundry list of adjustments, it is fairly easy to calculate EVA for any company.
+Also, "The Buffett Way" can be viewed as a core, traditional style of investing that is open to adaptation. One of the compelling aspects of Buffettology is its flexibility alongside its phenomenal success. If it were a religion, it would not be dogmatic but instead self-reflective and adaptive to the times. This is a good thing. Day traders may require rigid discipline and adherence to a formula (for example, as a means of controlling emotions), but it can be argued that successful investors ought to be willing to adapt their mental models to current environments.
+Business Tenets
+Buffett adamantly restricts himself to his "circle of competence" – businesses he can understand and analyze. Buffett considers this deep understanding of the operating business to be a prerequisite for a viable forecast of future business performance. After all, if you don't understand the business, how can you project performance? For example, Buffett did not suffer greatly when the tech bubble burst back in the early 2000s, because he was not heavily invested in dot-com stocks.
+Buffett's business tenets each support the goal of producing a robust projection.
+First, analyze the business, not the market or the economy or investor sentiment. Next, look for a consistent operating history. Finally, use that data to ascertain whether the business has favorable long-term prospects.
+Management Tenets
+Buffett's three management tenets help evaluate management quality. This is perhaps the most difficult analytical task for an investor.
+Buffett asks: "Is management rational?" Specifically, is management wise when it comes to reinvesting (retaining) earnings or returning profits to shareholders as dividends? This is a profound question, because most research suggests that historically, as a group and on average, management tends to be greedy and retain profits, as it is naturally inclined to build empires and seek scale rather than utilize cash flow in a manner that would maximize shareholder value.
+Another tenet examines management's honesty with shareholders. That is, does it admit mistakes?
+Lastly, does management resist the institutional imperative? This tenet seeks out management teams that resist a "lust for activity" and the lemming-like duplication of competitor strategies and tactics. It is particularly worth savoring because it requires you to draw a fine line between many parameters, for example, between blind duplication of competitor strategy and outmaneuvering a company that is first to market.
+Tenets in Financial Measures
+Buffett focuses on return on equity (ROE) rather than on earnings per share. Most finance students understand that ROE can be distorted by leverage (a debt-to-equity ratio) and therefore is theoretically inferior to some degree to the return-on-capital metric. Here, return-on-capital is more like return on assets (ROA) or return on capital employed (ROCE), where the numerator equals earnings produced for all capital providers and the denominator includes debt and equity contributed to the business. Buffett understands this, of course, but instead examines leverage separately, preferring low-leverage companies. He also looks for high profit margins.
+His final two financial tenets share a theoretical foundation with EVA. First, Buffett looks at what he calls "owner's earnings," which is essentially cash flow available to shareholders, or technically, free cash flow to equity (FCFE). Buffett defines it as net income plus depreciation and amortization (for example, adding back non-cash charges) minus capital expenditures (CAPX) minus additional working capital (W/C) needs. In summary, net income + D&A – CAPX – (change in W/C). Purists will argue the specific adjustments, but this equation is close enough to EVA before you deduct an equity charge for shareholders. Ultimately, with owners' earnings, Buffett looks at a company's ability to generate cash for shareholders, who are the residual owners.
+Buffett also has a "one-dollar premise," which is based on the question: What is the market value of a dollar assigned to each dollar of retained earnings? This measure bears a strong resemblance to market value added (MVA), the ratio of market value to invested capital.
+Value Tenets
+Here, Buffett seeks to estimate a company's intrinsic value. Buffett projects the future owner's earnings, then discounts them back to the present. Keep in mind that if you've applied Buffett's other tenets, the projection of future earnings is, by definition, easier to do, because consistent historical earnings are easier to forecast.
+Buffett ignores short-term market volatility and focuses on long-term returns. He only acts on short term fluctuations when looking for a good deal. If a company looks good at $50 per share and drops to $40, do not be surprised to see him to pick up additional shares at a discount.
+Buffett also coined the term "moat," which has subsequently resurfaced in Morningstar's successful habit of favoring companies with a "wide economic moat." The moat is the "something that gives a company a clear advantage over others and protects it against incursions from the competition." In a bit of theoretical heresy perhaps available only to Buffett himself, he discounts projected earnings at the risk-free rate, claiming that the "margin of safety" in carefully applying his other tenets presupposes the minimization, if not the virtual elimination, of risk.
+The Bottom Line
+In essence, Buffett's tenets constitute a foundation in value investing, which may be open to adaptation and reinterpretation going forward. It is an open question as to the extent to which these tenets require modification in light of a future where consistent operating histories are harder to find, intangibles play a greater role in franchise value and the blurring of industries' boundaries makes deep business analysis more challenging.
+Everyone wants to buy like Buffett, but few have been able to mimic his success. Buffett himself suggests small investors buy a low-cost S&P 500 index fund rather than individual stocks. However, if you want to buy individual stocks, follow Buffett’s guidelines and you will be on track to earn solid returns on your portfolio.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

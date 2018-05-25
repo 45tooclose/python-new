@@ -1,0 +1,208 @@
+
+
+
+Blockchain Might Not Be All That Hot, Says RSA CTO
+RSA's CTO doesn't have very kind words to say about the way companies have used blockchain technology to hype their products.
+
+
+ by  Miguel
+Gomez,
+14 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  The hype of blockchain technology has led many companies to use it as a marketing strategy rather than as a tool that’s instrumental in solving a problem. A strong example of this occurred when the SEC clamped down on companies including “blockchain” in their name to boost their stock prices.
+Zulfikar Ramzan—CTO of RSA—took his skepticism of blockchain technology a little further, saying that it’s not necessarily better than some of the traditional solutions it’s replacing.
+
+“For example, we talk about supply chain management. People tout that as a very classic blockchain use case. But to me, that seems like that’s a shared database use case—and you know, it’s funny because people who don’t understand the security nuances don’t understand why a database is not worse than a blockchain. In fact, I think in many cases, it’s better,” he said in an interview with ZDNet.
+
+Ramzan argued that although blockchain technology primarily addresses issues of trust, there are instances in which the implementation requires some assumptions based on it anyway. Furthering his supply chain example, he said that the companies in charge of making identifiers have to be trusted, partially compromising the blockchain’s trustless model.
+
+In his view, many startups are making use of a blockchain in situations where it presents no clear advantages over a shared database.
+
+“It’s become this magical pixie dust, where people think you can solve all problems, and yes, maybe you can use it to address a certain set of problems. But just because you can doesn’t mean you should. You can buy a sledgehammer to push a thumbtack into a wall. You could also just use your thumb,” he added.
+
+Although Ramzan doesn’t appear to be a fan of the whole blockchain phenomenon, he also doesn’t find it useless.
+Towards the end of his interview with ZDNet, he said that he doesn’t want to say that “there will never be any applications” for blockchains outside of cryptocurrency environments. However, he does believe that people are using it as a “buzzword to get people excited about technology.” 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

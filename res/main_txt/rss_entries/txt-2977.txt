@@ -1,0 +1,204 @@
+
+
+
+Mt. Gox Trustees Spook Market with 16,000 BTC Hoard on One Address
+Suspicious activity on MtGox Cold Wallet accounts has put the cryptocurrency community on edge.
+
+
+ by  Tanya
+Chepkova,
+9 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  As Bitcoin fell from its recent highs to below $9,900, cryptocurrency enthusiasts rushed to search for whales that might be responsible for the fall. Nobuaki Kobayashi, a Tokyo lawyer and trustee for defunct Bitcoin exchange Mt. Gox, seems to be a suitable candidate.
+Alistair Milne, Bitcoin evangelist and CIO of London-based Altana Digital Currency Fund, noticed the activity on Bitcoin addresses managed by the trustee and suspected he was about to sell another batch to the tune of 2,000 BCT or more. Milne tweeted a link to the Bitcoin address in question in support of his hypothesis.
+https://twitter.com/alistairmilne/status/989415607576784896
+Blockchain.info data shows that a transaction involving 2,000 BTC was carried out on Thursday morning,(April 26). The coins were credited to another Bitcoin address controlled by the MtGox board of trustees. Similar transactions were made from other seven MtGox Cold Wallet addresses to the total amount of 16,000 BTC, which were accumulated for some reason at one address. The information is confirmed by MtGox Cold Wallet Monitor statistics.
+While it is not clear whether the trustees will dispose of the Bitcoins or have some other plans, Twitter users are already speculating about an upcoming sell-off.
+
+Such large-scale selling would undoubtedly drag Bitcoin’s price to new lows, but there are currently no signs of panic on the market. At the time of writing, Bitcoin was trading at $8,700, above the lows of $8,650 registered during early Asian hours.
+Back in March, Nobuaki Kobayashi admitted he had been selling Bitcoins for about six months to compensate Mt.Gox customers for their losses. He disposed of Bitcoins and Bitcoin Cash to the total amount of $406.6 million. Some experts accused him of triggering the Bitcoin price collapse from $20,000 to $6,000 earlier this year, but he insisted his actions could not have been the catalyst for the sell-off.
+The next round of court hearings will be held on September 18, 2018. Kobayashi confirmed that additional liquidations might be coming, subject to the bankruptcy court approval. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

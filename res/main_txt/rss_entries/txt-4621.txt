@@ -1,0 +1,251 @@
+
+
+
+Bitcoin Jumps 35% since Apr 1 on Investor Interest Revival
+Renewed investor interest in cryptocurrencies has helped push Bitcoin prices up by 35% since the start of April.
+
+
+ by  Komfie
+Manalo,
+18 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  Bitcoin prices have surged by nearly 35% since April 1 on renewed investor interest in the digital currency space as well as the end of tax-related selling.
+Figures from CoinMarketCap show that Bitcoin closed at $9,235 on May 2, adding $2,391 to its April 1 value of $6,844. The total cryptocurrency market was valued at $435.54 billion as of Wednesday, a significant increase from the $278.06 billion recorded at the start of last April.
+This translates into a 62% increase in market cap, or the addition of $167.48 billion to the total, data showed.
+Japan remains the largest cryptocurrency market, the yen accounting for 60.8% of Bitcoin trading volume, according to an analysis by CryptoCompare. The Japanese currency was followed by the US dollar, whose share of trading volume is about 24.4%.
+
+The results of the study came after Japan’s Financial Services Agency (FSA) released findings that showed the country to have more than 3.5 million cryptocurrency traders, which represents about 3% of the population. The FSA collected data from 17 local digital currency exchanges and trading platforms as part of its investigation into compliance with know-your-customer (KYC) rules.
+However, the FSA clarified that the number of digital currency traders in Japan was likely quite higher because there are 32 cryptocurrency exchanges in the country.
+The FSA report said a majority of Japanese crypto traders were interested in the most popular digital currencies - Bitcoin, Bitcoin Cash, Ethereum, Litecoin, and Ripple. A large proportion of local digital currency investors are aged between 20 and 30, the report added.
+Institutional investors eye crypto holdings
+Also working in favor of the digital currency space is the result of the latest survey by Thomson Reuters, which showed that one in five institutional investors are planning to allocate to cryptocurrency-focused funds for new opportunities.
+The survey polled more than 400 Thomson Reuters clients, including hedge fund managers and trading desks at some of Wall Street’s largest banks. Around 70% of respondents admitted to considering trading cryptocurrencies in the next three to six months, while 22% revealed intentions to trade within the next six to 12 months. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 
+
+
+Tags
+
+Bitcoin News
+
+ 
+
+.tag-element .taghoverext {
+    display: inline-block;
+    width: 5px;
+    background: #ff8931 !important;
+    border-radius: 2px;
+    height: 26px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background:#454b50;
+    transition:all 0.3s;
+}
+.tag-element:hover .taghoverext {
+    width:100%;
+}
+.tag-element .tag-href {
+    position:relative;
+    z-index:2;
+    background:none !important;
+    margin-top:0px !important;
+    color:#959595 !important;
+}
+.tag-element .tag-href:hover {
+    background:none !important;
+}
+.tag-element:hover .tag-href {
+    background:none !important;
+    color:#fff !important;
+}
+.tag-element {
+    position:relative;
+    border-radius: 2px;
+    border: solid 1px rgba(206, 212, 218, 0.2);
+    height: 27px;
+    display: inline-block;
+}
+ 

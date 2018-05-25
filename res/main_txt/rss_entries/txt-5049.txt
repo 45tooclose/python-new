@@ -1,0 +1,84 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Tesla CEO Elon Musk is defending his controversial behavior during the company’s latest earnings call with analysts, saying he dismissed analysts that were 'trying to justify their Tesla short thesis.' The two analysts he addressed have hold ratings on Tesla.
+Musk took to Twitter to justify what many are calling odd and abrupt behavior that sent the company’s shares tumbling nearly 7% in after hours trade on Tuesday. during the earnings call, Musk had dismissed analyst questions on capital expenditures and Model 3 deliveries as “dry” and “boring” and declined to answer them. Instead, he fielded about a dozen questions from a YouTuber from HyperChange TV about Tesla’s longer term goals, on which Musk expressed optimism. (See also: Musk’s Bizarre Earnings Call Hits Tesla Stock.)
+The “dry” questions were not asked by investors, but rather by two sell-side analysts who were trying to justify their Tesla short thesis. They are actually on the *opposite* side of investors. HyperChange represented actual investors, so I switched to them.
+— Elon Musk (@elonmusk) May 4, 2018
+
+
+Musk called the analyst questions “boneheaded” and “absurd.” He said a question from Berstein analyst Toni Sacconaghi on capital expenditures was “boneheaded” because “it had already been answered in the headline of the Q1 newsletter her received beforehand, along with details in the body of the letter.”
+And he said the question from RBC analyst Joseph Spak regarding Model 3 deliveries was “absurd” because “Tesla has roughly half a million reservations, despite no advertising & no cars in showrooms. Even after reaching 5k/week production, it would take 2 years just to satisfy existing demand even if new sales dropped to 0.”
+Musk’s Conference Call Irritation
+During the conference call, Musk also reacted negatively to Wall Street analysts asking about the company’s volatility.
+“If people are concerned about volatility, they should definitely not buy our stock,” Musk said at one point. “I’m not here to convince you to buy our stock. Do not buy it if volatility is scary.”
+Tesla’s stock is down about 6%  over the past year, and 7% so far this year.
+
+Source: FactSet
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

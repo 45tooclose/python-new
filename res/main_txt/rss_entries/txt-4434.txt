@@ -1,0 +1,87 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Warren Buffett is arguably the world's greatest stock investor. He's also a bit of a philosopher.
+Buffett pares down his investment ideas into simple, memorable sound bites. Do you know what his homespun sayings really mean? Does his philosophy hold up in today's difficult environment? Find out below.
+"Rule No. 1: Never lose money. Rule No. 2: Never forget rule No. 1."
+Buffett personally lost about $23 billion in the financial crisis of 2008, and his company, Berkshire Hathaway, lost its revered AAA ratings. So how can he tell us to never lose money?
+He's referring to the mindset of a sensible investor. Don't be frivolous. Don't gamble. Don't go into an investment with a cavalier attitude that it's OK to lose. Be informed. Do your homework. Buffett invests only in companies he thoroughly researches and understands. He doesn't go into an investment prepared to lose, and neither should you.
+Buffett believes the most important quality for an investor is temperament, not intellect. A successful investor doesn't focus on being with or against the crowd.
+The stock market will experience swings. But in good times and bad, Buffett stays focused on his goals, and so should we. This esteemed investor rarely changes his long-term investing strategy no matter what the market does. (See also: Warren Buffett's Bear Market Maneuvers.)
+"If the business does well, the stock eventually follows."
+"The Intelligent Investor" by Benjamin Graham convinced Buffett that investing in a stock equates to owning a piece of the business. So when he searches for a stock to invest in, Buffett seeks out businesses that exhibit favorable long-term prospects. Does the company have a consistent operating history? Does it have a dominant business franchise? Is the business generating high and sustainable profit margins? If the company's share price is trading below expectations for its future growth, then it's a stock Buffett may want to own.
+Buffett never buys anything unless he can write down his reasons why he'll pay a specific price per share for a particular company. Do you do the same? They don't call him "The Oracle" for nothing. (See also: Think Like Warren Buffett.)
+"It's far better to buy a wonderful company at a fair price than a fair company at a wonderful price."
+Buffett is a value investor who likes to buy quality stocks at rock-bottom prices. His real goal is to build more and more operating power for Berkshire Hathaway by owning stocks that will generate solid profits and capital appreciation for years to come. When the markets reeled during the 2007-08 financial crisis, Buffett was stockpiling great long-term investments by investing billions in names like General Electric and Goldman Sachs.
+To pick stocks well, investors must set down criteria for uncovering good businesses and stick to their discipline. You might, for example, seek companies that offer a durable product or service, and also have solid operating earnings and the germ for future profits. You might establish a minimum market capitalization you're willing to accept, and a maximum P/E ratio or debt level. Finding the right company at the right price – with a margin for safety against unknown market risk – is the ultimate goal. (See also: Risk and Diversification: Different Types of Risk.)
+Remember, the price you pay for a stock isn't the same as the value you get. Successful investors know the difference.
+"Our favorite holding period is forever."
+How long should you hold a stock? Buffett says if you don't feel comfortable owning a stock for 10 years, you shouldn't own it for 10 minutes. Even during the period he called the "Financial Pearl Harbor," Buffett loyally held on to the bulk of his portfolio.
+Unless a company has suffered a sea change in prospects, such as impossible labor problems or product obsolescence, a long holding period will keep an investor from acting too human. Being too fearful or too greedy can cause investors to sell stocks at the bottom or buy at the peak and destroy portfolio appreciation for the long run.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

@@ -1,0 +1,143 @@
+
+
+    
+                          What is 'Against Actual'
+
+      Against actual is the transaction that takes place when two traders exchange futures contracts for cash. There is no physical exchange of commodities made, only the trade of currency for contract. These types of transactions take place on the futures market. 
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Cash Price                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Cash Commodity                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Futures Contract                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Last Trading Day                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Against Actual'
+      Against actual transactions take place on the futures market. The futures market is a financial exchange where traders can purchase contracts to buy a specific amount and type of a commodity in the future, with set prices and delivery dates. These can also be called options, or options contracts. The actual in against actual is the commodity referenced in the contract.
+There are layered risks in these types of transactions due to potential volatility in the commodity market. The prices of the futures market are not set by the market itself, but are instead set by supply and demand. When there is an increased amount of business being done with a particular commodity, it can also increase interest in the actual. This is all regulated by the Commodity Futures Trading Commission, in conjunction with the Commodity Exchange Act of 1974 and the Commodity Futures Modernization Act of 2000. These protections have been put in place to ensure against abuse and to help support the stability of the market.
+Example of Against Actual
+There are many different types of futures contracts. Traditionally, these contracts have covered commodities such as precious metals, oil, meats and grains. These days, there are some additional modern commodities available for trade, like bandwidth and emissions credits.
+For example, an against actual trade in silver futures would be initiated by the buyer. The buyer would propose a dollar amount of silver to purchase and the date the sale would be executed. The seller would then have an obligation to meet the terms of that contract by providing the commodity, or actual, based on the agreed upon terms, and deliver the silver to the purchaser. When the trade is made against actual, all of those steps still happen, except for the last one. The delivery of the silver does not take place and instead there is a promise of a future silver delivery without a set due date. The seller has received payment for the silver, but he also retains the silver. The buyer has bought a quantity of silver at today’s market rate, without having received the physical delivery. The purchaser can then sell the contract without having to ever take possession of the silver, which allows the potential for a profit to the original buyer.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

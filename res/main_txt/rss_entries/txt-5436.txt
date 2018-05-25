@@ -1,0 +1,216 @@
+
+
+
+Are Blockchains Truly Secure? 3 Ways Blockchains Can be Attacked
+In this article, we look at three different ways someone can attack a blockchain. We’ll see how they are possible but why each one is unlikely or impossible to work.
+
+
+ by  Contributor
+Author,
+11 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  What is a blockchain?
+A blockchain is a distributed database where each block of data verifies the previous block's authenticity. It does this by using hash pointers that refer to a piece of data and prove that it hasn't been altered. If each block confirms the authenticity of the previous block and the hash of the first (genesis) block is known, then the entire blockchain can be confirmed as unaltered. Once a block is in the blockchain, and it is part of the longest chain, it is accepted as authentic.
+Attack 1: Changing the Blockchain 
+In this attack, the adversary creates an alternative block in the middle of the blockchain. As a defense, let's assume that everyone keeps track of the hash pointer in the most recent block. Now, once the adversary changes block X, the hash pointer in the following block, X+1, will not confirm block X because the data has been changed. To continue the attack, the adversary changes the hash pointer in block X+1 to make sure that it confirms block X.
+However, once he has changed block X+1, the hash pointer in X+2 will expose this new alteration. This means he has to change all of the hash pointers up to and including the most recent block. At this point, the record kept of the most recent hash pointer is compared to the altered hash pointer at the head of the doctored blockchain. They will be different and the adversary's blockchain will be discarded. So, as long as the hash pointer of the most recent block is known by the majority of nodes, the blockchain cannot be altered without detection.
+Attack 2: Double spend attack by a malicious node
+In this attack, the hacker needs to get ahead of the list and change the next block as it's being produced. Changing the transactions to send money into his own account will not work because he will need each individual's private key to do this. Instead, he performs a double spend attack.
+An example of this would be when someone purchases software online and requests to download the software. Simultaneously, he makes a second transaction which sends his money to another of his own accounts. If he is given the software and the second transaction goes through, then he receives the software for free. The first transaction will then fail because the money has already been spent.
+Normally, the first transaction made is accepted and the second attempt is rejected. However, if the adversary happens to be selected as the node to mine the next block, he will have the ability to select the second transaction over the first one. If he gets this far, this attack is likely to succeed. There are two preventative measures to stop this from happening.
+Firstly, there are block rewards in a Proof-of-Work (PoW) system. When the adversary mines the block, he is entitled to create new coins and send them to his own account. Yet if his block does not become part of the longest chain, those coins won't be valid anymore and become worthless. Therefore, by performing the double spend attack, he puts his mining reward at risk. At present, he would be risking about $117,000 per block if he were mining Bitcoin.
+Secondly, it is wise to wait until a transaction has been confirmed by a number of nodes before accepting it as successful. The more confirmations there are, the higher the probability that the transaction will become part of the longest blockchain. In the example above, the merchant should wait until there have been a reasonable number of confirmations before releasing the software. For every further confirmation, the double spend attack is exponentially less likely to succeed. For Bitcoin, the recommended minimum is six but merchants and exchanges may choose to set their threshold higher.
+
+Attack 3: The 51% attack
+The third way covered here is to buy enough mining equipment to control more than 50% of the mining power of a coin.
+Known as a 51% attack, the premise here is that the attacker tries to take the lead and mine the latest blocks, without giving other nodes a chance at detecting these changes. This means that the attacker mines at least one in every two blocks.
+However, this attack method also faces challenges - one still cannot steal money from an address without knowing the private key and even if the attacker broadcasts an invalid transaction, it will not be accepted by other nodes. He also cannot try to ignore an individual's transactions because they would still get picked up by the other nodes and the attack would be noticed.
+As an extension of this attack, the hacker could commit multiple double spend attacks, broadcast invalid transactions and change the hash pointers on all new blocks. With this degree of disruption however, the attacks would get picked up and the system deemed to be compromised. If he tries to sell his coins on an exchange, he would find that the price has plummeted and his coins are now worthless. By compromising the entire system, the attacker will have devalued the cryptocurrency instead.
+Conclusion
+A decentralized cryptocurrency relies on users validating the system, which means that it is exposed to both honest and malicious users. For it to be successful, it has to ensure that it can operate even though some dishonest nodes may be trying to corrupt it. This is what it means to say that cryptocurrencies operate in a trustless environment. In this article, we have seen that cryptography, including hash pointers, can secure the system and that strong incentives are in place to encourage honest behavior. The strongest attack method is a 51% attack but it is also ultimately self-defeating.
+A final word on Proof-of-Stake (PoS)
+This article focused on cryptocurrencies that use Proof-of-Work (PoW), where miners solve cryptographic problems to be given the responsibility to create the next block. In a PoS system, individuals stake some of their money in exchange for votings rights. This means they allocate a certain amount of money that they are then not allowed to spend and mine a proportionate number of blocks. If they own 10% of the total coins, in theory, they can mine one in ten blocks. If they are found to be acting maliciously they can lose their staked funds. This provides a similar incentive for nodes to act honestly, thus protecting against attacks one and two. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

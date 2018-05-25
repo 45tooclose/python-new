@@ -1,0 +1,144 @@
+
+
+    
+                          What are 'Holdings'
+
+      Holdings are the contents of an investment portfolio held by an individual or entity, such as a mutual fund or a pension fund. Portfolio holdings may encompass a wide range of investment products, from stocks, bonds and mutual funds to options, futures and exchange-traded funds (ETFs), and relatively esoteric instruments such as private equity and hedge funds.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Pooled Funds                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Portfolio Investment                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Fund Manager                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Portfolio                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Holdings'
+      The number and types of holdings within a portfolio contribute to the degree of its diversification. A mix of stocks across different sectors, bonds of different maturities and other investments would suggest a well-diversified portfolio, while concentrated holdings in a handful of stocks within a single sector indicates a portfolio with very limited diversification.
+Diversification and Acquisition of Holdings
+The proportion of holdings within a portfolio has a significant impact on its overall return. The performance of the largest holdings have a bigger influence on portfolio return than small or marginal holdings in the portfolio. Investors routinely scour the lists of the holdings of top money managers to piggyback on their trades. These investors usually seek to replicate the trading activity of the best money managers by buying stocks where the manager has initiated a long position or added significantly to an existing position and selling positions where the manager has exited a stake. This strategy may not always be successful for the average investor, given the considerable lag between the period when the money manager or fund effected the trades and the time when the fund's holdings are disseminated to the general public.
+Example of Holdings
+The holdings of famous and smaller fund managers are published quarterly through a Securities and Exchange Commission (SEC) filing known as a 13F. Investors have 45 days until the end of the quarter to report their holdings for the previous quarter. The requirement applies only to long stock positions, however, which means other holdings such as short positions, options, and foreign holdings are not disclosed. One of the most legendary investors of all time, Warren Buffett, had the following top holdings in his portfolio as of Dec. 31, 2017: Wells Fargo Corp., Apple Inc., Bank of America Corp., Coca-Cola Co. and American Express Co.
+Holding Companies
+Holding companies are a closely related concept. In some cases, investors may choose to own their holdings through a limited liability company (LLC). They may do so to reduce their personal exposure to risk, minimize their taxes or pool their investments with other people, such as business associates or family members. Typically, a holding company does not engage in business directly but only serves as an ownership vehicle of other companies or investments.
+A very famous example of such a company is Berkshire Hathaway Inc., the Omaha, Nebraska company that Warren Buffett controls and manages. Berkshire Hathaway started as a textile manufacturing company, but for several decades, it has only been a holding company that Buffett use to acquire, hold and sell various investments in other companies. Some of Berkshire Hathaway's largest holdings include the Government Employees Insurance Company (GEICO), Dairy Queen Inc. and the Coca-Cola Company.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

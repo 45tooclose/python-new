@@ -1,0 +1,212 @@
+
+
+
+IBM, ANZ to Test Blockchain for Insurance Market
+IBM and ANZ will evaluate the application of distributed ledger technology in the insurance market. The companies will develop a network to streamline insurance processes.
+
+
+ by  Anatol
+Antonovici,
+10 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  US tech giant IBM is collaborating with Australian and New Zealand Banking Group (ANZ) and Suncorp New Zealand to explore the use of blockchain technology in the insurance market. Specifically, the companies want to ensure a higher degree of transparency and speed up data transfer and payment reconciliation operations between brokers and insurers.
+The test project aims to transform the business procedures behind intermediated insurance at ANZ by developing a network linking all project participants to transactional data.
+The partners are confident that the use of blockchain will not only cut insurance costs and support customer service but also create a foundation for the implementation of other innovative technologies, like artificial intelligence.
+
+Paul Goodwin of ANZ commented on the project:
+
+“Reconciling policy information and premium payments made by a broker to an insurer on behalf of customers is a slow and painful process.”
+
+He added:
+
+“The blockchain solution will be much more efficient for the industry as well as being very secure. As a ‘single source of truth’, it will provide greater visibility throughout the process, remove uncertainty and help make response times faster.”
+
+Goodwin also said the blockchain ledger would be connected to current industry systems to collect relevant data, which should ensure that the payments can be better predicted and made without reconciliation.
+ANZ and IBM have issued a proof-of-concept whitepaper on the distributed ledger technology they want to implement. It discusses the key point of the project and ways in which it can transform the insurance industry.
+According to the paper, brokers and insurers will no longer need to exchange tons of emails and documents when customers receive quotes, buy products or renew products, as the blockchain-based technology will collect all the data and share it between the parties that need to check it.
+Also, instead of brokers gathering premiums and making bulk payments to insurers (who can find it challenging to match payments to policies), the new system will allow “the automated allocation of receipts for bulk payments down to the individual policy.”
+IBM is one of the most active companies in promoting and exploring blockchain technology. Recently, its Batavia trade finance platform was successfully tested for live transactions. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

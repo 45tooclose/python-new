@@ -1,0 +1,41 @@
+
+
+One of the world's largest cryptocurrencies could soon put out a welcome mat for more controversial miners - that is, if one of its core developers has his way.
+Indeed, amidst what has been broadly called a "war on miners," with cryptocurrencies including ethereum, monero and siacoin taking aggressive steps to limit the effectiveness of certain types of hardware, developer Cody Burns has published a proposal that would alter ethereum classic's underlying algorithm to accommodate the technology.
+If accepted, the change would make ethereum classic something of an anomaly among major cryptocurrencies, whose communities have largely viewed the powerful mining machines in question - application-specific integrated circuits (ASICs) - as a threat to maintaining an open competition for the rewards on their respective blockchains.
+But if there's a general fear over how ASICs could upset the balance of major cryptocurrencies, it's not without good reason. In the minds of many crypto enthusiasts, the concerns aren't just speculation, they're an inevitability based on historical data. 
+
+Case in point is the bitcoin blockchain, which saw less expensive, and less effective, graphic card mining eclipsed by not just ASICs, but by a few large companies that came to dominate their creation, marketing and delivery.
+As such, the argument among many developers is that the release of ASICs is so problematic, it's worth updating the software just to avoid them. (Monero's developers, for example, went so far as to ask all software users to install new code earlier this month that would resist ASIC mining.)
+But Burns sees another way, finding issue with a prevailing view he believes has turned the successful companies that today secure and process cryptocurrency transactions into boogeymen.
+Burns told CoinDesk:
+"The chief complaint I hear most often is not that ASICs are themselves bad, it is that Bitmain is the sole source of the ASICs."
+And, he believes, the only way to increase competition in the ASIC manufacturing space and keep centralization at bay is by allowing ASICs to run rampant.
+As such, his proposal, ECIP-1043, looks to remove a mechanism by which ethereum classic's algorithm creates random variances in its memory storage requirements, code originally put in place to reduce the effectiveness of ASICs.
+Good for GPUs too
+But if that sounds controversial, Burns thinks it's still possible to win support for the idea.
+For one, not only will the change allow for ASICs to mine ethereum classic, but as it decreases the need for extra computer storage, it should also lower the cost of GPU mining - something likely to win over existing miners who are reluctant to pay for new and improved hardware.
+To do this, Burns wants to delete ethereum classic's so-called "DAG" function.
+One of the aspects that ethereum classic still shares with its rival ethereum is that every 100 hours - or what's called an "epoch" - the DAG adds random data to the blockchain, which in turn causes the storage requirement for mining chips to grow.
+In order to mine ether or ether classic, then, mining hardware must contain sufficient memory, or RAM, to store this graph, as well as backup storage, as the memory requirement increases.
+"The thinking behind it was, it is costly to add RAM to an ASIC so we will keep the RAM requirement a moving target," Burns told CoinDesk. "Anyone developing an ASIC will be creating equipment that will become obsolete very quickly."
+In this way, the DAG on ethereum and ethereum classic has grown from 1 GB to 2.5 GB, which according to Burns, has become a burden on GPU miners as well. And because of the way the DAG is programmed, this burden will only get worse as time goes on.
+With the DAG and the memory requirements of the blockchain itself, GPU miners need about 4 GB of memory in order to cope with the data set.
+Burns told CoinDesk:
+"That is a huge overhead in cost for a card that may or may not last one year."
+While ethereum has always seen miners as a "necessary evil that will be chopped off if possible," he continued, ethereum classic has allowed miners an opportunity to comment on design choices, since they are viewed as a long-term security measure.
+As such, setting up an architecture that might harm miners - like blocking ASICs or keeping the DAG requirement - is considered a bad thing in ethereum classic developers' eyes.
+ASIC risks
+But convincing all ethereum classic users to go along with the proposal might not be so easy.
+For one, the ethereum classic community, which kept operating an early iteration of the ethereum code abandoned by its original developers, has been steadfast about its driving mantra: "code is law." As such, it's questionable whether those transacting over the software would want to change that law now.
+Further, the move, if accepted, won't come without its risks. As it would require a system-wide upgrade, or hard fork, in order to activate, it would need to have unanimous support from the mining community to prevent a split.
+Furthermore, because resetting the DAG would encourage ASIC development, there are concerns that the more efficient hardware could overtake the network and make GPU mining obsolete.
+Yet, Burns said that, in the long-term, because ASICs are more efficient than GPUs, it might be the better choice for the proof-of-work blockchain.
+"If proof-of-work is the long-term goal of ethereum classic, systems need more energy-efficient mining equipment. ASICs are the long-term answer to that need," he told CoinDesk.
+Burns summed up the situation, saying:
+"It is less a case of being ASIC resistant as being ASIC competitive."
+Mining equipment image via Shutterstock
+var riuyojisrlntqyiu,riuyojisrlntqyiu_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){riuyojisrlntqyiu_poll(function(){if(window['om_loaded']){if(!riuyojisrlntqyiu){riuyojisrlntqyiu=new OptinMonsterApp();return riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="//a.optnmnstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;riuyojisrlntqyiu=new OptinMonsterApp();riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");
+
+The leader in blockchain news, CoinDesk is a media outlet that strives for the highest journalistic standards and abides by a strict set of editorial policies. CoinDesk is an independent operating subsidiary of Digital Currency Group, which invests in cryptocurrencies and blockchain startups.
+

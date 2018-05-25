@@ -1,0 +1,143 @@
+
+
+    
+                          What is 'Forced Conversion'
+
+      Forced conversion occurs when an issuer of a convertible security exercises the right to call the issue, forcing investors to convert their securities into a predetermined number of shares.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Market Conversion Price                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Conversion                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Conversion Value                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Conversion Price                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      Breaking Down 'Forced Conversion'
+      An issuer will be interested in forcing a conversion if interest rates decline significantly, or if the price of the security underlying the convertible is above the conversion price. Forced conversions are generally detrimental to the holders of the security.
+How Forced Conversion Works
+Forced conversions occur with convertible securities, which are investments that can be converted into another form. Convertible bonds or convertible preferred stock are examples of some common convertible securities. In the case of convertible bonds, the security pays a coupon payment of a fixed amount at regular intervals. It carries a specific price at which it can be converted into stock. In most cases, the holder of a convertible security has the right to determine when and if to convert and typically can convert whenever they choose after the conversion date, but this is not the case if the issuer has included a forced conversion call feature. 
+Companies issuing the securities sometimes want to have the ability to force the investor's hand. To do this, they will add a call feature that allows the company to redeem the bonds based on certain criteria. Frequently, bonds are made callable when they are at or near the conversion price. When securities are called, the investor receives return of capital or common stock in an amount equal to the initial investment.
+An example of forced conversion
+When a company forced the conversion of its convertible bonds, it announces a call at a price lower than the value of the stock to which the bonds will be converted. For example, say an investor holds bonds that are convertible into 50 shares of common stock and the shares are trading at $40, the value of the stock is $2,000.  If the company calls the bonds at $1,800, in order for the investor to retain the most value, they would have to convert the bonds into common stock.
+Companies execute a forced conversion to eliminate debt, which happens when bond debt is converted into equity. After a forced conversion, the company issues more shares and current stockholders are diluted. Although this raises the number of shares held, converting securities doesn’t expand the company, it simply reduces investors’ holdings.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

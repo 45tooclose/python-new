@@ -1,0 +1,143 @@
+
+
+    
+                          What is 'Ask Size'
+
+      The ask size is the amount of a security that a market maker is offering to sell at the ask price. The higher the ask size, the more supply there is that people want to sell. When a buyer seeks to purchase a security, he or she can accept the ask price and buy up to the ask size amount at that price. If the buyer wishes to acquire more of the security over the current ask size, he or she may have to pay a slightly higher price to the next available seller.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Best Ask                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            One-Sided Market                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Bid Price                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Bid                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Ask Size'
+      Market makers are the ones who offer to buy and sell securities. The market maker must state the price it is asking for a given security (the ask price) and the amount it is willing to sell at that price (the ask size). Also, the market maker must state the price at which it is willing to buy the security (the bid price) and the amount of securities it is willing to buy (the bid size). When a customer order comes to the exchange, the order is filled by the market marker with the lowest ask price (for buy orders) or the highest bid price (for sell orders).
+Ask price and bid price numbers are usually shown in brackets in a price quote. They represent the number of shares, in lots of 10 or 100, that are limit orders pending trade. These numbers are called the bid and ask sizes, and represent the aggregate number of pending trades at the given bid and ask price.
+How Bid and Ask Prices Work
+Consider a stock quote for XYZ Corp. with a bid of $15.30 (25), and an ask of $15.50 (10). The bid price is the highest bid entered to purchase XYZ stock, while the ask price is the lowest price entered for this same stock. The numbers following the bid and ask prices indicate the number of shares that are pending trade at their respective prices. In this example, the current limit bid price of $15.30, there are 2,500 shares being offered for purchase, in aggregation. The aggregation is for all bid orders being entered at that bid price, no matter if the bids are coming from one person bidding for 2,500 shares,or 2,500 people bidding for one share each. The same is true for the numbers following the ask price.
+The spread between the two prices is called the bid-ask spread. If an investor purchases shares in XYZ, he or she would pay $15.50. If this same investor subsequently liquidated these shares, they would be sold for $15.30. The difference is a loss to the investor.
+
+ 
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

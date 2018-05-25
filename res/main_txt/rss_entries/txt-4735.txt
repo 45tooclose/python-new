@@ -1,0 +1,182 @@
+
+
+
+    
+            
+            Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/Investing/Investing/IC-Video/FAQ");} else {return "/8397/INV-NA/Investing/Investing/IC-Video/FAQ";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/ask/answers/what-is-finance/?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/LObbhWCb.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/LObbhWCb-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/dimages/graphics/finance.png?width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "100%",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "LObbhWCb-G9NhEyAa.mp4";
+                
+          
+            document.addEventListener("DOMContentLoaded", function() {
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                        var initializeJWPlayerSetup = function () {
+                            if (new VideoInit().canRun()) {
+                                setUpJwpPlayer();
+                            } else {
+                                new VideoInit().callBack = setUpJwpPlayer;
+                            }
+                        }
+            initializeJWPlayerSetup();
+          });
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "LObbhWCb-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "What Does Finance Cover? ",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };        
+    
+    
+          
+    A:
+            Finance is a broad term that describes two related activities: the study of how money is managed and the actual process of acquiring needed funds. It encompasses the oversight, creation and study of money, banking, credit, investments, assets and liabilities that make up financial systems.
+Many of the basic concepts in finance come from micro and macroeconomic theories.  One of the most fundamental theories is the time value of money, which essentially states that a dollar today is worth more than a dollar in the future.
+Since individuals, businesses and government entities all need funding to operate, the field is often separated into three main sub-categories: personal finance, corporate finance and public (government) finance.
+Personal Finance
+Financial planning generally involves analyzing an individual's or a family's current financial position, and formulating strategies for future needs within financial constraints. Personal finance is a very personal activity that depends largely on one's earnings, living requirements, goals and individual desires.
+For example, individuals need to save for retirement expenses, which means investing enough money along the way to properly fund their long-term plans. This type of financial management decision falls under personal finance.
+Personal finance includes the purchasing of financial products, like credit cards, insurance, mortgages and various types of investments. Banking is also considered a part of personal finance, including checking and savings accounts as well as online or mobile payment services like PayPal and Venmo.
+Corporate Finance
+Corporate finance consists of the financial activities related to running a corporation, usually with a division or department set up to oversee the financial activities.
+For example, a large company may have to decide whether to raise additional funds through a bond issue or stock offering. Investment banks may advise the firm on such considerations and help them market the securities.
+Startups may receive capital from angel investors or venture capitalists in exchange for a percentage of ownership. If a company thrives and decides to go public, it will issue shares on a stock exchange in an initial public offering (IPO) to raise cash.
+Another instance could be a company that is trying to budget their capital and make decisions on what projects to finance and what projects to put on hold in order to grow the company. These types of decisions fall under corporate finance.
+For more, read the Complete Guide to Corporate Finance.
+Public Finance
+Public finance includes tax, spending, budgeting and debt issuance policies that all affect how a government pays for the services it provides to the public.
+The federal government helps prevent market failure by overseeing the allocation of resources, distribution of income and stabilization of the economy. Regular funding is secured mostly through taxation. Borrowing from banks, insurance companies and other governments also help finance the government.
+In addition to managing money for its day-to-day operations, a government body also has larger social responsibilities. Its goals include attaining an equitable distribution of income for its citizens and enacting policies that lead to a stable economy.
+        
+    
+
+    
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'FAQ'
+    });
+                

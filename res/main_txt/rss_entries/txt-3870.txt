@@ -1,0 +1,100 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Normally, a bond is a very simple investment instrument. It pays interest until expiration and has a single, fixed lifespan. It is predictable, plain and safe. The callable bond, on the other hand, can be seen as the exciting, slightly dangerous cousin of the regular bond.
+Callable bonds have a "double-life," and as such, they are more complex than a normal bond and require more attention from an investor. In this article we'll look at the differences between regular bonds and callable bonds, and then explore whether callable bonds are right for your investment portfolio. 
+(For further background on bond investing, check out Bond Basics)
+Callable Bonds and the Double Life
+Callable bonds have two potential life spans, one ending at the original maturity date and the other at the "callable date."
+At the callable date, the issuer may "recall" the bonds from its investors. This simply means the issuer retires (or pays off) the bond by returning the investors' money. Whether or not this occurs is a factor of the interest rate environment.
+Consider the example of a 30-year callable bond issued with a coupon of 7% that is callable after five years. Assume that five years later interest rates for new 30-year bonds are 5%. In this instance, the issuer would recall the bonds because the debt could be refinanced at a lower interest rate. Conversely, if rates moved to 10% the issuer would do nothing, as the bond is relatively cheap compared to market rates.
+Essentially, callable bonds represent a normal bond, but with an embedded call option. This option is implicitly sold to the issuer by the investor, and entitles the issuer to retire the bonds after a certain point in time. Put simply, the issuer has the right to "call away" the bonds from the investor, hence the term callable bond. This option introduces uncertainty to the lifespan of the bond.
+Callable Bond Compensation
+To compensate investors for this uncertainty, an issuer will pay a slightly higher interest rate than would be necessary for a similar, but non-callable bond. Additionally, issuers may offer bonds that are callable at a price in excess of the original par value. For example, the bond may be issued at a par value of $1,000, but be called away at a par value of $1,050. The issuer's cost takes the form of overall higher interest costs, and the investor's benefit is overall higher interest received.
+Despite the higher cost to issuers and increased risk to investors, these bonds can be very attractive to either party. Investors like them because they give a higher-than-normal rate of return, at least until the bonds are called away. Conversely, callable bonds are attractive to issuers because they allow them to reduce interest costs at a future date should rates decrease. Moreover, they serve an important purpose to financial markets by creating opportunities for companies and individuals to act upon their interest-rate expectations.
+Overall, callable bonds also come with one big advantage for investors. They are less in demand due to the lack of a guarantee of receiving interest payments for the full term, so issuers must pay higher interest rates to persuade people to invest in them. Normally, when an investor wants a bond at a higher interest rate, they must pay a bond premium, meaning that they pay more than the face value for the bond. With a callable bond, however, the investor can receive higher interest payments without a bond premium. Callable bonds do not always get called; many of them pay interest for the full term, and the investor reaps the benefits of higher interest for the entire duration.
+Look Before You Leap into Callable Bonds
+Before jumping into an investment in a callable bond, an investor must understand that these instruments introduce a new set of risk factors and considerations over and above those of normal bonds. Understanding the difference between yield to maturity (YTM) and yield to call (YTC) is the first step in this regard.
+Normal bonds are quoted based on their YTM, which is the expected yield of the bond's interest payments and eventual return of capital. The YTC is similar, but only takes into account the expected rate of return should the bonds get called. The risk that a bond may be called away introduces another significant risk for investors: reinvestment risk.
+Reinvestment risk, though simple to understand, is profound in its implications. For example, consider two, 30-year bonds issued by equally credit-worthy firms. Assume Firm A issues a normal bond with a YTM of 7%, and Firm B issues a callable bond with a YTM of 7.5% and a YTC of 8%. On the surface, Firm B's callable bond seems most attractive due to the higher YTM and YTC.
+Now, assume interest rates fall in five years so that Firm B could issue a normal 30-year bond at only 3%. What would the firm do? It would most likely recall its bonds and issue new bonds at the lower interest rate. People that invested in Firm B's callable bonds would now be forced to reinvest their capital at much lower interest rates.
+In this example, they would likely have been better off buying Firm A's normal bond and holding it for 30 years. On the other hand, if rates stayed the same or increased, the investor would be better off with Firm B's callable bond.
+In addition to reinvestment-rate risk, investors must also understand that market prices for callable bonds behave differently than normal bonds. Typically as rates decrease, you will see bond prices increase, but this is not the case for callable bonds. This phenomenon is called price compression and is an integral aspect of how callable bonds behave.
+Since normal bonds have a fixed lifespan, investors can assume interest payments will continue until maturity and appropriately value those payments. Therefore, as rates fall, interest payments become more valuable over time and the price of the bond goes up.
+However, since a callable bond can be called away, those future interest payments are uncertain. So, the more interest rates fall, the less likely those future interest payments become as the likelihood the issuer will call the bond increases. Therefore, upside price appreciation is generally limited for callable bonds, which is another trade-off for receiving a higher-than-normal interest rate from the issuer.
+Are Callable Bonds a Good Addition to the Portfolio?
+As is the case with any investment instrument, callable bonds have a place within a diversified portfolio. However, investors must keep in mind their unique qualities and form appropriate expectations.
+There is no free lunch, and the higher interest payments received for a callable bond come with the price of reinvestment-rate risk and diminished price-appreciation potential. However, these risks are related to decreases in interest rates and make callable bonds one of many tools for investors to express their tactical views on financial markets. (For further reading on investment diversification practices, check out Achieving Optimal Asset Allocation).
+Betting on Interest Rates When Opting for Callable Bonds
+Effective tactical use of callable bonds depends on one's view of future interest rates. Keep in mind that a callable bond is composed of two primary components, a normal bond and an embedded call option on interest rates.
+As the purchaser of a bond, you are essentially betting that interest rates will remain the same or increase. If this happens, you would receive the benefit of a higher-than-normal interest rate throughout the life of the bond, as the issuer would never have an opportunity to recall the bonds and re-issue debt at a lower rate.
+Conversely, if rates fall, your bond will appreciate less in value than a normal bond and might even be called away. Should this happen, you would have benefited in the short term from a higher interest rate, but would then be forced to reinvest your assets at the lower prevailing rates.
+The Bottom Line
+As a general rule of thumb in investing it's best to diversify your assets as much as possible. Callable bonds offer one tool to marginally enhance the rate of return over your overall fixed-income portfolio, but they do so with additional risk and represent a bet against lower interest rates. Those appealing short-term yields, can end up costing you in the long run.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Deposit',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

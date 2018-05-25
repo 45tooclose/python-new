@@ -1,0 +1,208 @@
+
+
+
+New Bitcoin Cash-based Social Network Appears
+A new Twitter-like platform appeared that allows people to use Bitcoin Cash and its blockchain to permanently post their thoughts and potentially even earn a small sum.
+
+
+ by  Miguel
+Gomez,
+10 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  A message from the Twitter account @Bitcoin uncovered a new social media platform released on Wednesday that uses the Bitcoin Cash blockchain as a way to sustain its ecosystem.
+https://twitter.com/bitcoin/status/991948543031001088
+Known as BlockPress, the social network features an interface that displays posts coming directly from the Bitcoin Cash blockchain. The posts themselves are etched permanently onto the blockchain with tiny transactions that represent fractions of a penny. Users must also make these transactions if they want profile pictures, custom names other than the keys they’re given from the outset, and header photos.
+
+Some users have already taken on quirky personas that consider that the best use of their money is to ramble equally quirky statements.
+ 
+That isn’t to say that people can’t make a profit on the platform. Much like Yours—another BCH-based social network— lets users send tips to each other by liking their posts.
+It appears that even pay-to-post social platforms aren’t immune to scammers. Some of Memo’s top posts are those promising BCH or a certain number of satoshis in exchange for likes.
+ 
+BlockPress seems to solve this issue by not including a “top posts” feature, showing only a stream of random posts as soon as they appear on the network, which disincentivizes fishing for likes. To be fair, Memo’s visitors are greeted by top posts in the last hour as opposed to all-time top posts. This drastically reduces the number of spammy posts seen by the users of the site.
+We don’t know whether BlockPress will be including a “top posts” feature or not, but it’s certainly possible to implement, given the ability to scan through the BCH blockchain. Still, scalability continues to be an issue that will plague BCH if it gains the same level of notoriety that Bitcoin did last year.
+As its blockchain grows larger, it might even be harder for on-chain social networks to scan through it. This is a problem that Vitalik Buterin of Ethereum saw coming back at the end of November when he began discussing changes to his brainchild that would help dampen this issue.
+It’s now up to the Bitcoin Cash community to see how they would solve this problem. It is possible that there will be a fork that would see it fundamentally change as it attempts to remain a competitive choice for microtransaction platforms. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

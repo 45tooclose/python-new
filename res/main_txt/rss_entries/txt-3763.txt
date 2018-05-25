@@ -1,0 +1,89 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        The dot-com bubble that had been ballooning in the 1990s burst in March 2000. In 27 days spanning March 10 to April 6, 2000, NASDAQ stocks shed $1 trillion in value, rendering the stocks of online retailers such as Pets.com and eToys.com worthless. In 1997, Amazon.com Inc.’s (NASDAQ: AMZN) CEO Jeff Bezos pledged to deliver long-term value to shareholders, and the promise has proved far from empty. After emerging steadily from the rubble of the technology collapse in 2000, AMZN plowed its way to a nearly $734 billion market capitalization as of April, 2018. While the stock’s rise has been well chronicled, here are some less well-known facts about the world’s largest online purveyor.
+It’s Automatic
+Amazon’s fulfillment centers hum with the muted din of robots, 75,000 of which (as of December 2017) pick, sort and pack across global warehouses consisting of more square footage than 700 large sports arenas. While the bots do not bode well for the future of the traditional warehouse worker, Amazon’s operating expenses have been reduced by more than 20% since Bezos spent $775 million in 2012 to acquire robotics manufacturer Kiva.
+Wealth of Patience
+If an investor had plunked down $1,000 on AMZN when the stock went public at $18 per share in 1997, those shares would be worth over $1 million in March 2018. Splitting three times in 1998 and 1999, the stock vaulted from the sub-$200 level in January 2012 to over $1500 in April 2018.
+Is Bezos Underpaid?
+Bezos earned a salary of $81,840 in 2016. That figure is about equal to the median salary of a manager in the information technology sector. Of course, it helps to own nearly 17% of AMZN shares. Bezos likely eschews the brown bag for lunching out on occasion as his net worth is around $124 billion in March 2018 cementing his position as the world's richest person, ahead of Bill Gates.
+No Time for Downtime
+Nothing positive can result when servers go down in a virtual retail environment, especially when revenue is involved. It is estimated that a 40-minute crash of the Amazon platform in 2013 cost the company a top-line loss of $4.8 million, or $120,000 per minute.
+Frugality
+If a nice frame for your family pictures sounds like a nice perk, Asana, a privately held software company, offers employees $10,000 for desk accoutrements. Amazon employees, by contrast, get no free lunches and would do well to stash a flashlight in their drawers. Light bulbs are removed from vending machines to save on electricity.
+Office Surprise
+It may behoove employees to sharpen their Microsoft Corporation’s (NASDAQ: MSFT) Office suite skills, but PowerPoint need not be one of them. Amazon does not allow the presentation software in meetings. Rather, participants are required to quietly pore over topical reading material at the beginning of each gathering.
+Book Value
+When it began in 1994, Amazon’s first foray into cyber-retail involved only book sales. In 2017, the company’s offerings extend to over 20 primary categories and nearly 150 subcategories. Books and consumer electronics continue to dominate sales. Amazon even offers food on its virtual shelves; however, more than one-third of Amazon shoppers still shy away from purchasing.
+Wall Banger
+There’s no need to leave the couch to shop. Amazon’s mission revolves around customers who make purchases from anywhere at any time. Convenience is not Amazon’s only competitive advantage. On average, products sold on its websites in 2016 were nearly 20% less expensive than big-box retailers such as Wal-Mart Stores Inc. (NYSE: WMT).
+Walk a Mile in My Shoes
+“That’s not my job.’’ At Amazon, management begs to differ. The consumer-centric organization mandates that every employee, even Bezos himself, spend two days in a two-year time span as a customer service rep. The demand reinforces hiring principles that require its leaders to “start with the customer and move backward.”
+Big Brother
+One of Amazon’s most famous customers may also be its most controversial. The Central Intelligence Agency (CIA) signed a $600 million cloud storage deal with the company’s Amazon Web Services division. With more than 162 million unique visitors per month, a grassroots petition has been circulated urging that Bezos not share customer data.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '',
+     'leadGenVertical' : '',
+     'leadGenLayout' : '',
+     'leadGenPage' : ''
+    });
+                    
+            
+                

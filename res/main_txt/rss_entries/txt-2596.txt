@@ -1,0 +1,262 @@
+
+
+    
+                        
+            
+                Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/ActiveTrading/ActiveTrading/IC-Video/Term");} else {return "/8397/INV-NA/ActiveTrading/ActiveTrading/IC-Video/Term";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/terms/e/elliottwavetheory.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/0isxDu1t.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/0isxDu1t-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/thumbnails/live/53_elliotwave_421x236.jpg?quality=80&width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "560",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "0isxDu1t-G9NhEyAa.mp4";
+                
+          
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                    var initializeJWPlayerSetup = function () {
+                        if (new VideoInit().canRun()) {
+                            setUpJwpPlayer();
+                        } else {
+                            new VideoInit().callBack = setUpJwpPlayer;
+                        }
+                    }
+          initializeJWPlayerSetup();
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "0isxDu1t-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "Elliott Wave Theory Basics",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };            
+          
+                    What is the 'Elliott Wave Theory'
+
+      The Elliott Wave Theory was developed by Ralph Nelson Elliott to predict price movements by observing and identifying repetitive wave patterns. 
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Corrective Waves                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Time-Preference Theory Of Interest                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Expectations Theory                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Breadth of Market Theory                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Elliott Wave Theory'
+      The Elliott Wave Theory was developed by Ralph Nelson Elliott in the 1930s. After being forced into retirement due to an illness, Elliott needed something to occupy his time and began studying 75 years worth of yearly, monthly, weekly, daily, hourly, and 30-minute charts across various indexes. The theory gained notoriety in 1935 when Elliott made an uncanny prediction of a stock market bottom and has since become a staple for thousands of portfolio managers, traders, and private investors.
+R.N. Elliott came up with very specific rules governing how to identify and capitalize on these wave patterns. These books, articles, and letters are covered in R.N. Elliott's Masterworks, which was eventually published in 1994. Elliott Wave International was also formed as the largest independent financial analysis and market forecasting firm in the world with publications featuring labeled charts, unique insights, and educational products.
+R.N. Elliott was careful to note that these patterns aren't designed to provide any kind of certainty about future price movement, but rather, the probability of a future direction in the market. In other words, they should be used in conjunction with other forms of technical analysis, including technical indicators and chart patterns, to identify more specific opportunities. The subjectivity of the theory also means that traders may have differing opinions of how Elliott Wave Theory applies to a given security at a given point in time.
+How Elliott Waves Work
+Elliott Waves Theory consists of impulse and corrective waves at its core:
+Impulse Waves - Impulse waves consist of five sub-waves moving in the same direction as the trend of the next largest size.
+Corrective Waves - Corrective waves consist of three sub-waves moving in the opposite direction as the trend of the next largest size.
+These impulse and corrective waves are nested to create larger patterns. For example, a one-year chart may be in the midst of a corrective wave, but a 30-minute chart may show an impulse wave. A trader might interpret this as a long-term bearish outlook with a short-term bullish outlook.
+Fibonacci ratios, such as 35%, 50%, and 62%, are used to determine the magnitude of these waves. For example, a corrective wave may have a drawdown of 35% before becoming an impulse wave. R.N. Elliott stressed the importance of using Fibonacci ratios in combination with his Elliott Wave Theory in order to maximize the probability of success.
+
+Several other indicators were also developed based on the Elliott Wave Theory, including the Elliott Wave Oscillator, which is pictured in the image above. The oscillator provides an easier to use method of predicting future price direction based on the Elliott Wave Principles.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

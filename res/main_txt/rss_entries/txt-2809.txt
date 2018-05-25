@@ -1,0 +1,75 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Founder and president of Kynikos Associates, Jim Chanos, is betting against two popular fast food stocks. Talking about his short positions in Dunkin' Brands Group Inc. (DNKN) and Burger King's parent company, Restaurant Brands International Inc. (QSR), the closely followed short seller told CNBC in an interview on Thursday morning, "We've been short these things for about a year." (See also: The World's Top 10 Restaurant Companies.)
+Providing the justification for his short calls on the stocks, Chanos expressed concerns about the increasing price-to-earnings ratios of the restaurant stocks as the business continues to struggle. An increasing trend in price-to-earnings ratios indicates a higher price of the stock compared to its earnings potential and is considered to be detrimental to sustained positive returns from the stock investments.
+Questioning the viability of the “franchisers versus the franchisees” operating model of such businesses, Chanos added that he doesn't like what he calls "this asset-light idea" of these companies not owning their restaurants while "basically clipping the coupons, collecting royalties" from the franchises.
+An Earnings Surprise
+Following the update, shares of NYSE-listed Restaurant Brands opened around 3% lower during the pre-market hours, though they managed to pair some part of the losses and were trading at $54.50, down around 0.75% compared to Wednesday’s closing price.
+Restaurant Brands owns Burger King, Tim Hortons and Popeyes Louisiana Kitchen. On Tuesday, it posted better-than-expected results with adjusted quarterly earnings at 66 cents a share, which were 10 cents higher than the Street estimates. It also managed to surpass expectations for revenue, which came in at $1.25 billion. However, the share price has posted negative returns for 2018-YTD at -12.7%.
+Similarly, the Nasdaq-listed Dunkin’s shares opened around 5% lower during pre-market hours and then managed to recover partially. The negative call by Chanos was also clubbed with announcement of quarterly results by Dunkin’ Brands, the owner of Dunkin' Donuts and Baskin-Robbins. The earnings came in at 62 cents per share, which was 9 cents better than Street estimates. However, the company fell short on revenues, which came in at $301.3 million. The stock has lost around 5.5% during 2018-YTD. (See also, Dunkin' Donuts Reveals Its 3-Year Growth Plan.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

@@ -1,0 +1,87 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        New issuance globally of green bonds grew 78% year-over-year in 2017 to $155.5 billion, according to the Climate Bonds Initiative. Bloomberg New Energy Finance identified corporate and asset-backed issuance as the reason for most of the increase. In a January 29, 2018 report, S&P Global Ratings suggested total new issuance for 2018 could climb over $200 billion. 
+This kind of growth gets attention. Environmental, social and governance (ESG) focused investors, and their financial advisors, are now taking a closer look at the opportunities and risk for this emerging asset class. What they've found: a lack of transparency. 
+No Formal Compliance Process for Green Bonds
+No single authoritative third party subjects these green bonds to a formal compliance process. The frameworks for labeling green bonds are voluntary, which means government and corporate issuers can choose to comply or not. There are two globally recognized voluntary frameworks: the Green Bond Principles and the Climate Bonds Standards. These bonds have green use-of-proceeds indentures in the contract, but other debenture provisions may include use-of-proceeds designed to mitigate adverse environmental impact.
+China, for example, issued $33 billion in green bonds in 2016, almost 40% of the total global green bonds issued that year. Under China’s separate voluntary green bond guidelines, it is permissible for Chinese coal-fired plants to issue green bonds under a unilaterally determined standard that identifies “clean coal.” China’s inclusion of green bond proceeds use for “clean coal” is not supported by leading scientists from the U.S., Germany, Japan, China, India, Brazil or South Africa. In a coordinated release, these countries stated that even the “most efficient coal-fired power plants emit more than 15 times the amount of CO2 per unit of electricity compared to renewable energy systems, and more than twice the amount of efficient gas fired plants."
+At this point, government and corporate issuers are reluctant to self-regulate because of the disparities in application of the standards. In a scenario where financial conditions change, and an issuer can’t meet their green obligations, self-regulation may also be difficult to defend legally. 
+Pricing Risk Accurately
+There are at least three major issues with pricing risk accurately in the green bond market. The first is a lack of historical benchmarking data. Despite the rapid growth in new issuance of green bonds since 2008, they still made up just 0.13% of fixed-income assets under management globally in 2016. Because interest rates have been relatively stable during the last 10 years, it's difficult to know how green bonds will react to fluctuations in interest rates going forward. 
+The second major issue with pricing green bond risk accurately is the difficulty in assessing credit quality and green status due to the lack of regulatory transparency in the market.
+Academic studies done in 2017 found green bonds have a higher liquidity premium in the secondary market relative to conventional bonds, as long as the bonds maintain green-label status. The third major issue is that the majority of green bond issuers fail to receive any formal rating from an agency, which may subject their debt to greater price volatility if their green-label status is revoked.
+The Difference Between Green Bonds and ESG Ratings
+“There is an important distinction between green bonds and high ESG ratings,” says Patrick Drum, CFA, portfolio manager for Saturna Sustainable Bond Fund. “Issuing a green bond does not mean that the company scores well on ESG characteristics,” he explains. The green bond label simply identifies that a bond’s proceeds will be applied toward environment-related projects. Conversely, a recent Barclay’s study suggests bonds issued by companies with high ESG ratings exhibit measurably positive return characteristics. This type of high ESG rating cannot yet be attributed to green bonds.
+However, the intrinsic value of green bonds for Patrick Drum is their explicit consideration of environmental impact. “They can help investors and advisors understand how companies prioritize their capital allocations,” he says. They also assign importance to how an issuer of debt considers externalities like its environmental impact.
+As the market for green bonds continues to grow, price and value will be established by the paramount considerations of creditworthiness and an issuer’s willingness to repay its debt. Fixed-income investors should continue to challenge the lack of data available in developing markets and from smaller companies, which are not used to disclosing this information to investors.
+The Bottom Line
+Sustainable fixed-income investing, based on consideration of ESG factors, as well as use-of-proceeds, will also continue to grow alongside ESG equity investing. A good indication of this globally-expanding market is the recently announced launch of a new ESG fixed income index by J.P. Morgan, which will cater to investors looking to incorporate ESG and responsible investing in their fixed income strategies. Whether or not embedding ESG metrics in fixed income, as well as equity investment choices, provides better risk and return data to investors and advisors for the long term remains to be seen.
+When considering adding green bonds to their portfolio strategies, investors and advisors should consider both this lack of transparency and the current positive market signals.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '',
+     'leadGenVertical' : '',
+     'leadGenLayout' : '',
+     'leadGenPage' : ''
+    });
+                    
+            
+                

@@ -1,0 +1,109 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Traders and investors can turn precise entry, exit and money management rules into automated trading systems that allow computers to execute and monitor the trades. One of the biggest attractions of strategy automation is that it can take some of the emotion out of trading since trades are automatically placed once certain criteria are met. This article will introduce readers to and explain some of the advantages and disadvantages, as well as the realities, of automated trading systems. (For related reading, see The Power of Program Trades.)
+TUTORIAL: Trading Systems Coding
+What is an Automated Trading System?
+Automated trading systems, also referred to as mechanical trading systems, algorithmic trading, automated trading or system trading, allow traders to establish specific rules for both trade entries and exits that, once programmed, can be automatically executed via a computer. The trade entry and exit rules can be based on simple conditions such as a moving average crossover, or can be complicated strategies that require a comprehensive understanding of the programming language specific to the user's trading platform, or the expertise of a qualified programmer.
+Automated trading systems typically require the use of software that is linked to a direct access broker, and any specific rules must be written in that platform's proprietary language. The  TradeStation platform, for example, uses the EasyLanguage programming language; the NinjaTrader platform, on the other hand, utilizes the NinjaScript programming language. Figure 1 below shows an example of an automated strategy that triggered three trades during a trading session. 
+[Automated trading systems can use many different technical indicators to define entry and exit points. Investopedia's Technical Analysis Course provides an in-depth overview of technical indicators and chart patterns that traders can use when building automated trading systems.]
+
+Figure 1: A five-minute chart of the ES contract with an automated strategy applied.
+Some trading platforms have strategy building "wizards" that allow users to make selections from a list of commonly available technical indicators to build a set of rules that can then be automatically traded. The user could establish, for example, that a long trade will be entered once the 50-day moving average crosses above the 200-day moving average on a five-minute chart of a particular trading instrument. Users can also input the type of order (market or limit, for instance) and when the trade will be triggered (for example, at the close of the bar or open of the next bar), or use the platform's default inputs. Many traders, however, choose to program their own custom indicators and strategies or work closely with a programmer to develop the system. While this typically requires more effort than using the platform's wizard, it allows a much greater degree of flexibility and the results can be more rewarding. (Unfortunately, there is no perfect investment strategy that will guarantee success. For more, see Using Technical Indicators to Develop Trading Strategies.)
+Once the rules have been established, the computer can monitor the markets to find buy or sell opportunities based on the trading strategy specifications. Depending on the specific rules, as soon as a trade is entered, any orders for protective stop losses, trailing stops and profit targets will automatically be generated. In fast-moving markets, this instantaneous order entry can mean the difference between a small loss and a catastrophic loss in the event the trade moves against the trader.
+Advantages of Automated Trading Systems
+There is a long list of advantages to having a computer monitor the markets for trading opportunities and execute the trades, including:
+
+Minimizes Emotions. Automated trading systems minimize emotions throughout the trading process. By keeping emotions in check, traders typically have an easier time sticking to the plan. Since trade orders are executed automatically once the trade rules have been met, traders will not be able to hesitate or question the trade. In addition to helping traders who are afraid to "pull the trigger," automated trading can curb those who are apt to overtrade – buying and selling at every perceived opportunity.
+
+
+Ability to Backtest. Backtesting applies trading rules to historical market data to determine the viability of the idea. When designing a system for automated trading, all rules need to be absolute, with no room for interpretation (the computer cannot make guesses – it has to be told exactly what to do). Traders can take these precise sets of rules and test them on historical data before risking money in live trading. Careful backtesting allows traders to evaluate and fine-tune a trading idea, and to determine the system's expectancy – i.e., the average amount that a trader can expect to win (or lose) per unit of risk. (We offer some tips on this process that can help refine your current trading strategies in Backtesting: Interpreting the Past.)
+
+
+Preserves Discipline. Because the trade rules are established and trade execution is performed automatically, discipline is preserved even in volatile markets. Discipline is often lost due to emotional factors such as fear of taking a loss, or the desire to eke out a little more profit from a trade. Automated trading helps ensure that discipline is maintained because the trading plan will be followed exactly. In addition, "pilot error" is minimized, for instance, an order to buy 100 shares will not be incorrectly entered as an order to sell 1,000 shares.
+
+
+Achieves Consistency. One of the biggest challenges in trading is to plan the trade and trade the plan. Even if a trading plan has the potential to be profitable, traders who ignore the rules are altering any expectancy the system would have had. There is no such thing as a trading plan that wins 100% of the time – losses are a part of the game. But losses can be psychologically traumatizing, so a trader who has two or three losing trades in a row might decide to skip the next trade. If this next trade would have been a winner, the trader has already destroyed any expectancy the system had. Automated trading systems allow traders to achieve consistency by trading the plan. (It's impossible to avoid disaster without trading rules. For more, see 10 Steps to Building a Winning Trading Plan.)
+
+
+Improved Order Entry Speed. Since computers respond immediately to changing market conditions, automated systems are able to generate orders as soon as trade criteria are met. Getting in or out of a trade a few seconds earlier can make a big difference in the trade's outcome. As soon as a position is entered, all other orders are automatically generated, including protective stop losses and profit targets. Markets can move quickly, and it is demoralizing to have a trade reach the profit target or blow past a stop loss level – before the orders can even be entered. An automated trading system prevents this from happening.
+
+Diversifies Trading. Automated trading systems permit the user to trade multiple accounts or various strategies at one time. This has the potential to spread risk over various instruments while creating a hedge against losing positions. What would be incredibly challenging for a human to accomplish is efficiently executed by a computer in milliseconds. The computer is able to scan for trading opportunities across a range of markets, generate orders and monitor trades.
+Disadvantages and Realities of Automated Trading Systems
+Automated trading systems boast many advantages, but there are some downfalls and realties that traders should be aware.
+
+Mechanical failures. The theory behind automated trading makes it seem simple: Set up the software, program the rules and watch it trade. In reality, however, automated trading is a sophisticated method of trading, yet not infallible. Depending on the trading platform, a trade order could reside on a computer – and not a server. What that means is that if an internet connection is lost, an order might not be sent to the market. There could also be a discrepancy between the "theoretical trades" generated by the strategy and the order entry platform component that turns them into real trades. Most traders should expect a learning curve when using automated trading systems, and it is generally a good idea to start with small trade sizes while the process is refined.
+
+
+Monitoring. Although it would be great to turn on the computer and leave for the day, automated trading systems do require monitoring. This is due do the potential for mechanical failures, such as connectivity issues, power losses or computer crashes, and to system quirks. It is possible for an automated trading system to experience anomalies that could result in errant orders, missing orders, or duplicate orders. If the system is monitored, these events can be identified and resolved quickly.
+
+Over-optimization. Though not specific to automated trading systems, traders who employ backtesting techniques can create systems that look great on paper and perform terribly in a live market. Over-optimization refers to excessive curve-fitting that produces a trading plan that is unreliable in live trading. It is possible, for example, to tweak a strategy to achieve exceptional results on the historical data on which it was tested. Traders sometimes incorrectly assume that a trading plan should have close to 100% profitable trades or should never experience a drawdown to be a viable plan. As such, parameters can be adjusted to create a "near perfect" plan – that completely fails as soon as it is applied to a live market. (For more, see Backtesting and Forward Testing: The Importance of Correlation.)
+Server-Based Automation
+Traders do have the option to run their automated trading systems through a server-based trading platform such as Strategy Runner. These platforms frequently offer commercial strategies for sale, a wizard so traders can design their own systems, or the ability to host existing systems on the server-based platform. For a fee, the automated trading system can scan for, execute and monitor trades – with all orders residing on their server, resulting in potentially faster, more reliable order entries.
+The Bottom Line
+Although appealing for a variety of reasons, automated trading systems should not be considered a substitute for carefully executed trading. Mechanical failures can happen, and as such, these systems do require monitoring. Server-based platforms may provide a solution for traders wishing to minimize the risks of mechanical failures. (For related reading, see Day Trading Strategies for Beginners.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '',
+     'leadGenVertical' : '',
+     'leadGenLayout' : '',
+     'leadGenPage' : ''
+    });
+                    
+            
+                

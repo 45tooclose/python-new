@@ -1,0 +1,78 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        More on BitcoinWhy April 2018 Was A Great Month For CryptoFormer Paypal CEO Calls Bitcoin A ScamGoldman Hires Former Crypto TraderICO Tokens Are Securities: Former CFTC ChiefBitcoin mining might be getting faster. Intel Corp. (INTC) recently filed a patent for a System on a Chip (SOC) that includes hardware to accelerate bitcoin mining and reduce its power consumption. The hardware is optimized to reduce space and energy utilized during the process.
+Bitcoin’s energy consumption was first highlighted by news reports late last year after the cryptocurrency’s price began spiraling upward. The Proof of Work (PoW) consensus system used by the cryptocurrency consumes massive power in the form of energy consumption by nodes that are a part of bitcoin’s network. Their energy consumption is primarily used for solving complex mathematical problems required to earn coins. This was not a problem when there were fewer bitcoin and relatively less inflation in the cryptocurrency’s price. As bitcoin’s supply schedule has ramped up in recent times, the amount of energy used by its systems in its network has multiplied. According to some estimates, bitcoin would rank 42nd in terms of energy consumption if it were a country. (See also: What Is Bitcoin Mining?)
+Intel’s proposed system consists of multiple elements, including a processor farm, logic device and an integrated circuit. It works by reducing the search space required to determine the next nonce (or hash header) required to solve the problem. If the solution is not found, then Intel’s chip changes the Merkle tree or order of transactions that have not been processed and starts off with another nonce search. Most current systems expend brute force in order to solve a problem.  
+An Energy Consumption Problem 
+Intel joins a slew of other technology companies in making bitcoin mining chips. Samsung Electronics Co. Ltd (SSNLF) is also engaged in making bitcoin mining chips and has inked a partnership with a Chinese distributor. Analysts had earlier jacked up price targets for NVIDIA Corp. (NVDA) and Advanced Micro Devices Inc. (AMD), makers of graphic processing units (GPU) that are used in bitcoin mining, anticipating increased sales to bitcoin mining companies on the back of a rise in prices for bitcoin. (See also: It Is NVIDIA's Turn to Surge on Cryptocurrency Wave.) 
+But they slashed those targets last month after news that Bitmain, the world’s biggest bitcoin miner, had developed a new application-specific integrated circuit (ASIC), a chip that has superior performance to GPUs, in conjunction with a Chinese firm. Intel's SOC can be run on an array of chips, including ASICs and GPUs.  
+Investing in cryptocurrencies and other Initial Coin Offerings ("ICOs") is highly risky and speculative, and this article is not a recommendation by Investopedia or the writer to invest in cryptocurrencies or other ICOs. Since each individual's situation is unique, a qualified professional should always be consulted before making any financial decisions. Investopedia makes no representations or warranties as to the accuracy or timeliness of the information contained herein. As of the date this article was written, the author owns 0.01 bitcoin.
+ 
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

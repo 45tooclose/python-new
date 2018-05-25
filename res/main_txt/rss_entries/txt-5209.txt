@@ -1,0 +1,149 @@
+
+
+    
+                          What is a 'Managed Account'
+
+      A managed account is an investment account that is owned by an individual investor and overseen by a hired professional money manager. In contrast to mutual funds, which are professionally managed on behalf of many mutual-fund holders, managed accounts are personalized investment portfolios tailored to the specific needs of the account holder. With a mutual fund, the fund company hires a money manager who looks after investments in the fund's portfolio and may alter the fund's holdings in accordance with its objectives.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Mutual Fund                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Investment Management                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Pooled Funds                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Managed Futures Account                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Managed Account'
+      A managed account may hold assets, cash or title to property for the benefit of the client. The manager may buy and sell assets without the client’s prior approval, as long as the manager acts according to the client’s objectives. Because a managed account involves fiduciary duty, the manager must act in the best interest of the client, or potentially face civil or criminal penalties.
+Similarities and Differences Between Managed Accounts and Mutual Funds
+Managed accounts and mutual funds help diversify an investor’s portfolio. Pools of money are invested over a variety of securities that are actively managed by professional managers.
+However, with a managed account, the investor puts in money, and the manager purchases and places physical shares of securities in the account. The account holder owns the securities and may have the manager sell them as desired. In contrast, mutual funds are classified by investors’ risk tolerance and the funds’ investment objectives, not by individual preferences. For example, an investor with an aggressive growth profile may purchase volatile stocks, whereas a conservative investor may purchase safer investments. Also, investors purchasing shares of a mutual fund own a percentage of the value of the fund, not the fund itself.
+With a managed account, days may pass before the manager has the money fully invested. Also, managers may liquidate securities at specific times only. Conversely, shares of mutual funds may typically be purchased and redeemed as desired.
+When owning a managed account, the manager may attempt to offset gains and losses by buying and selling assets when it is the most tax-efficient time to do so. This may result in little or no tax liability. In contrast, mutual fund shareholders owe taxes on capital gains when portfolio managers sell underlying stocks for a profit. Therefore, shareholders have no control over when capital gains are realized.
+Example of a Managed Account
+In July 2016, the use of managed accounts was increasing as institutional investors withdrew from hedge funds due to disapproval of fees, returns and transparency. The investors wanted broader platforms, customized strategies, full control over their separate accounts, daily valuation, significantly lower fees and full transparency of portfolio holdings.
+The Alaska Permanent Fund Corp. in Juneau redeemed $2 billion in hedge funds to invest in a managed account so that investment choices would be made in-house. Likewise, the Iowa Public Employees’ Retirement System in Des Moines was setting up plans for moving investments to managed accounts with seven firms.
+Benefits of Managed Accounts
+Managed accounts hold many benefits for the high net-worth investor. Foremost, they offer a dedicated active manager making investment decisions pertinent to the individual, considering the client's goals, risk tolerance and asset size. Managed accounts are subject to minimum investment requirements and asset-based fees rather than varying per-transaction charges that typically accompany mutual funds. They also give the investor transparency into the decisions being made on their behalf, with regular reports typically provided. Further, many managers will provide discounts based on asset size, and fees may be tax deductible. 
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

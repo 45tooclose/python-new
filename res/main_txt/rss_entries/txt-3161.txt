@@ -1,0 +1,74 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        South Korean electronics giant Samsung Electronics warned its investors Thursday that it may face challenges generating overall earnings growth across the company due to a slowdown in the global smartphone market. The quarterly earnings report from the Asian electronic equipment maker, which is also one of the largest producers of components for other companies' products, such as Apple Inc.'s (AAPL) iPhones, could signal weakness ahead for the Cupertino, California-based FAANG titan. (See also: Why Apple, Visa, Goldman Can Outperform as Rates Rise.)
+Trading down about 2% on Friday morning at $160.79, AAPL's near 5% loss year-to-date (YTD) has led the stock to underperform the S&P 500's near-flat run in 2018 and brings its 12% gain over the most recent 12 months in line with that of the broader market. The smartphone maker has even lagged Facebook Inc.'s (FB) 0.7% slump YTD, as the company grapples with issues such as a major data scandal, while shares of FAANG components Netflix Inc. (NFLX) and Amazon.com Inc. (AMZN) are up 62.1% and 36.6% respectively from the start of 2018, while Google parent Alphabet Inc. (GOOGL) has seen its value fall 1.7% over the same period. 
+Company Warns on Slowing Demand for OLED Panels 
+In its most recent earnings report, Samsung said it expects softness in the global smartphone market to weigh on forthcoming results, honing in on waning demand for organic light-emitting diode, or OLED, display panels in smartphones. The conglomerate was the sole supplier for these displays in Apple's flagship iPhone X, its latest and most expensive model starting at $999. 
+In Q2, Samsung expects slow demand for flexible OLED panels to persist, indicating that it will carry out cost cutting and improve efficiency. The outlook comes as other key Apple suppliers offer lower June-quarter guidance due to slowing mobile unit sales. Taiwan Semiconductor (TSM) dragged shares of Apple down earlier this month as it signaled slower growth in smartphone chip sales. TSM's Q2 revenue forecast came in at $7.85 billion at the midpoint, missing the Street's estimates for $8.8 billion by a long shot. Austria-based AMS, which provides optical sensors for the iPhone X, guided for current-quarter revenues of $235 million at the midpoint, down about 50% from Q1. 
+Apple is slated to report its most recent quarterly earnings results for the period ended in March on Tuesday after the closing bell. (See also: Buy Apple on Any Earnings Dip: Morgan Stanley.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

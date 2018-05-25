@@ -1,0 +1,141 @@
+
+
+    
+                          DEFINITION of 'Classified Shares'
+
+      Classified shares are shares of a publicly-traded company that has different share classes, usually called Class A shares and Class B shares. A detailed description of the different classes of common stock and their specific features, is set out in a company's bylaws and charter.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Class B Shares                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Dual Class Stock                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Class Of Shares                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            A-Share                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Classified Shares'
+      Classified shares are an example of a complex capital structure. Companies with complex capital structures may have a combination of several different varieties of common stock classes, with each share class carrying different voting rights and dividend rates.
+Voting privileges are the main reason companies create different share classes, in addition to dividend rights and liquidation preference. Preferred stock usually does not come with voting rights, but guarantees a fixed dividend, while common stock carries the right to vote for the board of directors at the annual general meeting.
+To provide a better defense against hostile takeovers, Class A shares, with higher votes per share, are often issued to insiders like the company's top management team and directors. While Class A shares typically offer shareholders more benefits, retail investors should not be concerned about the different classes of stock, if the company is well-managed.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

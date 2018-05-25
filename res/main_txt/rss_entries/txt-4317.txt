@@ -1,0 +1,220 @@
+
+
+
+Hong Kong Sees Cryptocurrencies as ‘Medium-Low’ Risk in Financial Crime
+Hong Kong authorities have said that cryptocurrencies pose medium-low risk in financial crimes.
+
+
+ by  Komfie
+Manalo,
+14 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  Hong Kong’s Financial Services and Treasury Bureau (FSTB) has concluded that virtual currencies such as Bitcoin pose medium to low risk in financial crimes, saying also that cryptocurrencies have little impact on organized crime.
+The 132-page report titled “Money Laundering and Terrorist Financing Risk Assessment” states:
+
+“Between 2013 and 2017, there were 167 Bitcoin-related reports to the HKPF (Hong Kong Police Force). Most of the reports involved blackmail using ransomware (such as the recent ‘WannaCry”’attack), and the figure is comparatively low compared with that in other jurisdictions. Investigations and intelligence do not suggest VCs (virtual currencies) were used or intended to be used in other prevalent predicate offenses (e.g., drugs, dutiable goods smuggling) or TF (terrorist financing). The threat level is low.”
+
+The paper added that while there are an inherent money laundering and terrorist financing vulnerability coming from digital currencies, “there does not seem to be any visible impact affecting the overall risk” in the territory so far.
+
+
+“The risk of VCs is assessed as medium-low,” the report added.
+
+It also stated that concerned government agencies (including the FSTB), law enforcement agencies, financial regulators, and others are collaborating to determine the risks associated with digital currencies in general and initial coin offerings (ICOs) in particular.
+The report noted further:
+
+“While we have not found substantial risks in these newly developing payment methods or commodities, this is a rapidly developing area requiring continued monitoring.”
+
+Hong Kong issues warning on ICOs
+Hong Kong’s financial regulator, the Securities and Futures Commission (SFC), issued a warning in February to remind digital currency exchanges of what they are not allowed to do.
+The SFC said in a statement:
+
+“The SFC has sent letters to seven cryptocurrency exchanges in Hong Kong or with connections to Hong Kong [...] warning them that they should not trade cryptocurrencies which are ‘securities’ as defined in the Securities and Futures Ordinance (SFO) without a license.”
+
+Crimes and cryptos are interlinked
+Regulators across the globe face a huge challenge since cryptocurrencies are perceived as linked to financial crimes because of the lack of enforceable regulations.
+A study by ThreatMetrix released early this year showed that the growth of the cryptocurrency market had attracted cybercriminals looking to exploit its vulnerabilities.
+ThreatMetrix’s Q4 2017 Cybercrime Report claimed the crypto market offered opportunities for criminals to engage in scams, money laundering, fraud, and other cybercrimes while maintaining anonymity. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

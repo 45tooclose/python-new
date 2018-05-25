@@ -1,0 +1,258 @@
+
+
+
+Charlie Lee Having Second Thoughts about Selling Litecoin (LTC) Stash
+Litecoin founder has some regrets about selling his holding last year, but is hopeful that the move will benefit the cryptocurrency in the long run.
+
+
+ by  Maryam
+Manzoor,
+15 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  Charlie Lee, the creator of Litecoin, has admitted that selling his LTC stake late last year may not have been the best decision when viewed from a short-term perspective.
+During a candid interview with Julian Hosp, the founder of TenX, Lee stated that currently, with LTC being well below the all-time high of $374 it reached last year in December, he was second-guessing his decision.
+
+“I still think it was the right move but I question whether — I think in the long run it was the right move but in the short term while the price is down, below the all-time high, it just feels like it's not the right decision.”
+
+In December 2017/January 2018, when the crypto market was touching all-time highs and Bitcoin was priced at around $20,000, Litecoin (which closely follows Bitcoin’s price movement) soared to a record-breaking price of $374.
+
+The price surge was also, in part, driven by Charlie's appearance on CNBC, where he spoke about Litecoin and cryptocurrencies in general.
+While Litecoin holders were ecstatic about the price gains (considering LTC was priced at around $4 at the start of 2017), the mood dampened considerably when Charlie Lee suddenly announced that he had sold all his LTC to avoid a conflict of interest.
+The announcement shook investors’ faith in LTC, causing the price to take a downward turn, and the move was heavily criticized as a show of weakness and poor leadership.
+In his interview with Hosp, Lee (a former employee of Google and Coinbase) maintained that while things look grim right now, he expects his decision to contribute to the long-term success of LTC.
+
+“But I think like, moving forward, five years down the road, when the price is back to the all-time high, I feel like it will be the right move.”
+
+He also went on to add that the decision to sell his holdings was the “first step” toward making Litecoin a fully decentralized cryptocurrency, and that he intends to eventually relinquish all control over the cryptocurrency.
+
+“For a currency to really be a worldwide, decentralized currency, you can't have a leader trying to control things. To make it more decentralized eventually I'll step away.”
+ 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 
+
+
+Tags
+
+Litecoin News
+
+ 
+
+.tag-element .taghoverext {
+    display: inline-block;
+    width: 5px;
+    background: #ff8931 !important;
+    border-radius: 2px;
+    height: 26px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background:#454b50;
+    transition:all 0.3s;
+}
+.tag-element:hover .taghoverext {
+    width:100%;
+}
+.tag-element .tag-href {
+    position:relative;
+    z-index:2;
+    background:none !important;
+    margin-top:0px !important;
+    color:#959595 !important;
+}
+.tag-element .tag-href:hover {
+    background:none !important;
+}
+.tag-element:hover .tag-href {
+    background:none !important;
+    color:#fff !important;
+}
+.tag-element {
+    position:relative;
+    border-radius: 2px;
+    border: solid 1px rgba(206, 212, 218, 0.2);
+    height: 27px;
+    display: inline-block;
+}
+ 

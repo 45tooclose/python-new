@@ -1,0 +1,213 @@
+
+
+
+OKEx Halts ERC20 Trading After Finding Bug Affecting Majority of Tokens
+The Hong Kong-based exchange stopped ERC20 trading today as a result of a bug that allowed hackers to generate astronomical amounts of tokens on certain startups' blockchains.
+
+
+ by  Miguel
+Gomez,
+16 hrs ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  OKEx, the third-largest exchange in the world by trade volume, just suspended ERC20 activity due to a vulnerability they are calling BatchOverFlow.
+
+“We are suspending the deposits of all ERC-20 tokens due to the discovery of a new smart contract bug—’BatchOverFlow’. By exploiting the bug, attackers can generate an extremely large amount of tokens, and deposit them into a normal address. This makes many of the ERC-20 tokens vulnerable to price manipulations of the attackers,” the company wrote in its support announcements.
+
+The specific problem with ERC20 is that it doesn’t return any errors when integers are overloaded. It just keeps running the code. This may allow hackers to “overload” the integer to a point that it creates what is known in the programming community as an “overflow.”
+
+Reverse-engineering an attack
+BeautyChain was among the first to fall victim to such an attack on Sunday, when attackers generated 10^58 (that’s a one with 58 zeros after it) BEC tokens by taking advantage of an integer overflow vulnerability in the “batchTransfer()” function of its smart contract code.
+
+“At 13:18 on April 22, 2018, BEC’s prices fluctuate [sic] significantly due to the smart contract safety issue on the BEC. After the study by the Beauty Chain Foundation, the Beauty Chain has suspended all transactions and transfers,” the organization’s site currently reads.
+
+By looking at the smart contract code, we can spot the “batchTransfer()” function and find that it passes three arguments, including one called “_value”, representing the quantity of tokens that should be sent to an array of addresses which is passed into the function as “_receivers”.
+The “_value” integer is the problem here. The hackers could just pass a “_value” with an astronomically huge number and the function will cave in without performing the checks it should. By defaulting to zero, the conditional “require()” later in the code doesn’t do its job and the platform sends the impossibly enormous amount of tokens to the hackers.
+Beauty Chain’s announcement of suspension made its BEC token lose half its value despite the fact that the team managed to pause the smart contract before the hackers could cash out their tokens. The startup promised that it would work on launching a patched contract in the near future.
+The dangers of copycatting
+OKEx used the word “many” to describe the proportion of ERC20 tokens affected by this bug for a reason. There are a lot of them using smart contracts with this particular batch function.
+When code is standardized and copied from one smart contract to the next instead of written from scratch, the lack of diversity exposes the weaknesses in the collective ecosystem. To prevent these sorts of situations, ERC20 smart contracts should be written without using code generators. And for that, one would need the resources to hire skilled coders.
+For now, OKEx said that it has the situation under control and has “contacted the affected token teams to conduct an investigation and take necessary measures to prevent the attack.” However, it’s important to note that smart contracts are not infallible and companies should do their best to audit their code, perhaps even involving bug bounties to ensure that they get the most talented individuals possible to hunt for potential vulnerabilities. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

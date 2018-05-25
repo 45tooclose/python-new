@@ -1,0 +1,76 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        DocuSign Inc. (DOCU) has revealed that it is set to raise more than initially expected at its forthcoming public listing. The eSignature pioneer priced its IPO at $29 per share on Thursday, having earlier penciled in a price range of $24 to $26.
+The company plans to sell at least 21.7 million shares, which at $29 each would see it raise at least $629.3 million and bring its valuation up to $4.4 billion — DocuSign was last valued at $3 billion in 2015. DocuSign is expected to begin trading Friday morning on the Nasdaq exchange with DOCU as its ticker symbol. Morgan Stanley (MS) and JPMorgan Chase & Co. (JPM) are underwriting its IPO.
+The digital signature specialist’s decision to go public has been a long-time coming. Since it was founded in 2003, the company has raised over $500 million in funding from the likes of Kleiner Perkins, Bain Capital, Microsoft (MSFT), Sigma Partners — its biggest backer– and VC arms of tech firms, including Salesforce Ventures (CRM), Intel Capital (INTC) and Dell Technologies Capital (DVMT). (See also: DocuSign Files for Confidential IPO: Report.)
+DocuSign shot to fame years ago after making it possible for users to securely sign and send documents electronically. Prior to introducing its eSignature technology, people requiring signatures from bankers, brokers, home buyers and sellers were forced to rely on the postal service and fax machines.
+According to its website, the company has more than 370,000 customers. Its blue-chip partners include Salesforce.com Inc., Alphabet Inc.’s (GOOGL) Google, Microsoft Corp. and Oracle Corp. (ORCL).
+In recent years, DocuSign has registered explosive revenue growth and steadily narrowed its losses. Aside from becoming profitable, its next major challenge will be separating itself from competitors, particularly as digital signature technology is now everywhere. (See also: How Does DocuSign Make Money?)
+The company is now reportedly setting its sights on automating agreement processes, an area where Adobe Systems Inc. (ADBE) excels.
+Whitney Bouck, COO of HelloSign, one of the company’s other biggest rivals, recently warned DocuSign that it should be wary of “more nimble vendors that can provide more innovative, faster, and more user-friendly solutions at a cheaper price,” according to TechCrunch.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

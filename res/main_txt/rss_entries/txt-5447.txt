@@ -1,0 +1,207 @@
+
+
+
+Crypto Meets Entertainment: Silicon Valley TV Series Generates Instant Memes
+Crypto is the new black, as edgy mentions of Bitcoin and crypto paraphernalia make the punchline on cult TV series.
+
+
+ by  Christine
+Masters,
+13 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  Accidental publicity is always a bonus for the world of crypto. One seen as awkward and opaque, now crypto assets have been given an aura of coolness by cult TV series. As Bitcoin is keeping up the pace with a price near $10,000, Ethereum heats up again, and crypto is entering the mainstream more and more each day.
+https://twitter.com/ShitcoinSherpa/status/993346229571674112
+In Silicon Valley, crypto was mentioned in the context of extreme personal freedom - a message long reiterated by many crypto enthusiasts.
+And hardware storage is becoming cool as well, a sleek physical reminder that crypto assets are indeed easy to transfer and a store of value:
+https://twitter.com/LedgerHQ/status/993440649264410624
+In the meantime, crypto projects have noticed that visibility sells. Coins that up their marketing efforts are making bigger strides, while other promising projects, relying on the technology alone, sit in the sidelines.
+At one point, the Litecoin and Bitcoin communities talked of launching a Superbowl ad to bring crypto coins to the mainstream. However, the idea was mooted, as being too expensive, but also badly targeted.
+However, the edgy, rebellious message of TV series may spark more curiosity for crypto coins.
+
+Unfortunately, the TV series mentions happen at a time when increased regulation by the US Securities and Exchange Commission. Now, Ethereum is becoming a point of contention - once seen as the more up-to-date, borderless digital asse, now ETH coins are facing scrutiny, with the threat of being labeled as securities.
+This would disrupt the easy entry into crypto that was partially available to US buyers. So the message of the TV series may be enticing, but not entirely realistic to the current state of crypto coins. Actually buying and owning millions in crypto coins may be difficult for the regular investor.
+Buying crypto for fiat still has limitations, and big wallets may only be built by large-scale investors, using specialized OTC services. For everyday owners who did not get into crypto in the early years, ownership is still difficult and limited, unless one of their coins goes through a boom cycle. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

@@ -1,0 +1,146 @@
+
+
+    
+                          DEFINITION of 'Zig Zag Indicator'
+
+      The zig zag indicator is used to help identify price trends. The indicator eliminates random price fluctuations and attempts to show trend changes. Zig zag lines only appear when there is a price movement between a swing high and a swing low that is greater than a specified percentage; usually 5%. By filtering out minor price movements, the indicator makes trends easier to spot.
+Example of the Zig Zag Indicator
+
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Momentum Investing                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Business Cycle Indicators (BCI)                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Random Walk Index                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Leading Indicator                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Zig Zag Indicator'
+      The zig zag indicator is often used in conjunction with Elliot Wave Theory to determine the positioning of each wave in the overall cycle. Traders can experiment with different percentage settings to see what gives the best results. For example, a setting of 4% may define waves more clearly than a setting of 5%. Stocks have their own trading patterns, so it is likely that traders will need to optimize the zig zag indicator’s percentage setting. (For more, see: What is the Zig Zag Indicator Formula and How is it Calculated?)
+Trading with the Zig Zag Indicator
+Although the zig zag indicator does not predict future trends, it helps identify potential future areas of support and resistance from the swing highs and swing lows it plots. The zig zag lines can also be used to spot reversal charts patterns, such as a double bottom or a head and shoulders top. Traders can use other technical indicators, such as the relative strength index (RSI) and/or the stochastic oscillator to confirm that the price of a security is overbought or oversold when the zig zag line changes direction. A momentum investor might use the indicator to remain in a trade until the zig zag line confirms in the opposite direction. For example, if the investor holds a long position, they would not sell until the zig zag line turns downward.
+Limitations of the Zig Zag Indicator
+Like other trend-following indicators, a disadvantage is that the result is based on past price history and doesn't change direction until a movement has occurred. For instance, in many cases, the bulk of the move may have already happened after a zig zag line appears.
+Traders should be aware that the most recent zig zag line may not be permanent. When the price changes direction, the indicator starts to draw a new line. If that zig zag line does not reach the indicator’s percentage setting and the price of the security reverses direction - that line is removed and replaced by an extended zig zag line in the trend’s original direction. Given the lag, many traders use the zig zag indicator to confirm the direction of the trend rather than timing an entry or exit. (For further reading, see: How do I use the Zig Zag Indicator to Create a Forex Trading Strategy?)
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

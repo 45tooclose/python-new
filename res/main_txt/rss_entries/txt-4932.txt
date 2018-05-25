@@ -1,0 +1,206 @@
+
+
+
+Shivom Raises $32M in Presale to Create Genomic Data Pool on Blockchain
+The project has completed the first stage of its crowdfunding campaign, raising $32 million and celebrating the decision of former Estonian Prime Minister Taavi Roivas to join the company's advisory board.
+
+
+ by  News
+Desk,
+8 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  Shivom is a unique project with the ambitious goal of creating the world's largest genomic data hub, giving biotechnology experts, healthcare industry participants, and state-backed research institutions the chance to collaborate and make discoveries in the domain of medicine. Besides offering a comprehensive solution for patients and genome data donors, the Shivom platform provides a blockchain-based marketplace for medical service providers and researchers.
+The team has just closed the private sale and pre-sale rounds, raising $32 million. With the main open ICO round starting on May 3, the project is likely to reach its hard cap of $35 million.
+Currently, 7.6 billion people inhabit the Earth, each with a unique genome code - a combination of genes that determines their appearance, health, and other distinguishing characteristics. Scientists have been working for decades to decipher this code, so far with no success.
+Genomic data is controlled by the heavyweight players, and this monopoly is considered the key obstacle to research progress. The dominant companies profit from selling genomic data to third parties and do not even bother to inform the data donors that their information has been shared. Donors have no guarantees their data is protected from hackers and unauthorized access.
+The decentralized technologies utilized in Shivom's platform will democratize the processes of sharing and using genome data, while smart contracts will ensure that all information shared on the platform is anonymous and secure. Users will be motivated to share their data through monetary remuneration in the form of OmiX token.
+Another significant hurdle is the lack of data diversity. DNA kits are unaffordable for the majority of the population, which means that the genomic data available in public databases comes from wealthy people, mostly from Western Europe and North America. Such a statistical imbalance makes genome interpretation less accurate and less comprehensive as the data sets available to the biomedical community do not cover the whole range of natural human variation.
+Shivom aims to bring the technology to developing countries and underrepresented population segments.
+Apart from $32 million of investments secured in the private sale and pre-sale rounds, Shivom is proud to expand its advisory board with the addition of Taavi Roivas, former Estonian Prime Minister and acting member of the Estonian Parliament. Roivas actively promotes the digital development of governmental and corporate sectors and supports many innovative and progressive initiatives, including digital citizens rights, e-citizenship, and e-voting. Collinstar Capital, Hoperidge Capital, DigitalX, Ironside Capital, and Discovery Capital are other prominent investors in Shivom.
+
+“The past few weeks have been filled with positive growth for Shivom,” co-Founder and CEO Dr. Axel Schumacher said. “The first round of funding will allow us to propel Shivom into action, as will our recent partnerships and the addition of former Estonian Prime Minister Taavi Roivas to the advisory board. We are looking forward to completing our public token sale and creating additional strong partnerships in the near future.”
+ 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

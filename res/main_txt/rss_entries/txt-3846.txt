@@ -1,0 +1,212 @@
+
+
+
+The ‘Hard Spoon’ Concept Explained
+In this article, we explain the Hard Spoon concept and how it is relevant to many blockchain protocols and projects. This newly minted term will have drastic impacts.
+
+
+ by  Vakeesan
+Mahalingam,
+13 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  
+“A hard spoon is a meta-protocol on top of a blockchain creating a token that inherits the blockchain’s underlying token’s balances. The idea of a soft spoon would be to create two competing *branches of a protocol* within *the same blockchain.*” — Vitalik Buterin
+
+The term ‘Hard Spoon’ was first coined by Jae Kwon, Founder and CEO of Tendermint. A ‘Hard Spoon’ involves the creation of a newly minted cryptocurrency, on a different blockchain, for a cryptocurrency that is already in existence. The account balances are replicated from the existing cryptocurrency. Essentially, you end up with two cryptocurrencies that are run parallel on different blockchains, where each has its own value, can be used for staking, and is also tradeable.
+
+ “Hard spoon: a new chain that takes into account state from an existing chain; not to compete, but to provide broad access.” — Jae Kwon
+
+The Hard Spoon allows for cryptocurrencies to exist on multiple blockchains, while taking existing account balances into consideration. This allows current token or coin holders to receive the same amount of newly minted tokens or in any other ratio that is not 1:1 based on an account balance snapshot that can be used prior to distribution.
+A key component of the Hard Spoon is that it is non-contentious. It is not intended to result in  competition or ‘steal’ market share from the original chain. The goal is to provide broader access to a cryptocurrency by replicating a coin or tokens account balances and minting a parallel cryptocurrency that functions on a divergent blockchain. This is bound to offer greater efficiency and boost performance over time.
+
+A key takeaway here is that this allows a new world of developers and programmers to work with existing community members from the original chain to ultimately explore the platform and improve on any deficiencies.
+
+Hard Spoons provide mobility to avoid blockchain-based restrictions and helps expand a cryptocurrency’s reach and thus promote greater use and adoption.
+ For example, if a cryptocurrency were initially launched on the Ethereum Blockchain, but the team found a faster, interoperable blockchain to utilize for its token purpose, it could conduct a Hard Spoon. This involves taking the account balance of existing holders of the specific cryptocurrency and replicating the token or coin to function on a divergent blockchain that better suits its needs. Both cryptocurrencies would be functional.
+Two of the first highly coveted and important Hard Spoons are set to occur during Q2 2018. Ethereum (ETH) and OmiseGO (OMG) are preparing to Hard Spoon on the Cosmos Network, the self proclaimed internet of blockchains. In simple terms, Cosmos is the blockchain and Tendermint in the software that is responsible for committing new blocks to the blockchain. You can read more about the specifications as they relate to OmiseGo (OMG) here. You can also get more details on the Cosmos Network and Ethereum Hard Spoon here.
+Updates on the Cosmos Network, OmiseGo, and Ethereum will all be provided at this years EDCON running from May 3-5 2018.
+Follow us and stay tuned for more updates as Cryptovest will be conducting full post-conference coverage as media partners of the event. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

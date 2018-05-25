@@ -1,0 +1,46 @@
+
+
+A straightforward data point - the total supply of bitcoin hit 17 million.
+But as with most things in crypto, it wasn't so simple.
+Every 10 minutes or so, miners find a block of transactions and the network adds 12.5 new bitcoin to the total supply as a reward for the finders. And each reward has been logged on the blockchain since bitcoin launched in early 2009.
+As such, it seemed like a number - a milestone - the industry could trust. 
+
+But as some celebrated once the mark was hit on bitcoin data provider Blockchain's website, others took to Twitter to rain on their parade.
+Jameson Lopp, Casa engineer and the creator of Satoshi.info, another public-facing bitcoin data site, tweeted:
+"Today I've learned that a lot of data sources are incorrectly reporting the total bitcoin supply. We haven't actually hit 17 million BTC yet."
+Lopp's contention was that Blockchain.info, one of the most popular and highly-regarded sources for blockchain network data, among others, had not accounted for instances in which bitcoin miners, due to bugs and other causes, did not claim their full block reward.
+Unfortunately, these discrepancies in the total bitcoin supply metric are not the exception, but part of a larger problem that stems from the "opaque" methodologies these blockchain data analysis providers use, according to Greg Cipolaro, the CEO of Digital Asset Research (DAR), a firm that provides blockchain analysis to clients.
+As such, DAR went on a mission to figure out Blockchain's methods for what it calls "one of the longest standing mysteries in the cryptocurrency community" - bitcoin's estimated transaction value. In the company's report on the subject, published recently, DAR said Blockchain over-estimated transaction values from October to February 2017 and has mostly underestimated them since then.
+Executives from Blockchain were not available for interview before press time.
+But it's not only Blockchain. Cipolaro cited CoinMarketCap's January removal (without warning) of South Korean exchange data from its price index. Since cryptocurrency prices on South Korean exchanges have tended to be higher, the eviction made it appear that the crypto markets were crashing.
+Panic selling ensued, setting off what Cipolaro called "a mini-flash crash."
+In fairness, though, price indices always involve subjective decisions. That is true not only of cryptocurrencies but also the stock market. Yet without insight into how price and other metrics are arrived at, the cryptocurrency community could suffer. Accurate data is extremely important for investors, traders, users, developers, academics, journalists - basically everyone.
+A multi-layer problem 
+Still, many people who depend on public blockchain data don't realize how flawed some of this data is.
+Offering a grim outlook on the broad state of blockchain analysis today, Stefan Richter, a computer scientist who co-founded data provider BitcoinPrivacy, told CoinDesk:
+"There are, of course, software bugs in probably every explorer around."
+And Cipolaro echoed that, saying, "This is not something you would notice unless you spent your days looking at it."
+Luckily, some industry enthusiasts have noticed.
+Lopp, for one, is a cryptocurrency data hound. He pointed to bitcoin node count, a figure often cited as a measure of the network's decentralization and health, as a particularly finicky metric.
+"I often hear folks say that there are only 10,000 bitcoin nodes," Lopp said. But the source of that figure, Bitnodes, "only counts reachable nodes that accept incoming connections."
+Addy Yeow, the creator of Bitnodes, confirmed that the site only counts "listening" nodes.
+As such, the total number of nodes could be far higher, according to both Lopp. Indeed, one estimate puts listening and non-listening nodes at nearly 140,000.
+And while Yeow agrees, he cautions that adding non-listening nodes to the metric would require making major assumptions. He explained that data sources that count non-listening nodes are actually taking part in a guessing game. Nodes that aren't listening could still be connected, but behind a firewall, for example. Alternatively, they could have changed IP addresses, or the could have disconnected entirely.
+The analysis providers that take into account non-listening nodes use a formula which takes into account the number of days nodes have been non-listening in an effort to count them, but the more unseen-but-connected nodes they capture, the more disconnected nodes they erroneously include.
+Getting there
+Due to the issues with public data sets, many blockchain data professionals avoid using them and instead use data they calculate internally whenever possible.
+Chainalysis, a firm that analyzes blockchain data for clients including the U.S. Internal Revenue Service (IRS), is certainly skeptical. Kimberley Grauer, Chainalysis' chief economist, said she prefers to use internal data because, "I know where the errors are; I know where the vulnerabilities are." DAR's Cipolaro echoed that, telling CoinDesk the company runs its own code, gleaning data from its own bitcoin node.
+Still, despite their shortcomings, Cipolaro has high praise for the free sites that make bitcoin data available to the public.
+"They provide a good source of high-quality information," he said.
+And it's obvious these companies are trying. When a bug in Blockchain's web service made it appear (incorrectly) that bitcoin founder Satoshi Nakamoto had moved some coins, the company fixed the problem.
+Certain issues should be easy to fix. Grauer pointed out that block explorers often neglect to note time zones, and they don't all use the same one. While that's not strictly wrong, it causes confusion.
+"Just compare blockchain.info to btc.com!" Grauer said. (We did: block 520672 was either mined at 23:18 on April 30 or 03:18 on May 1. There's no hint of what time zone either site is using.)
+Other data sets won't be as easy to clean up. While the bitcoin blockchain may be fully public for all to see, the complicated way in which transactions are performed means measuring their value can be quite the challenge. Even DAR does not claim its new method is perfectly accurate.
+"This will not likely be the last improvement we make," the company said in its report.
+For the time being, the community will need to remember the old Russian proverb, repurposed by cypherpunks:
+"Don't trust, verify."
+Bingo image via Shutterstock
+var riuyojisrlntqyiu,riuyojisrlntqyiu_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){riuyojisrlntqyiu_poll(function(){if(window['om_loaded']){if(!riuyojisrlntqyiu){riuyojisrlntqyiu=new OptinMonsterApp();return riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="//a.optnmnstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;riuyojisrlntqyiu=new OptinMonsterApp();riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");
+
+The leader in blockchain news, CoinDesk is a media outlet that strives for the highest journalistic standards and abides by a strict set of editorial policies. CoinDesk is an independent operating subsidiary of Digital Currency Group, which invests in cryptocurrencies and blockchain startups.
+

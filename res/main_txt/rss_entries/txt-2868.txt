@@ -1,0 +1,91 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        The time may come when life insurance policy owners want to rid themselves of the policies they own. Maybe they simply no longer want to pay the premium. Or they find themselves in a position where they need to access cash due to a major – and often unexpected – expense. Still others just don't believe they have a need for the protection afforded by the life insurance companies.
+Whatever the reason, policy owners need be aware of all of the options they have at their disposal when deciding whether to shed an unwanted policy. (See also: Buying Life Insurance: Term Versus Permanent.) Historically, there have been six methods:
+lapse
+surrender for cash value
+reduced paid-up
+extended term
+1035 exchange for an annuity
+1035 exchange for a different life insurance policy
+But recently, an additional option has been introduced. This option is referred to as a life settlement.
+Life Settlement Features
+According to the Financial Industry Regulatory Authority, a life settlement occurs when a life insurance policy is sold to an individual or entity (other than the original policy issuer) for an amount that exceeds the policy's cash surrender value, but is less than the net death benefit. The seller usually receives the payment as a lump sum, and is no longer responsible for any premium payments on the insurance policy. These are now the responsibility of the buyer.
+Life settlements are distinct from the six aforementioned disposal options in that ownership of the policy is transferred to another person or entity. This concept may sound familiar, because it is related to what the life insurance industry refers to as viatical settlements. Viatical settlements are exchanges that also involve the sale of a life insurance policy to a third party; however, they differ from life settlements in that the insured has a terminal illness.
+To the Winner … Goes the Payments
+Most policy owners solicit the assistance of a life settlement broker when attempting to sell their policies. Life settlement brokers contact life settlement companies to let them know that a policy is available for purchase.
+The broker then waits for the life settlement companies to bid on the policy (not unlike an auction). Upon receiving all of the bids, the broker lets the policy owner know which company offered the most money for the policy. Like , the policy owner typically sells his or her policy to the company that is willing to pay the most money.
+Waiting For You to Die?
+You may be asking yourself why a company would want to purchase someone else's life insurance policy. The short answer is that when the policy is sold, the new owner becomes the policy beneficiary. If you agree to sell your life insurance policy to a life settlement company, for example, the company is effectively purchasing the right to receive the death benefit that the insurere will pay out at your passing. This can be an attractive investment for the company, if it thinks the factors are favorable that it'll collect.
+Many policy owners who consider selling their policies through life settlement transactions are uneasy about the idea of a life settlement company essentially waiting for them to die. The notion of a company counting down the weeks, months or years until death is not very comforting. Some may even go as far to think that a company will resort to nefarious means in order to get access to the death benefit sooner rather than later. However, keep in mind that life settlement companies are in the business of making money. The companies would eventually put themselves out of business if they engaged in any type of criminal behavior.
+Also, some entities that purchase life insurance contracts from others couldn't care less about when the insured dies. These entities purchase life insurance policies so they can use them for collateral to obtain financing from banks. Whether the insured dies in two years or 20 years means little to the company; it simply wants to own the policy so it can qualify for a loan today.
+The Bottom Line
+Life settlements offer an additional option for life insurance policy owners deciding what to do with a policy they no longer want or need. From a monetary perspective, this alternative may be more attractive than the six traditional methods for disposing of policies. That is reason enough for policy owners to discuss the idea with one of their trusted advisors (i.e., financial planner, accountant, broker, lawyer, etc.).
+There will probably always be concerns that companies buying these policies could participate in criminal behavior. But with proper due diligence performed on the life settlement broker, the life settlement company and any other entity involved in the transaction, an individual should be able to allay these fears. Also, the fact that the industry is being actively monitored by the New York Attorney General (and doubtless other AGs in other states) may soothe the concerns of some. 
+(See also: Fifteen Insurance Policies You Don't Need.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'LifeInsurance',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

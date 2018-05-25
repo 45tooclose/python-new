@@ -1,0 +1,76 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Shares of Microsoft Corp. (MSFT) are up 1.3% Friday afternoon after the legacy IT behemoth posted another quarterly earnings beat, demonstrating its successful shift toward high-growth businesses such as the cloud, productivity software and its career networking platform, LinkedIn. Trading at $95.49 on Friday afternoon, MSFT has gained 11.7% year-to-date (YTD) and 39.8% over 12 months, outperforming the S&P 500's flat return and 11.7% gain over the same respective periods. (See also: Microsoft Earnings: What to Look For.)
+Investors initially sent shares down in afterhours on Thursday despite fiscal Q3 results that topped consensus forecasts. The results were highly anticipated on the Street as analysts weigh in on the changing composition of Microsoft's revenues following its Windows business shakeup, as some of the company's older segments transition to a more supportive role. Once Chief Financial Officer Amy Hood spoke on the earnings call, shares began their turnaround. In the quarter ended in March, MSFT's GAAP earnings of $0.95 exceeded the Street's average forecast of $0.85, according to a Bloomberg poll, while sales up 16% year-over-year (YOY) at $26.8 billion came in higher than predictions for $25.8 billion. 
+As for next quarter's outlook, Hood stated that "we again expect strong performance from our commercial business with solid execution in our largest quarter of the year. We expect commercial unearned revenue to be up 38% to 39% sequentially." She added that commercial cloud gross margin should come in about flat to Q3, representing another period of material YOY improvement "even with increasing Azure revenue mix." Microsoft's Productivity and Business Processes unit, which includes Office 365 and Dynamics 365, is expected to post revenue of $9.65 at the midpoint, up from $9 billion in Q3. 
+Cloud Expansion
+The CFO offered an optimistic outlook for fiscal year 2019, which starts July 1, stating that "key drivers of our business should remain intact" and that "revenue growth will continue to be driven by the transition to cloud services." She expects continued high-teens sales growth in the server product, cloud services and Productivity and Business Processes segments, while the gross margin for every commercial cloud service is expected to improve. Hood indicated that Microsoft will continue to up capital expenditures, which reached $3.5 billion for the quarter, as long as customer demand for cloud services rises. The firm plans to open its first data centers in the Middle East in Abu Dhabi and Dubai, as well as two more locations in Germany. 
+The solid earnings results warranted an upgrade on MSFT shares by JPMorgan Chase & Co. to overweight from neutral. Analyst Mark Murphy wrote a note to clients on Friday expecting the tech giant to report profits above expectations this year, driven by its growing Enterprise segment as it "stands to benefit from a broad and powerful lineup of Cloud solutions." 
+Microsoft's hybrid cloud platform Azure jumped 89% in fiscal Q3 over the same quarter last year, while its cloud "premium services" segment skyrocketed over 100% for the 15th consecutive period. 
+"While the PC cycle and Windows dynamic are still highly relevant, we believe Microsoft is pushing forward with a successful cloud strategy," wrote Murphy, who expects MSFT to gain more than 15% over 12 months to reach a new price target of $110. He foresees the firm posting EPS of $3.82 in fiscal 2018, versus the consensus estimate at $3.77.  (See also: Microsoft Warms Up to Former Rival Linux.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

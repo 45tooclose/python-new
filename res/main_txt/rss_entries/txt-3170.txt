@@ -1,0 +1,145 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        There are hundreds of technical indicators traders can utilize depending on their trading style and the type of security to be traded. This article focuses on a few important technical indicators popular among option traders. (If you are not sure whether technical trading or options are for you, check out our Introduction to Stock Trader Types tutorial to decide your preferred style. Also, please note that this article assumes familiarity with options terminology and calculations involved in technical indicators.)
+How Options Trading is Different
+Technical indicators are often used in short-term trading to help the trader determine:
+Range of movement (how much?)
+Direction of the move (which way?)
+Duration of the move (how long?)
+Since options are subject to time decay, the holding period takes significance. A stock trader can hold a position indefinitely, while an options trader is constrained by the limited duration defined by the option's expiration date. Given the time constraints, momentum indicators, which tend to identify overbought and oversold levels, are popular among option traders.
+Let's look at a few common indicators -- momentum and others -- used by option traders.
+Relative Strength Index (RSI)
+The Relative Strength Index is a momentum indicator that compares the magnitude of recent gains to recent losses over a specified period of time to measure a security's speed and change of price movements in an attempt to determine overbought and oversold conditions. RSI values range from 0-100, with a value above 70 generally considered to indicate overbought levels, and a value below 30 indicating oversold levels.
+RSI works best for options on individual stocks, as opposed to indexes, as stocks demonstrate overbought and oversold conditions more frequently than indexes. Options on highly liquid, high-beta stocks make the best candidates for short-term trading based on RSI. (For more, see An Introduction to the Relative Strength Index.)
+
+Bollinger Bands
+All option traders are aware of the importance of volatility, and Bollinger bands are a popular way to measure volatility. The bands expand as volatility increases and contract as volatility decreases. The closer price moves to the upper band, the more overbought the security may be, and the closer price moves to the lower band, the more oversold it may be. A price move outside of the bands can signal the security is ripe for a reversal, and option traders can position themselves accordingly. For instance, after a breakout above the top band, the trader may initiate a long put or a short call position. Conversely, a breakout below the lower band my represent an opportunity to use a long call or short put strategy. (For more, see The Basics of Bollinger Bands.)
+
+ 
+Also, in general, keep in mind that it often makes sense to sell options in periods of high volatility, when option prices are elevated, and buy options in periods of low volatility, when options are cheaper.  
+Intraday Momentum Index (IMI)
+The Intraday Momentum Index is a good technical indicator for high-frequency option traders looking to bet on intraday moves. It combines the concepts of intraday candlesticks and RSI, thereby providing a suitable range (similar to RSI) for intraday trading by indicating overbought and oversold levels. Using IMI, an options trader may be able to spot potential opportunities to initiate a bullish trade in an uptrending market at an intraday correction, or initiate a bearish trade in a downtrending market at an intraday price bump. (Note that it is important to be aware of the “trendiness” of the price moves. When there is a strong visible uptrend or downtrend, momentum indicators will frequently show overbought/oversold readings.)
+To calculate the IMI, the sum of up days is divided by the sum of up days plus the sum of down days, or ISup ÷ (ISup + IS down), which is then multiplied by 100. While the trader can choose the number of days to look at, 14 days is the most common time frame. Like RSI, if the resulting number is greater than 70, the stock is considered overbought. And if the resulting number is less than 30, the stock is considered oversold.
+Money Flow Index (MFI)
+The Money Flow Index is a momentum indicator that combines price and volume data. It is also known as volume-weighted RSI. The MFI indicator measures the inflow and outflow of money into a security over a specific period of time (typically 14 days), and is an indicator of "trading pressure." A reading over 80 indicates a security is overbought, while a reading below 20 indicates the security is oversold.
+Due to dependency on volume data, MFI is better suited to stock-based options trading (as opposed to index-based) and longer-duration trades. When the MFI moves in the opposite direction as the stock price, this can be a leading indicator of a trend change.
+
+Put-Call Ratio (PCR) Indicator
+The put-call ratio measures trading volume in put options versus call options. Instead of the absolute value of the put-call ratio, the changes in its value indicate a change in overall market sentiment.
+When there are more puts than calls, the ratio is above 1, indicating bearishness. When call volume is higher than put volume, the ratio is less than 1, indicating bullishness. However, traders also view the put-call ratio as a contrarian indicator. 
+Open Interest (OI)
+Open interest indicates the open or unsettled contracts in options. OI does not necessarily indicate a specific uptrend or downtrend, but it does provide indications about the strength of a particular trend. Increasing open interest indicates new capital inflow and, hence, sustainability of the existing trend, while declining OI indicates a weakening trend.
+For option traders looking to benefit from short-term price moves and trends, consider the following:
+
+Price
+
+
+Open Interest
+
+
+Interpretation
+
+
+Rising
+
+
+Rising
+
+
+Market/security is strong
+
+
+Rising
+
+
+Falling
+
+
+Market/security is weakening
+
+
+Falling
+
+
+Rising
+
+
+Market/security is weak
+
+
+Falling
+
+
+Falling
+
+
+Market/security is strengthening
+
+The Bottom Line
+In addition to the above-mentioned technical indicators, there are hundreds of other indicators that can be used for trading options (like stochastic oscillators, Average True Range and cumulative tick). On top of those, variations exist with smoothing techniques on resultant values, averaging principals and combinations of various indicators.  An options trader should select the indicators best suited to his or her trading style and strategy, after carefully examining the mathematical dependencies and calculations.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

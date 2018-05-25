@@ -1,0 +1,150 @@
+
+
+    
+                          What is the 'Accumulative Swing Index (ASI)'
+
+      The Accumulative Swing Index (ASI) is a trendline indicator used by traders to gauge the long-term trend in a security’s price by collectively using its opening, closing, high and low prices.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Trendline                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Position Trader                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Speed Resistance Lines                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Price Channel                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Accumulative Swing Index (ASI)'
+      The ASI was developed by Welles Wilder who also created the Swing Index. Essentially, the ASI is an accumulation of the Swing Index. Details discussing the ASI and Swing Index can be found in Wilder’s book, titled “New Concepts in Technical Trading Systems.”
+The Accumulative Swing Index trendline is one of several trendlines that can be followed to provide support for technical analysts deciphering buy and sell signals. Other popular indicators include weighted alpha, moving average and the volume weighted moving average.
+The Accumulative Swing Index is charted as a trendline. It can be deployed through advanced technical charting software such as MetaStock, Worden TC2000, eSignal, NinjaTrader, Wave59 PRO2, EquityFeed Workstation, ProfitSource, VectorVest and INO MarketClub. (For more on these platforms see also: The Best Technical Analysis Trading Software) It is typically charted as a standalone trendline graphed similar to volume bar charts. Both the Accumulative Swing Index and the Swing Index can be added to a technical analyst’s chart diagram.
+Swing Index
+In Wilder’s research, he set out to identify an index indicator that could provide information on a security’s price by collectively analyzing the security’s open, close, high and low price. These prices charted on a daily candlestick pattern are integrated into the following equation developed by Wilder to arrive at a Swing Index measure.
+
+
+The Swing Index calculation was developed to incorporate differences between consecutive day closing prices and opening prices in consideration with a variable R defined below:
+
+This core value is multiplied times 50 and K/T where T is the maximum amount of a price change for the day.
+Accumulative Swing Index
+The Swing Index Value is then accumulated to form the Accumulated Swing Index trendline. This trendline value typically falls within a range of 100 to -100. As a price centric index, it will generally follow the candlestick pattern of a price. The Swing Index and ASI can be used in analyzing all types of securities. It is often used for futures trading but can be used for analyzing the price trends of other assets as well. Include chart Inferences The ASI is known for supporting the affirmation of breakouts. The ASI may be used in conjunction with trading channels in order to confirm breakouts as the same trendline is to be penetrated in both situations. Generally when the ASI is positive, it supports that the long-term trend will be higher, and when the ASI is negative, it suggests that the long-term trend will be lower.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

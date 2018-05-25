@@ -1,0 +1,153 @@
+
+
+    
+                          What is 'Market Average'
+
+      A market average is a measure of the overall price level of a given market, as defined by a specified group of stocks or other securities. A market average equals the sum of all current values of stocks in the group divided by the total number of shares in the group.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Price-Weighted Index                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Average Return                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Rule Of 18                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Blue Chip Indicator                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Market Average'
+      A market average measurement is a simple way to evaluate the price level of a group of stocks. For example, the Dow Jones Industrial Average (DJIA), which is a price-weighted average, covers 30 blue chip stocks listed on the NYSE and is widely used to track overall U.S. stock market performance
+As of April, 2018, the DJIA has been trading in the 20,000s, but few stocks ever trade in dollars of that magnitude, even if you added 30 of them together.
+	 
+What makes the Dow a five-digit number is that its denominator is adjusted for stock splits, and there have been a lot since the Dow 30 was established in 1928. 
+	 
+Every time a blue-chip stock splits, the denominator goes down to compensate. Today the divided-by number is not 30; it is closer to 0.2. 
+	 
+To further muddy the waters, the components of the Dow today are not what they were when the average was founded: General Electric is the only original member still in the club, and Intel and Microsoft have superseded Union Carbide and Sears Roebuck. 
+	 
+Despite all these caveats, the Dow is still an average.
+History of the DJIA – The Most Prominent Market Average
+Named for founder Charles Dow and his business partner Edward Jones, the Dow Jones Industrial Average is regarded as a proxy for the broader U.S. economy. At launch, it included just 12 almost purely industrial 12 companies. The first components operated in railroads, cotton, gas, sugar, tobacco and oil. General Electric is the only one of the original Dow components that is still a part of the index in 2018.
+As the economy changes over time, so does the composition of the index. The Dow typically makes changes when a company experiences financial distress and becomes less representative of the economy, or when a broader economic shift occurs and a change needs to be made to reflect it.
+The index grew to 30 components in 1928 and has changed components a total of 51 times. The first change came just three months after the index was launched. In 1932, eight stocks within the DJIA were replaced. However, during this change, the Coca-Cola Company and Procter & Gamble Co. were added to the index, two stocks that are still part of the DJIA in 2018.
+ 
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

@@ -1,0 +1,55 @@
+
+
+
+    
+    
+    
+          
+    A:
+            Many fund managers, whether they manage a mutual fund, trust fund, pension or hedge fund, can sometimes have access to resources that the average investor does not. But the type and quality of information generally remains the same for all investors.
+The information that managers use comes from publicly available information in the form of news releases, annual reports and filings with pertinent exchanges. Fund managers will most likely have a team of financial analysts using the latest software to analyze specific companies, markets and economic variables, who will make recommendations and forecasts on future prices and market trends.
+Even though these fund managers have access to all of these resources, the conclusions they come to about any particular security or market are potentially no better than what a retail investor can do with a TV remote in one hand and a mouse in the other. The only difference between a fund manager and an individual investor is that the fund manager is highly trained and must adhere to a set of ethical standards.
+Fund managers and most analysts go through a formal training process, which will most likely include a Chartered Financial Analyst designation issued by the CFA Institute. The CFA program involves three rigorous levels of standardized testing, but in order to enroll you must hold, at a minimum, a recognized university degree.
+Also, to retain a CFA designation, the holder must adhere to the Institute's Code of Ethics and Standards of Professional Conduct, or else risk being suspended or expelled from the CFA society. In addition to their education and experience, fund managers will also have a thorough understanding of macroeconomics, international trade and behavioral finance.  Although it is not necessary to hold a CFA to be a fund manager, it is encouraged.
+Although a fund manager's experience and education may provide him or her with an edge, a fund manager's actions may not be as transparent as they should be. The manager may make investments that are contrary to the best interests of the investors of that particular fund. For example, a pension fund manager may leverage the fund to purchase a security (this kind of strategy is illegal is most instances), but the investor will not know the fund manager is doing this. In this scenario, the possibility of losses is greater than if the manager took a non-leveraged position. (See also: Understanding Dishonest Broker Tactics.)
+Although fund managers are highly trained professionals, they still generally use the same publicly available information that all investors use, and the conclusions they come to are potentially no better than those achieved by any conscientious investor.
+        
+    
+
+    
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'FAQ'
+    });
+                

@@ -1,0 +1,152 @@
+
+
+    
+                          What is a 'Fence (Options)'
+
+      A fence is an options strategy that establishes a range around a security or commodity using three options. It protects against significant downside losses but sacrifices some of the underlying asset's upside potential. Essentially, it creates a value band around a position so the holder does not have to worry about market movements while enjoying the benefits of that particular position such as dividend payments.
+Typically, an investor holding a long position in the underlying asset sells a call option with strike price above the current asset price, buys a put with a strike price at or just below the current asset price, and sells a put with a strike below the first put's strike. Expirations should be the same.
+A collar option is a similar strategy offering the same benefits and drawbacks. The main difference is that the collar uses only two options, the short call above and a long put below the current asset price. For both strategies, the premium collected by selling options partially or fully offsets the premium paid to buy the long put.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Collar                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Ring Fence                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            White Collar                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Call On A Put                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Fence (Options)'
+      The goal of a fence is to lock in an investment's value through the expiration date of the options. Because it uses multiple options, a fence is a type of combination strategy, similar to collars and iron condors.
+Both fences and collars are defensive positions, which protect a position from a decline in price while sacrificing upside potential. The sale of the short call partially offsets the cost of the long put, as with a collar. However, the sale of the out-of-the-money (OTM) put further offsets the cost of the more expensive at-the-month put and brings the total cost of the strategy closer to zero.
+Another way to view a fence is as the combination of a covered call and an at-the-money (ATM) bear put spread.
+Constructing a Fence
+To create a fence, the investor starts with a long position in the underlying asset, whether it is a stock, index, commodity or currency. The trades on the options, all having the same expirations include:
+sell or write a call with a strike price higher than the current price of the underlying
+buy a put with a strike price at the current price of the underlying or slightly below it
+sell  or write a put with a strike price lower than the strike of the short put
+For example, an investor who wishes to construct a fence around a stock in the portfolio currently trading at $50 could sell a call with a strike price of $55. Next, buy a put option with a strike price of $50. Finally, sell another put with a strike price of $45. All options have three months to expiration.
+The premium gained from the sale of the call would be ($1.27 * 100 shares/ contract) = $127. The premium paid for the long put would be ($2.06 * 100) = $206. And the premium collected from the short put would be ($0.79 * 100) = $79.
+Therefore, the cost of the strategy would be premium paid minus premium collected or $206 - ($127 + $79) = zero.
+Of course, this is an ideal result. the underlying asset may not trade right at the middle strike price and volatility conditions can skew prices one way or the other. However, the net cost or debit should be small. And a net credit is also possible.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

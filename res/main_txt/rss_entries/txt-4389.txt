@@ -1,0 +1,81 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Short interest in Tesla Inc. (TSLA) is surging to record highs ahead of the electric automaker’s first-quarter earnings. Short sellers held 38 million shares in short bets against Tesla as of April 13, or more than 30% of the shares available for trading, Barron’s reports, a bug jump from 27 million shares in short bets last September.
+
+Chart: FactSet
+Dire Outlook As Shorts Pile On
+Traders shorting the stock are skeptical that Tesla can maintain its valuation as it runs through cash while trying to meet production goals. A recent Bloomberg analysis pegged Tesla's cash burn rate at more than $6,500 every 60 seconds.  (See also: Why Tesla is Burning Through Cash.)
+Then there are those that have an even more critical outlook and expect the company to go bankrupt. Some worries have begun to emerge, especially in the wake of a recent downgrade of Tesla's debt rating by Moody’s Investor Services. Moody's also warned that Tesla's liquidity is not enough to cover its 2018 discretionary capital expenditure expected at $2 billion as well as another $1.2 billion in convertible debt that matures early next year.
+At the end of last year, Tesla had $3.5 billion in cash and $9.4 billion in debt outstanding. It has raised money through traditional channels like selling stock and bonds, but it has benefited from a roughly $500 million loan from the U.S. Department of Energy in 2010.
+More Trouble For Tesla?
+Tesla has been trying to increase production on its mass-market Model 3 sedan but has been experiencing setbacks. CEO Elon Musk originally targeted a production rate of 5,000 cars per week by the end of 2017, but it has not even achieved half of that rate. (See also: Tesla Hit With $2B Lawsuit for Allegedly Violating Patents.)
+Tesla is scheduled to report earnings after the closing bell today. Analysts expect a loss of $3.54 per share, up from a loss of $1.33 per share in the first quarter of 2017.
+The stock is down about 7% in the past year, but up about 13% in the past month. Over the last five years, Tesla has returned about 450% to shareholders, versus the S&P 500’s return of 66%.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

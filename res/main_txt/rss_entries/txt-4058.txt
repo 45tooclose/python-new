@@ -1,0 +1,148 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        In the eyes of hedge fund and mutual fund shops who are hiring, not all college degrees are created equal. According to a recently released report from alternative fund database house eVestment, the likelihood of graduates snagging coveted jobs in the asset management field largely depends on the academic halls they emerged from.
+eVestment gathered alma mater information from over 35,000 investment analysts and portfolio managers who graduated after 2010, and are employed by some 4,500 mutual funds and hedge funds spanning the country.
+Undergrads from the University of Pennsylvania, MBA alums from the University of Chicago's Booth School of Business, and those who earned diplomas in 2010 or later from Columbia University stood a greater chance of landing asset management jobs, eVestment found. (For related reading, see: 5 Top Business Schools In America.)
+Penn’s esteemed Wharton School (both for MBA and undergrads) spawned 1,101 asset management workers – the highest number of combined alumni holding jobs at Goldman Sachs Asset Management (GS), BlackRock Inc. (BLK), Pacific Investment Management Co. (PIMCO), and other industry  stalwarts. But Penn’s lead appears to be slipping; while it was the highest asset management seeder practically every year from 1960 to 2004, the University of Chicago has owned that honor from 2005 to 2009, passing the baton to Columbia from 2010 to 2014.
+Unsurprisingly, Ivy League schools showed well. Yet non-Ivy League schools have not done badly at all. Boston College placed in the top 10 for total alums, and took sixth place when the data factored in undergraduate degrees alone. BC placed seventh when ranked by school size. Incidentally, U.S. News & World Report ranked BC 31st overall. Another notable non-Ivy League performer was Lehigh University, ranking ninth for undergraduate degrees when scaled by school size. Lehigh was ranked 41st overall by U.S. News & World Report. (For related reading, see: Prestigious Colleges With The Lowest Tuition.)
+Finally, eVestment looked at schools with a focus on investment products to learn that Harvard University topped the list for American hedge funds, trailed by the University of Chicago and Penn. Conversely, Penn took first for U.S. equities, trailed by Harvard and Chicago. Penn likewise led the pack for U.S. fixed income, followed by the University of Chicago and New York University.
+Here is a list of rankings by overall numbers, adjusted by size, and MBA grads:
+Raw Rank
+Total Alumni Employed by Asset Managers
+1. University of Pennsylvania
+1,101
+2. Harvard University
+920
+3. Columbia University
+886
+4. University of Chicago
+877
+5. New York University
+810
+6. Stanford University
+470
+7. Northwestern University
+429
+8. UCLA
+412
+9. UC Berkeley
+373
+10. Boston College
+372
+ 
+ 
+Size-Adjusted Rank
+ 
+1. University of Chicago
+877
+2. University of Pennsylvania
+1,101
+3. Dartmouth College
+291
+4. Harvard University
+920
+5. Princeton University
+273
+6. Massachusetts Institute of Technology
+357
+7. Boston College
+372
+8. Stanford University
+470
+9. Yale University
+303
+10. Columbia University
+886
+ 
+ 
+MBA Rank
+ 
+1. University of Chicago
+720
+2. Columbia University
+557
+3. New York University
+533
+4. University of Pennsylvania
+533
+5. Harvard University
+471
+6. Northwestern University
+234
+7. UCLA
+208
+8. Stanford University
+182
+9. University of Southern California
+125
+10. University of Michigan
+124
+Source: eVestment
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

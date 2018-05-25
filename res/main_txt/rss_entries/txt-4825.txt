@@ -1,0 +1,80 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Macy’s (M), Target (TGT) and Nike (NKE) stocks are in comeback mode as investors are recognizing and even rewarding the measures these retailers have undertaken to combat the threat of Amazon.com Inc. (AMZN).
+While department store operators, fast-food chains, and apparel retailers have long been under pressure over the Amazon-effect, some stocks are trading higher as the efforts appear to be paying off.
+Revival of Retail Shares
+Since 2017, retail chains like Macy’s and Target have poured tons of money into their e-commerce offerings, overhauling their stores and refreshing their inventory to better compete against Amazon. Target even embraced same day delivery while Nike shifted its focus to selling its sneakers and apparel direct to consumers and has also been revamping important brands. (See more: Nike, Estee Lauder, Constellation Brands Are Amazon Resistant-Logan Capital.)
+The Wall Street Journal pointed out that the rebound in retail shares of --Macy’s up around 19% so far this year, while Target is trading about 6% higher--has lifted the consumer-discretionary component of the S&P 500 Index by 4.5% so far in 2018. That compares to a decline of 1.4% for the entire S&P 500 Index. While Amazon and Netflix (NFLX) are big contributors to that uptick, even without the two, consumer discretionary stocks are outperforming other sectors within the S&P 500. What’s more, of the consumer discretionary companies that have already reported first-quarter results, 73% have beat Wall Street expectations. (See more: Retail Stocks Poised for Big Turnaround.)
+
+Source: FactSet
+Changing the Face of Retail
+For years now Amazon has been keeping all sorts of industry executives awake at night as they fear the e-commerce giant will enter their market, disrupt it, and leave the traditional players struggling in its wake. It has happened in retail and is starting to in the grocery food market now that Amazon owns Whole Foods Market. While traditional retailers have struggled as a result, many filing for bankruptcy, Macy’s, Target and Walmart (WMT) have been making stride to push back. In addition to investing in their e-commerce offerings, they are trying to act more like Amazon by ramping up the convenience factor and the ability to give consumers near instant gratification from their shopping purchases.
+In recent weeks Wall Street watchers have taken notice, coming out with lists of stocks that could be resistant to Amazon. One that is repeatedly brought up is Nike. Logan Capital Management fund manager Stephen Lee, who counts Amazon among the firm’s holdings, is one of them. He recently told MarketWatch that the sneaker and fitness apparel company not only keeps its product lines updated, it is also creating a “unique ability to reduce the time from innovation to market.” He cited investments in automation, and the proximity new factories closer to its markets as reasons it is more nimble in introducing new products. What’s more, the fund manager said Nike’s focus on selling via the Internet positions it well.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

@@ -1,0 +1,91 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Investors could do no worse than follow the lead of Warren Buffett, based on his stellar long-term track record. The much-anticipated annual meeting weekend of his Berkshire Hathaway Inc. (BRK-A) kicks off with various events today, including discount shopping for shareholders. In that spirit, a team at Credit Suisse AG has prepared a shopping list of stocks for Buffett, based on his oft-stated bargain-hunting investment criteria. We previously examined six of these stocks, on May 1, based on a report in Barron's. Here are five more: State Street Corp. (STT),  T. Rowe Price Group Inc. (TROW), Paccar Inc. (PCAR), Packaging Corp. of America (PKG) and RPM International Inc. (RPM).
+Our previous report looked at potential Buffett buys in the retail, technology and health care sectors. Today we look at financial, industrial and materials stocks that Credit Suisse thinks would fit with his philosophy. (See also: 6 Stocks Warren Buffett Might Buy Next.)
+What They Do
+State Street is a leading custodian bank. T. Rowe Price is a major investment management firm, founded in 1937 by Thomas Rowe Price Jr., the originator of the mutual fund concept. Paccar designs and manufactures trucks under the Kenworth, Peterbilt and DAF nameplates. Packing Corp. makes paper products and cardboard boxes. RPM makes coatings, sealants and building materials. 
+Key Statistics
+Here are the forward P/E ratios, PEG ratios, and estimated EPS growth in 2018 and 2019 for these companies, per Yahoo Finance:
+State Street: 11.4x forward P/E, 0.72 PEG, +7.6% EPS 2018, +10.2% EPS 2019
+T. Rowe Price: 14.6x, 1.21, +13.8%, +5.5%
+Paccar: 10.9x, 2.24, +32.4%, +1.4%
+Packaging Corp.: 12.9x, 1.34, +29.1%, +12.7%
+RPM: 14.4x, 1.63, +24.3%, +8.5%
+The forward P/E for the S&P 500 Index (SPX) is 17.0 times earnings, per the weekly calculation as of April 27 by Birinyi Associates, as reported by The Wall Street Journal.
+What's to Like
+All five stocks are trading at below-market valuations, and all are in easy-to-understand businesses, a key Buffett criterion, per Credit Suisse and Barron's. State Street and T. Rowe Price have the added attraction of no long-term debt, per Yahoo Finance. High ROE figures are offered by Packaging Corp. (34%), RPM (26%), T. Rowe Price (25%) and Paccar (23%). State Street has a PEG ratio of under 1.00.
+Paccar beat first-quarter EPS estimates by 10.7% and revenue estimates by 5.3%. Revenue was up by 35.2% year-over-year (YOY). (See also: Paccar Inc Reports Results for the Quarter Ended March 31—Earnings Summary.)
+State Street beat first-quarter EPS estimates by 1.9% and revenue estimates by 3.7%. Revenue increased by 11.7% YOY. (See also: State Street Corp Reports Results for the Quarter Ended March 31—Earnings Summary.)
+T. Rowe Price beat first-quarter EPS estimates by 2.9%, despite revenues that fell short of estimates by 7.8%. Revenue increased by 6.8% YOY. (See also: T. Rowe Price Group Inc. Reports Results for the Quarter Ended March 31—Earnings Summary.)
+More Potential Targets
+The financial press is rife with speculation about potential acquisition targets for Berkshire Hathaway, or perhaps stocks that might be added to its investment portfolio. See our previous article on the Credit Suisse report for a CNBC discussion about several more of these.
+Earlier this year, a report in TheStreet noted that Buffett already owns several airline stocks and might consider buying one or more outright to force cost-cutting mergers. These include Southwest Airlines Co. (LUV), Delta Air Lines Inc. (DAL), United Continental Holdings Inc. (UAL) and American Airlines Group Inc. (AAL). Southwest looks particularly good as a target to one analyst, as cited by CNBC, based on the Buffett criteria of cash flow, competitive advantages and superior management.
+Indeed, Berkshire's cash pile is about enough to by out the whole group of airlines listed above, TheStreet notes. Meanwhile, they add that a complete buyout of troubled General Electric Co. (GE) also is in Berkshire's reach, should Buffett be willing to embark upon a long-term rationalization of the failing conglomerate.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

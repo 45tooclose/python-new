@@ -1,0 +1,100 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        If you're an income-hungry investor, a stagnating stock market or crumbling yields on certificates of deposit, money markets and bonds can put a big dent in your cash flow.
+When this happens, there's a short-term investment idea that you might want to consider: reverse convertible notes (RCNs). These securities provide a predictable, steady income that can outpace traditional returns – even those of high-yield bonds. Here's how to add them to your portfolio:
+RCN 101
+Reverse convertible notes are coupon-bearing investments with payouts at maturity. And, they are generally based on the performance of an underlying stock. The maturities on RCNs can range from three months to two years.
+The notes are usually issued by large financial institutions. However, the companies whose stocks are linked to the RCNs have no involvement at all in the products.
+RCNs consist of two parts: a debt instrument and a put option. When you buy an RCN, you are actually selling the issuer the right to deliver the underlying asset to you at some point in the future. (See also: How is a put option exercised?)
+How Payouts Are Determined
+Before maturity, RCNs pay you the stated coupon rate, usually in quarterly payments. This constant rate reflects the general volatility of the underlying stock. The greater the potential volatility in the stock's performance, the more risk the investor takes. The higher the risk, the more you get for the put option. This translates into a higher coupon rate.
+When the RCN matures, you'll receive either 100% of your original investment back or a predetermined number of the underlying stock's shares. This number is determined by dividing your original investment amount by the stock's initial price.
+There are two structures used to determine whether you will receive your original investment amount or the stock:
+Basic Structure – At maturity, if the stock closes at or above the initial price, you will receive 100% of your original investment amount. If the stock closes below the initial price, you'll get the predetermined number of shares. This means you'll end up with shares that are worth less than your original investment.
+Knock-In Structure – You'll still receive either 100% of your initial investment or shares of the underlying stock at maturity. With this structure, though, you'll also have some downside protection.
+For example, suppose your $13,000 RCN investment includes an 80% knock-in (or barrier) level, and the underlying stock's initial price is $65. If, during the term, the stock never closes at $52 or less, and the final price of the stock is higher than the knock-in price of $52 and you'll get your original investment of $13,000 back.
+
+Figure 1: A reverse convertible note that doesn\'t close below the knock-in level.
+If it had closed at $52 or less at any time during the life of the investment and the final price is lower (let's say $60) than the initial price of $65, you'll get the predetermined amount of stock, which would be $13,000/$65 = 200 shares. This would only be worth $12,000 if you sold those shares at that time.
+
+Figure 2: A reverse convertible note that falls below the knock-in level
+If the underlying stock had closed higher than the initial buying price of $65, you would get your initial investment back in the end, regardless of whether the $52 threshold was broken.
+
+Figure 3: A reverse convertible note that closes higher than the initial buying price
+Risks
+Investing in RCNs involves the risk of losing part of your principal at maturity. In addition, you don't participate in any increase in the underlying asset's value above the initial price. So, your total return is limited to the stated coupon interest rate.
+But there are a few other risks that you should be aware of before you invest in RCNs:
+Credit Risk – You are relying on the issuing company's ability to make interest payments during the term and pay you the principal payment at maturity.
+Limited Secondary Market – You must be willing to accept the risk of holding the RCN until maturity. However, the investment firm that issued the RCN will usually try to maintain a secondary market. However, this is not guaranteed; understand that you may get less than your original cost if you sell.
+Call Provision – Some RCNs include a feature that could take your RCN from you just when it's kicking out terrific yields and prevailing interest rates are low.
+Taxes – Because RCNs consist of two parts, a debt instrument and a put option, your return could be subject to capital gains tax and ordinary income tax.
+What Type of Investor Is Suited for an RCN?
+RCNs could be suitable for investors looking for the predictable, higher income streams than can be found on traditional fixed-income investments and can tolerate the risk of losing some of the principal.
+Investors should only buy into RCNs when they believe that the underlying stock will not drop below the knock-in level. Keep in mind that the companies who sell these investments are betting that the stock price will drop below the set barrier, or at least be volatile enough to make this a possibility.
+With higher risk there should be higher potential reward, and this is true for RCNs. After all, where else can you invest as little as $1,000, get a double-digit yield on your money, and only tie it up for a relatively short time? But don't think that RCNs are an alternative to your CDs because the principal is not guaranteed. In addition, you should be comfortable with the RCN's underlying company because you could end up with shares of its stock when your RCN matures. So be sure to read the offering circular and prospectus carefully before investing. Finally, you should only invest in RCNs if you understand the ins and outs of options. (See also: Options Basics Tutorial.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Deposit',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

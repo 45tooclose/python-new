@@ -1,0 +1,76 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        The Walt Disney Co. (DIS) received a vote of confidence this week as one team of analysts on the Street issued an upgrade on shares of the media giant. While not quite offering a bullish outlook on the stock, analysts indicate that investors are correct to hone in on the progress of Disney's broader shift to a direct-to-consumer (DTC) business. (See also: Disney’s ‘Black Panther’ Boosts Bottom Line: JPM.)
+BMO Capital sees limited downside in Disney shares despite mounting competition in the disrupted entertainment industry as on-demand streaming providers such as Netflix Inc. (NFLX) continue to gain share faster than analysts expected. In a note to clients Wednesday, BMO Daniel Salmon lifted his rating on DIS from underperform to market perform while increasing his price target from $95 to $100, right around the stock's current price as of Thursday afternoon.  
+Salmon applauded Disney's focus on its DTC business and over-the-top content push, as the company plans to roll out a stand-alone video platform to rival Netflix, Hulu and Amazon.com Inc.'s (AMZN) Prime Video by 2019. BMO wrote that the firm “is positioning itself as such to concentrate on long-term growth opportunities and more clearly realigned around them." Salmon stated that the new segment “creates a dedicated division focused on the future of the media business.”
+Weakness in Linear TV Segment Offset by New Offerings
+While investors have reason to worry over declining subscribers for Disney's traditional ESPN TV sports network, with data by Nielsen demonstrating a 3% decline over last year, Salmon wrote that weakness should be offset with new products like ESPN Plus. 
+The analyst also highlighted a recent management reorganization at the Burbank, California-based global entertainment behemoth as a positive driver. In March, Disney created a new direct-to-consumer and international segment, naming Chief Strategy Officer Kevin Mayer chairman of the division. 
+Despite a more balanced risk-reward profile, analysts indicate that “catalysts for shares remain elusive,” citing questions about Disney’s proposed 21st Century Fox Inc. (FOXA) acquisition and future bidding for major sports programming.
+Trading down 1.3% on Thursday afternoon, DIS reflects a 7% decline year-to-date (YTD) and a 13.6% loss over the most recent 12 months, underperforming the S&P 500's about-flat run and 11.9% return over the same respective periods. By comparison, NFLX has soared 63.9% in 2018 and 109.5% over the year. (See also: Netflix Skyrockets on Higher Subscriber Growth.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

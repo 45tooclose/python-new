@@ -1,0 +1,218 @@
+
+
+
+    
+        
+        Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/ActiveTrading/ActiveTrading/IC-Video/Article");} else {return "/8397/INV-NA/ActiveTrading/ActiveTrading/IC-Video/Article";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/articles/optioninvestor/07/structured_products.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/UDGuRCl4.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/UDGuRCl4-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/content/video/an_introduction_to_s/introtostructuredproducts.png?width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "100%",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "UDGuRCl4-G9NhEyAa.mp4";
+                
+          
+            document.addEventListener("DOMContentLoaded", function() {
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                        var initializeJWPlayerSetup = function () {
+                            if (new VideoInit().canRun()) {
+                                setUpJwpPlayer();
+                            } else {
+                                new VideoInit().callBack = setUpJwpPlayer;
+                            }
+                        }
+            initializeJWPlayerSetup();
+          });
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "UDGuRCl4-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "An Introduction To Structured Products ",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };    
+        
+            
+      
+
+    
+
+    
+        Once upon a time, the retail investment world was a quiet, rather pleasant place where a small, distinguished cadre of trustees and asset managers devised prudent portfolios for their well-heeled clients within a narrowly defined range of high-quality debt and equity instruments. Financial innovation and the rise of the investor class changed all that.
+One innovation that has gained traction as a supplement to traditional retail and institutional portfolios is the investment class broadly known as structured products. Structured products offer retail investors easy access to derivatives. This article provides an introduction to structured products, with a particular focus on their applicability in diversified retail portfolios.
+What Are Structured Products?
+Structured products are designed to facilitate highly customized risk-return objectives. This is accomplished by taking a traditional security, such as a conventional investment-grade bond, and replacing the usual payment features (e.g. periodic coupons and final principal) with non-traditional payoffs derived not from the issuer's own cash flow, but from the performance of one or more underlying assets.
+Payoffs from these performance outcomes are contingent in the sense that, if the underlying assets return "x," then the structured product pays out "y." This means that structured products closely relate to traditional models of option pricing, although they may also contain other derivative categories such as swaps, forwards and futures, as well as embedded features that include leveraged upside participation or downside buffers.
+Structured products originally became popular in Europe and have gained currency in the U.S., where they are frequently offered as SEC-registered products, which means they are accessible to retail investors in the same way as stocks, bonds, exchange traded funds (ETFs) and mutual funds. Their ability to offer customized exposure to otherwise hard-to-reach asset classes and subclasses makes structured products useful as a complement to traditional components of diversified portfolios.
+[ Options are a key component of many structured products, and a core knowledge of how they function and how they are used in the market is crucial to fully understanding structure products. Learn the basics of options and how investors can leverage them to hedge against risk in Investopedia Academy's Options for Beginners course ]
+Looking Under the Hood
+Consider the following example: A well-known bank issues structured products in the form of notes, each with a notional face value of $1,000. Each note is actually a package consisting of two components – a zero-coupon bond and a call option on an underlying equity instrument, such as a common stock or an ETF mimicking a popular index like the S&P 500. Maturity is in three years.
+Figure 1 represents what happens between issue and maturity date.
+ 
+
+Figure 1
+Although the pricing mechanisms that drive these values are complex, the underlying principle is fairly simple. On the issue date you pay the face amount of $1,000. This note is fully principal-protected, meaning you will get your $1,000 back at maturity no matter what happens to the underlying asset. This is accomplished via the zero-coupon bond accreting from its original issue discount to face value.
+For the performance component, the underlying asset is priced as a European call option, and will have intrinsic value at maturity if its value on that date is higher than its value when issued. If applicable, you earn that return on a one-for-one basis. If not, the option expires worthless and you get nothing in excess of your $1,000 return of principal.
+Custom Sizing
+Principal protection offers a key benefit in the above example but an investor may be willing to trade off some or all protection in favor of more attractive performance potential. Let's look at another example in which the investor gives up principal protection for a combination of more potent performance features.
+If the return on the underlying asset (R asset) is positive – between zero and 7.5% – the investor will earn double the return (e.g. 15% if the asset returns 7.5%). If R asset is greater than 7.5%, the investor's return will be capped at 15%. If the asset's return is negative, the investor participates one-for-one on the downside (i.e. no negative leverage). There is no principal protection.
+Figure 2 shows the payoff curve for this scenario.
+
+Figure 2
+This strategy would be consistent with the view of a mildly bullish investor – one who expects positive but generally weak performance and is looking for an enhanced return above what he or she thinks the market will produce.
+The Rainbow Note
+One of the principle attractions of structured products for retail investors is the ability to customize a variety of assumptions into one instrument. For example, a rainbow note is a structured product that offers exposure to more than one underlying asset. A lookback is another popular feature. In a lookback instrument, the value of the underlying asset is based not on its final value at expiration, but on an average of values taken over the note's term, for example monthly or quarterly. In the options world, this is also called an Asian option to distinguish the instrument from the European or American option. Combining these types of features can provide attractive diversification properties.
+A rainbow note could derive performance value from three relatively low-correlated assets, like the Russell 3000 Index of U.S. stocks, the MSCI Pacific ex-Japan index and the Dow-AIG commodity futures index. Attaching a lookback feature to this structured product could further lower volatility by "smoothing" returns over time.
+What About Liquidity?
+One common risk associated with structured products is a relative lack of liquidity due to the highly customized nature of the investment. Moreover, the full extent of returns from complex performance features is often not realized until maturity. For this reason, structured products tend to be more of a buy-and-hold investment decision rather than a means of getting in and out of a position with speed and efficiency.
+A significant innovation to improve liquidity in certain types of structured products comes in the form of exchange-traded notes (ETNs), a product originally introduced by  Barclays Bank in 2006. These are structured to resemble ETFs, which are fungible instruments traded like common stock on a securities exchange. However, ETNs are different from ETFs because they consist of a debt instrument with cash flows derived from the performance of an underlying asset. ETNs also provide an alternative to harder-to-access exposures, such as commodity futures or the Indian stock market.
+Other Risks and Considerations
+In addition to liquidity, another risk associated with structured products is the issuer's credit quality. Although cash flows are derived from other sources, the products themselves are considered to be the issuing financial institution's liabilities. For example, they are typically not issued through bankruptcy-remote third-party vehicles in the way that asset-backed securities are. The vast majority of structured products are offered by high investment-grade issuers – mostly large global financial institutions that include Barclays, Deutsche Bank or J.P. Morgan Chase. However, during a financial crisis, structured products have the potential of losing principal, similar to the risks involved with options. As a result,  the U.S. Financial Industry Regulatory Authority (FINRA) suggests that firms consider whether purchasers of some or all structured products be required to go through a vetting process similar to options traders.
+Another consideration is pricing transparency. There is no uniform pricing standard, making it harder to compare the net-of-pricing attractiveness of alternative structured product offerings than it is, for example, to compare the net expense ratios of different mutual funds or commissions among broker-dealers. Many structured product issuers work the pricing into their option models to avoid an explicit fee or other expense to the investor. On the flip side, this means the investor can't know for sure the true value of implicit costs.
+The Bottom Line
+The complexity of derivative securities has long kept them out of meaningful representation in traditional retail and many institutional investment portfolios. Structured products can bring many derivative benefits to investors who otherwise would not have access to them. As a complement to traditional investment vehicles, structured products have a useful role to play in modern portfolio management.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

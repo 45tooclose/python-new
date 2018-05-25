@@ -1,0 +1,78 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        When the Oracle of Omaha speaks, the world listens.
+And unfortunately, for Bitcoin investors, Warren Buffett continues to maintain his distance from Bitcoin. 
+In a run-up to Berkshire Hathaway's annual shareholders' meeting, Buffett spoke to Yahoo! Finance in Omaha, Nebraska, saying buying cryptocurrencies is speculation, instead of a reliable mode of investment. While he did not say it is wrong to g make speculative bets, he said he is still not convinced about such ventures as investments. This year's Berkshire Hathaway annual shareholders' meeting is scheduled to take place on Saturday, May 5, 2018, in Omaha, Nebraska.
+Drawing a clear distinction between a tangible investment and a virtual one, the Oracle of Omaha said, “If you buy something like a farm, an apartment house, or an interest in a business… You can do that on a private basis… And it’s a perfectly satisfactory investment. You look at the investment itself to deliver the return to you. Now, if you buy something like bitcoin or some cryptocurrency, you don’t really have anything that has produced anything. You’re just hoping the next guy pays more.”
+Buffett's Stance on Cryptocurrencies
+Buffett has been wary of Bitcoin for a long time, and has been regularly advising to avoid the cryptocurrency as an investment.
+In October last year when Bitcoin was about to start its upward journey to its peak of above $19,000, he described it as a "real bubble," reports CoinDesk. In January, when Bitcoin began its downward trend toward the low of $6,900, he said that “the recent craze over bitcoin and other cryptocurrencies won't end well.” (For more, see Buffett: Cryptocurrency Will Come to a Bad End.)
+With lack of clarity around the real drivers behind cryptocurrency valuations and the lack of any fundamental indicators like that of a successful business venture, cryptocurrency valuations simply boil down to temporary phases of demand and supply leading the high fluctuations in price. 
+Bitcoin’s anonymous working mechanism has also brought in additional operational challenges. While cryptocurrencies' volatility over the last few months has taken the world by storm, the digital currencies have also attracted regulatory crackdowns across the globe and are facing issues of taxation. The cumulative effect of these problems is making it difficult for Bitcoin investors to retain their trust in bitcoins as an investment of choice. (For more, see How Cryptocurrency Taxes Affect Bitcoin Price.)
+It will still be a long road for Bitcoin meet the strict and traditional criteria of long-term investors like Warren Buffett.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

@@ -1,0 +1,141 @@
+
+
+    
+                          What is an 'Unseasoned Security'
+
+      An unseasoned security is a financial instrument that has only recently been made available for trading, thus making its behavior relatively unpredictable in the public market. Because an unseasoned security has no long-term track record or historical data on which a trader or investor can base a decision, the security can be riskier than a seasoned one, but also can have larger upside potential.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Marketable Securities                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Margin Loan Availability                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Historical Returns                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Universe Of Securities                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Unseasoned Security'
+      Since an unseasoned security has only recently become available to the public, investors are forced to speculate about its potential performance. It is important to note that a company that issues the security may be known and studied well before it sells it to the public, but the price of the security itself could swing wildly in the days and weeks after it is launched. Some of the factors that could cause volatility in the price are limited liquidity, amount of institutional ownership, decisions of management of a company after it goes public, and irrational investor behavior which occurs from time to time. In the case of a hot IPO, shares of a company may soar upon release of trading but then succumb to gravitational forces, or quickly rise and stay on a 45-degree angle. The security is unseasoned and it will take some time for it to settle into a trading pattern that is governed more by rational investment behavior.
+Example of an Unseasoned Security: FB in 2012
+Facebook sold much-anticipated shares (ticker: FB) to the public in May 2012. Priced at $38 per share, FB spent the rest of its inaugural year as an unseasoned security, even falling into the teens. Part of the price volatility was attributed to emotional trading and uncertainty about how to gauge its growth prospects and value the shares. However, over time the stock settled down as the company demonstrated its ability to produce voluminous profits for shareholders, who have been amply rewarded in the subsequent years.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

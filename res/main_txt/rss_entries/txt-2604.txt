@@ -1,0 +1,142 @@
+
+
+    
+                          What is a 'Settlement Period'?
+
+      A settlement period is the period of time between the settlement date and the transaction date that is allotted to the parties of a transaction to satisfy the transaction's obligations. The buyer must make payment within the settlement period while the seller must deliver the purchased security within this period. For certificates of deposit and commercial paper, the transaction must be settled on the same day; for U.S. treasuries, it is the next day (T+1). Forex transactions are settled in two days (T+2).
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Trade Date                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Settlement Date Accounting                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Settlement Risk                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Real Time Gross Settlement (RTGS)                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Settlement Period'
+      The Securities and Exchange Commission (SEC) sets securities’ settlement periods. For example, for a three-day settlement period, a stock trade occurring on Friday is settled on Wednesday as long as no holidays occur during that time. Otherwise, the transaction completion takes an additional day because the markets are closed on weekends and holidays. The three-day settlement period for stocks was established when cash, checks and physical stock certificates were exchanged through the postal system. Traders required adequate time to efficiently buy or sell the stocks and send money to their accounts or stock certificates to the purchasers.
+Although money is now instantly transferred electronically, the settlement period remains in place as a convenience for traders and brokers. However, most  online brokers require traders to have sufficient funds in their accounts before buying stock. In addition, most physical stock certificates no longer exist; securities are typically traded electronically and are backed up by account statements.
+Settlement Risk
+Traders and institutional investors face settlement risk if either party does not perform its part of a transaction. Traders want their securities paid and recorded efficiently as a means of gaining profits more rapidly. Institutional investors, such as banks and mutual funds want to hold onto their cash as long as possible and earn more interest for increasing their profits. The Depository Trust & Clearing Corporation (DTCC) protects both parties from settlement risk by having a subsidiary, the National Securities Clearing Corporation (NSCC), clear stock trades, accept and deliver banks’ or brokers’ cash and digitally record trades. The NSCC sends traders and institutional investors automated reports detailing the quantity of shares, price and type of security and confirming that transactions are in the process of settlement.
+Reducing the Settlement Period
+The Securities Industry and Financial Markets Association (SIFMA), along with other individuals and financial groups, supported shortening the settlement cycle for U.S. equities and corporate and municipal bonds. In 2017, the Securities and Exchange Commission voted unanimously to shorten the settlement timeframe to two business days, a change that should reduce credit and market risk, including the risk of a trading counterparty defaulting.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

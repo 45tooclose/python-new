@@ -1,0 +1,84 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        The major U.S. indexes were mixed over the past week, with tech stocks outperforming the broader market. Apple Inc. (AAPL) shares led tech stocks higher by rising nearly 4% on Friday after Berkshire Hathaway Inc. (BRK.A) revealed a larger stake. On the other hand, industrials moved lower over the course of the week after U.S.-China trade talks ended with strong demands and few signs of a tangible deal. The market has also been concerned over heightened political risks stemming from President Trump and the Mueller investigation.
+International markets were higher over the past week. Japan's Nikkei 225 rose 0.09%, Germany's DAX 30 rose 1.69%, and Britain's FTSE 100 rose 0.73%. In Europe, the European Union's economic outlook painted a rosy picture for the future but highlighted risks posed by potential U.S. interference in global trade agreements. In Asia, Chinese leaders met with U.S. officials to discuss an end to the escalating trade war, but there were few solid signs of agreement in the initial meetings. (See also: Trade Issues Haven't Gone Away.)
+The SPDR S&P 500 ETF (ARCA: SPY) fell 0.5% over the past week. After briefly touching lower trendline support, the index rebounded at the end of the week near its 50-day moving average at $267.42. Traders should watch for a breakout from the 50-day moving average to retest trendline and R1 resistance at $272.32 or a breakdown back below the pivot point at $263.49 to retest trendline and 200-day moving average support at around $260.00. Looking at technical indicators, the relative strength index (RSI) appears neutral at 50.80, while the moving average convergence divergence (MACD) has trended sideways.
+
+The SPDR Dow Jones Industrial Average ETF (ARCA: DIA) fell 0.67% over the past week, making it the worst performing major index. After briefly touching lower trendline support, the index rebounded by the end of the week to near its 50-day moving average. Traders should watch for a breakout from these levels toward upper trendline resistance at around $245.00 or a breakdown back below the pivot point to lower trendline and 200-day moving average support levels. Looking at technical indicators, the RSI appears neutral at 49.53, and the MACD continues to trend sideways, providing few hints about future price direction.
+
+[Learn more about supplemental technical indicators like the RSI and the MACD in Chapter 4 of the Technical Analysis course on the Investopedia Academy]
+The PowerShares QQQ Trust (NASDAQ: QQQ) rose 1.47% over the past week, making it the best performing major index. After briefly breaking below the pivot point at $160.61, the index broke out from upper trendline and 50-day moving average resistance levels at around $164.05 by the end of the week. Traders should watch for a further breakout to R1 resistance at $167.33 or a breakdown below these levels to retest the pivot point support at $160.61. Looking at technical indicators, the RSI appears neutral at 55.61, while the MACD has trended sideways. (For more, see: Tech Stocks on Verge of a Big Breakout.)
+
+The iShares Russell 2000 Index ETF (ARCA: IWM) rose 0.43% over the past week. After trading sideways for much of the week, the index rebounded from its pivot point support at $152.69 and past its 50-day moving average at $154.11 to the middle of its price channel. Traders should watch for a further breakout to R1 resistance at around $158.74 on the upside or a move lower to retest lower trendline support at around $152.00 on the downside. Looking at technical indicators, the RSI appears neutral with a reading of 54.94, while the MACD continues to trend largely sideways, suggesting a lack of momentum in either direction.
+
+The Bottom Line
+The major indexes were mixed over the past week, with technical indicators providing few insights into the coming week. Next week, traders will be closely watching several key economic indicators, including the consumer price index (CPI) on May 10 and consumer sentiment data on May 11. The market will also be keeping a close eye on trade negotiations and ongoing first quarter financial results from major S&P 500 firms. (For additional reading, check out: Stock Investors Poised for 20% Gain Before Bear Arrives.)
+Note: Charts courtesy of StockCharts.com. As of the time of writing, the author had no holdings in the securities mentioned. 
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Chartadvisor-Article'
+    });
+                    
+            
+                

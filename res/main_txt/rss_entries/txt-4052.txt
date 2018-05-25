@@ -1,0 +1,85 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Despite improvements in certain methods of producing alternative energy, much of the world still runs on fossil fuels, of which oil is a prime example. Unsettling though it is to think that much of our infrastructure is dependent on a dwindling resource, we do have quite a ways to go until we'll need to worry about a world without oil. In this article we’ll look at the economics of oil extraction, and at how decisions are made when it comes to production.
+The Variability of Oil  
+One of the most misunderstood aspects of oil is its variability – both in how it is deposited, and in what is deposited. Oil is classified using two traits. The first classification is light or heavy; this is based on the API gravity, and is a measure of density. The second classification is sweet or sour, which is a measure of how much sulphur the oil contains. Light, sweet oil, while still requiring further processing, is much easier to turn into a high-value end product like fuel. Heavy, sour oil requires more intensive processing and refining. Oil like that being extracted from Alberta’s tar sands (heavy, sour oil) costs more to refine than light, sweet oil from Texas.
+Aside from the oil, there is the nature of the deposit. There is still a staggering amount of oil in the world, but it is getting harder and harder to extract it. Some of this owes to the physical formation of the deposit – e.g. twisting, or in shale rock – and some of the challenges are obviously locational, as with deposits in the seabed. Many of these hurdles can be overcome with technology. Hydraulic fracturing of rock, for example (aka fracking), is the main driver of the resurgence in oil production in the United States, as more and more shale formations are yielding previously inaccessable deposits of oil and gas. (See Countries with the Highest Fracking Potential.)
+The Moving Profit Point
+Because of advancing technology, the variation of oil, and the differences in deposit quality, there is also no single profit point for companies extracting oil. The Brent oil price is often used as a benchmark price for oil. It represents an average light, sweet oil, so countries price off of the Brent price, with a discount being applied per how far their product diverges from the light and sweet ideal. Thus, right off the top, some countries see a lower price per barrel because their product is not light and sweet.
+The differences increase when you look at the costs to extract a barrel of oil at different companies and in different countries. At a Brent crude price of, say, $80, there will be companies that are extremely profitable, because their cost per barrel might be $20. There will also be companies that are losing money, because it costs them $83 a barrel to extract. In a perfectly rational economy, all the companies losing money would cease or dial back production as the price fell closer to their break-even point, but this doesn’t happen.
+Uneconomic Production
+Because holding land for exploration is expensive, and drilling is sometimes a condition of the contract, companies will drill on deposits and keep wells going even if prices are depressed. As with any resource-extraction industry, production can’t turn on a dime. There are labor needs, equipment costs, leases, and many other expenses that don’t disappear when you ramp down production. Even if some costs, like labor, can be eliminated, they become a greater expense in the long run, as the company must rehire everyone when prices recover – with every other company also hiring in the suddenly competitive labor market.
+Instead, oil companies often look to higher prices in the future, and will aim for a well to pay off over a period of years, so the month-to-month fluctuations in price are not the primary consideration for them. Large oil companies have strong balance sheets that help them ride out down years. They also have a variety of wells with conventional and unconventional deposits. Smaller companies tend to be regionally concentrated, and have much less variety in their portfolio. These are the companies that struggle during prolonged price drops. Similarly, countries like Canada, with largely heavy oil deposits, see profits disappear with low oil prices, because their cost per barrel necessitates a higher price per barrel than do OPEC and other competing nations to keep producing.
+From the exploration phase, with its seismic and land costs, right to the extraction phase, with rig and labor costs, there are only a few ways to control costs for the oil industry. One is to integrate upstream, midstream, and downstream production. This means one company has the ability to do everything – from exploration to extraction to refining. This can help control costs on some aspects, but it means the company is not specialized or focused at being good at one thing. The other method is to encourage more technological advancement, so that challenging deposits become cheaper to tap. The latter looks to have the most potential in the long run, although companies will still look at vertical acquisitions while they wait for further technological breakthroughs.  
+Supply and Oversupply
+The last economic consideration – and it should really be the first in most industries – is the question of supply. There is no doubt that the amount of oil out there is large, but it is finite. Unfortunately, we will never have an exact number that would allow us to figure out the proper price that would keep the world fairly fueled. Instead, the price of oil is based on the supply at the moment and the likely supply in the near future, based on projected production. So, when companies continue to produce in a period of oversupply, the price of oil continues to weaken, and the companies with the most uneconomic deposits start to flounder. The increased production of oil in the U.S., for example, has kept oil prices much lower, because all that supply was previously not coming to the market.
+The Bottom Line
+There is no doubt that oil extraction follows the rules of supply and demand. The tricky part is that there exists great variation in how much it costs to bring one barrel of oil to market. Added to this is the fact that uneconomic product and oversupply are frequent risks for oil companies and their investors. This is, of course, why investors are also attracted to the sector. If you follow a few basic factors and calculate the cost per barrel of some of the smaller companies, it is possible to profit from the swings in the benchmark oil prices, as uneconomic deposits become profitable. After all, the overall economics of oil extraction point ot the fact that is that there is money in it – both for extraction companies and their investors.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

@@ -1,0 +1,172 @@
+
+
+
+    
+            
+            Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/ActiveTrading/ActiveTrading/IC-Video/FAQ");} else {return "/8397/INV-NA/ActiveTrading/ActiveTrading/IC-Video/FAQ";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/ask/answers/05/060505.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/auI0bFcH.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/auI0bFcH-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/content/video/whats_the_differenc/whatisthedifferencebetweenoptionsandfutures.png?width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "100%",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "auI0bFcH-G9NhEyAa.mp4";
+                
+          
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                    var initializeJWPlayerSetup = function () {
+                        if (new VideoInit().canRun()) {
+                            setUpJwpPlayer();
+                        } else {
+                            new VideoInit().callBack = setUpJwpPlayer;
+                        }
+                    }
+          initializeJWPlayerSetup();
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "auI0bFcH-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "What's The Difference Between Options And Futures?",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };        
+    
+    
+          
+    A:
+            The fundamental difference between options and futures lies in the obligations they put on their buyers and sellers. An option gives the buyer the right, but not the obligation, to buy (or sell) a certain asset at a specific price at any time during the life of the contract. A futures contract gives the buyer the obligation to purchase a specific asset, and the seller to sell and deliver that asset at a specific future date, unless the holder's position is closed prior to expiration.
+[Futures may be great for index and commodities trading, but options are the preferred securities for equities. Investopedia's Options for Beginners Course provides a great introduction to options and how they can be used for hedging or speculation.]
+Aside from commissions, an investor can enter into a futures contract with no upfront cost, whereas buying an options position does require the payment of a premium. Compared to the absence of upfront costs of futures, the option premium can be seen as the fee paid for the privilege of not being obligated to buy the underlying in the event of an adverse shift in prices. The premium is the maximum a purchaser of an option can lose.
+Another key difference between options and futures is the size of the underlying position. Generally, the underlying position is much larger for futures contracts, and the obligation to buy or sell this certain amount at a given price makes futures more risky for the inexperienced investor.
+How Gains Are Received
+The final major difference between these two financial instruments is the way the gains are received by the parties. The gain on an option can be realized in the following three ways: exercising the option when it is deep in the money, going to the market and taking the opposite position, or waiting until expiry and collecting the difference between the asset price and the strike price. In contrast, gains on futures positions are automatically marked to market daily, meaning the change in the value of the positions is attributed to the futures accounts of the parties at the end of every trading day, but a futures contract holder can realize gains also by going to the market and taking the opposite position.
+Options and Futures Example
+Let's look at an options and futures contract for gold. One options contract for gold on the Chicago Mercantile Exchange (CME) has the underlying asset as one COMEX gold futures contract, not gold itself. An investor looking to buy an option may purchase a call option for $2.60 per contract with a strike price of $1600 expiring in Feb 2019.
+The holder of this call has a bullish view on gold and has the right to assume the underlying gold futures position until the option expires after market close on Feb 22, 2019. If the price of gold rises above the strike price of $1,600, the investor would exercise his right to obtain the futures contract, otherwise, he may let the options contract expire. The maximum loss of the call options holder is the $2.60 premium he paid for the contract.
+The investor may instead decide to obtain a futures contract on gold. One futures contract has its underlying asset as 100 troy ounces of gold. The buyer is obligated to accept 100 troy ounces of gold from the seller on the delivery date specified in the futures contract. If the trader has no interest in the physical commodity, he can sell the contract before delivery date or roll over to a new futures contract. If the price of gold goes up (or down), the amount of gain (or loss) is marked to market (i.e. credited or debited) in the investor's account at the end of each trading day. If the price of gold in the market falls below the contract price the buyer agreed to, he is still obligated to pay the seller the higher contract price on delivery date.
+(To learn more about options see: Options Basics. To learn more about futures see: Futures Fundamentals.)
+        
+    
+
+    
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'FAQ'
+    });
+                

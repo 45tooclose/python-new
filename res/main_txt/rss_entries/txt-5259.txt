@@ -1,0 +1,80 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        With its company displays, free handouts, and festival-like atmosphere, the annual shareholder meeting for Warren Buffett’s Berkshire Hathaway (BRK.A) investors is a jamboree of sorts. The celebrations are generally accompanied with an upbeat earnings report from the company. 
+But this year’s shareholder meeting was slightly different. (See also: Berkshire Operating Results Improve; Accounting Change Causes Net Loss). 
+Berkshire Hathaway swung to a loss during the first quarter of this year due to a change in accounting standards. It had warned investors of the charge in a February letter earlier this year. “That (GAAP) requirement will produce some truly wild and capricious swings in our G.A.A.P. bottom-line,” Buffett had said. (See also: Two Things We Learned From Billionaire Warren Buffett's Investment Letter). 
+Berkshire suffered from new GAAP rules
+The company applied the Generally Accepted Accounting Principles (GAAP) to its reported income and the result was a first quarter net loss of $1.14 billion or $692 per Class A share. Unrealized gains/losses of equity investments accounted for $6.2 billion in investment losses. Last year, Berkshire Hathaway had reported net profits of $4.06 billion or $2,469 per class A share in the same period. “The amount of investment gains/losses in any quarter is usually meaningless,” a press release on Berkshire’s site stated. 
+Not surprisingly, the earnings report failed to dampen the mood. Per usual, Buffett spoke on a wide variety of topics, including the evergreen topic of succession at his company and controversies that have engulfed his investments this year. 
+On the topic of succession, Buffett allayed investor concerns about the future of a company he founded and grew into an investment powerhouse. Investor fears have mostly coalesced around the acumen of his chosen successors to pick out winners. Buffett argued that he has been semi-retired for some decades now and that his deputies have been doing a “good job” of managing some of the firm’s recent investments. “The reputation belongs to Berkshire now,” said Buffett, who is 87-years-old. “For somebody that cares about a business, we absolutely are the first call and will continue to be the first call.” (See also: Wells Fargo Releases Report On Fake Accounting Fraud). 
+He also defended Wells Fargo, an investment which has been mired in scandal on charges that its employees created fake customer accounts to boost sales figures. “All the big banks have had troubles of one sort or another,” he said. “I see no reason why Wells Fargo as a company, from both an investment standpoint and a moral standpoint going forward, is in any way inferior to the other big banks with which it competes.” Tim Sloan, the bank’s chief executive, also received praise from Buffett who said that Sloan was correcting mistakes made by his predecessors. 
+Berkshire Hathaway announced a healthcare venture with Amazon.com Inc. (AMZN) and JPMorgan Chase Inc. (JPM) earlier this year to redesign insurance for employees at their company. During the shareholder meeting, Buffett told investors that the new venture was still searching for a CEO. “Whether we can bring the resources, bring the person, that C.E.O., is terribly important. Bring the person, support that person and somehow figure out a better way for people to continue to receive better medical care in the United States,” he said. While he has criticized healthcare in the United States, Buffett cautioned that their effort may not succeed. According to him, the company was attacking an industry moat – a reference to terminology used by him to describe competitive advantage gained by early movers. “We’ll do our best. If we fail, I hope somebody else succeeds,” he said. 
+Buffett also reiterated his affirmation in America, a theme he has consistently returned to since the recent financial crisis. “This country really, really works,” he said.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

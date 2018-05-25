@@ -1,0 +1,79 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Tesla Inc. (TSLA) CEO Elon Musk’s abrupt and irate mannerisms during an earnings call Wednesday is generating media buzz, and shareholders are taking the hit.
+In Thursday premarket trading, the electric carmaker’s stock was set to lose 7.6 percent, cutting nearly $2 billion from the company's market value. 
+Musk’s comments that triggered concerns touched on a range of topics, from analysts and the media to federal regulators and the recent deaths of people driving Teslas. He also addressed the company’s volatility by saying that those concerned about volatility should not invest at all.
+“If people are concerned about volatility, they should definitely not buy our stock,” Musk said at one point. “I’m not here to convince you to buy our stock. Do not buy it if volatility is scary.”
+The earnings call followed the company’s first-quarter earnings report, which revealed the largest quarterly loss in the company’s history, though the earnings and revenue beat the Street view. Adjusted losses were $3.35 per share and revenue was $3.4 billion. (See also: Why Tesla is Burning Through Cash.)
+Previously in the call, Musk pushed back or simply ignored analyst questions. Instead of answering a question from a Bernstein analyst on capital expenditures, Musk interrupted the question and yelled “Next!” To a question on how many consumers were receiving Model 3 deliveries, Musk refused to answer and called the question “boring” and “dry.”
+Musk did engage with YouTuber Galileo Russell, speaking about long-term goals, including a ride-sharing network. At that point, he insinuated that the media can cause deadly accidents with their coverage of “autopilot” technology for driver assistance.
+“If the press is hounding the regulators, and the public is living under the misapprehension that autonomy is less safe because of the misleading press, then this is where I find the challenge predicting it to be very difficult,” Musk said. “And, yeah, it’s really incredibly irresponsible of any journalists with integrity to write an article that would lead people to believe that autonomy is less safe. Because people might actually turn it off, and then die.”
+Before the earnings release, the number of short-sellers betting against Tesla surged to record levels. About 38 million shares, or more than 30% of the company’s float, were held short as of April 13, up from 27 million shorts last September. (See also: Tesla Short Interest Surges Ahead of Earnings.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

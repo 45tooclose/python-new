@@ -1,0 +1,82 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        The major U.S. indexes moved lower over the past week, with industrials underperforming the market. Gross domestic product slowed from 2.9% during the fourth quarter of 2017 to just 2.3% during the first quarter of 2018, but the figure was higher than the 2.0% that economists had expected to see. With growth still robust, Federal Reserve officials have escalated the debate over how close the economy is to "overheating" this week.
+International markets were higher over the past week. Japan's Nikkei 225 rose 1.4%, Germany's DAX 30 rose 0.34%; and Britain's FTSE 100 rose 1.92%. In Europe, the regional economy lost momentum during the first quarter due to a slowdown in France and the U.K. In Asia, China's economy grew at a healthy pace during the first quarter thanks to strong household spending and government investment in infrastructure projects.
+The SPDR S&P 500 ETF (ARCA: SPY) fell 0.25% over the past week, making it the best performing major index. After breaking down from the pivot point at $266.76, the index moved lower before recovering back to those levels by the end of the week. Traders should watch for a breakout from these levels to upper trendline resistance at around $272.50 or a breakdown lower to retest trendline support at around $262.50. Looking at technical indicators, the relative strength index (RSI) appears neutral at 50.66, while the moving average convergence divergence (MACD) is also at neutral levels. (See also: 3 Stocks for Whether Economy Grows or Slows: Barron's.)
+
+The SPDR Dow Jones Industrial Average ETF (ARCA: DIA) fell 0.86% over the past week, making it the worst performing major index. After breaking down from upper trendline resistance, the index recovered to its pivot point by the end of the week. Traders should watch for a breakout from key resistance levels at around $245.40 to R1 resistance at $252.02 or a move lower to test the 200-day moving average at $235.18. Looking at technical indicators, the RSI appears neutral at 48.61, and the MACD remains neutral near the zero line.
+
+[Learn more about supplemental technical indicators like the RSI and the MACD in Chapter 4 of the Technical Analysis course on the Investopedia Academy]
+The PowerShares QQQ Trust (NASDAQ: QQQ) fell 0.61% over the past week. After breaking down from pivot point levels early in the week, the index recovered to the 50-day moving average at $164.29 by the end of the week. Traders should watch for a breakout from these levels to R1 resistance at $171.36 or a breakdown lower to retest lower trendline support at around $157.00. Looking at technical indicators, the RSI appears neutral at 49.81, while the MACD has started to trend sideways. (For more, see: Second Quarter Brings Departures From Tech ETFs.)
+
+The iShares Russell 2000 Index ETF (ARCA: IWM) fell 0.71% over the past week. After moving lower from R1 resistance levels at $158.49, the index moved to the 50-day moving average at $153.89 by the end of the week. Traders should watch for a rebound from these levels to retest trendline resistance at $158.00 or a breakdown to test trendline support levels at around $150.00. Looking at technical indicators, the RSI appears neutral with a reading of 51.49, but the MACD could see a near-term bearish crossover.
+
+The Bottom Line
+The major indexes moved lower over the past week, but technical indicators remain at neutral levels. Next week, traders will be closely watching several key economic indicators, including the FOMC meeting announcement on May 2 and the employment data on May 4. Traders will also be keeping a close eye on geopolitical developments, including the agreement between North Korea and South Korea and news from Trump's meetings with European leaders. (For additional reading, check out: Visiting the France ETF Following Macron's US Visit.)
+Note: Charts courtesy of StockCharts.com. As of the time of writing, the author had no holdings in the securities mentioned.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Chartadvisor-Article'
+    });
+                    
+            
+                

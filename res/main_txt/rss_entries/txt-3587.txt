@@ -1,0 +1,200 @@
+
+
+
+    
+        
+        Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/Professional/FinancialAdvisor/IC-Video/ShortArticle");} else {return "/8397/INV-NA/Professional/FinancialAdvisor/IC-Video/ShortArticle";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/articles/investing/102114/six-things-bad-financial-advisors-do.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/h47Ot1Yp.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/h47Ot1Yp-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/content/video/six_things_bad_finan/thingsbadadvisorsdo.png?width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "100%",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "h47Ot1Yp-G9NhEyAa.mp4";
+                
+          
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                    var initializeJWPlayerSetup = function () {
+                        if (new VideoInit().canRun()) {
+                            setUpJwpPlayer();
+                        } else {
+                            new VideoInit().callBack = setUpJwpPlayer;
+                        }
+                    }
+          initializeJWPlayerSetup();
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "h47Ot1Yp-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "Six Things Bad Financial Advisors Do ",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };    
+        
+            
+        
+          
+                
+      
+
+    
+
+    
+        A good financial advisor can add tons of value to your financial well-being, and can enhance your quality of life. 'Good' can be a subjective term, in this case, 'good' denotes someone who is qualified to help you, and whose personality gives you the confidence to follow their advice.
+In evaluating the latter, here is a list of six things financial advisors do that might mean that they're not the right advisor for you.
+They Ignore Your Spouse
+While this can occur with both male and female advisers, and the ignored spouse can be either the husband or the wife, most accounts of this type of behavior tend to be with male advisers all but ignoring the female part of the client duo. There have been several accounts of widows leaving the adviser who served their family when the husband was alive – and leaving for just this reason. If you are working with an advisor who ignores you, insist to your spouse that you switch advisors. Any advisor worth their salt should understand that he or she serves the interests of both spouses equally. 
+They Talk Down to You
+Not all clients are financially sophisticated or, for that matter, even take an interest in their financial affairs. Still, it's the duty of the advisor to explain to you why s/he suggests a certain course of action or a particular financial product – and to do so in a fashion that makes sense to you. If this isn’t the case, be assertive or switch advisors, and never let anyone you are paying talk down to you or make you feel less intelligent.
+They Put Their Interests Before Yours
+This is perhaps most common in dealing with financial advisors who are compensated wholly or in part via commissions from the sale of financial products. Are they recommending mutual funds, annuities, or insurance products that pad their bottom line while possibly not being the best product for you? You need to ask questions, to understand how your advisor is compensated, and be clear on whether this results in conflicts of interest. 
+They Won’t Return Your Calls or Emails
+A good financial advisor is probably busy, but if you are not important enough to rate a response within a reasonable time frame, the situation isn't healthy. While most advisors can tell a story about a client who calls every day, my experience is that most clients make reasonable requests and deserve a prompt reply to their questions. If someone you are paying for financial advice won’t reply to your calls, then why keep paying them? 
+They Suggest That You Don’t Need a Third-Party Custodian
+Can you say 'Madoff'? If you ever find yourself in a meeting with a financial adviser who suggests that you shouldn’t have your account with a third-party custodian such as  Fidelity Investments,  Charles Schwab Corp. (SCHW), a bank, a brokerage firm, or some similar entity, your best move is to end the meeting, get up, and run – not walk – away. Madoff had his own custodian, and this was the centerpiece of his fraud against his clients. A third-party custodian will send statements to you independent of the advisor, and usually offer online access to your account as well. Ponzi schemes and similar frauds thrive on situations in which the client lacks ready access to their account information. 
+They Don’t Speak Their Mind
+An important aspect of a healthy client-advisor relationship is honest and open communication that goes in both directions. Clients might express a desire to make a particular financial move or to invest in a particular stock or mutual fund. A good advisor will tell the client whether or not s/he disagrees with this suggestion and, if so, the reasons for the opinion. Not doing this is doing the client a huge disservice. At the end of the day, it’s the client’s money, and they can do with it as they wish. A good financial advisor will never tell a client what the latter wants to hear just to keep earning fees or commissions from them.
+The Bottom Line
+The six no-no scenarios outlined above are, naturally, not evinced by all financial advisors. Rather, they are likely the six worst characteristics an advisor can show in dealing with a client. If your advisor exhibits any of these traits on a consistent basis, this might be a sign that it's time to find a new financial advisor. (For more, see: 7 Steps to Evaluate a Financial Advisor, Why Clients Fire Financial Advisors, How do I Know I Can Trust My Financial Advisor?.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

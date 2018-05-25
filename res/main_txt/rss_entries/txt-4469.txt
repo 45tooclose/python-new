@@ -1,0 +1,145 @@
+
+
+    
+                          WHAT IS 'Dollar Auction'
+
+      A dollar auction is a non-zero-sum sequential game that illustrates a paradox of rational choice theory, which assumes that the most logical decision will always be made. It is a simple game, where two participants bid on a dollar bill. The highest bidder receives the bill; however, the loser must pay the amount that they bid as well. As the bidding approaches or goes beyond $1, the goal of the game shifts from maximizing the potential gain to minimizing the potential loss. 
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Dutch Auction                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Chandelier Bid                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Call Auction                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Lender Confirmation Auction                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Dollar Auction'
+      A dollar auction starts with an auctioneer accepting the initial bids of two participants. Thereafter, it does not make sense for them to stop bidding up the price. For example, if an auction leads to Participant A bidding 90 cents, followed by a $1 bid from Participant B, Participant A can either bid $1.01 and lose 1 cent or drop out of the auction and lose 90 cents. 
+Bidding more than a dollar for a dollar is not logical. At the same time, losing 90 cents is not as smart as losing 1 cent. In this game, the rational move would be to place the bid. That leaves Participant B in a similar situation: either bid $1.02 and lose 2 cents or drop out and lose the dollar.
+In theory, the bidding process could continue in perpetuity as long as both players remain committed to winning the dollar.
+What ‘Dollar Auction’ illustrates
+The dollar auction shows how rational behavior can lead to an undesirable outcome. In that sense, it is similar to the more widely known prisoner's dilemma, which stipulates that rational individuals might not cooperate with each other, even when it appears that it would be in their best interest to do so.
+American economist Martin Shubik invented the dollar auction to reveal the consequences of what he called the “escalation of commitment.” Shubik, a pioneer in game theory, posited that the dollar auction shows how people can become obsessed with the idea of losing, even though they know that they can still lose by winning. 
+In his 1971 article, The Dollar Auction game: A paradox in noncooperative behavior and escalation, Shubik indicated that he particularly enjoyed seeing the game’s dynamics play out in party settings and in front of a large crowd. “Once two bids have been obtained from the crowd, the paradox of escalation is real. This simple game is a paradigm for escalation. Once the contest has been joined, the odds are that the end will be a disaster to both.”
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

@@ -1,0 +1,77 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Consumer staple company stocks took a dive yesterday, inciting some analysts to draw parallels between this year’s market sell-off and that of the financial crisis that shook the global economy just 10 years ago. Consumer staples, supposed safe haven stocks in turbulent markets, declined by 4% last week, making it the third such decline in the past two months. It’s been nearly a decade since such declines from this group of stocks has occurred, as senior equity trader at Instinet Frank Cappelleri affirms, “We hadn’t had a cluster of weakness that tight since the ’08, ’09 lows,” according to CNBC.
+Consecutive Declines a Bad Sign
+Cappelleri illustrates the weakness in the sector by pointing to the Consumer Staples ETF (XLP), which includes stocks like Procter & Gamble Co. (PG), PepsiCo Inc. (PEP), Colgate-Palmolive Co. (CL), Philip Morris International Inc. (PM), Kimberly-Clark Corp. (KMB), and Mondelez International Inc. (MDLZ), all of which have fallen more than the S&P 500 since the broader market sell-off first began near the end of January.
+As of the close of trading on Wednesday, the S&P 500 is down 8% since reaching a high on 26 January of this year. Procter & Gamble is down 17% over the same time period; Pepsi is down 16%; Colgate-Palmolive is down 9%; Philip Morris is down 25%; Kimberly-Clark is down 16%; and Mondelez is down 10%. (To read more, see: Consumer Stocks Struggle Under Various Pressures.)
+Steep weekly declines like that witnessed last week have occurred in the XLP before, but it's the frequency of the declines that is worrisome, bringing back memories of the 2008–2009 financial crisis. The string of 4% declines has Cappalleri concerned that “a long-term character change could be afoot,” making him “suspicious of anything more than a bounce for now,” according to CNBC.
+Consumer Staple Struggles
+Gina Sanchez, CEO of Chantico Global, also sees weakness in the fundamentals of the consumer staples sector. These stocks tend to be more mature companies that pay out stable dividends, offering investors attractive yields in a period of low interest rates. However, as interest rates rise, these stocks will lose their appeal. (To read more, see: Why Dividend Stocks Are Losing Their Luster.)
+Disappointing earnings reports from Philip Morris, Procter & Gamble and Kimberly-Clark, has others pointing to increased competition as reasons for the sector’s weakness. That competition is coming not only from online competitors like Amazon, but discount stores are making it harder for brand names to pass on rising costs to their customers, according to the Wall Street Journal.
+Despite being the worst performing sector in the S&P 500 this year, analyst Chad Morganlander of Washington Crossing Advisors, actually thinks that’s a somewhat bullish sign for consumer staples. Having fallen so much this year, these stocks present bargain-value buys considering their under-appreciated profitability and growth opportunities, according to a separate CNBC article.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

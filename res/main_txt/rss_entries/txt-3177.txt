@@ -1,0 +1,248 @@
+
+
+
+    
+        
+        Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/ActiveTrading/ActiveTrading/IC-Video/Article");} else {return "/8397/INV-NA/ActiveTrading/ActiveTrading/IC-Video/Article";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/articles/trading/06/retracements.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/avxJTDv2.m3u8",
+                    },
+                    {
+                        file:"http://content.jwplatform.com/videos/avxJTDv2-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/image/jpeg/1524514125779/what_is_fibonacci_retracement_definition.jpg?quality=80&width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "100%",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "avxJTDv2-G9NhEyAa.mp4";
+                
+          
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                    var initializeJWPlayerSetup = function () {
+                        if (new VideoInit().canRun()) {
+                            setUpJwpPlayer();
+                        } else {
+                            new VideoInit().callBack = setUpJwpPlayer;
+                        }
+                    }
+          initializeJWPlayerSetup();
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "avxJTDv2-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "Using a Fibonacci Retracement ",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };    
+        
+            
+      
+
+    
+
+    
+        Most of us have wondered whether a decline in the price of a stock we're holding is long-term or a mere market hiccup. Some of us have sold our stock in such a situation, only to see it rise to new highs just days later. This is a frustrating and all too common scenario. While it can't be totally avoided, if you know how to identify and trade retracements properly you will start to see improvement in your performance.
+Retracements Versus Reversals
+Retracements are temporary price reversals that take place within a larger trend. The key here is that these price reversals are temporary, and do not indicate a change in the larger trend. A reversal on the other hand is when the trend changes direction, meaning the price is likely to continue in that reversal direction for an extended period of time.
+Notice that despite the retracements, the long-term trend shown in the chart below is still intact. The price of the stock is still going up. When the prices moves up it makes a new high, and when it drops it begins to rally before reaching the prior low. This is once of the tenets of an uptrend: higher highs and higher lows. While that is occurring, the trend is up. It is only once an uptrend makes a lower low and/or lower high that the trend is drawn into question a reversal could be forming.
+
+The Importance of Recognizing Retracements
+It is important to know how to distinguish a retracement from a reversal. There are several key differences between the two that you should take into account when classifying a price movement:
+
+Factor
+Retracement
+Reversal
+Volume
+Profit taking by retail traders (small block trades)
+Institutional selling (large block trades)
+Money Flow
+Buying interest during decline
+Very little buying interest
+Chart Patterns
+Few, if any, reversal patterns – usually limited to candles
+Several reversal patterns – usually chart patterns (double top, etc.)
+Short Interest*
+No change in short interest
+Increasing short interest
+Time Frame
+Short-term reversal, lasting no longer than one to two weeks
+Long-term reversal, lasting longer than a couple of weeks
+Fundamentals
+No change in fundamentals
+Change or speculation of change in fundamentals
+Recent Activity
+Usually occurs right after large gains
+Can happen at any time, even during otherwise regular trading
+Candlesticks
+"Indecision" candles – these typically have long tops and bottoms (spinning tops, etc.)
+Reversal candles – these include engulfing, soldiers and other similar patterns
+*Note that short interest is delayed when reported, so it can be difficult to tell for certain depending on your time frame.
+
+The chart above can be summarized by saying that retracements have a lot of indecision, while reversals have more authoritative action. Volume may be low on a pullback, but spikes on a reversal. The former is passive the latter is aggressive. Retracements in an uptrend are characterized by higher lows and higher lows, while reversals are often characterized by patterns that are contrary to this, such as double tops (two similar highs and then a new low) or head and shoulder patterns (lower high then lower low). Even the short-term movements reflected by individual candlesticks are often more hesitant during retracements, while the candles that form when an uptrend reverses are typically very long with lots of movement and momentum.
+So, why is recognizing retracements so important? Whenever a price retraces, most traders and investors are faced with a tough decision. They have three options:
+1. Hold throughout the sell-off, which could result in large losses if the retracement turns out to be a larger trend reversal.
+2. Sell and re-buy if the price recovers, which will definitely result in money wasted on commissions and spreads. This may also result in a missed opportunity if the price recovers sharply.
+3. Sell permanently, which could result in a missed opportunity if the price recovers.
+By properly identifying the movement as either a retracement or a reversal, you can reduce cost, limit loss, and preserve gains.
+Determining Scope
+Once you know how to identify retracements, you can learn how to determine their scope. The following are some tools to aid in this:
+Fibonacci retracements
+Pivot point support and resistance levels
+Trendline support and resistance levels
+Fibonacci Retracements
+Fibonacci retracements are excellent tools for calculating the scope of a retracement. Use the Fibonacci retracement tool, available in most charting software to draw a line from the top to the bottom of the latest impulse wave.
+Retracements between 23% and 78% of the prior impulse wave are common. That does not mean the stock falls 23%, rather it means that if a stock recently moved from $10 to $5, it will often retrace at least 23% of that move ($5), which is $1.15. So a pullback from $15 to $13.85 or even all the way down to $11 is possible. At this point, the trend is still up assuming $15 was a new high and $10 was the recent low. If the price bounces higher above $10 then the uptrend is still in tact, assuming it rallies and makes a new high. If it doesn't move above $15, and starts to fall again, it may be time to get out.
+Here the price is in an uptrend. On a pullback it retraces to just below 61.8% retracement level before rallying to a new high.
+
+Pivot Points
+Pivot point levels are also commonly used when determining the scope of a retracement. Since price will often reverse near pivot point support and resistance levels, if the price continues through them that indicates a strong trend, while stalling and reversing means the opposite (for additional reading, see Using Pivot Points For Predictions).
+Pivot points are typically used by day traders, using yesterday's prices to indicate areas of support resistance for the next trading day.
+Trendline Support
+Finally, if major trendlines supporting the larger trend are broken on high volume, then a reversal is most likely in effect. Chart patterns and candlesticks are often used in conjunction with these trendlines to confirm reversals.
+The following chart shows this in action. A downtrend is in place, but then price rallies above the trendline. At that point, the price had already made a higher low. Following the breakout, there is a small retracement but then the price pushes higher on strong volume. This is no longer a retracement in a downtrend, rather the wave up has reversed the downtrend and the trend is now up.
+
+Dealing with False Signals
+Even a retracement that meets all the criteria outlined in the table above may turn into a reversal with very little warning. The best way to protect yourself against such a reversal is to use stop-loss orders. Here is how you can do this:
+1. Estimate retracement levels using technical analysis and place your stop-loss point just below these levels.
+2. Alternatively, you can place the stop-loss just below the long-term support trendline or moving average.
+Ideally, what you want to do is lower your risk of exiting during a retracement, while still being able to exit a reversal in a timely manner. This takes practice, and it is impossible to be right all the time. Sometimes what looks like a reversal will end up being a retracement, and what looks like a retracement will end up being a reversal. Even with this being the case, incremental improvements in how retracemetns and reversals are handled can make a difference in our performance.
+The Bottom Line
+As a trader, differentiate between retracements and reversals. Without this knowledge, you risk exiting too soon and missing opportunities, holding onto losing positions, or losing money and wasting money on commissions/spreads. By combining technical analysis with some basic identification measures, you can protect yourself from these risks and put your trading capital to better use.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

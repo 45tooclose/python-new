@@ -1,0 +1,82 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Despite all the concerns raised about bitcoin failing to qualify on the parameters of a standard present-day fiat currency, the cryptocurrency keeps gaining support from various corners. (See also: Is Bitcoin Failing as a Currency?)
+The Federal Reserve Bank of St. Louis has recently listed three key qualities in which it perceives bitcoin as a regular mainstream currency. The institution is among the 12 regional reserve banks operating within the United States. Along with the Board of Governors in Washington, these regional reserve banks make up America’s central banking system. Investopedia lists the key features, as highlighted in the article by Christine Smith, a content strategist with the St. Louis Fed.
+1. Bitcoin has Zero Intrinsic Value
+Taking cues from a recently published research article by economists Aleksander Berentsen and Fabian Schär, the St. Louis Fed justifies its call by noting that neither bitcoin nor the dollar bills in your wallet have any intrinsic value. Since America left the gold standard for domestic transactions in 1933 and ended international convertibility of the dollar to gold in 1971, our paper money is not backed by any real commodity of value (like gold or silver) and hence it does not have any intrinsic value. The same applies to cryptocurrencies like bitcoin, which make it similar to today’s leading fiat currencies: the U.S. dollar and the euro.
+2. Bitcoin Has a Limited Supply
+Contrary to the popular belief, the Federal Reserve Bank does not "print money." The Fed’s job is to increase or decrease the distribution of currency notes after they’re printed and it does so depending upon market conditions. Scarcity is one of the most important features of a currency in making it valuable, and therefore money must be in limited supply. As a central bank, the Fed balances the necessary supply of dollars that helps achieve the aim for keeping prices stable and promote employment.
+Though bitcoin does not have a centralized authority like the Fed, it has a limited and stable supply through the mining mechanism. and it allows for a creating of need, similar to the working of a standard fiat currency.
+3. Bitcoin Needs No Middlemen
+A $10 dollar bill in your pocket does not need a middleman in order to spend it. You can simply pay for goods at your local store or give it to your buddy. Similarly, bitcoin is described in its whitepaper as “A purely peer-to-peer version of electronic cash would allow online payments to be sent directly from one party to another without going through a financial institution,” implying no requirement of an intermediary to process a transaction. The St. Louis Fed article says that that owing to its intrinsic nature, a cryptocurrency like bitcoin is similar to a dollar bill, which makes it like a standard fiat currency.
+Opinions vary about bitcoin being a mainstream currency, and each view has its own merits. While point No. 2 is correct in its absolute sense, there are different versions for Nos. 1 and 3. Though theoretically bitcoin can be claimed to have zero intrinsic value, in reality it does need mining effort to introduce a new coin. Though there is a support for P2P transactions with no middlemen, a bitcoin transaction does need verification and authentication from miners.
+Despite ongoing debate, bitcoin continues to be the cryptocurrency of choice and continuing discussion of its merits only deomonstrates its growing popularity. (See also: MIT Tech Review Reveals Plan to 'Destroy' Bitcoin.)
+Investing in cryptocurrencies and Initial Coin Offerings ("ICOs") is highly risky and speculative, and this article is not a recommendation by Investopedia or the writer to invest in cryptocurrencies or ICOs. Since each individual's situation is unique, a qualified professional should always be consulted before making any financial decisions. Investopedia makes no representations or warranties as to the accuracy or timeliness of the information contained herein. As of the date this article was written, the author owns no cryptocurrencies.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

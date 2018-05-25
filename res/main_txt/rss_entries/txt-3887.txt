@@ -1,0 +1,143 @@
+
+
+    
+                          What is  'Canary Call'
+
+      Canary call is a step-up bond that cannot be called after completing its first-step period. A step-up bond is one in which the bond pays an initial coupon rate for the first designated period of the term, and then moves up to a higher rate for the remaining periods.
+With a canary call, the issuer of the bond reserves the option to call back the bond until the first step is reached, but cannot call it back after that point. A canary call may only be exercised on predetermined dates.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Step-Up Bond                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Call Privilege                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Bond Option                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Call Protection                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Canary Call'
+      A canary call can only be called on specific dates. In that way, it is similar to a Bermuda option, which is where the holder of the option has the right to exercise that option a number of times at pre-determined intervals or dates through the lifespan of the contract. In a canary call situation, if the issuer of the bond chooses not to call before the canary call expires, the bond will remain a typical step-up bond, where the coupon rate will increase with each step-up period.
+One advantage for issuers of step-up bonds is that it offers them a sort of protective tactic against falling interest rates. With a canary call option, they lose that advantage once the first step-up period has passed. Canary calls can make step-up bonds even more attractive to investors, who tend to like step-up bonds in general as a financial instrument they plan to buy and hold, because they aren’t impacted as much by interest rate fluctuations as traditional bonds are. Step-up bonds in general, and those with canary calls in particular, are especially appealing at times when interest rates are likely to quickly go above the step-up rate, although of course this can often be tough to accurately predict with certainty.
+Example of canary call
+In this scenario, the Acme Company issues a seven-year bond with an initial coupon rate of 6 percent, which then steps up to 7 percent after two years, with additional step-up points following at intervals of 2 to 3 years. This bond has a canary call option. At the four-year point, the market rate may have dropped down to 5 percent, at which point the Acme Company leadership would love to call the bond, but they would no longer have that option because the canary call would have limited their ability to exercise this right to the first step-up point which already occurred at the two-year mark.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

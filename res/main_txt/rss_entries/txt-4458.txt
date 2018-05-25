@@ -1,0 +1,81 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Its blockchain, blockchain everywhere! Four of the world's largest automobile manufacturers have joined hands with technology companies and startups to form the largest consortium to apply the promise of blockchain technology in the automobile sector, reports CoinDesk.
+Announced Tuesday, the leading car makers like BMW, Ford Motor Co. (F), General Motors Co. (GM), and Groupe Renault announced formation of a new group called MOBI, or the Mobility Open Blockchain Initiative. This project will explore the potential use of the blockchain technology within the automotive and mobility sector to “make mobility safer, greener, and more affordable.”
+The initiative also has participation from global leaders of car-part manufacturers like Bosch and ZF Friedrichshafen Group, major technology companies like Accenture PLC (ACN) and IBM Corp. (IBM), and leading blockchain industry groups like ConsenSys and Hyperledger.
+Though there have been individual efforts to build and launch blockchain-based proof of concepts for the auto sector, this is the first time that such a diversified participant group has come together. It brings in representation from the whole auto industry and is staffed with technical expertise from the blockchain space. Last year, IBM and ZF Group attempted to create a crypto car wallet, Renault participated in the R3 research consortium and Toyota Research Institute (TRI) attempted to build several proof of concepts for the auto sector based on the blockchain technology. (See also: Toyota Looks to Blockchain for Self-Driving Cars.)
+Meet MOBI
+MOBI is spearheaded by Chris Ballinger, the former CFO and head of mobility services at Toyota Research Institute, who is now the serving chairman and CEO of MOBI. Highlighting the need for integration across the various segments of the auto industry and among the various stakeholders, Ballinger believes that a decentralized business network can fill the existing gap.
+"You really have to have common standards and common ways for cars to communicate, to identify themselves and make payments," Ballinger told CoinDesk, further adding, "But if each auto company is trying to develop its own car wallets or its own way of paying tolls, or providing a ride sharing service, it just doesn't work; it's the Tower of Babel."
+“By bringing together automakers, suppliers, startups, and government agencies, we can accelerate adoption for the benefit of businesses, consumers and communities,” added Ballinger.
+Blockchain-Based Data Management
+MOBI will start with getting the necessary details for vehicle identity and history with an aim to build a "minimum viable ecosystem" for gaining the necessary network effect. It will later extend to other areas, like ride sharing, mobility ecosystem commerce and data markets for autonomous and human driving.
+For the first time, the auto industry is jointly coordinating and acknowledging that the data that exists and continues to get generated around automobiles can be a valuable asset. With a large number of sensor-fitted vehicles generating gigabytes of data with every passing day, blockchain is the ideal technology to benefit from and manage such crucial data. These data points can help in better management and improved efficiency of the overall auto and mobility ecosystem, like real-time location, supply chain, automated payments for tolls and congestion fees, mobility commerce platform, driving data markets, carbon pricing, car and ride sharing, usage based insurance, usage based taxes and pollution taxes. (See also: Ford Wants to Use Cryptocurrencies to Ease Traffic.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

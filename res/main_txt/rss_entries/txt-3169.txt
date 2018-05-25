@@ -1,0 +1,79 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Shares of Intel Corp. (INTC) jumped up over 7% in pre-market on Friday, only to reverse gains to trade about flat around 11:00 a.m. near $53 per share. At current levels, the stock reflects an approximate 15% gain year-to-date (YTD) and a near 42% increase over 12 months, outperforming the S&P 500's 0.5% decline and 11.5% return over the same respective periods. (See also: Intel’s Chip Lead Is ‘Disappearing’.)
+Intel Chief Financial Officer Bob Swan said that the results, in which both top line  and bottom line numbers blew past consensus estimates and forecasts also exceeded expectations, demonstrate the acceleration of chipmaker's transformation from a PC-centric company to data-centric company.
+The Santa Clara, California-based semiconductor company posted first quarter profit up 50% over last year to $4.45 billion, while revenue spiked 9% to $16.07 billion over the same period and exceeded analysts' average forecast for $15.07 billion, according to Thomson Reuters. 
+When DCs Supplant PCs 
+The firm's higher-margin business responsible for server chips and other data center gear gained 24%, as the company shifts focus away from its personal computer business. Revenues from sales of data center equipment to cloud providers grew 45% year-over-year (YOY), while sales to network operators increased over 30% and enterprise sales posted a 3% incline. Sales of chips for PCs, which typically account for about half of Intel's total sales, gained 3% despite a drop off in demand for PC shipments in the quarter, according to Gartner Inc. and as cited by The Wall Street Journal. 
+Intel's memory chip business saw revenues gain 20% over last year, while Swan foresees the segment swinging to profitability in FY2018. Internet of Things (IoT) revenue gained 17%, matching growth of Intel's unit that sells programmable chips.
+Full-year revenue is now expected to reach $67.5 billion after management lifted expectations about 4% and raised its earnings outlook thanks to strong revenue growth, reduced spending and benefits from a lower corporate tax rate. 
+Hardware Issues
+On the downside, Intel admitted that it "bit off a little too much" amid 10-nanometer chip delays. The company no longer expects to reach volume production by this year, slowing its shift to the next-gen circuitry to 2019. 
+The positive news rolled in despite the disclosure of two widespread hardware vulnerabilities found by cybersecurity experts in January, which sent Intel and other tech giants scrambling to address the nature of the bugs and what they had done to minimize the threat. The news hit Intel particularly hard, as the company maintains around 95% market share in the market for chips for PCs and servers, according to Mercury Research. 
+Also on Thursday, Intel announced that it had hired Tesla Inc.'s (TSLA) departing head of autopilot Jim Keller, who will join the company as senior vice president and lead its silicon engineering group, as the firm beefs up its team to head off against rivals such as Advanced Micro Devices Inc. (AMD). (See also: AMD Jumps 13% on Results, Crypto Mining Craze.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

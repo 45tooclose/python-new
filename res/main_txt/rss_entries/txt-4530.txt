@@ -1,0 +1,262 @@
+
+
+    
+                        
+            
+                Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/PersonalFinance/WealthManagement/IC-Video/Term");} else {return "/8397/INV-NA/PersonalFinance/WealthManagement/IC-Video/Term";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/terms/f/frankeddividend.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/yWfV8TgZ.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/yWfV8TgZ-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/thumbs/frankeddividend.png?width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "560",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "yWfV8TgZ-G9NhEyAa.mp4";
+                
+          
+            document.addEventListener("DOMContentLoaded", function() {
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                        var initializeJWPlayerSetup = function () {
+                            if (new VideoInit().canRun()) {
+                                setUpJwpPlayer();
+                            } else {
+                                new VideoInit().callBack = setUpJwpPlayer;
+                            }
+                        }
+            initializeJWPlayerSetup();
+          });
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "yWfV8TgZ-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "What's a Franked Dividend?",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };            
+          
+                    What is a 'Franked Dividend'
+
+      A franked dividend is an arrangement in Australia that eliminates the double taxation of dividends. The shareholder is able to reduce the tax paid on the dividend by an amount equal to the tax imputation credits. An individual’s marginal tax rate and the tax rate for the company issuing the dividend affect how much tax an individual owes on a dividend.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Dividend                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Franked Investment Income                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Accelerated Dividend                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Capital Dividend                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Franked Dividend'
+      Franked dividends enable shareholders to reduce the amount of taxes they will pay. Because dividends are paid out of company profits that have already been taxed, shareholders are responsible for a smaller portion of tax on those dividends. Since investors receive a credit for the amount of tax the business paid on a dividend, if the investor’s tax rate is below the company’s tax rate, the investor receives a refund of the difference from the Australian Tax Office (ATO).
+For example, Sarah invests in a company that pays her a fully franked dividend of $800. Her dividend statement indicates a franking credit of $270. If the dividend were unfranked, Sarah would have owed taxes on the entire $1,070 ($800 + $270 = $1,070.) Therefore, when Sarah files her taxes, she declares $1,070 as part of her taxable income. Because her marginal tax rate is 20%, she would have paid $214 if the dividend were unfranked. Because the dividend is franked and the company paid $270 in taxes, Sarah receives the difference of $56.
+Fully 'Franked Dividends'
+When a stock’s shares are fully franked, the company pays tax on the entire dividend. Investors receive 100% of the tax paid on the dividend as franking credits.
+In contrast, shares that are not fully franked may result in tax payments for investors. Because of tax deductions businesses may claim, such as losses from preceding years, the company issuing the dividend might not pay the entire tax rate on its profits in a given year. When this happens, not enough tax is paid by the business for attaching a full tax credit to the dividends paid to shareholders. As a result, a tax credit is attached to some of the dividend, making that portion franked, and leaving the rest of the dividend untaxed, or unfranked. The dividend is then partly franked. The investor is responsible for paying the remaining tax balance.
+Example of Franked Dividends
+In April 2016, New York-based investment firm VanEck announced its launch of its security called the VanEck Vectors S&P/ASX Franked Dividend ETF. The security was the first exchange-traded fund (ETF) in Australia that included companies in the S&P/ASX 200 that paid out 100% franked dividends in the preceding two years and have sustainable dividend policies. The EFT is designed to track the S&P/ASX Franked Dividend Index that S&P Dow Jones Indices created with VanEck. The security was designed for increased flexibility, transparency and cost-effectiveness.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

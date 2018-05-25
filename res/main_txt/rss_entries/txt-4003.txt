@@ -1,0 +1,208 @@
+
+
+
+Investor Offensive against Bitcoin.com Gathers Momentum
+A large investor group is gearing for a lawsuit against Bitcoin.com owner Roger Ver over alleged deception.
+
+
+ by  Komfie
+Manalo,
+7 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  Numerous cryptocurrency investors are joining forces for a lawsuit against Bitcoin.com owner Roger Ver, whom they refer to as “Bitcoin Jesus-turned Bitcoin Judas” for allegedly making them believe they were investing in Bitcoin instead of Bitcoin Cash (BCH), various media reported.
+Ver, one of the early backers of Bitcoin, was instrumental in the creation of Bitcoin Cash, which was launched on August 1, 2017 after a Bitcoin hard fork. The controversial figure is also the registered owner of Bitcoin.com since April 2014.
+At least 1,000 people have reportedly been organizing to file a class action suit against Ver and Bitcoin.com, a cryptocurrency-focused news aggregator with an emphasis on Bitcoin and Bitcoin Cash. The website claims to have created more than 2.2 million digital currency wallets.
+
+Twitter user @MoneyTrigz, who acts as the admin for the CoinTimes magazine and is the co-founder of Coindaily.co, is the driving force behind the lawsuit plan. @MoneyTrigz has created a Telegram room where all interested parties are invited to join. It encourages everyone who believes to have been a victim of Ver’s deception to join the lawsuit and pledges to provide information about the pending legal action on the website.
+Ver, who famously stated that “Bitcoin Cash is Bitcoin,” has also redesigned and rewritten certain parts of the Bitcoin.com website to reflect his personal belief, according to the discussion. While the investors do not see any problem with that per se, they allege that since the site is named Bitcoin.com and sells cryptocurrencies as well as mining contracts, the redesign could potentially deceive novice investors and new visitors into buying Bitcoin Cash instead of the real Bitcoin.
+Bitcoin.com co-founder goes all-in on BCH
+In December last year, Bitcoin.com co-founder Emil Oldenburg sold all of his Bitcoins and went full Bitcoin Cash, saying that the Bitcoin market lacks liquidity, and the future of digital currency is BCH.
+Oldenburg’s announcement pushed the Bitcoin Cash price up 24% in less than two hours.
+He was quoted as saying:
+
+“I would say an investment in Bitcoin is right now the riskiest investment you can make. There’s an extremely high risk. I have in fact sold all my Bitcoins recently and switched to Bitcoin Cash.”
+ 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

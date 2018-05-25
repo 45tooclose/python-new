@@ -1,0 +1,198 @@
+
+
+
+    
+        
+        Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/PersonalFinance/WealthManagement/IC-Video/ShortArticle");} else {return "/8397/INV-NA/PersonalFinance/WealthManagement/IC-Video/ShortArticle";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/articles/financial-advisors/012716/where-does-john-c-bogle-keep-his-money.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/mfSKbJPA.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/mfSKbJPA-dOv10K2F.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/content/video/john_bogle_on_starti/bogle.jpg?quality=80&width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "100%",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "mfSKbJPA-dOv10K2F.mp4";
+                
+          
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                    var initializeJWPlayerSetup = function () {
+                        if (new VideoInit().canRun()) {
+                            setUpJwpPlayer();
+                        } else {
+                            new VideoInit().callBack = setUpJwpPlayer;
+                        }
+                    }
+          initializeJWPlayerSetup();
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "mfSKbJPA-dOv10K2F.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "Vanguard's John Bogle on Starting First Index Fund",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };    
+        
+            
+        
+          
+                
+      
+
+    
+
+    
+        No one could ever accuse John, "Jack," Bogle of being shy about offering investment tips. But does he stay true to his own advice?
+The founder of  Vanguard built his fund empire based on his core principles of investing. If you have read his books or listened to his interviews, you will find he has not veered one degree off course. That in itself should give you a pretty fair idea of where Bogle keeps his money.
+Although the public may never know all of the nuances of where and how Bogle invests, it can get a decent glimpse of his portfolio based on the advice he offers, because that advice seems to be based on what he would do for himself. The one thing known for certain is Bogle has invested 100% of his money in Vanguard funds.
+Jack Bogle’s Portfolio Allocation
+Bogle revealed his retirement portfolio allocation has shifted more toward a 50/50 allocation, with 50% in equities and 50% in bonds, away from the standard allocation of 60/40 that he followed for years. As he told the interviewer, “I just like the idea of having an anchor to the windward.” Bogle has indicated his non-retirement portfolio had an asset allocation of 80% bonds and 20% stocks.
+Beyond that, Bogle said he does not believe you need any other types of investments or asset classes to achieve proper diversification. Outside of his personal and retirement portfolios, Bogle invests in the Vanguard Balanced Index for his grandchildren.
+What His Stock Allocation Might Look Like
+Bogle does seem to follow his own advice as far as investing in index funds. As he once told Business Week that he's an indexer: "I own the market. And I’m happy.”
+Of course, this is based on his core principle that people trying to beat the market find themselves on the losing side at least as often as the winning side, but they pay a higher price. Bogle has also said he prefers to index the entire stock market rather than just the S&P 500. At the time, he allocated 60% of the stock portion of his portfolio to the Vanguard Total Stock Market Index along with some combination of the Vanguard 500 Index and the Vanguard Extended Market Index to provide additional small- and mid-cap exposure.
+Bogle has said on numerous occasions that he never invests in any overseas funds. He has a very small portion of his equity assets in a few sentimental holdings that happen to be active funds. These include the Vanguard Wellington and Vanguard Wellesley Income Funds.
+What His Bond Allocation Might Look Like
+As for the bond portion of his portfolio, Bogle has made some tactical adjustments over time, shifting his bond allocation to funds with shorter average maturities. His allocation is roughly half in intermediate-term bonds and half in shorter-term bonds. In 2006, Bogle allocated between the Vanguard Intermediate-Term Bond Index and Vanguard Inflation Protected Securities. His largest investment of any kind is in the Vanguard Limited Term Tax Exempt Fund, presumably held in his nonqualified portfolio.
+Why His Portfolio Has Probably Not Changed in a Decade
+Bogle has said he does not really subscribe to the need for rebalancing or to use many tactical asset allocation alterations to his strategy. If an investor feels the need to rebalance his portfolio, Bogle suggests doing it no more than once per year. He has always believed that, by sticking to a long-term strategy and keeping portfolio choices as simple as possible, people do less worrying. If that is true, it is safe to assume his current stock fund allocation looks fairly similar to the way it did ten years ago.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '',
+     'leadGenVertical' : '',
+     'leadGenLayout' : '',
+     'leadGenPage' : ''
+    });
+                    
+            
+                

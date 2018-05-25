@@ -1,0 +1,77 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Samsung Electronics Co. has become the latest Apple Inc. (AAPL) supplier to hint that demand for the iPhone X is wavering.
+The South Korean electronics manufacturer reported a 52% increase in first-quarter earnings on Thursday, led by rampant appetite for its memory chips, but also warned that profits for its display business “were affected by slow demand for flexible OLED panels.” The company’s organic light-emitting diode (OLED) screens are used in Apple’s flagship product, as well as its own smartphones.
+Flexible OLED panel revenues rose just 3.4% in the quarter, compared with 20% for Samsung as a whole, and company executives warned that weaker sales patterns in this division are likely to persist into the second quarter.
+Samsung’s revelation that demand for smartphone components used by Apple is tailing off came shortly after several of the iPhone maker’s other main suppliers made similar admissions. Taiwan Semiconductor Manufacturing Co. Ltd. (TSM), which makes the A10 and A11 chips that go into the iPhone X, slashed its revenue forecast range for the second quarter to between $7.8 billion and $7.9 billion based on "weak demand" in the mobile sector. Wall Street had previously estimated that the company’s sales would come in at $8.8 billion.
+Meanwhile, another major Apple supplier, Austria-based AMS, also reduced its revenue expectations. AMS, which manufactures the optical sensors used in the iPhone X, now expects second quarter sales to be in the range of $220 million to $250 million, down nearly 50% from its first quarter.
+Wall Street blamed weak guidance from TSM and AMS on lackluster demand for the iPhone X. Mirabaud analyst Neil Campling even claimed in a research note, reported on by CNBC, that Apple may decide to discontinue its flagship smartphone at some point this year. 
+"With the declines in iPhone X orders and the inventory issue at TSMC at record highs, which basically reflect a need to burn off inventory. Why? Because the iPhone X is dead," Campling wrote. (See also: Apple Will Kill Off iPhone X This Year: Analyst.)
+The iPhone X has been clouded in controversy ever since it was first unveiled by Apple. Following its delayed release, numerous analysts have consistently warned that consumers have been put off by its lofty opening $999 price tag.
+Apple, which is set to launch two new high-end smartphones later this year, will report its quarterly earnings results next week. (See also: iPhone X Orders Weakening: JPMorgan.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

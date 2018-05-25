@@ -1,0 +1,77 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Search giant Alphabet Inc. (GOOGL) continues to take the race against Amazon.com Inc. (AMZN) in the virtual-assistant space to the next level with a new investment fund that will encourage developers to build apps and hardware on its artificial intelligence (AI)-powered Google Assistant platform. (See also: Google Vs. Amazon in Indian Smart-Speaker Showdown.) 
+Taking a page from Amazon, in a program that mirrors Amazon's Alexa Fund, Google's new investment arm aims to work with early-stage startups that can improve its digital assistant, Google Assistant, which launched in 2016. Google's virtual, voice-powered assistant is similar to e-commerce giant Amazon's Alexa and iPhone maker Apple Inc.'s (AAPL) Siri. Devices with Google Assistant built-in are able to give commands to devices such as the Google Pixel smartphone or Google Home and carry out tasks such as searching the web, checking the calendar, playing music and controlling a smart home system.
+The move demonstrates a broader push by the tech giants to grab a larger portion of the burgeoning marker for smart home products, as Google's Home smart speaker competes with Amazon's Echo line-up. 
+A VC Fund With Higher Ambitions
+Apart from providing capital, Google Assistant Investments program will connect startups with its engineers and product specialists, as well as provide early access to Smart Assistant features and support them through free marketing and Google Cloud credits, reported CNBC. Unlike Alphabet's other venture capital arms, the new program will not serve as a traditional fund with a hard cap, and will not focus primarily on optimizing returns but rather on executing strategic investments. 
+So far, Google has made investments in companies including hotel concierge tool GoMoment and AI-powered language tutor Edwin, as well as BotSociety and Pulse Labs, both platforms for app developers. 
+On Thursday, ahead of Google's developer conference, the company announced that its Assistant now controls more than 5,000 smart devices, an increase of more than three times from just 1,500 compatible devices this January. (See also: Amazon Vs. Google: Smart Home War Escalates.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

@@ -1,0 +1,77 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        For many, the appeal of a prominent horse race like the Kentucky Derby is as much in the potential for winning bets as it is in the race itself (or the outrageous hats, for that matter). This year's Kentucky Derby was no different; one aspect of the betting process did change, however. According to a report by bitcoin.com, there have been more and more instances of bets being made in cryptocurrencies like bitcoin. This year's race likely topped the 2017 iteration of the "Most Exciting Two Minutes in Sports," which saw more than $100 million wagered.
+Details of Cryptocurrency Bets Remain Unresolved
+While the Kentucky Derby has seen a dramatic rise in the number of wagers made with digital currencies, it's not entirely clear what the future holds for this type of betting. Tim Maxwell, the operations director for US Racing, the international online horse racing news service, indicated that "right now, while punters are limited to a handful of private international gaming companies that will accept deposits with cryptocurrencies, players with crypto wallets can use bitcoin, bitcoin cash or litecoin to make a deposit and bet on the Kentucky Derby."
+Nonetheless, the murky nature of digital currencies, in general, may have played into the industry's role in betting. Maxwell suggested that a lack of clarity with regard to legality as well as the risks associated with digital currencies will need to be firmed up before it's likely that digital currency wagers will become a major factor in the gaming and racing industry. Still, he believes that "a handful of publicly-traded UK, Maltese and Canadian gaming companies [will] accept bitcoin deposits on a trial basis by early to mid-2019 followed by land-based race books and casinos in late 2019 and early 2020."
+Bonuses and Fee Reductions
+One aspect of a digital currency wager which may be especially enticing? Many sportsbooks do not charge fees for bitcoin deposits, and it's not uncommon for them to provide bonuses for users wagering with digital currency. Some services, like Bovada, allow users to withdraw and deposit bitcoins much more frequently than they can perform the same actions with fiat currencies.
+Investing in cryptocurrencies and Initial Coin Offerings ("ICOs") is highly risky and speculative, and this article is not a recommendation by Investopedia or the writer to invest in cryptocurrencies or ICOs. Since each individual's situation is unique, a qualified professional should always be consulted before making any financial decisions. Investopedia makes no representations or warranties as to the accuracy or timeliness of the information contained herein. As of the date this article was written, the author owns bitcoin and ripple.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

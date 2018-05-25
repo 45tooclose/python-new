@@ -1,0 +1,144 @@
+
+
+    
+                          DEFINITION of 'Market Identifier Code - MIC'
+
+      A market identifier code (MIC) is a four-character code used to identify stock markets and other trading exchanges within global trading and referencing computer systems. The first letter of any MIC is "X", followed by a three-digit alphanumeric code for the market in which a trade takes place. The code is used to process and clear trades, and is being pushed toward global acceptance as the securities industries move toward straight-through-processing (STP). The London Stock Exchange uses MICs as part of its SEDOL security-identifying systems, which is an alternative to the U.S.-based CUSIP identifying system.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Middle-Income Countries (MICs)                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Standard Industrial Classification ...                     
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Customer Type Indicator Codes - ...                     
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Code of Ethics                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Market Identifier Code - MIC'
+      Straight through processing, a conceptual approach for improving the speed of processing transactions, is considered to be the holy grail of global securities trading. In order for it to be possible, there will need to be a wealth of consistent codes for market of origin, currency and security identification. As it stands now, there are several different systems used by different countries and for differing types of securities. One global standard will have to emerge over time, and all of the software and processing systems will have to back it, making the necessary technical changes along the way. This process will take time as securities industries move toward the ultimate goal of an "any security, anywhere, anytime" marketplace.
+The International Organization for Standard (ISO) publishes the MIC list of all countries on the second Monday of the month.
+How Market Identifier Codes are Used
+MICs have been presented by ISO as an international standard to identify markets, trading platforms, and exchanges to allow for automated processing of trades. With MICs being used as the universal identifying standard, it could be a significant step in bringing straight through processing closer to being realized beyond the concept phase.
+There are different types of MICs. A market segment MIC identifies a section of one of the entities covered by the code that specializes in one or more specific instruments or is regulated differently. Market segment MICs were instituted for more accuracy, according to ISO.
+For each market segment MIC there is a parent MIC, also known as an operating MIC.
+An operating MIC, in turn, identifies the entity that operates an exchange, trading platform, regulated or non-regulated market or a trade reporting facility in a specific country.
+Market organizations can apply for an MIC by submitting a request to the registration authority. Typically a market segment MIC is generated when demand merits the need to identify the segment. Depending on the circumstances, it can happen that only specific segments of a market receive identification with a market segment MIC.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

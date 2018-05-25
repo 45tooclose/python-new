@@ -1,0 +1,81 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        There is probably no other investment portfolio more closely watched than that of Warren Buffett. His remarkable track record of outperforming the S&P 500 is unmatched. Investors have been trying for years to analyze his stock picks, hoping to get inside his mind to glean a morsel of his investment genius. Buffett's genius is always transparent because he has never veered from his most fundamental principle: to buy great companies at good prices, and hold them forever. This principle explains his top five holdings, which you probably would not find on the buy lists of most stock analysts. However, his top five holdings all have several things in common. They are big, well-run companies with strong balance sheets, and they generate a lot of cash that they return to shareholders through dividends.
+Apple 
+At 14.63% of the Berkshire Hathaway portfolio, the company that Jobs built is Buffett's largest holding. Berkshire Hathaway owns 165,333,962 shares of Apple stock as of February 23, 2018. This holding is valued at $27.97 billion. Apple passed Wells Fargo to take the #1 spot after Berkshire Hathaway bought additional Apple shares in February of 2018. 
+Wells Fargo & Company
+At 14.54% of his portfolio, Wells Fargo & Company (NYSE: WFC) is Buffett's second largest position, and held the #1 spot for a number rof years. Buffett started investing in Wells Fargo in 1989 and has been adding to his position ever since. He holds more than 458 million shares valued at $27.8 billion, as of February 2018. Buffett's stake in WFC is worth a reported 27.8 billion.
+Kraft Heinz Company
+Buffett’s third-largest holding came to him through a merger of food giants Kraft Food Group and H.J. Heinz Company. Buffett owned 500 million shares of Heinz prior to the merger. He facilitated the acquisition working with his investment partner, 3G Capital, which owned a similar stake in Heinz. Following the merger, Buffett now owns 325.6 million shares of the company, valued at $25.3 billion.
+Bank of America
+With 679 million shares to his name, Buffett's fourth largest holding is in Bank of America. His holding is valued at $20 billion and makes up 10.48% of his portfolio. Bank of America is his second largest holding in the finance sector after Wells Fargo.
+Coca-Cola Company
+Buffett once claimed he drinks about five cans of Coca-Cola per day, which may or may not be the reason why Coca-Cola Company (NYSE: KO) stock is his fifth largest holding. It is certain he likes the durability of the company’s core product, which has remained virtually unchanged over time. Buffett started buying Coca-Cola shares in the late 1980s and did not stop until it comprised 25% of his portfolio, now that's a sugar addiction. He holds 400 million shares with a $18.3 billion total market value, which is 9.6% of his portfolio. As long as the company’s brand identity and global distribution systems remain world class, and its future cash flows remain high, Coca-Cola is likely to remain a top holding for Buffett.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

@@ -1,0 +1,144 @@
+
+
+    
+                          DEFINITION of 'New Drug Application (NDA)'
+
+      The New Drug Application (NDA) is the formal final step taken by a drug sponsor, which involves applying to the Food and Drug Administration (FDA) to get approval required to market a new drug in the U.S. An NDA is a comprehensive document with 15 sections that includes data and analyses on animal and human studies, the drug’s pharmacology, toxicology and dosage, and the process to manufacture it.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Abbreviated New Drug Application ...                     
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Food And Drug Administration - ...                     
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Investigational New Drug (IND)                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Side Effect                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'New Drug Application (NDA)'
+      The New Drug Application (NDA) has formed the basis for regulating and controlling new drugs in the U.S. since 1938, and has evolved significantly since then. Under the Food, Drug and Cosmetic Act (FD&C) passed in 1938, NDAs were only required to contain information relating to the proposed new drug’s safety. In 1962, amendments to the FD&C Act required NDAs to also include evidence on the new drug’s effectiveness for its intended use, and confirm that its established benefits outweighed its known risks. In 1985, the Food and Drug Administration (FDA) completed a review of NDA regulations and in order to expedite the review process, restructured the organization and presentation of information and data contained in the NDA.
+When an NDA is submitted, the FDA has 60 days to decide whether to file it for review, or reject it if some required information is missing. The goal of the FDA’s Center for Drug Evaluation and Research (CDER) is to review and act on at least 90% of NDAs for standard drugs within 10 months after the applications are received, and six months for priority drugs.
+CDER classifies New Drug Applications with a code from 1 through 7 that reflects the type of drug being submitted and its intended uses. For example, Code 1 stands for a “New Molecular Entity,” while Code 4 indicates a new combination of two or more drugs. Drugs also receive a code indicating whether they will receive Standard review or Priority review, the latter being reserved for drugs that represent significant advances over existing treatments.
+Once the CDER review of an NDA is completed, it issues one of three possible action letters to the sponsor of the new drug –
+Approval Letter: this states that the drug is approved.
+Approvable Letter: indicates that the drug can be ultimately approved, but lists minor deficiencies that need to be rectified; it often asks for labeling changes and sometimes for sponsor commitment to undertake post-marketing studies.
+Not Approvable Letter – lists deficiencies in the application and the reasons why the drug cannot be approved.
+Once a company reaches the NDA stage, the probability of the drug receiving FDA approval and being marketed in the U.S. exceeds 80%. Filing of an NDA typically does not result in a substantial increase in the share price of the sponsor company, as most of the stock appreciation is likely to have occurred as the investigational drug progressed through successive phases of earlier clinical trials.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'LifeInsurance',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

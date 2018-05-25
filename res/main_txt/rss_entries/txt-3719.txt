@@ -1,0 +1,78 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Rattled by increased volatility, nervous investors are dumping stocks, and this is a huge mistake in the opinion of Jeffrey Mills, chief investment strategist at Hawthorn, a division of PNC Financial Services Group serving high-net-worth clients with $20 million or more to invest. "Folks may have an inclination to do drastic things in portfolios to insulate themselves from higher volatility when in fact we think the backdrop would actually portend the exact opposite," Mills told CNBC. "It's key to understand that the call for higher volatility doesn't have to be a call for poor market performance," he  added.
+Investors withdrew a net $41.3 billion from U.S. equity mutual funds and ETFs in February, the largest monthly outflow since a net redemption of $42.8 million in January 2008, according to data from the Investment Company Institute (ICI), reported CNBC. The total net outflow during the first quarter of 2018 was $53 billion, per the same sources, while there were net inflows of $48 billion into domestic bond funds and $73 billion into international stock funds.
+Fear of Flying
+In his remarks on CNBC, Mills drew an analogy with people who are afraid to fly, yet fail to recognize that "driving is exponentially more dangerous." He noted that trying to improve returns by reducing the volatility of one's portfolio often has the opposite effect. Moreover, he said, "If you go back over time and you bucket volatility regimes, and then look at market performance out 12 months, there's no discernible pattern to how markets perform."
+Looking ahead at the next 12 months, Mills indicated that his team believes that a return of 4% to 6% on U.S. stocks "is honestly realistic." Despite high equity valuations, a strong economy and rising corporate earnings are reasons for investors to stay in stocks, he told CNBC. Meanwhile, investing gurus Warren Buffett and John Bogle are also among those who advise that volatility is a normal aspect of the market that should not faze the rational long-term investor. (See also: Strategies to Volatility-Proof Your Portfolio.)
+'Strength In Corporate Earnings'
+Considerably more bullish than Mills is Philip Orlando, chief equity market strategist and head of client portfolio management at Federated Investors. He predicts that the S&P 500 Index (SPX) will end 2018 at a value of 3,100, or 15.9% above the April 30 open, per another CNBC story. "This is the best earnings season we've seen in the United States in seven years and, frankly, the fourth consecutive really strong quarter," as he told CNBC last Tuesday.
+Brushing aside what he called the market's "infatuation" with a 3% yield on the 10-Year U.S. Treasury Note, Orlando indicated that investors should focus instead on "strength in corporate earnings." He told CNBC that stock prices should not suffer as long as the T-Note yield stays below 5%, and he expects fundamentals to drive a strong rally in the fourth quarter, once various uncertainties are resolved, such as Federal Reserve policy, trade policy, the Mueller investigation of the Trump administration and the midterm elections to Congress.
+'Barbell Year'
+On CNBC in January, Orlando foresaw a "barbell year" in 2018, with strong early gains followed by an "air pocket in the summer," then a rally to end the summer "on a high note." In his recent interview he indicated that this scenario has "played out" so far, though his anticipated "air pocket" has come earlier than he originally anticipated.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

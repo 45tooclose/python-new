@@ -1,0 +1,145 @@
+
+
+    
+                          DEFINITION of 'Expiration Date'
+
+      Expiration date is the date after which a consumable product such as food or medicine should not be used because it may be spoiled, damaged or ineffective. Expiration date is also used to refer to the date that a drug patent expires.
+Expiration date is also referred to as expiry date.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Expiration Date (Derivatives)                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Expired Card                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Deferred Payment Option                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Pegging                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Expiration Date'
+      Expiration dates are especially important in the case of medications, since the expiration date provides the only indication about whether the product can still be safely used, unlike food items where there is often visible indication that its “best by” date has passed. As using expired medical products is risky and may be harmful to health, the U.S. Food & Drug Administration (FDA) mandated specifying expiration dates on all prescription and over-the-counter medicines in the late 1970s. Expiration dates for medicines are often marked “EXP” and can be found printed on the label or stamped on to the medicine bottle or box.
+Expired medicines can be rendered less effective or made more risky due to a change in chemical composition. Since chemical compounds may have decreased potency over a period of time, it is important to adhere to expiry dates. Taking an expired medication that is less effective may have serious consequences because it may not be able to control the underlying condition as well as an unexpired medication would.
+In some cases, the FDA may extend the expiry date of a medication if there is a shortage of it. The extended expiration date is based on stability data for the medication that has been reviewed by the FDA.
+Expired medication should be disposed of in a proper manner, rather than being dumped straight in the trash. If no disposal instructions are provided for an expired drug, consumer should check for drug take-back programs in their state or municipality. In the absence of specific instructions or take-back programs, U.S. federal guidelines recommend disposing of expired or unwanted medicines by putting them in a bag or container and mixing up with coffee grounds or kitty litter. A small number of medicines that can be fatal to children or pets with even one dose are permitted to be flushed down the sink or toilet if they expire or are no longer needed.
+Expired Drug Patents
+Drug patents are awarded to brand-name drugmakers when a new drug is released to the market. The patent protects the drugmaker from having its drug copied by competitors for a period of time, typically 20 years. The patent exclusivity for orphan drugs lasts for seven years, while new chemical entity exclusivity lasts for five years. Patents for new drugs and their expiration dates are included in the Orange Book, which is the list of drugs that the FDA has approved as both safe and effective. In order for a generic drug manufacturer to win approval of a drug under the Hatch-Waxman Act, the generic manufacturer must certify that it will not launch its generic product - until after the expiration of the patent; unless the patent is found to be invalid or unenforceable or; if the generic product will not infringe the listed patent.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '',
+     'leadGenVertical' : '',
+     'leadGenLayout' : '',
+     'leadGenPage' : ''
+    });
+                          
+    
+  

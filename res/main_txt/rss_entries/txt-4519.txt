@@ -1,0 +1,149 @@
+
+
+    
+                          What is an 'Employee Stock Purchase Plan - ESPP'
+
+      An employee stock purchase plan (ESPP) is a company-run program in which participating employees can purchase company shares at a discounted price. Employees contribute to the plan through payroll deductions, which build up between the offering date and the purchase date. At the purchase date, the company uses the accumulated funds to purchase shares in the company on behalf of the participating employees.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Employee Contribution Plan                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Non-Qualified Stock Option - NSO                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Payroll Deduction Plan                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            457 Plan                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Employee Stock Purchase Plan - ESPP'
+      With employee stock purchase plans, the discount rate on company shares depends on the specific plan but can be as much as 15% lower than the market price. ESPPs may have a “look back” provision allowing the plan to use a historical closing price of the stock. This price may be either the price of the stock offering date or the purchase date – often whichever figure is lower.
+Qualified Vs. Non-qualified Plans
+ESPPs are categorized in two ways: qualified and non-qualified. Qualified plans require the approval of shareholders before implementation and all plan participants have equal rights in the plan. The offering period of a qualified ESPP cannot be greater than 3 years and there are restrictions on the maximum price discount allowable. Non-qualified plans are not subject to as many restrictions as a qualified plan. However, non-qualified plans do not have the tax advantages of after-tax deductions like qualified plans.
+Important Dates
+Participation in the company ESPP may only commence after the offering period has begun. This period begins on the offering date, and this date corresponds with the grant date for the stock option plans. The purchase date will mark the end of the payroll deduction period. Some offering periods have multiple purchase dates in which stock may be purchased.
+Eligibility
+ESPPs typically do not allow individuals who own more than 5% of company stock to participate. Restrictions are often in place to disallow employees who have not been employed with the company for a specified duration – often one year. All other employees typically have the option but not the obligation to participate in the plan.
+Key Figures
+During the application period, employees state the amount to be deducted from their pay to be contributed to the plan. This may be subject to a percentage limitation. In addition, the Internal Revenue Service restricts the total dollar amount to be contributed to $25,000 per calendar year. Most ESPPs grant employees a price discount of up to 15%.
+Dispositions
+The taxation rules regarding ESPPs are complex. In general, qualifying dispositions are taxed during the year of the sale of stock. Any discount offered to the original stock price is taxed as ordinary income, while the remaining gain is taxed as a long-term capital gain. Unqualified dispositions can result in the entire gain being taxed at ordinary income taxation rates.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

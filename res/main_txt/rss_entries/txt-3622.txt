@@ -1,0 +1,82 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Named after Alexander Graham Bell’s invention of the telephone, the American Telephone and Telegraph Company was born in 1875. In 1984, the Bell System was broken up into eight different companies, spawning AT&T Inc. (NYSE: T).
+In 2018, AT&T is a global networking leader that delivers consumers and businesses leading voice over internet protocol (IP) services. AT&T is currently attempting a merge with Time Warner (TWX), but has run into obstruction from the government. The state department sued the two companies to prevent the merge from going forward. Should the merge go forward, AT&T/Time Warner would become one of the largest companies on earth, and these are the shareholders who stand to gain the most. 
+This shareholder information is based on the SEC filings of these individuals.
+1. Randall L. Stephenson
+AT&T's chief executive officer (CEO) has been with the company since 1982 and ranks as its largest individual shareholder. According to the SEC filing on March 30, 2018, Stephenson owns 916,807 shares directly and 1.23 million shares indirectly. Since 2007, Stephenson has been instrumental in transitioning the company from traditional phone lines to wireless services. Through several acquisitions under his leadership, AT&T has expanded its public Wi-Fi footprint, offered a variety of web and video services, and built out its 4-gigabyte network. million shares including options. Stephenson has served in a variety of roles including marketing, operations and finance. He served as the company’s chief operating officer (COO) from 2004 until his appointment as CEO in 2007.
+2. John T. Stankey
+John T. Stankey is the CEO of the AT&T Entertainment Group. He is the second-largest individual shareholder, with the latest SEC filing listing him as owning 623,540 shares indirectly. Stankey began his career with Pacific Bell, which became part of AT&T Teleholdings Inc., in 1985 and was steadily promoted through different parts of the organization. Some of Stankey's roles have included chief information officer (CIO), chief technology officer (CTO), CEO of AT&T’s Southwest region and president of industry markets. AT&T announced in July of 2017 that, should their merger with Time Warner go through, Stankey will effectively run all Time Warner assets. 
+3. John J. Stephens
+John J. Stephens is the senior executive vice president and chief financial officer (CFO) of AT&T. Stephens is the third-largest shareholder with 232,854 shares held indirectly and 376,616 shares owned directly. Stephens began his career with Ernst & Young as a tax senior manager. He joined AT&T in 1992 as the director of federal taxes in St. Louis, Missouri. In 2000, Stephens was appointed vice president of taxes, a position he held until 2001 when he was named CFO for the diversified business unit. 
+Stephens serves on several boards of directors around the greater Dallas area where AT&T is headquartered. These include the Mays Business School at Texas A&M University, the United Way of Dallas and the Dallas Chamber of Commerce, to name a few.
+4. Rafael de la Vega
+Rafael de la Vega is the former vice chairman of AT&T and former CEO of its business solutions and international divisions. He left the company at the end of 2016 and his stock ownership as reflected in his SEC filings dated December 2016 stands at 489,992 shares held directly and 334,240 shares held indirectly. Since he is no longer a part of the company, these numbers may differ from the company's March 2018 proxy statement. 
+De la Vega is a shining example of the American dream. He emigrated to the United States from Cuba in 1962 and worked his way through school, ultimately earning his master of business administration (MBA) from Northern Illinois University. In 2009, he co-authored the book "Obstacles Welcome: How to Turn Adversity to Advantage in Business and Life" to provide career and life advice for young professionals.
+De la Vega began his career with Southern Bell, renamed BellSouth, in 1974. Working his way up through the company, he was promoted to president of BellSouth’s Latin American division. After BellSouth, De la Vega began serving as the CEO of Cingular Wireless in 2004. In 2007, Cingular acquired AT&T Mobility through a merger, and De la Vega remained the CEO of AT&T Mobility until 2014. De la Vega retried on December 31, 2016. 
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

@@ -1,0 +1,264 @@
+
+
+    
+                        
+            
+                Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/PersonalFinance/Taxes/IC-Video/Term");} else {return "/8397/INV-NA/PersonalFinance/Taxes/IC-Video/Term";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/terms/c/corporateinversion.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/J92EXv07.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/J92EXv07-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/content/video/corporate_inversion/corporateinversion.png?width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "560",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "J92EXv07-G9NhEyAa.mp4";
+                
+          
+            document.addEventListener("DOMContentLoaded", function() {
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                        var initializeJWPlayerSetup = function () {
+                            if (new VideoInit().canRun()) {
+                                setUpJwpPlayer();
+                            } else {
+                                new VideoInit().callBack = setUpJwpPlayer;
+                            }
+                        }
+            initializeJWPlayerSetup();
+          });
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "J92EXv07-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "What Is Corporate Inversion?",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };            
+          
+                    What is a 'Corporate Inversion'
+
+      Corporate inversion is the process which companies, primarily U.S.-based companies, use to move overseas to reduce the tax burden on income. Companies who receive a significant portion of income from foreign sources employ corporate inversion as a strategy since that income is taxed both abroad and in the country of incorporation. Companies undertaking this strategy are likely to select a country which has a lower tax rate and less stringent corporate governance requirements than their home country.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Inverse ETF                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Income Tax                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Inverse Volatility ETF                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Taxes                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Corporate Inversion'
+      Corporate inversion is one of the many strategies companies employ to reduce their tax burden. A company can reincorporate abroad by having a foreign company purchase its current operations. The foreign company then owns the assets, the old corporation is dissolved, and the business, while remaining the same in its daily activities, is now domiciled effectively in the new country. Companies may also buy or merge with a foreign business and use that entity as their new headquarters.
+Practical Uses of Corporate Inversions
+For example, consider a manufacturing company that incorporated itself in the United States in the 1950s. For years, most of its revenue came from U.S. sales, but recently, the percentage of foreign sales has increased. Income from abroad is taxed in the United States, and U.S. tax credits do not cover all taxes which the company must pay elsewhere. As the percentage of sales coming from foreign operations grows relative to domestic operations, the company pays more in U.S. taxes because of where it is domiciled. In addition, its U.S. income is taxed at a high domestic rate. 
+If the business incorporates abroad, it can bypass paying higher U.S. taxes on income not generated in the United States. The company would advance to a corporate inversion to achieve this aim. Other advantages include the U.S. operations being financed by loans from the foreign parent company. As they form a new U.S. operating company, which creates U.S. tax deductions and reduce the tax payable on domestic income as well.
+Controversy Surrounding Tax Inversions
+Corporate inversion is a legal strategy and is not considered tax evasion as long as it does not involve misrepresenting information on a tax return or undertaking illegal activities to hide profits.
+However, there has been controversy surrounding the ethics of the companies that opt for corporate inversions. Several high-profile inversions have brought this strategy to the forefront, and many are calling for legislative changes to prevent them.
+For example, Burger King Worldwide Inc. left the United States for Canada in a corporate inversion when it purchased the donut chain Tim Horton's Ltd. Also, Pfizer Inc. announced it would move to Ireland as part of a merger with Allergan PLC. 
+These and others relocations prompted a strong reaction from the U.S. government which, in April 2016, announced new measures that make inversions more difficult. After the announcement of these measures, Pfizer and Allergan called off their merger.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

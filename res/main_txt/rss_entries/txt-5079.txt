@@ -1,0 +1,81 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Shares of Tesla Inc. (TSLA) sank this week on concerns over its most recent earnings call, which some on the Street said was the most bizarre they have ever experienced. On Friday, Tesla CEO Elon Musk told his fans that two questioners were analysts simply attempting to justify their short bets against TSLA stock.
+Musk took to Twitter Inc. (TWTR) early Friday with a series of tweets justifying his bold behavior on Thursday's call, in which he dismissed some analysts' questions and redirected others to a pro-Tesla YouTube blogger. 
+Musk: Questioners Were 'Not Cool'
+The call was moving along relatively smoothly until Bernstein analyst Toni Sacconaghi asked about the electric car maker's capital requirements. Musk interrupted the analyst and dismissed his question, indicating that "boring" questions are "not cool." He then moved on to a question from RBC Capital Markets analyst Joseph Spak, which he found equally unpalatable. 
+"These questions are so dry," said the serial entrepreneur and venture capitalist. "They're killing me." 
+The Palo Alto, California-based company and its founder are no stranger to the skeptics, as Tesla is one of the most polarizing companies on the Street. Bears have criticized the firm's excessive cash burn and continued production setbacks, which have led to a series of broken promises from Musk. Bulls, on the other hand, do not doubt Tesla's loyal customer base and its leadership position as a pioneer in the EV space.
+"First it's important to know that Tesla is the most shorted (meaning most bet against) stock on the market & has been for a while," tweeted Musk. In April, Tesla regained its title as the most shorted U.S. equity behind Apple Inc. (AAPL), who stole the position for a short time. (See also: Why Tesla Is Burning Through Cash.)
+Waiting for Musk's Flamethrowers
+Musk suggested that the two questioners he ignored on the Q1 call "are sell-side analysts who represent a short-seller thesis, not investors." The CEO wrote that Bernstein's comment about capital commitments was "boneheaded" since it had "already been answered in the headline of the Q1 newsletter he received beforehand, along with details in the body of the letter."
+In response to RBC's "absurd" question regarding the percentage of Model 3 reservations that Tesla had started to configure, Musk said that Tesla has roughly a half a million reservations, despite no advertising and no cars in showrooms. He stated that even after the company reaches 5,000 vehicles in production per week, and even if new sales dropped all the way to zero, it would take two years to satisfy existing demand. 
+"Oh and uh short burn of the century comin[g] soon. Flamethrowers should arrive just in time," the CEO warned his haters. (See also: Why the Bulls Still Believe in Tesla.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

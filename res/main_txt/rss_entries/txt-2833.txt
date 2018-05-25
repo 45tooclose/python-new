@@ -1,0 +1,83 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Microsoft Corp. (NASDAQ: MSFT) is known throughout the world as one of the original tech giants. Founded by Bill Gates and Paul Allen in 1975, Microsoft has grown into one of the world's largest companies, with a market capitalization of more than $732.15 billion as of April 26, 2018. What started as a venture to develop early computer operating systems and language has since become a market leader in the personal computing space through the Windows operating system and smartphones, tablets and gaming. While many people are familiar with the story of Bill Gates and Microsoft, there are several things that even those most familiar with the company might not know.
+1. Company Was Originally Called Micro-soft
+Most people understand that the name Microsoft is a combination of the words microcomputer and software. In the company name's earliest incarnations, however, Gates included a hyphen in the Microsoft name. In an early 1975 letter from Gates to Allen, the company was referred to as "Micro-soft." It wasn't until the company name was officially registered in 1976 that the hyphen was removed and Microsoft was born.
+2. Bill Gates Wanted to Call Windows "Interface Manager"
+As Windows 1.0 was being developed, Gates wanted to call his operating system "Interface Manager." In fact, early test releases of the software called it just that. Shortly before it came time to publicly release the operating system in late 1985, Gates had a change of heart and decided to switch the name to Microsoft Windows.
+3. Microsoft's Largest Shareholder Isn't Bill Gates
+That title actually goes to Microsoft's former chief executive officer (CEO) Steve Ballmer. Gates has been sitting in the number two position since April 2014, when he sold 4.6 million shares of Microsoft stock as part of his ongoing planned giving objective to the Bill and Melinda Gates Foundation. Gates may soon not be one of Microsoft's top shareholders at all. He has donated 80 million shares annually for the past 12 years to the foundation, and pledged to give away most of his fortune to charity.
+4. Bill Gates and Paul Allen Were Hackers
+Long before they were tech moguls, Gates and Allen were just school kids who were trying to impress girls. In an interview with BBC, Gates confessed that he and Allen hacked into his school's computers to enroll him in classes filled with mostly girls. He didn't come off the market officially until he married his wife of 22 years, Melinda, in 1994.
+5. Microsoft Headcount Doubles Population of Redmond, Washington
+Microsoft moved its corporate campus to Redmond, Washington, in 1986 following stints in Albuquerque, New Mexico, and Bellevue, Washington. As of 2017, Microsoft's worldwide employee count was around 124,000. That number is more than double the entire population of Redmond, which is estimated to be roughly 62,000 in 2016.
+6. Microsoft's First Acquisition Was Forethought
+Microsoft's very first acquisition was its 1987 purchase of Forethought. The company, founded in 1983, was best known at the time for a presentation program it had developed called Presenter. That software program is now called PowerPoint.
+7. The Microsoft "Sound" Was Created by Brian Eno
+Anybody who has purchased a PC with Microsoft Windows is probably familiar with the six-second jingle that plays as the system is booting up. That snippet is no simple back-office creation. It was written by legendary music producer and songwriter Brian Eno. Eno, whose music career spans more than four decades, is best known for his work with acts such as Coldplay, U2 and David Bowie. Eno was approached by Microsoft designers in 1994 to compose a short bit that was inspiring, futuristic and optimistic. Eno claims he developed 84 different pieces before settling on the winner.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

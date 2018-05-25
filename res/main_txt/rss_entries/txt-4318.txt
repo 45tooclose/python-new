@@ -1,0 +1,78 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Apple Inc. (AAPL) has enough cash on its books to give back $60 billion per year to investors, according to one analyst.
+Gene Munster, founder and managing partner of venture capital firm Loup Ventures, told CNBC that this potential means investors are now more fixated on the company’s huge cash holdings than with how many iPhones it is selling. If Apple can continue to put its extra capital to work by repurchasing more shares, he predicted that the stock will easily move 7% higher in the next year.
+"This is a cash-generating machine that is head and tails above any other FANG stock and really any other company in the world," Munster added.
+The analyst's comments came shortly after Apple announced that it returned $248.4 billion to shareholders in the last quarter. In its latest earnings report, released after markets closed on Tuesday, Apple revealed that it bought back $23.5 billion of its own shares in the March quarter, a record amount for any U.S. company, according to Reuters, and plans to boost dividends by 16% in the future, compared with a 10.5% increase last year. Apple also outlined its intentions to allocate an extra $100 billion for future stock repurchases. (See also: Apple's $100 Billion Stock Buyback Overshadows iPhone.)
+Apple’s decision to share more of its huge cash reserve, currently estimated to be $267.2 billion, with shareholders helped to paper over the cracks of an otherwise unexciting set of results. The company sold 52.2 million iPhones in the quarter ended March 2018, slightly below Wall Street’s target of 52.3 million
+Following the publication of its results, the company’s shares rose 3.84% in extended trading. “There's going to be a shift over the next few quarters and couple years where investors are less interested on what the iPhone numbers [are] in any given quarter," said Munster. "They'll be more interested in about what they buy back."
+Apple CEO Tim Cook hasn’t yet revealed a timetable for the company’s latest share repurchase venture, which was introduced to succeed a $210 billion buyback program that started in 2012 and ended nine months ahead of schedule. However, Munster is confident that it should happen earlier than expected.
+"The last time [Apple] gave a time frame they exceeded that by 25%," he said. "If you take the approach that Apple is a very systematic company and they're going to follow the patterns that they've done in the past, you can get to those conclusions." (See also: Apple Gears Up to Spend All Its Cash.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

@@ -1,0 +1,148 @@
+
+
+    
+                          DEFINITION of 'Wordpress (CMS)'
+
+      WordPress is the most widely used content management system (CMS) in the world. After its launch in 2003, the free and open source platform quickly grown to power more than 75 million websites, or roughly a third of all websites around the world. The open source platform has a vibrant developer community that has created a range of plugins, themes, and widgets that help website owners quickly launch their own sites.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Versioning                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Software As A Service - SaaS                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Business Software & Services Industry ...                     
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Accounting Software                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Wordpress (CMS)'
+      
+There are two versions of WordPress available to the public:
+Hosted WordPress - WordPress.com offers hosted WordPress-powered websites, making it easy for anyone to get started building a website. The plans range from $0 to $25 per month depending on the storage and features required. 
+WordPress Platform - WordPress.org provides the latest version of WordPress that can be downloaded for free and installed onto a private host or server. Technical and community support is provided on the WordPress forums.
+WordPress is designed from the ground up to be highly customizable. Its application programming interface (API) covers everything from its database to theme modifications and customizations. By keeping everything standardized, developers can focus on building functionality on top of WordPress, knowing that it will work on all installations that are kept up-to-date.
+WordPress' popularity has made it a popular target among hackers, but its open-source nature means that any security issues are quickly patched. In some cases, WordPress plugins developed by third parties can introduce security issues. This means that WordPress users must make sure that they keep the base WordPress installation and all of their third-party plugins up-to-date at all times.
+WordPress Ecosystem
+There are many different companies that provide WordPress plugins and themes designed to extend its functionality. For example, WooCommerce has become one of the most popular ecommerce tools for WordPress, enabling users to accept orders, track shipments, and add other ecommerce functionality to their existing WordPress website.
+Some of the most popular ecommerce plugins include:
+Yoast SEO - This plugin helps improve search engine optimization (SEO) for websites, which increases their ability to be discovered in search engines like Google or Yahoo.
+Contact Form 7 - This plugin makes it easy to add a contact form to a website, which is a core requirement for almost all small businesses using WordPress.
+Slider Revolution - This plugin helps you create sliders, carousels, or other visual content that helps make a website more visually appealing that a static page.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

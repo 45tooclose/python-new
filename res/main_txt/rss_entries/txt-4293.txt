@@ -1,0 +1,211 @@
+
+
+
+Litecoin Slide Continues with 8% Drop over Seven Days
+The value of Litecoin has kept declining for seven days straight.
+
+
+ by  Komfie
+Manalo,
+9 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+Subscribe
+
+
+  Litecoin (LTC) remains on a soft streak on Wednesday, trading at $147.28 at 3:00 am UTC after losing 7.95% over the past seven days. This compares to $153.68 on April 26, data from CoinMarketCap.com show.
+The cryptocurrency finished Tuesday at $148.49. At its peak on December 18, 2017, Litecoin traded at $358.34, reflecting the overall record heights of the digital currency market.
+The downward spiral of LTC is in sharp contrast to its strong performance from late March until mid-April. Over this period, its price fluctuated at times but remained on the rise in general. Given the steady performance in April, some even speculated that the cryptocurrency could reach $1,000.   
+
+Litecoin as a global payment option
+Wirex CEO Pavel Matveev said the rise in LTC’s value was a key factor in his company’s decision to accept Litecoin payments. Wirex is the only European service allowing its users to spend cash generated from Bitcoin and Litecoin conversion through its debit cards.
+Matveev told the Express:
+
+“Wirex keeps growing as a platform, and it’s natural for us to add new services and currencies. Litecoin has huge potential and a big community, so there is a lot of demand for this service on the market.”
+
+Wirex has already implemented full integration of Litecoin into its platform after predicting that the digital currency has the potential to become a global payment option on some of the biggest brand websites.
+Charlie Lee on selling his Litecoin holdings
+Only last week, Litecoin creator and TexX founder Charlie Lee confirmed he had some regrets over his decision to sell his LTC positions in 2017. He noted in an interview:
+
+"I still think it was the right move, but I question whether — I think in the long run it was the right move but in the short term while the price is down, below the all-time high, it just feels like it's not the right decision."
+ 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

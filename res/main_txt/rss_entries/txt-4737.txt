@@ -1,0 +1,87 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Visionary entrepreneur Elon Musk is the co-founder of PayPal, Tesla Motors (TSLA), and SolarCity (SCTY), and is the founder of SpaceX. His astounding success has given rise to comparisons to the likes of Steve Jobs, Howard Hughes, Henry Ford, and Bill Gates. Amid an often difficult childhood, Musk developed a relentless work ethic (he is known to work as many as 80 to 100 hours per week) and a tenacious single-minded vision.
+On March 23, 2018, Elon Musk deleted the Facebook (FB) pages for SpaceX and Tesla following calls to #deletefacebook accounts due to the Cambridge Analytica scandal. Just a few weeks later he was in the headlines again for cutting off analyst questions during Tesla's earnings call.
+We look at the early life and education of the man behind a string of companies that have disrupted multiple industries.
+Family Background and Youth in South Africa
+Elon Reeve Musk was born in 1971 in Pretoria, one of South Africa's three capital cities. His father was an engineer and his mother a model and nutritionist. He is the oldest of three children in an ambitious family. His brother Kimbal Musk is currently a venture capitalist and environmentalist. His sister Tosca Musk is an award-winning producer and director.
+After his parents divorced when he was nine, Musk lived mostly with his father. Musk started school a year early, attending the private Waterkloof House Preparatory School and later graduating from Pretoria Boys High School. He read voraciously and was also an avid fan of comics. Self-described as a bookworm and something of a smart aleck, he was bullied in school and withdrew into his books at the expense of his social life.
+At the age of 10, Musk was introduced to computers with the Commodore VIC-20. He quickly learned how to program and at the age of 12 sold a game called Blastar to Spectravideo for $500.
+In one telling incident at that time, Musk, along with his brother, planned to open a video game arcade near their school. Ultimately, their parents nixed the plan. But apparently the only thing stopping them was the need for a city permit which had to be applied for by an adult.
+Move to Canada 
+Having received citizenship through his Canadian-born mother, Musk moved to Canada at the age of 17. By doing so, he was able to avoid mandatory service in Apartheid South Africa's army. At 19, he entered Queen's University in Kingston, Ontario where he spent two years. It was here that he met his future wife, Justine Musk, with whom he has six children. 
+Move to the United States
+In 1992, having won a full scholarship to the University of Pennsylvania, Musk moved to the United States. At Penn, he received a Bachelor of Science degree in physics and stayed on an additional year to earn a Bachelor of Science in economics.  
+He then moved to California to begin a Ph.D. in applied physics at Stanford University, but famously left the program after just two days to participate in the raging dot-com boom. At the age of 24, he and his brother Kimbal launched Elon’s first company, Zip2, a provider of Internet platform solutions for media companies. Zip2 was able to win contracts with companies such as the New York Times and the Chicago Tribune. In 1999, Compaq bought Zip2 for $307 million in cash and $34 million in stock.  
+Next, Musk used his Zip2 buyout money to create X.com, which he intended to shape into the future of banking. X was merged with a company called Confinity and the resulting company came to be known as PayPal. Musk was then ousted from the company before it was bought by eBay. 
+After PayPal slipped away, Musk helped generate funding for an electric car startup called Tesla. You probably know the rest. 
+The Bottom Line
+His early interest in reading philosophy, science fiction, and fantasy novels is reflected in his sense of idealism and concern with human progress. He aims to work in the areas he has identified as crucial to our future, specifically the Internet, the transition to renewable energy sources, and space colonization. With his work with PayPal, Tesla Motors, SolarCity, and SpaceX, he has defied critics and made advances in all three of these frontiers. (See alsoː 4 Real-Life Tony Starks.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '',
+     'leadGenVertical' : '',
+     'leadGenLayout' : '',
+     'leadGenPage' : ''
+    });
+                    
+            
+                

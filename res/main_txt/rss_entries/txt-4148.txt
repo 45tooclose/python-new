@@ -1,0 +1,77 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Jeff Bezos, the founder and CEO of Amazon.com Inc. (AMZN), surpassed Microsoft Corp.'s (MSFT) Bill Gates and Berkshire Hathaway Inc.'s (BRK.A) Warren Buffet as the richest person in the world earlier this year. His personal fortune stands at $129.5 billion, according to Forbes, as he stands at the helm of one of the world's most powerful and disruptive tech companies. Bezos has seen his lead continue to gain as AMZN shares skyrocket on consecutive periods of top and bottom line growth, while the e-commerce and cloud computing behemoth pushes into new markets such as grocery, health care, artificial intelligence (AI), parcel delivery and entertainment. 
+At an awards event hosted by German publishing company Axel Springer and Business Insider U.S. editor in chief Alyson Shontell, the entrepreneur spoke to his plans for spending his growing pile of personal capital. “The only way that I can see to deploy this much financial resource is by converting my Amazon winnings into space travel. That is basically it,” stated Bezos. The CEO reiterated plans to continue to use the majority of his assets to fund his space program Blue Origin, providing the project with $1 billion in funding through AMZN stock every year. 
+"Blue Origin is expensive enough to be able to use that fortune," stated Bezos. "I plan to continue [liquidating Amazon stock to fund Blue Origin] for a long time," said the CEO, suggesting that the space company "is the most important work that I'm doing." 
+'I am Very Lucky'
+Bezos' aerospace company completed a successful launch its New Shepard rocket for the first time this year and hopes to send humans into space by as early as this year. Blue Origin's CEO Bob Smith suggests that human space travel will only happen once the company ensures that it is completely safe to do so. 
+"I am very lucky that I feel like I have a mission-driven purpose with Blue Origin that is, I think, incredibly important for civilization long-term. And I am going to use my financial lottery winnings from Amazon to fund that," said the tech mogul.
+The creator of "the everything store" has faced scrutiny over his lack of charitable contributions relative to his fellow tech billionaires. In June 2017, Bezos solicited advice from his Twitter followers regarding a philanthropic strategy that addresses "the right now," and the "intersection of urgent need and lasting impact." He indicated that he is "very inspired" by the work done at Mary's Place, a homeless shelter based in Seattle. (See also: Bezos Says Work-Life Balance is a 'Debilitating' Phrase.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

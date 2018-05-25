@@ -1,0 +1,210 @@
+
+
+
+No Crypto Indexes from S&P Dow Jones Coming Soon, CEO Says
+The head of S&P Dow Jones Indices has said his company is not interested in cryptocurrency indexes, at least for now.
+
+
+ by  Anatol
+Antonovici,
+8 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  S&P Dow Jones Indices, the company behind the S&P 500 and Dow Jones Industrial Average (DIJA) indexes, is not ready to introduce cryptocurrency indexes, CEO Alex Matturri was cited as saying by Bloomberg.
+Speaking during a visit to Tokyo in April, Matturri said his company had received numerous requests from clients to establish indices tracking cryptocurrencies, but he is currently against the idea.
+
+“Not right now. [But] it’s prudent for us to take a wait-and-see approach,” he added.
+“We have a reputation, we’ve been around a lot of years and we’re not going to tarnish our reputation over just creating a new product idea,” Matturri noted.
+
+However, he is not against the cryptocurrency phenomenon in general and finds it interesting. He pointed out that “clearly there is a demand -- that’s something worthwhile to keep an eye on.”
+
+One of the main concerns, according to Matturri, is the position of the US Securities and Exchange Commission (SEC) on cryptocurrency exchange-traded funds (ETFs). At the beginning of the year, the SEC issued several investor protection notifications and warnings related to crypto ETFs and mutual funds, especially those available for retail investors.
+
+“You don’t want an index that somebody is going to use in a product that either manipulates markets or is easily manipulated. If it’s meant as a tool for gambling, well, go to Macao or Las Vegas. That’s not what investing is about,” Matturri said.
+
+Meanwhile, he endorsed the potential of the distributed ledger technology (DLT), as blockchain is also known. He admitted that DLT, which underpins most existing cryptocurrencies, is what keeps him interested in the idea of crypto indexes.
+Speaking about blockchain, Matturri said that “it’s still got a ways to go before it’s kind of in the mainstream, more legitimized.” However, it might happen quickly as the technology is more disruptive now than ever before.
+S&P Dow Jones is a joint venture set up by S&P Global, CME Group, and News Corp. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

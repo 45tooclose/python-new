@@ -1,0 +1,137 @@
+
+
+    
+                          DEFINITION of 'Founder's Reward'
+
+      Founder’s Reward is the compensation offered to early developers and team members of a cryptocurrency after an initial coin offering (ICO). It generally takes the form of rewards and bounties after the ICO’s successful completion.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Full Nodes                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Bitcoin Mining                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Centralized Market                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            SelfKey (KEY)                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Founder's Reward'
+      While the term itself was first used by Zcash, Ethereum was the first blockchain to announce the allocation of ether, its cryptocurrency, for developers who had expended time and effort during the project’s initial stages. Approximately 6 million of the 60 million total ether sold to the public were set aside for developers. Zcash allocated 2.1 million (out of a total of 21 million) among owners of the Zcash company. “With this approach, the founders are incentivized to support Zcash for the long haul (at least for four years), and they have limited ability to pump-and-dump,” the company’s founder Zooko Wilcox wrote in a post introducing the concept. In the case of Ethereum, the founder’s reward caused some controversy as another 6 million was allocated to the Ethereum Foundation, which counts some early developers among its members. Some investors worried that Ethereum’s core team was profiting from two sources. But others are not worried. “In our view, with 15 talented developers involved prior to the public sale, 6 million ether translated to just north of $100,000 per developer at the presale rate, which is reasonable given the market rate of such developers,” Chris Burniske and Jack Tatar, authors of Cryptoassets, wrote.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

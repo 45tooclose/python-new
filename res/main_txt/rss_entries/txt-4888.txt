@@ -1,0 +1,94 @@
+
+
+
+    
+        
+            
+        
+          
+                
+      
+
+    
+
+    
+        Carl Icahn is one of Wall Street's most successful figures. In the 1980s, this corporate raider – using Drexel Burnham's junk bonds – became known as a vulture capitalist, taking positions in public companies and initially demanding extreme changes in both their corporate leadership and management styles. Often, targets paid him "greenmail" money, with the stipulation that he would step away from his target.
+By the end of the 20th century, though, his reputation changed, as he became a shareholder activist. Investors followed his lead and bought into the businesses he set his focus upon. The increase in stock price caused by the anticipation that Icahn would uncover shareholder value became known as the "Icahn lift."
+In this article we'll take a closer look at Icahn and his "lift" phenomenon's impact on the market and investing world.
+Investment Philosophy
+Icahn has said: "My investment philosophy, generally, with exceptions, is to buy something when no one wants it." More specifically, as a contrarian investor he identifies corporations with stock prices that are reflective of poor price-to-earnings ratios (P/E ratio) or with book values that exceed the current market valuation.
+Icahn then aggressively purchases a significant position in the corporation and either calls for the election of an entirely new board of directors or the divestiture of assets in order to deliver more value to shareholders. Icahn focuses publicly on CEO compensation, saying he believes that many top executives are grossly overpaid and that their pay has little correlation to stock performance.
+Beginnings
+In 1979, Icahn's first victory was the takeover through a proxy vote of Tappan Company. Soon after winning a seat on the board, he engineered the sale of the company in a transaction that doubled his initial investment. Soon after, he would target Marshall Fields and Phillips Petroleum, both of which yielded significant returns as the companies fought to stave off his control.
+TWA was the pinnacle of Icahn's early endeavors. In 1985, he took over the airline once controlled by Howard Hughes. Soon after, TWA bought several small regional carriers, as Icahn sought to use the broadened airline's efficiency to generate greater profits. In 1988, he took the company private through a $650 million stock-buyback plan that allowed him to regain almost his entire $469 million investment. This also saddled TWA with $540 million in debt. Soon after, the airline's most prized routes would be sold to competitors, leading the weakened business to declare Chapter 11 in 1992 and Icahn's leaving the company at the beginning of the following year.
+In the interim, Icahn negotiated for airline vouchers from the company in lieu of the $190 million that TWA owed him. As the deal included the provision that he could not sell these tickets through travel agents, Icahn founded LowestFare.com, where he both sold the tickets and created a revolution in the travel industry.
+Reflections on the TWA Experience
+Icahn's experience with TWA would guide him to focus primarily upon seeking profit via underlying share-price increases, which are usually achieved by the divestiture or outright liquidation of assets. Another outcome is the direct payment of greenmail to Icahn. The methodology employed begins with the purchase of a large block of shares in the corporation, followed by the proposal of a slate of directors, which include Icahn and his allies.
+One example of his mode of operating was his compelling of USX – the corporate descendant of Andrew Carnegie's U.S. Steel – to spin off its steel-manufacturing division and instead focus on the petroleum business through Marathon Oil, a company once owned by John D. Rockefeller. In 1991, following the creation of a second class of USX shares to represent the steel division, both classes of stocks rose 28%.
+Icahn's deals also include his acting as a catalyst during the battle between Pennzoil and Texaco. There, Icahn accumulated over 13% of Texaco's stock and failed in his effort to take control of the board. However, the final agreement between the litigating corporations caused a rise in both their stock prices, bringing Icahn a financial windfall.
+More Recent Successes
+In another infamous battle, Icahn accumulated a 7.3% stake in RJR Nabisco during the late 1990s. He then launched a proxy fight to both gain control of the board and force the breakup of the company. Even though he was unsuccessful in these efforts, he realized victory through an extraordinary profit in his investment as the company's management was supported by investors, enough to give Icahn a $100 million increase in his portfolio.
+In a similar attempt, Icahn failed to force Time Warner to split its operations into four separately listed companies, a division he campaigned for in 2006. Though rebuffed by that corporation's other major shareholders, Icahn both reaped a large profit in his investment and pressed the company to elect two independent board members and commit to cost-cutting measures.
+Another recent example of Icahn's influence in stock prices was with Netflix in the autumn of 2012. True to his contrarian philosophy, Icahn accumulated over 10% of the company when it was near its 52-week low. The "Icahn lift" sent the stock soaring 14% after he disclosed in a regulatory filing his stake in the company.
+The Bottom Line
+Descriptions of Carl Icahn range from vulture capitalist to greenmailer. He's been called a gadfly and a shareholder activist. In fact, neither his philosophy nor his strategy has changed much over the past three decades, during which he rose from a stockbroker to one of Wall Street's most influential players.
+Similar investors such as T. Boone Pickens and Saul Steinberg have employed hardball tactics in their runs against the boards of undervalued public corporations. However, Icahn's war chest has grown not only from the accumulation of his profits from past deals but also through his creation of multi-billion dollar master limited partnership called Icahn Enterprises L.P. This investment vehicle offers Icahn additional resources outside his enormous personal fortune to use in the strategic investments, which are the forces behind the "Icahn lift."
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

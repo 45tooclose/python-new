@@ -1,0 +1,144 @@
+
+
+    
+                          What is 'Wild Card Option'
+
+      A wild card option allows someone selling a Treasury Bond or Treasure Note futures contract to state that they will allow the short position to deliver the commodity after the closing price of a futures contract has already been made, after regular trading hours.
+A futures contract is a contract made when a holder agrees to buy or sell an asset, like a security or commodity, for a set price at a certain date in the future. Essentially, a futures contract is a promise to buy or sell the asset, quite literally, in the future, so the wild card option lets the seller of that contract “lock in” a price even after-hours if the price drops.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Best To Deliver                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Treasury Direct                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Wild Card Play                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Bond Futures                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Wild Card Option'
+      To  understand how the wild card option works, it’s helpful to understand how exactly futures contract deals are made. They are generally made within the time frame of the The Chicago Board of Trade Treasury Bond Futures Contract time frame. The future market closes at 2 PM, but sellers in the short position are not required to declare an intent to settle their contracts until 8 PM. Because of this time frame, an investor might choose to short a futures contract at or prior to 8 PM in Chicago time, even after the exchange has closed when the futures settlement price has been set.
+This allows the seller to watch to see if bond prices change favorably between 2 PM and 8 PM, giving them a six-hour “wild card” option to try to sell at a more favorable price, even after-hours. The wild card option occurs on every trading day of the delivery month for the short position investor.
+This provision allows the short futures contract holder to announce his or her intention to deliver the underlying securities on any notice day before a specified time, which is later than the regular trading hours, in which invoice prices are normally fixed. The security that is delivered is usually the cheapest to deliver on that specific day.
+More wild card options
+While there is a timeframe wildcard option, there is also a monthly wild card option. The end-of-the day wildcard option lets the contract price of a Treasury bond futures contract to be set at 2 PM Central Standard Time and let the short futures wait until 8 PM before declaring an intention to deliver. An end-of-the-month wildcard option, however, lets a settlement price for a Treasury bonds futures contract to be set seven days before the end of the contract month and lets the short futures wait until the end of the month before delivering.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

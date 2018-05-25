@@ -1,0 +1,107 @@
+
+
+
+    
+        
+            
+        
+          
+                
+      
+
+    
+
+    
+        There's a little-understood but growing segment of the convertible securities market known as mandatory convertibles.
+In some ways, mandatory convertibles behave just like ordinary convertible bonds and convertible preferred shares, but in other ways, they are entirely different. In this article we examine the mandatory convertible to determine its unique nature, under what circumstances it should be purchased and when conditions warrant opting for an altogether different investment product.
+A Quick Review
+Generally, convertible securities are issued as preferred shares or bonds, which can then be converted into a specific number of the issuer's common shares at or before a specific date.
+Because they are convertible to common stock, these securities correlate with the movements of the common shares. Investors, therefore, enjoy the dual benefit of participating in the appreciation of the common stock as well as an enriched income stream. In addition, convertibles offer holders a muted downside risk; their higher yields buoy these instruments from falling in step with the common stock.
+Mandatory convertibles, however, operate somewhat differently. They do have an enhanced yield over the dividend yield of the underlying common stock (historically in the range of an annual 5-7% morey), and they do convert into that same common stock, but that's where the similarities end. The differences are:
+Mandatory convertibles trade on the open market, unlike most convertible securities which trade on the over-the-counter (OTC) dealer market for institutional accounts. This makes them more accessible to the retail investor.
+Choosing when to convert to the common stock is not an option. The shares are converted automatically on or before a specific date – usually three to five years from the date of issue.
+The number of shares received upon conversion is not known beforehand, but is based on the closing price of the common stock at the time of conversion. Call it a "variable conversion mechanism", which provides a greater number of shares the lower the common shares trade.
+There is no par value return for cash as there is with a convertible bond or preferred, so in this regard they offer little downside protection.
+The upside potential with mandatory convertibles is also limited.
+What to Expect from Your Mandatory Convertible
+In general, mandatory convertibles are designed to move hand-in-hand with the underlying common stock on the downside, while limiting upside participation. How this is accomplished is best understood by examining the constituent parts of the security.
+Mandatories are hybrids of the following securities:
+Purchase of the common stock
+Sale of an at-the-money call option
+Partial purchase of an out-of-the-money call option (i.e. an 80% call on the underlying)
+The premium received on the sale of the call option is reinvested by the issuer in order to create a healthy income stream. (Read Options Basics if you're interested in learning more about options.)
+The Key to Mandatory Price Behavior
+In essence, the holder of mandatory convertible shares has written a covered call and holds an additional partial call option on the common stock. Therefore, if the stock falls, the mandatory falls with it (as would the value of any covered call). If the common stock rises significantly, the mandatory will also participate in the upside, albeit not in lock-step with the common.
+Let's say you buy 1,000 shares of a mandatory convertible.
+If the common stock rises ...
+As the price climbs, you would not participate in the move until the out-of-the-money call is in the money. At that point, you would partake of 800 shares worth of upside. You would thus collect a relatively high payout while owning a stock that has little or no dividend – and still have access to longer term upside gain.
+If the common stock falls ...
+As the prices decline, your mandatory will fall with them, as there is nothing to cushion the drop on the downside.
+At the time of conversion ...
+Remember that the moves described above will also be tempered by the ultimate conversion of the mandatory into common shares. Mandatory convertibles convert into fewer shares the higher the closing price of the common shares is at the time of conversion. So, if the common stock has gained 20% or more from the date the mandatory was issued, conversion might be around 0.8 shares per mandatory. If the stock lost 20% or more from the date of issuance, conversion might be 1.25 common shares per mandatory. In between a 20% gain and a 20% loss, shares would be converted on a sliding scale between 0.8 and 1.25 shares.
+Those who are quick with math will see that the structure was created to convert the mandatory to the same number of common shares that were available at the time of issuance.
+How Best to Employ the Mandatory Convertible
+Given the structure and behavior of mandatory convertibles, one should consider purchasing mandatory convertibles only when one requires an immediate income stream and likes a company's near-term prospects of a company whose common shares offer little or no yield.
+If, however, one is outright bullish on the company, a straight purchase of the common shares should be considered – or even the straight purchase of call options.
+Finally, mandatory convertibles should only be considered for tax-sheltered accounts as they do not qualify for favorable tax treatment.
+The Bottom Line
+Mandatory convertibles behave very differently from other convertible investments and offer distinct advantages and drawbacks over straight purchases of the issuer's underlying common stock. A clear understanding of your investment goals will be the key to deciding whether mandatory convertibles are a must-have for the income-oriented segment of your portfolio.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Deposit',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

@@ -1,0 +1,146 @@
+
+
+    
+                          What is 'Form 1095-C'
+
+      Form 1095-C, Employer-Provided Health Insurance Offer and Coverage Insurance, is an IRS tax form reporting information about an employee's health coverage offered by an Applicable Large Employer.  Information from this form also helps determine a taxpayer's eligibility for credits, such as the premium tax credit.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Form 1095-B                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Universal Health Care Coverage                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Minimum Essential Coverage                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Health Insurance Marketplace                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Form 1095-C'
+      Recipients who receive the 1095-C tax form are employees of an Applicable Large Employers (ALE) member.  Applicable Large Employers have at least 50 full-time employees, including FTEs, on average during a calendar year.  ALEs are subject to the employer shared responsibility provisions and the employer information reporting provisions of the Affordable Care Act. Qualifications for this designation are reviewed each calendar year.  The purpose of form 1095-C, along with form 1095-A, is to determine whether an ALE member owes a payment under the employer shared responsibility provisions of the Affordable Care Act.
+Employees who worked for more than one ALE in a calendar year will receive a 1095-C form from each employer.  Healthcare coverage offered through an insured plan will be reported on form 1095-B.  An individual enrolled in a Marketplace healthcare plan will receive form 1095-A.
+Form 1095-C Sections
+Form 1095-C is a reference document not to be completed by the taxpayer and not to be filed with a tax return.
+Part I of the form provides information about the ALE member, including their name,  address, and phone number for questions about the validity of the form or to report errors.  
+Part II provides information about the healthcare coverage, if any, presented to the employee.  In addition to information about the plan, it also reports employee required contributions.
+Part III complete only if the employer offered a self-insured plan.  It lists the names of the covered individuals along with their SSNs and DOB.  This section also confirms uncovered months for the participants.  
+If parts I and II are the only sections filled, the employee may also receive a form 1095-B, which provides proof of coverage from the insurer chosen by the employer.  
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

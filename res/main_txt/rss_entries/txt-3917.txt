@@ -1,0 +1,150 @@
+
+
+    
+                          What is 'Fear And Greed Index'
+
+      The fear and greed index was developed and used by CNNMoney to measure the primary emotions that drive investors: fear and greed. The Fear and Greed Index is based on seven indicators:
+1. Stock Price Momentum - as measured by the S&P 500 versus its 125-day moving average
+2. Stock Price Strength - based on the number of stocks hitting 52-week highs versus those hitting 52-week lows on the NYSE
+3. Stock Price Breadth - as measured by trading volumes in rising stocks against declining stocks.
+4. Put and Call Options - based on the Put/Call ratio
+5. Junk Bond Demand - as measured by the spread between yields on investment grade bonds and junk bonds
+6. Market Volatility - as measured by the CBOE Volatility Index or VIX
+7. Safe Haven Demand - based on the difference in returns for stocks versus Treasuries
+Each of these seven indicators is measured on a scale from 0 to 100, with 50 denoting a neutral reading, and a higher reading signaling more greed. The index is then computed by taking an equal-weighted average of the seven indicators.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Emotional Neutrality                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Indexing                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Index                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Total Return Index                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Fear And Greed Index'
+      The fear and greed index is a contrarian index of sorts, which is based on the premise that excessive fear can result in stocks trading well below their intrinsic values, while unbridled greed can result in stocks being bid up far above what they should be worth. According to some academics, greed, like love, has the power to affect our brains in a way that coerces us to put aside common sense and self-control and thus provoke change. While there is no generally accepted research on biochemistry of greed, no one can deny that when it comes to humans and money, fear and greed can be powerful motives.
+Fear and Greed Index as a Research Tool
+The fear and greed index can be seen as an indicator of a potential turn in equity markets. For example, the index sank to a low of 12 on Sept. 17, 2008, when the S&P 500 fell to a three-year low in the aftermath of the Lehman Brothers bankruptcy and the near-demise of insurance giant AIG. By contrast, it traded over 90 in September 2012 as global equities rallied following the Federal Reserve's third round of quantitative easing (QE3).
+Skeptics downplay the fear and greed index as a legitimate investment research tool, seeing it more as a barometer for the market-timing crowd. However, there is a strong case to be made for its merit. Many investors are emotional and reactionary, and fear and greed are heavy hitters in that arena. 
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

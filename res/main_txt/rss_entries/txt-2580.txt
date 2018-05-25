@@ -1,0 +1,140 @@
+
+
+    
+                          What is 'Product Family'
+
+      A product family is a group of related goods manufactured by a single company. Companies benefit from creating product families as they can leverage the loyalty their existing customers feel toward an existing product to get them to buy additional, related products. Product families also allow companies to attract new customers to their brand by providing an array of products that are similar but meet slightly different needs. Customers benefit from product families because they can rely on their positive experience with an existing brand when choosing a new product.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Gardening Leave                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Brand Loyalty                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Friends and Family Shares                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Market Leader                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Product Family'
+      As an example of the power of a product family, a backyard gardener might have been using the same pesticide for years to control the caterpillars that always try to eat his tomato plants. One year, he decides to try growing sugar snap peas for the first time and discovers that he needs a new product to control a disease, powdery mildew, that is affecting his crop. The company that produces the caterpillar pesticide has an entire family of products to help the home gardener successfully cultivate different crops, so when the gardener goes to the store to purchase a product for his new problem, he looks for one made by the same brand that he is already using. The gardener can shop quickly and get peace of mind by buying from a product family he already has experience with, and the gardening product company gains additional business from an existing customer.
+A product family comprises related products of various sizes, types, colors, qualities, or prices. A product family can also spawn a collection of sub-category product lines. "Line consistency" refers to how closely related the products that make up a product family (or line) are. Line vulnerability refers to the percentage of sales or profits that are derived from only a few products in the product family.
+Product Families vs. Product Bundles
+Product bundling involves offering a number of products as one combined item for a special promotional price that is meant to create differentiation and greater value. By contrast, a product family strategy focuses on selling a collection of related products individually. The products in the product family come in various sizes, colors, qualities, or prices. For instance, the variety of coffees that are offered at a café is one of its product families and it could consist of flat white, cappuccinos, short black, lattes, mochas, etc. Alternatively, product families of juices, pastries and sandwiches can also be found at a café. The benefits of having a successful product line is not only sales, but also brand loyalty from customers, which is earned by consistently creating a satisfactory customer experience. A successful product family increases the likelihood of customers purchasing new products from the company, which helps build the all-important bottom line.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

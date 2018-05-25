@@ -1,0 +1,138 @@
+
+
+    
+                          DEFINITION of 'Fourier Analysis'
+
+      Fourier analysis is a type of mathematical analysis that attempts to identify patterns or cycles in a time series data set which has already been normalized. By first removing any effects of trends or other complicating factors from the data set, the effects of periodic cycles or patterns can be identified more accurately, leaving the analyst with a good estimate of the direction that the data under analysis will take in the future. Named after the nineteenth-century French mathematician and physicist Joseph Fourier.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Industry Life Cycle Analysis                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Accounting Cycle                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Pattern                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Billing Cycle                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Fourier Analysis'
+      Fourier analysis may sound complex, but it actually makes good sense. For example, suppose a manufacturing company wanted to know what stage of its price cycle its main raw material was in. Because inflation would constantly be increasing the dollar price of the commodity over time, an analyst would remove the effects of inflation from the commodity's historical prices first. Once inflation was controlled for, the analyst would then have a much more accurate picture of the price cycles experienced by the commodity.
+Numerous studies have explored Fourier analysis for practical value in forecasting stock market price. Because Fourier analysis seeks to breakdown repetitive waveforms into harmonic components and the stock market doesn't move in a well defined and repetitive manner; results are mixed, as most similar strategies are.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

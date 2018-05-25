@@ -1,0 +1,147 @@
+
+
+    
+                          DEFINITION of 'Sequential Growth'
+
+      Sequential growth is a measure of a company's short-term financial performance that compares the results in a recent period to those of the period immediately preceding it. In financial reporting, sequential growth often compares results between two quarters. A company might report 3% sequential sales growth, meaning that its revenue has increased by 3% since the previous quarter.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Quarterly Revenue Growth                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Growth Rates                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Close Period                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Short-Term Gain                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Sequential Growth'
+      When considering how much weight to place on reports of sequential growth (or the lack thereof), it is important to keep in mind that seasonal fluctuations often affect a company's short-term performance. For example, a major retailer might report 10% sequential growth in the fourth quarter, then see a relative decline in revenue in the first quarter of the following year. This does not necessarily indicate that the business is performing poorly; it could simply be the result of increased consumer spending during the holiday season, followed by a return to normal spending in the new year. It is important to look at a variety of indicators to get an accurate picture of a company's performance.
+Example of Sequential Growth
+In April 2018 Amazon released results for Q1. These displayed increases in several segments with respect to both year-over-year (YOY) and sequential growth. In Q1 2018 sales roles 43-percent annually to $51.0 billion although the figure fell from the previous quarter by an estimated 15.5-percent. However, for Amazon and other retailers, this is to be expected since that previous quarter (Q4 2017) included heightened holiday sales. In addition, operating cash flow (OCF) did relatively well in Q1 2018 at $18.2 billion, a 4-percent increase from Q1 2017 year and 1-percent decrease from the preceding Q4 2017.
+Sequential Growth and Additional Growth Rates
+Sequential growth is one measure of a company’s progress. Additional growth rates to consider when analyzing a company include a compound annual growth rate or CAGR. CAGR is used to measure an investment's return or a company's performance, assuming steady growth over a specified period of time. CAGR is a widely used due to its simplicity and flexibility, and many firms will use it to report and forecast earnings growth.
+Broken down: CAGR is the mean annual growth rate of an investment over a specified period of time greater than one year. To calculate CAGR, divide the value of an investment at the end of the period in question by its value at the beginning of that period, raise the result to the power of one divided by the period length, and subtract one from the subsequent result.
+This can be written as follows:
+
+Try using Investopedia's own Compound Annual Growth Rate Calculator as well.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

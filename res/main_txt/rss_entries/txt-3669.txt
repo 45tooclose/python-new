@@ -1,0 +1,137 @@
+
+
+    
+                          DEFINITION of 'Uncovered Interest Arbitrage'
+
+      Uncovered interest arbitrage is a form of arbitrage that involves switching from a domestic currency that carries a lower interest rate to a foreign currency that offers a higher rate of interest on deposits. There is a foreign exchange risk implicit in this transaction since the investor or speculator will need to convert the foreign currency deposit proceeds back into the domestic currency some time in the future. The term "uncovered" in this arbitrage refers to the fact that this foreign exchange risk is not covered through a forward or futures contract.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Forex Arbitrage                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Fixed-Income Arbitrage                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Arbitrage Trading Program (ATP)                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Currency Substitution                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Uncovered Interest Arbitrage'
+      Uncovered interest arbitrage involves an unhedged exchange of currencies in an effort to earn higher returns due to an interest rate differential between the two currencies. Total returns from uncovered interest arbitrage depend considerably on currency fluctuations, since adverse currency movements can wipe out all the gains and in fact even lead to negative returns. If the interest rate differential obtained by investing in a foreign currency is 3%, and the foreign currency appreciates against the domestic currency by 2% during the holding period, the total return from this arbitrage activity is 5%. On the other hand, if the foreign currency depreciates by 4% during the holding period, the total return is -1%.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

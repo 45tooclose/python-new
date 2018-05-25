@@ -1,0 +1,75 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Amazon.com Inc.'s (AMZN) blowout first-quarter results have warranted a mountain of praise from Wall Street on Friday. On Thursday after the closing bell, AMZN reported revenue up 43% over Q1 2017, while net income more than doubled to $1.6 billion. (See also: Tech Still Reigns Over the Market: Credit Suisse.)
+Among the bulls, Macquarie's Ben Schachter lifted his 12-month price target to $2,100, reflecting an approximate 40% upside from AMZN's price of $1,5171.96 at Thursday close. The new price forecast is the Street's most ambitious, and reflects a market capitalization of $1.02 trillion by 2019. Shares of the Seattle-based e-commerce and cloud computing behemoth spiked 8.8% in pre-market trading Friday at $1.652.94, securing a 41.4% gain year-to-date (YTD) and an 81.5% return over the most recent 12 months. The stock has already returned almost 550% to shareholders in the five-year-period, again sharply outperforming the S&P 500's 68.6% return over the same time, while the index trades about flat YTD. 
+"We believe that even without margin expansion in core retail, the other businesses can drive significant profit growth over the coming years and will make AMZN the first trillion dollar company," wrote the Macquarie analyst. "As its core 1st and 3rd party retail sales continue to take significant share from virtually all competitors, its subscription business, AWS, and advertising business are all exceeding expectations markedly."
+Second Only to Apple
+Schachter noted remaining concerns for AMZN stock regarding regulatory risk and growing political interference in the tech landscape. "AMZN's continued success is sure to attract more attention from governments around the world than ever before," wrote Macquarie. 
+At a market value of $736 billion at Thursday close, Amazon ranks just behind Apple's $833 billion value. 
+Goldman Sachs analyst Heath Terry also weighed in on the results on Friday, recommending AMZN at buy and indicating that the retail giant is only in the "early stages" of tackling many of its key markets, such as "a shift of compute to the cloud ad the transition of traditional retail online." He sees the market as "underestimating the long-term financial benefit of both to Amazon." His new $2,000 price target, up from $1,825, reflects a 32% upside from Thursday close.  (See also: Amazon to Be #1 in Apparel in 2018: Morgan Stanley.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

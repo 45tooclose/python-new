@@ -1,0 +1,77 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Blackstone Real Estate Partners VIII plans to buy Gramercy Property Trust (GPT) for $7.6 billion.
+Blackstone will pay $27.50 per share in an all-cash deal that has been unanimously approved by the Gramercy Board of Trustees. The price represents a 23% premium over the 30-day average share price ending May 4 and a 15% premium over the stock’s closing price May 4. It gives Gramercy a market cap of $4.42 billion.
+“We believe this validates the quality of the portfolio and platform that we have built,” Gramercy CEO Gordon DuGan said in a statement. “Entering into this transaction with Blackstone fulfills our Board of Trustees’ mission to maximize shareholder value.” (See also: Freddie Mac Expands 3% Down Mortgage Program.)
+Founded in 2004 as Gramcery is a real estate investment trust (REIT) that focuses on industrial properties.
+Acquisition to Close This Year
+The deal is scheduled to close in the second half of the year, pending the approval of Gramcercy shareholders. Blackstone's head of U.S. real estate acquisitions Tyler Henritze said the company is “pleased to acquire Gramercy and its strong portfolio of assets.”
+Shares of Gramercy Property Trust were up 15.8% in pre-market trading on Monday. In the past year, the stock has fallen more than 13%, yet shares have rebounded 8.6% in the past month. The company is scheduled to report quarterly earnings June 30.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

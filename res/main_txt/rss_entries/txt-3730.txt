@@ -1,0 +1,214 @@
+
+
+
+BidiPass Wants to be Every Consumer’s Secure Financial Passport to the World
+BidiPass is a project which aims to offer peer-to-peer authentication in an increasingly digital world, relying on passwords and pin codes.
+
+
+ by  News
+Desk,
+9 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  There’s a current popular saying that goes, “life comes at you fast.” No doubt a lot of us also wonder, why does it have to be this complicated? BidiPass seems to have had the same things in mind when they developed their blockchain-based authentication platform based on their encrypted key known as BidiKey.
+Today most of our daily financial transactions are password or PIN-protected activities. They require any number of physical credit or debit cards to complete. Banks and other financial institutions have worked hard to make these interactions as safe as possible from fraud and theft, but their solutions are usually impeded by complex, heavy-handed legacy IT systems that lack flexibility for customers. The very technology that was meant to make our lives easier often proves to be a headache for most of us, who struggle to maintain an extensive list of unique passwords for every institution and retailer with which we do business.
+BidiPass offers peer-to-peer authentication
+BidiPass aims to deliver the high security required to protect users’ assets while offering a simple solution that will help consumers get through their day without producing an endless string of plastic cards and accompanying passwords to verify who they are. BidiPass is so confident in their BidiKey blockchain solution that they’ve patented their peer-to-peer authentication technology in a long list of countries around the world. Their confidence is shared by the Latin American- and Spanish-based Clarke, Modet and Co., which appraised their patent in the millions of dollars.
+As the company’s name connotes, BidiPass will be a sort of global financial passport that will allow users to conduct business, make financial transactions, and even sign legal documents without the risk of identity theft or other types of fraud. The platform can also be used for things like boarding passes and ticketed events, enabling event staff to control access to venues. Users who adopt the technology will follow a general Know Your Customer (KYC) protocol that complies with common jurisdictional Anti-Money Laundering (AML) legislation, giving any financial institution or service provider that has integrated with the BidiPass platform assurance that they can safely accept transactions from BidiPass users. The platform’s bi-directional encryption means that consumers are equally protected from nefarious activities like phishing during the transaction authentication process.
+BidiKey is based on a Quick Response Code (QR Code). The platform allows users to access their personal funds using any digital device, including their mobile phone, watch, tablet, or desktop computer. It can be used online or on-site, and can even be used if your mobile is in airplane mode. Most importantly, Bidipass’s platform minimizes the risk of identity theft through its BidiKey authentication system, which relies on a two-way identity-based encryption scheme using a QR code containing an encrypted session key. The technology allows customers to be approved instantaneously for any financial transactions. For financial service providers who participate in the platform, BidiPass could provide access to new customers and potential revenue.
+A great team behind the scenes
+The revolutionary platform was developed by an international group of financing and banking security professionals who have been in the industry for over 20 years.
+Their founding chairman, Fernando Albarrán tells us:
+
+“Bidipass was created to facilitate seamless and secure financial transactions quickly and easily. Our platform will allow anyone to create a personal digital financial passport that will be recognized by any business in the BidiPass network. That means any business that adopts the platform will be able to offer agile service and will likely enjoy new revenue streams without being bogged down by their institutional legacy systems.”
+
+The team has been busy participating in international distributed economy conferences, including Deconomy 2018, which took place in Seoul in early April. They also attended the 2nd Global Fintech & Blockchain China Summit 2018 held on April 12, where they had the opportunity to introduce their project and meet with other like-minded innovators who share their aims of blockchain development. Notably, the Bidipass team have just announced that they signed a memorandum of understanding with Dr. Seung-Hoon Park of Hilarium Foundation, Hilaris Blockchain Institute, whom they met at Deconomy. The parties say that their MOU will allow them to collaborate on R&D development and provide mutual assistance to expand their projects in the future.
+The entire BidiPass network is driven by the platform’s BidiCoin (BDP). The company is presently in the public limited phase of its ICO, which ended on April 19, 2018. Their full public sale begins May 16, 2018, with a one-day 25% bonus and then continues until July 16th with decreasing purchase bonuses available. ICOBox, the world’s premier SaaS solution for companies conducting their own ICOs is working with BidiPass throughout their ICO process.
+ICOBox co-founder Nick Evdokimov says:
+
+“Today’s consumers demand an intuitive and secure way to conduct financial transactions. Blockchain technology can deliver on that need, and BidiPass has leveraged the technology capable of making it happen.”
+
+To learn more about BidiPass, visit bidipass.org  
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

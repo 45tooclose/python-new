@@ -1,0 +1,207 @@
+
+
+
+Bitfinex Launches Stellar and Verge Trading
+Bitfinex, one of the leading crypto exchanges out there, recently announced the introduction of two new tokens, namely Stellar’s Lumens and Verge.
+
+
+ by  Anatol
+Antonovici,
+16 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  On May 1, 2018, the Bitfinex crypto exchange announced the addition of two new tokens to its trading list – Verge and Stellar’s Lumen. The rates of both cryptocurrencies have seen bullish trends for the last seven days. The exchange, which is one of the largest by trading volume, made the announcement via two separate blog posts.
+The two tokens have a combined market cap of about $9 billion, according to Coinmarketcap data. Stellar is the 8th largest cryptocurrency by market cap, while Verge is placed 24th on Coinmarketcap’s list.
+Bitfinex CEO Jean-Louis van der Velde commented on the new additions:
+
+“Adding Stellar and Verge to our platform underlines our commitment to extend the reach of Bitfinex traders to the most exciting investment opportunities in the space. With a stellar combined market cap of $9+ billion, these elite tokens bolster our growing array of tokens as we continue to anticipate the needs and demands of the digital asset community.”
+“Today’s announcement continues the strong wave of activity within the Bitfinex community, following the addition of 12 new tokens to our platform earlier this month. We look forward to maintaining this positive momentum in the weeks and months ahead,” van der Velde added.
+
+On April 11, 2018, we reported that Bitfinex listed 12 new tokens, among them Loopring, Aion, and IOSToken. The combined market cap of the 12 coins was about $1.1 billion at that time.
+In the meantime, Bitfinex added another group of four tokens, which include Aragon (ANT), Mithril (MITH), Dether (DTH), and Storj (STORJ).
+Stellar (XLM) is a nonprofit organization headquartered in California’s Silicon Valley. It is behind the crypto network with the same name, which released the Lumens token with the ticker XLM. The payments-oriented system empowers people, firms, and financial institutions to move funds easily. Last year, Stellar announced a partnership with IBM for a cross-border payments system.
+Verge (XVG) is a blockchain-powered decentralized platform and token that was meant to support privacy. The Verge team has recently partnered with Pornhub, which is the largest free porn site.
+Bitfinex is one of the largest crypto exchanges, with over $1.1 billion trading volume within 24 hours. It also boasts advanced trading functions like margin trading, OTC trading, P2P financing, and technical analysis tools among others. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

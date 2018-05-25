@@ -1,0 +1,108 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        
+To be an effective trader, understanding your entire portfolio's sensitivity to market volatility is important. This is particularly so when trading forex. Because currencies are priced in pairs, no single pair trades completely independent of the others. Once you are aware of these correlations and how they change, you can use them control your overall portfolio's exposure. (For a guide to all things forex, check out our Investopedia Special Feature: Forex.)
+Defining Correlation
+The reason for the interdependence of currency pairs is easy to see: If you are trading the British pound against the Japanese yen (GBP/JPY pair), for example, you are actually trading a derivative of the GBP/USD and USD/JPY pairs; therefore, GBP/JPY must be somewhat correlated to one if not both of these other currency pairs. However, the interdependence among currencies stems from more than the simple fact that they are in pairs. While some currency pairs will move in tandem, other currency pairs may move in opposite directions, which is in essence the result of more complex forces.
+Correlation, in the financial world, is the statistical measure of the relationship between two securities. The correlation coefficient ranges between -1 and +1. A correlation of +1 implies that the two currency pairs will move in the same direction 100% of the time. A correlation of -1 implies the two currency pairs will move in the opposite direction 100% of the time. A correlation of zero implies that the relationship between the currency pairs is completely random. (For related reading, see How do fund managers use correlation to create portfolio diversity?)
+Reading The Correlation Table
+With this knowledge of correlations in mind, let's look at the following tables, each showing correlations between the major currency pairs (based on actual trading in the forex markets recently).
+
+The upper table above shows that over one month the EUR/USD and GBP/USD had a very strong positive correlation of 0.95. This implies that when the EUR/USD rallies, the GBP/USD has also rallied 95% of the time. Over the past six months, the correlation was weaker (0.66), but in the long run (one year) the two currency pairs still have a strong correlation.
+By contrast, the EUR/USD and USD/CHF had a near-perfect negative correlation of -1.00. This implies that 100% of the time, when the EUR/USD rallied, USD/CHF sold off. This relationship even holds true over longer periods as the correlation figures remain relatively stable.
+
+Yet correlations do not always remain stable. Take USD/CAD and USD/CHF, for example. With a coefficient of 0.95, they had a strong positive correlation over the past year, but the relationship deteriorated significantly in the previous month, down to .28. This could be due for a number of reasons that cause a sharp reaction for certain national currencies in the short term, such as a rally in oil prices (which particularly impacts the Canadian and U.S. economies) or the hawkishness of the Bank of Canada. (For more, see Using Interest Rate Parity To Trade Forex.)
+Correlations Do Change
+It is clear then that correlations do change, which makes following the shift in correlations even more important. Sentiment and global economic factors are very dynamic and can even change on a daily basis. Strong correlations today might not be in line with the longer-term correlation between two currency pairs. That is why taking a look at the six-month trailing correlation is also very important. This provides a clearer perspective on the average six-month relationship between the two currency pairs, which tends to be more accurate. Correlations change for a variety of reasons, the most common of which include diverging monetary policies, a certain currency pair's sensitivity to commodity prices, as well as unique economic and political factors.
+Calculating Correlations Yourself
+The best way to keep current on the direction and strength of your correlation pairings is to calculate them yourself. This may sound difficult, but it's actually quite simple.
+To calculate a simple correlation, just use a spreadsheet program, like Microsoft Excel. Many charting packages (even some free ones) allow you to download historical daily currency prices, which you can then transport into Excel. In Excel, just use the correlation function, which is =CORREL(range 1, range 2). The one-year, six-, three- and one-month trailing readings give the most comprehensive view of the similarities and differences in correlation over time; however, you can decide for yourself which or how many of these readings you want to analyze.
+Here is the correlation-calculation process reviewed step by step:
+1. Get the pricing data for your two currency pairs; say, GBP/USD and USD/JPY
+2. Make two individual columns, each labeled with one of these pairs. Then fill in the columns with the past daily prices that occurred for each pair over the time period you are analyzing
+3. At the bottom of the one of the columns, in an empty slot, type in =CORREL(
+4. Highlight all of the data in one of the pricing columns; you should get a range of cells in the formula box.
+5. Type in comma
+6. Repeat steps 3-5 for the other currency
+7. Close the formula so that it looks like =CORREL(A1:A50,B1:B50)
+8. The number that is produced represents the correlation between the two currency pairs
+Even though correlations change, it is not necessary to update your numbers every day; updating once every few weeks or at the very least once a month is generally a good idea.
+How To Use Correlations To Manage Exposure
+Now that you know how to calculate correlations, it is time to go over how to use them to your advantage.
+First, they can help you avoid entering two positions that cancel each other out, For instance, by knowing that EUR/USD and USD/CHF move in opposite directions nearly 100% of time, you would see that having a portfolio of long EUR/USD and long USD/CHF is the same as having virtually no position – because, as the correlation indicates, when the EUR/USD rallies, USD/CHF will undergo a selloff. On the other hand, holding long EUR/USD and long AUD/USD or NZD/USD is similar to doubling up on the same position since the correlations are so strong. (Learn more in Forex: Wading Into The Currency Market.)
+Diversification is another factor to consider. Since the EUR/USD and AUD/USD correlation is traditionally not 100% positive, traders can use these two pairs to diversify their risk somewhat while still maintaining a core directional view. For example, to express a bearish outlook on the USD, the trader, instead of buying two lots of the EUR/USD, may buy one lot of the EUR/USD and one lot of the AUD/USD. The imperfect correlation between the two different currency pairs allows for more diversification and marginally lower risk. Furthermore, the central banks of Australia and Europe have different monetary policy biases, so in the event of a dollar rally, the Australian dollar may be less affected than the euro, or vice versa.
+A trader can use also different pip or point values for his or her advantage. Lets consider the EUR/USD and USD/CHF once again. They have a near-perfect negative correlation, but the value of a pip move in the EUR/USD is $10 for a lot of 100,000 units while the value of a pip move in USD/CHF is $9.24 for the same number of units. This implies traders can use USD/CHF to hedge EUR/USD exposure.
+Here's how the hedge would work: Say a trader had a portfolio of one short EUR/USD lot of 100,000 units and one short USD/CHF lot of 100,000 units. When the EUR/USD increases by 10 pips or points, the trader would be down $100 on the position. However, since USD/CHF moves opposite to the EUR/USD, the short USD/CHF position would be profitable, likely moving close to ten pips higher, up $92.40. This would turn the net loss of the portfolio into -$7.60 instead of -$100. Of course, this hedge also means smaller profits in the event of a strong EUR/USD sell-off, but in the worst-case scenario, losses become relatively lower.
+Regardless of whether you are looking to diversify your positions or find alternate pairs to leverage your view, it is very important to be aware of the correlation between various currency pairs and their shifting trends. This is powerful knowledge for all professional traders holding more than one currency pair in their trading accounts. Such knowledge helps traders diversify, hedge or double up on profits.
+The Bottom Line
+To be an effective trader and understand your exposure, it is important to understand how different currency pairs move in relation to each other. Some currency pairs move in tandem with each other, while others may be polar opposites. Learning about currency correlation helps traders manage their portfolios more appropriately. Regardless of your trading strategy and whether you are looking to diversify your positions or find alternate pairs to leverage your view, it is very important to keep in mind the correlation between various currency pairs and their shifting trends. 
+(For more, check out our Forex Tutorial.)
+
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

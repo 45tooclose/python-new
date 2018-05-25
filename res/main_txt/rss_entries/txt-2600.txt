@@ -1,0 +1,143 @@
+
+
+    
+                          WHAT IS 'The Bond Buyer'
+
+      The Bond Buyer is a trade publication for members of the municipal bond industry. It began as a daily newspaper over 100 years ago and now provides sophisticated real-time market data via a subscription-based digital version.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Bond Buyer 20                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Taxable Municipal Bond                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Double Barreled                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Bond                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'The Bond Buyer'
+      The Bond Buyer was launched as The Daily Bond Buyer in 1891 in New York City. It serves the entire municipal bond industry with a daily newspaper and subscription-based website which publishes intraday breaking news and archives. The print version of The Bond Buyer is published five days a week, while the digital version is updated continuously through the business day.
+The newspaper takes a regional approach to covering the industry. It covers developments in the Midwest, Northeast, Far West, and Southeast United States, as well as the Caribbean region. The Bond Buyer also focuses on economic policies of the federal government, particularly the Federal Reserve Board and how its policies affect municipalities and their debt offerings. The newspaper maintains bureaus in Washington, Chicago, Florida, Dallas, Atlanta and San Francisco.
+In September 2017, The Bond Buyer announced a partnership with Municipal Bond Information Services (MBIS) to deliver real-time market data to subscribers through the Bond Buyer Data Workstation. This service is designed to enhance the website’s industry coverage and analysis by packaging it with sophisticated market data, similar to the service offered by Bloomberg.
+Another critical service provided by The Bond Buyer is the Legal Notices section. Bond issuers are required by the Municipal Securities Rulemaking Board (MSRB) to publish announcements of new bond issues or amendments to existing bonds. The Legal Notices section provides a directory of current offerings, as well as links to a notice of sale for each issuance. Other notices that can be listed in the section include notices of refundings, bankruptcies, tender offers and offers to repurchase bonds.
+The regional approach of The Bond Buyer is reflected in a series of annual conferences which the paper hosts around the country. These events tend to focus either on municipal bond issues in a particular region or a sector of the national bond market - transportation, law and leveraged finance are recent examples.
+The Bond Buyer Ownership
+The Bond Buyer is a subsidiary of SourceMedia, Inc, which also publishes American Banker. SourceMedia was previously owned by Thompson Corp before being sold to Investcorp, a Bahrain private equity firm, in 2004. In 2014, SourceMedia was sold to Observer Capital, another private equity firm founded by Joseph Meyer.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

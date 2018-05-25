@@ -1,0 +1,110 @@
+
+
+
+
+Ethereum News
+ April 26, 2018 16:25
+ Parity Has ‘No Intention’ to Split Ethereum over $320 Million in Frozen ETH
+
+
+
+
+ 
+
+
+Advertisement 
+
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1513203250972-0'); });
+
+
+ 
+Join our community of 10 000 traders on Hacked.com for just $39 per month.
+Parity Technologies has “no intention to split the Ethereum chain” over a dispute involving more than $320 million worth of ETH that has been frozen for months due to a bug in a multi-signature wallet smart contract library, the company said in a statement.
+In the statement, which was attributed to Parity co-founders Jutta Steiner and Gavin Wood, the company stated in no uncertain terms that it has no intention to split the Ethereum blockchain — much as the network fractured into Ethereum and Ethereum Classic in 2016 — to recover the lost funds.
+They wrote:
+“Let us make clear: we have no intention to split the Ethereum chain. We plan to continue to work with the community to find a path forward. We have all dedicated a great deal of time and effort to developing the Ethereum ecosystem, and have no intention of harming what we have helped build.”
+Nevertheless, Parity continues to promote a recovery process for the ~513,000 ETH that has been inaccessible since last year, when a software bug allowed an external user to self-destruct a wallet library contract that was referenced by nearly 600 multi-signature wallets.
+More than half of those funds belong to the Web3 Foundation, which was founded by Gavin Wood, who along with his involvement with Parity is also Ethereum’s former chief technology officer.
+From the statement:
+“All of us at Parity Technologies are deeply sorry to the users who remain unable to access their ether as a result of a bug in our code. We have been in constant conversation with affected projects and believe that those in the community who have stuck ether, either through the wallet freeze or, for example, issues such as those listed in EIP-156, have a case for attempting to recover the property.”
+To date, attempts to adopt a fork to recover the funds — and in some cases create a standard recovery process for self-destructed smart contracts — has been met with resistance within the Ethereum community.
+Most recently, a Parity developer submitted EIP-999, an Ethereum Improvement Proposal (EIP) that would restore Parity’s self-destructed multi-signature wallet contract library — and only Parity’s contract.
+This EIP has proven no less contentious than previous proposals, and some developers fear that if it is included in a future Ethereum fork disgruntled users will refuse to upgrade to the new version of the software, splitting the network into two competing blockchains.
+Featured image from Shutterstock.
+Follow us on Telegram.
+Advertisement
+
+
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1513203355638-0'); });
+
+
+
+
+
+
+POSTED IN:  Ethereum News, News 
+
+TAGS:  eip-999, Parity, parity bug, parity multisig, Polkadot, web3 foundation 
+
+
+
+
+AUTHOR
+Josiah Wilmoth
+
+
+
+Share post
+
+ 
+
+
+
+
+Josiah is a full-time journalist at CCN. A former ancient and medieval literature teacher, he has been reporting on cryptocurrency since 2014. He lives in rural North Carolina with his wife and children. Follow him on Twitter @Y3llowb1ackbird or email him directly at josiah.wilmoth(at)ccn.com.
+
+
+
+
+
+
+
+
+
+	/* <![CDATA[ */
+		var disqus_url = 'https://www.ccn.com/parity-has-no-intention-to-split-ethereum-over-320-million-in-frozen-eth/';
+		var disqus_identifier = '135641 https://www.ccn.com/?p=135641';
+		var disqus_container_id = 'disqus_thread';
+		var disqus_domain = 'disqus.com';
+		var disqus_shortname = 'cryptocoinsnews';
+		var disqus_title = "Parity Has ‘No Intention’ to Split Ethereum over $320 Million in Frozen ETH";
+		var disqus_config = function () {
+			var config = this; // Access to the config object
+			config.language = '';
+
+			/* Add the ability to add javascript callbacks */
+			
+			/*
+			   All currently supported events:
+				* preData — fires just before we request for initial data
+				* preInit - fires after we get initial data but before we load any dependencies
+				* onInit  - fires when all dependencies are resolved but before dtpl template is rendered
+				* afterRender - fires when template is rendered but before we show it
+				* onReady - everything is done
+			 */
+
+			config.callbacks.preData.push(function() {
+				// clear out the container (its filled for SEO/legacy purposes)
+				document.getElementById(disqus_container_id).innerHTML = '';
+			});
+								};
+	/* ]]> */
+	
+
+	/* <![CDATA[ */
+		var DsqLocal = {
+			'trackbacks': [
+				],
+			'trackback_url': "https:\/\/www.ccn.com\/parity-has-no-intention-to-split-ethereum-over-320-million-in-frozen-eth\/trackback\/"		};
+	/* ]]> */
+	

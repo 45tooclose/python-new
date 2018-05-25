@@ -1,0 +1,63 @@
+
+
+
+    
+    
+    
+        
+          
+                
+          
+    A:
+            Your employer or the plan administrator for the 401(k) plan should have provided you with a copy of the 401(k)'s summary plan description (SPD).
+(See What information does my employer have to give me regarding my 401(k) plan?)
+If you can't find your copy, contact your employer and ask for a replacement. A copy of the plan's SPD may also be obtained from the Department of Labor (DOL) by writing to: The Department of Labor, EBSA, Public Disclosure Room, Room N-1513, 200 Constitution Avenue, N.W., Washington, D.C.20210. (They may charge you copying fees, which are usually a very small amount.)
+The SPD is required to include an explanation – in non-technical terms – of the plan provisions, such as your benefits and rights under the plan, including when you are eligible to receive distributions.
+Alternatively, you may ask your employer to provide an explanation for refusing to honor your request; in fact, you must be given an explanation in writing. Legitimate explanations for a delay in distributions include the following:
+You are not yet eligible. For instance, the plan may require that participants reach a certain age before they are considered eligible to receive a distribution. This age requirement can apply even if you are no longer employed with the company.
+The plan may make payments only at a certain frequency, such as quarterly. Therefore, if you requested a distribution in mid-January, you may need to wait until March 31 before you receive the requested amount.
+If you feel your employer is not complying with the terms of the plan, you may contact the DOL toll free at 1-866-444-3272 and ask to speak with a regional office representative near you, or you may contact your regional office.
+This question was answered by Denise Appleby
+(Contact Denise)
+        
+    
+
+    
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'IRA',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'FAQ'
+    });
+                

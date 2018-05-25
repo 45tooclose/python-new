@@ -1,0 +1,94 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Apple (AAPL) has become one of the most successful technology companies of our generation. The company has developed a business philosophy of purchasing small companies that they can easily integrate into their current line of products. As of May 2018, Apple had made 97 different acquisitions according to Crunchbase. 
+Let’s take a look at seven of the more notable acquisitions that Apple has made over the years.
+Shazam 
+In December of 2017, Apple announced that it had acquired Shazam, the music identifying app, for $400 million. You know when you hear a song at a bar or restaurant but you can't quite remember the name of it? Shazam solves this problem by letting you hold your phone up and the app will identify the song. Apple already has a music identifying system built within Siri, but Shazam's is much more robust. No one is quite sure yet what Apple's plans are for the service, but its possible they'll integrate the tech into a future iOS update. 
+Emagic
+In 2002 Apple acquired Emagic for $30 million. The company is known for its music software, Logic Pro. Apple used the acquisition so that it could develop the digital audio workstation software GarageBand, known for its looping melodies and vast levels of customization. 
+Siri
+If you own an iPhone you probably know (and love/hate) Siri. Siri is an “intelligent personal assistant” that can help make reservations, get directions and perform different actions, such as sending text messages.
+Siri was originally developed by Siri Inc as an individual app that was useful for helping to book reservations at restaurants and was then sold to Apple in 2010. Siri debuted as part of iPhone 4S and has been a big feature ever since.  It was also recently incorporated into the new Apple Watch.
+Beats Electronics
+The largest acquisition that Apple has made to date, by far, was the 2014 purchase of Beats Electronics for $3 billion. The acquisition has allowed Apple to sell the Beats line of headphones in their retail stores and also with resellers.
+Apple has been aggressive about making Beats a key part of their current brand. Beats was instrumental in the redesign of Apple Music, and runs the Beats 1 internet radio channel which is host to premium programs curated by such celebrities as St Vincent, Ezra Koenig, and more. 
+NeXT Inc.
+For those familiar with the history of Apple then you know that Steve Jobs was at one point forced out of the company that he helped launch. When that happened, he started NeXT with a few of his Apple counterparts.
+In 1988 NeXT released the first NeXT computer, but from a production standpoint it never really got off the ground. The company only shipped approximately 50,000 units. In 1997 Apple purchased NeXT for $400 million in cash and shares of Apple stock. This acquisition also meant that Steve Jobs was heading back to the company that he cofounded in 1976.
+The merger integrated NeXT software along with Apple’s hardware to form what we know today as OS X and iOS.
+Novauris
+In 2013 Apple purchased speech recognition company Novauris in what might have been its most secretive acquisition. The deal was made with the hopes to help improve Apple’s Siri technology.
+Novauris might not be the big name that Beats Eelectronics is, but the companies’ founders are world-renowned speech researchers that are also known for being the brains behind Dragon Systems and their popular product, Dragon NaturallySpeaking.
+PrimeSense
+In November 2013 Apple purchased 3D motion sensor company PrimeSense for $345 million. The company is well known for its motion tracking software used in the Microsoft Kinect sensor found in the Xbox 360 game system.
+After the acquisition, most were unsure what the main goal was for Apple. Then in 2014 a new iPad app called itSeez3D was released which allows users to capture 3D models for use in CAD and 3D printing. Some expect this technology to be implemented in future iPad releases.
+The Bottom Line
+Apple has grown into one of the world’s most successful technology companies. Its success can be traced back to strong growth within the company's own research and development, but also to strong outside acquisitions that it have made over the years.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

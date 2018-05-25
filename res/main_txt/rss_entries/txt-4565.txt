@@ -1,0 +1,106 @@
+
+
+
+
+Ethereum News
+ May 03, 2018 00:15
+ This Ethereum Developer Wants to Let You Pay Gas Fees with Tokens
+
+
+
+
+ 
+
+
+Advertisement 
+
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1513203250972-0'); });
+
+
+ 
+Join our community of 10 000 traders on Hacked.com for just $39 per month.
+Bhaskar Sharma, writing in Medium, has proposed a case for a more user-friendly token in ethereum that will support the adoption of decentralized applications (DApps) by allowing users to pay transactions fees using tokens rather than ether.
+Fees in the ethereum blockchain — which are needed to pay miners for placing transactions into blocks and securing the blockchain — create friction for new users, Sharma noted. Users have to recognize how Ethereum works to understand the gas price and cost. They also need to acquire the necessary ether to pay for both of these.
+Such fees create unnecessary hurdles for adopting DApps with internal tokens, reducing their ability to build out a large user base even as they attract significant mainstream attention. If the process could be abstracted so users could use the DApp without being about the underlying ethereum network, these hurdles would be removed.
+ERC865 addresses these issues and offer a better user experience for ERC20 token transfers.
+The ERC865 standard proposes a system to abstract the gas and offer the ability for token holders to pay the transaction fee for “token transfer” in tokens rather than gas, all in a single transaction.
+The process introduces a third party willing to assume the transfer fee in tokens and forward the transaction with the fee in ether. Such a process can be secured with cryptographic signatures, as detailed in this blog.
+Finally, Sharma suggests a mechanism should exist to invalidate a transaction. He thinks there should also be a time-bound optional condition in the transaction so that it becomes invalid following a specified time period. This way, the transaction is revoked automatically after the time out, and it provides a cancellation mechanism without sending an explicit invalidating transaction.
+Featured Image from Shutterstock.
+Follow us on Telegram.
+Advertisement
+
+
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1513203355638-0'); });
+
+
+
+
+
+
+POSTED IN:  Ethereum News, News 
+
+TAGS:  Bhaskar Sharma, ERC865 
+
+
+
+
+AUTHOR
+Lester Coleman
+
+
+
+Share post
+
+ 
+
+
+
+
+Lester Coleman is a media relations consultant for the payments and automated retailing industries.
+
+
+
+
+
+
+
+
+
+	/* <![CDATA[ */
+		var disqus_url = 'https://www.ccn.com/this-ethereum-developer-wants-to-let-you-pay-gas-fees-with-tokens/';
+		var disqus_identifier = '136001 https://www.ccn.com/?p=136001';
+		var disqus_container_id = 'disqus_thread';
+		var disqus_domain = 'disqus.com';
+		var disqus_shortname = 'cryptocoinsnews';
+		var disqus_title = "This Ethereum Developer Wants to Let You Pay Gas Fees with Tokens";
+		var disqus_config = function () {
+			var config = this; // Access to the config object
+			config.language = '';
+
+			/* Add the ability to add javascript callbacks */
+			
+			/*
+			   All currently supported events:
+				* preData — fires just before we request for initial data
+				* preInit - fires after we get initial data but before we load any dependencies
+				* onInit  - fires when all dependencies are resolved but before dtpl template is rendered
+				* afterRender - fires when template is rendered but before we show it
+				* onReady - everything is done
+			 */
+
+			config.callbacks.preData.push(function() {
+				// clear out the container (its filled for SEO/legacy purposes)
+				document.getElementById(disqus_container_id).innerHTML = '';
+			});
+								};
+	/* ]]> */
+	
+
+	/* <![CDATA[ */
+		var DsqLocal = {
+			'trackbacks': [
+				],
+			'trackback_url': "https:\/\/www.ccn.com\/this-ethereum-developer-wants-to-let-you-pay-gas-fees-with-tokens\/trackback\/"		};
+	/* ]]> */
+	

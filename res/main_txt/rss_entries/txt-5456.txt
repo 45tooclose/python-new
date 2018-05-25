@@ -1,0 +1,211 @@
+
+
+
+Dealing with Bitcoin Akin to “Trading Freshly Harvested Baby Brains”: Berkshire Hathaway’s Munger
+Berkshire VC puts Bitcoin on blast yet again, dismisses the hype surrounding the cryptocurrency as a mixture of “dementia and immorality”.
+
+
+ by  Maryam
+Manzoor,
+9 mins ago
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+Subscribe
+
+
+  Charlie Munger can’t seem to contain his vitriol for Bitcoin – his latest tirade saw the Berkshire Hathaway vice chairman laying into the cryptocurrency in unusually harsh terms.
+In an interview with Yahoo Finance, Munger claimed that while the “computer science” behind cryptocurrencies such as Bitcoin is “a great triumph of the human mind”, Bitcoin itself is nothing more than “an artificial speculative medium” devoid of intrinsic value.
+Bitcoin is “anti-social, stupid and immoral”, said Munger.
+When questioned about his claim that Bitcoin is immoral, Munger elaborated:
+
+“Suppose you could make a lot of money trading freshly harvested baby brains. Would you do it? To me Bitcoin is almost as bad.”
+“I regard the whole thing as a combination of dementia and immorality,” he added. “I think the people pushing it are a disgrace. There ought to be some things that are beneath you, that you just don’t do, and this is one.”
+
+This most recent rant follows a similarly virulent attack on the cryptocurrency last week at the Berkshire Hathaway 2018 annual shareholder meeting, where Munger slammed crypto investors:
+
+“I think people who are professional traders that are going to trade cryptocurrencies, it’s just disgusting. It’s like someone else is trading turds and you decide I can't be left out.”
+
+Bitcoin’s speculative nature, the debate surrounding its actual value, and sudden, unpredictable swings in price have earned it its fair share of detractors, among them the folks at Berkshire Hathaway.
+
+CEO Warren Buffet has expressed similar disdain for the cryptocurrency, claiming it is “probably rat poison squared”. Earlier, the Oracle of Omaha dismissed it as a tool for “charlatans”, predicted a “bad ending” for Bitcoin, and dubbed it a “mirage” and a “bubble” that would soon burst in spectacular fashion.
+However, not all of Wall Street seems to think so. Goldman Sachs (in which Buffet’s Berkshire has a significant stake) has recently moved to open a Bitcoin trading firm, making it the first major bank to step into the realm of cryptocurrencies. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

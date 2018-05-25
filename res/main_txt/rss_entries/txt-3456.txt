@@ -1,0 +1,146 @@
+
+
+    
+                          DEFINITION of 'Conversion Parity Price'
+
+       
+
+The conversion parity price refers to the amount paid for a share if the option on a convertible security is exercised. Convertible securities like bonds are so called because they have a feature where the security can be changed into stock of the issuing company. This feature works similar to a call option in that the conversion option has a specific price level that can act like a trigger price. The price level at which it starts to make sense to convert is anything equal or above the conversion parity price. The conversion parity price is the effective price paid by the investor. It is calculated by dividing the current value of the convertible security by the conversion ratio, which is the number of shares a convertible security can be converted into.
+Conversion Parity Price = Value of Convertible Security/Conversion Ratio
+For example, take a convertible bond with a current market price of $1,000 that can be converted into 20 shares of common stock in the issuing company. The conversion parity price would be $50 ($1,000/20 shares). If the current value of the company’s stock is considerably higher than $50, then the investor can profit from exercising the conversion option.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Conversion Price                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Convertible Security                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Parity                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Conversion Ratio                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Conversion Parity Price'
+       
+
+Conversion parity price can be viewed as the minimum price that the investor is looking for when considering exercising the conversion option in a convertible security. Essentially, when the issuing company’s stock price is equal or greater than the conversion parity price, an investor should consider converting. Convertible securities are often callable, so the issuer can force the hand of investors in this matter.
+Conversion Parity Price and Bond Interest
+Convertible bonds are a hybrid security in the sense that they offer bond style payments and a par value, but also can result in investors profiting from the issuer’s stock. Because of this additional opportunity for appreciation, corporations can offer lower overall interest rates on convertible bonds. The conversion parity price on a convertible bond at issue is generally much higher than the company’s current share price. So the company gets a break on interest and the investor potentially gets a larger payout if the company performs well enough that its shares pass the conversion parity price. Of course, the fact that convertible bonds are callable can limit the investor’s upside.
+Convertible bonds may have upside limitations, but they are superior to outright share ownership in downside protection. If a convertible security’s underlying shares never exceed the conversion parity price, then the investor still receives interest payments on the regular bond along with the initial investment. Moreover, even if the company fails outright, the holder of the convertible bond is senior to the common stock shareholders in the final distribution scheme.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

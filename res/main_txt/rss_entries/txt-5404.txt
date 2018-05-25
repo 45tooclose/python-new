@@ -1,0 +1,82 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Although the process by which new cryptocurrency tokens or coins are generated is called mining, it bears little resemblance to the work done by those who physically mine for precious metals like gold. The comparison does hold, however; digital currency miners use computers to solve complex mathematical problems and they are rewarded for their work with a small stake of tokens. Mine the right cryptocurrency at the right time, the thinking goes, and you can stand to make a lot of money. What's more, the effort associated with cryptocurrency mining seems to be frontloaded: Yes, it takes time and money to learn about and build a mining rig, but once everything is up and running, you can simply leave it to do its thing and wait for the money to pour in. In this article, we'll examine whether or not this is a fair assessment of the cryptocurrency mining process by evaluating how to go about establishing yourself as a digital currency miner.
+Learn About the Process
+Not every digital currency can be mined, and the process for one mining operation may vary significantly from that of another. One of the first steps that you'll need to take if you're interested in being a cryptocurrency miner is to learn about the different cryptocurrencies that are available to be mined and decide how and what you would like to mine. Some of the biggest cryptocurrencies in the world, including bitcoin, are uncovered through a mining process. However, bitcoin mining operations may be significantly less lucrative now than they might have been several years ago; this is owing to the dramatic increase in the number of miners, the increased difficulty of the mining process over time, and other related factors. (See also: How Does Bitcoin Mining Work?)
+Learning about the process of mining and determining which coins or tokens you'll aim to mine is also useful because it will give you a sense of the kinds of equipment pieces you may need to track down. This is another way in which cryptocurrency mining can be dramatically different depending upon the area in which you focus. Some cryptocurrencies require powerful graphics hardware to mine, and overwhelming demand for this equipment has caused the cost and effort associated with setting up a rig to skyrocket. Others may be more accessible in terms of the equipment that you need. Taking the time to carefully consider how you'll mine is worth your while. (See also: Is Bitcoin Mining Still Profitable?)
+Set Up the Basics
+There are generally three basic components to a mining operation: the wallet, the mining software and the mining hardware. You'll need to have a wallet for your cryptocurrency so that any tokens or coins your mining efforts yield will have a place to be stored. Wallets are encrypted online bank accounts, essentially, with a unique address that allows you to send and receive tokens securely. There are many types of online wallets, and there are even "cold storage" wallets which don't operate online as well. Decide which one is best for your needs before you start mining.
+Most mining software is free to download and use, and it's also available for a variety of operating systems. For popular cryptocurrencies like bitcoin, you'll find that there are multiple types of software which can be used. While many of these options will be effective, there may be slight differences that could impact your mining operation.
+Mining hardware may be the toughest component of a mining rig setup. You'll need a powerful computer, perhaps even one specifically designed for mining. Some of these computers and the associated equipment, like graphics cards, can cost upward of $15,000.
+Or Look for Alternatives
+As mining has become more popular and more expensive, new ways of getting involved in the process for less money and effort have begun to crop up. One of these new means of taking part in mining is called a mining pool. Essentially, a mining pool is a group of miners that pool together their computing power and work together to mine for digital currencies. They then share the profits proportionally to the amount of power each individual device was able to contribute to the process. As you might expect, mining pools offer advantages and disadvantages. On one hand, the cost and effort associated with the initial setup is much lower than if you were setting up your own personal rig. On the other hand, though, you're likely to earn much less money from the process, as you'll split any mining rewards with a group of people.
+There are always new ways of mining and new digital currencies waiting to be uncovered. For this reason, the process of mining remains an exciting and potentially lucrative one. However, there are also potential pitfalls, and there have been many miners who have spent a lot of money on setting up rigs upfront, only to find that they have been unable to recoup those costs with their mining efforts. Making sure that you are armed with as much of an understanding about the mining world as possible will help to protect against this possibility.
+Investing in cryptocurrencies and other Initial Coin Offerings (“ICOs”) is highly risky and speculative, and this article is not a recommendation by Investopedia or the writer to invest in cryptocurrencies or other ICOs. Since each individual's situation is unique, a qualified professional should always be consulted before making any financial decisions. Investopedia makes no representations or warranties as to the accuracy or timeliness of the information contained herein. As of the date this article was written, the author owns cryptocurrency.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

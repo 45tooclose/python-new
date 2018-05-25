@@ -1,0 +1,73 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Microsoft could deliver more earnings surprises this year, according to JPMorgan. Bolstered by a strong showing in its cloud computing business, Microsoft Corp. (MSFT) last week posted fiscal third-quarter results that surpassed Wall Street expectations and more of the same could happen for the remainder of the year, lifting its stock price along that way.
+Rating Raised to Overweight, Stock May Gain 15%
+Wall Street firm JPMorgan late last week raised its investment rating on the stock to overweight from neutral, arguing that more earnings upside is in the cards. "We think Microsoft will dominate in the Enterprise, and it stands to benefit from a broad and powerful lineup of Cloud solutions," analyst Mark Murphy wrote in a note to clients, according to CNBC. "While the PC cycle and Windows dynamic are still highly relevant, we believe Microsoft is pushing forward with a successful cloud strategy." The analyst upped his price target on the stock to $110 from $94 a share, implying it could gain more than 15%. So far this year, shares are up nearly 12%. (See more: Microsoft Stock Breaks Out Toward Top of Channel.
+According to the JPMorgan analyst, full-year earnings per share at the Redmond, Washington software giant should come in at $3.82 a share, which is higher than the consensus EPS of $3.77 for all of 2018. For the first three months of the year, Microsoft posted EPS of $0.95 a share and revenue of $26.8 billion. Wall Street had been looking for EPS of $0.85 a share and revenue of $25.8 billion. (See more: Microsoft Warns Tech Support Scams are on the Rise.)
+The analyst pointed to Microsoft’s Azure cloud computing business which had a strong showing in its fiscal third quarter as a reason for the upgrade and the expectations of more earnings upside to come.  "Azure remains in high-growth territory," the analyst wrote in the research report, according to CNBC. "Azure use cases are broadening in scope and gaining traction; for example Azure ML [machine learning] is used by tens of thousands of customers, 300,000 developers use Azure Bot service." Revenue in Microsoft Intelligent Cloud business, which includes Azure, came in at $7.9 billion, up 17%, with Azure seeing sales growth of 93% and server products and cloud services revenue increased 20%. Microsoft enterprise services revenue was up 8% year-over-year in the quarter. “Our results this quarter reflect the trust people and organizations are placing in the Microsoft Cloud,” said Satya Nadella, chief executive officer of Microsoft said of the quarterly results late last week. “We are innovating across key growth categories of infrastructure, AI, productivity, and business applications to deliver differentiated value to customers.”
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

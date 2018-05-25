@@ -1,0 +1,144 @@
+
+
+    
+                          What is the 'Opening Price'?
+
+      The opening price is the price at which a security first trades upon the opening of an exchange on a given trading day; for example, the New York Stock Exchange opens at precisely 9:30 am Eastern time. The price of the first trade for any listed stock is its daily opening price, and this is an important marker for that day's trading activity, particularly for those interested in measuring short-term results such as day traders.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Day Trader                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Close                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Opening Range                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Opening Cross                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Opening Price'
+      The NASDAQ uses an approach called the "opening cross" to decide the best opening price considering the orders that accumulated overnight. Typically, a security's opening price is not identical to its prior day closing price. This is because after-hours trading has changed investor valuations or expectations for the security.
+Opening Price Deviation
+Investor expectations can be changed by corporate announcements or other news events. Corporations issue announcements that may affect the stock price after the market closes. Large-scale natural disasters or man-made disasters, such as wars or terrorist attacks, that occur in after hours may have similar effects on stock prices. When these events occur, some investors may attempt to either buy or sell securities during the after hours.
+Not all orders are executed during after-hours trading. The lack of liquidity and the resulting wide spreads make market orders unattractive to traders in after-hours trading. This results in a large amount of limit or stop orders being placed at a price that is different from the prior day’s closing price. Consequently, when the market opens the next day, a substantial disparity in supply and demand causes the open to veer away from the prior day’s close in the direction that corresponds to the effect of the announcement, news or event.
+Opening Price Trading Strategies
+There are several day-trading strategies based on the opening of a market. When the opening price varies so much from the prior day’s close that a price gap is created, day traders use a strategy known as “Gap Fade and Fill.” Traders attempt to profit from the price correction that usually takes place after a sizable price gap at the opening. Another popular strategy is to fade a stock at the open that is showing strong pre-market indications contrary to the rest of the market or to similar stocks in a common sector or index. When a strong disparity is present in pre-market indications, a trader waits for the particular stock to make a move at the open contrary to the rest of the market. The trader then takes a position in the stock in the general direction of the market when momentum and volume of the initial contrary stock price movement begins to diminish. When executed correctly, these are high probability strategies designed to achieve quick small profits.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

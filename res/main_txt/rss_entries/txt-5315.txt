@@ -1,0 +1,180 @@
+
+
+
+    
+            
+            Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/Investing/Investing/IC-Video/FAQ");} else {return "/8397/INV-NA/Investing/Investing/IC-Video/FAQ";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/ask/answers/203.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/kXhS1dom.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/kXhS1dom-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/content/video/what_happens_to_the_/whathappenstostockpricesoftwocompaniesinvolvedinacquisition.png?width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "100%",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "kXhS1dom-G9NhEyAa.mp4";
+                
+          
+            document.addEventListener("DOMContentLoaded", function() {
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                        var initializeJWPlayerSetup = function () {
+                            if (new VideoInit().canRun()) {
+                                setUpJwpPlayer();
+                            } else {
+                                new VideoInit().callBack = setUpJwpPlayer;
+                            }
+                        }
+            initializeJWPlayerSetup();
+          });
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "kXhS1dom-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "What Happens To The Stock Prices Of Two Companies Involved In An Acquisition?",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };        
+    
+    
+          
+    A:
+            When a company acquires another company, typically the stock price of the target company rises while the stock price of the acquiring company declines in the short-term. 
+The target company's stock usually rises because the acquiring company has to pay a premium for the acquisition. The reason for the premium is that the shareholders of the target company, who need to approve the takeover, are unlikely to approve the acquisition unless the stock price is above the prevailing market price. If the takeover bid equates to a lower stock price than the current price of the target company, there's little incentive for the current owners of the target company to sell their shares to the acquiring company.
+There are exceptions, of course, as in the case of a company that's been losing money and its stock price has suffered. Being acquired might be the only way for shareholders to get some of their investment back. As a result, shareholders might vote to sell the target company for a lower price than the current market. For example, a takeover target might sell at a discount if the company had a large amount of debt and was unable to service it or obtain financing from the capital markets to restructure the debt.  
+The acquiring company's stock typically falls during an acquisition. Since the acquiring company must pay a premium for the target company, they may have exhausted their cash or had to use a large amount of debt to finance the acquisition. As a result, the stock might suffer.
+There are other factors and scenarios that could lead to the acquirer's stock price to fall during an acquisition:
+If investors believe the takeover price is too costly, or the premium for the target company is too high, 
+A turbulent integration process such as regulatory issues or problems associated with integrating different workplace cultures,
+Lost productivity because of management power struggles,
+Additional debt or unforeseen expenses incurred as a result of the purchase.
+It's important to consider both the short-term and the long-term impact on the acquiring company's stock price. If the acquisition goes smoothly, it will be good for the acquiring company in the long run and likely lead to a higher stock price. 
+It's up to the acquiring company's management team to value the target company properly during the acquisition. Also, if the management team struggles or has difficulty with the transition and integration, the deal could push the acquiring company's shares down even further over the long term.
+Takeaways
+Stock prices of potential target companies tend to rise well before a merger or acquisition has been announced. Some investors buy stocks based on the expectation of a takeover. Trading M&A rumors causes price volatility and can be profitable. However, volatility is a double-edged sword, meaning, that if the rumors of a takeover fail to materialize into a deal, the stock price of the potential target company will likely decline significantly. 
+The economic backdrop and market sentiment play important roles in whether the acquiring company's stock eventually rises following the takeover and successful integration of the target company. A takeover might be seen as a bullish view on the market and the industry by the acquiring company's executive management. In other words, a company is unlikely to commit billions of dollars in investment in a takeover unless they believe in the prospects of long-term earnings growth. This is why increases in mergers and acquisitions are often viewed by investors as a positive sentiment on the market. 
+To learn more about this subject, check out The Basics of Mergers and Acquisitions.
+        
+    
+
+    
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'FAQ'
+    });
+                

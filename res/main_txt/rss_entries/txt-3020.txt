@@ -1,0 +1,78 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Short-selling activity is creeping back into the oil and gas market as the price of West Texas Intermediate (WTI) crude, a key oil benchmark, rallies again, according to S3 Partners.
+In a research note, the financial technology and analytics firm claimed that short interest in the U.S./Canadian oil and gas and consumable fuel sector has increased by 27% to $54.9 billion since WTI crude recovered from its year-to-date low of $58.98 in mid-February to reach $67.75.
+In conclusion, Ihor Dusaniwsky, managing director of S3 Partners and the author of the note, said that short-selling activity is clearly moving in tandem with the oil price. Dusaniwsky pointed out that bets against the sector previously hit a year-to-date high of $55.2 billion in mid-January when the benchmark topped $66 a barrel and then swiftly fell to a year-to-date low of $43.1 billion in mid-February when the price of WTI crude plummeted again.
+
+These observations suggest that investors are seeing plenty of opportunities to cash in on oil price volatility. It also shows that many traders are growing increasingly skeptical about the latest rally — most of the short interest in the sector so far this year occurred in April, according to S3 Partner’s findings.
+Short interest in the sector is now up to 10.7% for the year, S3 Partners said, adding that the sub-industries with the most bets against them were integrated oil and gas and the oil and gas exploration and production sectors. The two sectors saw $1.5 billion and $3.7 billion of new short interest in April, respectively.
+Which Companies Are Being Targeted?
+Concho Resources Inc. (CXO), TransCanada Corp. (TRP) and Valero Energy Corp. (VLO) have been shorted the most over the past 30 days, according to S3 Partners. In contrast, short interest in Enbridge Inc. (ENB), Range Resources Corp. (RRC) and Exxon Mobil Corp. (XOM) has reportedly dried up the most over this same timeframe. (See also: Exxon a Top Pick Despite Recent Pullback: BofA.)
+
+The price of WTI Crude has risen in recent months thanks in part to lower supply, geopolitical tensions, stronger global economic growth and a weaker U.S. dollar. However, critics note that some of the drivers of this rally, including tensions in Syria and a harsher than usual winter, are temporary factors and worry that a surge in U.S. shale production could undo efforts from Opec, the oil producers cartel, to ensure that demand outstrips supply. (See also: 3 Oil Stocks Ready to Rally.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

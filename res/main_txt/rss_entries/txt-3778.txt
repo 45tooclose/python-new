@@ -1,0 +1,84 @@
+
+
+
+    
+        
+            
+        
+          
+                
+      
+
+    
+
+    
+        You know, of course, what a 401(k) is and what an IRA is. But ever since the Roth versions of these tax-advantaged vehicles came on the scene (doubling the options), allocating retirement-planning dollars has gotten more complicated. Here's the lowdown on both Roths. The good news is that, unlike the Roth IRA, the Roth 401(k) functions nearly identically to the traditional 401(k) as far as contributions go.
+Contribution Limits
+You can contribute a maximum of $18,500 in 2018 to a Roth 401(k) – the same amount as to a traditional 401(k). If you’re aged 50 or older, you can contribute an extra $6,000 as a catch-up contribution. These limits are per individual; you don’t have to consider whether you’re married or single.
+If you want to contribute to both a Roth and a traditional 401(k), the maximum amount is still $18,500 per year. You can split your contributions between the accounts in any way you like. 
+You can contribute up to $5,500 annually to a Roth IRA. If you’re 50 or older, you get to put in an extra $1,000, bumping the total to $6,500 for the year.
+One financial strategy, for those who want the max in tax-advantaged savings: Open both types of Roth accounts. Between the two, you can invest up to $24,000 ($18,500 in the 401(k), $5,500 in the IRA) – or even more, if you've hit the age-50 threshold by year's end. 
+Income Limits
+With Roth IRAs, there are limits to what you can contribute (or even whether you can participate in one at all), based on your income. Generally, the higher it is, the more restricted your contributions. See Roth 401k Vs. Roth IRA: Is One Better? 
+However, the Roth 401(k) has no income limit; your income isn't even considered. That means you don’t have to worry about your ability to contribute to a Roth account phasing out as you make more money.
+Rollovers
+If you are getting a new job, you might be considering rolling over the Roth 401(k) into a new account (see Rolling Over a 401(k)? Consider the Fees).  You’ll be glad to know that when it comes to rollovers, there is no contribution limit: Whatever is in your account you can transfer. Just be sure to have the old account's trustee or manager directly roll over to the entity managing the new one (or, at the very least, have the check made to the new manager as account trustee, not to you personally); that way, you avoid any possible adverse tax consequences.  Also, be sure you're rolling over from a Roth to a Roth. For more details, see Know the Rules for Roth 401(k) Rollovers.
+The Bottom Line
+Contribution limits on all tax-advantaged accounts are indexed to inflation. This means that the IRS routinely re-evaluates the maximum amount you can contribute by comparing it to the overall health of the economy. If you’re in a financial position where you’re contributing near the maximum allowed, be sure you stay up to date by checking the IRS tables for Roth IRAs and for Roth 401(k)s or asking your plan administrator about the current limits. And see I Maxed Out My 401(k)! Now What?
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'IRA',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

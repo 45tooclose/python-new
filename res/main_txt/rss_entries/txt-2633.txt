@@ -1,0 +1,76 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Tencent Holdings Limited (TCEHY) is nearing bear-market territory after its stock has fallen nearly 19% since its January peak, sliding on a broader downturn in the technology sector.
+Tencent shares have been struggling amid concerns about how major technology companies like Facebook Inc. (FB) will be impacted by growing fears over data privacy. Investors are unsure how lawmakers will make regulatory changes to protect consumers.
+Facebook has been at the forefront of the controversy in the wake of Cambridge Analytica’s data-gathering practices aimed at Facebook users. But other internet companies like Google parent Alphabet Inc. (GOOGL), Netflix Inc. (NFLX) and Amazon.com Inc. (AMZN) are also under pressure. (See also: 10 Techs Pulled Down By Facebook Now Poised to Rise.)
+Tencent: No. 1 in Asian Market Cap 
+China-based Tencent, while not based in the U.S., is impacted by overall trends in technology as it is still the most valuable company by market cap in Asia. (See also: Tencent Music Entertainment Group Eyes IPO.)
+The most valuable video game publisher in the world, Tencent’s titles include League of Legends, Clash of Clans and CrossFire. It also owns the popular WeChat messaging app. (See also: Tencent Infects U.S. with Addictive Mobile Game.)
+While down about 6% so far this year, Tencent shares are still up 57% in the past year after a sectorwide surge in tech stocks. Now, in addition to fears about the impact of data privacy issues, investors are also increasingly concerned that technology stocks have become overvalued.
+Netflix shares are up about 100% the past year, Amazon shares are up 60% and Google’s are up 16%.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

@@ -1,0 +1,153 @@
+
+
+    
+                          What is 'NACHA'
+
+      NACHA, previously known as the National Automated Clearinghouse Association, is a non-profit membership association charged with overseeing the Automated Clearing House (ACH) system, which operates one of the largest, safest and most reliable payment systems in the world.
+NACHA and the ACH Network are at the center of moving tens of trillions of dollars each year. It's made up of billions of electronic financial transactions, including direct deposit, social security,  government benefits, electronic bill payments, person-to-person (P2P) and business-to-business (B2B) payments. . Through its supervisory and rule-making functions, NACHA provides the legal foundation for electronic payment systems to operate effectively, while working to update technologies and create new payment systems.
+NACHA is also known as "The Electronic Payments Association."
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Automated Clearing House - ACH                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Accredited Automated Clearing House ...                     
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Green Book                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Associate Bank                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'NACHA'
+      The ACH Network connects all U.S. financial institutions through a high-quality, ubiquitous payment system that securely and efficiently moves money and information directly from one bank account to another.
+Although not a government agency, NACHA works closely with all interested government agencies (including the Federal Reserve, the state banking authorities and the Treasury) to ensure the integrity of the electronic payments systems used by banking and other depositary institutions.
+NACHA not only develops rules and codes of business practices, but it is involved in the development of new applications. It also institutes and monitors quality- and risk-management controls.
+In 2014, NACHA formed the Payments Innovation Alliance as a voice for the payments industry and the ACH Network. The Alliance consists of hundreds of companies and organizations across the global payment ecosystem. The Alliance offers discussion, debate, education and networking on such topics as payment system modernization, trends, standards, security and ongoing innovation.
+What NACHA Is Responsible For
+The payment network allows billions of deposit and payment transactions to be sent via ACH. As the administrator of ACH, NACHA is responsible for the following areas:
+NACHA Operating Rules: A rule making process in order to establish rules that provide the legal foundation for the ACH Network.
+	 
+Enforcement and Risk Management: Balanced between risk management and ACH Network innovation, NACHA oversees rules enforcement. They rely on collaboration and communication from all network participants.
+	 
+ACH Network Development: Payments systems are united through the Payments Innovation Alliance. Electronic payment organizations have the opportunity to engage in dialogue and education surrounding the ACH Network.
+NACHA also provides services in education and accreditation; industry engagement with financial institutions, businesses and government; and advocacy resources.
+NACHA’s API Standardization Industry Group (ASIG) supports the advancement and use of standardized Application Programming Interfaces (APIs) within the U.S. financial services industry. In February 2018, NACHA and the Interactive Financial eXchange (IFX) Forum announced that they would pursue a strategic combination of their groups to accelerate and strengthen the development of standardized APIs.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

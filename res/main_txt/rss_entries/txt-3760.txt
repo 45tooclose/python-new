@@ -1,0 +1,94 @@
+
+
+
+    
+        
+            
+        
+          
+                
+      
+
+    
+
+    
+        Trusts are commonly used by attorneys and financial advisors during the estate planning process. They aid in the distribution of holdings, ensuring that everything goes to the correct people and entities. They can also minimize estate taxes. Essentially, they allow you to remove assets from your personal estate so that more wealth can be passed to your beneficiaries. You can even place a life insurance policy within a trust.
+Sounds great, right? But, of course, there is a catch. A trust is often only as good the trustee in charge of it. Read on as we examine the important roll of the trustee and discover how to make sure yours is acting correctly, especially with complex instruments like insurance.
+Trust-Owned Insurance
+Life insurance located in a trust is referred to as trust-owned life insurance (TOLI); it's similar to bank-owned and company-owned life insurance. Like any other trust, insurance trusts have documents that identify the trustees of the instrument. Unfortunately, while trustees often do an acceptable job of completing basic tasks, conflicts and problems can arise when trustees don't understand where their loyalties should be and how do deal with the complex financial issues that can come with the job. (See also: Establishing A Revocable Living Trust.)
+All trustees bear a fiduciary responsibility to the beneficiaries of a trust. The trustee is required to manage the trust assets in accordance with the wishes of the beneficiaries. This is an important concept to grasp. The desires of the beneficiaries are paramount – not the desires of the individual who established the trust. This is difficult for many trustees because there is the very real possibility that a trustee has never met the trust's beneficiaries. Often, the trustee only meets with the person who establishes the trust. This raises the question of how trustees can possibly fulfill their fiduciary responsibilities to someone they don't even know.
+Typically, TOLI beneficiaries have a desire to maximize the amount of wealth that they will receive when the trust assets are distributed. This requires the trustee to actively manage the insurance policy, or policies, that are owned by the trust. (See also: Shifting Life Insurance Ownership.)
+Active management entails determining whether the policy is performing in line with the projections reflected in the original life insurance illustration. It is common for the policy to underperform because of aggressive assumptions used in the original illustration, lackluster investment results in the sub-accounts (for variable policies) or a challenging economic environment for the insurance carrier.
+Actively managing the policy also requires the trustee to attempt to identify alternative policies that may be more in line with the desires of the beneficiaries. Recent innovations in the life insurance industry have rendered policies that were sold in the past obsolete. A policy that has been maintained in its original form and not reviewed every two or three years should often be replaced with a more attractive policy. A more attractive policy could carry a higher death benefit for the same, or a lower, premium. It may also allow the death benefit to be maintained without the need to make additional premium payments. (See also: Life Insurance Distribution And Benefits.)
+Are Trustees Fulfilling Responsibilities?
+Unfortunately, many trustees lack the skills required to oversee trust-owned life insurance. People who establish trusts funded by life insurance typically first look to a friend or family member to serve as trustee. However, such folks often have little knowledge of the issues surrounding the prudent management of life insurance. The other popular choice is a trusted advisor such as a financial advisor, accountant or lawyer.
+However, similar to a friend or family member, there is no guarantee that the trusted advisor is versed on the items necessary to effectively oversee the TOLI. Various court cases confirm that whether the trustees are friends, family members or professionals, they are often not living up to their fiduciary responsibility.
+The lack of follow-through displayed by fiduciaries is not something that should be taken lightly. Fiduciaries are bound by more than the ethical standards prescribed by their profession (professionals such as attorneys, accountants, financial planners and stockbrokers are required to adhere to ethical standards established by the professional boards through which they are licensed).
+They are also subject to additional requirements that are found in the Uniform Prudent Investors Act, the Prudent Trustee Rule, the Office of the Comptroller of the Currency, the Office of Thrift Supervision and State Departments of Banking. Rules and regulations have been established by these bodies in an attempt to insulate beneficiaries from the consequences associated with receiving poor advice from incompetent advisors. However, as is the case with much of the financial services industry, the rules fail to protect people unless they take an active role in reporting the instances when they have been the recipients of poor advice.
+Take Charge
+Querying the trustee is one of the most effective ways for beneficiaries to take an active role. The following are a selection of questions that beneficiaries may want to raise:
+How is the policy performing relative to expectations?
+When was the last time the life insurance policy was reviewed?
+Are there other policies in the marketplace that may do a better job of meeting my wishes and the stipulations expressed in the trust document?
+Has the credit rating of the insurance company that issued the policy deteriorated?
+Is the allocation of the sub-accounts still aligned with the investment policy statement?
+Do not be surprised if the trustee responds to your questions with a blank stare.
+The Bottom Line
+Trust-owned life insurance serves a critical function in the estate plans of many individuals. Not all trustees have what it takes to fulfill the fiduciary responsibility bestowed upon them. If you are the beneficiary of an insurance trust, it is crucial to actively monitor your trustee. This person is supposed to serve your best interests. There is a lot of money on the line. (See also: Should You Put Your Faith In A Trust?)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'LifeInsurance',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

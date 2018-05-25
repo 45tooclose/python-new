@@ -1,0 +1,65 @@
+
+
+
+    
+    
+    
+          
+    A:
+            If you have an overdraft line of credit at your bank, you can spend more than the amount in your checking account. In exchange for this service, you’ll pay the bank interest on the amount by which you overdraw your account. Some overdraft lines of credit will charge you a fee for each overdraft, and some have annual fees instead of, or in addition to, overdraft fees. An overdraft line of credit is essentially a personal line of credit, so the amount the bank will let you borrow will depend on the bank’s policies and your credit worthiness.
+A credit card is also, essentially, a line of credit. If you borrow funds by making purchases with it that you can’t immediately pay in full, you’ll also be charged interest. Credit card interest rates can vary significantly depending on the card and your credit score. Many credit cards also charge annual fees.
+Comparing the Two
+In general, whether it makes more sense to borrow via an overdraft line of credit or a credit card depends on several factors:
+1. Do you have access to both options?
+2. Do both options give you enough available credit to cover the amount you need to borrow?
+3. Which one has a lower interest rate?
+4. Is there an overdraft fee when you use the overdraft line of credit?
+5. Does either option charge an annual fee?
+You’ll have to do the math for your specific situation to see which choice is less expensive.
+An Example
+Suppose you need to borrow $1,200 for car repairs. Through an overdraft line of credit at your bank, you can borrow the money at 18% annually (assuming no compounding, interest paid annually) and pay a $12.50 overdraft fee. If you want to pay the loan back within a year, you’ll need to pay a total of $216 in interest plus $12.50 in fees.
+Through a credit card, you can borrow the money at an introductory rate of 12% for one year (assuming no compounding, interest paid annually), and the card has no annual fee. You’ll need to pay $144 in interest.
+In this case, the credit card is the better choice.
+In addition, overdraft lines of credit, like credit cards, have penalty APRs. This means that if you miss a payment, your interest rate can increase significantly, so whichever option you choose, be sure to make your payments on time.
+        
+    
+
+    
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'CreditCard',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'FAQ'
+    });
+                

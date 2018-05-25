@@ -1,0 +1,115 @@
+
+
+
+
+Blockchain News
+ April 30, 2018 18:13
+ Mastercard International Seeks Patent For Fast Tracking Blockchain Navigation
+
+
+
+
+ 
+
+
+Advertisement 
+
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1513203250972-0'); });
+
+
+ 
+Join our community of 10 000 traders on Hacked.com for just $39 per month.
+Mastercard International Inc. has applied for a patent for a system for fast tracking navigation of blockchains by means of data manipulation, according to a filing with the United States Patent and Trademark Office.
+The system is designed to facilitate quicker navigation and verification of blocks in a blockchain.
+This diagram demonstrates a system for fast track navigation and verification of blocks.
+David J. King of Guildford, United Kingdom, is listed as the inventor of the system. The patent was filed on Oct. 24, 2016. The publication date on the application is April 26, 2018.
+Addressing A Need
+The application notes there is a need for a technical solution to increase the speed at which a blockchain can be navigated for verification of a large number of blocks and reduce the time needed for a new node to begin participating in the blockchain.
+This flow diagram illustraties the process for the generation of a blockchain configured for fast navigation via special flags and hash values.
+Each block in the system will have a header consisting of a fast track flag, fast-track reference, a timestamp and a hash value.
+The use of specialized flags and hash values included in the block headers can allow the speed of navigation to be increased significantly, which will greatly reduce the computing time and power needed to verify the blockchain, according to the patent abstract. The result will be more efficient navigation and verification of the blockchain.
+Also read: PayPal files patent to improve cryptocurrency transaction times
+Specialized Flags
+The system can enable the generation of a blockchain that is configured for fast navigation through the use of specialized fast track flags and fast-track reference values. Such data can enable not only faster navigation of a blockchain, but also faster verification of the blocks included in the blockchain to provide for more efficient computing.
+As a result, new computing devices will be able to participate as nodes in the blockchain more quickly than in traditional blockchains.
+The timestamp can use any suitable type of representation, such as a date-time value, a time in seconds since the beginning of the UNIX epoch, etc.
+The processing server can be one of a plurality of nodes associated with the blockchain, each of which can be configured to receive transaction records for inclusion in blocks that are generated for addition to the blockchain.
+In some embodiments, the blockchain can be a permissioned blockchain that can utilize digital signatures.
+Featured image from Shutterstock.
+Follow us on Telegram.
+Advertisement
+
+
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1513203355638-0'); });
+
+
+
+
+
+
+POSTED IN:  Blockchain News, News 
+
+TAGS:  mastercard, UNIX, USPTO 
+
+
+
+
+AUTHOR
+Lester Coleman
+
+
+
+Share post
+
+ 
+
+
+
+
+Lester Coleman is a media relations consultant for the payments and automated retailing industries.
+
+
+
+
+
+
+
+
+
+	/* <![CDATA[ */
+		var disqus_url = 'https://www.ccn.com/mastercard-international-seeks-patent-for-fast-tracking-blockchain-navigation/';
+		var disqus_identifier = '135886 https://www.ccn.com/?p=135886';
+		var disqus_container_id = 'disqus_thread';
+		var disqus_domain = 'disqus.com';
+		var disqus_shortname = 'cryptocoinsnews';
+		var disqus_title = "Mastercard International Seeks Patent For Fast Tracking Blockchain Navigation";
+		var disqus_config = function () {
+			var config = this; // Access to the config object
+			config.language = '';
+
+			/* Add the ability to add javascript callbacks */
+			
+			/*
+			   All currently supported events:
+				* preData — fires just before we request for initial data
+				* preInit - fires after we get initial data but before we load any dependencies
+				* onInit  - fires when all dependencies are resolved but before dtpl template is rendered
+				* afterRender - fires when template is rendered but before we show it
+				* onReady - everything is done
+			 */
+
+			config.callbacks.preData.push(function() {
+				// clear out the container (its filled for SEO/legacy purposes)
+				document.getElementById(disqus_container_id).innerHTML = '';
+			});
+								};
+	/* ]]> */
+	
+
+	/* <![CDATA[ */
+		var DsqLocal = {
+			'trackbacks': [
+				],
+			'trackback_url': "https:\/\/www.ccn.com\/mastercard-international-seeks-patent-for-fast-tracking-blockchain-navigation\/trackback\/"		};
+	/* ]]> */
+	

@@ -1,0 +1,141 @@
+
+
+    
+                          WHAT IS 'Rate Trigger'
+
+      A rate trigger is a drop in interest rates significant enough to cause a bond issuer to call its bonds prior to maturity.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Bond                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Premium Bond                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            American Callable Bond                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Bondholder                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Rate Trigger'
+      A rate trigger is a decline in prevailing interest rates that leads an issuer of a callable bond to call that bond. In this case, call refers to the early redemption of a bond by the bond’s issuer. This can only be done if the bond issue includes a call provision in the offering, and this provision often includes a callable date. A bond with a callable date is not eligible for a call prior to that date. To make these bonds attractive to potential investors, callable bonds are typically offered with a higher coupon rate and a call price above par value.
+Fluctuations in interest rates have implications across the economy. Many investments are subject to interest rate risk, also known as market risk, which is the risk that an investment loses value due to the relative attractiveness of prevailing rates. A bond with a fixed coupon rate is one example of an investment subject to interest rate risk. The rate trigger realizes that risk. In the case of a callable bond, a second danger is reinvestment risk, or the risk that investment options available to the investor after the bond is called are not as attractive as the original bond.
+A Rate Trigger Turns Market Risk into Lost Interest Income
+On January 1 of 2018, Company ABC offers 10-year callable bonds with an 8% coupon rate callable at 120% of par and a callable date of January 1, 2022. Interest rates rise and fall between the issue date and the callable date but remain close to 8% for one year after the callable date. On the first day of 2023, interest rates dip to 5%. This drop is a rate trigger. Company ABC closes a deal to offer new debt at 5% and will use the proceeds from this offering to repay its 8% bondholders. Company ABC exercises the option to call away the 8% bonds, so the investor receives $1,200 per $1,000 bond. The bondholder loses, however, the $400 in interest that would have been paid over the remaining life of the bond.
+This example demonstrates the risk and rewards of a callable security in the event of a rate trigger. Prior to the company calling its bonds, the investor enjoys an above-market interest rate. The 2023 rate trigger realizes the market risk of a callable bond which results in lost interest income.  
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

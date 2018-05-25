@@ -1,0 +1,208 @@
+
+
+
+Romania’s Oldest Exchange Closes its Doors Next Week
+BTCxChange's CEO is having troubles as the company's bank account has been frozen since January 22, forcing him to close operations on May 1.
+
+
+ by  Miguel
+Gomez,
+17 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  BTCxChange, Romania’s longest-serving exchange, announced that it is going to close on May 1, on the country’s equivalent of Labor Day.
+
+“We inform you that starting from 1st of May 2018, our platform will be closed. Operations stopped back on 1st of February but you could still stock your Bitcoins on your platform. Please withdraw all your balances before the 1st of May,” the team said on its website.
+
+We tried contacting BTCxChange numerous times on multiple phone numbers, but they would not answer our calls for comment. It’s a curious situation, considering that Romania’s cryptocurrency ecosystem isn’t as harsh as that of India or China. However, the country does have anti-money laundering laws and its banks are required to follow EU AML directives.
+
+BTCxChange’s CEO, Max Nicula, previously closed down fiat trades because its bank account was closed suddenly for the fourth time in a year.
+
+“On January 22, our company received a notice from Idea Bank, informing us that our bank accounts will be closed within 15 days (although legally, we should have gotten 60). It is our fourth bank account closed in the last 12 months. We made the decision not to open any new bank accounts. The reason for this decision is that the constant hunt for new accounts and lack of a stable banking solution would hurt our business development significantly,” Nicula wrote.
+
+The exchange’s consistent frustrations with the Bucharest bank may have been the motive behind Nicula’s decision to close down. We do not know if this is a permanent shutdown or not, but the chaos might be getting to Nicula either way. Since BTCxChange was no longer able to maintain liquidity because of its missing fiat funds, it had to close at some point.
+However, this may not have been the bank’s fault, as the country’s tax agency—ANAF—is known for suddenly freezing people’s accounts without any warning until they pay taxes that they supposedly owe. In many cases, the people in question owed either no taxes or much less than the organization declared.
+This fiscal environment may also explain why Romania’s blockchain ecosystem is still lagging behind the rest of the EU despite outside funding pouring in. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

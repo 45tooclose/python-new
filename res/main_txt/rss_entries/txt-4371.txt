@@ -1,0 +1,218 @@
+
+
+
+Monex CEO Expects Cryptos to Go Mainstream the Way Derivatives Did
+Oki Matsumoto, the CEO of Monex Group, believes cryptocurrencies will be widely accepted despite the current pushback from regulators. He cited the success of derivatives to back his argument up.
+
+
+ by  Anatol
+Antonovici,
+15 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  On Tuesday, Oki Matsumoto, the current CEO of Monex Group, said during a performance at the Japan Society in New York, that cryptocurrencies will probably become mainstream assets soon. He compared their evolution to that of derivatives in the 1980s.
+
+“Regulators really hated derivatives in 1980 but just soon after that they really embraced them. What's happening in the crypto world today is very similar to derivatives in the 1980s, and sooner or later all of those regulatory frameworks will be fixed,” Matsumoto said.
+
+The Wall Street veteran expressed his view that cryptocurrencies would succeed despite the current pushback from regulators around the world.
+Matsumoto himself seems to be a cryptocurrency supporter, as his online brokerage service Monex Group completed the purchase of crypto exchange Coincheck, which lost $534 after a hacking attack at the beginning of this year.
+
+“We work beautifully together, they can provide a lot of value,” he commented on the deal, adding that the Monex stock price doubled since the acquisition was announced last month.
+
+The fact that a Japanese regulated public company showed interest and even completed an acquisition deal with a crypto exchange service helped crypto enthusiasts gain more confidence.
+
+Matsumoto, who started his journey in derivatives in 1987 at Solomon Brothers, and who spent 12 years at Goldman, recalled that derivatives were confusing as well when they first came out.
+
+“Only a few people could understand derivatives, just the rocket scientists and those people. But five years later, all the biggest schools in the world were teaching derivatives,” he stated.
+
+The derivative contracts emerged as alternative investment products, but today they represent the largest market in the world, being counted in trillions of US dollars.
+
+Image Source
+The CEO also noted how high taxes imposed on cryptocurrency investors, which can reach 55% in Japan, have been an obstacle for average investors.
+
+“You don't drink thinking about getting hungover the next day. I think it's going to take time for Japanese retail people to move a good portion of money into crypto,” he added.
+As we explained in a previous post, “a derivative is a contract or security that is based on an underlying asset. In other words, you can think about derivative as a bet on commodities, stocks, Forex pairs, or any other asset. Big banks got deeply involved with derivatives as they were trying too hard to increase profits.”
+ 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

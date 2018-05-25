@@ -1,0 +1,145 @@
+
+
+    
+                          What is 'Coupon Equivalent Yield - CEY'
+
+      The coupon equivalent yield is a method of calculation used to calculate the yield on bonds with maturities of less than one year and which normally sell at a discount and do not pay coupons.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Coupon                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Coupon Bond                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Discount Yield                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Bond Discount                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Coupon Equivalent Yield - CEY'
+      Another way to think about coupon equivalent yield is as the stated rate of return on bonds without accounting for any compounding. Because bonds almost always pay interest semi-annually, the coupon equivalent yield must be compounded just as often to produce the effective annual yield, a measure used by many banks in advertising certificates of deposit.
+The CEY calculation allows bond investors to compare the return on a 180-day Treasury bill to a one-year coupon paying bond, to evaluate which instrument will give the investor a higher return. The formula for calculating CEY is as follows:
+(Market price – Face value) x (365/Days until maturity)
+Borrowers typically make interest payments more than once a year, and bond payments are no different: the typical coupon bond pays interest once every six months. But investors have the opportunity to reinvest those payments, and this increases the return on the investment. The coupon equivalent yield helps the investor calculate exactly what that improved return is or would have been.
+However, it is important to note that the formula assumes the investor can reinvest those interest payments at a rate equal to the bond's coupon rate. This is not always possible, depending on prevailing market rates and the investor's financial goals. Typically, an investor in coupon-paying bonds calculates his or her yield based on the coupon rate and the face value of the bond. But these two bases do not apply to zero-coupon bonds.
+ 
+Although it is important to remember that zero coupon bonds do pay interest, but the issuer pays it out upon maturity instead of every six months. Also, zero-coupon bonds are not sold at face value. They are sold at a discount, and at maturity the investor typically receives more than what he or she invested. Thus, the CER uses the investor's actual initial investment as a basis for calculating yield, allowing the investor to compare yields from zero-coupon with bonds that pay coupons.
+Example of ‘Coupon Equivalent Yield’
+For example, a 12 percent coupon, $1,000 principal amount bond pays $60 in interest each six months, resulting in a 12.36 percent yield because the first $60 payment each year can be reinvested to earn an additional $3.60 during the latter half of the year.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

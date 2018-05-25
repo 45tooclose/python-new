@@ -1,0 +1,74 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        T-Mobile Inc. (TMUS) and Sprint Corp. (S), the third and fourth largest wireless carriers in the U.S., are aiming to agree to terms on a merger deal as early as next week, people familiar with the matter told Reuters.
+Negotiations between the two companies are so far believed to have progressed well, leaving only a few more important details to settle on. Deutsche Telekom AG, which owns more than 63% of T-Mobile, and Japanese conglomerate SoftBank Group Corp. (SFTBY), owner of 84.7% of Sprint, are currently seeking to come to an agreement on how they would exercise voting control over the combined company, two of the sources said. The pair are looking for ways to enable Deutsche Telecom to consolidate the combined company on its books, even without holding a majority stake in it.
+The sources added that Deutsche Telekom and T-Mobile are also in the process of finalizing debt financing packages to fund the deal. News that the merger may now finally go ahead sent Sprint and T-Mobile’s shares up 7% and 2%, respectively, in pre-market trading.
+T-Mobile and Sprint have attempted to merge three times since 2014. The latest talks between the two companies kicked off earlier this month, five months after SoftBank’s CEO, Masayoshi Son, pulled out of negotiations at the last minute due to valuation disagreements. (See also: T-Mobile Sell-Off Fuels "Buy" Upgrade: Deutsche.)
+If the two companies are finally able to come to an agreement this time around, they will find themselves with a much larger market share of the wireless carrier market at a time when 5G, the next generation of wireless technology, is being introduced. As a combined entity, T-Mobile and Sprint would have more than 127 million customers, according to Reuters, putting them in a much better position to compete with the two largest wireless carriers, Verizon Communications Inc. (VZ) and AT&T Inc. (T), during a period of industry-wide technological change.
+However, T-Mobile and Sprint’s proposed merger is likely to face stiff opposition from regulators. The U.S. Department of Justice is currently seeking to block AT&T’s $85 billion purchase of Time Warner Inc. (TWX), based on concerns over pricing power in the media market. (See also: AT&T and Time Warner Merger Case: What You Need to Know.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

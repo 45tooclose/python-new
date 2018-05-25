@@ -1,0 +1,142 @@
+
+
+    
+                          What is 'Two-Way Quote'
+
+      A two-way quote is a type of quote that gives both the bid and the ask price of a security, informing would-be traders of the current price at which they could buy or sell the security. The two-way quote also shows the spread between the bid and the ask, giving traders an idea of the current liquidity in the security (a smaller spread indicates more liquidity).
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            One Man Picture                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Bid                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Discount Spread                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Quote                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Two-Way Quote'
+      A two-way quote provides more information to users than a last-trade quote, which quotes only the price at which the security last traded.
+An example of a two-way quote would be: Citigroup quote of $52.50/$53.30. This tells traders they can currently purchase Citigroup shares for $53.30 or sell them for $52.50. The spread between the bid and the ask is $0.80 ($53.30-$52.50).
+The Bid-Ask Spread in a Two-Way Quote
+The bid–ask spread is the difference between the prices quoted for an immediate sale (offer) and an immediate purchase (bid) for stocks, futures contracts, options, or currency pairs. The size of the bid-offer spread in a security is one measure of the liquidity of the market and of the size of the transaction cost. If the spread is 0 then it is a frictionless asset.
+A trader demands liquidity when they initiate a transaction. On the other side of a trade, a trader supplies liquidity. Liquidity demanders place market orders and liquidity suppliers place limit orders. For a round trip (a purchase and sale together) the liquidity demander pays the spread and the liquidity supplier earns the spread. All limit orders outstanding at a given time are together called the Limit Order Book. In some markets, such as NASDAQ, dealers supply liquidity. However, on most exchanges, such as the Australian Securities Exchange, there are no designated liquidity suppliers, and liquidity is supplied by other traders. On these exchanges, and even on NASDAQ, institutions and individuals can supply liquidity by placing limit orders.
+The bid–offer spread as depicted in a two-way price quote is an accepted measure of liquidity costs, in exchange traded securities and commodities. On any standardized exchange, two elements comprise almost all of the transaction cost—brokerage fees and bid-offer spreads. Under competitive conditions, the bid-offer spread measures the cost of making transactions without delay. The price difference is paid by an urgent buyer and received by an urgent seller. This is called liquidity cost. Differences in bid-offer spread indicate differences in the liquidity cost.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

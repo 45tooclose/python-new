@@ -1,0 +1,154 @@
+
+
+    
+                          What is an 'Overdraft Cap'
+
+      Under the daylight overdraft system, banks can overdraw their accounts with the Federal Reserve in order to make Fedwire payments to other financial institutions. However, by the end of the day, banks must make sure that their Federal Reserve accounts aren’t overdrawn. The overdraft cap is the maximum dollar limit that a bank may overdraw its Federal Reserve account in order to make payments via this system. The overdraft cap limits the amount that banks will send via the Fedwire network. This cap limits a bank's daylight-overdraft exposure. The overdraft cap is also known as the net debit cap.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Fedwire                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Large Cap - Big Cap                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Life Cap                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Checking Account                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Overdraft Cap'
+      For example, Bank X has $100 million in assets and a Federal Reserve obligation to hold 10 percent, or $10 million, in its Federal Reserve account. However, one day, Bank X needs to fulfill $10.5 million in withdrawals; it doesn’t have enough money in its Federal Reserve account to meet this requirement. So, it transfers out an overdraft of half a million dollars, but has an obligation to repay this money by the end of the day. This is allowable as long as Bank X’s overdraft cap is at least half a million dollars.
+Overdraft Cap Categories
+The overdraft cap varies from one bank to another. It is a multiple of each bank's risk-based capital. The cap applies not only between banks but also between banks, brokerage firms and credit unions, as well as other financial institutions. The Federal Reserve recognizes six overdraft cap categories:
+Zero
+Exempt-from-filing
+De minimis
+Average
+Above average
+High
+Overdraft caps are set for a period of one year.
+Zero Cap
+Zero caps are assigned to institutions that are considered especially weak, don’t have access to the discount window, or are incurring daylight overdrafts that don’t align with Federal Reserve policy. These institutions are considered to pose the most risk to the Reserve Bank.
+Exempt-From-Filing Cap
+Institutions in this cap category may incur daylight overdrafts of up to $10 million or 20 percent of their capital, whichever is lesser. Most institutions are in this category. In order to be eligible for the exempt-from-filing cap category, the institution must be financially healthy and minimize its reliance on the daylight overdraft credit.
+De Minimis Cap
+Institutions in this category may incur daylight overdrafts of up to 40 percent of their capital. The institution must submit a yearly board of directors resolution approving use of the daylight overdraft to this extent.
+Self-Assessed Cap
+Institutions in the average, above average, and high cap categories are self-assessed. They may incur overdrafts of more than 40 percent of their capital, but must also fulfill large self-assessment burdens, including self-assessments of creditworthiness, customer credit policies and controls and intraday funds management and control.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Deposit',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

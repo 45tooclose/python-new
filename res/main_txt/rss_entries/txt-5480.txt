@@ -1,0 +1,79 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Back in 2006, Apple (AAPL) was a company with a few successful products but one that was nowhere near world domination. The Mac line of computers and the iPod were both strong sellers, but the iPhone did not exist yet, likewise the iPad. In 2006, the company turned a yearly profit of $2.4 billion. Fast forward 12 years, and the company produces quarterly revenue of at least $60 billion. There is no question that Apple has exploded in the past decade, and investors that recognized the earlier potential of the company have swept up their own profits in turn. Warren Buffett famously entered a position in the company in 2016. If you had followed Berkshire Hathaway with a $10,000 purchase of AAPL stock at that time, how much money would you have today?
+From $10 to $183
+On January 6th, 2016, AAPL closed at $96.96 per share. Investing $10,000 at that time would have bought you just over 104 shares of the tech company. By contrast, at the close of trading on May 4, 2018, the stock closed trading at $183.83 per share, after setting new lifetime highs. That means your 104 shares would be worth nearly double the initial investment at a whopping $19,118.32.
+That's not all, though. Buffett bought up AAPL at some point in the first quarter of 2016, but Apple stock varied in price throughout those three months. Buffett may have entered his position on February 5th, 2016, for instance, when the shares closed at $94.02. By March 24, 2017 toward the end of the quarter, they were trading at $105.67. Spending $10,000 on February 5 would have netted you more than 106 shares, worth about $16,192.56 in 2017. A purchase on March 24, on the other hand, would have earned you over 94 shares, worth about $14,351 in 2017.
+In May 2018, Buffett also revealed that Berkshire Hathaway had bought further 75 million shares of Apple Inc., over and above the 165.3 million it owned previously. That makes Berkshire the third largest shareholder in Apple with 240.3 million shares valued at $44.17 billion at close on May 4, 2018. 
+Following Buffett's Investment
+The most noteworthy element of the story of Buffett's investment in Apple is not that he sought out a particularly good deal and that he capitalized on it; the investor is widely regarded as one of the best in the business, and it is no surprise that he has earned big payouts on his purchase. Rather, it is somewhat unusual, given his investing style and history, that Buffett decided to buy up a position in Apple at all.
+As Sure Divided points out, Warren Buffett has been largely reluctant to invest in tech stocks throughout his career. The billionaire stated in the 1990s that he hesitated to invest in that sector because he felt he could not be sure of how the tech world would change in the years to come, and he didn't like the idea of someone else ending up with an advantage over him. That changed by 2011, when Buffett began to build a significant position in IBM (IBM). He purchased this stock when the company paid a dividend, when there was a share buyback program going on, and when the IBM stock traded at a low price-to-earnings ratio. Berkshire has now completely exited its IBM position, Buffett said. (See also: Berkshire Hathaway Has Exited IBM: Buffett)
+Buffett traditionally invested in companies that were backed by a long history of success. The investor's famous top stocks were all within this category: Kraft-Heinz Company (KHC), for example, has a successful history extending back well over 100 years. Apple, by contrast, was founded in 1976 and faced a bankruptcy bailout in 1997. It is only in the new century that the company has taken off. Nonetheless, Buffett has recognized its strength and made a great deal of money off of Apple's success.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

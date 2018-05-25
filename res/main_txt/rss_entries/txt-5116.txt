@@ -1,0 +1,152 @@
+
+
+    
+                          WHAT IS 'Cash Delivery'
+
+      1. Cash delivery occurs when the net profit or loss is settled between both the buyer and seller of a futures or options contract without requiring delivery of an underlying asset upon the contract’s expiration. The vast majority of futures and options contracts are cash-delivered, as opposed to being physically delivered.
+2. Cash delivery also is the same-day settlement of a currency trade in the foreign exchange market. This means that delivery and settlement of the transaction occur on the same date that the currency trade is made. In order for this to occur, the forex position must be opened and closed within the same trading day.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Last Trading Day                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Settlement Period                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Trade Date                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Receive Versus Payment - RVP                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Cash Delivery'
+      1. Rather than physically deliver the underlying commodity or asset to the contract holder, it is much easier and less expensive to simply transact the net cash value of the futures position. This allows investors to hedge against price changes in the underlying asset without having to worry about physically taking delivery.
+Example:
+Adam buys a cash-delivered futures contact allowing him to purchase 100 head of cattle two months from now for $300 per head, for a total of $30,000. The current price for a head of cattle is also $300. Adam has bought this contract to hedge against potentially rising prices. If cattle trade for $350 per head by the contract’s expiration, his cash-delivered futures contract profits by $5000. He can use this to offset the $35,000 he will have to spend if he chooses to purchase 100 head of cattle. However, if the price falls to $250, his cash-delivered futures contract loses $5,000. In this case, if he wants to purchase the 100 head of cattle, he can do so at the market price for $25,000, but he must pay out a total of $30,000, counting the $5,000 cash-delivered futures loss.
+2. As is the case with most financial markets, when an order in the forex market is placed, the trade is executed shortly afterward, but settlement, during which the trade details are entered into the records of the trading parties, typically occurs at a later time. Cash delivery is exceptional, because all of this happens in the same day.
+Example:
+Susan believes that the euro will appreciate versus the dollar in the very short term. She buys an even lot of 100,000 euro futures at $1.20, each, for a total of $120,000 USD. The euro indeed rises relative to the dollar and his euro futures are worth $1.25 each at day’s end. She executes the contract, and because of same-day settlement, she receives $5,000 that day, excluding trading costs.
+PROS AND CONS of Cash Delivery, definition 1
+The benefit of cash delivery for forex and options traders is that it’s far less expensive and efficient to settle in cash. Without cash delivery, the buyer of a cattle futures contract may need to either produce 100 cows at contract expiration or accept delivery of those cows from an exchange.
+Cash delivery also allows for the trading of assets that cannot be delivered physically, namely indexes, such as the S&P 500® or the Nikkei 225.
+Yet another advantage of cash delivery is that it has allowed for far more trading of futures and options, providing both market liquidity and a broader choice of financial products.
+The one disadvantage of cash delivery is that it may slightly complicate matters for a contract buyer who is seeking physical delivery of the underlying asset at contract expiration. This buyer would instead receive cash, which could then be used to purchase the underlying asset.
+PROS AND CONS of Cash Delivery, definition 2
+Waiting for settlement can cost traders both time and money. Many foreign-exchange transactions are settled in two days. Faster settlement is generally seen as advantageous, provided it can be done at or below the cost of two-day settlement.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

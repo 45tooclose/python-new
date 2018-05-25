@@ -1,0 +1,155 @@
+
+
+    
+                          What is 'Harmonized Sales Tax (HST)'
+
+      The Harmonized Sales Tax (HST) is a combination of the Canadian Goods and Services Tax (GST) and Provincial Sales Tax (PST) that is applied to taxable goods and services. By fusing sales tax at the federal level with sales tax at the provincial level, the participating provinces harmonized both taxes into a single federal-provincial sales tax.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Dividend Tax Credit                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Canada Revenue Agency - CRA                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Use Tax                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Tax Rate                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Harmonized Sales Tax (HST)'
+      HST is a consumption tax paid by the consumer at the point of sale (POS). The vendor or seller collects the tax proceeds from consumers by adding the HST rate to the cost of goods and services. They then remit the total collected tax to the government at the end of the year.
+The Harmonized Sales Tax (HST) was implemented by several provinces in Canada to build a more efficient tax system which would improve the competitiveness of businesses in the participating areas.
+The provinces of New Brunswick, Nova Scotia, and Newfoundland and Labrador applied the HST in 1997. On July 1, 2010, the provinces of Ontario and British Columbia (BC) joined the program. However, three years later, BC exited the HST program and reinstated its Provincial Sales Tax (PST) system after an estimated 55% of the province’s residents voted to end the HST. In 2013, Prince Edward Island joined the participating regions and replaced its Provincial Sales Tax (PST)with the Harmonized Sales Tax (HST).
+The administration and collection of HST are by the Canada Revenue Agency (CRA) which is the tax division of the federal government. Sellers and vendors are usually responsible for receiving the tax from consumers and forwarding it to the CRA annually or semi-annually. The CRA allocates the provincial portion of the HST to the respective provincial government. The CRA does not collect provincial sales taxes.
+Provincial Differences
+Not all provinces are keen on applying the HST into their tax system, and these non-participating states still employ the Goods and Services Tax (GST) or the Provincial Sales Tax (PST) separately. As of 2017, British Columbia (BC) and Saskatchewan use the PST system in addition to a separate GST. Quebec and Manitoba also use the same system as BC and Saskatchewan, only that the provincial sales tax in both provinces is called Quebec Sales Tax (QST) and Retail Sales Tax (RST), respectively. 
+Residents living in these four provinces would be subject to the federal GST and provincial tax on their purchases. For example, Saskatchewan has a provincial sales tax rate of 6%. A consumer who purchases, say a computer, for $1,000 in BC would have a total bill of $1,000 + (PST 6% x $1,000) + (GST 5% x $1,000) = $1,110.
+Several provinces only apply the Federal GST on taxable goods and services. The provinces of Alberta, Northwest Territories (NWT), Nunavut, and Yukon do not have any provincial sales taxes, meaning that a consumer is only taxed 5% GST on his or her purchases.
+The table below shows the sales tax applied in each of the Canadian provinces:
+
+Registering and Collecting Harmonized Sales Tax (HST)
+It is the responsibility of Canadian business owners to collect and remit HST. To start raising the sales tax, the business operator must register for a GST/HST account through the CRA or Revenu Québec (if a resident of Quebec), provided that the business makes $30,000 or more per year in total revenue. Business owners with firms earning less than $30,000 can still voluntarily register as they may want to claim input tax credits on the goods and services that they purchase in the course of running the business.
+While many retail goods and services are subject to HST, some are zero-rated or tax exempt. A zero-rated commodity or service is one that has an HST tax rate of 0%. These include products like basic groceries, prescription drugs, and many agricultural and fishery goods. A tax-exempt commodity or service is exempt from the sales tax. Examples of tax-free services include childcare, dental services, and medical and healthcare. A consumer can claim input tax credits for zero-rated products, but not for tax-exempt services.
+Customers outside of Canada purchasing products from Canada do not have to pay HST provided that the goods or services purchased will be solely used outside of the country. However, non-residents in Canada, such as tourists, are required to pay HST, and in some cases, may qualify for an HST rebate.
+An inter-provincial business transaction will administer the sales tax that is exercised in the purchaser’s province. A supply of taxable goods to a participating region is subject to the HST, while supply to a non-participating region is subject to the GST. This rule is known as the Place of Supply Rule. For example, a business owner in British Columbia who sells goods delivered to Ontario must collect 13% HST. On the other hand, if the roles were reversed, the Ontario business vendor must only charge the 5% GST (without the PST) if s/he sells and delivers goods to BC.
+Effect on Taxpayers
+There is still a constant debate as to how the HST impacts consumers and taxpayers. Critics claim that the HST translates into a shift of the tax burden from businesses to consumers which will lead to higher costs of consumer goods. This higher cost would, in turn, lead to a decline in the real income of consumers. Proponents of HST continue to oppose these views stating that the HST would create tax savings for participating provinces and residents. They claim that implementing the HST system will reduce the cost of doing business, which in effect, would translate into lower prices of consumer goods and services.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

@@ -1,0 +1,259 @@
+
+
+    
+                        
+            
+                Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/Investing/Investing/IC-Video/Term");} else {return "/8397/INV-NA/Investing/Investing/IC-Video/Term";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/terms/z/zombie-bank.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/OidO6tFJ.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/OidO6tFJ-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/thumbnails/live/59_zombiebanks_421x236.jpg?quality=80&width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "560",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "OidO6tFJ-G9NhEyAa.mp4";
+                
+          
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                    var initializeJWPlayerSetup = function () {
+                        if (new VideoInit().canRun()) {
+                            setUpJwpPlayer();
+                        } else {
+                            new VideoInit().callBack = setUpJwpPlayer;
+                        }
+                    }
+          initializeJWPlayerSetup();
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "OidO6tFJ-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "The Curse Of Zombie Banks",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };            
+          
+                    What is a  'Zombie Bank'
+
+      A zombie bank is an insolvent financial institution that only continues to operate thanks to either explicit or implicit government support. Zombie banks have large amounts of nonperforming assets on their balance sheets.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Zombies                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Zombie ETF                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Zombie Title                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Zombie Foreclosure                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Zombie Bank'
+      Zombie banks are creatures of financial repression, in which central banks keep debt-burdened banks, corporations and households on life support, instead of allowing nature to take its course and creative destruction to do its work.
+It is dangerous to allow large numbers of technically dead banks to continue operating, as American policymakers concluded during the savings and loan crisis (S&L) — when the phrase zombie bank was first coined by Edward Kane of Boston College in 1987. By not liquidating zombie banks, investors’ capital is trapped, instead of being put to more productive use. Rather than strengthening healthy companies and supporting economic recovery, zombie banks prop up rotting corporations. By distorting market mechanisms, the resulting misallocation of resources weakens the whole financial system.
+When its real estate bubble collapsed in 1990, Japan kept its insolvent banks going, rather than recapitalizing them or letting them go bust, as the U.S. did during the S&L crisis. Nearly 30 years later, Japan's zombie banks still have large amounts of non-performing loans on their books. Instead of helping Japan to recover, these banks locked its economy into a deflationary trap it has never escaped from.
+Zombie Banks in Europe
+In its desperation to avoid becoming Japan after the 2008 global financial crisis, the eurozone made the same mistake. Zombie banks, stuffed with toxic liabilities, have increased lending to existing impaired borrowers, instead of financially healthy or new borrowers. This zombie lending behavior by distressed banks, to avoid realizing losses on outstanding loans, has led to a significant misallocation of credit, which has hurt creditworthy firms. No other economy has taken longer to recover.
+The European Central Bank has warned that debt sustainability is the biggest risk to financial stability, if interest rates rise. In other words, zombie banks that are dependent on ECB liquidity may be unable to absorb the losses if zombie companies, that have also only survived thanks to the ECB’s regime of artificially cheap finance, go under. Europe's banks are still sitting on $1 trillion of dud loans.
+America's Recapitalized Banks Are Still Vulnerable
+Bank stress tests were more rigorous in the U.S. than in Europe, in the wake of the financial crisis. They forced the weakest banks to raise private capital and sell off toxic legacy assets. But there may be just as many zombie firms, whose interest expenses exceed earnings before interest and taxes, stalking the economy in America as there are in Europe, according to the Bank of International Settlements. So, quantitative easing may have only postponed the day when banks in Europe and America will have to write-off bad debt.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Deposit',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

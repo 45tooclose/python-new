@@ -1,0 +1,74 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Elon Musk,  CEO of electric car pioneer Tesla Inc. (TSLA), aerospace company SpaceX and underground-transportation startup The Boring Co., has taken to his widely followed Twitter Inc. (TWTR) account to announce a new ambition. The outspoken serial entrepreneur and angel investor tweeted to his 21.5 million followers Wednesday afternoon that, "oh btw I'm building a cyborg dragon." (See also: Elon Musk Calls for Social Media, AI Regulation.)
+Followers jumped on Musk's tweet, making jokes in reference to the popular TV series "Game of Thrones" and asking whether Musk's new $600 flamethrower will come into play. In the 20 hours since he announced his latest project on the social media platform, the tweet has generated 14,000 comments, 87,000 reposts and 365,000 likes. The official Twitter handle of the "GoT" franchise responded to Musk's tweet, writing "bend the knee to House Targaryen, @ElonMusk. #Dracacrys." Musk hit back, "don't make me use my space lasers."
+And yet while Musk's ambitions often seem outlandish and far-fetched, such as his pledge to sell flamethrowers after selling 50,000 hats, the CEO has continued to surprise both his fans and haters alike. Buyers of Musk's flamethrowers shelled out roughly $10 million in around 100 hours, receiving a complimentary Boring fire extinguisher with their purchase. 
+Fire-Throwing Robots and Model 3 Production Targets
+The leader of Tesla proved to skeptics that his Silicon Valley electric car company could rise as a real competitor to traditional automakers, driving TSLA's gains to over 440% in five years at a market capitalization of $55.3 billion. Now, the CEO has been tasked with easing investors' impatience regarding the ramp up in production of the company's first mass-market vehicle, the Model 3 sedan, after a series of manufacturing setbacks and delayed promises. (See also: Tesla Rival With Deep Pockets Taps GM, BMW Alums.)
+Last month, Tesla's board approved a 10-year incentive-based pay packaged for Musk, which could award the CEO with up to $55.8 billion, setting him on the path to become the world's richest person if things go according to plan. (See also: Excessive Automation at Tesla Was a Mistake: Musk.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

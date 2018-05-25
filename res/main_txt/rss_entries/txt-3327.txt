@@ -1,0 +1,145 @@
+
+
+    
+                          What is a 'Firm Order'
+
+      A firm order may be referred to as an order for a trade from a brokerage’s proprietary account or an order that is kept open by an investor.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Executing Broker                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Brokerage Account                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Payment For Order Flow                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Execution                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Firm Order'
+      Generally there are two types of firm orders that may be encountered in the trading world, proprietary brokerage orders and client firm orders.
+Proprietary Brokerage Orders
+A proprietary brokerage order is an order to buy or sell a security for a brokerage's internal account. Brokerages may use firm orders to place trades on accounts associated with margin or securities lending. They may also choose to trade in a portfolio for other internal firm purposes. These trades require a trader to be fully authorized by the brokerage before executing the transaction. Shares purchased under this type of firm order are held directly by the brokerage.
+Proprietary brokerage orders are treated in the same way as all other orders. They must be tagged with either long, short or short exempt. These markings are dictated by securities regulation and Regulation SHO. Firm orders for short sale purposes will be flagged with either short or short exempt.
+Client’s Firm Order
+A firm order from a brokerage client may also be referred to as an open order or a good ‘til canceled (GTC) order. These types of orders can be very beneficial for investors.
+Once a firm order is placed with GTC instructions, the broker-dealer is not required to obtain further consent from the investor to place the trade. Therefore, a broker-dealer will execute a firm order regardless of the amount of time that has passed.
+Open orders may have varying timeframes to expiration. Many open orders will only be live for 30 days, after which time the order expires and the investor must place a new trade to keep the order open.
+Firm orders can help an investor to obtain an ideal price, stop losses or take gains. When placing a firm order, investors have a few options for customization. They can choose a firm, buy or sell limit order. Firm, buy limit orders have a specified price below the current market price. Firm, sell limit orders have a specified price above the current market price. A stop order can also be used to stop losses. A stop-loss order is a sell order at a specified price below the current market price. These orders can be used for risk management. All of these orders remain open until executed which can provide security through various specified price points.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

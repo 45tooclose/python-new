@@ -1,0 +1,141 @@
+
+
+    
+                          WHAT IS  'Bid Wanted'
+
+      Bid wanted is an announcement by an investor who holds a security that the investor is looking to sell, telling interested parties that they can send in bids. A bid-wanted announcement does not represent an agreement to sell, but can lead to prices being negotiated
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Best Bid                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Hit The Bid                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Bid Tick                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Bid Rigging                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Bid Wanted'
+      Bid-wanted announcements are most likely used when investors do not want to solicit bids for securities directly and instead obtain bids through a broker. Brokers are tasked with identifying other parties that may be interested in bidding on the security and may only send the bid-wanted announcement to a set of investors rather than to the entire market. Using a bid-wanted announcement to obtain bids may not help the seller obtain the highest price for a security, but is likely to provide a much higher level of privacy. This may be important to sellers who do not want to communicate that they are shifting their financial positions.
+A bid-wanted announcement lists the time when bids are welcome and the time when the winning bid must be honored, which is called the firm time. In periods of high volatility, the firm time becomes increasingly important to the seller, since the longer the period is between when the bid is offered and when it is honored, the more time the buyer has to revise the bid.
+Bid Wanted in Municipal bonds
+The municipal bond market is one in which traders will often encounter the term bid wanted. In fact, one of the more popular platforms for trading municipal bonds is Bloomberg’s product called Bloomberg Bid Wanted. Because municipal bonds are not traded through a central clearing house, each trade is negotiated directly between buyers and sellers. The trade is instigated by sellers declaring to the market, or individual customers, that they want bids on a particular kind of bond.
+After a bid wanted auction is triggered by a seller of muni bonds, the seller will receive a list of bids, if there are any. The dealer can then decide whether or not accept the bid. Even if a bid is lowest, a dealer of municipal bonds does not have to sell and can decide to keep the bond on his books instead. This bilateral nature of the bid wanted auction process has led some observers of the municipal bond market to accuse it of suffering from favoritism, and have called for reform of the municipal bond market structure.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

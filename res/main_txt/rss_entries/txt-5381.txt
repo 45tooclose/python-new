@@ -1,0 +1,78 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        The stock loan market and risk officers might put the brakes on rampant Tesla Inc. (TSLA) short-selling activity, according to S3 Partners.
+In a research note, the financial analytics firm said nearly $12 billion is now being bet against Tesla’s shares. Short interest reportedly increased by nearly 400,000 shares after CEO Elon Musk controversially dismissed analysts questions as "boring” on a conference call and then rose by half a million shares just two days later. (See also: Elon Musk Defends Criticism of Analysts)
+These latest developments prompted S3 Partners to call the bottom on short-selling activity against the stock. While investors may not have experienced a change of heart on Tesla, analyst Ihor Dusaniwsky noted that tightness in supply and expensive borrowing costs are now eating away at their profits.
+“As Tesla’s short interest increases, there will be external forces putting the brakes on large moves on the short side,” he said. “Lack of stock loan supply, increased stock loan costs and tapped out risk limits will eventually curtail short-selling in Tesla.”
+Dusaniwsky estimated that there are roughly 47 million shares available to short Tesla. As 40.5 million of them have already been used, he said that there now remain only 6.5 million shares left to short. (See also: Musk Promises 'Short Burn of the Century')
+Dusaniwsky also warned that the costs of maintaining short positions against Tesla have begun to surge as demand outstrips supply. The analyst wrote that borrowing fees are now at 3.69%, up from just 1% in October, meaning that Tesla bears have gone from spending $200,000 a day to finance their calls to $1.2 million.
+If rising borrowing costs aren't enough to put short-sellers off, Dusaniwsky believes that portfolio managers and chief risk officers might have to step in.
+“Hedge funds and trading desks implement dollar trading limits per desk, trading strategy and security in order to diversify risk and minimize the possibility that a single bad trade can decimate a fund’s performance,” he said. “With over $11 billion of total short interest in Tesla, many traders are either at or close to their risk limits and will not be able to increase their positions substantially. In effect, portfolio managers and chief risk officers will do what Elon Musk cannot do — stop short-sellers from selling." 
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

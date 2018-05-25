@@ -1,0 +1,144 @@
+
+
+    
+                          What is 'Do Not Reduce (DNR)'
+
+      A do not reduce order (DNR) is a type of trade order with a specified price that does not get adjusted when the underlying security pays a cash dividend.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Do Not Increase - DNI                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Unpaid Dividend                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Record Date                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Cash Dividend                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Do Not Reduce (DNR)'
+      Do not reduce is typically a stipulation that an investor must request when placing a good ‘til canceled (GTC) order with a specified price. Investors have the option to place GTC buy or sell orders on underlying securities at their discretion.
+GTC Orders
+GTC orders can be advantageous for investors for a variety of reasons. Popular GTC orders include limit buy, limit sell and stop loss orders. A limit buy order is an order to buy a security at a specified price below the market’s current price. A limit sell order is an order to sell a security at a higher price than the market’s current price. A stop loss order is an order to sell at a specified price that is below the current market price. All of these orders can help an investor to manage their personal risk tolerance for a security. Stop loss orders offer a guaranteed floor while limit sell orders offer a guaranteed ceiling. Limit buy orders allow the investor to control their entry point into the investment. These orders are often best as a GTC order because of the risk management controls that they institute over the long-term.
+DNR Exception
+Investors who use GTC orders must be aware that their order’s specified price will be reduced with the distribution of cash dividends. The reduction of a GTC orders specified price is a market practice that helps to keep the order price in line with the market’s activity.
+Investors who wish for their specified price to remain unchanged through cash distributions can do so through a DNR order. Each broker has their own way of instituting DNR orders. Oftentimes investors can filter for DNR or notify their broker that they would like to stipulate for DNR. If an investor does not request DNR then the specified order price on their GTC order will be reduced on the company’s ex-dividend date.
+DNR Example
+For an example, assume a customer has placed a GTC limit order to buy 100 shares of XYZ stock at $10. XYZ closed yesterday at $15 and then goes ex-dividend with a 20-cent dividend. The stock opens on its ex-dividend date at $14.80. Without a DNR stipulation the investor’s order price would be reduced to $9.80. With a DNR the buying price would remain at $10.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

@@ -1,0 +1,83 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Apple (NASDAQ: AAPL) is one of the largest companies in the United States, with a market cap of over $852 billion as of April 30, 2018. The ubiquitous company is known for its iPhone and iPad products as well as futuristic projects such as possible self-driving car. Apple is a very popular stock in the market, with an average volume of close to 29 million shares traded a day. Many insiders at Apple own large stakes in the company, along with institutional investors, who have massive positions.
+Here are the top five shareholders of Apple Inc. according to SEC filings.
+Arthur Levinson
+Arthur Levinson is the largest individual shareholder in Apple, with his 1.13 million shares. Levinson is the chairman of the board for Apple and the current CEO of Calico, an independent research and development (R&D) biotech company. Calico is focused on the goals of combating aging and related diseases. It is a subsidiary of Google, which in 2015 has been restructured into Alphabet. Levinson was formerly the CEO of Genentech.
+Tim Cook
+Tim Cook is one of the largest insider shareholders in Apple, according to U.S. Securities and Exchange Commission (SEC) filings. He owns 901,474 shares according to the latest filing. 
+Cook was named chief executive officer (CEO) of Apple in August of 2011, succeeding the founder Steve Jobs. Prior to being named CEO, Cook served as Apple’s chief operating officer (COO) responsible for the company's international sales and operations. This included the  supply chain and sales activities for the company. Cook previously worked for Compaq.
+Craig Federighi
+Craig Federighi, a senior vice president of software engineering, owns 460,367 shares according to his April 2018 SEC filing. Federighi, who oversees the development of iOS, OS X and Apple's common operating system engineering teams, returned to the company in 2009 after working for NeXT, followed by Apple and Ariba. 
+Bruce Sewell
+Bruce Sewell, Senior Vice President of Legal and Global Security and General Counsel, owns 172,265 shares of Apple according to his latest filing. Sewell is responsible for overseeing global security and privacy, intellectual property, corporate governance and other legal matters. He joined the company in 2009.   
+Jeffrey Williams
+Jeff Williams is Apple's chief operating officer under CEO Tim Cook, a position he has held since December 2015. He owns 72,215 shares of Apple according to his April 2018 SEC filing. 
+Institutional Shareholders
+The three largest institutional holders of Apple stock is  Vanguard Group Inc., Blackrock Inc. and State Street Global Advisors, which collectively owned 17.28% of Apple.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

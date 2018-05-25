@@ -1,0 +1,140 @@
+
+
+    
+                          DEFINITION of 'Follow-The-Leader Pricing'
+
+      Follow-the-leader pricing is a competitive pricing strategy, in which a business matches the prices and services of the market leader.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Offensive Competitive Strategy                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Competitive Pricing                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Predatory Pricing                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Business Exit Strategy                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Follow-The-Leader Pricing'
+      Follow-the-leader pricing may force the business to continually adjust its pricing, especially if the market leader counters this strategy by continually raising and lowering prices. This can lead to price wars.
+Pursuing Follow-The-Leader Pricing Strategies
+A follow the leader pricing strategy is most suitable for larger companies with the economies of scale to achieve low unit costs and compete on price – and is commonly found in oligopolistic sectors, in which the market is shared by a small number of producers or sellers, such as big-box retailers or grocery chains.
+Because small businesses and start-ups typically have higher costs and lower margins than bigger businesses – they may be unable to compete with the industry leaders on price. Instead, they have to use service and other offerings to differentiate themselves. Follow-the-leader pricing is an alternative to more strategic pricing strategies for entering new markets, increasing market share or defending markets from new entrants.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

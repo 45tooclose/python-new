@@ -1,0 +1,88 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Chasing the hottest stocks has its risks, but it may be a winning strategy at this late stage of the bull market, Barron's reports. Among those who believe that current economic and market conditions bode well for momentum investing include James Paulsen, the widel -followed chief investment strategist at The Leuthold Group, as well as analysts at Bank of America Merrill Lynch, according to Barron's.
+The iShares Edge MSCI Momentum Factor ETF (MTUM) is up by 27.0% over the past 52 weeks, per Barron's quote pages, while the S&P 500 Index (SPX) advanced by 11.2% over the same period, per S&P Dow Jones Indices.
+Among the components of the iShares Momentum ETF are the following nine stocks, with their 52-week price gains through the close on May 1, per Barron's: AbbVie Inc. (ABBV), +52.9%; Bank of America Corp. (BAC), +26.0%; Amazon.com Inc. (AMZN), +68.1%; Microsoft Corp. (MSFT), +37.5%; Intel Corp. (INTC), +44.2%; Cisco Systems inc. (CSCO), +30.9%: Visa Inc. (V), +37.9%; MasterCard Inc. (MA), +53.6%; and JPMorgan Chase & Co. (JPM), +25.0%.
+Looking Ahead
+Based on comparisons of analysts' median price targets to the opening prices on May 2, the aforementioned stocks are expected to deliver continued gains in the near term. Here are those calculations of implied gains to price targets, per Barron's quote pages:
+AbbVie +8.7%
+Bank of America +16.7%
+Amazon.com +17.0%
+Microsoft +15.8%
+Intel +16.8%
+Cisco +11.3%
+Visa +13.4%
+MasterCard +4.7%
+JPMorgan Chase +12.8%
+Barron's notes that momentum stocks have outperformed the broader S&P 500 for year-to-date 2018. The iShares Momentum ETF is up by 3.5%, while the S&P 500 is down by 0.5%, per the Barron's article published after the close on May 1.
+The Case for Momentum
+Paulsen finds, per Barron's, that momentum investing historically works best in a so-called Goldilocks economy—that is, neither too weak nor too strong. That describes the current U.S. economic picture, with nominal GDP growing at an annualized rate of 4.5%, Barron's indicates. Placing that growth rate in context, Paulsen notes that it is below the average for the period since 1980, Barron's adds. "This should improve Mo [momentum] investment returns and lower the frequency of negative results!" he writes, as quoted by Barron's. 
+Based on their analysis of history, analysts at Bank of America Merrill Lynch say that momentum investing is among the best-performing strategies near the end of bull markets, per Barron's. Another, they add, is investing in growth stocks.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

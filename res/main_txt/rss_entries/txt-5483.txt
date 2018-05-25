@@ -1,0 +1,91 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        A warrant is similar to an option, giving the holder the right but not the obligation to buy an underlying security at a certain price, quantity and future time. It's unlike an option in that a warrant is issued by a company, whereas an option is an instrument offered by a central exchange, such as the Chicago Board Options Exchange (CBOE). The security represented in the warrant (usually share equity) is delivered by the issuing company instead of a counter-party holding the shares. Companies often include warrants as part of share offerings to entice investors into buying the new security. A warrant can also increase a shareholder's confidence, provided the underlying value of the security increases over time. Let's examine the types of warrants, their characteristics and advantages and disadvantages they bring to your portfolio.
+[Warrants are great incentives that companies offer to investors, but there are many more third-party options than company-issued warrants. If you'd like to learn more about the wider option trading universe, Investopedia's Options for Beginners course provides a great introduction to help you get started on the right foot.]
+Types of Warrants
+There are two different types of warrants: a call warrant and a put warrant. A call warrant represents a specific number of shares that can be purchased from the issuer at a specific price, on or before a certain date. A put warrant represents a certain amount of equity that can be sold back to the issuer at a specified price, on or before a stated date. (Warrants are just one type of equity derivative. Find out about others in 5 Equity Derivatives And How They Work.)
+Characteristics of a Warrant 
+The warrant certificate includes disclosures about the security's characteristics and the holder's rights or obligations. All warrants have a specified expiration date, which is the last day the rights of a warrant can be executed. Warrants are also classified by their exercise style. For example, an American warrant can be exercised anytime before or on the stated expiration date while a European warrant can be exercised only on the expiration date.
+The certificate also includes detailed information on the underlying instrument. A warrant typically corresponds to a specific number of shares but it can also represent a commodity, index or a currency. The exercise or strike price states the amount that must be paid in order to buy the call warrant or to sell the put warrant. The payment of the strike price results in a transfer of the specified shares or value of the underlying instrument.
+The conversion ratio states the number of warrants needed to buy or sell one investment unit. For example, a call warrant states the conversion ratio to buy stock XYZ is 3:1, meaning the holder needs three warrants in order to purchase one share. Typically, the share price will be low if the conversion ratio is high, and vice versa. An index warrant carries an index multiplier instead of a conversion ratio, with that number used to determine the amount payable to the holder upon the exercise date.
+Investing in Warrants 
+Warrants are transparent and transferable certificates which tend to be more attractive in medium to long-term investment schemes. These often high-risk, high-return investment tools remain largely unexploited in long-term strategies while offering an attractive alternative to speculators and hedgers. Even so, warrants offer a viable option for private investors because the cost of ownership is usually low and the initial investment needed to command a large amount of equity is relatively small.
+Advantages
+Let's look at an example that illustrates one potential benefit of warrants. Say that XYZ shares are currently quoted at $1.50 per share. At this price, an investor would need $1,500 to purchase 1,000 shares. However, if the investor opted to buy a XYX call warrant (representing one share) that was priced at $0.50, he or she could possess 3,000 shares with the same capital.
+Because warrant prices are typically low, the leverage and gearing they offer is typically high, generating potentially larger capital gains and losses. While it's common for share and warrant prices to move in tandem in absolute terms, the percentage gain or loss will vary significantly because of the initial price difference. Saying it another way, warrants tend to exaggerate percentage change movement compared to share price.
+Let's look at another example to illustrate these points. Say that XYZ shares gain $0.30 from $1.50 and close at $1.80, generating a 20% gain. At the same time, the warrant gains $0.30, rising 60% from 0.50 to $0.80. In this example, the gearing factor is calculated by dividing the original share price by the original warrant price: $1.50 / $0.50 = 3, denoting the general amount of financial leverage the warrant offers. The higher the number, the larger the potential for capital gains or losses..
+In a real life example, Warren Buffett's Berkshire Hathaway made a deal to invest in Bank of America, acquiring warrants for BAC common stock at an exercise price of  $7.14 each, paying roughly $5 billion. The stock eventually rose to $24.32 per share, allowing the Oracle of Omaha to exercise those warrants for more than $17 billion, reflecting a $12 billion gain on the original investment.
+Warrants can offer significant gains during a bull market and some protection during a bear market. This is possible because, as the price of underlying shares begins to drop, the relatively lower-priced warrant may not realize as much loss as the actual share price. (Leverage can be a good thing, up to a point. Learn more in The Leverage Cliff: Watch Your Step.)
+Disadvantages
+Like any other type of investment, warrants also have drawbacks and risks. As mentioned above, the leverage and gearing that warrants offer can be high but these can also work to the investor's disadvantage. Let's say we reverse the outcome of the XYZ example and realize a drop in share price by $0.30. In this instance, the percentage loss for the share price would be 20% while the loss on the warrant would be 60%. 
+The value of the certificate can drop to zero, presenting another disadvantage to the warrant investor because, if it happens before exercised, the warrant would lose any redemption value. Finally, a warrant holder has no voting, shareholder or dividend rights and gets no say in the functioning of the company, even though he or she is affected by their decisions and policies.
+Bottom Line
+Warrants can offer a useful addition to a traditional portfolio but investors need to be attentive to market movements due to their risky nature. Even so, this largely unused investment alternative offers the opportunity to diversify without having to compete with the largest market players. (What's true for warrants is true for options, learn more in our Options Basics Tutorial.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

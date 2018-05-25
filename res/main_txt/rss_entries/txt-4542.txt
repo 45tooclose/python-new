@@ -1,0 +1,96 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        While recent information breaches have prompted public outcry, the widespread availability of data has also emerged as a source for good. Investors and research analysts have increasingly found inventive ways to capitalize on newly available information.
+This has proved especially true in the world of responsible investing, which has grown substantially in recent years. According to a 2017 McKinsey report, more than 25% of global AUM are invested in strategies that adhere to ESG (environmental, social and governance) principles – a 600% increase over a decade before. “Data is the lubricant” behind that rise, said Stephen Franco, managing director of Socially Innovative Investing at U.S. Trust, speaking at the Total Impact conference in Philadelphia last week. 
+Over the course of two days, numerous conference attendees reinforced his view that ESG data have become an essential tool for investors looking to gain a truer picture of how well a company is doing.
+In Search of Value
+Historically, most investments have been chosen using a blend of qualitative (judgment-based) and quantitative analysis. The latter refers to the process of analyzing numerical information to determine the health of a company.
+Publicly traded companies are required to make quantitative information available through shareholder reports, which investors analyze to make observations and predictions about a company’s health. Research analysts supplement company financials and key performance metrics with their own observations from earnings calls, informal conversations and interviews with company leadership. 
+While this method was generally successful in helping analysts predict a company's value, the subjectiveness of the methodology frequently left risks – including environmental, social and governance concerns – insufficiently analyzed. According to Abdur Nimeri, senior investment strategist at Northern Trust Asset Management: "Environmental and social risk wasn't as embedded in the price [of equities] as you would expect.”
+Today, data-driven methods are emerging to help analysts better measure this non-financial information. This data allows researchers to quantify the “complex interrelationships" that exist among intangible, difficult-to-measure concepts that help to predict company success, said Anders Ferguson, founding principal at Veris Wealth Partners.
+"It used to be that we had a static view of the company,” said Jeff Gitterman, referring to the periodic updates that public companies are required to file. But big data and AI have broadened the landscape.
+These new methods include the standardization of environmental, social and governance factors. “There’s a blizzard of numbers,” said Bob Smith, president and CIO of Sage Advisory in Austin, Texas.
+“You’re going to make decisions on the data that’s available,” said Anna-Marie Wascher, CEO & founding partner of Flat World Partners, an impact investing firm. As nonfinancial data grows more abundant, more and more opportunities will emerge to accurately price in underlying risks at companies. Newly quantified ESG information is becoming a "necessary part of fundamental analysis,” said Franco.
+Investors should still be careful. "The data is still immature," Franco cautioned.  "The raw input still has a long way to go." What's important is combining it with other factors. "Just like how only looking at a P/E ratio doesn't tell you much about a company, neither does a raw ESG score."
+"These issues are now seen as material to company outcomes," said Franco. "You're not doing your fiduciary duty if you're not looking at these statistics."
+(See also: A New Approach to ESG Scoring)
+ESG: 'The GPS of Investing' 
+Many investors thought that investing for change was “just a fad, says David Alt, head of responsible investing at PNCBank. “Two years ago, there was a lot more resistance to ESG and impact investments.”
+Today, that trend has largely changed. Impact investing today is “much more accepted and tolerated,” says Alt.
+That change is largely a result of data not only helping investors find information about companies, but also helping them to quantify the results of their investments. "There can be no buy in…unless you prove that you're doing the job that you were hired for,” said Smith.
+“ESG is the GPS of investing,” said Jeff Gitterman, co-founding partner of Gitterman Wealth Advisors. Early ESG investors were only able to screen out companies with policies and practices that they did not want to support. But ESG data means that today’s investors have much more latitude to pick the causes that interest them and invest to meet an end. "You can't have a target unless you have something that you're aiming at,” said Jim Lumberg, co-founder and executive vice president at Envestnet, a financial data provider.
+Sustainability Outpaces Traditional Investments 
+Even the best sales pitch is meaningless if managers aren’t able to deliver competitive returns. “Fifteen years ago, ESG investing could have been thought of as concessionary,” said Lumberg, referring to the idea that socially conscious investments underperform their traditional peers.
+But data has called that widely held belief into question. According to researchers at Morgan Stanley’s Institute for Sustainable Investing, “Investing in sustainability has usually met, and often exceeded, the performance of comparable traditional investments… across asset classes and over time.”
+Lumberg said that, while the “academic world had debunked” the belief that ESG investing leads to sub-par returns, many investors are still wary. As environmentally and socially conscious funds have continued to outpace their peers, frequently with lower volatility, that attitude may continue to shift.
+Surveys by Barron’s and Morningstar have supported this conclusion. According to the latter, “performance skews positive over both the short term and the long term” for sustainable funds.
+While some investors will inevitably prove hesitant to make major shifts in their portfolios, it’s likely that the investment community’s trend of increasing sustainable assets will continue. "We can now prove that we can make market-rate returns" in a socially responsible way," said Casey Clark, director of sustainable & impact investing, managing director, Glenmede.
+(Read more: Profits or Purpose: A Firm Tries to Deliver Both)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '',
+     'leadGenVertical' : '',
+     'leadGenLayout' : '',
+     'leadGenPage' : ''
+    });
+                    
+            
+                

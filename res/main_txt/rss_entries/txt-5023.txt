@@ -1,0 +1,87 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        When A New Hope was released in just 42 theaters in 1977, few would have predicted that the franchise would even be around decades later – much less trading hands for over $4 billion, the price the Walt Disney Co. (DIS) paid for Lucasfilm in 2012 (Star Wars accounted for the bulk of the deal's value, though some consideration was paid to films in which Harrison Ford wears a funny hat).
+Forty years since its silver screen debut as the franchise prepares to unleash the next chapter of its story onto a hungry audience, even that $4 billion looks like a bargain. So why is the franchise so valuable?
+It Is Demographic Grapeshot
+Since 1977, everybody has heard of Star Wars. There is, of course, the first trilogy that spanned the late 1970s and early 1980s, then the second trilogy from 1999 to 2005, and then a 2008 animated film based on the animated series running from 2003 to 2005 (not to mention the 1980s "Ewoks" and "Droids" cartoons). Disney has released two additional films since December 2015, one of which inaugurated a third trilogy. On top of the long-running bombardment through film and TV, Star Wars has an expanded universe of books, comics, board games and video games. (For more, see: How Exactly Do Movies Make Money?)
+The point is that every person between the age of 2 and 70 has potentially had some interaction with the franchise. This means that there are many different reasons for continuing to follow the franchise – nostalgia for some, a new discovery for others – and many existing routes for entry. The Star Wars franchise was particularly well-managed throughout its expansion, with none of the spin-off content subtracting from the core story told through the movies. In fact, the stories told through some of the video games and books are seen as an improvement over particular films. 
+Of course there are the hardcore fans, but just about everyone can enjoy Star Wars. It's a far cry from it's much more niche and nerdy sibling Star Trek. 
+ 
+
+ 
+It's Been Done Before
+There are a few equivalents to the Star Wars universe that have developed the same demographic reach and content variety, and all of them are valuable commodities. One is the Harry Potter franchise that has its core in the books and films, and additional revenue streams from toys, theme parks and videogames. The Potterverse likely won't explode while J.K. Rowling maintains direct control, but the potential is there. The Star Trek franchise is another example, of course, and inspires similar fandom across generations. Star Trek grew from TV to film rather than the other way as with Star Wars, but the expanded universes parallel each other in variety and reach. (For more, see: The Economics of Summer Blockbuster Movies.)
+Then, of course, we have the Marvel Universe, which was another Disney purchase made before the Lucasfilm buyout. The Marvel Universe came with even more history than the Star Wars franchise and hundreds of established characters to work with. This allowed Disney to accelerate movie and TV production, increase the merchandising already in place and pump out Marvel content at an unprecedented pace. Of course, Marvel Studios already had some of the plan in place and deserves full credit for the masterful execution from Iron Man (2008) to now, but the Disney magic in merchandising adds extra revenue to each film. It is estimated that Disney already made back the purchase price of Marvel by the time the first Avengers film was released. 
+It Goes Far Beyond Box Office
+Obviously, the ability to spin off from a tentpole film into many different areas of content and merchandise is a key advantage that underlies many movie franchises. Star Wars has a large universe already, with opportunities up and down the narrative stream for new stories. It also has a lot of experience merchandising, with consumers able to buy just about anything imaginable. This includes figurines, models, t-shirts, stamps, comics, Nerf guns, Lego sets, water bottles, key chains, phone cases, costumes, blankets, beds shaped like the Millennium Falcon, slippers, hats, suggestive Darth Vader underwear, watches, business card holders, lunch boxes, stationery, car accessories, kitchenware, luggage and much, much more.
+With Star Wars now an in-house property, Disney will continue to develop the merchandising and integrate the brand and universe into its resorts business and theme parks. Maybe we will see a theme room where you can sleep inside a replica Tauntaun, but they'll likely start with something less gruesome. In short, Disney gives Star Wars even more opportunities for merchandising (t-shirts with Mickey as a Jedi, for example) and new cross-over content.
+The Bottom Line
+There is no doubt that Star Wars was well worth the $4 billion-plus purchase price. The box office receipts of all the movies exceeds that amount if you adjust for inflation, and there is a reasonable chance that higher earning movies are still in the future. These movies will be backed by a multitude of merchandising and spin-off content that will add value for Disney for years to come. In short, the value of the Star Wars franchise owes to the consumers – young and old – who pay to escape to "a long time ago in a galaxy far, far away." 
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '',
+     'leadGenVertical' : '',
+     'leadGenLayout' : '',
+     'leadGenPage' : ''
+    });
+                    
+            
+                

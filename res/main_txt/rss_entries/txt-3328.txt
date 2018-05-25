@@ -1,0 +1,139 @@
+
+
+    
+                          DEFINITION of 'Operating Netback'
+
+      Operating netback is a measure of oil and gas sales revenue net of royalties, production and transportation expenses. This is a non-GAAP measure used specifically in the oil and gas industry as a benchmark to compare performance between time periods, operations and competitors.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Netback                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Recycle Ratio                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Royalty Interest                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Oil Price to Natural Gas Ratio                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Operating Netback'
+      The operating netback measure is generally calculated based on the oil or gas selling metric, such as per barrel in the case of oil. It is the amount of money the company gets to keep per barrel after royalties, production costs and costs of transport are deducted. It is an industry specific benchmark.
+Example of an Operating Netback
+For example, suppose an oil company's Canadian operations sell oil at an average $50 per barrel if royalties, production and transport equal $5, $15 and $8 respectively. The operating netback for the Canadian operations equals $22 a barrel. The calculated operating netback can be compared to the specific operations' past performance or a rival company's performance in the same region.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

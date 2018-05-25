@@ -1,0 +1,203 @@
+
+
+
+Senno Brings Sentiment Analysis to Blockchain
+Senno project, built on the NEO blockchain, aims to bring sentiment data analysis to small and medium scale businesses with blockchain technology.
+
+
+ by  News
+Desk,
+12 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  User sentiment data is an attractive marketing tool, given its significant potential to improve operating margins. Despite being widely available, user sentiment data has proven costly and cumbersome to analyze. The heavy burdens of computational power and storage capacity required to run centralized servers for big data are largely to blame. Blockchain allows these burdens to be decentralized and offers additional benefits in terms of security and reliability.
+Senno is the world's first blockchain-based platform for user sentiment analysis. By pioneering the use of blockchain in sentiment analysis, Senno can deliver user sentiment data at a far lower cost than has previously been possible. This brings significant cost advantages to small and medium-sized businesses that have so far been priced out of the market. With Senno, even startup companies can have access to the kind of data that can enable smarter decision making in areas such as product development or advertising spend.
+
+Features of Senno
+Senno will consist of an open API such that developers can customize plugins and features on the platform to meet the requirements of clients who will purchase user sentiment data. The SENNO utility token will be used as an incentive for running the nodes that will drive the blockchain, and for developers to create new system functionalities.
+The token will also be used as a payment currency for individuals who allow access to their data being included in Senno analytics. Providing financial compensation for personal data access is a clear departure from the current status quo, where companies like Facebook and Google freely harvest data from their users. Clients wishing to access user sentiment analytics will make purchases using the SENNO token as currency.
+The use of Senno will be governed by smart contracts. Therefore, the platform's developers have opted to build the system on the Neo blockchain, due to the integrity provided by the delegated Byzantine Fault Tolerance (dBFT) consensus protocol. Neo is also proposing to extend its programming languages to include Python and Go (in addition to the current languages of C# and Java). This will invite a wider group of developers to build apps and smart contracts on the Senno platform.
+SENNO tokens opened for presale on March 31st, 2018 with an initial cap of $4M. The full crowdsale will have a hard cap of $25M and is slated to open in Q3 2018. Further information is available in the Senno white paper. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

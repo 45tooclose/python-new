@@ -1,0 +1,60 @@
+
+
+
+    
+    
+    
+          
+    A:
+            Restricted shares refer to shares of stock whose sale or acquisition is subject to specific restrictions laid out by the issuing company and agreed upon by the eventual owner of the restricted shares. This means that the restricted shares issued by a company are not fully transferable to the person receiving the stock until certain conditions or restrictions are met. It typically becomes available for sale under a graded vesting schedule that lasts several years.
+Once the restrictions or conditions have been satisfied, the stock is no longer restricted and can be transferred to the intended person receiving the stock. These restricted shares are normally used to offer employees alternative compensation beyond their salaries.
+Restricted stock holders pay tax on the capital gain or loss represented by the difference between the stock’s price on the date it vests and the date it is sold. Additionally, restricted stock is taxable as ordinary income in the year it vests.
+Restricted Stock for Employees
+When a restricted share is issued to an employee in the form of employee compensation, the conditions that need to be met are normally based on continued employment for a specific number of years or the achievement of particular milestones, such as earnings goals or other financial targets.
+When it comes to startup companies that normally offer restricted shares in the form of stock option grants, there are normally very specific conditions that must be met before an employee owns any restricted shares.
+The shares can be restricted by a predefined time period, known as a vesting period. This entices an employee to stay with the company for a longer period of time as he waits for his options to vest and become unrestricted, normally over a four-year period.
+The shares can be restricted by a double-trigger provision, meaning that an employee's shares become unrestricted if the company is acquired by another and that the employee is fired in the restructuring.
+The shares can be restricted by a market standoff provision, which restricts the sale of shares for a certain period of time after an initial public offering (IPO) to stabilize the market price of the stock.
+Insiders are given restricted shares after merger and acquisition activity, underwriting activity, and affiliate ownership in order to deter premature selling that might adversely affect the company. If an executive leaves the company, fails to meet corporate or personal performance goals, or runs afoul of SEC trading restrictions, he or she may have to forfeit their restricted stock.
+        
+    
+
+    
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'FAQ'
+    });
+                

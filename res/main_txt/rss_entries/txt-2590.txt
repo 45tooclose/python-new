@@ -1,0 +1,53 @@
+
+
+
+    
+    
+    
+          
+    A:
+            Face value, also known as par value, is equal to a bond's price when it is first issued, but thereafter the price of the bond fluctuates in the market in accordance with changes in interest rates while the face value remains fixed.
+The various terms surrounding bond prices and yields can be confusing to the average investor. A bond represents a loan made by investors to the entity issuing the bond, with the face value being the amount of principal the bond issuer borrows. The principal amount of the loan is paid back at some specified future date, and interest payments are made to the investor at regular, specified intervals during the term of the loan, typically every six months.
+A bond is a fixed-rate security or investment vehicle. The interest rate paid to a bond investor or purchaser is a fixed, stated amount, but the bond's yield, which is the interest amount relative to the bond's current market price, fluctuates along with price. As the bond's price fluctuates, the price is described relative to the original par value, or face value; the bond is referred to as trading either at a premium, synonymous with above par value, or  below par value, often referred to as a discount.
+Three of the factors that influence a bond's current market price are the credit rating of the entity that issued the bond, the market demand for the bond and the time remaining until the bond's maturity date. The maturity date is an important factor because as the bond nears its maturity date, which is the date when the bondholder is paid the full face value of the bond, the bond price naturally tends to move closer to par value.
+An interesting aspect of bond pricing and demand is revealed in the effects of reports issued by bond rating companies such as Moody's or Standard & Poor's. Lower ratings generally cause a bond's price to fall since it is not as attractive to buyers. But when the price falls, that action tends to increase the bond's appeal because lower priced bonds offer a higher yield.
+        
+    
+
+    
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Deposit',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'FAQ'
+    });
+                

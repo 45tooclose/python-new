@@ -1,0 +1,224 @@
+
+
+
+Official Fork Denied for ZClassic (ZCL), Speculators Hardly Take Notice
+The pump for ZCL continues, but doubts arise that the price may actually have no basis in reality.
+
+
+ by  Christine
+Masters,
+7 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  ZClassic (ZCL) already did a ten-fold appreciation within a few days, rising from lows of $4 to nearly $40. The bidding upward never stops for a pause. ZCL added another 48% to its price overnight, rising to $39.17. Bittrex leads in terms of price, but Cryptopia has seen a similar appreciation, to about $37.
+However, the news of a hard fork and coins awarded to ZCL holders may be unfounded.
+The ZClassic team explained that rumors and proposals may never materialize, despite the talks of a fork:
+https://twitter.com/ZclassicCoin/status/989706154635857921
+However, the buying of ZCL continued, recalling the last time that investors rushed on board, if only for the promise of price appreciation. In the case of ZCL, an announcement was expected on Sunday, and speculations may continue. A price rise to $100 may seem attractive, even to buyers entering at $40.
+Others, however, believe the recent clarification that there is no fork may tank the price, and take down new buyers.
+Meanwhile, Rhett Creighton, creator of ZClassic, posted a mystic tweet, once again related to a fork. It is unknown if Creighton is still interested in that idea:
+https://twitter.com/HeyRhett/status/989705729115291650
+Leading up to the weekend, ZCL may continue upward, as there are hopes at least a part of the community may consider a fork. Piecing up the news may lead to further hype. But also, the days leading up to an actual fork will certainly see ZCL rise on attempts at accumulation.
+No official news have been shared of a new team being selected for working on ZCL. However, users have discovered two rogue teams. The one, ZClassic - CE, seems to be missing, with the website down. The other one, ZClassic Blue, announced its engagement with the coin at the beginning of April,reportedly working on new developments:
+https://twitter.com/zclassicblue/status/988933988935979008
+Some believe that even the presence of a new team would be enough to see ZCL appreciate to reasonable levels, to compete for greater popularity without the boost from fork news.
+ZCL had earlier short-term pumps and crashes, but this time, the trend upward has held up for a few days, with the price going vertical.
+
+baseUrl = "https://widgets.cryptocompare.com/";
+var scripts = document.getElementsByTagName("script");
+var embedder = scripts[ scripts.length - 1 ];
+(function (){
+var appName = encodeURIComponent(window.location.hostname);
+if(appName==""){appName="local";}
+var s = document.createElement("script");
+s.type = "text/javascript";
+s.async = true;
+var theUrl = baseUrl+'serve/v3/coin/chart?fsym=ZCL&tsyms=USD,BTC';
+s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+embedder.parentNode.appendChild(s);
+})();
+ 
+And while some believe the ZCL digital asset has value as an anonymous coin, due to its low supply and the technology, for now the network has been left without team supervision, and wallets have trouble synchronizing. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

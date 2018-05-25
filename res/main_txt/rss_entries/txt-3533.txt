@@ -1,0 +1,142 @@
+
+
+    
+                          What is 'Ticker Tape'
+
+      A ticker tape is a device that shows stock symbols and numbers to convey information about trades. The ticker tape is electronic today, but it gets its name from the ticking sound the original mechanical machine made and from the long, narrow pieces of paper that stock quotes were printed on.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Tape Reading                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Tape Is Late                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Consolidated Tape                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Flash Price                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Ticker Tape'
+      Each entry on the ticker tape displays the stock symbol (indicating which company’s stock has been traded), volume (number of shares traded), the price per share at which the trade was executed, an up or down triangle showing whether that price is above or below the previous trading day’s closing price and another number telling how much higher or lower that trade’s price was than the last closing price. Electronic ticker tapes also use green to indicate a higher trading price and red to indicate a lower price, and blue or white to indicate no change. Before 2001, trading prices were displayed in fractions, but since 2001, all prices are shown in decimals.
+Watching the ticker tape, especially one that is color coded, can help investors gauge overall market sentiment at any moment. Ticker-tape data also helps technical analysts evaluate stock behavior using charts.
+Before information could be transmitted electronically, brokers whose offices were closer to the stock exchange had an advantage because they received the latest trading data sooner than brokers located further away.
+History of Ticker Tapes
+The first telegraphic ticker tape was created by Edward Calahan in 1867, and Thomas Edison improved upon Calahan’s invention and patented it in 1871. Mechanical ticker tapes gave way to electronic ones in the 1960s. During the late 19th century, most brokers who traded at the New York Stock Exchange (NYSE) kept an office near it to ensure they were getting a steady supply of the tape and the most recent transaction figures of stocks. These latest quotes were delivered by messengers, or "pad shovers," who ran a circuit between the trading floor and brokers' offices. The shorter the distance between the trading floor and the brokerage, the more up-to-date the quotes were.
+Ticker-tape machines introduced in 1930 and 1964 were twice as fast as their predecessors, but they still had about a 15-to-20 minute delay between the time of a transaction and the time it was recorded. It wasn't until 1996 that a real-time electronic ticker was launched. These up-to-the-minute transaction figures – namely price and volume – are seen today on TV news shows, financial wires and websites.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

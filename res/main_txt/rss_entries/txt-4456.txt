@@ -1,0 +1,143 @@
+
+
+    
+                          WHAT IS 'Hardening'
+
+      Hardening is a term used to describe commodity or futures contracts prices that are either stabilizing or advancing slowly.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Invisible Hard Market                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Current Delivery                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Narrow Basis                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Cash Contract                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Hardening'
+      Hardening describes a stabilization or gradual price increase in commodity or futures contracts. It is a measure of price volatility, or lack thereof. Commodity prices tend to be more volatile than other investments, especially in times of equity bear markets. Volatility in commodity prices can arise for several reasons: lack of trading volume, depressed supply due to natural disaster, or geopolitical interference. All of these factors have an impact on the basic driver of commodity prices: the relationship of supply to demand. When supply and demand don’t line up, commodity prices fluctuate. When supply and demand align, commodity prices harden.
+Commodities are basic, standardized goods that are used as inputs to manufacture other consumer products. Well-known commodities include crude oil, corn, wheat, and precious metals. Commodities are traded on a spot market, with cash settlement within a day or two, or via futures contracts. Futures allow investors to place bets on, or lock in, commodity prices, whether it be as a hedge to protect against losses due to unforeseen future volatility or as pure speculation on future price movements.
+Leverage and Volatility in Futures Contracts Markets
+A commonly held belief has been that recent entry of speculators into the commodities futures markets has led to an increase in price volatility on futures contracts. On the contrary, some researchers have concluded that an influx of futures traders, and the liquidity that they bring to the market, has a stabilizing or hardening effect on futures prices. These researchers suggest that futures markets are considered volatile not because of price fluctuations, but because of the great deal of  leverage available to futures traders.
+Leverage refers to the practice of using margin loans to place trades. Margin requirements for futures trading are much lower than for equities. Equities margin requirements are generally 50 percent, while often 5 to 10 percent for futures contracts. Small fluctuations in the price of a highly leveraged futures contract will have great consequences, and pose potentially unlimited risk. This is especially to holder of short contracts who may be forced to deliver a commodity to the holder of a long contract at a great loss. This risk is not to be confused with volatility, though. Investors in the futures market should be aware that, because traders have the ability to leverage their trades to a greater degree than in other markets, great risk can exist even under hardening price conditions when commodity prices are relatively stable.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

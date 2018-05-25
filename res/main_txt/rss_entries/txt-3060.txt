@@ -1,0 +1,81 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Amazon.com Inc. (AMZN) shares hit an all time high in after-hours trading after the company reported its Q1 2018 earnings. But in the 20-plus years since its initial public offering (IPO), Amazon stock was not always the hot commodity that it is today. When Amazon first went public in 1997, its stock was priced at just $18 per share.
+From that modest beginning, the online retail giant has seen its stock skyrocket, despite a rocky period during the dot-com crash. In fact, if you had invested just $100 in Amazon's IPO, that investment would have been worth nearly $101,197.33 by close on April 26, 2018, not adjusted for reinvested dividends.
+Hidden Growth
+It is clear from the figures above that even a modest investment in the company in 1997 would have turned into a healthy contribution to anyone's retirement savings. In fact, the stock has grown more than 8000% since its IPO.
+To make sense of how a modest $100 investment can grow into such a hefty amount, it helps to understand the mathematics behind one of the most powerful facets of stock market investing: the split.
+Stock Splits: The Basics
+A stock split occurs when a company decides to issue additional shares to current shareholders in accordance with the number of shares already owned. A 2:1 split means shareholders receive an additional share for every share they already own. An investor who owns 100 shares, for example, ends up with 200 shares. Stock splits can be as generous as the company that issues them, but 2:1 or 3:1 ratios are most common.
+When a stock splits, its price is reduced by the same factor. A 2:1 split means shareholders have twice the number of shares valued at half the price so the total value of the shares remains stable. A 3:1 split means the stock price is reduced to one-third of the original value. 
+Companies may announce a split for numerous reasons, chief among them being the desire to keep stock attractively priced for investors, and arguably more liquid.
+The Power of the Split
+While the price of stock is initially reduced by a split, the value — or market capitalization — doesn't change much. What has changed is that an investor who used to own one stock, now has two or three depending on the split factor. 
+Amazon Does the Splits
+Amazon's stock split three times in quick succession: once in 1998 and twice in 1999. In June of 1998, Amazon announced a 2:1 split, followed by a 3:1 split in January of 1999 and a 2:1 split eight months later. This means a single share purchased at the IPO in 1997, became 12 shares less than three years later.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

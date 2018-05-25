@@ -1,0 +1,82 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Shares of Tesla, Inc. (TSLA), the maker of luxury electric automobiles and solar panels for the home, set a 2018 high of $360.50 on Jan. 23. The company reported a smaller-than-expected fourth quarter loss on Feb. 7, and the stock rebounded slightly, but it traded down to as low as $294.76 on Feb. 9 with the market. The company is set to report first quarter results after the close on Wednesday, May 2.
+Tesla stock was yet not ready to lose its momentum, and shares set a secondary high of $359.99 on Feb. 27. From this high, the stock crashed in a bear market correction of 32% to its April 2 low of $244.14. However, this low held Tesla's "reversion to the mean," and the stock is up by 22.7% since then, beginning what could be a new bull market for the electric car maker's shares.
+Analysts expect Tesla to post a loss of between $3.44 and $3.60 per share when the company reports first quarter results on Wednesday. The biggest issue is the 400,000 buyers waiting years to take delivery of the Tesla Model 3. Unfilled orders could result in a larger quarterly loss, but promises to deliver should offset that. Some analysts say that Tesla needs to raise $5 billion and still may not survive. Let's see what the charts say about Tesla stock. (See also: Why Tesla Is Burning Through Cash.)
+The daily chart for Tesla
+Courtesy of MetaStock Xenith
+Tesla has been below a "death cross" since Dec. 13, when the stock closed at $339.03. A "death cross" occurs when the 50-day simple moving average falls below the 200-day simple moving average and indicates that lower prices lie ahead. The 50-day and 200-day simple moving averages are currently $308.77 and $329.71, respectively.
+Feb. 27 was a "key reversal" day for Tesla, setting the stage for the bear market decline that followed. This "key reversal" occurred after the stock set a secondary high and then closed below the Feb. 26 low. After trading as low as $244.48 on April 2, the stock has been above my semiannual pivot of $278.69 since April 4, which held on April 26. The upside is to my quarterly risky level of $315.70.
+[Learn more about recognizing reversals and other chart patterns in Chapter 5 of the Technical Analysis course on the Investopedia Academy.]
+The weekly chart for Tesla
+Courtesy of MetaStock Xenith
+The weekly chart for Tesla will be positive if the stock ends the week above its five-week modified moving average of $302.13. The stock held its 200-week simple moving average at $255.74 four weeks ago, which is the "reversion to the mean," last tested during the week of Dec. 16, 2016, when the average was $196.77. The 12 x 3 x 3 weekly slow stochastic reading is projected to rise to 41.52 this week, up from 40.55 on April 27.
+Given these charts and analysis, investors should buy Tesla shares on weakness to my semiannual, monthly and weekly value levels of $278.69, $276.13 and $263.60, respectively, and reduce holdings on strength to quarterly and annual risky levels of $315.70 and $341.84, respectively. (For more, see: Tesla Hit With $2B Lawsuit for Allegedly Violating Patents.) 
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Chartadvisor-Article'
+    });
+                    
+            
+                

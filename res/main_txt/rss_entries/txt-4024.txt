@@ -1,0 +1,208 @@
+
+
+
+Bitcoin Mining in the Stratosphere: Miner One to Mine Bitcoin at 35,000+ Meters (100K+ feet)
+Miner One has outfitted a capsule and high-altitude balloon with the equipment necessary to mine Bitcoin at 35,000+ meters (more than 100,000 ft.). The craft will ascend into the Earth’s upper stratosphere as a symbol of Bitcoin’s rising potential in 2018.
+
+
+ by  News
+Desk,
+4 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  With the first signs of the Bitcoin rebound many experts have been predicting, Miner One – a crowdfunded cryptocurrency mining company currently in the middle of its ICO – is promising to “take bitcoin to 35,000 and beyond”...meters, that is (100,000+ ft.)!
+They’re calling it “Space Miner One”. It’s a carbon fiber capsule with custom-assembled equipment that will be carried into the Earth’s upper stratosphere by a high-altitude balloon to mine bitcoin at the very edge of space. The purpose? To remind people of the rising potential of the cryptocurrency and the revolutionary blockchain technology at its heart.
+
+“We are bullish on Bitcoin because it remains the world’s most popular and proven application of blockchain technology. And we see growing interest and adoption, despite recent market doldrums,” said Miner One CEO Pranas Slusnys.
+
+He’s not the only one who is bullish. Wall Street analyst Thomas Lee, Head of Research at Fundstrat Global Advisors, recently told CNBC he believes Bitcoin will rebound and surpass $20,000 by mid-year.
+To track sentiment among the company’s community members, Miner One surveyed more than 1,500 of them. The survey showed more than 31% believed Bitcoin will go higher than $15,000 this year, 26% – higher than $25,000, and 10% – higher than $35,000. Almost 9% believe it will go to $45,000 and higher.
+With a nascent Bitcoin rally developing these past few days, Miner One’s CEO is no less optimistic about the prospects for mining Bitcoin, if done with professional efficiency.
+“Mining bitcoin is about supporting the decentralized global network that makes cryptocurrency possible. It’s really another word for supporting the global blockchain infrastructure, which will have many applications in the future not limited to cryptocurrency,” said Slusnys, himself a 20-year data center industry veteran. “Short-term ups and downs notwithstanding, these networks will need efficient support centers of the kind Miner One is building.”
+Blockchain technology’s potential to create major breakthroughs in the way data is processed and stored around the world seems obvious. Transactions will become more convenient, as blockchain revolutionizes everything from real estate and automobiles to gemstones, produce, and payments. Mining centers like Miner One’s will help make that revolution happen, says Slusnys.
+Miner One expects to raise at least US $10 million during its ICO, and will build a cutting-edge cryptocurrency mining center in Luleå, Northern Sweden, which is best known as the home of Facebook’s largest European data centre. Luleå boasts Europe’s lowest electricity prices, abundant and 100% green energy, and cold Arctic air that keeps cooling costs to a minimum – all critical factors in keeping cryptocurrency mining efficient and sustainable.
+ABOUT MINER ONE
+Miner One is a cutting-edge, crowdfunded cryptocurrency mining operation being built and managed by a team of data center industry experts and professionals on behalf of the Miner One Community. Miner One MIO Tokens secure Community members a share in the output. Find out more: www.minerone.io. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

@@ -1,0 +1,208 @@
+
+
+
+AMD Fails to See a Problem With Mining Decline
+Amid all the alarm signals sent out from other industry sources, AMD's CEO keeps her calm and doesn't consider that the company will suffer much from the decline in mining demand.
+
+
+ by  Miguel
+Gomez,
+6 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  The first quarter of 2018 was a good one for AMD, with a growth of 40% in revenue year-on-year. But that might soon change because of the decline in demand from cryptocurrency miners. CEO Dr. Lisa Su doesn’t think that AMD has a lot to lose with this shift in climate, though.
+If mining drops significantly in demand, ex-miners might wish to sell their excess graphics cards to make a buck on the side, flooding the market with used wares. This could potentially negatively impact AMD’s business. In Wednesday’s earnings call, John William Pitzer from Credit Suisse Securities asked Su whether “secondary cards coming back into the market” would hurt AMD’s bottom line.
+
+“We don’t see a significant risk of second-hand GPUs coming into the market. I think what you find is that there are a number of different currencies and a lot of these users that are buying GPUs these days are actually buying them for multiple uses cases, both on the commercial and consumer level. So they’re not necessarily buying just for mining,” she replied.
+
+Su wasn’t entirely rosy about AMD’s near future, though. She said that the company does “see a bit of volatility,” so they are preparing for a drop in sales during the next quarter.
+
+“But that’s more than made up for by the other new products and the way the new products are ramping up the business,” she added.
+
+Last month’s 10-K filing from AMD showed the company getting defensive about its supposed dependency on mining. Still, there is no doubt that the chipmaker would suffer if cryptocurrency mining suddenly took a dive.
+
+Taiwanese card manufacturers, which use AMD and Nvidia chips in their boards, are not very optimistic. They are projecting shipments to tumble downwards by 40%.
+With regards to AMD’s future as a company, the truth must be somewhere in the middle, as Ethereum makes its shift towards a proof-of-stake model and Bitcoin continues its march towards becoming unprofitable for GPUs. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

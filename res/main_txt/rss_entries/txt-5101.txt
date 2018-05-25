@@ -1,0 +1,151 @@
+
+
+    
+                          What is 'P45 Tax'
+
+      A P45 is a tax form used in the UK. An employer gives it to an employee upon termination of employment. The P45 is part of the PAYE (Pay As You Earn) system. Under the PAYE, income tax and National Insurance Contributions (NIC) are withheld from an individual’s salary and paid to Her Majesty's Revenue and Customs (HMRC) on the employee’s behalf.
+The P45 provides a record of the details and amount of tax and insurance paid by the employee from the start of that current tax year until termination of employment. A P45 will typically be requested by a new employer when an individual is about to start work.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            HM Revenue and Customs (HMRC)                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Termination of Employment                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Terms of Employment                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Special Employer                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'P45 Tax'
+      Contents and Format of the P45
+A P45 gives information on the amount of income received and the total tax paid to the date of termination during a tax year. It also includes information on the individual’s existing tax code. The employer uses the tax code to calculate the amount of tax to be withheld from an employee’s salary. 
+Having correct data ensures that the employee will not overpay or underpay their tax. Also, it helps facilitate an assessment of whether the individual is entitled to a tax rebate. The P45 contains details of any outstanding student loans.
+The P45 is a four-part document which must be prepared by the former employer on termination. They submit Part 1 to HM Revenue and Customs (HMRC). The other three parts are given to the ex-employee. The individual who will keep Part 1A, and give Parts 2 and 3 to their new employer upon reemployment. The new employer then retains Part 2 and uses Part 3 to register the new employee with HMRC.
+Starting Employment without a P45
+Given that a P45 is a document obtained upon termination of employment, a person starting their very first job will most likely not have this form. Instead, a form called a Starter Checklist, available from HMRC, will be used by the employer to collect the necessary information. The document allows the registration of the new employee and assessing of the correct tax code for that employee.
+The above process may also be used in the case of an employee who has lost their P45 since replacement forms are not available.
+Importance of the P45
+Having a P45 allows for smoother, more accurate fulfillment of tax requirements with a new employer. The form is also used in the process for claiming a Job Seeker’s Allowance (JSA) in the event that the individual does not move immediately to new employment. In addition, a P45 is used to claim tax refunds.
+An employer is legally obligated to provide a P45 to an employee upon termination of employment. In instances where the employer fails to do so, the employee should contact HMRC. HMRC will contact the employer to obtain the P45 on the employee’s behalf and may also issue a tax credit certificate to ensure that the employee is not put on the high tax code known as ‘emergency tax’. 
+An emergency tax is applied when HMRC does not have sufficient information on an individuals income and tax liabilities. Those people who have not gotten a P45 from their employer would be emergency taxed, but the emergency tax will be amended once the P45 is made available.
+Overall, the P45 is a document which is integral to the system of PAYE (Pay As You Earn) and forms the basis of efficient tax management between individuals, employers, and HMRC.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

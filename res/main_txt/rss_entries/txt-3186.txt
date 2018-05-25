@@ -1,0 +1,75 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        This week, the 10-year Treasury  yield exceeded the widely watched threshold of 3%, leading some experts to forecast an even larger bump to nearly 4%. Despite weakness in large-cap financial stocks in the recent months, as interest rates rise, they are usually among the best performing during a period of rising rates, according to one analyst on the Street. (See also: 3 Stocks for Whether Economy Grows or Slows: Barron’s.)
+"We're overweight the group. We like the group. The most important thing is if people make their loan payments or credit performance. The answer is it's pristine, fantastic," said Credit Suisse's Chief U.S. Equity Strategist Jonathan Golub in an interview with CNBC. The S&P 500 Financials Sector is down about 0.6% this week, bringing its year-to-date (YTD) loss to nearly 1%, compared to the broader S&P 500's approximate 0.2% slump in 2018. 
+The Credit Suisse strategist is among the bulls who expect issues facing financials, such as disappointing loan growth, to ease in the coming period, while a near doubling of interest rates over two years should provide an "enormous help" to the group. 
+Near Doubled Returns 
+Golub took a look at the effect of higher interest rates on equities, isolating stock performance on days when rates rose versus performance when rates declined. While the S&P 500 gained on average when the 10-year yield increased, according to Credit Suisse, financials outperformed by a wide margin and doubled returns from materials stocks, the second-best performing group. Golub found that over the 12 months started March 2017, financials would have been up 61.8% if held only on days when the 10-year yield advanced. On the same days, the S&P 500 would have been up 24%. If held on days that the benchmark yield fell, financials would have declined 27%. The strategist concluded that mathematically, his analysis supports the thesis that financials and stocks do better when long-end rates rise.  
+However, "not everything works according to script all the time," warned Golub. "What we also know is the financials don't do well when there's concerns about the yield curve flattening. Normally when rates are rising like they have been there's this belief that the yield curve is steepening."
+Over the recent period, banks have been faced with higher short-term rates, which they borrow from lenders. As short-term rates grow faster than those of longer-term loans that they offer customers, such as mortgages, the yield curve flattens. (See also: Tech Still Reigns Over the Market: Credit Suisse.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

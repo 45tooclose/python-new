@@ -1,0 +1,100 @@
+
+
+
+    
+        
+            
+        
+          
+                
+      
+
+    
+
+    
+        The study of accounting information systems (AIS) combines a general business background with a focus on management information systems and accounting to prepare students for specialized careers in accounting, auditing, consulting, business analysis and management. Employment projections from the Bureau of Labor Statistics indicate that studying AIS can lead to a career path that should be both stable and lucrative. Here, we provide an overview of the types of AIS jobs available and the education and training requirements to enter this field.
+TUTORIAL: Accounting Basics
+Types of AIS Jobs
+AIS professionals work for consulting firms, large corporations, insurance companies, financial firms, government agencies and public accounting firms, among other types of companies. In addition to having the option to work for many different types of businesses, specializing in AIS opens up the possibility of holding any of a number of highly skilled positions. It can even start you down the path to becoming an executive or partner. Here are some of the most common jobs for AIS professionals.
+Accountants
+Accountants may be called upon to assist a company in developing its AIS. Their knowledge of accounting and auditing methods and procedures is important in helping a company choose or design the best software and overall system. Also, because computers play such an important role in modern accounting, the accountant will benefit from a background in information systems. Accountants will also access the data in the company's AIS in order to perform their job functions, including preparing and analyzing budgets and financial statements, preparing tax returns and examining records for accuracy.
+(For further reading, check out "A Look at Accounting Careers.")
+Financial Auditors
+Financial auditors examine a company's financial statements, expense reports and accounting records to make sure that the information is accurate. For publicly traded companies, auditors also make sure that the business is using generally accepted accounting principles (GAAP) and is in compliance with Securities and Exchange Commission and Sarbanes-Oxley requirements. The AIS makes financial information readily available so the auditor can do his or her job effectively.
+(To learn more, read "Examining a Career as an Auditor.")
+Systems Auditors
+Systems auditors work on the technical side of accounting information systems. They look at the controls, data processing, data integrity, general operation, maintenance, security and other aspects of all types of information systems used by businesses. In addition to assessing the integrity of existing systems, they can help design new ones.
+(Interested in this option? Read "IT Security Auditing.")
+Consultants
+Consultants perform a wide range of functions. What any individual consultant actually does depends on the business they are working for and their current assignment. A consultant who works with accounting information systems might be called upon to assess the inefficiencies in a company's system and make recommendations for improvement. Because the consultant is not involved in the day-to-day use of the system, he or she can provide a fresh perspective on the system's strengths and weaknesses.
+(More information about consulting careers is available in "Consulting: Everyone's Doing It, Should You?")
+Upper Management
+If you want to become a chief financial officer (CFO), formal study of accounting information systems can help you reach your goal. CFOs utilize the financial data from the AIS to make decisions. They determine the business's capital structure and make sure the company is financially sound. They also use financial and economic data to assess how the company can be successful going forward. The data and processes of an AIS support the Chief Financial Officer (CFO) in these responsibilities.
+(Learn more in "What Does A Chief Financial Officer (CFO) Do?")
+Education and Training
+The study of AIS combines a general business background with a focus on management information systems and accounting. A career in this field generally requires a bachelor's degree from a business school.
+Specializing in AIS at the college level requires some planning. A few schools offer a major in AIS, while others offer it as a concentration or specialization under an accounting degree. However, some schools only offer a single course in AIS.
+If you become interested in this career path when you're already in school and you discover that there is no established way to specialize in AIS, you may be able to design your own program by taking the right combination of courses in business, accounting and computer systems. The study of AIS is designed to make you knowledgeable in these three areas and includes courses in fundamental business skills, business statistics, analysis and decision-making, computer programming, database management, basic accounting courses, specialized accounting courses (i.e., managerial cost accounting), federal income taxation, auditing, accounting systems and controls, and systems analysis and design.
+As a student, in addition to specifically studying AIS, you can prepare yourself to be more competitive in the job market by joining a student association for accounting students and getting an internship. These choices will give you extra knowledge and experience and show your commitment to your career. After graduation, obtaining a professional certification can also make you more competitive. You might choose to become a certified public accountant (CPA), certified information systems auditor or enterprise resource planner. Certification generally requires a few years of relevant job experience, specialized subject-matter knowledge, passing a rigorous exam and meeting continuing education requirements.
+For some positions in AIS, an undergraduate degree won't be enough. Graduate education will be necessary in some cases. For example, becoming a CPA requires 150 college credit hours in most states, which implies a master's degree, since students generally earn 120 credit hours at the undergraduate level.
+The Bottom Line
+As long as computers and money continue to play a major role in every business's functioning, there should be no shortage of careers in accounting information systems. Accounting information systems must be accurate, reliable and efficient to keep businesses running smoothly and profitably. If you can make these things happen, you will be an indispensable part of any company.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

@@ -1,0 +1,86 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Pfizer Inc. (NYSE: PFE) is the world's third-largest publicly traded company in the major drug manufacturers industry. As of April 27, 2018, Pfizer had a market capitalization of $220.36 billion. Pfizer's roots date back to 1849, when two German-American entrepreneurs opened the company as a fine chemicals business, and it grew into a world-leading pharmaceuticals company that manufactures, markets and distributes over 200 drugs in the United States. Although many people are familiar with Pfizer and may use its products, they may not be familiar with these interesting facts.
+1. Pfizer Started in Brooklyn, New York
+Cousins Charles Pfizer and Charles Erhart started Pfizer in the 1800s with $2,500 that Pfizer borrowed from his father. Thereafter, the cousins used the loan to open the chemicals business under the name of Charles Pfizer & Company. Pfizer operated in a red brick building located in Williamsburg, a neighborhood in Brooklyn, New York. The modest building served as Pfizer's laboratory, factory, warehouse and office.
+2. Pfizer's First Products and Innovation
+Pfizer formulated its first product in 1849, which was an antiparasitic drug used to treat intestinal worms during the 1800s. Chemist Pfizer and confectioner Erhart naturally blended santonin with flavoring and shaped it into a candy cone. Pfizer launched the first domestic production of cream of tartar and tartaric acid, ingredients used heavily in the food and chemical industries. Pfizer expanded the production of tartaric acid and cream of tartar during the Civil War to support the Union Army.
+3. Pfizer and Citric Acid
+Pfizer began manufacturing citric acid using concentrates of lime and lemon in 1880. As soft drinks, such as those produced by The Coca-Cola Company (NYSE: KO), Dr. Pepper Snapple Group Inc. (NYSE: DPS) and PepsiCo Incorporated (NYSE: PEP), used citric acid in their formulas, the demand for the biochemical grew. Thereafter, Pfizer's main product and growth stemmed from citric acid.
+4. Pfizer's Shift in Ownership and Incorporation
+Erhart died on Dec. 27, 1891, and left his partnership, worth $250,000, to his son William Erhart. However, the agreement stated that Pfizer had the option to purchase William Erhart's stake at 50% of the inventory. Pfizer exercised his option and became the sole owner of the company. Nine years later, Pfizer filed a certificate of incorporation in New Jersey with 20,000 shares issued at par value, or $100 per share. However, Charles Pfizer & Company remained a privately held company until 1942, when it issued 240,000 shares of common stock to the general public.
+5. Pfizer Stealing Drug Secrets
+Nonprofit Ischemia Research and Education Foundation filed a lawsuit against Pfizer in 2004, which alleged that Pfizer arranged a deal with lead statistician Ping Hsu at the Ischemia Research and Education Foundation to provide data. Additionally, the research foundation alleged that Pfizer stole trade secrets to develop Brextra, a pain medication. Pfizer and Hsu destroyed evidence that could have proven they stole trade secrets and used data without approval when the foundation confronted the two. On Dec. 24, 2008, a Santa Clara Country jury ordered Pfizer to pay $38 million to the Ischemia Research and Education Foundation for stealing drug secrets.
+6. Pfizer's Lobbying Expenses
+Pfizer is one of the top pharmaceutical lobbying spenders and spends money lobbying for corporate tax cuts among other political topics. Pfizer spent $9.42 million in 2015, $9.88 million in 2016 and $10.43 million in 2017 on lobbying expenses. Pfizer's lobby expenses are primarily spent on health and tax issues in recent years; however, in 2015 and 2016, its primary focus was on tax issues due to its aim to encourage U.S. tax reform.
+7. Pfizer's Acquisitions and Mergers
+Pfizer made its first acquisition in 1953 and took over J.B. Roerig & Company, which specialized in nutritional supplements. J.B. Roerig became a division of the company and still plays an integral role in Pfizer's marketing segment. In 1955, Pfizer partnered with Japanese drug company Taito to manufacture and distribute antibiotics. Nearly 30 years after the partnership, Pfizer acquired full ownership of Taito. Pfizer also acquired Mack Illertissen, a German pharmaceutical, chemical and consumer products company that focused on the needs of German consumers.
+Pfizer acquired Warner-Lambert in 2000 for over $80 billion, bringing together two of the fastest-growing pharmaceutical companies at the time. That deal grew Pfizer's global presence significantly and increased its product line, which now includes popular pharmaceutical products such as Listerine mouthwash. Pfizer's most recent acquisition was the $14 billion deal to buy Medivation Inc., a US cancer drug company, in 2016. 
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

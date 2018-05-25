@@ -1,0 +1,214 @@
+
+
+
+Indian Investors Hope Crypto Trading Will Go On Despite the Bank Ban
+The cryptocurrency trading volume in India has surged after the central bank banned local banks from dealing with digital currencies. Retail investors have two more months until the rule takes effect.
+
+
+ by  Anatol
+Antonovici,
+13 mins ago
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  After the Reserve Bank of India banned local banks and legal financial institutions from dealing with cryptocurrencies, crypto trading volume in the country has jumped amid the current bullish trend. The exchange services and market participants believe that people in India want to benefit from the three-month period that the central bank has left until the new rules are enforced.
+Shivam Thakral, head of BuyUcoin, a cryptocurrency exchange, reportedly said:
+
+“There is a positive sentiment in the industry that the government will not ban trading in cryptocurrencies, and even if formal banking channels cannot be used, people can move to crypto-crypto trading platforms.”
+
+This sentiment empowers local investors to exchange rupees into cryptocoins, which can be stored and later converted to other tokens through private trading service providers even after the remaining two months.
+
+“New investors are coming to our exchanges while existing ones are regaining interest after the drop because they’re getting good value and are making money as the prices of cryptocurrencies move higher,” Thakral added.
+
+As of May 4, BTC prices rose to 618,000 rupees ($9,270), 76% up from the rate recorded during the central bank’s announcement a month ago.
+The daily volume rose to an average of $75 million, close to the levels recorded before the central bank’s statement.
+Some government officials in India hinted that cryptocurrencies should be banned, as they fuel illegal activities. However, local investors hope that the government won’t reach that far.
+
+A group of representatives from the central bank, finance ministry and the Securities and Exchange Board of India should soon come up with recommendations on how investors should behave. 
+Once the central bank’s ban is enforced, crypto trading will probably move to peer-to-peer systems or social media apps like Telegram, investors believe. Some analysts consider that taking cryptocurrencies out of the banking network might stimulate illegal transactions even more.
+Nevertheless, investors remain confident that they will eventually win.
+
+“Unlike fiat currency, prices of virtual currencies are based on people’s beliefs and aspirations. The long-term vision for us and the people who are investing now is that cryptocurrencies are here to stay,” Thakral concluded.
+ 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

@@ -1,0 +1,75 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        One of the primary selling points for many exchange-traded funds (ETFs) is that these products offer annual expense ratios that are, in many cases, significantly below those found on actively managed mutual funds. Add to that, ETF sponsors frequently lower fees on existing products to bolster investor demand or create new, low-cost funds to attract more assets. The ETF fee battle appears to be making its way to the world of gold ETFs, as media reports out Friday indicate that the World Gold Council (WGC) is planning to launch a new, low-cost gold fund.
+The World Gold Council (WGC) partners with State Street to bring the SPDR Gold Shares (GLD) to investors. GLD is the world's largest gold ETF, with $36.58 billion in assets under management. However, GLD has been ceding market share to lower-cost rivals. "The World Gold Council, owner of the world's largest gold-backed exchange traded fund (ETF), is launching a new fund with a cut-price management fee to fend off rivals with lower charges," reports Reuters, citing an unidentified source close to the issue. GLD charges 0.40% per year, the equivalent of $40 on a $10,000 investment. (For more, see: Fees Matter With Gold ETFs, Too.)
+The iShares Gold Trust (IAU) has become a credible threat to GLD's dominance, with a yearly fee of just 0.25%. GLD's holdings are up 5% since the start of 2017, but IAU's holdings are up 47% over the same period, according to Reuters. IAU, which debuted just a couple of months after GLD, has over $12.21 billion in assets under management as of May 3. GLD is the largest gold ETF and biggest commodities ETF trading in the U.S.
+There are other competitors featuring lower fees than GLD as well. For example, the ETFS Physical Swiss Gold Shares (SGOL) charges 0.39% annually, while the GraniteShares Gold Trust (BAR), the newest member of the gold ETF fray, has an annual fee of just 0.20%. BAR debuted in August and now has over $14 million in assets.
+According to the Reuters article, the new WGC gold ETF is likely to have an expense ratio of around 0.25%. It appears that no alterations will be made to GLD's fee and that the fund will continue to be aimed at professional investors, while the new WGC fund will be targeted at more cost-conscious buy-and-hold investors. (See also: Top 5 Gold ETFs for 2018.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

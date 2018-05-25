@@ -1,0 +1,87 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        The New York Stock Exchange (NYSE), sometimes referred to as “the big board,” is the oldest and largest stock exchange in the United States. NYSE is the place investors think of when they picture traders shouting out prices and making wild hand gestures in a visually chaotic live securities auction process known as open outcry.
+While electronic trading technology is now used to facilitate the majority of trading in a high-speed and high-volume operation, human traders still play a significant role. The way opening and closing prices are set continues to be based on supply and demand in a modern-day auction style format.
+The Opening Auction
+While the NYSE’s official market opening time is 9:30 a.m. Eastern, orders to buy and sell securities can be entered as early as 7:30 a.m. In particular, the two types of orders that are accepted before the market officially opens are Market on Open (MOO) and Limit on Open (LOO). MOO orders seek to purchase shares at the current market price at the time the market opens. LOO orders seek to purchase a specific number of shares at a specific price when the market opens. If the requested price is not met, the trade does not take place.
+The first data stream of the new trading day includes a reference price for each security. This price generally matches the previous night’s closing price. The data stream also includes data regarding the current imbalance between buy and sell orders and prices. By publishing this data, NYSE gives traders the opportunity to adjust their trades in order to match up buy and sell orders.
+Data is published every five minutes until 9:00 AM. From 9:00 a.m. until 9:20 a.m., it is published at one-minute intervals. For the final ten minutes prior to the market open, the data is published every 15 seconds. Beginning at 9:28, the likely opening price for each security is added to the published date stream. Orders placed between 9:28 a.m. and 9:35 a.m. cannot be canceled. 
+The human element comes into play when events such as late-breaking news are likely to affect the price of a security. For instance, if a company announces devastating losses after the market has closed, the price for the firm’s stock is likely to decline sharply when the market opens the following day. Under such circumstances, a decision may be made by NYSE officials to disregard the stock’s previous closing price and to use a lower price as the reference point to start trading on the following day.
+Such a price adjustment would be made by a designated market maker (DMM). A DMM is assigned to each security trading on the NYSE. The DMM has the authority to make price adjustments in an effort to facilitate trading by maintaining liquidity. Similarly, the DMM can delay the start of the trading day for a given security in order to facilitate orderly trading. The DMM is also obligated to step in and purchase securities if needed, in order to maintain the smooth functioning of the market.
+At 9:30 AM, the DMMs begin to officially open trading for each security under their control. Trading for an individual security can be delayed if necessary without affecting other securities. Once a security has opened for trading, buyers and sellers trade securities with supply, demand and news shaping prices. When the highest bidding price matches the lowest asking price, a trade takes place. DMMs step in when necessary to maintain a functioning auction.
+DMMs get some help from electronic trading firms known as Supplemental Liquidity Providers (SLPs). The SLPs have a financial incentive to “add liquidity to the market” by maintaining “a bid or offer at the National Best Bid and Offer (NBBO) price in each of their assigned securities at least 10% of the trading day.” The NBBO is the highest offer price and the lowest asking price on a given security.
+The Closing Auction
+At the end of the trading day, a closing auction takes place. This effort is similar, in many ways, to the opening auction. While the NYSE closes for the day at 4:00 p.m EST, orders that help to determine the day’s closing price start coming in even before the market opens, as the trades can be placed as early as 7:30 a.m. (same as the opening auction).
+Just as there are two types of orders that play specific roles in setting the opening prices, there are also two types of orders that play roles in setting the closing prices. Market on Close (MOC) and Limit on Close (LOC). MOC orders seek to purchase shares at the current market price at the time the market closes. LOC orders seek to purchase a specific number of shares at a specific price when the market closes. If the requested price is not met, the trade does not take place.
+The regular orders that start to come in when the market officially opens at 9:30 a.m. are also factored in the closing price, as are a special type of order knows as the Closing Offset Order (CO). CO orders are limit orders that are executed only to offset any buy/sell imbalance. They help to facilitate trades and add liquidity to the market.
+Dissemination of trade imbalance information begins at 3:45 p.m. Every five seconds from this time until 3:59:55 p.m., information about trading volume, matching trades, trade imbalances and pricing is released. The data provides insight into the direction prices are moving and the interest level in various securities. At 3:58 p.m., MOC and LOC orders are final and no longer be canceled. At 4:00 p.m., the market closes for the day.
+The Bottom Line
+The process for setting opening and closing prices is more than just an auction. The auction process is an intentional effort to facilitate trading in a highly complex market place. The auction market blends high technology, human interaction and highly specialized language of its own to create an efficient arena in which business is transacted. It blends a high volume of trade requests from a diverse array of investors into a seamless effort that takes place in real-time. And best of all from an investor’s perspective, the process takes place seamlessly and instantly.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

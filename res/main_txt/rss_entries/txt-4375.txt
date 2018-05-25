@@ -1,0 +1,44 @@
+
+
+Since its formation nearly a year and a half ago, it's safe to say that the Enterprise Ethereum Alliance (EEA) has been quiet.
+Apart from a steady stream of new members, there has been a lull of live projects, one that hasÂ led some to theorize the consortium might not deliver on standards for enterprise use of the world'sÂ second-largest blockchain. In a Medium postÂ last month, for instance, the CTO of competing DLT consortium, R3, even went so far as to stake such a claim, contending that the lack of progress proves ethereum is unsuitable for enterprise.
+But if competitors were eager to send the EEA to an early grave, Wednesday might mark the consortium's rise from the dead, as the company has revealed the release of a new guide outlining its open standards work.
+While this is just the first step in making public work that could make enterprise blockchains based on ethereum interoperate with each other, it comes as businesses are broadly beginning to acknowledge it's time to moveÂ any proofs-of-concept toward viable blockchain products. 
+
+Case in point, the consortium itself has swelled to more than 500 firms - ranging fromÂ global banks such as BBVA, Credit Suisse and JPMorgan to blockchain startups and traditional tech providers like Microsoft.
+Yet, Ron Resnick, the EEA's first executive director who was hired in January, used this diverse membership to argue that reaching a standards reference model in a year and a half is comparatively fast going.
+As the former president of WiMAX Forum, which was created to promote interoperability between the wireless communication standards developed by the IEEE Standards Association, Resnick has been through the gamut when it comes to standards in the telco space.
+He told CoinDesk:
+"If you look at other standards bodies it can take about three years. In fact, at the IEEE you get four years to deliver something."
+Plus, he continued, standards developing is a slow and methodical process (one that many crypto entrepreneurs, who are used to the fast pace of the industry's permissionless innovation,Â have shied away from).
+But it's one, that if done right, will offer plenty of benefits.
+"All the ethereum client companies see the need to agree on these building blocks and components and how they talk to each other, because if we don't, then we don't have a way to compete against the proprietary solutions," Resnik said.Â 
+
+Milestone ahead
+Still, the EEA is "working aggressively" to deliver on its roadmap, with the whole process coming to fruition before the year's end, Resnick said.
+As a first step, the architecture stack EEA has published comprises five layers. From the bottom up, there's the base-level peer-to-peer network protocol layer, and on top of that is the core blockchain layer, which organizes consensus, transaction execution and data storage (on-chain and off-chain).
+Sitting on top of that is a layer devoted to privacy and scaling, again in an on-chain versus off-chain capacity. Then a tooling layer handles things like permissioning credentials and how oracles interact; topmost is the application layer.
+Today's publication of the enterprise ethereum architecture stack will be followed "very shortly" by the spec, Resnick said. That, in turn, will be followed by a testnet and after that comes the establishment of a certification program.
+But enterprises also seem interested in using public blockchains, so the EEA is making sure a general confluence happens between the public ethereum network and the private enterprise blockchain work.
+"They have seen our stack, they know what's needed for enterprise," he said. "As this grows, even if it's a private network, that network can actually connect to the [public ethereum] mainnet - which a lot of folks want to do."
+Referring to specific use cases such as clearing and settlement in financial services, Resnick said the foundation recognizes the needs of enterprises and will implement and deliver work contributed by members.
+And the consortium hopes to return the favor. At a recent talk at London's Blockchain Expo, EEA founding board member Jeremy Millar said it's likely some EEA features will be taken back into the code for the public ethereum blockchain in the form of ethereum improvement proposals (EIPs).
+Privacy challenge
+Still, a key challenge for EEA is the fact that ethereum was designed for public use, and so fully broadcasts transactions to all nodes in the blockchain. This means the tech has to be modified for much of the privacy-centric enterprise world - as opposed to custom-built DLTs like Corda or Fabric.
+This was one of the main reasons R3's Brown claimed ethereum and enterprises can't mix.
+"Ethereum works on the basis of sharing all data with all parties," he wrote, calling a public network the "wrong architecture for business."
+And Resnick acknowledged that "the biggest debate I've seen internally" within the EEA has been about how to deal with privacy. Discussions are ongoing about how much data needs to be communicated in particular cases and the extent to which privacy will be mandated, he said.
+What's more, the European Union's General Data Protection Regulation, which aims to give better control to EU residents over their personal data and so limits what businesses can do with that data, further complicates matters.
+"I suspect that you are going to see multiple flavors of how privacy is implemented," Resnick said. "I don't think that's a problem. But I think it's still open-ended and not crystal clear, even by the regulators, with things like GDPR is just coming out."
+To address the problem, the EEA architecture stack's privacy layer will manage mechanisms to choose which data can be broadcast to the chain and which transactions can take place within a trusted execution environment.
+"There are different ways you can do it: is it going to be on the mainnet, is it going to be in off-chain - or a combination of both?" said Resnick. "How much data are we going to share and will have visibility, even if it's encrypted?"
+On the subject of privacy, JPMorgan Chase's Quorum, which was last year described as the jewel in the EEA crown, blazed something of a trail by incorporating zero-knowledge proofs into its banking blockchain design.Â Now the word on the street is that Quorum may be spun out of JPM, and its blockchain lead Amber Baldet has since left the bank to join a yet-to-named startup.
+However, Resnick confirmed that technology developed by the team behind zcash will continue to play a part in what the EEA is doing and that JPM is actively engaged in the stack.
+But he was quick to add there is no favoritism in the EEA. 
+"I can tell you that in my world every member gets treated equally. We treat JP Morgan's Quorum as equal to BlockApps and Clearmatics etc," Resnick said, concluding:
+"If members are not working, I'll call them up and give them a hard time. If you don't participate here, then when the spec is published and if it doesn't have what you want in it, don't blame us."
+Maze image via Shutterstock.
+var riuyojisrlntqyiu,riuyojisrlntqyiu_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){riuyojisrlntqyiu_poll(function(){if(window['om_loaded']){if(!riuyojisrlntqyiu){riuyojisrlntqyiu=new OptinMonsterApp();return riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="//a.optnmnstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;riuyojisrlntqyiu=new OptinMonsterApp();riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");
+
+The leader in blockchain news, CoinDesk is a media outlet that strives for the highest journalistic standards and abides by a strict set of editorial policies. CoinDesk is an independent operating subsidiary of Digital Currency Group, which invests in cryptocurrencies and blockchain startups.
+

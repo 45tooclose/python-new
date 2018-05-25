@@ -1,0 +1,76 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+         
+The smartphone market is slumping in China, suffering its largest decline in any first quarter, with Apple Inc. (AAPL) knocked down a notch to fifth place.
+According to market research firm Canalys, smartphone shipments in China during the first quarter came in at 91 million units, down 21% on a year-over-year basis. Shipments of 91 million units was a quarterly figure passed in the fourth quarter of 2013, noted the research firm.
+Eight of the top ten smartphone vendors in China saw annual declines in shipments, Canalys said, with Samsung Electronics’ declining to less than half of what it shipped in the first quarter of 2017. Huawei, the local Chinese smartphone maker was one of the outliers with shipments increasing 2%. After shipping more than 21 million smartphones in the first three months of the year, Huawei is now in first place with a market share of around 24%.
+“The level of competition has forced every vendor to imitate the others’ product portfolios and go-to-market strategies,” said Canalys Research Analyst Mo Jia. “But the costs of marketing and channel management in a country as big as China are huge, and only vendors that have reached a certain size can cope.”
+According to the researchers, second place Oppo and third place Vivo took the biggest hit with shipments falling around 10% at both companies. Xiaomi, which pushed Apple out of the fourth place spot, saw shipments increase 37% to 12 million units. “Xiaomi is the only vendor in the top-5 that is focused on the sub-RMB1,000 (about US$160) price segment and it owes close to 90% of its shipments to Redmi. But the vendor is struggling to shed its low-cost image,” said Canalys Research Analyst Hattie He. “The launch of the Mi Mix 2S in Paris and the very recent Mi 6X in Wuhan are clear efforts by the company to change customers’ perception of the brand, especially in China, where Xiaomi needs to tempt those looking at Honor, Oppo or Vivo to buy its products.” According to Canalys, the top four vendors controlled more than 73% of shipments in the first quarter, leaving little for the rest to fight over. (See more: Xiaomi Unveils iPhone X Rival at Half the Cost.)
+Canalys' research is just the latest data point that signals Apple may flounder in terms of iPhone shipments in the first quarter. Analysts have been expressing concern about sales and warning about fiscal second-quarter results, which the Cupertino, California-based iPhone maker reports on May 1.  (See more: Apple Will Kill Off iPhone X This Year: Analyst.)
+Last week Nomura Instinet analyst Jeffrey Kvaal predicted the company would report earnings and sales that fall short of expectations, citing channel checks that show that year-over-year domestic shipments by international vendors including China were down 9% in the March quarter. He said that jives with the overall demand picture in which data points from U.S. operators “remained uninspired” during the first three months of the year. “The lower shipments suggest that Apple’s Greater China revenues should be at the very least a significant drag on our overall estimate of 18% iPhone revenue growth in F2Q,” wrote Kvaal. “China revenues could fall as much as 28% YoY.”
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

@@ -1,0 +1,145 @@
+
+
+    
+                          DEFINITION of 'IDC Deposits'
+
+      IDC deposits are deposits made through the Institutional Deposits Corp., which oversees the Money Market Account Extra, or MMAX, program. The IDC was founded in 2000 as a way for investors to make large deposits and still receive FDIC insurance for the entire amount. It’s much more difficult for the government to secure individual large deposits, but creating a network of banks makes it possible. As of 2011, the large amount deposit limit was set at $250,000 per bank.
+The MMAX provides depositors with an efficient way to make large deposits and secure FDIC insurance. Essentially, the IDC Network splits up large deposits of money among various banks to keep each bank under the protection limit to stay insured by the FDIC.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Bank Insurance                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            FDIC Insured Account                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Bank Failure                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Insured Financial Institution                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'IDC Deposits'
+      Before IDC deposits, each deposit at a bank was only insured for up to $250,000. Now, the IDC Network splits up a larger deposits between banks with $250,000 going to each so insurance can be guaranteed.
+The MMAX Account takes that sum up to an even larger scale by allowing community banks to accept up to 5 million dollars in money market deposits from a single person or commercial customer. The funds are then distributed among up to 50 other banks within the IDC Deposit Network, with each bank holding no more than $100,000 at a time.
+The MMAX structure is managed through custodians, such as Wells Fargo and Pacific Coast Bankers’ Bank in San Francisco, California.
+Advantage of IDC deposits
+Expanded FDIC coverage is attractive to depositors, particularly when financial markets are experiencing significant volatility and firms, such as commercial entities, public agencies and individuals want a safe place to park cash. The deposit is divided up between a network of more than 50 IDC Deposit Network banks nationwide to meet FDIC insurance requirements. Allowing the funds to be distributed across a network of banks helps keep both principal and interest secure during any unsettled or scary financial crises.
+Wells Fargo is the custodian for the MMAX account structure. By dividing a single large deposit into smaller amounts among Network banks, lenders can ensure that the depositor's principal and interest are eligible for full FDIC protection. MMAX account holders are able to make up to six withdrawals from their account monthly. MMAX can also be helpful for banks, as it makes large deposits possible for their customers and allows them to send on deposits or buy back equal or less than amounts.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Deposit',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

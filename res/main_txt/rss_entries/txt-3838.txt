@@ -1,0 +1,207 @@
+
+
+
+Iran Working on Experimental Digital Currency Despite the Recent Ban
+Iran might issue its own experimental cryptocurrency, according to a minister. The statement was made after the central bank banned the use of digital currencies.
+
+
+ by  Anatol
+Antonovici,
+8 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  Iran’s Information and Communications Technology Minister Mohammad Javad Azari-Jahromi revealed on Saturday that the government had created an experimental cryptocurrency. The statement comes after the country’s central bank banned the use of cryptocurrencies. However, as the minister put it, the project would not be impacted by the ban.
+
+“The central bank’s (ban) does not mean the prohibition or restriction of the use of the digital currency in domestic development,” Azari-Jahromi reportedly said.
+
+Last week, Iran’s central bank produced new rules banning local banks from operating with digital currencies as the latter might favor money laundering. The local fiat currency has lost about 50% in the last nine months, increasing the demand for cryptocurrencies as safe-haven assets. The Rial has depreciated on fears that another wave of sanctions might hit Iran if the US exits a multilateral nuclear deal. US President Donald Trump is expected to determine on May 12 whether to reimpose economic sanctions on Iran, which would damage the 2015 pact between the Iranian government and six other countries.
+Despite the ban on digital currencies, the government wants to test the use of local digital currency.
+
+“Last week, at a joint meeting to review the progress of the (local cryptocurrency) project, it was announced that the experimental model was ready,” Azari-Jahromi told the local media.
+
+In a Friday interview with banking news portal IBENA, the minister revealed that the Iranian cryptocurrency would be backed by assets to avoid any problems related with Sharia (Islamic rules).
+In February, Azari-Jahromi said in a tweet that the ministry’s Post Bank had been developing an experimental digital currency in collaboration with local experts. The model had to be introduced to the local banks for review and potential approval. Azari-Jahromi, who is considered an innovator, is the government’s youngest minister.
+Elsewhere, several central banks around the world are seriously thinking about issuing a national digital currency that is to be used in parallel with the fiat currency.  
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

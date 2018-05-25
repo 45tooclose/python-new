@@ -1,0 +1,144 @@
+
+
+    
+                          What is 'Short Exempt'
+
+      Short exempt refers to a short sale order exempted from the uptick rule regulated under the Securities and Exchange Commission’s (SEC) Regulation SHO.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Short Sale                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Zero Plus Tick                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Weak Shorts                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Short Interest                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Short Exempt'
+      Short exempt orders are short sale orders that receive exemption from the SEC’s 2010 modified uptick rule. The SEC implemented Regulation SHO in 2005 and modified rules regarding short selling orders in 2010.
+Regulation SHO is a legislation overseen by the SEC which includes rules for short sell trading strategies. Its primary goal is to help ensure the liquidity of securities involved in a short sell for full execution. This type of trade is associated with high risk because of the borrowing utilized in the flow of short selling.
+Short Selling
+Short selling typically refers to an exchange of securities through a broker on margin. Broker-dealers loan securities to clients for the purpose of short selling. Broker-dealer short selling will have various stipulations that must be followed and can be complex for an investor. Generally the broker-dealer will transact these securities for the client for the purpose of short selling which requires the transaction to include short or short exempt markings.
+Regulation SHO
+In 2010 the SEC modified Rules 200(g) and 201 of Regulation SHO to loosen the constraints on short selling. The prior rule allowed an investor to only partake in short selling when the underlying security experienced an uptick. New 2010 rules modified this regulation to only stopping short selling on a security when the underlying security decreased by 10% or more from the previous day’s closing price. This ruling is now effected from the time of the decrease to the next closing day. This ruling is required to be maintained by all U.S. exchanges.
+Standard market procedures require all security trade orders to be marked long, short or short exempt. The short exempt marking was added under the 2010 modifications. Thus, an order to buy is marked long and an order that complies with Regulation SHO is marked short. A short sell order marked as short exempt is an order that is being transacted beyond normal procedures under Regulation SHO.
+Broker-dealers can mark an order short exempt if they believe it qualifies for an exception. The primary exception is the use of non-standard pricing quotes for trade execution. Marking for these orders is signified by SSE. All orders marked SSE will be closely checked by self-regulatory organizations and the SEC for compliance with Regulation SHO exceptions.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

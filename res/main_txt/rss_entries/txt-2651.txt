@@ -1,0 +1,139 @@
+
+
+    
+                          DEFINITION of 'Boolean Algebra'
+
+      Boolean algebra is a division of mathematics which deals with operations on logical values and incorporates binary variables. Boolean algebra traces its origins to an 1854 book by mathematician George Boole. The distinguishing factor of Boolean algebra is that it deals only with the study of binary variables. Most commonly boolean variables are presented with the possible values of 1 ("true") or 0 ("false"). Variables can also have more complex interpretations, such as in set theory.
+Boolean algebra is also known as binary algebra.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Binomial Option Pricing Model                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Black Scholes Model                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Lattice-Based Model                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Variable Rate Mortgage                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Boolean Algebra'
+      Boolean algebra has application in finance through mathematical modeling of market activities. For example, research into the pricing of stock options involved the use of a binary tree to represent the range of possible outcomes in the underlying security. In this binomial options pricing model, the Boolean variable represented an increase or a decrease in the price of the security.
+This type of modeling was necessary because in American options, which can be exercised at any time, the path of security prices is just as important as the final price. The weakness of this model was that the path of a security's price had to be broken into a series of discrete time steps. Thus, the Black-Scholes options pricing model provided a breakthrough in that it was able to price options under the assumption of continuous time. The binomial model is still useful for situations in which the Black-Scholes cannot be applied.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

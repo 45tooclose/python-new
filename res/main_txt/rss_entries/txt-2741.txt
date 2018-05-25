@@ -1,0 +1,92 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Spring is as good a time as any to review your portfolio and engage in some rebalancing, reallocation and repositioning. To this end, MarketWatch columnist Jeff Reeves has named five chronic underperformers that he believes should be on any investor's sell list, freeing up funds to reinvest in more promising stocks. These laggards are International Business Machines Corp. (IBM), The Home Depot Inc. (HD), Target Corp. (TGT), The Hershey Co. (HSY) and Procter & Gamble Co. (PG).
+For the five stocks listed above, per Yahoo Finance, here are their price moves as of Wednesday close, both year-to-date (YTD) and versus their 52-week highs, as well as their forward P/E ratios, PEG ratios and forward dividend yields:
+IBM: -3.9% YTD, -14.7% vs. high, 10.3 P/E, 3.6 PEG, 4.3% yield
+Home Depot: -5.9%, -14.6%, 17.4, 1.2, 2.4%
+Target: +9.9%, -9.6%, 13.0, 2.2, 3.4%
+Hershey: -17.0%, -19.7%, 16.5, 1.8, 2.7%
+P&G: -20.0%, -23.6%, 16.2, 2.5, 3.7%
+The S&P 500 Index (SPX) was down by 1.3% for the YTD through Wednesday, and 8.1% below its all-time high on Jan. 26.
+IBM: Perpetual 'Reinvention'
+Reeves notes that IBM beat EPS estimates for the first quarter solely on the basis of one-time tax benefits and sales of a new mainframe product that also appear to be largely a one-off in his opinion. The long-term health of the company rests on its ability to succeed in areas such as cloud computing, cybersecurity and artificial intelligence (AI), Reeves says, but IBM hasn't given clear indications of progress, in his opinion.
+Also, he notes that profit margins have not improved, despite a long-running "reinvention" process that has sold off numerous lagging divisions. Additionally, he says that IBM has made a long string of losing bets on new businesses that were supposed to replace its longtime core business—mainframe sales—which are in steep decline.
+IBM offers an attractive forward P/E ratio of 10.3, per Yahoo Finance, but this is reflective of its slow growth rate, which gives the company a rather unattractive PEG ratio of 3.6. Its robust forward dividend yield of 4.3% comes with a 96% dividend payout ratio, which raises questions about its sustainability in the face of profit growth prospects that are weak at best.
+Home Depot: 'Stuck in a Downtrend'
+Home Depot's stock has risen about twice as much, on a percentage basis, as the S&P 500 during the past three years, and Reeves takes this as an indication that shares of the home supplies superstore have peaked. Indeed, he points to profit margins and forward revenue projections that fell below estimates in the company's last reported quarter. Besides being "stuck in a downtrend," Reeves feels that Home Depot is under the same pressures that bedevil much of specialty retail, ignoring claims by others that this is a safe "Amazon-proof" merchant.
+P&G: The Big Squeeze
+Reeves sees "anemic sales trends" for many well-known branded products from P&G. Consumers are increasingly opting for lower-cost private-label alternatives, he says. Meanwhile, he offers the Gillette shaving products brand as a prime example of how P&G also is under assault from competitors that ship to customers, in this case Dollar Shave Club and Harry's Inc. One might say that the consumer products giant is getting squeezed like a tube of its Crest toothpaste. While activist investor Nelson Peltz won a board seat in a recent proxy fight, Reeves doubts that he can spur a turnaround.
+Target: 'Easier Said Than Done'
+To fend off Amazon.com Inc. (AMZN), Target has acquired same-day delivery service Shipt for $550 million. Reeeves warns, "Same-day shipping is much easier said than done, particularly when you've atomized your inventory across stores instead of a centralized fulfillment center." Meanwhile, he says that the consensus among analysts is for sales to be flat in 2018, and maybe increase by a mere 2% in 2019.
+The stock reached its 52-week high on Jan. 22, based on a report of strong holiday sales to close out 2017. Then it went down in the correction, and essentially has gone sideways since. Reeves sees a "sell the news" scenario here.
+Hershey: 'A Hot, Brown Mess'
+Calling the chocolate maker "a hot, brown, mess," Reeves notes that Hershey "has struggled since 2014 to break out of a rut." A key problem, he says, is that Hershey derives 70% of its sales from chocolate products. He also sees negative implications for future growth from being "a brand that is synonymous with junk food."
+Recognizing that profits were at the mercy of wide swings in cocoa prices, and convinced that future growth in chocolate consumption would be slow, Hershey had a major diversification drive into pasta products from 1966 to 1993, acquiring several regional brands. However, convinced that its pasta profits had peaked, Hershey sold the division in 1999, per The Hershey Story Museum. In any case, the venture into pasta offered limited diversification, peaking at only about 9% of total sales.
+Hershey announced first quarter earnings before the market open on Wednesday. Earnings per share were up 8.5% year-over-year (YOY), and sales rose by 4.9% YOY, per Nasdaq GlobeNewswire. However, 3.4 percentage points of the sales increase were due to acquisitions, and half a percentage point was the result of favorable foreign exchange rate movements, per the same source.
+Reported first quarter EPS of $1.41 were equal to the consensus estimate, while revenues beat the consensus by 1.5%, according to Zacks Investment Research. Zacks adds: "HSY has an impressive earnings surprise history. The company has posted positive earnings surprise three of the last four quarters, with an average positive surprise of 6.2%." Not this time, however, and the stock was down by 0.7% from the previous close, as of 10:30 a.m. New York time.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

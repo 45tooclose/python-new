@@ -1,0 +1,143 @@
+
+
+    
+                          DEFINITION of 'Sentiment Indicator'
+
+      Sentiment indicator refers to a graphical or numerical indicator designed to show how a group feels about the market or economy. A sentiment indicator seeks to quantify how various factors, such as unemployment, inflation, macroeconomic conditions or politics influence future behavior.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Market Sentiment                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Economic Conditions                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Consumer Sentiment                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Economic Indicator                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Sentiment Indicator'
+      Sentiment indicators can be used by investors to see how optimistic or pessimistic people are to current market conditions. For example, a consumer sentiment indicator, such as the Michigan Consumer Sentiment report that shows pessimism may make companies less likely to stock up on inventory, because they may fear that consumers will not spend. Policy makers may also use sentiment indicators with other economic data to help determine the future direction of interest rates. (For further reading, see: How to Read the Michigan Consumer Sentiment Index?)
+Market Sentiment Indicators
+Investors can use sentiment indicators to gain insight into the stock market’s mood. Extreme readings given by these indicators can indicate impending reversals.
+CBOE Volatility Index (VIX): Investors often view this indicator as the fear index because it spikes when investors purchase a significant amount of put options to protect their portfolios - investors who buy put options believe the price of the underlying stock will fall. If the VIX spikes 10 points above its 10-day moving average, it indicates extreme fear within the market. (To learn more, see: What Does the Volatility Index (VIX) rate?)
+New York Stock Exchange (NYSE) High/Low Indicator: Investors can keep track of this indicator to compare stocks making new 52-week highs to stocks making new 52-week lows. Spikes in either direction often show extreme bullish or bearish sentiment. Contrarian investors might use this sentiment indicator to buy quality stocks during periods of severe pessimism.
+NYSE 200-day Moving Average: This indicator shows how many stocks are trading above their long-term moving average and is expressed as a percentage. For example, if the indicator is rising and shows that over 50% of stocks are trading above their 200-day moving averages, it indicates broad bullish sentiment. A reading over 80% suggests stocks may be overbought.
+Odd-lot Trading Statistics: This indicator measures the number of shares being bought and sold in odd lots, e.g., less than 100 shares. The theory behind this sentiment indicator is that retail investors, who typically have the least amount of money to invest, buy when bullish sentiment has peaked and sell when bearish sentiment reaches a climax. Therefore, when odd-lot trading increases during market extremes, many investors take the position in the opposite direction.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

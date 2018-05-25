@@ -1,0 +1,213 @@
+
+
+
+Indonesian Government Considering Blockchain Technology for Better Data Management
+Indonesia is contemplating a move toward blockchain technology, to improve the efficiency of its record-keeping systems.
+
+
+ by  Maryam
+Manzoor,
+4 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  Blockchain technology has applications other than cryptocurrencies, especially when it comes to transparent and reliable data management, and the Indonesian government is looking to use it to its advantage.
+Consisting of over 17,000 islands and 250 million people, Indonesia has found it challenging to keep accurate records, and tech firm Online Pajak is now looking to solve this challenge by using a blockchain-powered app for tax data.
+Commenting on the prevalent taxation issues, Online Pajak founder Charles Guinot said:
+
+“Today in Indonesia, there’s no proof you’ve paid [taxes]”.
+
+In addition to tax records, there are also issues surrounding the electoral process – another sector which can benefit from blockchain technology, as is the aim of Horizon State, an Australian project which seeks to reduce voting fraud.
+As per a survey conducted last year, financial institutions and banks in Indonesia, including Bank Mandiri (the second largest bank in the country), are also considering blockchain technology, but are seeking clarity in regards to regulations.
+The country’s Finance Minister, Sri Mulyani Indrawat also commented on the need for blockchain technology for governmental finance programs:
+
+“We want to use the technology platform to be able to identify those groups of people who need to get the benefit.”
+
+However, according to tax office executive Iwan Djuniardi, the change may take time. Commenting on the issue, Djuniardi referred to the delays in cloud-technology adoption (which has been around for some time now), never mind the more recent emergence of blockchain technology:
+
+“It takes time to process a management change before we adopt a new technology. Even cloud technology is still being debated, let alone blockchain.”
+
+Blockchain technology, in essence, allows for the creation of an independently verifiable online database which can, if needed, be free from central control mechanisms, imbuing the system with reliability and transparency.
+However, its application ultimately depends upon the user, and although several countries have expressed an interest in it, the technology is yet to see mainstream adoption on account of a host of issues and concerns, such regulations, security and technical resources. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

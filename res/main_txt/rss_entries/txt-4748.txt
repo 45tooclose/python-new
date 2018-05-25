@@ -1,0 +1,88 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Cheap stocks that pay generous—and growing—dividends have much to recommend them right now, Barron's reports. If the economy continues to grow, and interest rates continue to rise, these stocks will continue to offer competitive alternatives to bonds. On the other hand, if the economy stalls, bond yields don't move much higher and stocks fail to deliver much—or anything—in the way of price appreciation, solid companies with fast-rising dividends will be highly desirable investments.
+Three stocks that fit the bill, per Barron's, are regional bank KeyCorp (KEY), semiconductor maker Broadcom Inc. (AVGO) and clothing retailer Gap Inc. (GPS).
+Statistical Overview
+For the three stocks listed above, here are their forward dividend yields, forward P/E ratios and dividend payout ratios, per Yahoo Finance:
+KeyCorp: 2.18%, 10.4x, 33.9%
+Broadcom: 3.06%, 10.9x, 26.6%
+Gap: 3.19%, 10.5x, 43.0%
+By comparison, the dividend yield for the entire S&P 500 Index (SPX) is 1.91%, well below its median value of 4.31% based on history going back to 1871, per multpl.com. The relatively low payout ratios for the three highlighted stocks indicate that they have ample ability to increase payouts. Regarding valuation, the forward P/E for the S&P 500 was 17.0x earnings as of April 27, per a weekly calculation by Birinyi Associates as reported by The Wall Street Journal.
+KeyCorp
+The consensus among analysts is that KeyCorp's annual dividend will jump by 86% from the current 42 cents per share to 78 cents by 2020, Barron's reports. If that comes to pass, the effective yield will rise from 2.18% to 4.05%, relative to today's share price.
+The consensus estimates call for EPS to rise by 25% in 2018 and by 10% in 2019, per Barron's. The biggest opportunity for future earnings growth comes from KeyCorp's 2016 acquisition of First Niagara Financial Group, which added about 1 million new customers and which still presents opportunities for cost-cutting synergies and cross-selling, Barron's indicates.
+A near-term problem Barron's adds, is that short-term interest rates have been rising more quickly than long-term rates. This is reducing profit margins for KeyCorp since the rates paid to depositors are going up faster than rates charged to borrowers.
+Broadcom
+The consensus is that Broadcom's $7 annual dividend per share will hit $11 by 2020, a 57% increase, per Barron's. Accordingly, the effective yield based on the current share price will go from 3.06% to 4.81%.
+With its attempt to acquire chipmaking rival Qualcomm Inc. (QCOM) having been blocked by the Trump administration on national security grounds, UBS analyst Timothy Arcuri believes that Broadcom will look to buy out smaller competitors instead, Barron's reports. As a result, Arcuri anticipates that Broadcom will end up with unspent cash that can be returned to shareholders. (See also: How Chip Stocks May Get Killed By a Trade War.)
+Gap
+The company recently raised its annual dividend by 5%, to 97 cents per share, Barron's reports. Analysts are expecting a similar percentage increase in 2019, Barron's adds.
+Online retailing juggernaut Amazon.com Inc. (AMZN) is gaining market share in clothing at an accelerating pace, "But Gap is one of a handful of retailers also gaining share," Barron's notes. Gap owns Old Navy stores, which are on track to deliver 75% of the company's profits within the next two years, per Barron's, mainly due to its successful embrace of the "fast fashion" trend, bringing new styles quickly to market, and at reasonable prices. Moreover, Barron's adds, "Old Navy is the only fast-fashion player with a focus on families as opposed to singles."
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

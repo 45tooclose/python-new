@@ -1,0 +1,269 @@
+
+
+    
+                        
+            
+                Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/PersonalFinance/Taxes/IC-Video/Term");} else {return "/8397/INV-NA/PersonalFinance/Taxes/IC-Video/Term";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/terms/t/tax-to-gdp-ratio.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/feRZNWSy.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/feRZNWSy-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/content/video/taxtogdp_ratio_/taxtogdpratio.png?width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "560",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "feRZNWSy-G9NhEyAa.mp4";
+                
+          
+            document.addEventListener("DOMContentLoaded", function() {
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                        var initializeJWPlayerSetup = function () {
+                            if (new VideoInit().canRun()) {
+                                setUpJwpPlayer();
+                            } else {
+                                new VideoInit().callBack = setUpJwpPlayer;
+                            }
+                        }
+            initializeJWPlayerSetup();
+          });
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "feRZNWSy-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "Calculating Tax-To-GDP Ratio ",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };            
+          
+                    What is 'Tax-To-GDP Ratio'
+
+      The tax-to-GDP ratio is a ratio of a nation's tax revenue relative to its gross domestic product (GDP). Some countries aim to increase the tax-to-GDP ratio to address deficiencies in their budgets. 
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Ratio Analysis                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Gross Domestic Product - GDP                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Capitalization Ratios                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Combined Ratio                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Tax-To-GDP Ratio'
+      The tax-to-GDP ratio is used in conjunction with other metrics to measure how much a nation's government controls its economic resources. Tax revenue is the income collected by governments through taxation. It includes revenues from taxes on income, social security contributions, product sales tax, payroll taxes, and other items. However, analysts exclude Social Security payments, fines, and penalties when calculating the tax-to-GDP ratio. 
+Tax revenue in underdeveloped and developing countries is typically insufficient to fund state operations. Tax collection agencies may be central governments or licensed third-parties representing central governments.
+The gross domestic product (GDP) is the total value of the final goods and services produced by a nation's economy during a given period. Intermediary goods and services, products and services used in the production of an end commodity or service, are excluded from the GDP. Goods and services not bought and sold in markets, such as homemaker activities and babysitting, are also not included. 
+The calculation of GDP is the sum of consumption expenditures such as durable and nondurable goods, and services, investments including business fixed investments, residential investments, and inventory investments, and government purchases, less the net exports for the country. (exports-imports = GDP).
+What Does the Tax-to-GDP Ratio Mean?
+Policymakers and analysts use the tax-to-GDP ratio to compare tax receipts from year to year. In most cases, because taxes are related to economic activity, the ratio should stay relatively consistent. Consequently, as the gross domestic product (GDP) grows, tax revenue should increase as well.
+However, in cases of significant shifts in tax law or during severe economic downturns, the ratio can shift, sometimes dramatically. For example, during the 2000s, Australia's tax-to-GDP ratio rose to a record high of 24.2%, but during the global financial crisis, the ratio fell to 3.7%. Because of a series of fiscal policy changes, Australia's tax-to-GDP ratio was further depressed.
+Economic downturns will result in lower rates of growth. During these times, unemployment usually rises, and consumer spending decreases. As a result, there are fewer property and consumption taxes collected. During downturns, reduced consumption significantly and quickly affects tax receipts, pushing the tax-to-GDP ratio downward.
+Tax-to-GDP Ratio Examples
+When a country's tax revenues grow at a slower rate than the GDP, the tax-to-GDP ratio drops. As tax revenue grows quicker than the GDP, the ratio will increase. GDP is the difference between gross domestic product (GDP) and tax revenue.
+For example, if a country has a $10 trillion GDP and tax revenue of $2 trillion, its tax-to-GDP ratio is 20% (2/10). 
+If its GDP increases to $15 trillion and its tax revenue jumps to $3 trillion, it retains its 20% ratio. 
+In contrast, if GDP rises to $18 trillion and taxes only increase to $3 trillion, the ratio will fall to 16.7%. 
+Conversely, if tax revenue climbs to $4 trillion and the GDP rises to $12 trillion, the tax-to-GDP ratio grows to 33.3%.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Mortgage',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

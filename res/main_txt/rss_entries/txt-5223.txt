@@ -1,0 +1,59 @@
+
+
+Primavera De Filippi is a permanent researcher at the CERSA/CNRS/UniversitÃ© Paris II, a faculty associate at the Berkman-Klein Center for Internet & Society at Harvard Law School, the "alchemist" forÂ DAOstackÂ and a co-author of "Blockchain and the Law."
+
+A blockchain network is a complex system that involves a variety of actors that cannot be trusted. Its protocol is designed to ensure that every actor has an incentive to cooperate and that the costs of defection are higher than the potential gains.
+Yet, like other complex systems, blockchains are made of many different parts, interacting with one another in ways that are difficult to predict - and therefore difficult to govern or regulate.
+It might be possible to regulate the actions of each individual part. But as the whole becomes greater than the sum of its parts, governance cannot be achieved without a proper understanding of the various components that constitute that whole, and the power dynamics that subsist among them. 
+
+This post provides an overview of the multiple layers of governance affecting blockchain-based systems. It distinguishes between two distinct governance structures: on-chain governance by the infrastructure and off-chain governance of the infrastructure - each model incorporating both endogenous and exogenous components, which contribute to varying degrees to the overall governance structure of a blockchain-based network.
+Layers of governance
+If we look the first post of this blockchain governance series, we see that most decentralized blockchain-based applications have their governance split into different layers, each one interacting with the other:
+
+The Internet protocols layer: e.g., the TCP/IP protocol
+The blockchain layer: e.g., the Ethereum protocol
+The decentralized app (DApp) framework: e.g., DAOstack
+The DApp layer: e.g., Sapien
+
+Each layer implements its own governance structure, which may affect or be affected by that of the other layers. The design and implementation of these multiple layers involve several individuals, but chances are they come from different communities that may or may not communicate with one another.
+Specifically, bottom-layer communities often implement their own governance structure with little to no regard for the governance system implemented on the upper layers. And yet in doing so they ultimately dictate how applications from the upper layers will operate.
+For instance, DAOstack, a project I am involved in, is a DApp framework (Layer 3) built on top of the ethereum blockchain. It is therefore subject to the governance rules of that specific blockchain-based network.
+Yet DAOstack also implements its own protocols that determine how people interact with the platform, and how they can create new decentralized organizations on top of it. An application (like Sapien) deployed on top of DAOstack will,Â in turn, have its own governance protocols specific to that DApp (Layer 4).
+Accordingly, any blockchain-based application is subject first to its own governance rules, but is also indirectly affected by the rules of the platform on which it operates: the ethereum blockchain that ensures the proper execution of relevant smart contracts (Layer 2), and the internet network that makes everything run (Layer 1).
+The governance of each layer can be distinguished into two separate components:
+
+governance by the infrastructure
+governance of the infrastructure.
+
+These two mechanisms co-exist more or less peacefully and both contribute to regulating a particular platform or infrastructure according to their own - sometimes divergent or contradictory - set of rules
+Depending on the focus of analysis, these two mechanisms can be regarded as either endogenous to a particular community or exogenous to that community.
+Endogenous rules are elaborated by the community and for the community: they are a community's attempt at self-governance through a set of self-imposed rules (e.g., the hipster's dress code).
+Exogenous rules are established and/or imposed by a third party that is external to the community, but nonetheless have the ability to influence it through a set of rules that community members are required to abide by (e.g., school uniforms).
+Modes of governance
+Governance by the infrastructure refers to hard-coded rules embedded into a technological platform. It generally focuses on the process of rule enforcement rather than rule-making (at least with regard to the elaboration of the initial set of rules).
+In the case of ethereum, for example, endogenous rules refers to the blockchain protocol and consensus algorithm (Layer 2). From a DApp's perspective, endogenous rules include decision-making procedures and technical rules embedded in the relevant smart contracts (Layers 3 and 4)--whereas the underlying ethereum protocol qualifies as exogenous. A variety of other exogenous rules also exist, like the TCP/IP and other Internet protocols that make it possible for people to find and connect to the blockchain-based network (Layer 1).
+When these rules are endogenous to a blockchain-based network, we refer to governance by the infrastructure as "on-chain" governance. These rules are encoded directly into the blockchain-based network, which guarantees their execution in a secure and decentralized manner.
+Sometimes, on-chain governance rules also specify procedures to amend themselves: just like we can make laws that stipulate how to make, amend or repeal laws, we can design protocol rules that define the procedures to make, amend or repeal other protocol rules.
+Take Tezos, for instance: a self-amending blockchain, where people have the ability to change the protocol rules - including the rules to change the rules!
+Governance of the infrastructure refers to all forces that subsist outside of a technological platform, but nonetheless influence its development and operations. These rules operate at the social or institutional level rather than at the technical level.
+Endogenous rules comprise rules, social norms, customs, and other governance structures developed or endorsed by a particular community with a view to facilitating coordination within that community.
+For instance, developers in open source communities codify rules and procedures to decide on developing and evolving an open source software project. Peer-review usually enforces these rules, although the community might also implement formalized mechanisms of enforcement and oversight. Failure to follow these rules might lead to exclusion from the communityÂ or other forms of social punishment.
+In a blockchain-based network, we often refer to governance of the infrastructure as "off-chain" governance because the governance rules subsist and operate outside of the blockchain infrastructure. As opposed to on-chain governance rules, these rules are not automatically executed: they require a third-party authority for enforcement or oversight.
+For most blockchain communities, endogenous rules include all rules and procedures used to decide which changes to implement inÂ the protocol, including the decision to fork. In bitcoin, these are done via the Bitcoin Improvement Proposals (BIP) - an informal mechanism by which people can propose new features and improvements to the Bitcoin protocol.
+Ethereum implemented a similar system for people to submit Ethereum Improvement Proposals (EIP), an informal procedure by which people can suggest or request changes to the ethereum protocol or code. However, none of these procedures are binding. The developer community evaluates these proposals and decides whether (and how) they should be implemented into the code base - along with the various problems that this might entail.
+To the extent that these proposals get accepted and implemented into the code, governance of the infrastructure has the ability to affect governance by the infrastructure. In other words, because off-chain governance is generally geared toward changing the rules of the underlying blockchain protocol, it has the power to modify the structure of on-chain governance.
+Exogenous rules neither stem from the community nor are chosen by it, yet they have the ability to influence the activities thereof.
+For instance, although they do not apply directly to blockchain-based networks, national laws can impact the operations of such networks. Of course, because laws are inherently territorial, if violated, they can only be enforced by the national court system within the scope of a particular jurisdiction. Yet as soon as we start dealing with real-world assets (as opposed to pure digital assets), the rule of law will necessarily come into play, potentially countering the rule of code.
+Perhaps the clearest illustration of the tension between endogenous and exogenous rules comes from the recent discovery of child pornography imagery and links encoded into the bitcoin blockchain. Hosting this type of content is illicit and national laws stipulate that such harmful content should be taken down.
+Yet according to bitcoin's endogenous rules, the blockchain is immutable: nodes cannot arbitrarily delete or modify the content that has been recorded onto the blockchain.
+The same tension exists between blockchain's immutability and Europe's right to be forgotten, which entitles people to request the removal and deletion of specific information concerning them, if such information is deemed irrelevant, outdated, or otherwise inappropriate.
+Governments or other regulatory authority impose these exogenous rules to ensure public order and morality. Their goal is to promote the interests of specific communities or the public at large - sometimes at the expense of the interests and norms of other communities.
+Putting it all together
+Today, most of the discussion about on-chain and off-chain governance is mainly looking at endogenous rules. Yet, it is the combination of endogenous and exogenous rules that ultimately dictates the manner in which blockchain-based platforms will operate.
+Before we can begin to understand blockchain governance, we need to adopt an ecosystemic approach, looking at the various forces that might affect the operations of these platforms, and how they interrelate with one another.
+As a result, we cannot focus only on endogenous rules and forget about exogenous rules. That would be like trying to understand people independent from their social context, analyzing a cell without looking at the body in which it lives, or disregarding the whole for its parts.
+Law image via Shutterstock
+var riuyojisrlntqyiu,riuyojisrlntqyiu_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){riuyojisrlntqyiu_poll(function(){if(window['om_loaded']){if(!riuyojisrlntqyiu){riuyojisrlntqyiu=new OptinMonsterApp();return riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="//a.optnmnstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;riuyojisrlntqyiu=new OptinMonsterApp();riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");
+
+The leader in blockchain news, CoinDesk is a media outlet that strives for the highest journalistic standards and abides by a strict set of editorial policies. CoinDesk is an independent operating subsidiary of Digital Currency Group, which invests in cryptocurrencies and blockchain startups.
+

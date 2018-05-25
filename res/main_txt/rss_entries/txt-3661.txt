@@ -1,0 +1,188 @@
+
+
+
+    
+            
+            Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/Investing/Investing/IC-Video/FAQ");} else {return "/8397/INV-NA/Investing/Investing/IC-Video/FAQ";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/ask/answers/031215/what-formula-calculating-return-assets-roa.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/z1t29hsn.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/z1t29hsn-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/content/video/roa_and_roe_give_cle/roaandroegiveclearpictureofcorporatehealth.png?width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "100%",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "z1t29hsn-G9NhEyAa.mp4";
+                
+          
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                    var initializeJWPlayerSetup = function () {
+                        if (new VideoInit().canRun()) {
+                            setUpJwpPlayer();
+                        } else {
+                            new VideoInit().callBack = setUpJwpPlayer;
+                        }
+                    }
+          initializeJWPlayerSetup();
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "z1t29hsn-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "ROA and ROE Give Clear Picture Of Corporate Health",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };        
+    
+    
+          
+    A:
+            Return on assets is a profitability ratio that provides how much profit a company is able to generate from its assets. In other words, return on assets (ROA) measures how efficient a company's management is in generating earnings from their economic resources or assets on their balance sheet. ROA is shown as a percentage, and the higher the number, the more efficient a company's management is at managing its balance sheet to generate profits. 
+Calculating Return On Assets (ROA)
+The formula for ROA is:
+
+Net profit or net income which is found at the bottom of the income statement is used as the numerator. Net income is the amount of total revenue that remains after accounting for all expenses for production, overheard, operations, administrations, debt service, taxes, amortization, and depreciation, as well as for one-time expenses for unusual events such as lawsuits or large purchases. Net profit also accounts for any additional income not directly related to primary operations, such as investment income or one-time payments for the sale of equipment or other assets. 
+Average total assets are used in calculating ROA because a company's asset total can vary over time due to the purchase or sale of vehicles, land or equipment, inventory changes, or seasonal sales fluctuations. As a result, calculating the average total assets for the period in question is more accurate than the total assets for one period. A company's total assets can easily be found on the balance sheet. 
+Example of ROA 
+Exxon Mobil Corporation (XOM)
+Below is the balance sheet from Exxon's 10K statement showing the 2017 and 2016 total assets (highlighted in blue). 
+The total assets for 2017 were $349 billion (rounded).
+The total assets for 2016 were $330 billion (rounded).
+Exxon's total average assets = $339.5 ((349 + 330)/2)
+
+Below is the income statement for 2017 for Exxon according to their 10K statement. 
+Exxon reported net income of $19.7 billion for 2017.
+Exxon's ROA = $19.7 billion ÷ $339.5 billion = 5.8%
+This means that, for every dollar in assets during 2017, Exxon earned 5.8 cents in profit.
+
+Exxon's ROA is more meaningful when compared to other companies within the same industry.
+Here are the 2017 ROAs for comparable companies:
+Chevron Corporation (CVX) ROA = 3.57%
+British Petroleum (BP) ROA = 1.26%
+By comparing Exxon's ROA to industry peers, we see that Exxon generates more profits per dollar of assets than Chevron or BP. 
+The Bottom Line
+Calculating the ROA of a company can be helpful in comparing a company's profitability over multiple quarters and years as well as comparing to similar companies.
+However, it's important to compare companies of similar size and industry. For example, banks tend to have a large number of total assets on their books in the form of loans, cash, and investments. A large bank could easily have over $2 trillion in assets while putting up a net income that's similar to companies in other industries. Although the bank's net income or profit might be similar to an unrelated company and the bank might have high-quality assets, the bank's ROA will be lower. The larger number of total assets must be divided into the net income creating a lower ROA for the bank.
+Similarly, auto manufacturing requires huge facilities and specialized equipment. A lucrative software company that sells downloadable programs online may generate the same net profits, but it could have a significantly higher ROA than its more asset-heavy counterparts. When utilizing this metric to compare productivity across businesses, it's important to take into account what types of assets are required to function in a given industry rather than simply comparing the figures.
+        
+    
+
+    
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'FAQ'
+    });
+                

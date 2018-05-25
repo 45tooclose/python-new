@@ -1,0 +1,55 @@
+
+ 
+            
+            
+                              
+                              
+              
+              
+              
+                Security  
+              
+              
+                                
+                    
+                       
+                      
+                        4 mins ago    |
+                          By Kai Sedgwick -   |
+                          418                                                                    
+                      
+                        How to Protect Yourself Against DNS Attacks When Using Cryptocurrency                                              
+                    
+                                      
+                    
+                        
+
+            
+
+
+DNS attacks can manifest themselves in many ways, all targeted against the Domain Name System that connects the internet. At best they’re an inconvenience, knocking websites offline or preventing access, and at worst they’re costly, as this week’s $150,000 Myetherwallet hijack demonstrated. When you’re interacting in the crypto space, here are a few ways to protect yourself against DNS attacks.
+Also read: Myetherwallet Servers Are Hijacked in DNS Attack
+How DNS Attacks Work
+In the aftermath of Tuesday’s DNS attack, which affected a string of major websites and proved particularly costly to some Myetherwallet users, Cloudflare published a report. “BGP leaks and cryptocurrencies” examines how the attack went down, and how the attackers were able to exploit vulnerabilities in the DNS system. BGP is the Border Gateway Protocol, a standardized gateway for routing information from one part of the internet to another.
+
+With over 700,000 possible routes, there’s a lot of ways to get from A to B or Z or any letter in between. Most of the time, all of these chains, operated by different internet providers, communicate just fine, but occasionally things go wrong. Usually these leaks are localized and are the result of a configuration mistake. But as Cloudflare explains, “Sometimes [a BGP leak] is done with a malicious intent. The prefix can be re-routed through in order to passively analyze the data”. It continues:
+
+During the two hours leak the servers on the IP range only responded to queries for myetherwallet.com. As some people noticed SERVFAIL. Any DNS resolver that was asked for names handled by Route53 would ask the authoritative servers that had been taken over via the BGP leak. This poisoned DNS resolvers whose routers had accepted the route.
+
+Anyone connecting to a DNS resolver that had been poisoned during the attack would have been rerouted to a fraudulent Russian provider instead.
+How to Detect DNS Attacks
+The good news is that in most cases identifying the signs of BGP hijacking doesn’t call for a Master’s in internet protocol architecture. The first clue that something is amiss can be found by glancing at the https lock in your browser. It should be green, to denote that the certificate for the website you’re accessing is trusted. If it’s red or you’re presented with a warning message, don’t proceed just because the URL you’re loading is correct.
+
+One of the victims of Tuesday’s Myetherwallet attack was shown a warning that their connection to the site was not secure but confessed: “Even though every part of my body told me not to try and log in, I did.” Due to notification fatigue, it’s easy to dismiss warning messages without paying them attention, but not all notifications are spammy: some are vital, and should be overridden at your peril.
+Cloudflare explains: “If you were using HTTPS, the fake website would display a TLS certificate signed by an unknown authority (the domain listed in the certificate was correct but it was self-signed). The only way for this attack to work would be to continue and accept the wrong certificate. From that point on, everything you send would be encrypted but the attacker had the keys.”
+Stay Vigilant and Control your Crypto
+Sites such as Whoismydns.com enable web users to check whether they recognize the name and IP of the server they’re connecting to, which will often be your ISP. Beyond that, unfortunately, there is little that the average web user can do, for the onus is on web admins to monitor their site for evidence of BGP leaks. Given the risks of storing cryptocurrency on centralized exchanges, and of interacting with websites such as Myetherwallet and decentralized exchanges like Etherdelta, both of which have fallen victim to DNS attacks, investors are left with few options. Crypto projects such as REMME are working on technology that will alert users to DNS attacks on cryptocurrency exchanges, but its implementation is still some way off.
+
+The only way to ensure your crypto remains your crypto is to store it in a secure hardware wallet that is not connected to the internet. But to acquire those coins in the first place, you have to connect to the internet. For practical reasons, it is essential that you are able to go about your daily business without constant fear of having your web traffic hijacked, poisoned, or spoofed. But when accessing online wallets and exchanges, be sure to check that the https lock is in place. If your gut is telling you something is wrong, trust your instincts and heed the warning signs. It might just save your crypto.
+Do you think DNS attacks are on the rise? Let us know in the comments section below.
+
+Images courtesy of Shutterstock.
+
+Need to calculate your bitcoin holdings? Check our tools section.
+
+        

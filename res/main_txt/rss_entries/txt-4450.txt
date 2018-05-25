@@ -1,0 +1,209 @@
+
+
+
+    
+        
+        Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/ActiveTrading/ActiveTrading/IC-Video/Article");} else {return "/8397/INV-NA/ActiveTrading/ActiveTrading/IC-Video/Article";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/articles/stocks/09/trade-a-cfd.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/A9RzgSt6.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/A9RzgSt6-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/dimages/graphics/contract_for_differences.png?width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "100%",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "A9RzgSt6-G9NhEyAa.mp4";
+                
+          
+            document.addEventListener("DOMContentLoaded", function() {
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                        var initializeJWPlayerSetup = function () {
+                            if (new VideoInit().canRun()) {
+                                setUpJwpPlayer();
+                            } else {
+                                new VideoInit().callBack = setUpJwpPlayer;
+                            }
+                        }
+            initializeJWPlayerSetup();
+          });
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "A9RzgSt6-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "Explaining Contract for Differences",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };    
+        
+            
+      
+
+    
+
+    
+        The contract for difference (CFD) offers European traders and investors an opportunity to profit from price movement without owning the underlying asset. It's a relatively simple security calculated by the asset's movement between trade entry and exit, computing only the price change without consideration of the asset's underlying value. This is accomplished through a contract between client and broker, and does not utilize any stock, forex, commodity or futures exchange. Trading CFDs offer several major advantages that have increased the instruments' enormous popularity in the past decade.
+How a CFD Works
+If a stock has an ask price of $25.26 and the trader buys 100 shares, the cost of the transaction is $2,526 plus commission and fees. This trade requires at least $1,263 in free cash at a traditional broker in a 50% margin account while a CFD broker often requires just 5% margin, or $126.30. A CFD trade will show a loss equal to the size of the spread at the time of the transaction so, if the spread is 5 cents, the stock needs to gain 5 cents for the position to hit the breakeven price. You'll see a 5-cent gain if you owned the stock outright but would have paid a commission and incurred a larger capital outlay. 
+If the stock rallies to a bid price of $25.76 in a traditional broker account, it can be sold for a $50 gain or $50/$1263=3.95% profit. However, when the national exchange reaches this price, the CFD bid price may only be $25.74. The CFD profit will be lower because the trader must exit at the bid price and the spread is larger than on the regular market. In this example, the CFD trader earns an estimated $48 or $48/$126.30=38% return on investment. The CFD  broker may also require the trader to buy at a higher initial price, $25.28 for example. Even so, the $46 to $48 earned on the CFD trade denotes a net profit, while the $50 profit from owning the stock outright doesn't include commissions or other fees, putting more money in the CFD trader's pocket.
+The Advantages:
+Higher Leverage
+CFDs provide higher leverage than traditional trading. Standard leverage in the CFD market current starts as low as a 2% margin and can go up to 20% but will rise substantially under new rules set to go into effect later this year. Lower margin requirements mean less capital outlay for the trader/investor, and greater potential returns. However, increased leverage can also magnify losses.
+Global Market Access from One Platform
+Many CFD brokers offer products in all the world's major markets, allowing around the clock access.
+No Shorting Rules or Borrowing Stock
+Certain markets have rules that prohibit shorting, require the trader to borrow the instrument before selling short or have different margin requirements for short and long positions. CFD instruments can be shorted at any time without borrowing costs because the trader doesn't own the underlying asset.
+Professional Execution With No Fees
+CFD brokers offer many of the same order types as traditional brokers including stops, limits and contingent orders like "One Cancels the Other" and "If Done". Some brokers offer guaranteed stops that charge a fee for the service or recoup costs in another way. Brokers make money when the trader pays the spread and most do not charge commissions or fees of any kind. To buy, a trader must pay the ask price, and to sell/short, the trader must pay the bid price. This spread may be small or large depending on volatility of the underlying asset and fixed spreads are often available.
+No Day Trading Requirements
+Certain markets require minimum amounts of capital to day trade, or place limits on the amount of day trades that can be made within certain accounts. The CFD market is not bound by these restrictions and all account holders can day trade if they wish. Accounts can often be opened for as little as $1,000, although $2,000 and $5,000 are common minimum deposit requirements.
+Variety of Trading Opportunities
+Brokers currently offer stock, index, treasury, currency, sector and commodity CFDs so speculators in diverse financial vehicles can trade CFDs as an alternative to exchanges.
+The Disadvantages
+Traders Pay The Spread
+While CFDs offer an attractive alternative to traditional markets, they also present potential pitfalls. For one, having to pay the spread on entries and exits eliminates the potential to profit from small moves. The spread also decreases winning trades by a small amount compared to the underlying security and will increase losses by a small amount. So, while traditional markets expose the trader to fees, regulations, commissions and higher capital requirements, CFDs trims traders' profits through spread costs.
+Weak Industry Regulation
+Also note the CFD industry is not highly regulated and the broker's credibility is based on reputation, life span and financial position rather than government standing or liquidity. There are excellent CFD brokers but it 's important to investigate a broker's background before opening an account.
+The Bottom Line
+Advantages to CFD trading include lower margin requirements, easy access to global markets, no shorting or day trading rules and little or no fees. However, high leverage magnifies losses when they occur, and having to pay a spread to enter and exit positions can be costly when large price movements do not occur. 
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

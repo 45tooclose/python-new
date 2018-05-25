@@ -1,0 +1,102 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Everybody has biases. We make judgments about people, opportunities, government policies and, of course, the markets. When we analyze our world without knowing about these biases, we put our observations through a number of filters manufactured by our experiences, and we're not just talking about stock screeners.
+We're talking about the filters we put our decisions through that sometimes make them biased. Day-to-day activities are primarily driven by behavioral patterns. The same behavioral patterns also guide investing actions.
+It’s impossible to be unbiased in our decision-making. However, we can mitigate those biases by identifying and creating trading and investing rules — but only if we know what to look for.
+Fortunately, investing biases fall into two main categories: cognitive and emotional.
+What Is Cognitive Bias?
+Think of a cognitive bias as a rule of thumb that may or may not be factual. We’ve all seen movies where a thief wears a police uniform to pass through a security checkpoint. The real police officers assume that because the person is wearing a uniform like theirs, he must be a real police officer. That’s an example of a cognitive bias.
+What does a fake cop have to do with your investment choices? You make the same types of assumptions that aren’t necessarily true. Here are some examples:
+Confirmation Bias: Have you noticed that you put more weight into the opinions of those who agree with you? Investors do this too. How often have you analyzed a stock and later researched reports that supported your thesis instead of seeking out information that may poke holes in your opinion?
+	 
+Gamblers’ Fallacy: Let’s assume that the S&P has closed to the upside five trading sessions in a row. You place a short trade on the SPDR S&P 500 (SPY) because you believe chances are high that the market will drop on the sixth day. While it may happen, on a purely statistical basis, the past events don’t connect to future events. There may be other reasons why the sixth day will produce a down market; but by itself, the fact that the market is up five consecutive days is irrelevant.
+	 
+Status-Quo Bias: Humans are creatures of habit. Resistance to change spills over to investment portfolios through the act of repeatedly coming back to the same stocks and ETFs instead of researching new ideas. Although investing in companies you understand is a sound investment strategy, having a short list of go-to products might limit your profit potential.
+	 
+Negativity Bias: The bull market is alive and well, yet many investors have missed the rally because of the fear that it will reverse course. Negativity bias causes investors to put more weight on bad news than on good. Some might call this risk management, but this bias can cause the effects of risk to hold more weight than the possibility of reward.
+	 
+Bandwagon Effect: Warren Buffett became one of the most successful investors in the world by resisting the bandwagon effect. His famous advice to be greedy when others are fearful and fearful when others are greedy is a denouncement of this bias. Going back to confirmation bias, investors feel better when they are investing along with the crowd. But as Buffett has proven, an opposite mentality, after exhaustive research, may prove more profitable.
+What Is Emotional Bias?
+You may notice some overlap between cognitive and emotional bias, but think about this — one reason cited by market watchers for disbelief that the current bull market is sustainable is a focus on the past. “I purchased a home in 2007 and got burned. Why would now be any different?” That’s an example of an emotional bias.
+Simply put, it is taking action based on feelings instead of fact. Emotional biases are deeply ingrained in the psychology of investors and are generally much harder to overcome.
+Here are a few examples:
+Loss-Aversion Bias: Do you have a stock in your portfolio that is down so much that you can’t stomach the thought of selling? In reality, if you sold the stock, the money that is left could be reinvested into a higher quality stock. But because you don’t want to admit that the loss has gone from a computer screen to real money, you hold on in hopes that you will, one day, make it back to even.
+	 
+Overconfidence Bias: “I have an edge that you (and others) do not.” A person with overconfidence bias believes that his/her skill as an investor is better than others' skills. Take, for example, the person who works in the pharmaceutical industry. He/she may believe in having the ability to trade within that sector at a higher level than other traders. The market has made fools out of the most respected traders. It can do the same to you.
+	 
+Endowment Bias: Similar to loss aversion bias, this is the idea that what we do own is more valuable than what we do not. Remember that losing stock? Others in its sector may show more signs of health, but the investor won’t sell because he/she still believes, as before, it’s the best in its sector.
+How to Minimize Investing Biases
+There is no way to eliminate bias. It’s who we are, and those biases aren’t always liabilities. In investing, taking steps to minimize those biases is how the pros make money.
+Some examples may include:
+Use a spreadsheet to calculate the risk/reward of every trade or investment. Set your threshold and never deviate from the rule. If a stock falls more than 7 percent (or the percentage you choose), you will immediately sell.
+When you put a trade on, set an upside target. Once it reaches the target, sell the position.
+The Bottom Line
+The only way to minimize bias is to set objective trading rules and never deviate. Overriding your emotions is a difficult task and takes time to develop. Professional traders, however, have learned that it’s the only way to make money in the markets.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

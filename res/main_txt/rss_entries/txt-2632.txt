@@ -1,0 +1,74 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        When it comes to digital currencies and venture capital groups, Andreessen Horowitz has been one of the most active firms in the new space. The firm may be preparing to launch a separate fund dedicated to the purchase and sale of cryptocurrency assets, according to a report by Recode. If true, this move would mark a major expansion of the firm's mission. It would also be a major moment for the digital currency industry more broadly, as investors are still aiming to capitalize on the hype associated with the new space. While Andreessen Horowitz has invested in blockchain companies and cryptocurrency-specific funds, and in initial coin offerings, it has so far not publicly traded digital currencies themselves.
+The buzz around the venture capital firm is due at least in part to two job postings on the company's website. These postings indicate that the firm is hiring new positions for a "separately managed fund focusing on crypto assets." Up to this point, Andreessen Horowitz has only made investments from two types of funds: one for startups at various stages of development and the other for bio investing.
+Questions Remain
+The two job postings do not indicate details like how much Andreessen Horowitz aims to collect in assets under management, when the fund might launch and so on. It's also possible that the firm could use the new fund to continue its investment in token and blockchain startups. The postings are for a legal counsel and for a finance and operations manager; the legal counsel would make sure that the firm's cryptocurrency investments are compliant with SEC regulation, while the finance manager would help the firm collect money from limited partners.
+Traditional venture capital firms have so far been reluctant to invest in cryptocurrencies directly, with some limited partners worried about risks to the entire area. Andreessen Horowitz, however, has established itself as a venture capital fund with a unique interest in the sector. What the firm's new fund will look like, when it will launch, and how it will invest remains to be seen.
+Investing in cryptocurrencies and Initial Coin Offerings ("ICOs") is highly risky and speculative, and this article is not a recommendation by Investopedia or the writer to invest in cryptocurrencies or ICOs. Since each individual's situation is unique, a qualified professional should always be consulted before making any financial decisions. Investopedia makes no representations or warranties as to the accuracy or timeliness of the information contained herein. As of the date this article was written, the author owns bitcoin and ripple.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

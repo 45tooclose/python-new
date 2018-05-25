@@ -1,0 +1,80 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        As Apple Inc. (AAPL) gears up to post its highly anticipated quarterly earnings Thursday, shares of the tech giant are expected to make a significant move on the results. Trading up about 2.3% on Monday afternoon at $166.14, AAPL stock reflects a near 10% decline since highs reached in mid-March at $183.50. According to one market watcher, this FAANG stock will likely cost its investors another 5% to 10% loss, as reported by CNBC. 
+In an interview with CNBC, Chad Morganlander, portfolio manager at Washington Crossing Advisors, noted that while AAPL stock has already fallen into a correction, defined as a 10% decline since a 52-week high, they are poised to plunge into a bear market. He expects the smartphone maker to shed another $80 billion from its market capitalization, tacking on to the more than $80 billion it has already lost. The iPhone maker has declined about 2% year-to-date (YTD) and has returned over 160% in five years, compared to the S&P 500's about-flat run in 2018 and 67% gain over five years. (See also: Apple Vs. Facebook: May the Best Stock Win.)
+Apple to Lose in Key Chinese Market
+"We would have a hold on this," said Morganlander, who highlighted uncertainties in China and the waning demand of iPhone sales within that key market as risks facing the Cupertino, California-based company. "People in China are not actually wanting to buy these high-end phones. So, gross margins as well as operating margin vulnerability there in the short run." 
+In China, where Apple attributes an approximate 20% of its total revenues, the company has struggled to fight the trend of consumers buying more budget-friendly smartphones from domestic rivals like Huawei Technology and Oppo Electronics. As a result, Apple has experienced decelerating sales growth in the region following a period of double-digits gains since 2015. 
+A 'True Value Play' in the Long-Term
+Longer-term however, the portfolio manager remains optimistic, dubbing AAPL a "true value play," based on the strength of its underlying fundamentals. He applauded the firm's broader transition to software and subscription-based businesses, such as the App Store and Apple Music, indicating that these segments "could actually provide a P/E multiple enhancement in year four and five" of a five-year timeline. 
+In the three month period ended March, Apple's software and services segments are expected to have grown revenue by 19%. 
+Trade War Weighs on Tech Giant Despite Tax Gains
+Other Apple bears have highlighted the firm as a potential loser from an impending global trade war, despite being pegged as a company among the best positioned to gain from the GOP tax plan. On Friday, CNBC's Jim Cramer argued that imposing tariffs on $100 billion of Chinese imports would negatively effect Apple, given that many of its products are assembled there. Tensions could significantly disrupt Apple's supply chain and spur other penalties such as boycotts, according to the investor. 
+"Apple can try to pass that cost on to their customers, but a 20% tariff on phones means that your $1,000 Chinese assembled iPhone suddenly costs $1,200," said Cramer.
+The forecast for Apple to fall over 20% from March highs into a correction comes as investors more generally fear slowing demand for its recently launched iPhones, particularly the 10th anniversary iPhone X, which starts at $999. Results from Apple suppliers seem to have supported the thesis that Apple's current iPhone cycle is not as good as expected and has cooled early, as noted by The Wall Street Journal. Despite lowered expectations on the Street, forecasts for a 13% jump in iPhone revenue over last year and 18% for the June period may still be too high, wrote the WSJ's Dan Gallagher. The reporter cited Apple's saving grace as a potential "capital return bonanza" as the company is expected to boost its dividend and buyback activity, helped by $269 billion that the company has freed up via overseas cash repatriation. (See also: Tech Still Reigns Over the Market: Credit Suisse.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

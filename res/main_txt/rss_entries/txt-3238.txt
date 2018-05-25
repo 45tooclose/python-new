@@ -1,0 +1,263 @@
+
+
+    
+                        
+            
+                Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/ETFMF/MF/IC-Video/Term");} else {return "/8397/INV-NA/ETFMF/MF/IC-Video/Term";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/terms/c/capital-flows.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/emM4lLzR.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/emM4lLzR-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/dimages/graphics/capital_flows.png?width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "560",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "emM4lLzR-G9NhEyAa.mp4";
+                
+          
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                    var initializeJWPlayerSetup = function () {
+                        if (new VideoInit().canRun()) {
+                            setUpJwpPlayer();
+                        } else {
+                            new VideoInit().callBack = setUpJwpPlayer;
+                        }
+                    }
+          initializeJWPlayerSetup();
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "emM4lLzR-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "Explaining Capital Flows ",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };            
+          
+                    What are 'Capital Flows'
+
+      Capital flows refer to the movement of money for the purpose of investment, trade or business production, including the flow of capital within corporations in the form of investment capital, capital spending on operations and research and development (R&D). On a larger scale, a government directs capital flows from tax receipts into programs and operations and through trade with other nations and currencies. Individual investors direct savings and investment capital into securities, such as stocks, bonds and mutual funds.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Cash Flow From Investing Activities                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Cash Flow From Operating Activities ...                     
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Unconventional Cash Flow                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Capital                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Capital Flows'
+      Within the United States, the government and other organizations aggregate capital flows for the purpose of analysis, regulation and legislative efforts. Different sets of capital flows that are often studied, such as asset-class movements, venture capital, mutual fund flows, capital spending budgets and the federal budget.
+Capital Flow Categories
+Asset-class movements are measured as capital flows between cash, stocks, bonds and other financial instruments, while venture capital shifts in regards to investments being placed in startup businesses. Mutual fund flows track the net cash additions or withdrawals from broad classes of funds. Capital-spending budgets are examined at the corporate level to monitor growth plans, while federal budgets follow government spending plans.
+Capital Flows and Investing
+The relative strength or weakness of capital markets can be shown through applicable capital flows, especially in contained environments like the stock market or the federal budget. Investors also look at the growth rate of certain capital flows, such as venture capital and capital spending, to find any trends that might indicate future investment opportunities or risks.
+Real Estate Capital Flows
+As part of standard business operations, companies may look to purchase commercial real estate to house production activities. Additionally, many individuals see the purchase of real estate as an investment. As part of the financial crisis in 2008, capital flows to real estate investments slowed significantly, with sales failing to meet pre-crisis levels until 2013. As of 2015, U.S. capital flows saw an increase of approximately 45%, when compared to 2014, in regards to commercial property investment.
+Volatility in Emerging Economies
+In emerging economies, capital flows can be particularly volatile as the economy may experience periods of rapid growth and subsequent contraction. Increased capital inflows can lead to credit booms and the inflation of asset prices, which may be offset by losses due to depreciation of the currency based on exchange rates and declines in equity pricing.
+In India, periods of fluctuation have been noted beginning in the 1990s. Capital flows during the earlier period, from the 1990s into the early 2000s, was marked by steady growth, transitioning to a rapid influx of funds between the early 2000s and 2007. This rapid growth eventually shifted, partially due to the implications of the financial crisis in 2008, leading to a high level of volatility regarding capital flows.
+Example of Capital Flows
+One of the biggest investing trends of the past several years involves the massive amounts of capital flow from active management into passive strategies such as exchange-traded funds (ETFs). For January 2018, $41.2 billion of investor capital flowed into U.S. equity passive funds, surpassing the $22.5 billion of inflows in December. Meanwhile, $24.1 billion in capital flowed out of active funds, compared to $16.3 billion in December. The path of capital flows also moved to other asset classes. For example, the taxable bond category proved the most popular in January, seeing $47.0 billion in inflows, with active and passive drawing almost equal capital. 
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

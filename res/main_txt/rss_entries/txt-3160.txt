@@ -1,0 +1,74 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        It's safe to say that cryptocurrencies appear to be rebounding after several weeks of disappointment earlier in the year. Each of the top 10 digital currencies by market cap has risen in the past 24 hours, with EOS and Stellar posting the most significant gains (11.76% and 10.68%, respectively, according to Coinmarketcap.com). Bitcoin (BTC) has led the way, climbing back over $9,000 and crossing what some analysts see as a pivotal threshold in the process. However, in spite of growing optimism among many in the cryptocurrency community, some also see suggestions that another plunge could be approaching.
+Mt. Gox Moves 16,000 Bitcoins
+The now-defunct digital currency exchange Mt. Gox reportedly shifted 16,000 bitcoins from its vaults to an undisclosed address. At the current rate, this accounts for more than $140 million in bitcoins transferred, according to The Independent. Should these bitcoins all be sold at once, it could have a disastrous effect on the price of the digital currency. Cryptocurrency analyst Ivo Jonkers believes that "the Mt. Gox trustees have moved the funds to a wallet belonging to an exchange desk. The last time this happened, Mt. Gox proceeded to sell the funds at market rate, practically sending the entire market in the red. I wouldn't be surprised if this happens again." While this may be problematic for the market more broadly, with bitcoin at a local high in terms of value, it is easy to understand why the holders of this collection may be interested in selling now.
+Another Prominent Critic Emerges
+At the same time, the founding CEO of Paypal Holdings, Inc. (PYPL), Bill Harris, has joined the list of prominent business figures to speak scathingly about digital currencies and bitcoin in particular. In a recent post, Harris described bitcoin as a "colossal pump-and-dump scheme." He event went so far as to state his opinion directly: "Okay, I'll say it: bitcoin is a scam," he wrote. At the same time, the MIT Technology Review has recently published a plan indicating three different ways that the world's leading digital currency could be destroyed. Is the future of the cryptocurrency industry in jeopardy? Perhaps, but miners continue to plug away: they are about to tap the 17 millionth bitcoin.
+Investing in cryptocurrencies and Initial Coin Offerings ("ICOs") is highly risky and speculative, and this article is not a recommendation by Investopedia or the writer to invest in cryptocurrencies or ICOs. Since each individual's situation is unique, a qualified professional should always be consulted before making any financial decisions. Investopedia makes no representations or warranties as to the accuracy or timeliness of the information contained herein. As of the date this article was written, the author owns no cryptocurrencies.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

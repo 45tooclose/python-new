@@ -1,0 +1,145 @@
+
+
+    
+                          WHAT IS 'Sweet Crude'
+
+      Sweet crude is a classification of petroleum that contains less than 0.42 percent sulfur, as established by the New York Mercantile Exchange. Sulfur is undesirable in petroleum because it lowers the yield of high-value products including gasoline, diesel fuel, heating oil and jet fuel as well as plastics and other petroleum-derived products.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Sour Crude                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Benchmark Crude Oil                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Basis Grade                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Carbon Trade                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Sweet Crude'
+      Sweet crude is not a metaphor; it actually tastes sweet. In the nineteenth century, prospectors would taste and smell “raw” petroleum as it was extracted from the ground to judge its relative sulfur content. If the oil tasted vaguely sweet and had a pleasant smell, it was low in sulfur; if it tasted sour and smelled like rotten eggs, the sulfur content was high. This is the origin of the terms sweet crude and sour crude.
+Crude oil is composed primarily of carbon (84-87 percent) and hydrogen (11-13 percent) with the remainder a mix of sulfur, oxygen, nitrogen and helium. Those trace elements affect the refining process and contribute to the amount of residuum, which is the byproduct that remains after refining.
+Light and Heavy Crude
+Sulfur content is only one characterization of crude oil. It can also be categorized as light or heavy according to density standards set by the American Petroleum Institute, or API. An API Gravity of 10 equals the density of water. The scale is inverse, so oil with an API Gravity greater than 10 will float on water and is called light crude. Oil with an API Gravity below 10 will sink in water, and is known as heavy crude. Not all light crude is sweet, but most heavy crude is sour because it typically contains large amounts of sulfur and metals such as nickel.
+Light sweet crude is the most valuable oil because it is easier to refine, or distill, and transport. By contrast, heavier oils such as tar sands oil require higher heat and thus more energy to refine into useful products. Note, however, that light crude oils are considered more potentially toxic to the environment because if spilled they will spread rapidly.
+Oil Trading
+Oil is also characterized by its geographic origin. For example, the most well known light sweet crude is called West Texas Intermediate, or WTI. WTI futures and options are the most actively traded energy products in the world. WTI helps manage risk in the energy sector because the contract has the most liquidity, highest number of customers and excellent transparency. Both full-sized and e-mini futures contracts are traded on through the CME Group's CME Globex, CME ClearPort and Open Outcry New York trading venues.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

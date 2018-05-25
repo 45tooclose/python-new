@@ -1,0 +1,79 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Amazon.com Inc. (AMZN) has been in the European market for 20 years now, but when it comes to cracking the apparel and footwear segment of e-commerce, it is still having a hard time.
+Citing Euromonitor International data, The Wall Street Journal reported that while Amazon is the leading seller of apparel and footwear in the U.S. with market share of 35%, in Western Europe it only commands 8% market share. Overall in Western Europe, its share of e-commerce stands at 22%.
+The problem for the Seattle-based online retailer is it lacks top fashion brands in Europe and has a website that isn’t conducive to browsing for apparel and shoes. It doesn’t help that the apparel industry in Europe is fragmented with lots of buyers expecting sleek aesthetics out of their online shopping experiences.
+International Sales Up
+Eric Broussard, a vice president at Amazon who oversees the company’s international marketplaces told the Journal that it has been broadening its offering in Europe and encouraging U.S. merchants to ship their products internationally. It has also launched three of its own apparel brands in the region. Amazon doesn’t break out European sales, but its international business did see a 23% increase in sales in 2017 to $54.3 billion, noted the report. It posted an operating loss of $3.06 billion. (See also: Amazon to Be #1 in Apparel in 2018: Morgan Stanley.)
+While Amazon is a formidable competitor in Europe and everywhere else, fashion retailers have been able to stay ahead in large part because they hawk products from varying fashion brands. They are inking partnerships with the brands in which they get access to more data on shoppers as a result of selling their fashion on the internet platforms, industry executives told the paper. Take Zalando, the Berlin-based online apparel and footwear company that is currently in first place in Western Europe with around 9.6% market share based on Euromonitor data. While it launched 10 years after Amazon, it has been successful because of the partnerships with brands including Adidas and Tommy Hilfiger. The sharing of data has helped Zalando attract more fashion partners and thus more shoppers, noted the paper.
+A Thriving German Competitor
+“Major fashion players in Europe of course don’t want to underestimate the threat of Amazon, because Amazon seems to be able to do anything,” Marguerite Le Rolland, a Euromonitor analyst, told the Journal. “However, our clients still feel relatively safe. They feel [Amazon] hasn’t convinced consumers yet on its fashion credentials.” (See also: Nike, Estee Lauder, Constellation Brands Are Amazon Resistant-Logan Capital.)
+In addition to lacking leading fashion brands, European retail executives say Amazon’s website looks more like an online department store where brands have little say in how their products are presented, whereas Zalando looks more like an upscale shopping mall with the designers presented in a sleeker and eye-pleasing way. Zalando tries to woo the brands it thinks will bring customers while Amazon makes bets that big brands will bring the customers in, underscoring the differences between the two, noted the report.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

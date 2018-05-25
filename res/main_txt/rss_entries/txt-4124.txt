@@ -1,0 +1,144 @@
+
+
+    
+                          What is a 'Default Premium'
+
+      A default premium is the additional amount a borrower must pay to compensate a lender for assuming default risk. All companies or borrowers indirectly pay a default premium, through the rate at which they must repay the obligation.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Strategic Default                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Reference Asset                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Risk Premium                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Sovereign Default                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Default Premium'
+      Typically the only borrower in the United States that would not pay a default premium would be the U.S. government. However in tumultuous times, even the U.S. Treasury has had to offer higher yields in order to borrow. In addition companies with lower grade (i.e. junk or non-investment-grade) bonds and individuals with poor credit also pay default premiums.
+Corporate bonds receive ratings from major agencies like Moody’s, S&P, and Fitch, based on the revenues the issuers are able to generate in order to meet principal and interest payments, along with any assets (equipment or financial assets) they are able to pledge to secure the bond(s). The more revenue a company can generate, or safety it can provide, the higher its credit rating will be. The higher the credit rating the lower a company’s default premium. For higher-rated issuances, investors will not receive as high of a yield.
+Investors often measure the default premium as the yield on an issuance over and above a government bond yield of similar coupon and maturity. For example, if a company issues a 10-year bond, an investor can compare this to a U.S. Treasury bond of a 10-year maturity.
+Default Premium and Individual Credit Scores
+Individuals with poor credit must pay higher interest rates in order to borrow money from the bank. This is a form of default premium given that lenders believe these individuals have a higher risk of being unable to repay their debts. There can be a significant amount of discrimination in the individual lending market as evidenced by payday loans. A payday loan is a short-term borrowing solution in which a lender will extend a very high interest credit, based on a borrower’s income and credit profile. Factors that comprise an individual credit score include the history of repaying debts, including completion and timeliness; the size of the debts; number of debts; and possibly additional information such as employment history.
+Many payday lenders will set up businesses in poorer neighborhoods with populations that are already vulnerable to financial shocks. Although the federal Truth in Lending Act does require payday lenders to disclose their often outsized finance charges, many borrowers overlook the costs since they are in need of funds quickly. Most loans are for 30 days or less, with amounts usually from $100 to $1,500. Oftentimes these loans can be rolled over for even further finance charges. Many borrowers are often repeat customers.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Deposit',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

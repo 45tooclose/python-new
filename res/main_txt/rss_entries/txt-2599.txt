@@ -1,0 +1,84 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Ah, how we envy that class of folk known as sophisticated investors – the ones who can get in on investment deals that we mere mortals never see, thanks to their net worth or income. But just don't confuse being "sophisticated" with being "smart."  education is crucial. There are countless cases of sophisticated investors being misled. Just ask those who, back in 2007, invested in a synthetic collateralized debt obligation (CDO) offered by Goldman Sachs (GS) – and collectively lost about $1 billion on it, when the subprime meltdown occurred. Although Goldman later admitted ti failed to disclose some vital information about the investment (like the fact that the major hedge fund that helped pick the securities for it took a short position against it), it's likely that many of those who bought in didn't really understand it, anyway.
+This is why financial education and knowledge are probably the most effective tools for raising returns and lowering risk. And they are imperative for avoiding disastrous losses. Here's how to become a sophisticated investor, not in the official sense of being able to hold investments indefinitely or to suffer a total loss of investment principal, but in the sense of learning how to get the best out of your money and from the investment industry, is fundamental.
+What is a “Sophisticated Investor”?
+In the sense used here, we mean someone who has sufficient investing experience and directly relevant knowledge to weigh up the potential risks and benefits of an investment opportunity. In other words, the person genuinely understands what they need and want, and what they are getting from the seller.
+At a minimum, such investors will ensure that their portfolios are sufficiently diversified, monitored regularly, and that buying takes place when markets are relatively low and selling when they are high. Investors who fail to heed these three basic principles are not sophisticated. 
+Good Ways to Raise Your Sophistication
+Be aware that information provided by the industry is often difficult to understand, and sometimes deliberately so. The Goldman Sachs case revealed just how real this danger can be, through information asymmetry. A little financial knowledge can be a dangerous thing, so take the time to read all documents and contracts properly. If they are too long and complex, ask the seller for a clear summary, or even pay a lawyer to check it for you. It may be best to avoid some products simply due to their complexity and opacity.
+Be disciplined and devote a certain amount of time not only to managing your money but also to keeping abreast of current developments. At least once a week, you should have a look at the financial pages of a newspaper or internet. You can also subscribe to various newsletters and magazines. Prioritize carefully. Decide what to skim, what to read in detail and what to keep for the future.
+Adopt an interdisciplinary and multifaceted approach to educating yourself. Draw on as many of the multitude of available resources as possible. Don’t rely just on the internet, but use books, magazines, newspapers, radio, TV and personal contacts. Also, bear in mind that the investment universe spills over into many fields including politics, psychology, sociology, the environment and law.
+Be Aware of Your Own Limitations
+This applies to your previous education and experience, time, interest and motivation. New things are always coming onto the market, so the time and commitment are ongoing. Be honest with yourself about all the above factors.
+Accordingly, if you have other people managing your money, ensure that you meet with them regularly and have enough time to communicate meaningfully and bilaterally with them. Even sophisticated investors need good and productive relationships at the human/money interface. Indeed, this is a good reason not to go overboard with internet investment.
+Delegate all appropriate activities to the right people. Somewhat ironically, one of the most important elements of investment sophistication is to know what you don’t know.
+The Bottom Line
+There is a lot of misunderstanding about who really is a sophisticated investor. True sophistication entails a mixture of knowledge, understanding and experience. But it does not reduce the responsibility of sellers to make clear what they are promising and to do just that.
+Furthermore, the world of money is ever-evolving, so your knowledge needs to be updated constantly. In summary, the trick of real sophistication is to manage your overall investment process optimally, rather than trying to know it all.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

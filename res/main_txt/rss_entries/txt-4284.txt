@@ -1,0 +1,203 @@
+
+
+
+Venezuela Offers India 30% Discount on Oil if Paid in Petro Cryptocurrency
+It appears that Venezuela is keen on stimulating its cryptocurrency, the Petro, by offering Indian officials a 30% on oil prices if they buy via the digital currency.
+
+
+ by  James
+Hydzik,
+20 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  India’s Business Standard reported on April 29 that Venezuelan officials had offered India a 30% discount on the price of oil. The offer came with the proviso that the payment for oil would be made in Petro, Venezuela’s ‘official’ cryptocurrency.
+Coinsecure exchange Chief Executive Officer Mohit Kalra claimed that Venezuelan officials had approached him.
+“The offer that they have given to the Indian government is: you buy Petro and we will give you a 30 per cent discount on oil purchases,” Kalra told reporters.
+Coinsecure negotiated a deal with a Venezuelan delegation visiting India in March to include Petro on the exchange. The exchange was also one of 16 given licenses to open in Venezuela, according to an announcement made by Venezuelan president Nicolas Maduro. There has been no formal response from Indians regarding the discount.
+
+Venezuela is looking to stimulate the use of its cryptocurrency, which just completed a presale that began on February 20. Venezuelan president Nicolas Maduro claimed that the equivalent to USD 3.8bn had been raised. However, given analyst concerns regarding the state-sponsored cryptocurrency, the Venezuelan government is keen to make the virtual currency viable. The ICO is slated to occur after the May 20 presidential elections.
+Coinsecure plays an important role in Venezuela’s cryptocurrency plans by underpinning the Petro with its technology. In particular, Coinsecure’s White Label exchange solutions are being used by the Venezuelans to handle the market players who will be trading Petro. “That would be run by their brand name, but the back-end will be us. We plan to provide them with 10-15 cryptocurrency players,” Kalra said.
+Venezuela is particularly interested in launching the Petro as U.S. sanctions continue to damage the economy, and in particular, raise inflation. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

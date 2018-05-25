@@ -1,0 +1,139 @@
+
+
+    
+                          DEFINITION of 'Franchise Factor'
+
+      Franchise factor is the measurement of the impact on a company's price-earnings ratio (P/E ratio) per unit growth in new investment. For example, a franchise factor of 3 would indicate that the P/E ratio of a company would increase by three units for every unit of growth in the company's book value.
+The franchise factor can be calculated as the product of annual investment returns in excess of market returns and the duration of the returns. A P/E ratio will not be elevated with a high franchise factor alone.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            P/E 30 Ratio                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Price/Earnings To Growth - PEG ...                     
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Forward Price To Earnings - Forward ...                     
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Franchisor                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Franchise Factor'
+      A company with a high franchise factor will have exceptionally high P/E ratios in comparison to its book value. This comes from the ability to continually capitalize on basic strengths, rather than the financial strength of the business. Because this is the case in many franchises, the term "franchise factor" was developed.
+A firm’s total value of equity, or market value, includes the sum of its tangible value and franchise value. The terminal value of a firm’s equity is the value of the current earnings when capitalized at an appropriate market discount rate. A firm’s franchise value measures the capacity to expand over time through investments that provide above-market returns. This is the total net present value of the returns from each franchise investment. Franchise value can also be shown as the present value of growth opportunities. Tangible value and franchise value, when combined, represent the firm’s market value and are used for determining the common price/earnings (P/E) ratio (market value/current earnings). Breaking down the P/E ratio results in two major components, the base P/E, and the franchise factor. Base P/E is the P/E of a firm with constant earnings over time and franchise factor captures the returns associated with new investments. Franchise factor contributes to the P/E ratio in the same way that franchise value contributes to share value.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

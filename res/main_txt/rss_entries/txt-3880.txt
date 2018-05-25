@@ -1,0 +1,145 @@
+
+
+    
+                          WHAT IS 'Negative Butterfly'
+
+      A negative butterfly is a shift in a bond yield curve in which long- and short-term yields decrease by a greater degree than medium-term yields. This yield curve shift effectively humps the plot of the curve. 
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Humped Yield Curve                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Yield Curve Risk                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Flat Yield Curve                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Yield Elbow                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Negative Butterfly'
+      Yield curves are graphic displays of the interest rates of similar-quality bonds, relative to their maturity dates. They are used to illustrate investor sentiments about the value of various bond maturities. Yield curves do not attempt to predict the future of bond rates, but the relative position of current rates can help investors make decisions about which bonds are likely to pay off best in the future.
+The most common yield curve plots the yields of the U.S. Treasury short-, medium- and long-term bonds. Normally the Treasury yield curve presents a rising arc from left to right, with short-term bonds on the left yielding less than medium-term bonds in the center, which likewise return less than long-term bonds on the right side of the graph. The reason is that investors generally expect better returns when they loan their money for longer periods of time.
+When Yield Curves Get Twisted
+But bond yields don’t always follow normal rules. For example, short- and long-term rates could decrease by 75 basis points, or 0.75 percentage points, while intermediate rates only decrease by 50 basis points, 0.50 percentage points. The resulting hump in the center of the graph is a negative butterfly shift. The reverse is a positive butterfly, in which short- and long-term rates increase more than intermediate rates, or decrease at a slower rate, thus making a U-shaped graph.
+The reasons for yield curve shifts are complex and depend on investor sentiment, economic news and Federal Reserve policy, among other factors. From a bond trading perspective, why it happens is less important than what to do about it. Most importantly, butterfly shifts present traders with arbitrage opportunities, since the rate variances can be marketed to maximize short-term profit.
+Sell the Belly
+A common bond trading refrain when the yield curve presents a negative butterfly is to sell the belly and buy the wings, which means to sell the higher-rate intermediate bonds, or the belly of the butterfly, and buy the short- and long-term bonds, which are the outside low-hanging wings of the graphic butterfly. In this way, traders will attempt to even out their exposure to bond maturities that are shifting out of parallel. In reality, bond traders will factor in many variables when strategizing buy and sell orders, including the average maturity date of bonds in their portfolio. But the shape of the yield curve is an important indicator.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

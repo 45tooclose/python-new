@@ -1,0 +1,83 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Intel Corporation (NASDAQ: INTC) was founded in 1968 by Robert Noyce and the father of Moore’s Law, Gordon Moore. Noyce and Moore left Fairchild Semiconductor to launch a new venture, NM Electronics. Several months later, they purchased the rights for the name Integrated Electronics Corporation from a company called Intelco. In 1969, they developed the Intel logo, with the e dropped below the other letters. Later that year, Intel introduced its first product, the 3101 random access memory (RAM) chip.
+In 1974, Intel Corp. (INTC) introduced the first, general-purpose microprocessor, the 8080. Intel began marketing its famous 8086 microprocessor in 1978. It was the first in the company’s successful series of x86 microprocessor chips. The first Pentium microprocessor in 1993 was five times more powerful than the i486.
+Intel, based in California is one of the world’s largest semiconductor companies, with annual sales of over $59 billion and a market capitalization of nearly $222 billion as of April 2018. Some of the company's largest individual shareholders are high-ranking company officials.
+Andy D. Bryant
+Andy D. Bryant joined Intel in 1981 as controller for the company’s commercial memory systems operation. After becoming chief financial officer (CFO) in 1994, he rose to chief administrative officer (CAO) in 2009. He was named a director in 2011. Since 2012, Bryant has been chairman of the board.
+Bryant’s total compensation at Intel for 2016 exceeded $4.1 million. Of that amount, over $2.1 million was awarded as stock. Documents on file with the Securities and Exchange Commission (SEC) reveal that as of February 2018, Bryant directly held 459,163 shares of Intel. 
+Brian M. Krzanich
+Brian M. Krzanich has been the chief executive officer (CEO) of Intel since May 16, 2013. He joined the company in 1982, working as a process engineer in New Mexico. After working as manufacturing manager at several Intel factories, he served as the Fab 17 plant manager, from 1997 to 2001. At the Fab 17 plant, Krzanich oversaw the integration of Digital Equipment Corporation’s semiconductor manufacturing operations into Intel’s manufacturing network.
+Krzanich’s 2016 compensation at Intel exceeded $19 million. Of that amount, approximately $11.7 million was awarded as stock. As of February 2018, the Form 4 on file with the SEC shows that Krzanich held 250,703 shares of Intel.
+Stacy J. Smith
+Stacy J. Smith is group president of manufacturing, operations and sales for Intel. He previously as the company's executive vice president and CFO. He joined the company in 1988. He has worked for Intel in the United States, Asia, Europe and Latin America, holding positions in finance, information technology, sales and marketing.
+During 2016, Smith’s salary was $800,000. He was awarded approximately $4.61 million in stock and took home a total compensation of more than $7.8 million. The Form 4 filed with the SEC reveals that as of November 1, 2017, Smith held 157,419 shares of Intel.
+Diane M Bryant
+Diane M Bryant was Intel's executive vice president, general manager, Data Center Group, but is currently on leave of absence due to personal family reasons. Her new role will be announced once she makes her return. Between 2008 and 2012, she served as corporate vice president and chief information officer, responsible for corporate-wide information technology solutions and services.
+Bryant received a $618,700 salary and a $400,000 bonus from Intel in 2015 along with stock awards, taking her total compensation for 2016 to $6.4 million. The latest Form 4 on file with the SEC indicated that she held 110,844 shares of Intel as of November 1, 2017.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

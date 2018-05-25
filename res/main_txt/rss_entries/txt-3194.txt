@@ -1,0 +1,260 @@
+
+
+    
+                        
+            
+                Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/PersonalFinance/Taxes/IC-Video/Term");} else {return "/8397/INV-NA/PersonalFinance/Taxes/IC-Video/Term";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/terms/e/ebitdar.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/5UzU3HSl.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/5UzU3HSl-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/content/video/ebitdar_/ebitdar.png?width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "560",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "5UzU3HSl-G9NhEyAa.mp4";
+                
+          
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                    var initializeJWPlayerSetup = function () {
+                        if (new VideoInit().canRun()) {
+                            setUpJwpPlayer();
+                        } else {
+                            new VideoInit().callBack = setUpJwpPlayer;
+                        }
+                    }
+          initializeJWPlayerSetup();
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "5UzU3HSl-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "What is EBITDAR?",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };            
+          
+                    What is 'EBITDAR'
+
+      Earnings before interest, taxes, depreciation, amortization, and restructuring or rent costs (EBITDAR) is a non-GAAP tool used to measure a company's financial performance. Although EBITDAR does not appear on a company's balance sheet, it can be calculated using information from the balance sheet.  
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Restructuring Charge                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Rent Control                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Rent Regulation                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Earnings Before Interest, Taxes, ...                     
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'EBITDAR'
+      
+Another way of determining a business' earnings before interest, taxes, depreciation, amortization, and restructuring or rent costs (EBITDAR) is to calculate revenue minus expenses. This calculation will exclude interest, taxes, depreciation, amortization, and restructure or rent costs. Depending on the company and the goal of the analyst, the indicator can either include restructuring costs or rent costs, but usually not both. 
+EBITDAR is a metric used primarily to analyze the performance of companies which have gone through restructuring. It is also useful for businesses such as restaurants or casinos who have unique rent costs. It exists alongside earnings before interest and tax (EBIT) and earnings before interest, tax, depreciation, and amortization (EBITDA).
+EBIT vs. EBITDAR
+Earnings before interest and tax (EBIT), also referred to as operating income, is calculated with information from an income statement.  This metric excludes interest and taxes. For example, imagine the XYZ company earns $1 million in a year, and it has $400,000 in expenses which include operating expenses. XYZ will pay $20,000 in interest, $50,000 in rent expenses, and another $100,000 in taxes. Its EBIT is $550,000 ($1 million revenue - $400,000 operating expenses and $50,000 rent expenses).  However its EBITDAR is $600,000 ($1 million revenue - $400,000 operating expenses).  Notice the exclusion of interest and taxes for both. However, rent is excluded for the EBITDAR only.
+EBITDA vs. EBITDAR
+Naturally, the difference between EBITDA and EBITDAR is that the latter excludes restructuring or rent costs. However, both metrics are utilized to compare the financial performance of two companies without considering their tax brackets or expenses from prior years. For example, when a business amortizes or depreciates an asset, it writes off a portion of the asset's cost each year, over several years. While essential for tax returns and accounting ledgers, these numbers may cloud the picture of a business's current financial state. As a result, investors want to consider the performance of a company without taking expenses into account. They may prefer to only look at the business's current liabilities.
+EBITDAR doesn't take rent or restructuring into account because this metric seeks to measure a company's operational performance. For example, imagine an investor comparing two restaurants, one in New York City with expensive rent costs and the other in Omaha with significantly lower rent costs. To compare those two businesses effectively, the investor excludes their rent costs, as well as interest, tax, depreciation, and amortization.
+Similarly, an investor may wish the exclusion of restructuring costs when a company has gone through a restructuring plan and has incurred costs from the plan. These costs, which are included on the income statement, are usually seen as nonrecurring and are excluded from EBITDAR to give a better idea of the company's ongoing operations.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

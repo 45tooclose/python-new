@@ -1,0 +1,78 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        A fresh wave of volatility put an abrupt end to the nine-year bull market in January, spurred by a handful of concerns on the Street including rising interest rates. As the 10-year Treasury yield broke through the closely watched benchmark of 3% on Tuesday, its highest level since January 2014, one team of analysts has pinpointed a handful of stocks that they see as best positioned to gain in an environment of rising yields, as outlined by CNBC. (See also: 11 Stocks That Outperform as Interest Rates Rise.)
+Jeffrey Gundlach, the founder of DoubleLine Capital LP, which manages $118 billion, and who formerly served at the helm of the TCW Total Return Bond Fund, spoke in an interview with CNBC on Monday forecasting rates to rise even higher over the next three months if the 10-year Treasury yield broke 3%. If his calculation is correct, shares of Dow Jones Industrial Average (DJIA) component companies including Goldman Sachs Group Inc. (GS), Visa Inc. (V) and Apple Inc. (AAPL) are set to outperform the broader market, based on historical data. (See also: Hunker Down for a Turbulent Q2: BofA.)
+The three companies have all carried the DJIA during previous three-month periods of rising rates, according to Kensho, a hedge fund analytics tool, as reported by CNBC. Their outperformance has at least doubled the return of the blue-chip stock index during such periods. 
+Trio's Outperformance Doubled Return of Index 
+JPMorgan Chase & Co. (JPM) was also highlighted by the investor as a stock set to outperform the market in the coming months, given the fact that financials typically see their lending businesses gain on higher rates. Both Goldman and JPMorgan, among their investment bank peers, are expected to grow their bottom line numbers due to increased volume and volatility in the financial markets, noted CNBC. 
+In the 14 instances since April 2008 where rates have gained in three months, according to data compiled Kensho and reported by CNBC, Goldman stock has risen on average by more than 13%, Visa has gained by nearly 12%, Apple has returned about 9.5% and JPMorgan has jumped by more than 8%. The top performers blew past the the average return of the Dow over the same dozen-plus periods, at an approximate 4.5% gain. Kensho used the iShares 20+ Year Treasury Bond ETF as a proxy for the bond market, searching for periods where it fell more than 3%, as it moves inversely with bond yields and therefore correlates to an environment of rising rates. 
+Stocks that have consistently underperformed during periods of rising rates include industrial conglomerate General Electric Co. (GE), Coca-Cola Co. (KO) and Walmart Inc. (WMT). 
+10-Year Yield Seen Rising to 4%
+Of course, Gundlach's analysis is based on historic performance and in no way guarantees that these stocks will outperform this time as they have in the past.
+The investor's remarks on CNBC comes as some experts say the Fed will raise rates as much as four times. "I am bullish on the 10-year yield," said Frank Cappelleri, senior equity trader at Instinet, in an interview with CNBC on Monday. He sees potential for the yield to rise to as high as 3.9% for the first time since April 2010. (See also: Don’t Overreact to Higher Interest Rates: JPMorgan.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

@@ -1,0 +1,215 @@
+
+
+
+    
+        
+        Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/PersonalFinance/PersonalFinance/IC-Video/ShortArticle");} else {return "/8397/INV-NA/PersonalFinance/PersonalFinance/IC-Video/ShortArticle";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/articles/personal-finance/121614/5-things-debt-collectors-are-forbidden-do.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/3klCslwt.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/3klCslwt-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/content/video/5_things_debt_collec/5thingsdebtcollectorsareforbiddentodo.png?width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "100%",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "3klCslwt-G9NhEyAa.mp4";
+                
+          
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                    var initializeJWPlayerSetup = function () {
+                        if (new VideoInit().canRun()) {
+                            setUpJwpPlayer();
+                        } else {
+                            new VideoInit().callBack = setUpJwpPlayer;
+                        }
+                    }
+          initializeJWPlayerSetup();
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "3klCslwt-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "5 Things Debt Collectors Are Forbidden To Do",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };    
+        
+            
+        
+          
+                
+      
+
+    
+
+    
+        Debt collectors have a reputation—in some cases a well-deserved one—for being obnoxious, rude and even scary when trying to get borrowers to pay up. The federal Fair Debt Collection Practices Act (FDCPA) was enacted to curb these annoying and abusive behaviors, but some debt collectors flout the law.
+Here’s what you should know about what debt collectors are forbidden from doing so you can stand up for yourself with confidence.
+1. Pretend to Work for a Government Agency 
+A 2014 incident in Georgia shows exactly what debt collectors are not supposed to do. The owner and six employees of Williams, Scott & Associates were arrested for allegedly accusing people of fraud and saying they would be arrested and face criminal charges for not repaying debts.
+The debt collectors also allegedly misrepresented themselves as contracted workers for federal and state government agencies, including the Department of Justice and the U.S. Marshals. The company operated nationwide from 2009 through May 2014 and called itself Warrant Services Association. 
+The FDCPA prohibits debt collectors from pretending to work for any government agency, including law enforcement. They also cannot say they are working for a consumer reporting agency.
+2. Say They’ll Have You Arrested
+Federal debt collection law also prohibits collectors from falsely claiming you have committed a crime or saying you will be arrested if you don’t repay the money they claim you owe. Collection agencies cannot issue arrest warrants or have you put in jail, and simply failing to repay a legitimate credit card debt, mortgage, car loan or medical bill isn’t enough to land you in jail. 
+That being said, if you receive a legitimate order to appear in court related to a debt you allegedly owe and you don’t show up, the judge could issue a warrant for your arrest. And it's true that if you fail to pay a court fine related to your debt—or refuse to pay taxes or child support—you could go to jail. (For related reading, see: Fighting Back Against Collection Lawsuits.)
+3. Publicize Your Debt
+Debt collectors are not allowed to contact you by postcard, publish the names of people who have refused to pay them or talk to anyone other than you, your spouse or your attorney about your debt.
+Debt collectors are allowed to contact third parties to try to track you down, but they’re only allowed to ask those people for your address, home phone number and place of employment, and they usually aren’t allowed to contact those people more than once.
+Debt collectors should not try to publicly shame you into paying money that you may or may not owe.
+4. Try to Collect Debt You Don’t Owe
+Speaking of money you may not owe, some debt collectors will knowingly or unknowingly rely on incorrect information to try to get money out of you. Because the creditor you originally owed the money to may have sold your debt to a collection agency, which in turn may have sold it to another collection agency, a mistake somewhere along the way could mean that the collector contacting you has incorrect information. 
+The agency might be trying to collect a debt from you that was discharged in bankruptcy or that actually belongs to someone else with an identical or similar name. The FDCPA requires collectors to send you, within five days of first contacting you, a written notice stating how much you owe, to whom and how to make your payment. However, they might not send anything without prompting.
+If you aren’t sure whether you owe a debt, send a letter to the collector via certified mail with a return receipt asking for more information, while being careful not to assume any responsibility for the debt. The Consumer Financial Protection Bureau has sample letters to debt collectors available on their website that you can use to ensure you don't say the wrong thing or give out more information than necessary. (To learn more, read: Protect Yourself From Zombie Debt Collectors.)
+5. Harass You
+There's a long list of specific ways in which debt collectors are not allowed to harass you. They are not permitted to:
+Threaten you with violence or harm
+Use obscene or profane language
+Call you repeatedly
+Call you before 8:00 a.m. or after 9:00 p.m. without your permission
+Call you at work, if you disallow it in writing
+Contact you at all if you tell the collector, in writing, to stop contacting you altogether or to contact only your attorney.
+Even if you take these steps, there are still some circumstances that allow debt collectors to contact you again: They can contact you to let you know they will no longer be contacting you or to tell you a lawsuit has been filed against you.
+If you receive a court summons for a lawsuit regarding your debt, don’t ignore it. An unscrupulous debt collector might fabricate such a document, but it might be legitimate. Look up the court’s contact information yourself and use it to get in touch with the court to confirm the notice is accurate—don't use the address or phone number on the document you receive in case they're fake.
+There’s an important exception to the FDCPA: in-house debt collectors aren’t subject to it. For example, if you are delinquent on your Chase credit card bill and Chase calls you directly, it doesn’t have to follow the rules described in the FDCPA.
+Most calls from in-house collectors are for debts that are only a few weeks or months delinquent. After that, the original creditor usually hires a collection agency to collect on its behalf or sells your debt to a debt buyer who gets to keep what it collects. These two types of collectors are subject to the FDCPA.
+The Bottom Line
+Some debt collectors will say or do anything to get people to pay them, whether the debt is legitimate or not. If a debt collector is contacting you, you should know that you have federal and state-protected rights. Don’t let a debt collector abuse you or scare you into paying money you don’t owe. To educate yourself on how legitimate debt collectors are supposed to operate, read: How The Debt Collection Agency Business Works.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'PersonalLoan',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

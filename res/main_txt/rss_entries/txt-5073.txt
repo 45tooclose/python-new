@@ -1,0 +1,77 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Southwest Airlines Co. (LUV) intends to offer flights from California to Hawaii and within four Hawaii airports, posing a major threat to Hawaiian Holdings Inc. (HA). (See also: Southwest Has First US Airline Fatality in 9 Years.)
+The Dallas-based discount airline issued a statement Thursday outlining plans to "eventually" add inter-island flights from the U.S. mainland, naming San Jose, San Diego, Sacramento and Oakland as the first California cities to get nonstop flights to Hawaii. 
+Hawaiian shares tumbled on the news as the company generates about 94% of its in-state revenue from the five largest routes in the network. An entrance by Southwest into its market would represent "a fairly significant headwind for Hawaiian," according to Stifel analyst Joseph DeNardi. The "Southwest Effect" has led investors to worry over fiercer price wars in cities where the low-cost carrier has nonstop service. According to a University of Virginia study, these markets see fares an average of $45 cheaper than those without direct Southwest routes. Southwest President Tom Nealon told local news channel Hawaii News Now that inter-island flying is "a market that has little competition, if any" and is "very highly priced." 
+'Southwest Effect' Threatens Hawaiian Airlines
+HA stock suffered its worst decline in six months, closing down 6.5% at $38.25 on Thursday. It's continued decline of 4.3% on Friday morning brings its year-to-date (YTD) loss to 8.1% and its 12 month change to negative 32.9%, compared to the broader market's 1.5% fall and 10.2% gain over the same respective periods. Southwest has traded about flat since the announcement of its new route plans. Trading at $52.11 on Friday morning, LUV has sank 20.5% YTD and 10.8% over 12 months amid broader weakness in the airline industry as rivals compete for the most cost-competitive offerings. 
+In response to the announcement, Hawaiian has said that it is up for a challenge and "not afraid of competition." Peter Ingram, Hawaiian's CEO, snubbed Southwest's PR strategy, which he says has "been to toss out tidbits without much detail, so it's unclear what kind of service of operation they are committing to." He indicated that a last-minute ticket on Friday on its popular Honolulu-Kona route would be cheaper than a Southwest fare for a trip of similar length from Austin to Houston. 
+New routes in a market booming with tourism, which saw half a million more yearly visitors in 2017 to reach 9.4 million, should help Southwest hedge against a decline in booking following a fatal midair engine failure on one of its flights last month. (See also: Warren Buffett May Want to Buy Southwest Airlines.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

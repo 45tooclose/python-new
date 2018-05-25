@@ -1,0 +1,104 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        As a trader, you have probably heard the old adage that it is best to "trade with the trend." The trend, say all the pundits, is your friend. This is sage advice as long as you know and can accept that the trend can end. And then the trend is not your friend.
+So how can we determine the direction of the trend? I believe in the KISS rule, which says, "keep it simple, stupid!" Here is a method of determining the trend, and a simple method of anticipating the end of the trend. 
+Before we get started, I want to mention the importance of time frames in determining the trend. Usually, when we are analyzing long-term investments, the long-term time frame dominates the shorter time frames. However, for intraday purposes, the shorter time frame could be of greater value. Trades can be divided into three classes of trading styles or segments: the intra-day, the swing and the position trade. (See also: Trading Multiple Time Frames In FX.)
+Large commercial traders, such as those companies setting up production in a foreign country, might be interested in the fate of the currency over a long period of such as months or years. But for speculators, a weekly chart can be accepted as the "long term."
+Averages Moving in Pairs
+With a weekly chart as the initial reference, we can then go about determining the long-term trend for a speculative trader. To do this we will resort to two very useful tools that will help us determine the trend. These two tools are the simple moving average and the exponential moving average.
+
+Chart 1: May 2006-July 2008
+Source: Netdania.com
+In the weekly chart above, you can see that for the period of May, 2006 until July, 2008 the blue 20 interval period exponential moving average is above the red 55 simple moving average and both are sloping upward. This indicates the trend is showing a rise of the euro and therefore a weakening dollar.
+In August, 2008, the short-term moving average (blue) on the chart below turned down, indicating a potential change in trend although the long-term average (red) had not yet done so.
+Finding the Change in Trend
+In October, the 20-day moving average crossed over the 55-day moving average. Both were then sloping downward. At this point the trend has changed to the downside and short positions against the euro would be successful.
+
+Chart 2: October Short-Term Moving Average
+Source: Netdania.com
+Still looking at Chart 2, we notice that the short-term moving average goes relatively flat in December, 2008 and starts to turn up, now indicating a potential change in trend to the upside. But a closer look at the 55-day moving average, as of December, 2008, shows that the long-term moving average has remained downward sloping. (See also: Technical Analysis Tutorial.)
+By checking Chart 2, we can see that the first arrow from the left indicates that the long-term moving average has turned down, indicating that the weekly or longer term trend for the EUR/USD has now gone down. The second arrow indicates where a new short position could have been successfully taken once the price had traded back to the down sloping moving average.
+The goal here is to determine the trend direction, not when to enter or exit a trade. Of course this is not to say that there were no trading opportunities in the shorter time frames such as the daily and hourly charts. But for those traders who want to trade with the trend, rather than trading the correction, one could wait for the trend to resume and again trade in the direction of the trend.
+Double Bottom Indicator
+
+Chart 3: Double-Bottom Support
+Source: Netdania.com
+Let's switch to Chart 3 and see what happens as the 20-day exponential moving average trades down to a double bottom. Given that a double bottom on a chart suggests support at the bottom, we can watch the price action on the daily to give us an advance clue. The arrow indicates where the short-term moving average is turning up. Once again, the moving averages are not used as trading signals but only for trend direction purposes. (Discover how these influential levels can switch roles, see Support And Resistance Reversals.)
+Catch a Wave
+By setting up a short-term exponential moving average and a longer term simple moving average, on a weekly and a daily chart, it is possible to gauge the direction of the trend. Knowing the trend does help in taking positions but bear in mind that the markets move in waves. These waves are called impulse waves when in the direction of the trend and corrective waves when contrary to the trend.
+By counting the waves or pivots in each wave, one can attempt to anticipate whether a trading opportunity will be against the trend or with the trend. According to Elliot wave theory, an impulse wave usually consists of five swings and a corrective wave usually consists of 3 swings. A full wave move would consist of five swings with two of the swings being counter trend. (See also: Elliott Wave Theory.)
+
+Chart 4: Example Of An Elliot Wave
+Source: Investopedia.com
+The image above gives an example of an Elliot wave. Because Elliot wave theory can be very subjective, I prefer to use a pivot count to help me determine wave exhaustion. This usually translates into a minimum of seven pivots when going with the trend, followed by five pivots during a correction. Sometimes the market will not cooperate with these technical assumptions but it can occur often enough to provide some very lucrative trading opportunities. Below is an example of the wave in action (blue arrows mark the direction).
+
+Chart 5: Elliot Wave
+Source: Netdania.com
+The Bottom Line
+By combining the moving average diagnosis with the pivot count and then fine-tuning the analysis with an observation of candle patterns, a trader can stack the odds of making a successful trade in his or her favor. Remember trading is a craft, which means that it is both art and science and requires practice to develop consistency and profitability. (See also: Advanced Candlestick Patterns.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '',
+     'leadGenVertical' : '',
+     'leadGenLayout' : '',
+     'leadGenPage' : ''
+    });
+                    
+            
+                

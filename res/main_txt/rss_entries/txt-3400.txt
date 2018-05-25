@@ -1,0 +1,100 @@
+
+
+
+    
+        
+            
+        
+          
+                
+      
+
+    
+
+    
+        Everyone has heard that the restaurant industry is tough. In fact, a new restaurant offers a textbook example of all the challenges of entering a highly competitive small-business market.
+A variety of factors, including inventory spoilage and low scalability, lead to a generally low profit margins. To fully understand why the restaurant business is so tough, we will examine it using Porter’s Five Forces, an industry analysis framework created by Harvard Business School Professor Michael E. Porter.
+Porter’s Five Forces
+Porter’s Five Forces is an analysis methodology based on the economics of industrial organizations. The analysis, which gives a measure of competitive intensity within an industry, is a staple in strategy planning. According to Porter, every industry and business is faced by the same five competitive forces:
+the threat of new entrants
+the threat of substitutes
+the bargaining power of customers
+the bargaining power of suppliers
+the threat of competition within the industry 
+Let's look at how each of these five forces affects the restaurant industry and how they together drive down restaurant profit margins.
+Threat of New Entrants
+As far as small businesses are concerned, opening a restaurant is comparatively straightforward. The costs, such as payroll, inventory and rent, do not require a large up-front investment. There are certainly regulatory hoops to jump through, yet with low fixed costs, almost any chef can try to be the next Gordon Ramsey or Thomas Keller.
+Many already-successful chains offer franchising options that require very little money down for aspiring restaurateurs. Starting a restaurant can seem very attractive, due in part to the survivorship bias. Survivorship bias means that we, the public, do not see the restaurants that fail, only the ones still in operation.
+This gives a false sense of optimism about the potential for success. Such false optimism can lead to many aspiring restaurateurs entering the business, creating a threat of new competition and decreasing industry profit margins. But direct competition may be the least of a restaurant's worries.
+Threat of Substitute Products
+Sometimes the greatest competitive challenge comes from substitute products and services. Grocery and supermarket chains are a huge substitute to the restaurant industry, especially in economically hard times. Truly, eating out is discretionary spending. In tough times, consumers can reduce their eating out budget or not eat out at all. 
+Like restaurants, grocery stores run on low profit margins and are always looking for a way to capture more market share. Restaurateurs need to bear in mind that increasing prices too much could lead to consumers shifting over to the supermarket where they may be tempted by prepared foods or ready-to-eat salads and entrees. This further decreases restaurant industry profit. (See also: The Most Profitable Grocery Stores.)
+Bargaining Power of Suppliers and of Buyers
+Two important competitive drivers in Porter's Five Forces are the bargaining power of suppliers and the bargaining power of buyers. Restaurants, especially trendy or high-end establishments, often must offer exotic or rare ingredients to set themselves apart from competitors. 
+When dealing with suppliers of fringe products like wild porcini mushrooms, truffles, cow tongue and organic watercress, restaurants may not have much bargaining power because of lack of competition in the supply market. Even large producers of simple ingredients, like potatoes, sell to a huge number of restaurants, which makes bargaining with these suppliers challenging as well.
+One upside of the restaurant business is that customers cannot typically bargain for their food prices. However, unless the restaurant is offering something extraordinary (like a celebrity chef or a 15-course tasting menu), it cannot set prices too high: Buyers have a good knowledge of the market and will simply go to another restaurant. The power of the huge supplying companies, and savvy customers, are two forces pushing restaurant profit margins down.
+Intensity of Competitive Rivalry
+There is an enormous amount of competition in the restaurant industry at every level – from fast-food chains, cafes, food trucks to fast casual venues (cafés, deli and diners), and independent eateries all the way to Michelin-starred gastronomic temples. Conglomerates with enormous advertising power have a huge advantage over small businesses.
+Additionally, very little customer loyalty exists in the restaurant industry. One bad experience for a customer means they may not return, especially if it is was their first visit. Companies in the life insurance and real estate business only have to sell to their customer once, or perhaps once every few years. Restaurants have to sell to the customer at every single encounter.
+With apps, blogs, and websites cataloging and reviewing the vast number of restaurants, it has never been easier for a customer to try a different restaurant every single day. Perhaps more than any other of Porter's Five Factors, it's intense competition in the restaurant industry keeps profit margins low. (See also: Restaurant Segments Going Under.)
+The Bottom Line
+All that being said, customers do respect quality food and atmosphere. Restaurants with new or unique ideas can become extremely successful.
+The Japanese steakhouse Benihana (with 100 outlets worldwide), in particular, innovated many processes to increase its profit margin. Deciding to offer only a few menu items decreased the inventory costs. Combining the kitchen and dining areas maximized space. Benihana also had a competitive edge: When it began in 1964, teppanyaki cooking was unheard of in the United States. Benihana specialized further by employing only highly trained Japanese chefs.
+This limited direct competition and the threat of new entrants. Benihana shows that it is possible to increase profit margins through a strong strategy and by offering a unique experience. (See also: America's 10 Fastest-Growing Restaurant Chains.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

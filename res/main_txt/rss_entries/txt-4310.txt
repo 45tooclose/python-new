@@ -1,0 +1,216 @@
+
+
+
+Indian Police Launch Probe into Wowcoin Fraud
+Indian authorities are investigating the directors of Wow Trade Coin over a suspected fraud involving abandoned hybrid cryptocurrency Wowcoin.
+
+
+ by  Komfie
+Manalo,
+4 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  The police in India are investigating a potential major cryptocurrency fraud that involved criminals duping a Chennai woman out of nearly $26,000 by convincing her to invest in abandoned digital currency Wowcoin.
+The report identified the victim as pharmacist Indrani Maruthamuthu from West Mambalam. She met the suspects through Facebook and identified them as Padmaj Bommi Shetty Srinivasalu, Aarthi Anavaram Bommishetty, and Clint Joseph Rodriques. They are all directors of Wow Digital Solutions Pvt Ltd.
+
+One of the investigating officers said:
+
+"We have received only one complainant so far, but we expect more. Indrani said in her complaint that she learned about Wowcoin through D Madhesh, whom she befriended on Facebook.”
+
+According to the police, Indrani was introduced by Madhesh to a WhatsApp group called Wow Trade Coin which claims to be comprised of “like-minded cryptocurrency investors.” The suspects allegedly told Indrani that they manage Wow Trades operations in India and convinced her to invest in Wowcoin with a promise of hefty returns in a few years.
+The police further stated:
+
+“The directors of Wow Digital Solutions told her that Wowcoin was set to surpass Bitcoin in popularity and would be the online currency of the future. They opened a trading account in her name on a website (wowtrade.com) and claimed to show her how her investment was growing with every passing day.”
+
+But Indrani grew suspicious after the group failed to provide any returns on her investments and decided to call the police.
+India stops crypto Ponzi scheme
+Two weeks ago, Indian police arrested two individuals suspected of running an elaborate Ponzi scheme that victimized at least 5,000 investors and made off with an estimated $2.6 million.
+The suspects, identified as Deepak Jangra (37) and Deepak Malhotra (56), were running a multi-level marketing scheme involving Bitcoins and promised high returns to their unsuspecting victims.
+Hideto Fujino, president of Rheos Capital Works, warned in February that the booming cryptocurrency market in Asia has attracted scammers, most of them targeting novice investors in the region.
+Fujino advised investors:
+
+"There is no such thing as a perfectly safe investment. Only fraudsters make such a promise. This has to become common knowledge, but it hasn't."
+ 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

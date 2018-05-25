@@ -1,0 +1,76 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        The popularity of trading bitcoin  futures contracts (XBT) continues to scale new heights. On Wednesday, CBOE, the dominant U.S. derivatives exchange providing bitcoin futures contracts, saw its highest-ever trading volume for bitcoin futures since the launch of trading in December. (See also: How to Invest in Bitcoin Futures.)
+A total of 19,000 bitcoin futures contracts belonging to different expiry dates exchanged hands on CBOE on Wednesday. Some 18,210 bitcoin futures were traded for the next month May expiry, another 703 that exchanged hands belonged to the midmonth June expiry cycle, while the rest 87 were of the far month July expiry. No contracts belonging to August expiry were traded Wednesday.
+Wednesday’s record volume was three times higher than the average daily trading volume (ADTV) of 6,600 XBT Bitcoin Futures. Since ADTV indicates liquidity, it has an indirect impact on the price of the security. Thinly traded instruments are usually avoided by the active traders, leaving only a few to deal in them with wide spreads visible in the quoted prices. Increasing ADTV indicates more market participants are interested in trading the security, leading to tighter spreads and better price discovery.
+Strong Trading Volume on Recent Price Rally
+Wednesday’s instance broke the earlier CBOE record of 15,500 bitcoin futures contracts traded on Jan. 17. While January’s record is attributed to the first ever expiry of the then newly launched bitcoin futures contract, the recent activity is indicative of the genuinely increasing market participation in bitcoin futures. In particular, this week has seen increased trading in XBT. A total of 3,881 contracts were traded Monday. The volume increased to 6,653 on Tuesday, followed by the record-breaking streak Wednesday.
+CBOE Options Institute senior instructor Kevin Davitt was quoted by CoinDesk saying, "We will certainly be watching to see if this is a volume aberration or if more and more institutional types are moving into crypto," adding that "the overall bullish sentiment continues in XBT Bitcoin Futures." (See also: How are Bitcoin Futures Priced?)
+Trading on CME also concurred with that of CBOE, as it too saw a surplus of 11,000 bitcoin futures contracts getting traded, which was more than double of the trading volume of Tuesday. Bitcoin was trading at $9,252 on Friday morning, up around 4.3% compared to 24 hours earlier. (See also: How Coinfloor's Bitcoin Futures Differ from CME, CBOE.)
+Investing in cryptocurrencies and Initial Coin Offerings ("ICOs") is highly risky and speculative, and this article is not a recommendation by Investopedia or the writer to invest in cryptocurrencies or ICOs. Since each individual's situation is unique, a qualified professional should always be consulted before making any financial decisions. Investopedia makes no representations or warranties as to the accuracy or timeliness of the information contained herein. As of the date this article was written, the author owns no cryptocurrencies.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

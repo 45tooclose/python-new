@@ -1,0 +1,143 @@
+
+
+    
+                          WHAT IS 'After-Tax Basis'
+
+      After-tax basis refers to how one compares net yields on taxable and tax-exempt bonds. Taxable bonds, such as corporate bonds, may offer higher yields than tax-exempt bonds. Municipal bonds are a common example of tax-exempt bonds. While the taxable bonds may state a greater yield than the tax-exempt bonds, in order to accurately compare what the bondholder’s return on investment will be, they must first calculate how much will be paid in taxes on the corporate bond. Whatever the remaining return is can then be compared with the yield on the tax-exempt bond for an accurate assessment of which will yield more for the investor. This method of comparison is referred to as comparing the bonds on an after-tax basis.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Taxable Bond                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Tax-Exempt Sector                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Tax-Exempt Security                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Municipal Bond                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'After-Tax Basis'
+      An after-tax basis comparison can be tricky to calculate. This is because corporate bonds can be taxed in a few different ways.  First, all corporate bonds will be taxed based on the interest earned on the bond. This interest is subject to both state and federal taxes.
+However, if the bond is redeemed before maturity, it can also be subject to a capital gains tax. Some bonds do not pay interest in coupons, but are simply redeemable for their face value at maturity. Investors purchase them at a discount and the difference between the bond’s purchase price and its redemption value at maturity is subject to taxes. Depending on the circumstances of the bond’s redemption, calculating how much a bondholder will pay in tax may require the assistance of a financial or tax professional.
+Considerations besides tax costs
+Calculating the after-tax yield on a corporate bond can allow you to compare it to the yield on a tax-exempt bond. However, that comparison does not take into account all of the factors that determine whether a taxable or a tax-exempt bond is a better investment. For example, many people opt for municipal bonds because they have an extremely low default risk, which makes them a very safe investment.
+Corporate bonds, on other hand can come with a higher degree of risk. Some may offer very high yields, but that higher yield likely correlates directly to a higher risk. Credit ratings agencies such as Moody’s can provide potential investors with information about how credit-worthy a company is and what an investor can expect. Some corporate bonds are also callable, meaning that the issuing company can actually call away the bonds for redemption before they mature. Investors will be paid a predetermined amount based on when the bonds are called, but they will not get to see their investments reach full maturity.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

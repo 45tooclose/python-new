@@ -1,0 +1,76 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        More on Blockchain and BitcoinWhy Is Walmart Filing Blockchain Patents? Hyperledger ExplorerWhy Does Ripple Want More Government Regulation?Hyperledger CelloInternational Business Machines Corp. (IBM) plans to use blockchain to bring transparency to the jewelry industry. 
+Big Blue’s latest initiative is called the TrustChain, and it uses blockchain technology to track the supply chain roots of a finished piece of jewelry. The term blockchain is generally used to refer to a set of shared databases that can be used for transactions between participants. Within the context of the jewelry industry, the technology is being considered as a means to track the entire spectrum of processes for manufacturing, from extraction of raw material to shipping finished pieces. IBM’s proposed blockchain will be “permissioned” in that only industry participants will be able to write data to the ledger. (See also: IBM Plans Its Blockchain Dominance.) 
+“By placing the current, physical process on a blockchain, we provide better visibility to the consumer throughout the entire supply chain, to allow exchanges of information amongst participants,” the initiative’s website states. The Armonk, New York–based company has partnered with five leading diamond and jewelry makers, including Rio Tinto Diamonds and Asahi Refinery, to develop the technology. Several companies and startups within the jewelry industry are using blockchain for similar purposes. For example, De Beers, the world’s largest diamond refiner, launched a project this past January with Boston Consulting Group to register each supply chain interaction with its extracted stones.   
+Benefits of Blockchain for the Jewelry Industry 
+There are several benefits to the technology. First, supply chain transparency will make it easier for consumers to distinguish authentic pieces of jewelry from fake ones. Jason Kelley, general manager of blockchain services at IBM, told TechCrunch that consumers will be able to determine the supply chain provenance of a piece of jewelry simply by scanning the QR code associated with it by next year. 
+Second, the industry’s players may find the technology useful to analyze and streamline their supply chain processes. As Kelley explained to TechCrunch, a transparent record of transactions could also help in dispute resolution. “If there is a dispute, instead of calling and following back through the process in a more manual way, you can click on a trusted chain, and you’re able to see what happened immediately. That reduces the number of steps in the process, and speeds up what has been a paper-laden and manual effort,” he told the publication.
+This is not the first time that IBM has applied its blockchain expertise to an industry. It is partnering with companies like Walmart Inc. (WMT) for a similar initiative that tracks provenance of fresh food items. (See also: Global Food Leaders Team With IBM on Blockchain.)
+It is also a “steward” for a self-sovereign identity project that aims to give users the capability to take control of their online identity by choosing to share only parts of its for business or social transactions. 
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

@@ -1,0 +1,445 @@
+
+
+
+Zcash Mining Guide: How To Mine ZEC Cryptocurrency
+In this guide, we explain how to mine Zcash cryptocurrency, including the hardware and software required to mine ZEC profitably.
+
+
+ by  Vakeesan
+Mahalingam,
+16 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  Zcash (ZEC) is a privacy-focused cryptocurrency that has been used as digital cash since 2016. It was founded by Zooko Wilcox-O'Hearn. Zcash is ultimately a redeveloped transformation of the Zerocoin protocol and the Zcash system. It is based on a Proof-of-Work consensus mechanism that utilizes the Equihash algorithm.
+There is a reason why this is Edward Snowden’s favourite cryptocurrency and why Roger Ver was one of the initial investors. Zcash payments can either be transparent or can be hidden, providing users the option of selective disclosure. ZEC was one of the first coins ever to utilize zk-SNARKs, which is now being tested by many other cryptocurrencies, including Ethereum.
+ZEC is one of the top 25 coins by market cap (USD 1.07+ Billion) and has a current market price of USD 282.66. Zcash can be profitably mined using regular GPU computational power and is currently ASIC-resistant due to its memory-hardness, There has been recent discussion and rumours about the creation of an ASIC-miner by Bitmain that could potentially mine for Zcash.
+
+When it comes to Zcash mining, CPUs are not as profitable as GPUs, since GPUs provide significantly more computational power. Also, solo mining is currently inefficient due to the  increased popularity of the coin. Unless you plan on making a significant investment in hardware, your focus should be on pool mining or cloud mining as a way to profitably mine this cryptocurrency. These forms of mining come with associated costs and fees but you will see quicker rewards and reduced variance between payouts when compared to solo mining.
+With that said,  let’s get down to business so you can better understand the process involved with mining ZEC.
+Zcash Mining & Consensus Mechanism
+Zcash is based on a memory-oriented Proof-of-Work algorithm called Equihash. This is the only cryptocurrency on the market that uses the Equihash algorithm, which was created by Alex Biryukov and Dmitry Khovratovich for its ASIC-resistance, security, and privacy.The Equihash algorithm is heavily memory-focused but also allows for quick verification. That being said, you will require more memory than many other cryptocurrencies in order to mine Zcash.
+The ASIC-resist feature was key at the time of creation back in 2016. It prevents the mining process from being centralized in the hands of a few, which is a current problem with cryptocurrencies that can be mined with ASICs. Zcash also has a built-in privacy feature in the form of zk-SNARKs which I dive into with detail in another article, here.
+Zcash has a block time of 2.5 minutes and a block reward of 10 Zcash coins. The total blockchain size is 11.72GB. There are more statistics on zchain, the official block explorer for Zcash transactions.
+Now, let’s take a look at some of the top GPU mining hardware for Zcash.
+Zcash Mining Hardware
+The focus here is on GPU miners, as they are more profitable than using CPUs. The Equihash algorithm is highly memory-intensive, so the higher your dedicated VRAM, the more profitable it is to mine Zcash. Focus on increasing and optimizing your VRAM as much as possible.
+If you are looking to set up a mining rig, there is a great resource here. Below are some basic components but the rig setup guide dives a lot deeper:
+
+Motherboard - needs to have a 1:1 ratio of PCI slots to GPUs, this depends on how many GPUs you want set up in your rig
+Case – You will need housing for the rig. Ideally, you want one that will keep everything as cool as possible, so go with an open air case
+Riser cables – Each GPU will require a cable
+DDR4 RAM - 16GB or higher is ideal
+PSU – Power Supply Unit. Needs to have sufficient ability to power the GPUs, which are energy-intensive
+
+Below is a table including profitable GPU hardware that could be utilized to efficiently mine Zcash. Since NVIDIA cards are more profitable to mine Zcash than AMD cards, only two top NVIDIA cards are listed below. AMD cards are best suited for Ethereum mining.
+
+
+
+
+GPU Miners
+
+
+NVIDIA Titan X
+
+
+NVIDIA Aorus Geforce GTX 1080 Ti 11G
+
+
+
+
+Price (USD)
+
+
+$1,000 - $2,000*
+
+
+$1,000 - $1,300*
+
+
+
+
+Hashrate (Sol/s)
+
+
+810
+
+
+800
+
+
+
+
+Power Usage (W)
+
+
+250
+
+
+260
+
+
+
+
+Sol/s refers to Solutions per second. For mining purposes, it refers to the number of hash computations per second and generally speaking Sol/s = H/s.
+*Prices may vary depending on condition and demand
+
+
+
+
+Zcash Mining Software
+The software used to mine ZEC is very important as you can then optimize the efficiency of your hardware. AMD and Nvidia graphic cards do not run the same software, so make sure you look into the most efficient software to use with your hardware to ensure you are mining optimally. Also, it is key that you only download official software directly from the source to avoid any altered or hacked software. You will also want to look into overclocking and temperature control software to ensure you get the most out of your GPUs.
+Below is a list of some of the most common software available and the compatibility for different chips.
+
+
+
+
+AMD Chips
+
+
+NVIDIA Chips
+
+
+
+
+Claymore Miner*
+
+
+EWBF Cuda Zcash Miner*
+
+
+
+
+SilentArmy
+
+
+BMiner
+
+
+
+
+Optiminer
+
+
+SilentArmy
+
+
+
+
+The * indicates the two most popular software packages
+
+
+
+
+You will want to make sure your virtual memory is set up to 16GB. You will need to navigate through your system settings to do so. Also, make sure your power settings are adjusted as you do not want your computer going into sleep mode.
+If you are pool mining, the process is a bit simpler. You will need to decide on which mining pool to join, then down the associated software. Once that is done, the setup should be pretty straightforward.
+Regarding the mining pool rewards, you will want to make sure you are aware of this key point. Mined rewards are entered into a transparent address (t-addr), but can only be sent to a shielded address (z-addr) in one transaction with no change.You will need 4GB RAM minimum to execute this transaction as well.
+Make sure you have a Zcash wallet set up as well. If you are using Linux (64-bit) then you can download the official Zcash wallet here. Otherwise, you will need to use a different software wallet such as Jaxx. Hardware wallets are by far the safest way to store cryptocurrencies offline, so you may also want to get yourself a Ledger Nano S or Trezor to store your Zcash coins.
+Zcash Mining Difficulty & Profitability
+The total global hashrate of Zcash has been steadily increasing over the past year. The increase in hashrate is usually a function of the price. With the price rising in 2017 from around USD 50 in March to over USD 400 by the summer, the number of ZEC miners significantly increased.
+
+The difficulty level closely tracks the hashrate, and both have been steadily increasing over the past year. Zcash automatically adjusts the computational difficulty of solving the next block to maintain the 2.5-minute block interval. 
+Zcash is definitely a coin that is worth mining based on the price potential for privacy-focused cryptocurrencies.
+The chart below provides some insight into Zcash mining profitability potential using cryptocompare. You can enter different inputs, based on your specific hardware, energy costs, and so forth, in order to gauge your overall net profit. Keep in mind that the chart below is for illustrative purposes only and results may vary depending on your inputs and the market price of Zcash. It is also based on a ZEC price of USD$ 283.60
+
+
+
+
+Zcash Profits (USD)
+
+
+Hash Power (H/s)  
+
+
+Power Consumption (W)
+
+
+Cost per kWh ($)
+
+
+Pool Fee
+
+
+Profit/Month
+
+
+Profit/Year
+
+
+Profit Ratio Per Day
+
+
+
+
+ZEC 
+
+
+1600
+
+
+500
+
+
+0.12
+
+
+1%
+
+
+$116.15
+
+
+$1,413.21
+
+
+268%
+
+
+
+
+ZEC
+
+
+5000
+
+
+2500
+
+
+0.12
+
+
+1%
+
+
+$281.98
+
+
+$3,430.72
+
+
+130%
+
+
+
+
+ZEC 
+
+
+8000
+
+
+3000
+
+
+0.12
+
+
+1%
+
+
+$537.56
+
+
+$6,540.30
+
+
+207%
+
+
+
+
+You may see hashpower in the form of Sol/s, which refers to Solutions per second. 
+For mining purposes, it refers to the number of hash computations per second. 
+Generally speaking Sol/s = H/s. This chart uses H/s to keep it simple. 
+All mining examples above are based on GPU miners
+
+
+
+
+There have been some rumours about Bitmain possibly creating ASIC miners for the Equihash algorithm. If this were introduced, it would significantly alter the decentralized nature of Zcash mining. ASICs would allow for the centralization of Zcash mining and would also likely make GPU mining significantly inefficient and even obsolete.The profitably would significantly increase (assuming the ASICs have a much higher Sol/s or H/s), but mining farms would control most of this increase in profit.
+
+Something else to keep in mind that may affect the profitability of Zcash is the upcoming ‘Overwinter’ hard fork that is expected in the summer of 2018. It’s the first network upgrade for Zcash and is being used to strengthen the protocol for another fork that is expected by fall 2018 called ‘Sapling’. This fork will update the zk-SNARKs technology and reduce private transaction storage on the blockchain. The timelines are not firm and are constantly pushed back due to delays, but the forks may affect the hashrate, price, and could bring the rise of ASIC miners.
+If you have any questions about Zcash mining hardware or software, please feel free to comment below and let us know. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

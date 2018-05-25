@@ -1,0 +1,143 @@
+
+
+    
+                          WHAT IS 'Municipals-Over-Bonds Spread - MOB'
+
+      Municipals-Over-Bonds Spread, or MOB spread, refers to the difference between the yields from municipal, or muni, bonds and Treasury bonds, or Treasuries, with the same time to maturity. The MOB spread is sometimes used for determining tax strategies. MOB spread is influenced by interest rates and the tax-exempt status of the municipal or Treasury bonds.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Credit Spread                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Municipal Bond                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Five Against Bond Spread - FAB                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Fully Taxable Equivalent Yield                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Municipals-Over-Bonds Spread - MOB'
+      Municipals-Over-Bonds Spread expresses the relationship between the yields from an index of municipal bonds and the yields from a Treasury bond. The terminology can be confusing, but “Municipal” refers to the municipal bond contract and “Bonds” refers to the Treasury bonds contract. The spread means the difference between these two contracts. The spread increases when the difference between the municipal bonds contract and the Treasury bond contract widens because the municipal contract is rising more quickly than the Treasury bond is. When the Treasury bond contract is rising more quickly than the municipals index is, the MOB spread narrows.
+Most MOB spread calculations actually use the yield implicit in futures prices for municipal bonds and Treasuries listed on the Chicago Board of Trade. The MOB spread is essentially a comparison of the interest rate spread between federal government debt, or Treasuries, and state/municipal debt, or municipal bonds. 
+Municipal bonds are nontaxable, while Treasury bonds are taxable federally, and this creates a difference in their actual yield, even if they earn at the same interest rate. Earning at the same rate, municipal bonds will return more to the investor because they are not taxed, where Treasury bond earnings are taxed.
+Interest Rates and the Municipals-Over-Bonds Spread
+Interest rates influence the Municipals-Over-Bonds Spread in several ways. The municipals index is an index of municipal bonds that is changed regularly to incorporate new municipal bonds and remove older ones. The composition of the index determines how the index is affected by interest rates, and different mixes of different municipal bonds will be more responsive to interest rates than others. The Treasury contract tracks the price of a single 30-year Treasury bond.
+At the same time, most municipal bonds are callable, while the Treasury bond is not callable. When interest rates go up, callable bonds outperform noncallable bonds, but when interest rates go down, noncallable bonds outperform callable bonds. So when interest rates go up, the MOB spread widens. When interest rates go down, the MOB spread narrows.
+Traders use these differences in taxable and nontaxable status along with callable and noncallable status to take positions with municipal bonds and Treasuries.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

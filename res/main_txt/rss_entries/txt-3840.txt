@@ -1,0 +1,263 @@
+
+
+    
+                        
+            
+                Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/PersonalFinance/Insurance/IC-Video/Term");} else {return "/8397/INV-NA/PersonalFinance/Insurance/IC-Video/Term";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/terms/a/adjustable-life-insurance.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/xbvSMyqM.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/xbvSMyqM-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/thumbnails/live/13_lifeinsurance_421x236.jpg?quality=80&width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "560",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "xbvSMyqM-G9NhEyAa.mp4";
+                
+          
+            document.addEventListener("DOMContentLoaded", function() {
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                        var initializeJWPlayerSetup = function () {
+                            if (new VideoInit().canRun()) {
+                                setUpJwpPlayer();
+                            } else {
+                                new VideoInit().callBack = setUpJwpPlayer;
+                            }
+                        }
+            initializeJWPlayerSetup();
+          });
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "xbvSMyqM-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "Life Insurance",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };            
+          
+                    What is 'Adjustable Life Insurance'
+
+      Adjustable life insurance is a term and whole life hybrid insurance plan that allows policyholders the option to adjust policy features. These policies allow policyholders the ability to adjust the period of protection, face amount, premiums, and length of the premium payment period. These policies also incorporate an interest-bearing savings component or cash value account.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Term Life Insurance                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Traditional Whole Life Policy                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Voluntary Life Insurance                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Decreasing Term Insurance                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Adjustable Life Insurance'
+      
+Adjustable life insurance differs from other life insurance products in that there is no requirement to cancel or purchase additional policies as the insured's circumstances change. Adjustable life insurance policies are attractive to those who want the protection and cash value benefits of permanent life insurance yet need or want some level of flexibility with policy features. With the ability to modify premium payments and face amounts, policyholders may customize their coverage as their lives change. For example, a policyholder may want to increase the face amount upon getting married and having children. An unemployed person may want to reduce premiums to accommodate a restricted budget.
+Adjustable Life Insurance Options
+As with other permanent life insurance, adjustable life insurance has a savings component which earns cash value interest. Today, most adjustable life insurance, cash value accounts have a guaranteed rate of interest. The adjustable feature of the insurance allows policyholders to make changes to key features of the policy within limits. 
+The policyholder may increase or decrease the premium, increase or decrease the face amount, extend or shorten the guaranteed protection period, and extend or shorten the premium payment period. Adjustments to the policy will alter the guaranteed period, and changes in the length of the guarantee will change the cash value schedule. Decreasing the face amount is done upon request or in writing. However, increasing the face amount may require additional underwriting, with substantial increases requiring full medical underwriting.
+Internal Revenue Code (IRC) section 7702 defines the characteristics of and set guidelines for life insurance policies. Subsection C of this section provides guidelines for premium payments. The policyholder may not adjust the premiums in a manner which violates these guidelines. Increasing premiums may also increase the face amount to an amount that requires evidence of insurability. However, many life insurers set parameters to prevent violations.
+Much like other life insurance policies, adjustable life insurance policies typically have optional riders. Familiar riders include the waiver of premium and accidental death and dismemberment riders 
+Adjustable life policies provide the flexibility that most traditional policies do not. However, the frequency of allowable adjustments is restricted. The policy allows for adjustments within set adjustment timeframes. Requests must be made within an allotted period and must meet the guidelines set by the insurer. The variability in adjustments can create a policy that mirrors term life or that mirrors whole life. Effectively, adjustable life insurance policies allow policyholders to adjust their life insurance according to their current or anticipated needs.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'LifeInsurance',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

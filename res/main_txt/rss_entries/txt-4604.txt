@@ -1,0 +1,210 @@
+
+
+
+Dubai Launches New Blockchain Initiative to Ease Doing Business, Encourage FDI
+Dubai has launched the Blockchain Business Registry Project, which aims to help companies in the UAE city streamline business registration and other corporate processes.
+
+
+ by  Anatol
+Antonovici,
+9 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  Dubai rolled out on Tuesday a blockchain-powered corporate registry project that aims to ease the process of initiating and managing a business in the city and support foreign direct investments (FDI).
+The initiative was announced by the Department of Economic Development (DED) and Dubai Silicon Oasis Authority (DSOA), which will collaborate with the Smart Dubai office and IBM. The new plan is expected to help government agencies interact better and thus help companies streamline multiple key processes.
+The Dubai Blockchain Business Registry Project is part of the broader Dubai Blockchain Strategy launched two years ago by the Crown Prince of Dubai, His Highness Sheikh Hamdan bin Mohammed bin Rashid Al Maktoum.
+Under the new initiative, the Unified Commercial Registry (UCR) project, the first blockchain-based trade license repository started by DED, will be empowered to store and manage corporate registration data released by DED and Dubai’s free zone authorities.
+The DSOA, the regulatory agency for technology park Dubai Silicon Oasis (DSO), will be the first to run a trial in its free zone.
+Sami Al Qamzi, director general of DED, welcomed the DSOA as the first free zone authority to adopt DED’s business ledger.
+
+“The Unified Commercial Registry is a foundation for the business ledger, led by the Department of Economic Development to usher in the future of business in Dubai, UAE and the world. With the Blockchain Corporate Registry, investment as well as doing business in Dubai will become a seamless and smart experience, and testimony to successful innovation,” he stated.
+
+According to Mohamed Alqaizi, IT Director at DED, the blockchain project was based on in-depth research carried out by the DED team in partnership with IBM, the DSOA, and the Smart Dubai office. He said many options and case studies were examined to identify the best results in easing corporate registration in Dubai.
+Amr Refaat, general manager at IBM Middle East, commented on the initiative:
+
+“IBM is proud to collaborate with DED, Smart Dubai Office and Dubai Silicon Oasis on this journey to revolutionize the business ecosystem in the UAE.”
+“With the first phase of this project already in place to form the first active Blockchain commerce registry network, there is keen interest from other public and private entities to join the network,” he added.
+ 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

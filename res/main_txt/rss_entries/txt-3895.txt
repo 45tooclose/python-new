@@ -1,0 +1,144 @@
+
+
+    
+                          WHAT IS 'On-The-Run Treasury Yield Curve'
+
+      The on-the-run treasury yield curve is the U.S. Treasury yield curve derived using on-the-run Treasuries. The on-the-run Treasury yield curve plots the yields of bonds of similar quality against their maturities and is the primary benchmark used in pricing fixed-income securities. The on-the-run Treasury yield curve is the opposite of the off-the-run Treasury yield curve, which refers to U.S. government bonds of a given maturity that are not part of the most recent issue of Treasury securities.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            On-The-Run Treasuries                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Interpolated Yield Curve - I Curve                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Treasury Direct                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Yield Curve Risk                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'On-The-Run Treasury Yield Curve'
+      The on-the-run Treasury yield curve is typically used to price fixed-income securities; however, its shape is sometimes distorted by up to several basis points if an on-the-run Treasury goes "on special." A Treasury goes on special when its price is temporarily bid up, usually as the result of increased demand by securities dealers to use the security as a hedging vehicle. This makes on-the-run Treasury yield curves somewhat less accurate than off-the-run Treasury yield curves.
+The Treasury yield curve indicates that there are two important factors that complicate the relationship between maturity and yield. The first is that the yield for on-the-run issues is distorted since these securities can be financed at cheaper rates, and therefore offer a lower yield than they would without this financing advantage. The second is that on-the-run Treasury issues and off-the-run issues have different interest rate reinvestment risks.
+On-The-Run Treasury Yield Curve Shapes
+The typical shape for the on-the-run Treasury yield curve is upward sloping (yield increases with maturity), which is referred to as a normal yield curve. The shape of the yield curve is the result of supply and demand for investments in particular segments of the curve. For example, if an investment fund chooses to invest only in securities with 5 to 10-year maturities, that would raise prices and lower yields in that segment. If demand by short-term investors is extremely high, the yield curve will become steeper.
+A negative yield curve reflects higher interest rates for shorter-term maturities than for longer-term maturities. An inversion in the yield curve can sometimes be the result of aggressive central bank policies that temporarily raise short-term interest rates to slow the economy; however, this is considered to be a short-term abnormality and there is an expectation that the curve will revert to a flat or positive structure in the near term. A flat curve, with short- and long-term rates that are approximately equal, are normally associated with a transitional period when interest rates are moving from a positive yield curve to a negative curve, or vice versa. For more on on-the-run Treasury yield curves, see Understanding the Treasury Yield Curve Rates.
+ 
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

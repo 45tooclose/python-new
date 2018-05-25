@@ -1,0 +1,53 @@
+
+
+
+    
+    
+    
+          
+    A:
+            CHIPS UID stands for Clearing House Interbank Payments System Universal Identifier. This is just a fancy name for an electronic clearinghouse database system, which facilitates the transfer of funds from both individual consumers and institutions. It is the back end of the automated clearing house (ACH) network, which is run by the National Automated Clearing House Association. It provides the platform that allows exchanges to take place quickly and accurately.
+How the CHIPS UID System Works
+Developed in the 1970s, the key to the CHIPS UID system is that its database contains all the necessary information to identify specific participants, such as name, address, routing number, account number, etc. However, all of this information is kept confidential within the system, and each participant's information is linked to a six-digit code, which is referred to as the CHIPS UID.
+Because the CHIPS UID number can be used by the clearing system to look up the needed banking information of a payment's recipient (e.g. routing number and account number), payment orders can be entered into the system simply with the CHIPS UID number. This simplicity reduces the occurrence of errors in transaction entry and speeds up the process for all parties.
+Also, because the CHIPS UID number is linked to (but does not reveal) banking information such as an account number, the structure of this clearing system prevents a biller from knowing a payer's banking information. This increases the security and confidentiality of the system. The CHIPS UID system processes both domestic and international transactions, and has long been the foremost method of moving U.S. dollars among the world's banks.
+        
+    
+
+    
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Mortgage',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'FAQ'
+    });
+                

@@ -1,0 +1,145 @@
+
+
+    
+                          What is 'Grid Trading'
+
+      Grid trading is a type of technical analysis trading that is based on movement within specific grid patterns. Grid trading is popular in foreign exchange trading. Overall the technique seeks to capitalize on normal price volatility in markets by placing buy and sell orders at certain regular intervals above and below a predefined base price. Such buy and sell orders, generally spaced at 10 or 15 pip intervals, create a trading grid.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Carry Grid                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Leadership Grid                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Below the Market                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Mixed Lot                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Grid Trading'
+      Grid trading is primarily used in foreign exchange trading. Foreign currencies are popular technical analysis trading instruments because the foreign exchange market is open 24 hours, five days a week, allowing an investor to place a trade at any time during the regular five-day week.
+The biggest advantages of grid trading are that it requires little forecasting of market direction and can be easily automated. Major drawbacks, however, are the possibility of incurring large losses if stop loss limits are not adhered to and the complexity associated with running multiple positions in a large grid.
+Grid Trading Construction
+In a grid trading strategy an investor can plot buy and sell orders based on the movement of paired currencies. Typically, a grid strategy will be centered around the movement of paired foreign exchange currencies such as the EUR to the USD.
+The basic setup for a forex grid will chart the movement of the currency pair in a trendline or candlestick chart. This trading will focus on pip movements which are the equivalent of 1/100 of 1% or one basis point. This translates to $0.0001. In a grid strategy a trader will automate trades based on pip movements.
+Ten-pip intervals are common in grid trading. Often a trader will automate buy signals for 10 pip increases and sell signals for 10 pip decreases. The complexity of this grid occurs from keeping multiple positions open and instituting multiple sell orders. These grids may also be referred to as carry grids.
+In an example consider a EUR/USD pair with a price trading at 1.4100. If 10 pip intervals are used then the trader would buy at 1.4110, 1.4120, 1.4130 and so on. Sell orders would also be placed to protect against losses. Sell orders would also be placed at 1.4090, 1.4080, 1.4070 and so on. In this scenario an investor profits from the rising price and has a floor for losses at specified selling prices.
+Implementing Grid Trades
+Grid trading requires sophisticated trading software that can automate buy and sell signals based on price movements. Oftentimes grid trading is offered as a feature or facilitated through a software add-in for popular trading systems including MetaStock, Worden TC2000, eSignal, NinjaTrader, Wave59 PRO2, EquityFeed Workstation, ProfitSource, VectorVest and INO MarketClub. (For more on these platforms see also: The Best Technical Analysis Trading Software)
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

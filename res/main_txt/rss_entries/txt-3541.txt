@@ -1,0 +1,76 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Walmart Inc. (WMT), the world’s largest retailer, announced on Monday a merger between its struggling UK grocery chain Asda and British retailer J Sainsbury plc. The deal will see Walmart relinquish control of Asda in exchange for a stake of 42% in the combined company and almost 3 billion pounds in cash, according to the press release, giving it more freedom to focus on countries where income and population are rising much faster.
+Walmart is expected to step up its efforts to acquire a majority stake in India’s leading online retailer Flipkart Online Services Pvt for $10 billion to $12 billion once the Asda merger goes through. Sources speaking with The Economic Times said Walmart will likely get four seats on Flipkart's 10-member board if the deal goes through. The move represents a shift in strategy for the Bentonville, Arkansas-based company, which historically preferred to build businesses from scratch. (See also: Walmart Poised to Beat Out Amazon for Flipkart.)
+“Walmart is clearly moving away from trying to crack tough foreign markets by itself to striking partnerships because it realizes that is the fastest way to bridge the gap with competitors,” Laura Kennedy, vice president, retail sales and shopper practice at Kantar Consulting, told Reuters.
+Walmart’s determination to claw back market share from the likes of German discount grocer Aldi Inc and e-commerce juggernaut Amazon.com Inc. (AMZN) in key international markets is also expected to lead it to invest more in China. Walmart bought a stake in China’s number two retailer JD.com (JD) in 2016 after its first venture in the country turned sour.
+Sources speaking with The Wall Street Journal say the retailer is also in talks to sell a controlling stake in its Brazilian arm to a private equity firm.
+Bloomberg Intelligence’s senior consumer analyst Jennifer Bartashus predicts that Walmart will choose to expand in countries where it already has a presence for now, rather than take the riskier move of targeting completely new markets. The retailer’s eagerness to reenergize overseas sales, she added, could also see it offload its struggling Brazilian arm.
+“They’ve consistently exited underperforming markets or markets where they just haven’t been able to really get their offering deeply embedded with the customer base,” said Bartashus. Looking ahead, “it’s going to be much more of a contained strategy in areas where there’s a substantial amount of income and population growth that will become a key customer base.”
+Walmart International, which operates about 6,300 stores globally, contributed less than a quarter to the company’s total turnover of $500.3 billion in fiscal 2018. The division’s revenues came in at $118.07 billion, reported Reuters, down nearly 14 percent from $136.5 billion in 2014. (See also: Walmart Overhauls Website to Take on Amazon.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

@@ -1,0 +1,221 @@
+
+
+
+Steemit (STEEM): The Only Asset Climbing as Markets Turn to Red
+The new market direction shows that a rally cannot last forever - but somehow, STEEM benefitted.
+
+
+ by  Christine
+Masters,
+5 hrs ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  Steemit (STEEM), the social media platform that is the sibling of EOS and the brainchild of developer Dan Larimer, has been the only digital asset surviving the latest downturn. Prices were in the red across the board, and Bitcoin (BTC) quickly slid back to the $8,800 range.
+Even EOS slid a bit, to $14.69 from peaks above $15. The markets crashed, coinciding with the news of OKEx suspending ERC-20 trading due to hackers attacking smart contracts to produce more coins.
+However, STEEM climbed another 29% in the past 24 hours, to reach $4.28. The asset is up more than 42% this week. The social media platform is also becoming more influential.
+
+Steem Dollars (SBD), the asset that was supposed to be equivalent to $1, has been left to appreciate. The SBD asset added more than 10% overnight to $3.64.
+
+baseUrl = "https://widgets.cryptocompare.com/";
+var scripts = document.getElementsByTagName("script");
+var embedder = scripts[ scripts.length - 1 ];
+(function (){
+var appName = encodeURIComponent(window.location.hostname);
+if(appName==""){appName="local";}
+var s = document.createElement("script");
+s.type = "text/javascript";
+s.async = true;
+var theUrl = baseUrl+'serve/v3/coin/chart?fsym=STEEM&tsyms=USD,BTC';
+s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+embedder.parentNode.appendChild(s);
+})();
+ 
+What is curious, is that STEEM trading volumes picked up to levels not seen since January. In terms of BTC prices, STEEM has been relatively stable, and only the dollar price has responded. The current climb in STEEM is the result of a sharper uptick in BTC prices, which translated into a jump above $4.
+The STEEM price rally comes just days after a technical fiasco, which threatened the very foundation of the social media. The Steemit platform saw its database crash, firstly revealing that what users see as immutable transactions are, in fact, centralized, off-chain database entries. Only later are those converted to digital assets.
+https://twitter.com/pravishinc/status/986926204723843079
+At the moment, the STEEM project has not revealed any news, and the platform is business as usual. The current spike in prices seems to be pure speculation, led by UpBit, where more than 50% of STEEM trading is concentrated. Volumes on Binance remain negligible.
+Steemit is still a lesser-known asset, and has not reached its full potential in terms of investors and participants. However, the platform is already overloaded, with new members waiting for weeks to get accounts and wallets, while entering was fast and free before the fall of 2017.
+STEEM remains a highly speculative asset, prone to rapid selling to realize profits. The Steemit economy depends on mutual agreement to like posts. Sometimes, bots are also used, and usually, the big earners are also those who buy their reputation, or at least participate in coordinated voting. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

@@ -1,0 +1,138 @@
+
+
+    
+                          DEFINITION of 'Shareholder Value Transfer - SVT'
+
+      Shareholder Value Transfer (SVT) is a metric intended to guide shareholders in how much equity compensation should be awarded to employees and executives of publicly traded companies. Shareholder Value Transfer is calculated as the total value of equity grants divided by the market capitalization of the company. This yields a percentage to which existing shareholders would be diluted under a given equity compensation plan.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Shareholders' Agreement                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Shareholder Register                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Proxy Fight                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Working Control                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Shareholder Value Transfer - SVT'
+      The Shareholder Value Transfer metric was created by Institutional Shareholder Services (ISS), a research firm that advises shareholders on how to vote on shareholder proposals. ISS calculates shareholder value transfer for the top companies within each industry and decides on a maximum "cap" amount that any company should have to pay in shareholder value transfer, in order to perform well. ISS then typically advises investors to vote against any equity compensation proposal that would exceed the shareholder value transfer cap.
+According to Institutional Shareholder Services, Shareholder Value Transfer refers to an estimate of the value that the company will transfer to its employees and directors via certain equity-based compensation programs, as measured at a given date based on a standard set of inputs. ISS' proprietary compensation model calculates a Shareholder Value Transfer benchmark for each company — based on its market cap, industry and relevant performance metrics relative to peers — which is used in evaluating the company's Shareholder Value Transfer. To find a Shareholder Value Transfer estimate, Institutional Shareholder Service's calculations use a combination of third-party data for an option pricing model as well as company-specific data (including outstanding grants and shares remaining for future grants) generally reported in the annual 10-K or proxy filing.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

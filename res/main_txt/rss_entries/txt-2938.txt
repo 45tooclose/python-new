@@ -1,0 +1,141 @@
+
+
+    
+                          DEFINITION of 'Forward Looking'
+
+      Forward looking is a business term for predictions about future business conditions. The term is useful with regards to stockholders’ consistently asking company management about what they believe will happen in the future so as to make bets accordingly. While no one can truly predict the future, management is often in the best position to speak about what the company has planned in the coming quarters and how this could dovetail with current trends.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Expanded Accounting Equation                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Take A Report                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Financial Statements                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Safe Harbor                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Forward Looking'
+      Many companies issue disclaimers about their forward looking statements. Despite an implicit understanding that certain statements are speculation, the Securities and Exchange Commission (SEC) requires that public companies include this disclaimer on published management discussions with investors. This is required to properly emphasize that stockholders generally may not take legal action against company management for forward looking statements that prove to be inaccurate. In the United States, the Private Securities Litigation Reform Act of 1995 (PSLRA) provides certain safe harbor provisions against fraudulent claims dealing with forward looking statements.
+Originally passed to stem the filing of frivolous or unwarranted securities lawsuits, The PSLRA required plaintiffs to bring forth any specific fraudulent statements that the defendant had made. This was done in order to prove that plaintiffs suffered a financial loss as a result of these reckless or intentional fraudulent statements.
+Example of a Forward Looking Statement Disclaimer
+An example of a disclaimer on a forward looking statement is General Electric’s (GE)’s posting on its investor relations website. To summarize, this disclaimer states that all of GE’s public communications and SEC filings may contain "forward-looking statements" that often address the company’s expected future business and financial performance and financial condition. These statements, such as those specifically about GE’s potential business or asset dispositions, or other restructurings, along with changes related to GE Capital, are inherently uncertain. More specifically, management may make predictions about company revenues; organic growth; cash flows and cash conversion, pension funding contributions; and earnings per share that may not come to pass. Management may also comment on new regulation(s) and U.S. tax reform, which should also not be taken as true. All of these and many more claims in forward looking statements might not come to pass; however, they offer a window into how management is viewing the business environment, the company’s situation within this environment, and goals for future growth and change.
+(Source)
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

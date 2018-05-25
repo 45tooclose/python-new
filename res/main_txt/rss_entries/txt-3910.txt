@@ -1,0 +1,147 @@
+
+
+    
+                          What is 'Disclosure'?
+
+      Disclosure is the act of releasing all relevant information on a company that may influence an investment decision. To be listed on major U.S. stock exchanges, companies must follow all of the Securities and Exchange Commission's (SEC) disclosure requirements and regulations. To make investing as fair as possible for everyone, companies must disclose both good and bad information.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Full Disclosure                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Multijurisdictional Disclosure ...                     
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Investment Company Act of 1940                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            500-Shareholder Threshold                     
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Disclosure'
+      Disclosure items, as outlined by the SEC, include items related to a company's financial condition, operating results, and management compensation. Disclosure requirements were initially enforced with the passing of the Securities Act of 1933 and the Securities Exchange Act of 1934. Since then, additional acts like the Sarbanes-Oxley Act of 2002 have extended public company disclosure requirements.
+Specific disclosure requirements are required because selective disclosures placed investors and company stakeholders at a disadvantage. For example, Insiders can use material nonpublic information for their own gain at the expense of the general investing public. Clearly outlined disclosure requirements ensure that information is adequately disseminated by a company, so all investors are on an even playing field.
+Companies are not the only entities subject to strict disclosure regulations. For example, brokerage firms and analysts must also disclose any information that might influence investment decisions. To limit conflict of interest issues, analysts must disclose any equities that they own.
+Disclosure Requirements Implemented by the SEC
+The SEC requires that all publicly traded companies prepare and issue two annual reports: one for the SEC itself and one for the company's shareholders. These reports come in the form of 10-Ks.
+Any company seeking to go public must disclose information as part of a two-part registration composed of a prospectus and a second document that contains any other material information such as a company-supplied SWOT analysis of the competitive environment. A SWOT analysis identifies an organization's strengths, weaknesses, external opportunities and threats using the market as a benchmark.
+The SEC imposes stricter disclosure requirements for firms in the securities industry. For example, company officers of investment banks must make personal disclosures regarding the securities they own as well as securities owned by family members.
+An Example of a Disclosure
+On Target Corporation's Fourth Quarter and Full-Year 2017 Earnings investor report, the company highlighted its after-tax return on invested capital (ROIC) as a positive. The company added disclosures concerning this number to clear up any confusion for shareholders. The disclosure denoted the limits of non-GAAP financial measures such as ROIC and provided a schedule that included the calculations for the company's ROIC.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

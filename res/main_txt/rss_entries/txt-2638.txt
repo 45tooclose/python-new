@@ -1,0 +1,102 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Banks, insurance companies, brokerage firms, and financial planning firms – they all want a piece of your portfolio, and consumers often find their assets scattered among these institutions. As a result, many are getting tired of having several different people dealing with various aspects of their finances. One solution to this problem is a trust company, which can provide a variety of investment, tax, and estate planning services for clients. This article will provide a high-level overview of the nature and function of trust companies, as well as the services they offer.
+What Is a Trust Company?
+
+By definition, a trust company is a separate corporate entity owned by a bank or other financial institution, law firm, or independent partnership. Its function is to manage trusts, trust funds, and estates for individuals, businesses, and other entities.
+Trust companies get their title from the fact that they act in a fiduciary capacity for their clients – as trustees. The majority of a trust company's assets are held in actual trusts, with the trust company named as the trustee. Trust companies generally employ several types of financial professionals, including financial planners, attorneys, portfolio managers, CPAs, and other tax professionals, trust officers, real estate experts, and administrative personnel. (For related reading, see Find The Right Financial Advisor.)
+What Can a Trust Company Do for Me?
+
+Trust companies perform a wide range of services related to investment and asset management. Of course, one of the chief functions of most trust companies is simply managing the investment portfolios within the trusts of their clients. This is done either in-house or by an affiliated third-party manager selected by or recommended to the client. A wide variety of investments, ranging from individual securities and mutual funds to derivatives and real estate, can be employed to achieve various investment objectives, such as growth or income. Special services are also available for high-net-worth clients, including alternative investments, such as limited partnerships, natural resources, private equity, and hedge funds. Regardless of the type of management used, investment management is always custom-tailored for each client's risk tolerance and time horizon. (For information about the responsibilities of trustees and fiduciaries, see Can You Trust Your Trustee?)
+Financial and Trust Services
+Trust companies also can provide safekeeping services within secure vaults for other types of tangible investments or valuables, such as jewelry and collectibles. Often financial planners are employed to produce comprehensive financial plans for clients, covering all aspects of a client's financial life, including investments, insurance, and retirement planning. A planner might also focus on a specific segment of a client's finances, such as investment or college planning. Comprehensive income, gift, trust, and estate tax return preparation and planning are also standard fare for many trust companies. Even escrow services and holding accounts for proceeds from 1031 exchange real estate transactions can be provided, if necessary. Finally, trust companies manage all phases of the trust creation, administration, and disposition processes.
+Trust companies offer and manage trusts of all types, including the following:
+Living trust and testamentary trusts
+Revocable trust and irrevocable trusts
+Second-to-die life insurance trusts
+Charitable trusts (foundations and endowments for the wealthy are usually available as well)
+Intentionally defective trusts
+Incentive trusts
+Generation-skipping trusts
+QTIP trusts
+Qualified personal residence trusts
+Marital trusts
+Educational trusts
+Retirement trust accounts, such as IRAs and qualified plans (For more on trusts, read Pick The Perfect Trust.)
+Estate Planning Services 
+Trust companies can handle all aspects of the estate settlement process, including valuation, dispersion, and re-titling of assets, payment of debts and expenses, estate tax return preparation, the sale of closely held businesses and all other necessary tasks related to passing on the property of a deceased grantor or client. Trust companies often end up working with their clients' heirs as well, providing the same array of services to the estate assets' recipients as to the donor. (See Estate Planning Basics for the fundamentals of estate planning.)
+Corporate Trust Services 
+Corporate trust services can provide assistance with both the issuance and administration of corporate debt by distributing the interest payments from the corporation to the bondholders and ensuring that the issuer is adhering to the covenants of the bond agreement.
+Why Use a Trust Company?
+
+Trust companies can provide a wealth of services to clients from one convenient, centralized location. They save their clients time and effort by eliminating the need to coordinate financial assets and information between brokers, financial planners, tax advisors, tax preparers, and attorneys. Trust companies also take full fiduciary responsibility for their clients' financial well-being, thus assuring that the clients' best interests are always considered in each service and transaction performed.
+Consumers who want to engage the services of a trust company will have many local entities from which to choose. Virtually all major banks and savings institutions offer trust services through a separate department. Still, most clients who wish to employ a trust company must generally meet certain financial requirements; for instance, a trust may require the client to have a net worth of at least $500,000.
+The Bottom Line
+
+Trust companies provide a wide array of services, ranging from trust and investment administration to comprehensive wealth management services, such as tax preparation, tax advice, and financial planning services. For consumers seeking a 'one-stop shop' approach to the management of their financial affairs, trust companies may offer the perfect solution.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

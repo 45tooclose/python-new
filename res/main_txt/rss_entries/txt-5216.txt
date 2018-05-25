@@ -1,0 +1,145 @@
+
+
+    
+                          What is an 'Advertising Allowance'
+
+      An advertising allowance is money that a product manufacturer or service provider pays to a retailer to get the word out about their product. An advertising allowance may also take the form of a supplier or manufacturer giving a discount on inventory provided to a wholesaler or retailer to pay for advertising or merchandising costs. The company may establish requirements for the retailer to receive the allowance, such as getting the company's approval of the advertisement before it is displayed and providing proof that the advertisement was made. By helping the retailer pay its advertising costs, the company's advertising allowance gives the retailer an incentive to carry that product.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Advertised Price                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Comparative Advertising                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Tailored Advertising                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Business-to-Business Advertising                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      Breaking Down 'Advertising Allowance'
+      An advertising allowance may also be referred to as a "marketing co-op allowance" or "promotional allowance." Such a practice is a cost-effective method for helping manufacturers, distributors, wholesalers or retailers to reach their target market. One drawback, however, is that some manufacturers may be more restrictive in their advertising standards and practices than others. 
+The sum of an advertising allowance is generally based on the amount of a retailer's purchases. An allowance that is based on percentage of total purchases is the most common method, though an allowance based on the total number of units purchased may also be employed. 
+Advertising Allowance in Practice
+Advertising allowance policies and practices will differ from company to company, but in most cases a manufacturer will either pay for a share of a retailer's advertising costs, or provide them with images, graphics, or production assistance to create an ad. They may also provide a finished ad that may or may not be customizable for a particular retailer or locale.
+An advertising allowance may also take the form of a display allowance, in which the manufacturer or supplier pays for the setup costs associated with product displays. An advertising allowance may be paid after the fact, as well, in which a manufacturer or supplier repays a retailer for advertising and promotion costs they have already incurred. 
+Advertising Allowance Example
+An educational toy store carries a board game that helps children learn about personal finance. The toy store publishes a quarterly catalog in which it advertises the board game by showing a photo of children playing the game and providing a one-paragraph description of the game. The board game manufacturer would typically pay an advertising allowance to the toy store to help offset the expense of marketing the board game in the catalog. These expenses might include a fraction of the catalog's printing and mailing costs or discount in the board game's wholesale cost.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

@@ -1,0 +1,76 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Legacy tech giant Microsoft Corp. (MSFT) is slated to report its most recent quarterly results after the closing bell on Thursday. In recent periods, the Street has applauded the Redmond, Washington-based information technology behemoth for its successful and continued transition to become a leader in the next-gen tech space.
+This transformation has led the $717 billion tech titan to lean away from legacy businesses and become a front-runner in high-flying segments such as cloud computing, artificial intelligence (AI), the Internet of Things (IoT) and business productivity tools. (See also: Microsoft Warms Up to Former Rival Linux.)
+In the fiscal third quarter, analysts on average forecast Microsoft to post GAAP earnings per share (EPS) of $0.85 on revenue of $25.77 billion, up 11% from the year-ago period at $23.2 billion. Revenues, which Chief Financial Officer Amy Hood expects to come in at $25.6 billion at the midpoint, are broken up into three segments. "Productivity and Business" sells the Office productivity suite and other software programs while "More Intelligent Computing" includes Windows PC license revenue and the Xbox gaming franchise. "Intelligent Cloud," comprised of cloud platform Azure, as well as traditional software licenses, is expected to steal the spotlight again this quarter. Microsoft, offering a hybrid cloud solution to businesses transitioning from on-premise data centers to the cloud, reported Azure's growth at 98% last quarter. Credit Suisse's Michael Nemeroff and RBC Capital's Ross Macmillan expect that the business grew 93% in the March quarter, while Morgan Stanley's Keith Weiss is forecasting for the firm to post a 97% surge. 
+PC, Windows Assume 'Supporting' Role
+Microsoft's Office 365, an online-productivity service for businesses, is also expected to continue to propel growth at the old-guard tech titan. Weiss expects commercial Office 365 sales to jump 38% in the period, compared to a 41% increase in fiscal Q2. 
+Microsoft is seen as likely to address recent changes regarding the split of its engineering group that develops products for its Windows unit into two separate divisions. Stifel analyst Brad Reback wrote a recent note indicating that the shuffle "sends a strong signal of the supporting, and not leading, role Windows will likely take in coming years and we like the continued emphasis on hybrid cloud and AI." The analyst expects that MSFT's More Personal Computing unit, which includes Windows, grew 5% in Q3 to $9.2 billion, amid stagnant growth in the PC market and a boost from corporate upgrades to 2015's Windows 10.
+Another area investors will be keeping a close eye on is expenses, as noted by Barron's. Microsoft is forecasting for full fiscal year expenses ending June at $36.4 billion to $36.7 billion. "Any change in that tomorrow could tip the hat to better or worse profit prospects," wrote Barron's Tiernan Ray.
+Closing down 0.9% on Wednesday at $92.31, MSFT reflects a near 8% gain year-to-date (YTD) and 35.9% return over the most recent 12 months, outperforming the broader S&P 500's 1.3% slump and 10.5% increase over the same respective periods. (See also: Google: Gmail Gets Its First Overhaul Since 2013.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

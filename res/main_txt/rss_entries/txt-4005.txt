@@ -1,0 +1,82 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Twitter Inc. (TWTR) and Fitbit Inc. (FIT) did a good job of winning over investors on Monday with new collaborations.
+The share prices of the two companies finished the day up 4.52% and 4.72%, respectively, after both announced potentially game-changing partnerships.
+Twitter’s Video Deals
+Twitter’s stock was in hot demand after the Walt Disney Company (DIS) revealed that it will create new live shows specifically for its website. In a press release, ESPN, Disney’s sport network, announced that it had entered into an agreement to create content, including sports, news and entertainment, exclusively for Twitter. ESPN also mentioned that the deal will provide “advertising opportunities."
+On Monday night, Twitter revealed at the NewFronts event in New York that it has signed over 30 content deals with companies like Comcast Corp.'s (CMCSA) NBCUniversal, Viacom Inc. (VIAB), Vice Media and Will Packer Media.
+The partnerships form part of Twitter’s strategy to expand its video content. Premium videos could attract new users and advertisers, who view this type of content as a great marketing platform. "We're not guessing, we're listening. People tell us what they want to see with the conversations they share on Twitter," said Twitter's Global Head of Content Partnerships Kay Madati. "In the past year, we've really expanded our efforts with the best publishers and content creators in the world to bring a slate of programming that reflects those diverse content interests."
+In its recent earnings report, Twitter said that over half of its advertising revenues are generated from video, and it revealed on Monday that daily video views have nearly doubled in the past year. (See also: Twitter Traders Bet on a 20% Stock Decline.)
+Fitbit Teams up With Google
+Fitbit also delivered some promising news on Monday. The wearables specialist announced that it will use Alphabet Inc. (GOOGL) Google’s Cloud Healthcare API to increase its access to the health-care system.
+The collaboration means that doctors and other medical professionals will now be able to view a more complete profile of patients by connecting Fitbit user data to electronic health records. Fitbit’s co-founder and CEO said the partnership will enable the company to grow faster and reach more people.
+"Google gives us an opportunity to transform how we scale our business, allowing us to reach more people around the world faster, while also enhancing the experience we offer to our users and the healthcare system," James Park said in a statement.
+Fitbit has been eager to integrate its wearables with healthcare. The company recently acquired Twine Health, a cloud-based care platform that specializes in managing chronic illnesses such as diabetes and hypertension. (See also: 'Hard to See a Floor' on Fitbit: Morgan Stanley.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

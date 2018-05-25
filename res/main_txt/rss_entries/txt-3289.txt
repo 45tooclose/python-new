@@ -1,0 +1,144 @@
+
+
+    
+                          What is a 'Callable Swap'
+
+      A callable swap is a contract between two counterparties in which the exchange of one stream of future interest payments is for another based on a specified principal amount. These swaps usually involve the transfer of the cash flows from a fixed interest rate for the cash flows of a floating interest rate. The difference between this swap and a regular interest rate swap is that the payer of the fixed rate has the right, not the obligation, to end the contract before its expiration date. Another term for this derivative is a cancellable swap.
+A swap where the payer of the variable or floating rate has the right, not the obligation, to end the contract before expiration is called a putable swap.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Extendable Swap                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Delayed Rate Setting Swap                     
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Interest Rate Swap                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Forward Swap                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Callable Swap'
+      There is little difference between an interest rate swap and a callable swap other than the call feature. However, this does dictate a different pricing mechanism which accounts for the risk the payer of the floating rate must take. The call feature makes it more expensive than a plain vanilla interest rate swap. This cost means that the fixed rate payer will pay a higher interest rate and possibly need to pay additional funds to purchase the call feature.
+Although many of the mechanics are similar, a callable swap is not the same as a swap option, which is better known as a swaption.
+Why Use a Callable Swap?
+An investor might choose a callable swap if they expect the rate to change in a way that would adversely affect the fixed rate payer. For example, if the fixed rate is 4.5% and interest rates on similar derivatives with similar maturities fall to perhaps 3.5%, the fixed rate payor might call the swap to refinance at that lower rate.
+Callable swaps often accompany callable debt issues, especially when the fixed rate payer is more interested in debt cost rather than the maturity of that debt. 
+Another reason to use this derivative is to protect against the early termination of a business arrangement or asset. As an example, a company secures financing for a factory or land at a variable interest rate. They may then seek to lock in a fixed rate with a swap if they believe there is a chance it will sell the financed asset early due to a change in plans.
+The additional cost of the call feature is similar to an insurance policy for the financing.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

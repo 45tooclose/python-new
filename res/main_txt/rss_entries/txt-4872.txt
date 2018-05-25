@@ -1,0 +1,98 @@
+
+
+
+    
+        
+            
+        
+          
+                
+      
+
+    
+
+    
+        It is no secret that behind every successful investment manager there is a written, measurable and repeatable investment strategy. However, many investors jump from one trade to another, putting little effort into creating and measuring their overall strategies.
+The following questions will help you create an investment strategy that is written, measurable and backed by your own strong beliefs. This will lead to more consistent investment performance and help you mitigate emotional investment decisions.
+Most importantly, it will help you avoid a scattered portfolio of individual investments that, when looked at as a whole, have no overall theme or objective.
+Steps to an Investment Strategy
+
+Can you write down your investment strategy as a process?
+	To quote the late Dr. W. Edwards Deming, a world famous author and management quality consultant, "If you can't describe what you are doing as a process, you don't know what you are doing." Like anything that requires a disciplined process, it is important to write down your investment strategy. Doing this will help you articulate it. Once your strategy is written, you should look over it to make sure that it matches your long-term investment objectives. Writing down your strategy gives you something to revert back to in times of chaos, which will help you avoid making emotional investment decisions. It also gives you something to review and change if you notice flaws, or your investment objectives change. If you are a professional investor, having a written strategy will help clients better understand your investment process. This can increase trust, mitigate client inquiries and increase client retention.
+
+
+Does your investment strategy contain a belief about why investments become over- or undervalued? If so, how do you exploit that?
+	This question could relate to whether or not you believe that investment markets are efficient. Ask yourself, "What makes me smarter than the market? What is my competitive advantage?" You may have special industry knowledge or subscribe to special research that few other investors have. Or, you may have beliefs about exploiting certain market anomalies (see Making Sense Of Market Anomalies) like buying stocks with low price-to-book ratios. Once you have decided what your competitive advantage is, you must decide how you can profitably execute a long-term trading plan to exploit it. (S)
+Your trading plan should include rules for both buying and selling investments. Also, keep in mind that your competitive advantage can eventually lose its profitability simply by other investors implementing the same strategy. On the other hand, you may believe that investment markets are completely efficient, meaning that no investor has a consistent competitive advantage. In this case, it is best to focus your strategy on minimizing taxes and transaction costs by investing passively in indexes.
+
+
+Will your investment strategy perform well in every market environment? If not, when will it perform the worst?
+	There is an old saying on Wall Street, "The market can remain irrational longer than you can remain solvent." Good investment managers know where their investment performance comes from, and can explain their strategy's strengths and weaknesses. As market trends and economic cycles change, many great investment strategies will have periods of great performance followed by periods of lagging performance. Having a good understanding of your strategy's weaknesses is crucial to maintaining your confidence and investing with conviction, even if your strategy is temporarily out of vogue. It can also help you find strategies that may complement your own. A popular example of this would be mixing both value and growth investing strategies.
+
+
+Do you have a system in place for measuring the effectiveness of your investment strategy?
+	It is difficult to improve or fully understand something that you do not measure. So you should have a benchmark to measure the effectiveness of your investment strategy. Your benchmark should match your investment objective, which in turn, should match your investment strategy.
+Two common types of investment benchmarks are relative and absolute benchmarks. An example of a relative benchmark would be a passive market index, like the S&P 500 Index or the  Barclays Aggregate Bond Index. An example of an absolute benchmark would be a target return, such as 6% annually. Although it can be a time-consuming process, it is important to consider the amount of risk you are taking relative to your investment benchmark. You can do this by recording the volatility of your portfolio's returns, and comparing it to the volatility of your benchmark's returns over of periods of time. More sophisticated measures of returns that adjust for risk are the Treynor Ratio and the Sharpe Ratio. (See also: Measure Your Portfolio's Performance.)
+
+The Bottom Line
+Sun Tzu, an ancient Chinese military general, once said, "Tactics without strategy is the noise before defeat." He knew that having a plan before you go into battle is crucial to winning.
+Good money managers have a clear understanding of why investments are over- and undervalued, and know what drives their investment performance. If you are going to battle against them everyday in investment markets, shouldn't you? Great trades may win battles, but a well-thought-out investment strategy wins wars. (See also: Create Your Own Trading Strategies.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

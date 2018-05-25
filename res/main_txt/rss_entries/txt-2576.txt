@@ -1,0 +1,81 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Liquidity, or the ability to buy and sell securities on short notice and at reasonable prices, is a hallmark of well-ordered securities markets. However, the U.S. stock market may not be as liquid as most investors are led to believe, and that could exacerbate a crash once a wave of selling starts to snowball. Charles Himmelberg, a Goldman Sachs Group Inc. economist wrote recently, as quoted by The Wall Street Journal: "There is good reason to worry about how well liquidity will be provided during episodes of market duress. This could contribute to price declines and possibly prolonged periods of financial instability."
+"Without liquidity, markets plummet, as they did in late 2008 and early 2009," as Seeking Alpha contributor Jake Zamansky wrote in 2016. Moreover, he warned about declining liquidity among bonds and mutual funds in 2016, which he called "a ticking time bomb." Two years later, the problem appears to have gotten even worse.
+'Trading by Appointment'
+Years ago, a Merrill Lynch executive of this writer's acquaintance regularly warned about investing in stocks that, in his words, "trade by appointment." Thinly-traded issues tend to have wide spreads between the prices at which investors can buy or sell them, spreads that are bound to widen even more if there is a rush of orders on one side of the market, either to buy or to sell.
+The Journal notes that there are more than 8,500 publicly-traded companies in the U.S., and the average daily trading volume for more than half of these is under 100,000 shares. The SEC is concerned about the potential dangers, and is considering measures to increase liquidity in small-cap stocks, perhaps by having all trading in them concentrated in a single exchange, the Journal indicates.
+Empty Shelves
+Thin trading volumes and gaping spreads are not only an issue for sellers, but also for buyers. The Journal cites the case of a small cap fund manager who's had to wait weeks before he could acquire shares in a given company at a reasonable price. "It's like going into a grocery store and there's nothing on the shelves," is how Jeffrey Cleveland, chief economist at Los Angeles-based investment management firm Payden & Rygel, described the situation to the Journal. He added that this is a hot topic among traders.
+The Best of Intentions
+One of the policy responses to the 2008 financial crisis was the so-called Volcker Rule, which sharply curtailed banks' ability to make markets in various securities. Coupled with increased capital requirements, these moves may have made banks less risky at the expense of withdrawing liquidity from the securities markets, the Journal notes. Former FDIC head Sheila Bair, on the other hand, believes that reducing banks' capital cushions is a dangerous mistake. She sees dangers from increasing levels of debt throughout the U.S. economy. (For more, see also: 4 Early Warning Signs of the Next Financial Crisis.)
+Get Out While You Can
+Meanwhile, the market for U.S. government debt is frequently cited as the deepest and most liquid in the world. However, the Journal warns, the weekly dollar volume of trading in that debt has shrunk since 2007, even as the total outstanding value of those bonds has more than tripled during the same period. In the corporate bond market, the Journal notes that large orders increasingly have to be broken up into smaller pieces, and executed over longer periods of time. Options trading is beset by similar problems, with more products and more exchanges diluting trading and increasing spreads, per the WSJ.
+The good news is that smaller bond trades seem unaffected, and corporate bond spreads are narrower than before the financial crisis, per traders interviewed by the Journal. However, the increased popularity of investing in bond indexes has produced large demand for new issues, while crimping it for older issues, the same sources indicate. (For more, see also: The Next Financial Crisis: Housing or Liquidity.)
+In fact, some recent selling action in both the stock and bond markets apparently includes investors who otherwise would have chosen to hold on, but who fear that shrinking liquidity will leave them unable to get through the exits in the future, the Journal observes. "You might as well sell when the liquidity is there," is how Marc Bushallow, managing director of fixed income at investment management firm Manning & Napier, put it to the Journal.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

@@ -1,0 +1,92 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        WhatsApp was founded in 2009 by Brian Acton and Jan Koum as an alternative to pricey SMS services. The app allows users to upload their contact book and message anyone who has the app installed, at no cost. It is available for iPhones, Androids, Blackberries, Windows Phones, Nokia (NOK) phones and, most recently, desktops.
+Facebook Inc. (FB) purchased WhatsApp in February 2014 for $19 billion, and according to the 2014 Facebook Form 10-Q, in the nine months preceding September 30, 2014, WhatsApp generated revenue of $1,289,000.
+As of February 2018, WhatsApp had 1.5 billion users and is Facebook's second-biggest property, after its namesake app. It has surpassed Facebook's messenger and Instagram, the third and fourth biggest properties. So how is WhatsApp making its money?
+One Dollar at a Time and Beyond
+The short answer used to be $1 at a time. In some countries, the app used to cost about $1 to download; in others, the first year is free, but each subsequent year costs $1 – in other words, WhatsApp had a subscription model. At the peak under this model it has about 700 million users worldwide; yearly revenue can be estimated at $700 million per year at this time.
+In January 2016, Facebook revealed in a 10-Q filing that because WhatsApp was monetized in "a very limited fashion," it may not be generating meaningful revenue in the long term, hinting that the strategy would change. Shortly after WhatsApp announced in a blog post that the era of subscriptions had come to an end, and the messaging app would now be free to use. 
+There are still no ads in the app, however. "Starting this year, we will test tools that allow you to use WhatsApp to communicate with businesses and organizations that you want to hear from," the company wrote at the time. The goal is to have people communicate directly with i.e. their banks, airlines etc. over the app, while the businesses picks up the bill previously paid through subscriptions. 
+Though WhatsApp's financial statements aren't public (Facebook doesn't break down its revenue by company), Forbes estimated total revenue to be $5 billion and the average revenue per user to be $4 by 2020. As of February 2018, WhatsApp had over 1.5 billion users and sees 60 billion messages sent per day, according to Facebook CEO Mark Zuckerberg in a Q4 2017 conference call. 
+Other SMS Apps
+Outside of America, where sending text messages is more expensive, SMS apps are popular and have successfully monetized. WeChat – the popular Chinese SMS app has ads as well as online games. The company is partly responsible for Tencent's, which owns WeChat, $6 billion revenue in the third quarter of 2016. The app has over 846 million active users.
+Focusing on Growth
+WhatsApp is adding around a million users per day, mostly in Latin America, India and Europe. With SMS apps, growth is exponential – when one person in a social group downloads and advocates using the app, many new users download the app in order to communicate with the original person. These new users then encourage other members of their other social groups to use the app.
+By increasing market penetration, the app becomes indispensable and the user base grows. 
+
+Find more statistics at Statista
+Is it Really About the Money Though?
+Industry insiders have speculated that part of the rationale behind acquiring WhatsApp was for Facebook to access user’s behavioral data and personal information.
+With location sharing data, 60 billion messages sent per day, and access to users' entire contact lists, Facebook has access to a ton of personal information – all uploaded and saved on its servers. While Mark Zuckerberg has previously promised that this data won’t be used to improve consumer targeting in Facebook ads, it will be unless the user changes the settings to not share information with Facebook.
+End-to-End Encryption Controversy
+WhatsApp, as well as other messaging providers (including Apple), have been in hot water with governments around the world after it was determined that terrorists used apps to communicate before, and during, attacks. Governments and counter terrorism agencies wanted the companies behind these apps to share the encryption key in order to gain access to messages sent and received by the terrorists. The companies, however, refused to oblige. This led to WhatsApp's adoption of end-to-end encryption, which prevents anyone, including WhatsApp, except the sender and receiver from gaining access to the data shared on the app.
+The Bottom Line
+Whether you believe that Facebook overpaid for WhatsApp or not, the fact is that the app has a growing revenue stream with more room to grow.  
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '',
+     'leadGenVertical' : '',
+     'leadGenLayout' : '',
+     'leadGenPage' : ''
+    });
+                    
+            
+                

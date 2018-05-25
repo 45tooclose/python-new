@@ -1,0 +1,79 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Boeing Co.(BA) is set to acquire plane parts supplier KLX Inc. (KLXI). The $4.25 billion, or $63 per share, is an all-cash deal that includes $1 billion of net debt. It’s Boeing’s largest takeover under CEO Dennis Muilenburg, who has been searching for acquisitions to increase sales at its services business by threefold within 10 years.  This deal will give the aircraft maker support for its fast-growing maintenance and parts-supply division.
+Services To Fuel Growth
+Boeing has been shoring up more contracts for maintenance work in recent months like its $427 million deal with the Pentagon’s Defense Logistics Agency announced last week. Under that five-year contract, which has an option for extension of an additional five years, Boeing will provide parts to the U.S. Navy and Marine Corp. to maintain F/A-18 Hornets. (See also: Boeing Nabs $427 Million Defense Contract.)
+Now with KLX, Boeing can better compete in the $2.6 trillion, 10-year services market, the company said. KLX be part of Boeing Global Services and integrated with Aviall, Boeing’s current parts supplier. The takeover will bring an annual cost savings of about $70 million per year starting in 2021.
+"By combining the talent and product offerings of Aviall and KLX Inc., we will provide a one-stop-shop that will benefit our supply chain and our various customers in a meaningful way," said Stan Deal, president and CEO of Boeing Global Services in a press release.
+Comfortable Financials
+The deal still needs shareholder approval and would close in the third quarter of 2018. Boeing did not adjust its 2018 guidance or capital deployment strategy as it announced the takeover.
+The aircraft maker recently reported first-quarter financial results that were better than expected. Revenue was up 6.6% to $23.4 billion. Net income was $3.64 per share, topping the Street view by $1.05 per share. (See also: Boeing Looks for a Rebound After Strong Earnings.)
+Boeing shares are up more than 80% in the past year, driven in part by an improving economy with a booming e-commerce sector that has put Boeing’s planes in demand.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

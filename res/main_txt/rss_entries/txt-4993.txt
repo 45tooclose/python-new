@@ -1,0 +1,246 @@
+
+
+
+CV Market Watch™: Weekly Trading Overview ( 27 April - 4 May)
+Altcoin season seem to be underway, but the climbs are more cautious and gradual - and Bitcoin is still shy to cross the $10,000 threshold.
+
+
+ by  Christine
+Masters,
+4 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  Bitcoin (BTC) spent the entire week above $9,000, but was shy to cross the $10,000 barrier again. At the same time, altcoins had their boom times, marking a successful month in April after the slide that continued between mid-January and the end of March.
+
+
+
+
+Hello, Kitty! New Malware Me0ws Its Way into Mining Monero
+
+
+
+
+Bitcoin (BTC) heads for the weekend at $9676.06, up around 4.28 net this week, as the price rises only gradually. The price spikes in BTC are still tentative, as BTC added around 4.7% in the past 24 hours.
+
+baseUrl = "https://widgets.cryptocompare.com/";
+var scripts = document.getElementsByTagName("script");
+var embedder = scripts[ scripts.length - 1 ];
+(function (){
+var appName = encodeURIComponent(window.location.hostname);
+if(appName==""){appName="local";}
+var s = document.createElement("script");
+s.type = "text/javascript";
+s.async = true;
+var theUrl = baseUrl+'serve/v3/coin/chart?fsym=BTC&tsyms=USD,BTC';
+s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+embedder.parentNode.appendChild(s);
+})();
+
+Bitcoin trading has decreased its share on the markets, down to around 30% from habitual levels above 36%. Additionally, Bitcoin’s market cap dominance over the market is shrinking again, as altcoins are appreciating. The market cap dominance of BTC is headed below 37%. Tether (USDT) trading has increased above 14% of all deals, but also affects altcoins, and particularly, EOS.
+
+
+
+
+Ethereum (ETH) Headed for $800?
+
+
+
+
+Ethereum (ETH) is showing some strength as it gradually rose in the past month. ETH is up more than 17% this week, as selling pressures subsided, and trading volumes have picked up to above $4 billion in 24 hours. ETH rose to $776.64.
+Ripple (XRP) stagnated again at $0.90, adding just 6% this week, breaking the fast growing trend and consolidating below $1.
+Bitcoin Cash (BCH, BCC) is making the fight for $1,500 levels. Despite the bad publicity, BCH managed to jump over that level on one occasion last week. BCH trades at $1,488.52, adding a net 6.5% this week.
+EOS (EOS) continued to surprise, touching $20 this week before retreating a bit. The asset added a net 6.8% this week to $17.82. At one point, EOS trading took over 12% of all crypto deals, but since then, the interest has slid and the share of EOS has fallen to 7%, still extremely robust compared to altcoins. But some believe the asset is overhyped and due for a deep correction.
+Cardano (ADA) moved up the charts as the price is taking off. ADA was the biggest gainer in the top 10 of coins, adding another 21% to $0.36 for the week. But the asset is retreating ahead of the weekend.
+Litecoin (LTC) inched up, adding another 6% this week to $161.90, as the asset had remained depressed for weeks and is staging a minor rally now.
+Stellar (XLM) steadied at $0.43, after adding around 4% on the week. The Stellar project has been silent for a while, and the asset is off the spotlight after the strong weekly performance of EOS.
+
+IOTA (MIOTA) awakened from its slumber after the latest updates on the coming Trinity wallet. MIOTA added more than 17% in the past seven days, to $2.39, as volumes were returning, though not dramatically.
+NEO (NEO) had a robust week with a 12% growth to $85.52, as the project moves along and gets a boost from Asian trading. The Binance monthly payment of the GAS asset spiked some interest in NEO.
+TRON (TRX) continues to enjoy high-level publicity as it counts down to the launch of the mainnet at the end of May. But the price has some setbacks. TRX steadied to $0.083, sliding a bit in the past day to achieve a net 12% weekly gain.
+Monero (XMR) hardly made notice of the MoneroV hard fork that happened at the beginning of May. XMR was one of the few losers this week, sliding a net 5% to $246.60. 
+DASH (DASH) remained off the spotlight and level at $463.65, adding less than 1% net this week, as the project failed to impress with its master node algorithm changes.
+NEM (XEM) gained a net 7% on the week to $0.43, but attention remains focused on other projects.
+Last week also saw the pump for Primecoin (XPM) create unprecedented hype with the promise of a merge-fork into Bitcoin Prime. But XPM started to slide soon afterwards, to $3.28. Still, the asset is up 252% this week. ZClassic (ZCL), which surged as high as $39, is down 8% on the week to $20.73, as the expectations for another merge-fork related to the asset were dispelled and no announcement was made. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

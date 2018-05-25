@@ -1,0 +1,81 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Semiconductor giant Intel Corporation (INTC) provides computer chips for integrated digital platforms for the computing and communications industries. The stock is an important component of the Dow Jones Industrial Average, S&P 500 and Nasdaq Composite. Intel stock has a P/E ratio of 22.74, while the three major averages have P/E ratios of 23.63, 24.09 and 25.01, respectively. Intel is also the heaviest weighed component of the iShares PHLX Semiconductor ETF (SOXX), with a 9.3% weight among the 30 components of the ETF.
+Intel stock closed Thursday at $52.28, up 13.3% year to date and up 24.4% since its 2018 low of $42.04 set on Feb. 9. The stock set its 2018 high of $55.79 on April 27, the morning after the earnings beat reported after the close on April 26.
+The PHLX Semiconductor Index is up just 1.1% year to date and is just 5.3% above its Feb. 9 low. The index is in correction territory at 13.5% below its high set on March 13. Intel reported robust first quarter earnings on April 26 and raised its full-year 2018 revenue guidance. Revenue from data centers surged for server, networking and storage applications. The company also showed stabilization in the personal computer market. (See also: Intel's Stock Seen Jumping 16% on Raised Forecasts.)
+The daily chart for Intel
+Courtesy of MetaStock Xenith
+The daily chart shows that Intel has been above a "golden cross" since Oct. 2, when the stock closed at $39.04. A "golden cross" occurs when the 50-day simple moving average rises above the 200-day simple moving average, indicating that higher prices lie ahead. The first horizontal line on the chart is my annual pivot of $44.31, which was a magnet between Jan. 3 and Feb. 14. The second line is my semiannual pivot of $46.75, which was a magnet between Jan. 2 and Feb. 23. My second quarter pivot of $48.77 was tested between April 2 and April 6.
+[Check out Chapter 2 of the Technical Analysis course on the Investopedia Academy to learn about using moving averages to develop your trading strategy.]
+The weekly chart for Intel
+Courtesy of MetaStock Xenith
+The weekly chart for Intel is positive, with the stock above its five-week modified moving average of $50.91. The stock is well above its 200-week simple moving average of $35.73, also known as the "reversion to the mean," last tested during the week of Feb. 12, 2016, when the average was $27.76. The 12 x 3 x 3 weekly slow stochastic reading is projected to end the week at 75.12, just below the overbought threshold of 80.00.
+Given these charts and analysis, investors should buy Intel shares on weakness to my quarterly value level of $48.77 and reduce holdings on strength to my monthly risky level of $59.89. (For more, see: Intel Applies for Patent on Crypto Mining Chip.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Chartadvisor-Article'
+    });
+                    
+            
+                

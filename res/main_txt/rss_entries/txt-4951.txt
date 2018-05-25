@@ -1,0 +1,209 @@
+
+
+
+How to Communicate the Value of a New Token
+With so many ICOs and new tokens entering the market, it’s very difficult to accurately convey the value of your token. In this article we discuss ways to do so.
+
+
+ by  Contributor
+Author,
+13 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+Subscribe
+
+
+  The ICO world is getting crowded. According to stats, 210 ICOs were launched in 2017, while over 180 were launched during the first three and a half months of 2018 alone. As the totals raised by the ICO world continue to rise, they are becoming increasingly stratified into mega-ICOs such as Telegram, which made $850 million during their first funding round, and other ICOs who don’t attract as much mainstream investment hype.
+It’s an exciting time to be offering a token sale, but it can also be a frustrating one. Genuinely promising ICOs can get lost in a sea of cash grabs, poorly-thought-out products, and outright scams. A successful token launch doesn’t just require a good product, but excellent marketing and communication as well. Buyers must both, hear of your token in the first place and understand its value and utility. Most savvy token buyers who are genuinely interested in nurturing a productive crypto space rather than a series of pump-and-dump schemes will look past your ICO if you can’t explain this vital information.
+So how can you convince investors that your promising ICO is, in fact, a good purchase? Here are some essential marketing practices to check off:
+A High-Quality WhitePaper
+Most businesses outside of the tech world seek funding from a bank or another financing source by preparing a business plan, which lays out in detail the market need they’re responding to, the design of their business, and how they plan to manage it. ICOs aren’t quite the same as a business seeking a bank loan, but the goal of a quality whitepaper is similarly to communicate, in simple and effective terms, how a project will work and why it’s needed in its industry space.
+This sounds easy enough, but the ICO world is crowded with poorly written whitepapers. VentureBeat contributor Adam Ghahramani nailed many common issues with crypto whitepapers in a sarcastic “how to” article, exhorting writers to “Never use a short word when a long one will do.” Though many whitepapers are stuffed with buzzwords and padding that add little to a potential token buyer’s actual understanding of what the token does, an informal survey of ICO whitepaper complexity by blockchain entrepreneur Reza Jafery finds that whitepapers written using simple, easy-to-understand language raise more money than impenetrable ones.
+
+Use Cases
+Your token offering might not have a viable working platform yet; the entire point of the ICO, after all, is to fund the construction of such a platform. However, your whitepaper and other marketing materials can still present a clear theoretical scenario of how your product would work. Fr8 Network, a startup bringing blockchain solutions to the trucking industry, provides a use case within the first few pages of their whitepaper, explaining how a theoretical Fr8 Network user, brokerage operator “Mike,” would use the Fr8 Network platform from beginning to end.
+Laura Brandenburg, writing for Bridging the Gap, explains that many technical use cases run the risk of being either too detail-oriented or not detailed enough. She points out that use cases must clearly explain how a software product meets user needs on a step-by-step basis without losing that essential narrative in a sea of technical details about how the business will implement the software.
+Explain Coin Economy
+Your token’s value will be partially determined by its eventual scarcity. Token purchasers don’t want to sink cash into a token that will eventually be so common as to be worthless. Be sure to explain how and when tokens will be released into the wider crypto economy. If your token pool has a hard cap, make the initial distribution schema crystal clear, while if your token pool has no hard cap make sure to explain how a certain level of scarcity is built into the token generation structure.
+A coin’s economic value isn’t just about scarcity, but its utility among customers. And that utility is determined in part by the wider industry conditions your token disrupts. A token for disrupting car buying will fail, regardless of technical brilliance, if its producers lack a solid understanding of the economics of car purchases.
+SuccessLife’s whitepaper explains both these economic metrics well. The initial pricing of their ICO sales, their hard market cap, their fundraising goals, and their percentage allocation of the entire token pool are all explained clearly in their whitepaper. Furthermore, they explain their token’s broader economic placement. SuccessLife is the cryptocurrency venture of Success Resources, a personal development group with over twenty-five years of experience offering successful events featuring speakers such as Tony Robbins. Success Resources’ market prominence in the personal development world, their whitepaper explains, makes them uniquely well-suited to propose tokenized solutions for that thriving economy. They have far more experience, connections, and resources than a just-founded, bootstrapping personal development startup. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

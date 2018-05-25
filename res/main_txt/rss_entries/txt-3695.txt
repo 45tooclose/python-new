@@ -1,0 +1,140 @@
+
+
+    
+                          DEFINITION of 'Coskewness'
+
+      Coskewness, in statistics, measures how much three random variables change together, and is used in finance to analyze security and portfolio risk. If two random variables exhibit positive coskewness, they will tend to undergo positive deviations at the same time. But if they exhibit negative coskewness, they will tend to undergo negative deviations at the same time.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Variable Cost Ratio                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Normal Distribution                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Negative Correlation                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Random Variable                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Coskewness'
+      Coskewness is a measure of securities’ risk in relation to market risk, and was first used to analyze risk in stock market investments by Krauss and Litzenberger in 1976, and then by Harvey and Siddique in 2000. Skewness measures the frequency of excess returns in a particular direction, which describes an asymmetry from the normal distribution.
+Coskweness is much like covariance, which is used in the capital asset pricing model as a measure of the volatility, or systematic risk, of a security in relation to the market as a whole – which is otherwise known as beta. Thus, assets with higher covariance contribute more to the variance of a well-diversified market portfolio – and should command a larger risk premium.
+Investors prefer positive coskewness, because this represents a higher probability that two assets in a portfolio will show extreme positive returns in excess of market returns at the same time. If the return distributions of these two assets tended to exhibit negative coskewness, it would mean that both assets have a higher probability of underperforming the market at the same time.
+Everything else being equal, an asset with higher coskewness should be more attractive as it increases the systematic skewness of an investor's portfolio. Assets with higher coskewness should provide a hedge against periods when the benefits of portfolio diversification deteriorate; such as during periods of high market volatility, when correlations between various asset classes tend to rise sharply. In theory, positive coskewness reduces the risk of a portfolio and lowers the expected return, or risk premium. Emerging markets, for example, is an asset class that might reduce portfolio variance, because it is more “right-skewed."
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

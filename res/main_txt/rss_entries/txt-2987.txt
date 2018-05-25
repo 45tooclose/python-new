@@ -1,0 +1,75 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        On Tuesday, the 10-year Treasury yield broke past the closely watched benchmark of 3%, reflecting its highest level since January 2014. As the Street battles over the influence of rising interest rates on the global economy, conflicted investors—already shaken up by other broader market concerns such as an impending global trade war, inflation and heightened regulation in the tech sector—may be smart to seek out stocks positioned to perform well in both periods of economic growth and economic deceleration. In a story published Wednesday, Barron's pinpointed a handful of stocks for "the macro-economically conflicted" investor, focusing on stocks trading at inexpensive valuations and with fast-growing dividends. (See also: Why Apple, Visa, Goldman Can Outperform as Rates Rise.)
+Barron's Jack Hough highlighted chipmaker Broadcom Ltd. (AVGO), regional bank KeyCorp (KEY) and apparel retailer Gap Inc. (GPS) as companies with relatively cheap stocks that are expected to continue to lift their dividends. The analyst noted that "cheap" is a byproduct of solid dividends. Of Goldman Sachs' four stock indexes, which group equities based on certain factors, Hough writes that dividend growers are the cheapest, trading at 13.3 times earnings, versus the average S&P 500 company price-to-earnings ratio of 16.8. The median company in Goldman's dividend-growth basket yields 3%, and is forecast to grow its payments by 12% a year, on average, through 2019, according to Barron's. In 2017, the dividend-growers returned 4% more on average that the S&P 500. 
+In the case that the economy slows, Hough suggests that investors "will be glad to have healthy dividend payments coming in." In the more bullish case for the macro environment, "if the economy roars and bond yields shoot higher, the dividend increases could help these stocks hold their appeal." 
+Stocks for Conflicted Investors
+KeyCorp, struggling with a faster jump in short-term rates, which it pays to lenders, than long-term rates, which it offers to its buyers, is among banks struggling with slimming margins. Despite this issue, Barron's highlighted upside from its 2016 acquisition of First Niagra Financial Group, indicating that the buy could boost cost-cutting efforts and cross-sell Key products to a million new customers. KEY trades around 12 times earnings, with earnings-per-share (EPS) slated to jump 25% in 2018 and 10% in 2019. The stock yields 2.1% based on a dividend rate of $0.42 per share. The Street is forecasting dividend payments to soar 78% per share by 2020.
+Semiconductor manufacturer Broadcom, down near 11% year-to-date (YTD), saw its blockbuster bid for Qualcomm Inc. (QCOM) shut down by the White House earlier this year on the unprecedented grounds of national security risk. Hough expects smaller deals to be pursued by the company to facilitate more cash flowing back to shareholders. AVGO, which trades at 12 times earnings, has a 3.1% dividend yield based on $7 a share per year in payments. Analysts, on average, expect payments to reach $11 per share by the end of Broadcom's fiscal year 2020. 
+Gap, far from a Street favorite, with just two out of 27 analysts who cover the stock recommended it at buy, noted Barron's, has been seen as losing out to the rising influence of Amazon.com Inc. (AMZN). Hough indicated that while investors are focused on its Gap-branded stores, Old Navy could bring in 75% of earnings within two years. He sees the brand as "thriving" on several factors including "fast fashion," noting that "Old Navy is the only fast-fashion player with a focus on families as opposed to singles." GPS trades at 11 times earnings and yields 3.3% after lifting its payment 5% in March to $0.97 per share. The Street is forecasting a similar hike this year, wrote Hough. (See also: Inflation Is ‘Mother of all Risks’: Deutsche Bank.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

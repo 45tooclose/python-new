@@ -1,0 +1,76 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Jim Keller, the head of Tesla Inc.’s (TSLA) Autopilot unit, has become the latest high profile executive to leave the electric car maker.
+In a statement to Electrek, Tesla confirmed that the chip architect quit his role as the company’s vice president on Tuesday to focus exclusively on his core passion of microprocessor engineering. Sources speaking with Electrek and The Wall Street Journal said that Keller is now set to join Intel Corp. (INTC).
+“Today is Jim Keller’s last day at Tesla, where he has overseen low-voltage hardware, Autopilot software and infotainment,” said a Tesla spokesperson. “Prior to joining Tesla, Jim’s core passion was microprocessor engineering and he’s now joining a company where he’ll be able to once again focus on this exclusively. We appreciate his contributions to Tesla and wish him the best.”
+Keller joined Tesla from Advanced Micro Devices Inc. (AMD) in January 2016. Shortly after his appointment, several of his former colleagues followed him to Tesla, fueling speculation that electric car maker was keen to develop its own chip. CEO Elon Musk finally confirmed these rumors in December 2017, revealing that Keller was responsible for developing a chip for self-driving applications. (See also: Stock Market Too Optimistic About Self-Driving Adoption: Morgan Stanley.)
+Tesla said that Pete Bannon, one of the many chip designers that Tesla hired after bringing in Keller from AMD, will now take over its Autopilot hardware team. Bannon was a former colleague of Keller at Apple Inc.’s (AAPL) PA Semi.
+“Pete has been building processors since 1984, co-led the development of Apple’s A5 chip and then continued development through to the A9 chip,” a Tesla spokesperson said. “Prior to Apple, Pete was the VP of architecture and verification at PA Semi. Andrej Karpathy, Tesla’s director of AI and Autopilot Vision, will now have overall responsibility for all Autopilot software.”
+Keller’s departure marks yet another big leadership shakeup within Tesla’s Autopilot team. Keller took over the duty of spearheading Tesla’s autonomous driving technology last June after his former boss Chris Lattner left the company. Lattner, who joined Tesla to much fanfare after over a decade at Apple, quit his role after just six months. (See also: Tesla Replaces Its Autopilot Head After Six Months.)
+Keller isn’t the first executive to leave Tesla this year. Former global president of sales and service Jon McNeill left for Lyft Inc. in February. Then, in March, two of Tesla’s top financial executives, Eric Branderiz and Susan Repo, also departed.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

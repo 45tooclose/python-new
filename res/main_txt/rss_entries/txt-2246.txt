@@ -1,0 +1,44 @@
+
+
+Ethereum may be on the brink of a blockchain split.
+At least, that was the mood at a meeting of top ethereum developers late last week where a discussion around a code proposal called EIP-999 led some to speculate that the creation of two competing blockchains is now a possibility. Indeed, it's now believed the proposal, which which seeks a technical fix that would return $264 million in funds lost due to the error of their owners, is so contentious, a minority of users may chose to defect.
+Those in favor of the proposal point to frequently lost ether due to buggy code, arguing that the platform should ensure against such mistaken losses. But on the other side, many warn that editing code after deployment could damage not only the security but also the integrity of the platform.
+"It's clear no matter where you stand that the issue is contentious enough that if it goes forward and implements then it will generate a contentious hard fork," developer of ethereum's Mist browser Alex Van de Sande, said during the dev meeting on April 20. 
+
+"It's unavoidable that it will create a split," he continued.
+Spearheading the code change is Parity Technologies, the ethereum software company behind the wallet that was impacted by the fund freeze. Founded by ethereum co-founder Dr. Gavin Wood in 2015, Parity is the second most popular ethereum software, used by almost one-third of the network.
+Speaking at the meeting, two representatives from Parity, communications officer Afri Schoedon and co-founder and CEO of the company Jutta Steiner, urged client developers to move forward with EIP-999 implementations.
+"For me, the most logical step to take is just implement EIP-999, and I don't see what waiting another four weeks to conclude would benefit," Schoedon said.
+Steiner echoed this, emphasizing that implementing the code doesn't necessitate a split.
+But also at the meeting, Péter Szilágyi, the lead developer of Geth, the Ethereum Foundation-led ethereum software which serves the majority of users, disagreed, stating that if the code is available it will create a contentious split.
+Szilágyi said:
+"We're talking about exactly the same networks and we're basically starting a tribalism war. I don't think we'll reach a consensus."
+Geth versus Parity
+And seeing developers of ethereum's two biggest competing softwares go head-to-head displays the "main concern" many developers have.
+Stepping back, though, it's important to understand how Parity and Geth work together. Each communicates directly with the ethereum virtual machine - which takes smart contract language and translates it into more general code - but Parity and Geth do so in different computer programming languages.
+By keeping up with each other's development, both softwares remain in sync and on the same blockchain not only with each other but also with ethereum more broadly.
+As such, it is critical that Geth and Parity contain the same code.
+If, for instance, one team implements EIP-999 and the other does not, the blockchain will fracture into two divergent groups - two ethereums.
+And just as the developers of the software implementations are split, so are ethereum users. An ether vote recently showed that a majority of people were opposed to the code change, but that voting method has come under much criticism. Other developers are looking to social media to help them gauge community consensus, but so far, it remains inconclusive.
+As such, Parity's Steiner said that the company "had not decided yet" whether to implement the change. But representatives from the company told CoinDesk that it would be publishing a statement in the coming days.
+What is known, though, is that without Parity, ethereum would lose quite a bit.
+Not only does the company provide a significant portion of the mining power on the network, but it also represents a large portion of ethereum's developer community.
+Speaking to this and Parity's drive to hard fork so they retrieve user funds, Van de Sande told CoinDesk:
+"Parity is a valuable team of developers, and they have a very large incentive to create a fork and support it."
+Dire disincentives
+But even with an incentive to move forward with implementation, there are plenty of disincentives.
+For one, if a split on ethereum occurs, it won't merely impact transactions, but also the thousands of tokens and businesses built on top of the blockchain, Van de Sande said in a blog post.
+Following a split, each ethereum contract will simultaneously exist on both chains, or as Van de Sande described, "If you own rare online cats, now every one of them will have an evil twin in a parallel universe."
+Speaking to CoinDesk, Van de Sande elaborated, saying, "The best case scenario for a split is one in which the minority fork is a very small community and most apps know which way to move forward, but it still might create an adversarial community."
+However, there is hope for disincentivizing Parity from going forward without full consensus, he said.
+If a split occurs, it is likely that both ethereum blockchains will lose value as the community splits into two groups. This means that the money lost as a result of the Parity fund freeze will decrease in value.
+"Since there is so much locked ether, that can amount to millions of dollars," Van de Sande said. "Then they might not be so incentivized to fork it."
+Yet, that still doesn't eliminate the issue that hundreds of millions of dollars of ether are locked up whereby users (including some high-profile ICO issuers) can use them.
+As such, Van de Sande is working on a method to refund the Parity losses with the same amount of value as was lost in the fund freeze, although he wouldn't go into much detail.
+Instead, he told CoinDesk:
+"The question is how to give value to those tokens, and that's something I, and I hope others, will probably be writing more about."
+Warning of shock sign via Shutterstock
+var riuyojisrlntqyiu,riuyojisrlntqyiu_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){riuyojisrlntqyiu_poll(function(){if(window['om_loaded']){if(!riuyojisrlntqyiu){riuyojisrlntqyiu=new OptinMonsterApp();return riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="//a.optnmnstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;riuyojisrlntqyiu=new OptinMonsterApp();riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");
+
+The leader in blockchain news, CoinDesk is a media outlet that strives for the highest journalistic standards and abides by a strict set of editorial policies. CoinDesk is an independent operating subsidiary of Digital Currency Group, which invests in cryptocurrencies and blockchain startups.
+

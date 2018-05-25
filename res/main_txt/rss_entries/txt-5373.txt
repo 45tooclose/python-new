@@ -1,0 +1,254 @@
+
+
+
+Cardano Technical Analysis: (ADA/BTC) Top Or Bottom, Which Way Is It Doubling Up?
+Nothing in this article is to be construed as investment advice. Neither the author nor the publication takes any responsibility or liability for any investments, profits or losses you may incur as a result of this information.
+
+
+ by  Ollie
+Leech,
+13 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  
+Cardano was looking promising to break above its 4,100 Sats resistance after the latest roadmap announcements were made earlier this week.
+However other alt-coins in the top 10 have been stealing the limelight, namely Bitcoin Cash, Litecoin and Ethereum who have all risen over 10% against BTC this week; while ADA sits in the red with a -2.03% loss over the past 7 days.
+With the crypto market starting to swell again, with an increase of $30 billion since the end of April, could things be about to pick back up again for ADA over the next week?
+ 
+Diving into the 2hr chart above we can see that ADA has started to enter into a new bullish phase after positively breaking out from a reverse head and shoulders pattern that appeared along the 3370 Sats level (orange curving lines).
+Since breaking out above this level, ADA now tracks inside a consolidating channel [blue lines] where the price action has begun oscillating between the upper resistance and the lower support twice now; creating a bearish double top and/or a potential bullish double bottom pattern.
+As you can see in the chart the upper channel sits well along the 0.618 fibonacci level (4,165 Sats), with the current price activity struggling to break above the lower fibonacci resistance inside the channel at 0.786 (3,815 Sats) and the uptrending blue support line. It’s likely we’ll see further candle consolidation between these two areas before a bigger movement sparks up.
+Looking at the momentum indicators on 15 min candles we can see that buying momentum is beginning to build behind the asset. MACD is holding out above the signal line and beginning to edge above the slower MA.
+RSI is showing a bullish convergence back up toward the top end of the channel and volume is also starting to slow down in anticipation of a surging uptrend.
+The ichimoku cloud indicator is also just now starting to show bullish sentiment gather ready to drive the token beyond the 0.786 fib level, to hopefully retest the 0.618 fib level above.
+
+Cardano ADA Price Targets
+Price targets for ADA will be set above the breakout area, once the asset has successfully retested the 4,165 Sats level.   The 1st price target will be set around 4,740 Sats to give a 13.81% gain from the breakout area. This has been a strong resisting/ support level throughout the history of ADA’s price action. It’s likely that any strong bull run we see for Cardano will meet strong bearish opposition at this stage, with the 0.382 fibonacci level below to act as a rebounding support area.   The second price target is set well above at 5,450 Sats along the 0.0 fib level, which represents the next key area of bearish resistance. A peak at this satoshi level will yield a return of 30.85% from the breakout area.  Support below this level is expected to sit around the 5,000 Sat mark once ADA corrects. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 
+
+
+Tags
+
+Cardano News
+
+ 
+
+.tag-element .taghoverext {
+    display: inline-block;
+    width: 5px;
+    background: #ff8931 !important;
+    border-radius: 2px;
+    height: 26px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background:#454b50;
+    transition:all 0.3s;
+}
+.tag-element:hover .taghoverext {
+    width:100%;
+}
+.tag-element .tag-href {
+    position:relative;
+    z-index:2;
+    background:none !important;
+    margin-top:0px !important;
+    color:#959595 !important;
+}
+.tag-element .tag-href:hover {
+    background:none !important;
+}
+.tag-element:hover .tag-href {
+    background:none !important;
+    color:#fff !important;
+}
+.tag-element {
+    position:relative;
+    border-radius: 2px;
+    border: solid 1px rgba(206, 212, 218, 0.2);
+    height: 27px;
+    display: inline-block;
+}
+ 

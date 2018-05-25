@@ -1,0 +1,222 @@
+
+
+
+SPINDLE Aims to Bring Asset Management to the Individual via Blockchain Tech
+The Japanese company plans to bring investors and fund managers together, on a fair and impartial level, using blockchain technology.
+
+
+ by  News
+Desk,
+18 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  The rapidly growing cryptocurrency market provides unprecedented opportunities for private investors to get involved. This doesn’t mean, however, that all of us are currently storming the crypto exchanges. The “Wild West feel” of the market and high opacity intimidate and discourage many people from actively contributing and being part of the movement.
+Approaching this very issue, a decentralized investment platform now plans to provide data transparency and more convenience in the investment process.
+
+Founded and developed in Japan, SPINDLE aims to create an entrance point of confidence into cryptocurrency investment and educate people who do not necessarily have a lot of experience in how investment and asset management can be an enjoyable way to enrich your life and mind.
+
+SPINDLE, the first match-making platform for private investors and cryptocurrency funds, enables users to compare falsify-disabled information on various investment options within the platform and converse directly with the fund managers to help diversify and grow their investments at their personal convenience.
+
+SPINDLE takes the best from the traditional finance world and its abundant history, expertise, tools, and services, and combines that with innovative, decentralized capital management methods, to bring in technological advantages, transparency and convenience.
+How it works
+The SPINDLE team believes that everyone, regardless of their background or financial position, can use investments as a tool to pursue their individual goals and intentions.
+To this end, SPINDLE has conceptualised an easy-to-use yet diverse platform that gathers a wide range of investment targets in one space and allows its users to freely customize their portfolio to their personal preferences.
+The procedure is simple.
+As an investor coming to the platform, you will have the option to purchase SPINDLE tokens (SPD), the official cryptocurrency used on SPINDLE’s service platform ZETA, directly through your mobile/desktop application. Alternatively, you will be able to also purchase and sell SPD on cryptocurrency exchanges where SPD would be listed.
+You can use SPD to directly invest in the cryptocurrency funds on the platform; if your investments pay off, you will then receive your returns in SPD which you can re-invest, trade, or exchange to your liking.
+
+“On our platform, investors are able to choose among the best managers and cryptocurrency funds that have been showing the most interesting results,” Masamitsu Hirai, CEO of SPINDLE’s developing company BLACKSTAR GROUP, explains.
+“Information about all the managers is entirely transparent, so there is no way to dupe the investor. In addition, within SPINDLE we make it possible to not just compare various capital management agents, but also to converse with them directly, so that all your questions can be answered. In this way you would be able to use the solutions that are most effective for you and diversify your assets as fully as possible.”
+
+Every contribution within ZETA is immediately recorded on the blockchain using smart contract technology –  this means absolute transparency in the relationship between investors and asset managers. Such a connection acts on equal terms without the need for conventional banks or securities companies to act as middlemen.
+The team behind SPINDLE believes that trust and fairness in the partnership between investors and fund managers can remove a barrier that has been stopping many people from getting involved in proactive asset management in the past.
+SPINDLE seeks to represent more than access to cryptocurrency investment targets – on a much larger scale, BLACKSTAR GROUP developed the concept to stand for an ideology.
+SPINDLE's mission is not just to attract more people towards conscious and confident investments, but also to help develop and strengthen the mindset of autonomy in thought and action. BLACKSTAR GROUP strongly believes in autonomy as the key to personal accomplishment and self-realization, and in blockchain technology and cryptocurrency as a powerful option to pursue the same and break out of traditionally exploitative social systems.
+While SPINDLE will commence by connecting investors with cryptocurrency hedge funds and asset managers, this is not the full scope of the platform. Plans for SPINDLE’s blockchain solution to asset management also contain the addition of promising ICOs and new tokens in the future. As a next step in the roadmap, this will offer private investors even more opportunities to diversify their portfolio.
+SPINDLE's ICO
+While the private presale has already closed, SPINDLE's ICO will take place in the spring of 2018, from 9 to 15 May. SPINDLE is to issue 10 billion SPD, over 60 percent of which will be made available for purchase by investors.
+Unlike many other ICOs, SPINDLE will not wait until the TGE is over to start developing the application; the platform ZETA, which began development works in early 2018, is scheduled for release between the fall and winter of 2018.
+If you are interested in SPINDLE, please visit the official website or follow SPINDLE on Telegram, Instagram, Medium, Reddit, Twitter, and Facebook. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

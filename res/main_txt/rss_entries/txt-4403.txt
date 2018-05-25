@@ -1,0 +1,86 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Automatic Data Processing Inc. (NASDAQ: ADP) offers human capital management solutions such as payroll services, benefits administration, compliance solutions and human capital management through its Employer Services segment. It delivers solutions as cloud-based software-as-a-service. Through its Professional Employer Organization (PEO) segment, ADP offers outsourcing services for human resources (HR) and benefit solutions, similar to those addressed by the Employer Services segment.
+Employer Services accounted for 76% of total revenue in Q3 2018, and ADP's PEO segment accounted for 29% of total sales. Both segments operate in highly competitive environments with both large, diversified players and smaller companies dedicated to these services. ADP reported $3.7 billion in revenue and $901 million in adjusted EBIT in Q3 2018 reported on May 2, 2018, and the company's market cap was $54.02 billion as of May 2, 2018.
+SAP
+SAP SE (NYSE: SAP) is a German enterprise software company with a diverse suite of enterprise resource planning products. Among the chief offerings are human capital management solutions, often deployed through the cloud. Cloud and software contributed 80% of total revenue in 2017. SAP reported revenue of €23.4 billion and net income of €4.1 billion in 2017, and the company's market capitalization was $134 billion as of May 2, 2018.
+Workday
+Workday Inc. (NYSE: WDAY) provides a suite of analytics, financial management and human capital management cloud applications. For the 9 months ended in October 2017, 83% of the company's revenue was attributed to subscriptions services, with professional service revenues making up the balance. Workday reported a yearly revenue of $1.57 billion and net losses of $408 million for the 12 months ended January 2017. WDAY had a market cap of $27.34 billion as of May 2, 2018.
+Ultimate Software Group
+The Ultimate Software Group Inc. (NASDAQ: ULTI) is one of the largest vendors of cloud-based human capital management solutions with its UltiPro product suite. The offering includes HR, payroll, analytics and benefits management products. In 2017, 85% of the company's revenues were attributed to recurring and license sources rather than services. The Ultimate Software Group reported total revenue of $940.7 million and a net income of $22.9 million in 2017. As of May 2, 2018, the company's market cap was $7.89 billion.
+Oracle
+Oracle Corporation (NYSE: ORCL) is a diversified corporate information technology provider. Its broad product and service offering includes database software, cloud infrastructure, hardware systems, application software and related services. HCM software is part of Oracle's software-as-a-service portfolio, which is marketed alongside enterprise resource planning, supply chain management and related tools. Oracle reported total revenue of $9.6 billion during the second fiscal quarter of 2018. Over that period, cloud-software-as-a-service revenues only represented 12% of the company's total sales. The company's market cap as of May, 2 2018 was $187.17 billion.
+Paychex
+Paychex (NASDAQ: PAYX) provides HR, payroll and benefits outsourcing services to small- and mid-sized businesses located in the United States and Germany. Paychex offerings include a broad range of human capital management and PEO services with integrated multi-platform software-as-a-service. Over second fiscal quarter of 2018, Paychex reported total revenue of $826.5 billion and net income of $217 million. PAYX's market cap was $21.99 billion as of May 2, 2018.
+Insperity
+Insperity Inc. (NYSE: NSP) provides HR services to small- and medium-sized businesses, collectively falling under the outsourced PEO umbrella. These services include human capital management, payroll services, financial management and other related solutions to help clients optimize their deployed resources. The company bundles cloud and native software applications with these outsourced services to complete a holistic offering. Insperity reported revenue of $3.3 billion and net income of $84.4 million during 2017, and the company's market cap as of May 2, 2018 was $3.4 billion.
+TriNet Group
+TriNet Group Inc. (NYSE: TNET) provides outsourced HR functions to small- and medium-sized businesses. These functions include payroll, human capital consulting and benefits management, which the company deploys through a cloud platform. Insurance services are the largest contributor to revenues, generating 86% of revenue over 2017. Over that period, TriNet reported revenue of $3.3 billion and net income of $178 million, and the company's market cap was $3.6 billion as of May 2, 2018.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '',
+     'leadGenVertical' : '',
+     'leadGenLayout' : '',
+     'leadGenPage' : ''
+    });
+                    
+            
+                

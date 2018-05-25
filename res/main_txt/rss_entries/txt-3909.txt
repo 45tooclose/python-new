@@ -1,0 +1,142 @@
+
+
+    
+                          DEFINITION of 'Abbreviated New Drug Application (ANDA)'
+
+      Abbreviated New Drug Application (ANDA) is a written request to the U.S. Food and Drug Administration (FDA) to manufacture and market a generic drug in the United States. Abbreviated New Drug Applications are “abbreviated” since they do not require the applicant to conduct clinical trials and require less information than a New Drug Application.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Abbreviated New Drug Submission ...                     
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Bioequivalence                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            New Drug                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Drug                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Abbreviated New Drug Application (ANDA)'
+      A company that wants to market a generic drug needs to show the Food & Drug Administration (FDA) that the drug has been found to be bioequivalent - meaning it gets to the part of the body where the drug works at the same time and in the same amount as the brand-name drug - through testing the generic version against the brand-name version on a small group of test subjects. Statistical analysis of the test samples must show that there is no significant difference between the two. This process is considerably less rigorous than the clinical trials that new drugs must go through. An exception applies to biosimilars, the generic equivalents of biologic drugs. Biosimilars may require clinical trials because it is harder to achieve bioequivalence with these drugs.
+An ANDA lists the new drug’s established name, trade name (if any), chemical name, dosage form(s) and strength(s), route of administration and proposed use. It asks for the name of the listed drug product that the proposed generic is equivalent to. It also asks if the drug is for the treatment of a rare disease, and whether the drug will be over-the-counter or prescription-only. The applicant may be required to attach supplemental data about drug chemistry, manufacturing and controls and other technical information.
+If an ANDA is approved, the generic drug will be listed in the Orange Book, which lists all medicines the FDA has found to be safe, effective, and low cost alternative to the public. An ANDA contains the information the FDA needs to evaluate how safe and effective a proposed generic drug is compared with its brand-name equivalent. The FDA will not approve the generic unless it is equally safe and effective.
+Generic drugmakers will typically file an ANDA when the patent protection period of a brand-name drug is about to expire. As a result, news of an ANDA filing can cause the share price of a brand-name drugmaker to drop and the share price of a generic drugmaker to climb, creating a new revenue opportunity for the latter. Investors should note that filing an ANDA does not guarantee approval by the FDA. Therefore, they should do their due diligence when an ANDA is filed by examining the submitted 10-K report of the drugmaker.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '',
+     'leadGenVertical' : '',
+     'leadGenLayout' : '',
+     'leadGenPage' : ''
+    });
+                          
+    
+  

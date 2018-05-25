@@ -1,0 +1,145 @@
+
+
+    
+                          What is 'Equal Weight'
+
+      Equal weight is a type of weighting that gives the same weight, or importance, to each stock in a portfolio or index fund, and the smallest companies are given equal weight to the largest companies in an equal-weight index fund or portfolio. Equal weighting differs from the weighting method more commonly used by funds and portfolios in which stocks are weighted based on their market capitalizations. Equal-weighted index funds tend to have higher stock turnover than market-cap weighted index funds, and as a result, they usually have higher trading costs.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Weighted Alpha                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Capitalization-Weighted Index                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Weighted Average Credit Rating                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Fundamentally Weighted Index                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Equal Weight'
+      Many of the largest and most well-known market indices are either market cap-weighted or price-weighted. Market cap-weighted indices, such as the Standard & Poor's (S&P) 500, give greater weight to the biggest companies according to market capitalization. Large-caps such as Apple and General Electric are among the biggest holdings in the S&P 500. Price-weighted indices, such as the Dow Jones Industrial Average (DJIA), give larger weightings to stocks with higher stock prices. In the Dow, as of May 2018, Boeing, United HealthGroup and Goldman Sachs are the largest components.
+The concept of equally weighted portfolios has gained interest due to historical performance and the emergence of several exchange-traded fund (ETF) options. Standard & Poor's has developed more than 40 different equal-weight indices based on combinations of market cap, market and sector.
+Performance of Equal-Weighted Indices
+Small-cap stocks are generally considered to be higher risk, higher potential return investments compared to large-caps. In theory, giving greater weight to the smaller names of the S&P 500 in an equal-weight portfolio should increase the return potential of the portfolio. Historically, this has been the case for the S&P 500. From 2003 through 2015, a $10,000 investment in the traditional S&P 500 index would have turned into $29,370. During that same period, the same investment in the S&P 500 Equal Weight Index (EWI) would have turned into $38,866.
+Examples of Equal-Weighted Funds
+Guggenheim offers more than a dozen different equal-weight fund strategies covering not only major indices such as the S&P 500 but also many of the market's major sectors. The Guggenheim S&P 500 Equal Weight ETF, for example, provides the same exposure to the smallest companies in the S&P 500 as it does to corporate giants such as General Electric and ExxonMobil.
+Other examples of equal-weight index ETFs include the Guggenheim Russell 2000 Equal Weight ETF, the First Trust NASDAQ-100 Equal Weighted Index Fund and the Index Funds S&P 500 Equal Weight ETF.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

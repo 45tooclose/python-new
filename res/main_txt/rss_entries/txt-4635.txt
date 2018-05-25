@@ -1,0 +1,216 @@
+
+
+
+Join the Discussion on Crypto at NEXT BLOCK Conference with the Special 1+1 Ticket Offer
+The NEXT BLOCK Conference in Ukraine is offering two tickets for the price of one (until May 7, 2018) so that as many people as possible can participate in this exciting and informative event.
+
+
+ by  News
+Desk,
+17 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  Secure Your 1+1 Ticket Now!
+Bobby Lee, Simon Cocking, and other prominent industry leaders, investors, and startup CEOs will gather in the five-star Hilton Kyiv Hotel in Ukraine on May 18 to share their vision for the future of blockchain, ICOs, and virtual currencies.
+This conference is poised to become the biggest industry event in the country and an exciting opportunity to get insights from crypto veterans, participate in various panel discussions, and engage in networking.
+NEXT BLOCK takes a multi-format approach through a sophisticated agenda that covers the latest developments and future trends of this fast-growing industry.
+Vocal Bitcoin proponent Bobby Lee, a co-founder of China's oldest cryptocurrency exchange and a board member of Bitcoin Foundation, will open the conference with a keynote speech devoted to blockchain issues and will follow it up with a Q&A session. This is a unique opportunity to hear Bobby Lee's expert opinion on the hottest topics in the cryptocurrency universe.
+NEXT BLOCK will also feature four panel discussions covering a broad spectrum of topics - from the future of ICOs to global regulation and the practical application of blockchain technologies in business and society. Experts with many years of experience in specific domains will share their ideas and apply their collective intelligence to find answers to the most pressing questions.
+If you are contemplating an ICO launch to raise money for your project, don't miss the panel discussions devoted to initial coin offerings. First, blockchain experts and seasoned entrepreneurs and investors will try to look into the future to see whether this fundraising method has run its course and what comes next. Among the participants will be Simon Cocking, senior editor at Irish Tech News and one of the top blockchain influencers. The panel will be moderated by Dave Young, a presenter on Cryptovest.com. Then experts including Motti Peer, co-CEO of award-winning PR agency Blonde 2.0, and Michael Pearl, head of content and intelligence at Finance Magnates, will speak about ways of simplifying PR for ICOs and building transparent relations with future investors.
+Those interested in the practical applications of blockchain technologies and cryptocurrency usage should find interesting, the discussion centered on how blockchain empowers businesses and communities. The talk will be hosted by prominent blockchain experts such as Philippe Dardier, advisor to Blockchain.io and a co-founder of the European Crowdfunding Network, and Pascal Forster, a board member at Crypto Finance AG.
+The Conference will cover the following topics:
+
+From Holding to Spending: Will E-Commerce Revolutionize Crypto or the Other Way Around?
+Blockchain Technology: Challenges and the Way Forward;
+Is the ICO Dead but Not Buried Yet? What Comes Next?
+Building Relationships with Clarity and Transparency: Simplifying PR for ICOs and Blockchain Ventures;
+Writing the Global Regulations Story: Love and Fight;
+How Blockchain is Empowering Businesses and Communities
+
+Finally, the conference will be followed up with an amazing FashionTV sponsored cryptoparty, which is going to be one of the best across Europe.
+The NEXT BLOCK Conference has launched a special offer (valid till May 7, 2018) for all crypto enthusiasts and blockchain advocates: purchase one ticket and get one free. It is a limited-time offer, so hurry up and secure your seat at the most exhilarating industry event of the year! 
+Cryptovest readers can also benefit from our 10% discount promo code: PromoCryptoVest10
+Secure Your 1+1 Ticket Now! 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

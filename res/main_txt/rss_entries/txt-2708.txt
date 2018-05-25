@@ -1,0 +1,75 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Boeing Co. (BA) has secured a $427 million contract from the Pentagon's Defense Logistics Agency to provide parts to the U.S. Navy and Marine Corps for maintaining F/A-18 Hornets. The five-year contract is an extension of a current contract called the DLA/Boeing Captains of Industry program and has an option for an additional five years. The total value of that program is now $3.2 billion.
+"Through this contract we will improve material availability and resolve technical issues quickly to alleviate long lead times on parts, helping our customers to reduce cycle times on aircraft maintenance,” said Rick Robinson, director of Boeing Global Supply Chain Services, in a statement. "We are proud to work with the DLA, U.S. Navy and U.S. Marine Corps to keep legacy Hornets ready for critical missions."
+Boeing shares were down 1% early in Thursday’s session, but the stock has been soaring the past year—up 87%—on increasing demand from a strong economy. A booming e-commerce sector has put its planes, which are a crucial piece of efficient delivery from retailer to consumer, in high demand.
+Products Are Flying Off the Shelves
+Boeing recently said its plans to ramp up production of its Boeing 767s in 2020 from 2.5 to 3 planes per month as it braces for more demand in the air freight market. Demand in air freight last year was at its fastest pace in seven years, according to Air Transport Association data cited by CNBC.
+In the first quarter, Boeing reported that revenue increased 6.6% to $23.4 billion from a year prior thanks to growth in commercial airplanes, global services, defense, space and security units. Commercial airline deliveries were up 8.9% to 184 as free cash flow improved 68% to $2.7 billion. Core earnings increased 67.7% to $3.64 per share. (See also: Boeing Looks for a Rebound After Strong Earnings.)
+Earlier this week, Boeing also said it finalized a $3 billion deal with Ireland-based Ryanair Holdings for 25 737 MAX 8 airplanes, with the first delivery slated for next year. (See also: Boeing Finalizes $3B Ryanair Order.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

@@ -1,0 +1,259 @@
+
+
+    
+                        
+            
+                Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/Investing/Investing/IC-Video/Term");} else {return "/8397/INV-NA/Investing/Investing/IC-Video/Term";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/terms/c/contractionary-policy.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/LyXrjAyJ.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/LyXrjAyJ-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/content/video/contractionary_polic/contractionarypolicy.png?width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "560",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "LyXrjAyJ-G9NhEyAa.mp4";
+                
+          
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                    var initializeJWPlayerSetup = function () {
+                        if (new VideoInit().canRun()) {
+                            setUpJwpPlayer();
+                        } else {
+                            new VideoInit().callBack = setUpJwpPlayer;
+                        }
+                    }
+          initializeJWPlayerSetup();
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "LyXrjAyJ-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "What Is Contractionary Policy?",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };            
+          
+                    What is a 'Contractionary Policy'?
+
+      Contractionary policy refers to either a reduction in government spending, particularly deficit spending, or a reduction in the rate of monetary expansion by a central bank. It is a type of policy or macroeconomic tool designed to combat rising inflation or other economic distortions created by central bank or government interventions. Contractionary policy is the opposite of expansionary policy.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Monetary Policy                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Open Market Operations - OMO                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Expansionary Policy                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Treasury General Account                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Contractionary Policy'
+      The goal of contractionary policy is not to slow down economic growth. Instead, contractionary policies are used to slow down potential distortions such as high inflation from an expanding money supply, unreasonable asset prices or crowding-out effects in capital markets. The initial effect of contractionary policy might be a reduction in nominal gross domestic product (GDP), but the final result could be higher and more sustainable economic growth and a smoother business cycle.
+A notable use of contractionary policy occurred in the early 1980s when the then-Fed Chairman Paul Volcker ended the soaring inflation of the 1970s. At their peak in 1981, target federal fund interest rates were close to 20%. Measured inflation levels declined from nearly 14% in 1980 to less than 3% in 1983.
+Contractionary Policy as Fiscal Policy
+Governments engage in contractionary fiscal policy by raising taxes or reducing government spending. In their crudest form, these policies are designed to siphon money out of the private economy in the hopes of slowing down unsustainable production or lowering asset prices. In modern times, an increase in the tax level is rarely seen as a viable contractionary measure. Instead, most contractionary fiscal policies unwind a previous fiscal expansion by reducing government expenditures – and even then only in targeted sectors.
+If contractionary policy reduces the level of crowding out in the private markets, it may create a stimulating effect by growing the private, or non-governmental, portion of the economy. For example, huge boosts in economic growth followed massive cuts in government spending and rising interest rates during the Forgotten Depression of 1920 to 1921 and after the end of World War II.
+Contractionary Policy as Monetary Policy
+Contractionary monetary policy is driven by increases in the various base interest rates controlled by modern central banks, or through other means, producing growth in the money supply or the total level of the money supply. The goal is to reduce inflation by limiting the amount of active money in the economy or to stop unsustainable speculation or capital investment that might have been caused by previous expansionary policy.
+In the United States, contractionary policy is usually performed by raising the target federal funds rate, the rate that banks charge each other overnight to meet their reserve requirements. The Fed can also raise reserve requirements for member banks, shrinking the money supply, or perform open-market operations by selling assets, such as U.S. Treasuries, to large investors. This lowers the market price of such assets and increases their yields, making it more economical for savers and bondholders.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

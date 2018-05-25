@@ -1,0 +1,35 @@
+
+
+Chandan Lodha is co-founder at CoinTracker, a portfolio and tax manager for cryptocurrency. He can be reached on Twitter here.
+The following article is an exclusive contribution to CoinDesk's Crypto and Taxes 2018 series.
+
+As a hobbyist investor, my first foray into cryptocurrency was with Coinbase.  
+
+I was buying a few coins here and there, and everything was simple enough to manage in a spreadsheet. I would record the date, time, and amount bought and sold for every transaction. This worked well enough for the first 10 transactions.
+Soon, however, like many others in the space, I found myself deep down the cryptocurrency rabbit hole. 
+I had exchange accounts on GDAX, Poloniex, Binance and a bunch of others. I was buying privacy coins on decentralized exchanges. I had read about the large-scale exchange hacks which burned many folks in the past, so I set up cold storage hardware wallets and ended up with over 15 different wallets for different types of altcoins.
+Still, I was a hobbyist; I was new to the space and just tinkering with small amounts of these coins, learning, curious to see how this digital, decentralized economy operated and how the underlying technologies all worked. 
+It was fascinating, but also confusing as hell. 
+The moment I moved a single coin out of Coinbase, the exchange no longer had an accurate reporting of my holdings and transactions so its tax report was incorrect.
+My own spreadsheet was getting unwieldy, as I started to integrate Google Apps scripts to look up exchange prices from the different exchange accounts I had, plus match-up cost bases for wallet-to-wallet transfers. 
+The spreadsheet got more and more complicated, until one day it took two minutes to load. 
+Money on the line
+That was the breaking point - there had to be a better way than running this hacky spreadsheet. 
+Normally, for a side project I wouldn't have cared, but this was actual money on the line and I didn't have a clue how much fiat money (U.S. dollars) I had invested. How was I going to calculate my capital gains taxes on crypto if I didn't even know how much money I have invested in the first place? It was becoming financially irresponsible for me to not have a better grasp of this.
+I turned to my friend sitting next to me and asked him how he was solving the same problem for himself. He turned his laptop to me: a nearly identical complicated spreadsheet (in fairness, his was better than mine). 
+There was no way that mainstream users were jumping through these hoops. We immediately started researching what other crypto-enthusiasts were using to solve the tracking problem.
+To our disappointment, there were no good tools. The most popular tool was a mobile app that operated like a stock ticker app: it would show you the prices of coins daily and, if you wanted, allowed you to manually add these coins into a portfolio, one at a time. 
+This was even worse than the spreadsheet we already had and wasn't at all personalized to our particular portfolios, let alone calculating our cost basis, capital gains, or providing any useful information for taxes.
+Then and there, my friend and I decided to stop doing what we were doing and productionize our spreadsheets (OK, his spreadsheet) into a simple website. It was the first incarnation of what has now become CoinTracker.
+Takeaways
+The moral of the story: make sure you keep good records of your transactions, or use exchanges which provide these records for you. 
+If you are using multiple exchanges and wallets, trading multiple coins, or using secure cold or local storage for your coins (which everyone should do) then there are several tools out there which can help you track your whole portfolio, your return on investment, the amount of fiat invested, and perhaps most importantly your cost basis and capital gains.
+In the future, ideally the IRS will help clarify the tax rules which apply to cryptocurrency, especially around grey-area issues such as like-kind exchange, which accounting methods are acceptable for capital gains (e.g. FIFO, HIFO, etc.), and airdropped coins. 
+Until then I hope to see exchanges and brokers making easy reporting a priority so that their users are not left scrambling to figure out their tax situation.
+Meantime, I recommend educating yourself about how to secure your coins, and learning about how cryptocurrencies are regulated in your jurisdiction. If you haven't already nailed down your 2017 cryptocurrency taxes, file a free tax extension (but make sure to pay your estimated taxes due to avoid late fees). 
+Even though cryptocurrency is still a nascent space with lots of uncertainty and some headaches - like the ones I've described above - I'm very hopeful about the future of the industry. Rarely does such a revolutionary tech come along and there are lots of great materials out there to learn more.
+Headache image via Shutterstock.
+var riuyojisrlntqyiu,riuyojisrlntqyiu_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){riuyojisrlntqyiu_poll(function(){if(window['om_loaded']){if(!riuyojisrlntqyiu){riuyojisrlntqyiu=new OptinMonsterApp();return riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="//a.optnmnstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;riuyojisrlntqyiu=new OptinMonsterApp();riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");
+
+The leader in blockchain news, CoinDesk is a media outlet that strives for the highest journalistic standards and abides by a strict set of editorial policies. CoinDesk is an independent operating subsidiary of Digital Currency Group, which invests in cryptocurrencies and blockchain startups.
+

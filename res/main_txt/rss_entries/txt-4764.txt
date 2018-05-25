@@ -1,0 +1,77 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        For the man who once rapped about having "99 Problems", a new enforcement action from the SEC may add yet another to Shawn Carter's list. Carter, also known as Jay-Z, is one of the top selling recording artists of all time. He has also built an entertainment, sports and merchandise conglomerate under his Roc-A-Fella umbrella that includes a talent agency, production company, record label and investment arm, among other things.
+The Securities and Exchange Commission is seeking testimony from Carter, however, surrounding the sale of Rocawear, his former clothing label, to Iconix Brand,(ICON) in 2007. Carter was paid more than $200 million as part of the sale and agreed to work with Iconix to seek an develop new brand opportunities after the sale. At the time, Rocawear was reported to have annual sales of over $700 million. Iconix brands include Joe Boer, Candies, and Starter, among others.
+What's the deal?
+According to the release from the SEC, it is investigating potential violations of "...federal securities laws related to the financial reporting of Iconix Brand Group, Inc., which paid Carter more than $200 million to acquire intangible assets associated with Carter's Rocawear apparel brand. After the acquisition, Carter and Iconix maintained publicly-disclosed partnerships related to the Rocawear brand." To be sure, the subpoena does not allege that Carter has violated federal securities laws in connection with its investigation into Iconix or its purchase of Rocawear. Rather, the SEC states that it initially issued a subpoena for Carter's testimony on November 16, 2017, but Carter did not comply. After Carter retained new counsel in February, 2018, the SEC issued a second subpoena for his testimony which he failed to respond to.
+"We are aware that the SEC is seeking information on Iconix's financial reporting," a representative for Carter told CNBC. "Mr. Carter had no role in that reporting or Iconix's other actions as a public company. Mr. Carter is a private citizen who should not be involved in this matter."
+Iconix has yet to comment or respond to Investopedia's inquiry surrounding the subpoena. Shares for the company are down nearly 7% in trade today after this news.
+According to the release, in 2016 Iconix publicly announced a $169 million write down of Rocawear, and in March of this year, Iconix announced a further write down of $34 million. The SEC's application states that the Commission seeks Carter's testimony to inquire about, among other things, Carter's joint ventures with Iconix.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

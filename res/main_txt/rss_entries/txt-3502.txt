@@ -1,0 +1,230 @@
+
+
+
+Bitcoin Private Team Ousts Rhett Creighton for Suggesting Another Obscure Coin Fork
+One tweet by the creator of ZClassic (ZCL) sent the price of relatively obscure Primecoin “to the moon”.
+
+
+ by  Christine
+Masters,
+22 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  Rhett Creighton caused a commotion in the past days with a single tweet, incurring the ire of the Bitcoin Private team, and the larger crypto community. Creighton, who is the creator of ZClassic (ZCL), suggested that another coin could be forked in a manner similar to ZCL. For that reason, Creighton was booted from the Bitcoin Private team, leaving the project to other developers, including hundreds of volunteers.
+A few days ago, Creighton tweeted that Bitcoin Prime, a form of Bitcoin based on the Primecoin technology, is possible. And he has not doubled down: in fact, he may have time on his hands to make it happen:
+https://twitter.com/HeyRhett/status/990621498175053826
+This means that the relatively obscure Primecoin (XPM) may get a further boost. But even the initial tweet was enough to spark extraordinary interest:
+https://twitter.com/HeyRhett/status/989705729115291650
+XPM jumped after the first tweet by Creighton, growing by nearly 150% overnight to $2.39. Many started to fear a scenario similar to the ZClassic pump and crash. But this does not deter Creighton from continuing with the fork.
+The Primecoin hype was launched just as there were rumors surrounding ZClassic, possibly allowing for a similar forking mechanism. The rumors are still unconfirmed, but many believe this practice of hyping a coin through a promised fork is highly dishonest.
+But when it comes to the opportunity for quick gains, the genie is out of the bottle, and the hype has picked up on social media:
+https://twitter.com/Abbas_Kheder/status/990178741534982144
+Twitter influentials are already spreading the news about the upcoming Bitcoin Prime hard fork, which has no set date yet. XPM, with an alternative XLB ticker, is traded on Cryptopia and Poloniex, and the coming weeks will show if the exchanges are up to the task.
+Merge Forks in Fashion?
+But the behavior of ZClassic and Primecoin sets the stage for another series of Bitcoin forks, this time known as the merge-fork. Instead of creating an asset, an older coin may be used, thus ensuring not only gains from a Bitcoin fork, but also a period of potentially lucrative price pumping.
+ 
+baseUrl = "https://widgets.cryptocompare.com/";
+var scripts = document.getElementsByTagName("script");
+var embedder = scripts[ scripts.length - 1 ];
+(function (){
+var appName = encodeURIComponent(window.location.hostname);
+if(appName==""){appName="local";}
+var s = document.createElement("script");
+s.type = "text/javascript";
+s.async = true;
+var theUrl = baseUrl+'serve/v3/coin/chart?fsym=XPM&tsyms=USD,BTC';
+s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+embedder.parentNode.appendChild(s);
+})();
+
+And while some used the price rise to make profits, others believe merge forks are abusing investors:
+https://twitter.com/devilscompiler/status/990791273505144834
+After an overheated weekend, both ZCL and XPM prices are starting to drop, by just a few percent for now. This may be the start of the crash, but it may be a temporary condition, as new investors would be just learning about the fork.
+However, the promise that a merge-fork would be announced for ZClassic this Sunday failed to materialize, and for now, the coin may either crash, or continue to move on vague rumors. ZCL is again down to $27 from a peak at $40. At this point, the coin can either continue to spike, with $100 seen as a possibility, or again wipe out 90% of its value.
+Bitcoin Private Charts its Path
+Bitcoin Private, which was off to a rough start, continues to chart its path:
+https://twitter.com/bitcoinprivate/status/990387690553032704
+Unfortunately, the coin has lost more than 38% of its value net this week, down to $33.38, with a trend to continue sliding. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

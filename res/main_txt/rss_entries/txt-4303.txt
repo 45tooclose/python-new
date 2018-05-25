@@ -1,0 +1,84 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Retailers not named Amazon have had a rough go during the e-commerce giant’s rise to dominance. Yet the fear instilled by Amazon’s numerous assaults on the retail sector is actually starting to make a number of competitor retailers like Target Corp. (TGT), O’Reilly Automotive Inc. (ORLY), TJX Companies Inc. (TJX) and Koninklijke Ahold Delhaize NV (ADRNY), look attractively valued, and their fundamentals aren’t bad either, according to Centerstone Investors’ chief investment officer Abhay Deshpande as reported by Barron’s.
+As of the close of trading on Tuesday, Target is up 8.9% year to date, and trades at a 13.02 forward price to earnings ratio (P/E ratio); O’Reilly is up 7.6% on the year and trades at a forward multiple of 15.07; TJX is up 9.3% and trades at a multiple of 15.74; and Ahold is up 8.5% with a negative forward multiple. In comparison, the S&P 500 is down 0.7% on the year and trades at a higher forward multiple of 16.99. (To read more, see: Retail Stocks Poised for Big Turnaround.)
+Target
+Despite all the talk of a retailpocalypse decimating traditional brick-and-mortar retailers, Target has been surprisingly resilient, with “remarkably steady” foot traffic in its department stores, according to Deshpande.
+While Target is not short on cash now, the fact that the company owns all its real estate also provides Target with easy access to cash when it needs it. Further, given that just about every American lives within 10 miles of a Target store, the company can offer similar same-day delivery convenience as Amazon. (To read more, see: Target: Can Same-Day Delivery Compete With Amazon?)
+O’Reilly Automotive
+This retailer of aftermarket automotive parts, tools, and accessories, is also using location to its advantage, having distribution warehouses that are in very close proximity to end-markets. Around half of O’Reilly’s sales are to mechanics and garages that need to supply parts to their customers on short notice.
+Matching that kind of speed would be difficult, and “There’s no way Amazon can do it,” claims Deshpande, as the business is just not big enough for the e-commerce giant to commit to replicating O’Reilly’s distributional network, according to Barron’s.
+TJX
+Despite the decimation of many traditional brick-and-mortar retailers, off-price retail is one of the bright spots seeing continued growth. Not only that, but instead of off-price retailers, like TJX, buying unsold clothing from other department stores, they are now buying directly from the manufacturers themselves, and at a considerable discount.
+With Amazon’s primary strengths being commodity products and logistics, TJX and other off-price retailers have the advantage of “convenience, location, and the thrill of bargain hunting,” according to Barron’s.
+Koninklijke Ahold Delhaize
+The characteristics of the grocery-retail market will help keep Ahold resilient against Amazon’s delivery services. Average supermarkets have relatively tight margins making grocery delivery services only profitable at larger scale, as in New York or San Francisco.
+Further, some grocery shoppers are still averse to someone else picking out their fresh produce, a disadvantage for Amazon that will be a challenge to overcome. Given Ahold’s superb in-store experience, it will continue to attract customers back to its stores.  
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

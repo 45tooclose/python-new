@@ -1,0 +1,82 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Leading U.S. refiner Marathon Petroleum Corp. (MPC) is buying rival NYSE-listed Andeavor (ANDV) for more than $20 billion, Marathon said in a press release today. (See also, 9 Energy Stocks Poised for Big Breakout As Oil Surges.)
+Merger to Create Largest U.S. Oil Refiner
+The deal that combines the third and fourth-largest independent U.S. refiners will create the largest fuel refining, marketing, and midstream company in the U.S. As a part of the offer, the shareholders of the San Antonio, Texas-based Andeavor can opt for 1.87 shares of the Findlay, Ohio-based  Marathon Petroleum, or $152.27 in cash, a premium of 24.4 percent over Andeavor's closing price on April 27, according to the release. In case the shareholders opt for stocks, they are expected to benefit from the tax-free consideration. The existing shareholders of Marathon and Andeavor are expected to own about 66 percent and 34 percent of the combined entity, respectively.
+Marathon expects to benefit from synergies estimated to be above $1 billion in tangible costs and operational integration. Over the first three years, Marathon expects to generate more than $1 billion of incremental cash after the deal. Marathon said it had approved an incremental $5 billion share buy-back program on the strength of these projected numbers. 
+The combined entity will have the capacity to process around 3.1 million barrels per day, reports Reuters. It will be supported by a joint network of retail stations, oil, natural gas and refined products pipelines.
+The joint company will have the largest U.S.-based oil refining capacity and will also surpass the NYSE-listed Valero Energy Corp. (VLO). The geographical dispersion will also favor the deal from a regulatory perspective, as Marathon is focused in the U.S. Midwest and Gulf Coast and Andeavor’s refineries and pipelines are located in the western U.S. 
+Greg Goff, the present chairman and chief executive of Andeavor will join Marathon Petroleum as executive vice chairman. The Chief Executive of Marathon Petroleum, Gary Heminger, is expected to run the combined entity.
+Marathon plans to retain the current capital allocation strategies as well as the dividend growth.
+The deal is expected to close in the second half of this year. 
+As of Friday, Andeavor had a market capitalization of $19.15 billion, and closed at $122.38 per share, down more than 2 percent. 
+Marathon is currently the third largest independent U.S. refiner with a market cap of 39.34B. Its shares closed at a price of $81.43 of Friday, down 1.81 percent compared to previous day's close. (See also, Oil Refiner Stocks Could Hit New Highs in 2018.)
+Marathon also released its quarterly earnings of $37 million of 8 cents per diluted share. Income from operations was $440 million, according to a statement posted on its web site this morning. 
+ 
+
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

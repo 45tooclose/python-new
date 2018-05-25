@@ -1,0 +1,88 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        The parabolic SAR attempts to give trades an edge by highlighting the direction an asset is moving, as well as providing entry and exit points. In this article, we'll look at the basics of this indicator and show you how you can incorporate it into your trading strategy. We'll also look at some of the drawbacks of the indicator.
+The Indicator
+The parabolic SAR is a technical indicator used to determine the price direction of an asset, as well draw attention to when the price direction is changing. Sometimes known as the "stop and reversal system," the parabolic SAR was developed by Welles Wilder, creator of the relative strength index (RSI).
+On a chart, the indicators appears as a series of dots placed either above or below the price bars. A dot below the price is deemed to be a bullish signal. Conversely, a dot above the prices is used to illustrate that the bears are in control and that the momentum is likely to remain downward.
+When the dots flip, it indicates a potential change in price direction is underway. For example, if the dots are above the price, when they flip below the price it could signal a further rise in price.
+As the price of a stock rises, the dots will rise as well, first slowly and then picking up speed and accelerating with the trend. The SAR starts to move a little faster as the trend develops and the dots soon catch up to price. 
+The following chart shows that the indicator works well for capturing profits during a trend, but it can lead to many false signals when the price moves sideways or is trading in a choppy market. The indicator would have kept the trader in the trade while the price rose. When the price is moving sideways, expect more losses and/or small profits. 
+
+The following chart shows a downtrend, and the indicator would have kept the trader in a short trade (or out of longs) until the pullbacks to the upside began. When the downtrend resumed, the indicator got the trader back in.
+The parabolic SAR is also a method for setting stop-loss orders. When a stock is rising, move the stop loss to match the parabolic SAR indicator. The same concept applies to a short trade. As the price falls, so will the indicator. Move the stop loss to match the level of the indicator after every price bar (for additional reading, see Trailing-Stop Techniques).
+
+This indicator is mechanical and will always be giving new signals to get long or short. It is up to the trader to determine which trades to take and which to leave alone. For example, during a downtrend it is better to take only the short sales like those shown in the chart above, as opposed to taking the buy signals as well.
+Indicators to Complement to the Parabolic SAR
+In trading, it is better to have several indicators confirm a certain signal than to solely rely on one specific indicator. Complement the SAR trading signals by using other indicators such as a stochastic, moving average, or the ADX.
+For example, a SAR sell signal is much more convincing when the price is trading below a long-term moving average. The price below a long-term moving average suggests that the sellers are in control of the direction and that the recent SAR sell signal could be the beginning of another wave lower. 
+Similarly, if the price is above the moving average, focus on taking the buy signals (dots move from above to below). The SAR indicator can still be used as a stop loss, but since the longer-term trend is up it is not wise to take short positions.
+
+A counter-argument to the parabolic SAR is that using it can result in a lot of trades. The chart above shows multiple trades. Some traders would argue that using the moving average alone would have captured the entire up move all in one trade. Therefore, the parabolic SAR is typically used by active traders want to catch a high momentum move, and then get out.
+The Bottom Line
+The parabolic SAR is used to gauge a stock's direction, and for placing stop loss orders. The indicator tends to produce good results in a trending environment, but produces many false signals and losing trades when the price starts moving sideways. To help filter out some of the poor trade signals, only trade in the direction of the dominant trend. Some other technical tools can aid in this regard, such as the the moving average.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

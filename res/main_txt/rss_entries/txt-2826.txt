@@ -1,0 +1,86 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Southwest Airlines Co. (LUV) has become a staple of travel for consumers within the United States. While many other airlines boast more accommodating features and more lavish upgrades, Southwest Airlines has stuck to a business model of shorter, cheaper flights that cater to consumers looking for quick and painless flight plans.
+While Southwest Airlines has become synonymous with airline travel, there are quite a few things that consumers don't know about the company that make it one of the best in the world. Find out about four things that every consumer should know about Southwest Airlines.
+1. Southwest's Efficient Operations Stem from Failure
+One of the amazing things about Southwest Airlines is the efficiency of its operations. Known to have a great gate-to-gate turnaround time and consistent on-time logistics, it's interesting to note that its quick turnaround time was actually born out of failure.
+Back in 1972, when the airline was just getting off the ground, it had to sell one of its four Boeing 737s to make payroll and remain in business. In spite of selling a quarter of its aircraft, Southwest remained focused on maintaining its four-aircraft schedule. To handle the demand of a four-aircraft schedule with only three planes, Southwest Airlines implemented a 10-minute turnaround to make the schedule work.
+Southwest Airlines keeps that operational efficiency as one of its core differentiators to this day, continuing to implement a quick turnaround so consumers can get from point A to point B as quickly as possible.
+2. Southwest Only Had Three Destinations for Its First Nine Years of Operations
+While Southwest Airlines can take a consumer all over the U.S. in 2015, this wasn't always the case. Back in 1966, a group of Texas investors decided to buck the traditional airline industry and provide consumers with a commuter airline option.
+The company was started with $560,000 in venture capital. Its founders envisioned it as an airline for Texas commuters between Dallas, Houston and San Antonio.
+Due to the nature of the business model, Southwest Airlines instituted a no-frills approach to flying. Instead of trying to be everywhere at the expense of efficiency, Southwest Airlines instead focused on becoming excellent in the cities it serviced.
+As competition and profits grew, Southwest finally made the decision to expand in 1975, growing into the dominant airline consumers know today.
+3. Southwest Airlines Has Been a Pioneer of Technology That Helps Consumers
+Southwest Airlines is more than a pioneer in commuter-focused airline travel. Southwest was also one of the first airlines to introduce a website as well as an online booking tool.
+In 1995, Southwest Airlines launched its first display website, called "Southwest Airlines Home Gate." While consumers could not yet book flights online through Home Gate, they were able to receive up-to-date information and flight routes. In addition, online users of the Home Gate could receive coupons and discounts for air travel.
+In 2000, Southwest Airlines launched a booking tool geared toward corporate travel. This was a great addition to its online functionality and serviced the type of consumer that used Southwest Airlines the most: the corporate commuter. This allowed corporate commuters to receive discounts directly through Southwest Airlines rather than needing to go through corporate discounts.
+4. The Background of Southwest's Ticker Symbol, "LUV"
+When Southwest Airlines first launched, it implemented a love potion theme. All flight attendants dressed in love-associated costumes and passed out "love potions" and "love bites," which later became known as drinks and peanuts.
+When Southwest Airlines was listed on the New York Stock Exchange, it chose the ticker symbol LUV because of the company's love potion beginnings.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

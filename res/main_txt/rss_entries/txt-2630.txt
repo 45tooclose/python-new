@@ -1,0 +1,75 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Nasdaq CEO Adena Friedman explained to CNBC today that the exchange would consider becoming a platform for trading digital currencies like bitcoin.
+"Certainly Nasdaq would consider becoming a crypto exchange over time," Friedman suggested. However, there are a number of parameters which would need to be in place before any action could be taken. First, the nascent cryptocurrency space would need to mature and show stability over the longer term. This would include the smoothing out of regulation, among other things. Nonetheless, even the idea of a Nasdaq cryptocurrency exchange is likely to provoke a strong reaction from those in the digital currency community.
+In her remarks, Friedman explained that Nasdaq may change its policies "if we do look at [the cryptocurrency space] and say 'it's time, people are ready for a more regulated market,' for something that provides a fair experience for investors." However, regulation issues remain a primary concern for Nasdaq and many other institutional investors as well. Friedman suggested that regulatory questions would need to be resolved before Nasdaq could consider adding an exchange. Still, she indicated that she was bullish on the overall future prospects of digital assets.
+Nasdaq Supports Existing Exchanges
+Although Nasdaq does not yet have its own cryptocurrency exchange component, the company nonetheless has already supported existing digital asset exchanges. It recently announced a collaboration with Gemini, the digital asset exchange founded by Tyler and Cameron Winklevoss, for instance. This partnership will allow Gemini access to Nasdaq's surveillance technology in order to protect its fair and "rules-based marketplace" on behalf of market participants, according to a statement by Gemini CEO Tyler Winklevoss.
+Friedman was less optimistic about initial coin offerings, however. She suggested that "ICOs need to be regulated. The SEC is right that those are securities and need to be regulated as such." The SEC has moved to crack down on ICO fraud having indicated last month that it would plan to apply securities laws to all types of cryptocurrency-related activities and products, from exchanges to wallets.
+Investing in cryptocurrencies and Initial Coin Offerings ("ICOs") is highly risky and speculative, and this article is not a recommendation by Investopedia or the writer to invest in cryptocurrencies or ICOs. Since each individual's situation is unique, a qualified professional should always be consulted before making any financial decisions. Investopedia makes no representations or warranties as to the accuracy or timeliness of the information contained herein. As of the date this article was written, the author owns bitcoin and ripple.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

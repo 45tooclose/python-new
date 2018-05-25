@@ -1,0 +1,78 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        As cryptocurrencies make a comeback from a larger market sell-off earlier this year, one technology investment bank expects the space to suffer through a "heavy correction" over the next 12 months. (See also: Crypto Funds Dropped 29% in March.)
+In a report titled "Token Frenzy: The Fuel of the Blockchain," and as reported by CNBC, GP Bullhound offered its view on the state of the digital currency environment, including the underlying blockchain technology, and digital token sales, or initial coin offerings (ICO). 
+Among various predictions, the investment bank foresees the the cryptocurrency market crashing 90% within the year. After this wipeout, few players should remain, wrote Sebastian Markowsky, director of GP Bullhound and the main author of the report. 
+Watch for 'Panic' Selling
+As more institutional investors and retail investors alike get into crypto-trading, the spike in demand will drive crypto prices up, wrote the advisor, who expects a sell-off later this year to cause "panic" among new investors who bought in when prices were high. "Nonetheless, once this 'crypto-winter' passes, the growth dynamics for the precious few survivors will be unprecedented," wrote Markowsky. 
+While there are thousands of cryptocurrencies on the market, bitcoin has become a household name in recent years. The largest cryptocurrency by market capitalization is trading at a price of $9,055 on Wednesday at 11:30 p.m. UTC, reflecting a more than 500% gain in the most recent 12 months yet an over 50% crash since it reached highs in mid-December near $20,000. Rival currencies such as ethereum and ripple, the second- and third-largest digital currencies by market value, have experienced a similarly slow rebound after falling from highs reached at the end of 2017.
+Cryptocurrency bulls remain steadfast in the idea that digital currency and blockchain will continue to revolutionize the financial space as they push into the mainstream. Plus, long-time crypto investors are accustomed to major price swings, and expect volatility to wind down as digital coins like bitcoin become more widely accepted and fears over regulation subside. Thomas Lee, co-founder and head of research at Fundstrat, is one of such crypto-champions, expecting bitcoin to skyrocket to $25,000 in 2018. (See also: Already More ICOs in 2018 Than All of 2017: $6.3B.)
+Investing in cryptocurrencies and other Initial Coin Offerings (“ICOs”) is highly risky and speculative, and this article is not a recommendation by Investopedia or the writer to invest in cryptocurrencies or other ICOs. Since each individual's situation is unique, a qualified professional should always be consulted before making any financial decisions. Investopedia makes no representations or warranties as to the accuracy or timeliness of the information contained herein. As of the date this article was written, the author owns cryptocurrency.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

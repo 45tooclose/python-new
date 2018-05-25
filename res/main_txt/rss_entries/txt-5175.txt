@@ -1,0 +1,281 @@
+
+
+    
+                        
+            
+                Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/PersonalFinance/WealthManagement/IC-Video/Term");} else {return "/8397/INV-NA/PersonalFinance/WealthManagement/IC-Video/Term";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/terms/s/security.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/53SErOkj.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/53SErOkj-JiekuDKE.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/thumbnails/live/series6_421x236.jpg?quality=80&width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "560",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "53SErOkj-JiekuDKE.mp4";
+                
+          
+            document.addEventListener("DOMContentLoaded", function() {
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                        var initializeJWPlayerSetup = function () {
+                            if (new VideoInit().canRun()) {
+                                setUpJwpPlayer();
+                            } else {
+                                new VideoInit().callBack = setUpJwpPlayer;
+                            }
+                        }
+            initializeJWPlayerSetup();
+          });
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "53SErOkj-JiekuDKE.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "Series 6 Exam Prep: What Is A Security?",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };            
+          
+                    What is a 'Security'
+
+      A security is a fungible, negotiable financial instrument that holds some type of monetary value. It represents an ownership position in a publicly-traded corporation (via stock), a creditor relationship with a governmental body or a corporation (represented by owning that entity's bond), or rights to ownership as represented by an option.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Investment Securities                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Debt Security                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Marketable Securities                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Income Deposit Security - IDS                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Security'
+      
+Securities can be broadly categorized into two distinct types: equities and debts.
+An equity security represents ownership interest held by shareholders in an entity (a company, partnership or trust), realized in the form of shares of capital stock, which includes shares of both common and preferred stock. Holders of equity securities are typically not entitled to regular payments (though equity securities often do pay out dividends), but they are able to profit from capital gains when they sell the securities (assuming they've increased in value, naturally). Equity securities do entitle the holder to some control of the company on a pro rata basis, via voting rights. In the case of bankruptcy, they share only in residual interest after all obligations have been paid out to creditors.
+A debt security represents money that is borrowed and must be repaid, with terms that stipulates the size of the loan, interest rate and maturity or renewal date. Debt securities, which include government and corporate bonds, certificates of deposit (CDs) and collateralized securities (such as CDOs​ and CMOs​), generally entitle their holder to the regular payment of interest and repayment of principal (regardless of the issuer's performance), along with any other stipulated contractual rights (which do not include voting rights). They are typically issued for a fixed term, at the end of which they can be redeemed by the issuer. Debt securities can be secured (backed by collateral) or unsecured, and, if unsecured, may be contractually prioritized over other unsecured, subordinated debt in the case of a bankruptcy. 
+Hybrid securities, as the name suggests, combine some of the characteristics of both debt and equity securities. Examples of hybrid securities include equity warrants (options issued by the company itself that give shareholders the right to purchase stock within a certain timeframe and at a specific price), convertible bonds (bonds that can be converted into shares of common stock in the issuing company) and preference shares (company stocks whose payments of interest, dividends or other returns of capital can be prioritized over those of other stockholders).
+Although preferred stock is technically an equity security, it's often treated as a debt security, because it "behaves like a bond": It offers a fixed dividend rate and is a popular instrument for income-seeking investors. It is essentially fixed-income security.
+What is the Role of Securities?
+The entity that creates the securities for sale is known as the issuer, and those that buy them are, of course, investors. Generally, securities represent an investment and a means by which municipalities, companies and other commercial enterprises can raise new capital. Companies can generate a lot of money when they go public, selling stock in an initial public offering (IPO), for example. City, state or county governments can raise funds for a particular project by floating a municipal bond issue. Depending on an institution's market demand or pricing structure, raising capital through securities can be a preferred alternative to financing through a bank loan.
+On the other hand, purchasing securities with borrowed money, an act known as buying on a margin, is a popular investment technique. In essence, a company may deliver property rights, in the form of cash or other securities, either at inception or in default, to pay its debt or other obligation to another entity. These collateral arrangements have been growing of late, especially among institutional investors.
+Market Placement
+Publicly traded securities are listed on stock exchanges, where issuers can seek security listings and attract investors by ensuring a liquid and regulated market in which to trade. Informal electronic trading systems have become more common in recent years, and securities are now often traded "over-the-counter," or directly among investors either online or over the phone.
+As mentioned above, an IPO represents a company's first major sale of equity securities to the public. Following an IPO, any newly issued stock, while still sold in the primary market, is referred to as a secondary offering. Alternatively, securities may be offered privately to a restricted and qualified group in what is known as a private placement – an important distinction in terms of both company law and securities regulation. Sometimes companies sell stock in a combination of public and private placement.
+In the secondary market, also known as the aftermarket, securities are simply transferred as assets from one investor to another: shareholders can sell their securities to other investors for cash and/or capital gain. The secondary market thus supplements the primary. The secondary market is less liquid for privately-placed securities, since they are not publicly tradable and can only be transferred among qualified investors.
+Other Types of Securities
+Certificated securities are those that are represented in physical, paper form. Securities may also be held in the direct registration system, which records shares of stock in book-entry form. In other words, a transfer agent maintains the shares on the company's behalf without the need for physical certificates. Modern technologies and policies have, in some cases, eliminated the need for certificates and for the issuer to maintain a complete security register. A system has developed wherein issuers can deposit a single global certificate representing all outstanding securities into a universal depository known as the Depository Trust Company (DTC). All securities traded through DTC are held in electronic form. It is important to note that certificated and un-certificated securities do not differ in terms of the rights or privileges of the shareholder or issuer.
+Bearer securities are those that are negotiable and entitle the shareholder to the rights under the security. They are transferred from investor to investor, in certain cases by endorsement and delivery. In terms of proprietary nature, pre-electronic bearer securities were always divided, meaning each security constituted a separate asset, legally distinct from others in the same issue. Depending on market practice, divided security assets can be fungible or (less commonly) non-fungible, meaning that upon lending, the borrower can return assets equivalent either to the original asset or to a specific identical asset at the end of the loan. In some cases, bearer securities may be used to aid tax evasion, and thus can sometimes be viewed negatively by issuers, shareholders and fiscal regulatory bodies alike. They are therefore rare in the United States.
+Registered securities bear the name of the holder and other necessary details maintained in a register by the issuer. Transfers of registered securities occur through amendments to the register. Registered debt securities are always undivided, meaning the entire issue makes up one single asset, with each security being a part of the whole. Undivided securities are fungible by nature. Secondary market shares are also always undivided. 
+Letter securities are not registered with the SEC, and therefore cannot be sold publicly in the marketplace. A letter security (also known as a restricted security, letter stock or letter bond)  is sold directly by the issuer to the investor. The term is derived from the SEC requirement for an "investment letter" from the purchaser, stating that the purchase is for investment purposes and is not intended for resale.
+Cabinet securities are listed under a major financial exchange, such as the NYSE, but are not actively traded. Held by an inactive investment crowd, it's more likely to be a bond than a stock. The "cabinet" refers to the physical place where bond orders were historically stored off of the trading floor. The cabinets would typically hold limit orders, and the orders were kept on hand until they expired or were executed.
+Residual Securities
+Residual securities are a type of convertible security – that is, they can be changed into another form, usually that of common stock. A convertible bond, for example, would be a residual security because it allows the bond holder to convert the security into common shares. Preferred stock may also have a convertible feature. Corporations may offer residual securities to attract investment capital when competition for funds is highly competitive.
+When the residual security is converted, or exercised, it increases the number of current outstanding common shares. This can dilute the share pool, and their price as well. Dilution also affects financial analysis metrics, such as earnings per share, because a company's earnings now have to be divided by a greater number of shares.
+In contrast, if a publicly traded company takes measures to reduce the total number of its outstanding shares, the company is said to have consolidated them. The net effect of this action is to increase the value of each individual share. This is often done to attract more or larger investors, such as mutual funds.
+Regulation of Securities
+In the United States, the U.S. Securities and Exchange Commission (SEC) regulates the public offer and sale of securities. 
+Public offerings, sales and trades of U.S. securities must be registered and filed with the SEC's state securities departments. Self Regulatory Organizations (SROs) within the brokerage industry often take on regulatory positions as well. Examples of SROs include the National Association of Securities Dealers (NASD) and the Financial Industry Regulatory Authority (FINRA).
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

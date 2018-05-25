@@ -1,0 +1,142 @@
+
+
+    
+                          WHAT IS 'Premium Put Convertible'
+
+      A premium put convertible is a debt security which, if its market price equals or surpasses an agreed-upon strike price, allows the bondholder to redeem the bond at a premium before its maturity date. The bond can also be converted to stock at a conversion rate outlined in the prospectus.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Convertibles                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Busted Convertible Security                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Convertible Bond Arbitrage                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Reverse Convertible Bond - RCB                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Premium Put Convertible'
+      A premium put convertible bond has two noteworthy features which set it apart from plain vanilla corporate bonds. First is the put option.  Like an option contract on a stock, this feature includes a strike price at which the investor who holds the contract (a long put, in the language of stock trading) can force the seller of the contract to purchase the security in question. The seller of the contract then owns the bond.
+The second key feature of a premium put convertible is its convertibility. This allows the bondholder to convert the bond to an agreed-upon number of shares of stock. The ratio at which par value is exchanged for shares is known as the conversion ratio. No cash changes hands at the time of the conversion. If the bond has been structured with an American-style exercise, the bondholder can convert the bond at any time.  A European-style convertible bond can only be converted at its maturity date.
+Pros and cons of premium put convertible bonds
+A premium put convertible bond offers the bondholder an opportunity to gain from upward movement of the underlying stock. There is a price for this, often in the form of a coupon which is generally lower than a comparable vanilla bond. The put option also provides the bondholder with protection against a decline in the market value of the bond, if the investor is unwilling to wait for redemption at maturity.
+An example of a premium put convertible bond
+An investor who owns a hypothetical American-style premium put convertible bond with a face value of $1,000, a coupon rate of 4%, and a put feature at a strike price of $1,200 plus an option to convert the bond to stock in XYZ company at a ratio of 10:1. With one year left before maturity, that investor has two options: he or she can sell it to the issuer of the bond at $1,200, thus enjoying a premium to the par value plus the remaining year of interest. The bondholder can convert the bond to 100 shares of XYZ stock. If the share price goes above $120 per share, this would be an attractive option. Otherwise, the bondholder may choose to exercise the put option to take advantage of the premium, which can be calculated by subtracting either the market value or the face value plus remaining interest from the strike price.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

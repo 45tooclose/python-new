@@ -1,0 +1,143 @@
+
+
+    
+                          What is an 'Insurable Interest'?
+
+      An insurable interest is a stake in the value of an entity or event for which an insurance policy is purchased to mitigate the risk of loss. Insurable interest is a basic requirement for the issuance of an insurance policy, which makes the entity or event legal, valid and protected against intentionally harmful acts. Entities or events not subject to financial loss do not have an insurable interest and an insurance policy cannot be purchased to cover them in the event of loss.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Assessable Policy                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Insurance                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Life Insurance                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Insurance Premium                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Insurable Interest'
+      Insurance is a method of pooled risk exposure, and it protects policyholders from financial losses. A number of insurance tools have been created to cover losses related to various factors such as automobile expenses, health care expenses, loss of income through disability, loss of life and damage to property.
+Principle of Indemnity
+The indemnification principle holds that a policyholder should be compensated for a covered loss, but holders should neither be penalized nor rewarded by a loss. This suggests that policies should be designed to cover the value of the at-risk asset appropriately. Poorly conceived or designed policies create moral hazard, whereby parties have incentive to allow or even affect a loss. If moral hazard is prominent, it increases the costs to insurance companies driving up premiums to unsustainable levels.
+Identifying Insurable Interest
+Homeowners insurance compensates a policyholder who suffers a major financial loss in the event that his home is destroyed by a fire. The homeowner has insurable interest in the property; the loss of that home would create a catastrophic loss for the policyholder.
+An individual cannot purchase homeowners insurance on a neighbor's house. There is no insurable interest in a neighboring property because it is owned by another entity. If a neighboring property is destroyed, but another property is unaffected, insurable loss has not occurred Purchasing homeowners insurance for a neighbor’s house creates incentive to cause damage to that house and collect the insurance proceeds, whereas appropriate underwriting would not create such an incentive. This represents moral hazard.
+Insurable interest is also necessary in life insurance although this has not always been the case. There are cases where people have purchased life insurance policies for elderly acquaintances strictly with the expectation of that person's imminent death. Life insurance regulations have evolved to require a relationship in which the policy owner will suffer a financial loss in the event of the insured's demise. This can include immediate family members, more distant blood relatives, romantic partners, creditors and business associates. The face value of life insurance policies must not exceed the human life value of the insured; otherwise, the indemnity principle would be violated creating moral hazard.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'HomeInsurance',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

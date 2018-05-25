@@ -1,0 +1,85 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Facebook Inc. (NASDAQ: FB), the most popular social media site, attracts 1.04 billion daily active users as of December 2017. Most people know how the site works. Here are seven lesser-known facts about the company.
+How Zuckerberg Hires and Fires
+Mark Zuckerberg’s guiding principle is to hire those for which he would want to work. He also prefers young geeks, telling the Stanford Y Combinator Startup School in 2007 that young people with technical experience are smarter than older ones. The young Facebook founder used to walk the office with a samurai sword and fake-threaten employees who perform bad work by telling them he’d chop off their heads. One of Zuckerberg's best talents, peers say, is his ability to fire people.
+Hacking Facebook Got This Employee Hired
+In 2005, a guy named Chris Putnam hacked into Facebook and reprogrammed thousands of profiles to look like MySpace images. Unfortunately, he also deleted some users’ contact details. Facebook's COO, Dustin Moskovitz, hired him as an engineer. 
+Zuckerberg Has Red-Green Colorblindness
+Zuckerberg has red-green colorblindness, which is why Facebook’s color is blue. The Facebook founder described blue as his richest color. Nor does it hurt that blue, color of heaven and sea, is traditionally associated with reliability, responsibility, trust and security. These are concepts that may help viewers part with their information.
+Facebook Curators Exert Political Bias
+Perhaps not a secret anymore, but the objectivity of Facebook's trending news section came into question after a 2016 Gizmodo article quoted Facebook curators saying they were told to artificially introduce certain topics or delete others. Inserted topics discussed liberal-based issues such as "Black Lives Matter." Suppressed news was mainly right-wing or Republican-oriented. This fueled the fake-news debate which arose in 2016, and continues into 2018.
+Mark Zuckerberg Earns $1 A Year
+While salaries of top-company CEOs set tongues wagging, Facebook's CEO, Mark Zuckerberg, earns a paltry $1 a year. He also denies himself stock options, equity awards or bonuses. When Zuckerberg announced this decision, he explained that he had made enough money and was focusing on philanthropy. Of course, the company still pays for his travel and security, and Zuckerberg is worth nearly $74.5 billion as of March 2018, according to Forbes.
+Bug Hunters
+Facebook has a Bug Bounty Program that rewards voluntary security researchers with at least $500 for reporting security issues on its website. Any person, anywhere, who finds and reports a security bug is given a "White Hat" black debit card that can be reloaded with funds each time the person finds a new flaw. In March 2016, a 22-year-old security engineer at India's Flipkart won $15,000 for discovering a bug within Facebook that could grant access to personal information such as photographs, messages and credit or debit cards, all without the user's knowledge.
+Facebook’s 3.57 Degrees of Separation
+Forget six degrees of separation. Facebook’s 2016 statistics show that Facebook has shaved gaps of connection to 3.57 degrees, meaning that each person on Facebook is connected to every other user by approximately three and a half other people. Facebook aims to make the world more open and connected. It seems to be succeeding.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '',
+     'leadGenVertical' : '',
+     'leadGenLayout' : '',
+     'leadGenPage' : ''
+    });
+                    
+            
+                

@@ -1,0 +1,81 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Tesla Motors Inc. (NASDAQ: TSLA) is one of the most innovative technology companies in the world, focusing primarily on producing electric vehicles but also on design and energy. The company was founded in 2003 by Silicon Valley engineers who wanted to prove that electric cars could have power and torque along with zero emissions. In 2008, Tesla Motors launched its first car, the Roadster, which could accelerate from 0 to 60 miles per hour in under 4 seconds. Additionally, it had a range of 245 miles per charge of the car's lithium ion battery.
+In 2012, Tesla launched its revolutionary Model S, which was the world's first luxury electric sedan. The company is currently in production on its next car, the mass market-targeted Model 3. As of February 7, 2018, Tesla Motors had a market capitalization of more than $57.7 billion. 
+With November 2017's introduction of the Tesla Semi-Truck, which the company says can travel over 500 miles on a single charge, and the introduction of a new Tesla Roadster, which Elon Musk claims can travel for 620 miles on one charge, Tesla is looking to put its recent bad luck in reverse. 
+The following are the top shareholders of Tesla.
+1. Elon Musk
+The visionary Elon Musk is the CEO of Tesla Motors and Space Exploration (SpaceX) Technologies. Musk was born in South Africa and attended the University of Pennsylvania before beginning his graduate studies at Stanford University. However, Musk dropped out to start a multitude of companies, such as Zip2 and X.com (later known as Paypal), which he sold to Compaq and eBay Inc. (NASDAQ: EBAY), respectively. Next, Musk founded SpaceX and co-founded Tesla and SolarCity, a renewable energy company.
+ As of December 31, 2017, Musk reportedly beneficially owned 37.8 million shares of Tesla, including 33.6 million held indirectly through a trust, making him the largest shareholder, both among institutions and individuals. On March 21, 2018, shareholders of Tesla approved a performance-based stock option award to purchase 20.3 million shares for Musk. As of May 2, 2018, Musk had an estimated net worth of $19.6 billion.
+2. Jeffrey B. Straubel
+Jeffrey Straubel serves as the chief technology officer (CTO) of Tesla Motors. He holds a bachelor's degree in energy systems engineering and a master's degree in engineering from Stanford University. Straubel is a co-founder of Tesla and has managed the engineering and technical design of the electric vehicles, which was primarily focused on motor, battery, software subsystems and power electronics. According to his latest SEC filing on May 12, 2017, Straubel held 326,301 shares of Tesla, making him the second largest individual shareholder.
+3. Kimbal Musk
+Kimbal Musk is the brother of Elon Musk and a director of Tesla Motors. Kimbal Musk is also the co-founder of The Kitchen Restaurant Group, a family of restaurants committed to serving local food grown by American farmers. Kimbal and Elon Musk started their first company, Zip2, in 1995 and sold it for over $300 million in 1999. Kimbal Musk has advised, founded and invested in multiple startup companies. He graduated from the Queen's Business School and the French Culinary Institute and has served as an adjunct professor at New York University. Kimbal Musk has held and holds board seats in Tesla Motors, Medium Inc., SpaceX and BlackBook Media. According to his latest SEC filing on April 5, 2018, he owned 148,333 shares of Tesla, which makes him the third largest individual shareholder.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

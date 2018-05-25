@@ -1,0 +1,87 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        It would almost be easier to list the industry sectors in which Omaha-based Berkshire Hathaway Inc. (BRK.A) doesn’t turn gargantuan profits.
+Railroads? Hardly. BNSF Railway, the 2nd-largest freight line in North America, is a wholly owned Berkshire Hathaway subsidiary. How about auto insurance? GEICO, No. 2 in its industry, is also fully under Berkshire Hathaway control. Even unmentionables are worthy of mention: Berkshire Hathaway’s Fruit of the Loom, Inc. sells more men’s underwear in the United States than anyone else does. Business jet rental (NetJets), jewelry (Borsheim's Fine Jewelry, Helzberg Diamonds, Ben Bridge Jeweler, Inc.), furniture (RC Willey Home Furnishings, CORT), candy (See’s Candies), trucking (McLane Co., Inc.), modular houses (Clayton Homes), newspapers (The Buffalo News). There’s seemingly no limit to the number of diverse businesses under the $490 billion Berkshire Hathaway umbrella.
+Founded in the 19th Century as two separate Massachusetts cotton mills, Berkshire Fine Spinning Associates and Hathaway Manufacturing Co. merged in 1955. Warren Buffett first bought into the declining company in the early '60s and eventually ended up in control of it on May 10, 1965. Two years later, Buffett officially made Berkshire Hathaway a conglomerate, using textile proceeds to purchase National Indemnity, the first of what would be the many insurance companies that provided Berkshire Hathaway’s lifeblood and enabled it to continue acquiring.
+Berkshire's Big War Chest
+That lifeblood has an industry-specific name: float. Also known as “available reserve,” it refers to money paid to Berkshire Hathaway’s insurance subsidiaries in premiums but that has yet to be paid out to cover any claims. Technically this money doesn’t belong to the insurance company, but it remains on hand to be invested as its managers see fit. Berkshire Hathaway’s float of over $100 billion is not only one of the largest in the world, but 50 times what it was a generation ago. It’s allowed Berkshire Hathaway to make quick purchases of temporarily wounded companies and breathe life into them. Case in point: Fruit of the Loom, purchased for a mere $835 million in 2002 after its stock had lost 97% of its value.
+One of the prime tenets held by Buffett’s mentor, Benjamin Graham, is that dividends are an investor’s secret weapon. Many of the Fortune 500 companies that Berkshire Hathaway has large positions in – International Business Machines Corp. (IBM), The Coca-Cola Co. (KO), American Express Co. (AXP) – each have a steady history of maintaining or increasing dividends every year. Coca Cola has increased its annual dividend 55 years in a row.
+While imprudent speculators chase hot stocks whose prices are rising, those speculators’ patient brethren instead load up on the stocks of companies with fundamentals formidable enough to allow regular cash payments to shareholders.
+For some reason financial news outlets rarely showcase dividend data the way they do stock price and price movement figures, even though dividends provide one of the surest measures of a company’s potency. After all, management will hand cash over to owners only when operations turn a large enough profit to make said payments feasible. As much as any other factor, the company chairman’s love for receiving dividends has made Berkshire Hathaway so consistently successful.
+But Pay A Dividend? No Way!
+Somewhat unsurprisingly, the same Warren Buffett who advocates investing in companies that pay dividends eschews paying them out to his own company’s investors.
+At first, this seems so self-evident that it barely counts as an observation – it makes sense to take the cash that other companies offer you, but never to pay cash out yourself unnecessarily. Berkshire Hathaway has actually paid a dividend once before. In 1967 the company paid its only dividend of 10 cents a share. To this day, Buffett claims that he must have been in the bathroom when the dividend was authorized.
+That being said, it would take galactic-class chutzpah for any Berkshire Hathaway shareholder to complain about the company’s refusal to pay dividends. The stock price has skyrocketed over the past 51 years, trading at $275 in 1980, $32,500 in 1995, and over $290,000 today, a track record that lacks a meaningful comparison.
+Berkshire Hathaway’s rationale is simple, and hard to assail: If you’re an investor, would you rather have a dividend payment for you to spend or invest at your peril, or would you rather that money be reinvested by the team that turned a humble textile investment into one of the largest, most respected and most financially robust companies in existence?
+Since a single share of Berkshire Hathaway Class A stock (that’s the class quoted above) is equivalent to several years’ worth of the average American salary, it’s no wonder that shares trades infrequently: maybe 300 or 400 change hands a day. Buffett has never entertained the notion of a Class A split, arguing that to do so would invite speculation.
+However, he did authorize the creation of Class B (BRK.B) stock several years ago, valued at 1/30 the value of Class A stock. After a 50-for-1 split of the former in 2010, and Berkshire Hathaway’s purchase in toto of Standard & Poor’s 500 component Burlington Northern and Santa Fe, the Class B stock replaced BNSF on the index. The lower price and concomitant liquidity make Class B stock suitable to be included in an index that attempts to gauge the value of the market. Class A stock is too expensive and too sparsely held to make an effective index component.
+The Bottom Line
+Some investors look for value, then purchase shares of companies that fit their criteria. Berkshire Hathaway does largely the same thing, only instead of buying a few shares, it buys the entire company. After 40+ years of applying that strategy, the result is the creation of a conglomerate without peer.   
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

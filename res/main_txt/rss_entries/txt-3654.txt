@@ -1,0 +1,183 @@
+
+
+
+    
+            
+            Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/Investing/Investing/IC-Video/FAQ");} else {return "/8397/INV-NA/Investing/Investing/IC-Video/FAQ";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/ask/answers/how-are-book-value-and-market-value-different/?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/o6yGohRE.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/o6yGohRE-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/content/video/the_difference_betwe/whatisthedifferencebetweenbookandmarketvalue.png?width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "100%",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "o6yGohRE-G9NhEyAa.mp4";
+                
+          
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                    var initializeJWPlayerSetup = function () {
+                        if (new VideoInit().canRun()) {
+                            setUpJwpPlayer();
+                        } else {
+                            new VideoInit().callBack = setUpJwpPlayer;
+                        }
+                    }
+          initializeJWPlayerSetup();
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "o6yGohRE-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "The Difference Between Book and Market Value",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };        
+    
+    
+          
+    A:
+            Although investors have many metrics for determining the valuation of a company's stock, two of the most commonly used are book value and market value. Both valuations can be helpful in calculating whether a stock is fairly valued, overvalued or undervalued. In this article, we'll delve into the differences between the two and how they are used by investors and analysts. 
+Book Value
+The book value of a stock is theoretically the amount of money that would be paid to shareholders if the company was liquidated and paid off all of its liabilities. As a result, the book value equals the difference between a company's total assets and total liabilities. Book value is also recorded as shareholders' equity. In other words, the book value is literally the value of the company according to its books (balance sheet) once all liabilities are subtracted from assets. 
+The need for book value also arises when it comes to generally accepted accounting principles (GAAP). According to these rules, hard assets (like buildings and equipment) listed on a company's balance sheet can only be stated according to book value. This sometimes creates problems for companies with assets that have greatly appreciated - these assets cannot be re-priced and added to the overall value of the company.
+Calculating The Book Value Of Bank of America Corporation (BAC)
+Below is the balance sheet for the fiscal year ending for 2017 according to the bank's annual 10K statement.
+Assets totaled $2,281,234 trillion.
+Liabilities totaled $2,014,088 trillion. 
+The book value was $267,146 billion as of the end of 2017.
+In theory, if Bank of America liquidated all of its assets and paid down its liabilities, the bank would have roughly $267 billion left over to pay shareholders. 
+
+Market Value 
+The market value is the value of a company according to the financial markets. The market value of a company is calculated by multiplying the current stock price by the number of outstanding shares that are trading in the market. Market value is also known as market capitalization.  
+For example, Bank of America had over 10 billion shares outstanding (10,207,302,000) as of the end of 2017 while the stock traded at $29.52 making BofA's market value or market capitalization at 301 billion (10,207,302,000 * 29.52).
+How Book Value & Market Value Are Interpreted
+When the market value of a company is less than its book value, it may mean that investors have lost confidence in the company. In other words, the market may not believe the company is worth the value on its books or that there are enough future earnings. Value investors might look for a company where the market value is less than its book value hoping that the market is wrong in its valuation.
+For example, during the Great Recession, Bank of America's market value was below its book value. Now that the bank and the economy have recovered, the company's market value is no longer trading at a discount to its book value.  
+When the market value is greater than the book value, the stock market is assigning a higher value to the company due to the earnings power of the company's assets. Consistently profitable companies typically have market values greater than their book values because investors have confidence in the companies' ability to generate revenue growth and ultimately earnings growth. 
+When nook value equals market value, the market sees no compelling reason to believe the company's assets are better or worse than what is stated on the balance sheet.
+The Bottom Line
+Book value and market value are two fundamentally different calculations that tell a story about a company's overall financial strength. Comparing the book value to the market value of a company can also help investors determine whether a stock is overvalued or undervalued given its assets, liabilities and its ability to generate income. However, with any financial metric, it's important to recognize the limitations of book value and market value and use a combination of financial metrics when analyzing a company.
+For more on this topic including examples, please read Market Value Versus Book Value and Using the Price-to-Book Ratio to Evaluate Companies.
+        
+    
+
+    
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'FAQ'
+    });
+                

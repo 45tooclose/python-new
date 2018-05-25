@@ -1,0 +1,143 @@
+
+
+    
+                          What is 'Delivery Point'
+
+      The delivery point in futures contracts is the place where the physical commodity will be delivered. A buyer of a futures contract who maintains their position must be ready to accept delivery of the actual commodity and pay full value for the raw material product, and a seller is allowed to make delivery.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Current Delivery                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Delivery Price                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Delivery Option                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Physical Delivery                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Delivery Point'
+      The chosen delivery point will have an effect on the net delivery price or cost. Or to put it another way, the terms of the delivery underwrite the value of the goods being delivered. The price of commodities differs by location due to the costs of transporting them from their source to the delivery point. Thus, in order to specify a single price of a commodity for contract purposes, the delivery point is an essential detail.
+Because most futures market participants trade speculatively, most don’t consider taking delivery of the physical commodities in futures contracts. Most buyers purchase futures contracts because they believe the price of the underlying commodity will rise, not because they’re interested in taking delivery of several thousand barrels of oil or several thousand heads of cattle. Taking deliveries like these requires having the resources to store and market these resources to potential end buyers.
+When delivery takes place, a warrant or bearer receipt that represents a certain quantity and quality of a commodity in a specific location changes hands from the seller to the buyer. Full value payment then occurs. The buyer has the right to remove the commodity from the warehouse at their option. Often, a purchaser will leave the product at the storage location and pay a periodic storage fee. Exchanges also set fees for many aspects of the delivery process.
+It is extremely important that the commodity delivery point is chosen carefully. Domestic locations may present a set of legal, tax and regulatory requirements that differ dramatically from those incurred by setting a foreign location as the delivery point. These differences can be significant enough to make a given deal impractical or even impossible.
+Example of a Delivery Point
+The delivery point is most often set at major transportation hubs for the commodity being delivered. For example, Cushing, Oklahoma is a popular delivery point for oil contracts. Meanwhile, the Henry Hub in Erath, Louisiana is a popular delivery point for natural gas contracts. The change in prices due to the delivery point is readily observable in gasoline prices. If you go on a road trip between cities, you will most often notice gradual changes in the average price of gasoline. Prices are lowest around major oil refining centers.
+ 
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

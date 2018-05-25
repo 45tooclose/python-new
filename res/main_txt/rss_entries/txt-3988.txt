@@ -1,0 +1,84 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        More on BitcoinFormer Paypal CEO Calls Bitcoin A ScamGoldman Hires Former Crypto TraderICO Tokens Are Securities: Former CFTC ChiefBytecoinGovernance has become an increasingly fraught issue in cryptocurrencies. Publicly listed companies on the stock market are required to adhere to prescribed requirements for governance to ensure protection for investors. But there are no such safeguards in cryptocurrency markets. 
+As a result, cryptos have developed a melange of strategies as substitutes. In some cases, it has translated to forks. For example, the DAO hack in 2015 on ethereum’s blockchain resulted in a fork and creation of a new coin. In other cases, cryptocurrencies have adopted novel forms of governance. For example, Dash has instituted a system of Masternodes, who vote on the direction of future developments. 
+Then there’s Decred. The blockchain, which first came to prominence with an atomic swap last year, has combined bitcoin’s Proof of Work with the more-recent Proof of Stake to devise a new approach. “There are problems with both systems,” explains Jake Yocom-Piatt, project lead at Decred. As an example, he points to PoW’s sovereignty problem, in which critical decisions are taken by a minority rather than a decentralized majority. “To right the ship, we have done both (algorithms),” he says. Decred is arguably the first cryptocurrency to combine the benefits of both PoW and PoS consensus systems on its blockchain.
+A Coin Born Out of Personal Experience 
+The impetus for his approach to governance is derived from personal experience. Intrigued by bitcoin, Yocom-Piatt and his team did a full-scratch implementation of the cryptocurrency back in 2013, correcting problems with the original code along the way. But their efforts received a cool response from the team at Bitcoin Core, the algorithm that runs bitcoin’s network. “If you weren’t the first, you couldn’t really participate in it (bitcoin),” he says. That was when he came across a research paper for memcoin2, a proposal for a cryptocurrency that mined coins using standard PoW and combined it with a participatory governance system in which holders of the cryptocurrency are allowed to vote on changes to its code. Yocom-Piatt and his team “In the Proof of Work system, sovereignty is in the wrong place,” says Yocom-Piatt, in a reference to centralized miners and bitcoin core developers who wield tremendous influence in the bitcoin ecosystem. Yocom-Piatt and his team launched Decred in 2016. 
+While it uses standard PoW for mining, Decred’s novelty lies in its implementation of a PoS system. This means that stakeholders of the cryptocurrency have a say on its future direction. That right is absent for bitcoin holders, who were mere bystanders in the drama that led to the creation of bitcoin cash last year. (See also: Bitcoin Cash: The New King of Cryptocurrency?)  
+“Lots of people wanted larger blocks (in bitcoin) but the question of how many people (wanted larger blocks) was never answered,” explains Yocom-Piatt. According to him, Onchain processes (or processes that take place on a cryptocurrency’s blockchain, such as voting, as opposed to offline) are censorship-resistant. 
+But PoW and PoS come with their own set of problems. For example, PoW is fast losing favor among developers because it is energy intensive and requires expensive infrastructure. “I cannot wait to see the death of Proof of Work,” said Brian Behlendorf, executive director at Hyperledger—an open source project for blockchain technologies, at a recent MIT conference. PoS is susceptible to the tyranny of majority stakeholders. But Yocom-Piatt is not too concerned about these changes. “If, in the future, we determine that PoW is a big thumbs-down, then we’ll just engineer it out,” he says. As to PoS, he says that he trusts the “wisdom of stakeholders.”
+“We are building collective intelligence here,” he explains. 
+Decred's Evolution 
+Presently, Yocom-Piatt is busy building Decred into a superior store of value. “Every cryptocurrency, including bitcoin, is primarily a store of value because it is so annoying to acquire that people don’t want to spend it,” he says. Decred is also positioning itself as a blockchain for implementing governance infrastructure. Last year it released Politeia (from the Greek term for system of government) for businesses. Yocom-Piatt describes it as like Github, a popular tool used by developers to store the latest versions of their code, with timestamps. Politeia can be used for storing data relating to governance.  
+Over time, Decred, the cryptocurrency, may evolve to becoming a medium of transactions. But a couple of developments are required to make that happen. First, off-chain transactions, such as the ones conducted using Lightning Network, need to mature and become widely adopted for transactions. (See also: What Is Bitcoin Lightning Network?)
+Yocom-Piatt says 2018 might be the year that such transactions come into their own. Second, it should become easier to acquire cryptocurrencies from a regulatory standpoint. “That would drive price down and a cycle of buy and sell would begin,” says Yocom-Piatt, adding that Decred should be thought of as a long-term purchase.
+Investing in cryptocurrencies and other Initial Coin Offerings ("ICOs") is highly risky and speculative, and this article is not a recommendation by Investopedia or the writer to invest in cryptocurrencies or other ICOs. Since each individual's situation is unique, a qualified professional should always be consulted before making any financial decisions. Investopedia makes no representations or warranties as to the accuracy or timeliness of the information contained herein. As of the date this article was written, the author owns 0.01 bitcoin. 
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

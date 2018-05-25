@@ -1,0 +1,141 @@
+
+
+    
+                          WHAT IS 'Balloon Interest'
+
+      Balloon interest is an increased coupon rate on the longer-term maturity instruments within a serial bond issue, known as a serial bond with balloon. In a serial issue, bonds mature at different intervals, creating a string of short- to long-term instruments.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Serial Bond With Balloon                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Serial Bond                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Term Bond                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Serial Correlation                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Balloon Interest'
+      Ballon interest is created In a serial issue where bonds mature at regular intervals with a large portion of the bonds maturing at the same time in the first or last interval, creating the balloon. In a serial bond issue, all the bonds mature in intervals, unlike a term issue, where all the bonds have the same maturity date.
+Higher interest is earned on the long-term bonds in a serial issue, providing incentive to investors to hold the instrument longer. Investors refer to this large coupon rate as balloon interest, since it is often inflated. Serial bonds are usually issued to fund revenue-generating projects with steadily increasing cash flows. The issuer anticipates that the project will be near the height of its earning power by time the balloon interest is due.
+Calculating bond interest rates
+The actual, real, or effective interest rate of a bond is the rate that will discount all of the future cash receipts back to the amount of cash paid to buy the bond. This interest rate is also known as the yield to maturity, yield, and market interest rate. To calculate the actual or real interest rate on a bond, use present value software or a financial calculator. The future cash receipts for a typical bond are the semiannual interest payments - that is the interest rate stated on the bond times the face amount of bond times one-half year - and the maturity amount of the bond. The interest payments form an ordinary annuity and the maturity amount is a single payment.
+If the bond's stated interest rate is less than the current market interest rate, the bond's market value is less than the maturity or face amount of the bond, so the bond will sell at a discount. If the bond's interest rate is more than the current market interest rate, the bond will have a market value that is more than the maturity or face amount of the bond, so the bond will sell at a premium. There are also zero-coupon bonds, which do not pay interest but are traded at a deep discount, rendering profit at maturity when the bond is redeemed for its full face value. Because zero-coupon bonds pay at maturity, their pricing tends to be more volatile than coupon bond pricing.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

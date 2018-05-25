@@ -1,0 +1,207 @@
+
+
+
+Scammers Use Hacked Twitter Account for Fake Giveaway from Pavel Durov
+Scammers have managed to swindle unsuspecting users out Bitcoins and Ethers using a fake Twitter account of Telegram CEO Pavel Durov.
+
+
+ by  Tanya
+Chepkova,
+7 mins ago
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+Subscribe
+
+
+  Unknown scammers hacked the verified Twitter account of Swedish musical group Club 8 and changed it to look exactly like the original account of Pavel Durov, the creator of popular messaging service Telegram. The fraudsters then used his name to extract Bitcoins from his Twitter followers. The incident happened on Sunday amid technical problems with the Telegram platform, BlockShow has found.
+How it all happened
+On April 28, Durov announced technical problems with the service due to server clusters overheating, which might have caused connectivity issues for European users. His tweet drew the attention of crypto scammers, who published a false crypto giveaway tweet using a fake account. The tweet stated that Telegram's CEO would offer Bitcoin and Ether coins to Telegram users as a “thank you for support and patience.”
+https://twitter.com/durov/status/990371212877549568
+The scammers followed a well-known giveaway scheme, asking for ETH and BTC to be sent to the specified addresses to get more coins in return. They also used bots to promote their scam and make it look legitimate.
+Currently, the collateral damage is estimated at close to $500,000 though the actual amount may be even larger as scammers constantly change BTC and ETH addresses, according to the private investigation carried out by BlockShow.
+https://twitter.com/durov/status/990371212877549568
+This time it's different
+It is not the first time when scammers have tried to rob people of their crypto coins by using the name of Pavel Durov. At the end of March, such "crypto draw game" script "earned" them about $60,000 in ETH, while in April fraudsters stole over $35,000 from people who wanted to take part in Telegram's ICO. They used dozens of fake web pages with offers for Gram tokens ahead of the upcoming ICO.
+This time, the scammers took it a step further as they managed to hijack a verified Twitter account, change its avatar and make it almost identical to the original. Apparently, this was done to get a verified account mark and make the whole scheme look legitimate and convincing.
+
+Twitter has warned users to be careful and double check user names and cryptocurrency wallet addresses as most giveaway campaigns are scams. The efforts of the social media platform to crack down on crypto scams has produced no results so far. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

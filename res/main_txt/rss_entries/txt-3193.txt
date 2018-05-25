@@ -1,0 +1,199 @@
+
+
+
+    
+        
+        Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/PersonalFinance/WealthManagement/IC-Video/ShortArticle");} else {return "/8397/INV-NA/PersonalFinance/WealthManagement/IC-Video/ShortArticle";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/articles/personal-finance/091015/why-high-earners-still-live-paychecktopaycheck.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/npQfEjEA.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/npQfEjEA-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/content/video/what_would_you_do_wi/whatwouldyoudowith10k.png?width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "100%",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "npQfEjEA-G9NhEyAa.mp4";
+                
+          
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                    var initializeJWPlayerSetup = function () {
+                        if (new VideoInit().canRun()) {
+                            setUpJwpPlayer();
+                        } else {
+                            new VideoInit().callBack = setUpJwpPlayer;
+                        }
+                    }
+          initializeJWPlayerSetup();
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "npQfEjEA-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "What Would You Do With $10,000?",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };    
+        
+            
+        
+          
+                
+      
+
+    
+
+    
+        Living paycheck to paycheck is an unpleasant financial reality for many Americans. According to a 2016 GoBankingRates survey, 69% of Americans have less than $1,000 in savings. While adults earning less than $25,000 annually struggle the most with keeping money in the bank, a surprising number of higher-income earners are also scrambling to make ends meet.
+A 2015 Nielsen study, for instance, found 25% of American families making $150,000 or more a year live paycheck to paycheck. One in three households earning between $50,000 and $100,000 find themselves in the same predicament. With household debt ballooning, and the cost of living skyrocketing in some parts of the country, a higher income doesn’t always translate into financial security. New research sheds some light on just how far a six-figure salary really goes. (For more, see Are You Living Paycheck to Paycheck?)
+Who Is Living Paycheck to Paycheck?
+According to Northwestern Mutual’s 2017 Planning and Progress Study, 70% of Americans identify themselves as middle class. Sixty-eight percent of those who claimed middle-class status had household incomes ranging from $50,000 to less than $200,000 annually. Fifty percent had incomes in the $50,000 to $125,000 range. By comparison, the median U.S. household income in 2015 was $56,516, according to Federal Reserve Bank of St. Louis.
+Interestingly, the study showed that middle-class Americans tended to have a more optimistic view of their finances. Fifty-five percent said they believed in the attainability of the American dream, versus 48% of the general population, and 58% said they felt financially secure compared to 47% of the general population. The question is whether their expectations and beliefs are an accurate reflection of their situation.
+For example, with more financial resources at their disposal, it’s natural to assume that higher-income earners would have significantly more in savings, but that’s not always the case. According to the GoBankingRates survey, 23% of respondents with incomes of $150,000 or more had less than $1,000 in an emergency fund. Six percent in that income range had absolutely nothing set aside in reserves.
+A different survey, also by GoBankingRates, revealed that one in three Americans have nothing saved for retirement. Many Gen Xers and Baby Boomers, who are more likely to be in their peak earning years, have a dismal outlook for the long term. More than half of Generation X has less than $10,000 saved for retirement, and fewer than one in four people over age 55 have more than $300,000 saved.
+To offer some perspective, the top 1% of Americans have $1.08 million or more stashed away for retirement, according to the Economic Policy Institute. High-income families are 10 times as likely to have retirement savings as low-income families. Based on the numbers, it would make sense that those at the top and bottom of the income scale would represent the extremes when it comes to savings. It doesn’t, however, explain why those who land in the middle with six-figure incomes are so far behind with regard to saving and financial security, in general.
+What’s Behind the Cash Crunch?
+Understanding why so many high earners struggle begins with pinpointing potential causes for their financial woes. Debt could be one culprit. According to the Federal Reserve Bank of New York, total household debt in the U.S. reached $12.73 trillion in the first quarter of 2017. That figure exceeds the previous peak reached in 2008. Most of the debt is mortgage-related, although student loans represent an increasingly larger share of what Americans owe. Credit card debt alone accounted for $1 trillion of the total.
+That doesn’t necessarily mean that higher earners are racking up debt because of poor personal spending habits. For some Americans who earn six figures or more, the root cause may be a too-high cost of living.
+Home values, for example, have increased by roughly one third since 2012, according to Zillow. In certain markets the demand for housing has pushed both purchase and rental prices through the roof, eating up a larger share of high earners’ salaries. A Magnify Money study, for instance, found that Washington, D.C., is the worst city for living on an annual income of $100,000. After deducting housing and other monthly expenses, residents end up with a deficit of $315 a month.
+Those monthly expenses include payments to student loans and other debts, healthcare, transportation and childcare. As children get older and prepare to go to college, the burden for some high-income families increases – because, ironically, the kids are only able to qualify for limited financial aid. For the 2016-17 academic year the average cost of tuition, fees, and room and board at a public four-year university was $35,370 for out-of-state students, which can add to the strain high earners feel to make ends meet.
+The Bottom Line
+As the data show, a paycheck-to-paycheck lifestyle isn’t exclusive to lower-income earners. A higher salary may not stretch as much for those facing a higher cost of living, especially if they rely on credit to cover the gaps. Finding ways to break the paycheck-to-paycheck cycle is vital to long-term financial health. While increasing family income may be one solution, reducing expenses and eliminating debt could be more useful in making the most of what people earn. (For more, see Paycheck to Paycheck? 5 Ways to Start Saving Now.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'PersonalLoan',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

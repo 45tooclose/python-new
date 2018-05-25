@@ -1,0 +1,86 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Although it is not the only factor in deciding how wealthy an individual is, disposable income does have a significant influence. If you have little or no money after taxes and expenses, then it is hard to save and invest for the future. In this article, we'll look at four ways you can increase your disposable income.
+1. Get a Raise – or a Second Job
+There is no shortage of books and articles that give advice about getting more money out of your employer. Their counsel includes everything from dressing well to taking a pay cut in exchange for performance bonuses. One of the most highly touted techniques is to go for further training or education. This can cost you money now, but it will hopefully translate into higher wages and a more secure position in the company. (See also: Invest In Yourself With A College Education.)
+Regardless of how you go about it, getting a raise is the most obvious way to increase your income. Along the same lines is the possibility of having another job on the side. Working two jobs in tandem can be physically and mentally draining, but it will bring more money in when you need it.
+The problem with increasing your income through your job is that you expose yourself to increased income taxes. The loss resulting from entering a higher income bracket is not prohibitive, but it is discouraging. You are working harder and often longer hours, but the returns on your effort are diminishing as your income tax rate increases. Basically, you have to work harder just to add a little more to your pocket.
+This is compounded by the fact that most people never really profit from the extra wages because their lifestyles adjust to absorb it. For example, you may notice that your taxes have increased so, in order to minimize your tax bill, you decide to move into a bigger house to take more advantage of the homeowner's deduction on the mortgage. Although you can technically afford it, the larger mortgage payment leaves you with the same disposable income as before.
+2. Start a Business
+Starting a business, even a small one, is a legitimate way to bolster your income. Much like a raise or second job, running a business will put more demands on your time and require more effort. The difference is that you will see more of the income from your labor because taxation for business owners is a small pinch when compared to the slap that the IRS gives to employees. Some of your business write-offs can even be claimed against other income sources, but you have to follow the rules carefully. (See also: Capital Gains Tax Cuts For Middle Income Investors.)
+The major drawback of starting a business is that there is no guarantee of success or income like there is with a raise or a second job. Entrepreneurial ventures take a certain type of person, one with the motivation and the ability to handle the details involved in implementing an idea. The time, effort and nerves that it takes to run a business (that has no certainty of success) means that very few people will take this route.
+3. Investment Income
+Investment income is considered a form of passive income. That's a bit of a misnomer, because it does take active effort to create income from investing – you have to research investments, build and maintain your portfolio, etc. – but it is generally considered to take less effort than, let's say, shoveling concrete day in and day out. Investing income can come from stocks, bonds, real estate, or many other types of assets. The common theme is that they ideally produce a return on the money you put into them. (See also: A Guide To Portfolio Construction.)
+Creating income through investing is a process of accumulation. Even if you consistently get a return on investments (ROI) of 20%, if you only have $1,000 in the investment, you will add a little less than $200 to your yearly income after any fees and taxes have been paid (and there is no guarantee of consistent returns of even 10%). Searching for stocks with a history of dividends, sometimes called income stocks, can help create some income now, but it will still not be as rapid in results as a second job.
+As you put more money in, however, more money comes out in the form of returns. Investing is a great way to increase your disposable income in the long run, but it won't do wonders for your immediate situation unless you have a huge chunk of capital just sitting around. Investing takes patience, time and discipline (it is also subject to taxation). That said, it is one of the surest ways to gradually add to your disposable income without exerting yourself too much.
+4. Spend Less
+The best way to increase your disposable income is by spending less. Tightening your budget will take some effort in the form of sacrificing a few luxuries, but the increase to your disposable income will not require longer hours or incur any extra tax. The more after-tax dollars you hold onto, the easier it is to do things like investing to secure more income in the future.
+You don't have to scour the classifieds or create a business model or subscribe to a bunch of financial magazines – you just have to shell out less  than you currently are, and certainly less than you are currently making. Earning more may help you, but spending less is the only iron-clad solution to the problem of living paycheck to paycheck and never having enough. (See also: Enjoy Life Now And Still Save For Later.)
+The Bottom Line
+Of all the ways to increase your disposable income, the simplest one is by far the best. Spending less/saving more can be used in conjunction with any of the other strategies. It's also the only one that isn't going to affect your taxes or require more of your time. In the words of Benjamin Franklin, "If you know how to spend less than you get, then you have the philosopher's stone."
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

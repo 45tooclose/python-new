@@ -1,0 +1,83 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        More on BitcoinWhy April 2018 Was A Great Month For CryptoFormer Paypal CEO Calls Bitcoin A ScamGoldman Hires Former Crypto TraderICO Tokens Are Securities: Former CFTC ChiefICOs, make way for JCOs. 
+Even as initial coin offerings (ICOs) come under increasing scrutiny from regulators, another type of fund-raising mechanism may be in the works. JOBS Coin Offerings (JCOs) are modeled on the Obama-era JOBS act, which enabled startups and small businesses to raise funds. (See also: The Rise of Initial Coin Offerings).  
+The Difference Between JOBS Act and ICOs 
+There were two main benefits of the JOBS Act. First, it enabled startups to raise funds from accredited and non-accredited investors, thereby freeing them from dependency on venture capital money. Second, it reduced disclosure and accounting requirements for SEC filings for companies with revenues under a billion dollars. 
+Initial coin offerings have similarly few disclosure requirements for startups that can claim exemptions under Regulation D by declaring their tokens to be utility tokens. But their viability as a funding mechanism has come under a cloud after pronouncements from current and former regulatory officials that ICO tokens are securities and, therefore, subject to greater disclosure and compliance requirements. (See also: Are There SEC Guidelines On ICOs?)
+How Will A JCO Work? 
+The recently-formed Institute of Blockchain Innovation has proposed JCOs as a middle ground between both types of offerings. 
+A JCO consists of three stages. In the first stage, the startup or company sets a target goal for fundraising from private investors and offers Block-SAFE purchase agreements to accredited investors in a pre-sale. Depending on the type of token being offered, the purchase agreement may take the form of Simple Agreement for Future Tokens (SAFT) or another form of purchase agreement without significant disclosure requirements. The applicable regulation in this case may be Regulation D, which is used by companies to claim exemption. 
+After the target goal is reached, the company files the appropriate documentation with the SEC and offers its tokens for sale to public investors using Regulation A+, which has more documentation and disclosure requirements as compared to Regulation D. In this way, a company can attract funding from accredited and non-accredited investors at the same time. “This new approach provides liquidity in a crowdfunding model, creates a faster track to IPO, and expanded funding opportunities beyond the traditional VC path,” the company stated. 
+Will It Work? 
+IBI’s post on JCOs is thin on details. At first glance, JCO still does not seem to solve the main problem associated with ICOs: regulatory uncertainty surrounding the status of an ICO token. The post refers to JOBS crypto offering as a “digital equity offering” or equity tokens on a given crypto’s blockchain. This might mean that it could still be subject to greater disclosure and compliance requirements from the SEC.
+Investing in cryptocurrencies and other Initial Coin Offerings ("ICOs") is highly risky and speculative, and this article is not a recommendation by Investopedia or the writer to invest in cryptocurrencies or other ICOs. Since each individual's situation is unique, a qualified professional should always be consulted before making any financial decisions. Investopedia makes no representations or warranties as to the accuracy or timeliness of the information contained herein. As of the date this article was written, the author owns 0.01 bitcoin.
+ 
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

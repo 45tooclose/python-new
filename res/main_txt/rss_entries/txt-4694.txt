@@ -1,0 +1,81 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        As with any new area of investment, cryptocurrencies have prompted potential investors and analysts to ask many questions. In the past couple of years, digital currencies have experienced significant boosts in popularity; nonetheless, there are persistent untruths, myths, and rumors about the space in general and about certain coins and tokens in particular. Below, we'll take a look at some of the most common myths about digital currencies, and we'll explore whether or not each contains some truth.
+1. Digital Currencies Are Primarily Used for Illicit Activity
+One of the oldest and, unfortunately, most pervasive myths about digital currencies is that they are most commonly (or perhaps most effectively) used for illicit activity. While it's true that digital currencies have been used by individuals with nefarious goals in mind as well as by criminal enterprises, the same could of course be said for fiat currencies as well. One of the reasons behind this myth is the anonymity that is crucial to most cryptocurrencies. As the first major digital currency, bitcoin became popular in black markets like the Silk Road. While it's true that aspects of bitcoin (including the anonymity it provides) may have been enticing to criminals conducting illegal business in that and other similar markets, it's worth remembering that it was the transactions themselves which were illegal, not the cryptocurrency. Criminals could (and do) use fiat currency for their activities as well.
+2. Digital Currencies Don't Have Value
+Cryptocurrencies have proven difficult to categorize. In the U.S., the IRS has spent years determining how to classify digital currencies for tax purposes. Investors haven't been quite sure how to treat their digital assets when it comes to taxes or even everyday transactions. All of this has perhaps contributed to the idea that cryptocurrencies are a fad or that they will simply disappear. In actuality, however, not only have cryptocurrencies only been gaining in prominence and popularity, but they are generally set up in such a way as to minimize the risk of these things happening. As with other types of currencies, cryptocurrencies can be exchanged for goods and services, and they have value in accordance with the belief of the holders of the currency.
+3. Cryptocurrencies Aren't Secure
+As digital currencies have gained popularity, there have been a number of high-profile scams and thefts. In many cases, digital currency exchanges themselves were the targets of these attacks. In other cases, criminals capitalized on vulnerabilities in wallets and other aspects of the cryptocurrency space. Investors worrying about the security of digital assets should remember that it is possible for hacks, thefts, and fraud to occur. However, there are many ways that investors can change their behavior in order to better protect their holdings. Further, it's also worth noting that many governments and other financial institutions have shown an interest in blockchain technology; one of the reasons for this is that blockchain is widely seen as a secure and effective tool with untapped potential.
+4. Digital Currencies Are Bad for the Environment
+There is reason for concern about the impact of digital currencies on the environment. As cryptocurrencies like bitcoin and ether have taken off, so too has the number of mining operations around the world. Each of the individual mining rigs requires massive amounts of computational power, and this in turn requires large amounts of electricity. What's worth remembering, however, is that the value of mining for a cryptocurrency nearly always outweighs the real-world cost that is required in order to complete that mining operation. What's more, many cryptocurrencies, including bitcoin, have set hard caps on the total number of tokens which can be mined. After this point, individuals will no longer be able to mine for new tokens or coins, and the costs of the computational power required for mining that currency will be dramatically reduced.
+5. Cryptocurrencies Are a Scam
+Again, there is reason for investors to be cautious when it comes to potential scams. There have been numerous initial coin offerings that have proven to be fraudulent in various ways. However, savvy investors tend to treat cryptocurrencies in the same way that they would any other potential investment: with a healthy dose of skepticism and a large amount of research and caution. It's possible for investors to be drawn into fraudulent investment opportunities in the traditional financial world as well, and this situation tends to come about when an investor has not taken the time to thoroughly consider and learn about the details of the opportunity itself. Just as one must sift through good and bad potential investments in the traditional financial landscape, one must take the time and effort to sort out dubious investment opportunities in the cryptocurrency space. While it's impossible to fully eliminate the chance that you will be the victim of a scam, this nonetheless helps reduce those chances considerably.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

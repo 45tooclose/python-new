@@ -1,0 +1,142 @@
+
+
+    
+                          What is  'Adaptive Selling'
+
+      Adaptive selling is a custom or tailored approach to selling, which takes into account the type of customer, the sales situation and the feedback received. Identifying an individual’s social style is an important feature of adaptive selling.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Demographics                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Positive Feedback                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Natural Selection                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Consumer Goods Sector                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Adaptive Selling'
+      In adaptive selling, salespeople literally adapt to the needs and problems of the customer. It is a client centric approach to doing business that focuses on creating a positive experience for the customer, and keeping them happy and satisfied. By establishing relationships with customers and adapting their communications, businesses can provide better customer service and hopefully generate more leads.
+Adaptive selling can be a key differentiator for all kinds of businesses, which is why it has been used since time immemorial whenever the personal touch is essential to build rapport with customers, from upscale retail stores to car dealerships. Because adaptive selling requires a more consultative approach to sales and customer service, it requires expensively trained salespeople, who know the product they are selling inside out, and can use their judgment to adjust their sales approach based on their customer’s needs and state of mind.
+To be able to respond more quickly to buyers, some companies have turned selling from an art into a science and standardizing sales practices learned from the best salespeople. They are harnessing the data they get from tracking their customers and sales representatives more closely, and training complex sales teams to provide flexible customer service.
+Adaptive selling is being used very effectively today in e-commerce and tech industries, where online retailers and other businesses are able to use big data and computer algorithms to more precisely target their marketing, according to their customers’ past purchases, tastes and demographics
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

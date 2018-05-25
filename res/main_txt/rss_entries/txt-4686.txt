@@ -1,0 +1,77 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        More on BitcoinWhy April 2018 Was A Great Month For CryptoFormer Paypal CEO Calls Bitcoin A ScamGoldman Hires Former Crypto TraderICO Tokens Are Securities: Former CFTC ChiefThe two Koreas created history last week by coming together for the Inter-Korean Summit to discuss ways to end the war between them. Now that piece of history has been recorded for posterity on Ethereum. (See also: Why North Korea and South Korea Are Separated). 
+According to a report on Coindesk Korea, two electronic versions – one in English and another in Korean - of the Panmunjom Declaration signed at the summit are now stored on Ethereum’s blockchain. Ryu Gi-hyeok, who was responsible for coding the declaration, told the publication that this was his contribution to the historic achievement. “I just thought it took too long for the South and the North to give way to each other… After finding out what I could contribute to this historic achievement as a developer, I found the Panmunjom Declaration on the Blue House homepage and recorded it on ethereum," he said, adding that he has plans to launch a website that will keep “all historic records immutable and permanent” on a blockchain.  
+Blockchain as a Ledger of Historical Record
+Gi-hyoek’s intentions for blockchain are a demonstration of blockchain’s utility as a ledger of historical record. The first block ever mined in bitcoin is known as the Genesis record and records the Bank of England’s announcement of a bailout, a consequence of the financial crisis, the effects of which are still reverberating across the world. According to some accounts, blockchain heralds the advent of an “Internet of Value” in which transactions will occur due to an exchange of value between systems and parties. Much of that value resides in information and records of important documents encoded and stored on blockchain. For example, Dubai’s blockchain strategy consists of transferring all government records and documents onto blockchain for future transactions. (See also: Can Decentralized, Blockchain Internet Become A Reality?)
+As the Coindesk article points out, the encoding of the Korean declaration is the second such instance in recent times. The #MeToo awakening, which has brought sexual harassment of women in workplaces to light, used Ethereum’s blockchain to evade censorship in China. A Peking University student, who petitioned for the reopening of a case that she alleged was related to sexual harassment, had her letter censored by Chinese authorities. After a failed social media campaign to bring light to the issue, the student's letter has been encoded on Ethereum’s blockchain for good.
+Investing in cryptocurrencies and other Initial Coin Offerings ("ICOs") is highly risky and speculative, and this article is not a recommendation by Investopedia or the writer to invest in cryptocurrencies or other ICOs. Since each individual's situation is unique, a qualified professional should always be consulted before making any financial decisions. Investopedia makes no representations or warranties as to the accuracy or timeliness of the information contained herein. As of the date this article was written, the author owns 0.01 bitcoin. 
+ 
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

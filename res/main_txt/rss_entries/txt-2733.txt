@@ -1,0 +1,101 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Life expectancy is the single most influential factor that insurance companies use to determine life insurance premiums. Understanding how insurance companies use the concept of life expectancy – and how it is calculated for the insured – can help you decide when to purchase a policy, how to calculate the future potential value of your policy and what to consider when choosing an annuity payout option.
+Life Expectancy: The Hard Numbers
+Life expectancy is defined as the age to which a person is expected to live. It can also be described as the remaining number of years a person is expected to live, based on tables issued by the Internal Revenue Service (IRS).
+There are several factors that affect your life expectancy; the two single most important being when you were born and your gender. Additional factors that can influence your life expectancy are:
+Your race
+Personal medical conditions
+Family medical history
+You can view the federal government's data on U.S. life expectancy on the National Center for Health Statistic's website and the Social Security Administration's Actuarial Period Life Table.
+It's important to note that life expectancy changes over time. That's because as you age, actuaries use complex formulas that factor out people who are younger than you but who  have died. As you continue to age past mid-life, you outlive an increasing number of people who are younger than you, so your life expectancy actually increases. In other words, the older you get (past a certain age), the older you are likely to get.
+Life Expectancy and Your Life Insurance Premium
+There is a direct correlation between your life expectancy and how much you'll be charged for a life insurance policy. The younger you are when you purchase a life insurance policy, the longer you are likely to live. That means that there is a lower risk to the life insurance company because you are less likely to die in the near term, which would require a payout of the full benefit of your policy before you have paid much into the policy.
+Conversely, the longer you wait to purchase life insurance, the lower your life expectancy, and that translates into a higher risk for the life insurance company. Companies compensate for that risk by charging a higher premium. (See also: What To Expect When Applying For Life Insurance.)
+Given that math, many people wonder if they should purchase life insurance for their children. After all, having a policy as a child ensures the lowest possible premium. However, there is a cost-benefit analysis to consider before purchasing a policy for your child. Because the main financial benefit of life insurance is to provide income to dependents in the event of the policyholder's death, life insurance coverage is relatively unnecessary for a child.
+However, it could provide your child with a low premium and coverage for the length of his or her life, which may be important given the child's future medical conditions or occupation. Talk with your financial advisor or insurance agent about the pros and cons of purchasing a life-insurance policy for your child. (See also: Top 10 Life Insurance Myths.)
+The principle of life expectancy suggests that you should purchase a life insurance policy for yourself and your spouse sooner rather than later. Not only will you save money through lower premium costs, but you will also have longer for your policy to accumulate value and become a potentially significant financial resource as you age. (See also: Buying Life Insurance: Term Versus Permanent.)
+Life Expectancy and Calculating ROI on Your Life Insurance Policy
+Your life expectancy also plays an important role in determining the potential return on investment (ROI) you could achieve.
+ 
+Payout to Beneficiaries - Amount Paid into Policy at Time of Death = ROI
+For example, if you choose a policy that pays your beneficiaries $150,000 at the time of your death and you have only made $48,000 in premium payments for the coverage, the ROI on your investment is $102,000.
+Your Life Expectancy and Annuities
+An annuity is a contract between you and a life insurance company in which the company agrees to provide you with an "income stream" for a set period of time or until your death. The payout usually begins at a certain age, and depending on the terms of the annuity, may continue to your beneficiary after your death. Payments to your beneficiary may be less than the payments made to you while you are alive, depending on the type of annuity and the terms of the contact. (See also: An Overview Of Annuities.)
+The amount that the insurance company pays out to you is determined, in part, by your life expectancy. Let's look at three different examples to see how life expectancy plays into or affects your annuity contract:
+
+If you choose a joint life annuity with a period-certain payout, you are essentially estimating how long you will live. However, if you die before the contracted period of time, your beneficiary would continue receiving funds for the years remaining on the contract.
+
+
+If you choose an annuity with a joint life option with survivor benefits, you are selecting a contract that will continue to make payments to your surviving beneficiary after your death, or will continue to make payments to you after your beneficiary's death. Generally, if you die first, your beneficiary's annuity payment amount is reduced, but if your beneficiary dies first, you will continue to receive the full payment amount. Because that annuity benefits both you and your beneficiary, your premium cost would be based on both your and your beneficiary's life expectancies.
+
+If you choose a single life annuity option, payments are made to you based on your life expectancy alone and cease after your death.
+Annuity payments are usually made on a systematic basis, and can be made monthly, quarterly, semiannually or annually as permitted under the terms of the annuity contract. (For further reading, check out Exploring Types Of Fixed Annuities.)
+The Bottom Line 
+It's important to know your life expectancy – not only to understand how your life insurance company arrives at your premium cost, but also to make informed decisions about your annuity payout options. Two key determining factors that affect your choice of annuity are whether you want payments to continue to a beneficiary after your death, and how long you expect to live. A period-certain annuity may be ideal in some cases, while one with survivor options may be more suitable in other cases.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'LifeInsurance',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

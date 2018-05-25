@@ -1,0 +1,281 @@
+
+
+    
+                        
+            
+                Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/PersonalFinance/Insurance/IC-Video/Term");} else {return "/8397/INV-NA/PersonalFinance/Insurance/IC-Video/Term";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/terms/t/termlife.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/xbvSMyqM.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/xbvSMyqM-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/thumbnails/live/13_lifeinsurance_421x236.jpg?quality=80&width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "560",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "xbvSMyqM-G9NhEyAa.mp4";
+                
+          
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                    var initializeJWPlayerSetup = function () {
+                        if (new VideoInit().canRun()) {
+                            setUpJwpPlayer();
+                        } else {
+                            new VideoInit().callBack = setUpJwpPlayer;
+                        }
+                    }
+          initializeJWPlayerSetup();
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "xbvSMyqM-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "Life Insurance",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };            
+          
+                    What is 'Term Life Insurance'
+
+      Term life insurance, also known as pure life insurance, is life insurance that guarantees payment of a death benefit during a specified term. Once the term expires, the policyholder can either renew for another term, convert to permanent coverage, or allow the policy to terminate. Term life insurance policies provide a stated benefit upon the death of the insured, provided that the death occurs within a specific period.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Yearly Renewable Term (YRT)                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Traditional Whole Life Policy                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Permanent Life Insurance                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Universal Life Insurance                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Term Life Insurance'
+      Term life policies have no value other than the guaranteed death benefit. There is no savings component as is found in a whole life insurance product. The policy's purpose is to give insurance to individuals against the loss of life. All premiums cover the cost of underwriting the insurance.  As a result, term life premiums are typically lower than permanent life insurance premiums.
+Characteristics of Term Life Insurance
+The basis for term life premiums is on a person’s age, health, and life expectancy, which is set by the insurer. If the person should die within the specified policy term, the insurer will pay the face value of the policy. Should the policy expire before the policyholder's death, there is no payout. Policyholders may be able to renew a term policy at its expiration, but their premiums will be recalculated for their attained age.
+Because it offers a benefit for a restricted time and offers only a death benefit, it is usually the least costly life insurance available. A healthy 35-year old non-smoker can typically obtain a 20-year level-premium policy with a $250,000 face value for between $20-$30 per month. Purchasing a whole life equivalent will have significantly higher premiums, possibly between $200-$300 per month. Because most term life insurance policies expire before paying a death benefit, the overall risk to the insurer is lower than that of a permanent life policy.  The reduced risk allows insurers to pass cost savings to the customers in the form of lowering premiums.
+For example, 30-years old George wants to protect his family in the unlikely event of his early death. He buys a $500,000 10-year term life insurance policy with a premium of $50 per month. Should George die within the 10-year term, the policy will pay George’s beneficiary $500,000. Alternatively, George does not pass and is now 40-years old. His term policy has expired. If he chooses not to renew and subsequently dies, his beneficiary receives no benefit. If he decides to renew the policy, the new policy will base premium on his current 40-years of age.
+Term Life Premiums
+An insured's age, sex, and health are the primary determinants for calculating the policy premium. Depending on the policy's face amount, a medical exam may be required. Other common factors are the insured's driving record, current medications, smoking status, occupation, hobbies, and family history.
+Premiums are flat, or level, for the duration of the contracted term.  However, the cost of insurance increases as the life expectancy of an insured decrease. Upon renewal, the policyholder will likely realize a significant increase in premiums. Based on actuarial data, the average life expectancy in the U.S. is 78.86 years. Therefore, a 20-year-old person has a remaining life expectancy of 58.86 as compared to a 50-year-old with a remaining life expectancy of 28.86 years. The risk to underwrite insurance for the 20-year-old is less than the risk to cover a 50-year-old person.    
+Interest rates, the financials of the insurance company, and state regulations can also affect premiums. In general, companies often offer better rates at "breakpoint" coverage levels of $100,000, $250,000, $500,000, and $1,000,000.
+Three Types of Term Life Insurance
+Level Term, or Level-Premium, policies provide coverage for a specified period ranging from 10-30 years. Both death benefit and premium are fixed.  Because actuaries must account for the increasing costs of insurance over the life of the policy's effectiveness, the premium is comparatively higher than yearly renewable term life insurance.
+Yearly Renewable Term (YRT) policies have no specified term but are renewable every year without requiring evidence of insurability each year. Early, premiums are low, but as the insured ages, premiums increase. Although there is no specified term, premiums can become prohibitively expensive as individuals age, making the policy an unattractive choice for many.
+Decreasing term policies have a death benefit which declines each year according to a predetermined schedule. The policyholder pays a fixed, level premium for the duration of the policy. Decreasing term policies are often used in concert with a mortgage to match the coverage with the declining principal of the home loan.
+Who Will Benefit from Term Life Insurance?
+Term life insurance is attractive for young couples with children.  Parents may obtain large amounts of coverage for reasonably low costs. Upon the death of a parent, the significant benefit can replace lost income. They are also well-suited for people who temporarily need specific amounts of life insurance. In these cases, the policyholder believes their survivors will no longer need extra financial protection, or they will have accumulated enough liquid assets to self-insure. 
+Term Life Insurance Vs. Permanent Insurance
+The choice between a permanent policy with cash-value insurance product such as whole life or universal life and a term life coverage depends on the circumstances and needs of the policyholder. Term life policies are ideal for people who want substantial coverage at low costs. Whole life customers pay more in premiums for less coverage but have the security of knowing they are protected for life.  
+While many buyers favor the affordability of term life, paying premiums for an extended period, and having no benefit after the term's expiration, is an unattractive feature. Upon renewal, term life insurance premiums increase with age which may make new premiums cost prohibitive. In fact, renewal term life premiums may be more expensive than what permanent life insurance premiums would have been at the issue of the original term life policy. 
+Some customers prefer permanent life insurance because the policies can have an investment or savings vehicle. A portion of each premium payment is allocated to the cash value, which may have a growth guarantee. Some plans pay dividends, which can be paid out or kept on deposit within the policy. Over time the cash value growth may be sufficient to pay the premiums on the policy. There are also several unique tax benefits, such as tax-deferred cash value growth and tax-free access to the cash portion.
+Financial advisers warn that the growth rate of a policy with cash value is often paltry compared to other financial instruments, such as mutual funds and exchange-traded funds (ETFs). Also, substantial administrative fees often hinder the rate of return. Hence, the common phrase "Buy term and invest the difference." However, the performance is steady and tax-advantaged.
+Apparently, there is no one-size-fits-all answer to the term vs. perm insurance debate. Other factors to consider include: 
+Is the rate of return earned on investments feasible for the client?
+Will these investments be in a traditional or Roth IRA or other qualified plan and if there will be any matching contributions to employer-sponsored plans?
+The there the existence of a loan provision and other features in the permanent policy?
+Does the policyholder have or intend to have a business which requires insurance coverage?
+Will life insurance could play a role in tax-sheltering a sizable estate?
+Convertible Term Life Insurance
+Convertible term life insurance is a term life policy which includes a conversion rider. The rider guarantees the right to convert an in-force term policy, or one about to expire, to a permanent plan without going through underwriting or proving insurability. The conversion rider should allow you to convert to any permanent policy the insurance company offers with no restrictions.
+The primary features of the rider are maintaining the original health rating of the term policy upon conversion, even if you later have health issues or become uninsurable, and deciding when and how much of the coverage to convert. The basis for the premium of the new permanent policy is on your age at conversion. 
+Of course, overall premiums will increase significantly, since whole life insurance is more expensive than term life insurance. The advantage is the guaranteed approval without a medical exam. Medical conditions which develop during the term life period cannot adjust premiums upward. However, if you want to add additional riders to the new policy, such as a long-term care rider, the company may require limited or full underwriting.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'LifeInsurance',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

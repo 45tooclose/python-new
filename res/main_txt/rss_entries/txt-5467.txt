@@ -1,0 +1,78 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        As global entertainment giant Walt Disney Co. (DIS) takes on new rivals like on-demand streaming platform Netflix Inc. (NFLX) in the the disrupted media space, its Marvel Studio films has proved to be one of its most valuable assets. (See also: Disney’s ‘Black Panther’ Boosts Bottom Line: JPM.)
+Disney's "Avengers: Infinity War" surpassed the $1 billion mark in global ticket sales Saturday, the fastest film to do so in history. The blockbuster film blew past the record within 11 days, compared to the now-second-best opening ever, "Star Wars: The Force Awakens," which reached the milestone in 12 days. Disney's latest superhero film is Marvel Studio's sixth film to blow past the $1 billion mark and Disney's 17th. 
+"Infinity War" is the product of over a decade worth of character and plot line development, including more than 20 of the the Marvel franchise's heroes. Over 18 previous superhero films from Marvel have raked in over $15.3 billion for Disney since it acquired the studio in 2009, according to CNN. The film is set to open in China, the world's largest movie market, on May 11. "Infinity War" is set to be the fifth movie ever to earn more than $100 million in its sophomore weekend at U.S. theaters, just after Marvel's "Black Panther" became the fourth earlier this year. 
+The Power of the Marvel Brand
+The success of Marvel Studios, which Disney acquired for $4 billion, has helped the Burbank, California-based entertainment behemoth hedge against new competition in its industry. Box office sales for Marvel's latest title pushed Disney over the $3 billion threshold globally for 2018. 
+"This speedy sprint toward the coveted and exclusive $1 billion club is a testament to the undeniable global appeal and drawing power of the Marvel brand," said Paul Dergarabedian, senior media analyst at comScore, as cited by CNBC. 
+Last year, the long-standing market leader announced that it would cut ties with Netflix as it doubles down on its own direct-to-consumer streaming platform slated for release by 2019. 
+Disney's ability to outspend its rivals should help it maintain its position as "arguably the world's leading content company," according to analysts at RBC Capital Markets, who expect the firm to shell out as much as $30 billion annually on content. Netflix expects to spend $8 billion in 2018, while Amazon is budgeting for $5 billion over that time. (See also: Disney to Outperform on DTC Focus: BMO Capital.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

@@ -1,0 +1,141 @@
+
+
+    
+                          DEFINITION of 'Centralized Market'
+
+      A centralized market is a financial market structure that consists of having all orders routed to one central exchange with no other competing market. The quoted prices of the various securities listed on the exchange represent the only price that is available to investors seeking to buy or sell the specific asset.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Directed Order                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Primary Exchange                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Adjustment                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Order                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Centralized Market'
+      The New York Stock Exchange is considered a centralized market because orders are routed to the exchange and are then matched with an offsetting order. On the other hand, the foreign exchange market is not deemed to be centralized because there is no one location where currencies are traded and it is possible for traders to find competing rates from various dealers from around the world.
+In more generic terms, a centralized market refers to a specialized financial market which is structured in such a way that all orders, whether they be buy or sell orders, are routed through a central exchange that has no other competing market for those particular financial instruments. Security prices that are available through and quoted by the exchange (or market) represent the only prices which are available to investors wishing to buy or sell the specific assets quoted on the exchange.
+One key aspect of centralized markets is that pricing is fully transparent and available for anyone to see. Potential investors are able to see all quotes and trades and consider how those trades move in formulating their strategies. Another key component of centralized markets is the existence of a clearing house, which sits between buyers and sellers and guarantees the integrity of the transactions as both buyers and sellers in effect, transact with the exchange and not with each other. The resulting benefit of reduced risk from not dealing with variable counterparties is also a key aspect of a centralized market. Other major centralised markets around the globe include stock markets such as the TSE, security and commodity markets such as the CME and the ASE. 
+The Emergeance of Decentralized Markets
+In opposition to the centralized market model, decentralized markets are growing in step with the evolution of computuer technology that is giving people the ability to participate in online commerce without the benefit of a centralized market. Instead of visiting a website that offers a central meeting place for buyers and sellers, the emerging style of decentralized markets work by connecting buyers and sellers directly to each other to trade. This decentralized market model is achieved by running a peer-to-peer trading program on a computer. Virtual currency is also being integrated as an important aspect of emerging decentralized markets.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

@@ -1,0 +1,147 @@
+
+
+    
+                          What is a 'Proportional Tax'
+
+      A proportional tax is an income tax system where the same percentage of tax is levied on all taxpayers, regardless of their income. A proportional tax applies the same tax rate across low, middle, and high-income taxpayers. 
+In contrast, the progressive tax system, adjust tax rates by incomes. A marginal rate taxing system, such as the flat tax, has a constant rate for both businesses and individual taxpayers.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Flat Tax                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Progressive Tax                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Regressive Tax                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Tax Liability                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Proportional Tax'
+      
+In some instances, a sales tax can also be considered a type of proportional tax since all consumers, regardless of earnings, are required to pay the same fixed rate. The sales tax rate applies to goods and services, and the income of the purchaser is not a part of the equation. Other examples include poll taxes and the capped portion of the Federal Insurance Contributions Act (FICA) payroll deductions.
+In a proportional tax system, all taxpayers are required to pay the same percentage of their income in taxes. For example, if the rate is set at 20%, a taxpayer earning $10,000 pays $2,000 and a taxpayer earning $50,000 pays $10,000. Similarly, a person earning $1 million would pay $200,000.
+Pros and Cons of Proportional Taxes
+Proportional taxes are a type of regressive tax because the tax rate does not increase as the amount of income subject to taxation rises, placing a higher financial burden on low-income individuals. A tax is said to be regressive if it has an inverse association where the average tax carries less impact on higher income individuals or businesses.
+Opponents of the proportional tax claim that higher income earners should pay a higher percentage than poorer taxpayers. They see the system as placing a more significant burden on middle-income earners to carry a large portion of government spending. While the percentage of tax is the same, which can be regarded as fair, the after-tax effect on low-income earners is more burdensome than for high-income earners.
+Proponents of proportional taxes argue that they are beneficial. This tax system encourages economic growth as individuals and businesses seek higher earnings without the penalty of paying higher tax rates, which is the case in a progressive tax system. Additionally, a proportional tax system is easy to understand and apply in practice, since there is no issue as to the rate of tax.
+To understand a proportional tax system, it is important to also look at how it defines income. If a system has generous deductions, then low-income earners may be exempt from tax, thus eliminating, at least in part, the regressive aspects of the tax. Variations of the proportional tax include allowing mortgage deductions and setting lower income levels.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

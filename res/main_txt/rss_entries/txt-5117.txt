@@ -1,0 +1,148 @@
+
+
+    
+                          What is 'Stamp Duty Land Tax (SDLT)'
+
+      The stamp duty land tax (SDLT) is the tax imposed by the UK Government on the purchase of land and properties with values over a certain threshold. This tax is payable to Her Majesty's Revenue and Customs (HMRC) and must be remitted within 30 days of the completion of the purchase. The rates payable depend primarily on whether the land or property is for residential, non-residential, or mixed purposes.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Land Value Tax - LVT                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Land                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Land Value                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Land Contract                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Stamp Duty Land Tax (SDLT)'
+      Assessment of stamp duty land tax (SDLT) has a basis of the purchase value of land or property which falls above a specific figure. As of 2017, the amount at which SDLT becomes applicable is £125,000 for residential properties and £150,000 for non-residential or mixed-use land and properties.
+Payment of the tax is upon the purchase of freehold property or the acquisition of a new or pre-existing leasehold. SDLT is also payable on the purchase of a property through a shared ownership scheme which is operated by an approved public body, such as housing associations or development corporations.
+If the transferring land or property ownership to someone in exchange for any sum, stamp duty land tax may apply to the transaction. The rules around SDLT depend on the conditions of the transfer. HM Revenue and Customs (HMRC) provides detailed information on property transfers involving circumstances such as marriage, divorce, gifts, inheritance, or jointly owned land or property.
+Even when the value of the land or property purchased is below the stamp duty land tax threshold, HMRC requires an SDLT return to being lodged, unless there is an exemption. Exemptions on lodging the stamp duty land tax return are standard in cases where no money is exchanged on the transfer of a property or where the freehold property purchase is less than £40,000.
+Determining SDLT Taxes Payable
+The primary variable that determines the amount of SDLT payment is the intended function of the land or property. Land or properties purchased for non-residential or mixed purposes attract different levels of tax from those that are bought as residential properties.
+Residential property is intended for use as the principal residence of the purchaser. Non-residential land and property include commercial property such as shops or offices and land for farming. A mixed-use property is one that consists of both residential and commercial aspects, such as a shop with a flat above it.
+The SDLT payable increases on a sliding scale for values above various thresholds, with the highest rate being 12% of the cost that exceeds £1.5 million on residential properties. On the other hand, the highest rate for non-residential land and property is 5% payable on any amount above £250,000.
+If the purchase of residential property means that the buyer will have more than one property, there will be an additional rate of 3% levied on top of the standard SDLT amount.Special rates apply to the purchase of properties by corporate entities, individuals purchasing six or more properties in one transaction, or multiple purchases or transfers conducted between the same buyer and seller, known as linked purchases.
+Tax relief is available in certain circumstances, which may reduce the amount of SDLT payable. Comprehensive information regarding the rates, rules, and requirements relating to stamp duty land tax is provided by HMRC on their website.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

@@ -1,0 +1,207 @@
+
+
+
+Is Ether a Security? US Regulators Debate Ether’s Legal Status
+US regulators are closely following Ether, which, according to some of them, should fall under the SEC’s radar, suggesting that it is a security.
+
+
+ by  Anatol
+Antonovici,
+14 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  The US regulators are currently examining whether Ether, the second largest cryptocurrency by market cap, should fall under the securities laws, as it is currently regulated as a commodity, people familiar with the matter told the Wall Street Journal.
+The news had a short-term impact on Ether’s price, which slid for about six hours, but soon recovered, and at the time of writing it shows a daily gain of 2.2%.
+The federal securities and commodities regulators are discussing whether the creators of digital currencies other than Bitcoin have a significant influence over their price, the same way as company managers can indirectly impact the stock price via strategy implementation, investments, and performance. The regulators are not touching Bitcoin, the largest and oldest cryptocurrency out there, as it is considered a commodity and doesn’t fall under the ambit of the Securities and Exchange Commission (SEC).
+
+When it comes to Ether, some regulators believe the token is in a “gray zone,” but its creation back in 2014 resembled an illegal securities sale. Under the current US law, companies that issue shares or bonds have to either register the deal with the SEC or limit it to institutional investors only. In 2014, Ethereum Foundation, which developed the blockchain-based project, conducted an initial coin offering (ICO) – a form of fundraising, but didn’t register the deal with the SEC and sold the tokens to anyone willing to purchase.
+Despite that, reputable venture capital firms, including Andreessen Horowitz, do not agree with those who say that Ether should be regulated as security.
+Cryptocurrency developers and lawyers don’t like the fact that the SEC still relies on an arcane legal test, called the “Howey Test,” to decide whether assets like Ether come under the law.
+Regulators have researched the Ethereum Foundation’s impact on the asset’s price. The foundation is known to pay “bug bounties,” which reward participants who fix bugs in Ethereum’s code. This is a sign that the nonprofit organization has an indirect influence on the token’s value, one of the people familiar with the matter hinted.
+A working group of regulators made up of senior SEC and CFTC officials plan to discuss the situation further on Monday, May 7.
+Ethereum Foundation stated that it didn’t have control over the supply or demand of Ether tokens and owned only less than 1% of the total supply in circulation.
+In 2014, during an ICO that sold 60 million Ether, the foundation raised about 31,000 in Bitcoin, which was the equivalent of approximately $18.3 million at that time. Given that the nonprofit raised funds to develop the platform, and investors probably purchased the token hoping for a price growth based on the launch, the deal seemed like a securities sale, the people stated, while crypto enthusiasts disagree with this assessment.
+Gary Gensler, a former chairman of the Commodity Futures Trading Commission (CFTC), said last week that “there is a strong case that one or both of ETH and [Ripple’s] XRP are noncompliant securities.” 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

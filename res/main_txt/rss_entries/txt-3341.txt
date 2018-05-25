@@ -1,0 +1,101 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Options, whether used to insure a portfolio, generate income or leverage stock price movements, provide advantages over other financial instruments. There are several variables that influence an option's price, or premium. Implied volatility is an essential ingredient to the option-pricing equation, and the success of an options trade can be significantly enhanced by being on the right side of implied volatility changes.
+To better understand implied volatility and how it drives the price of options, let's first go over the basics of options pricing. (See also: Understanding Option Pricing.)
+Option Pricing Basics
+Option premiums are manufactured from two main ingredients: intrinsic value and time value. Intrinsic value is an option's inherent value, or an option's equity. If you own a $50 call option on a stock that is trading at $60, this means that you can buy the stock at the $50 strike price and immediately sell it in the market for $60. The intrinsic value, or equity, of this option is $10 ($60-$50=$10). The only factor that influences an option's intrinsic value is the underlying stock's price versus the option's strike price. No other factor can influence an option's intrinsic value.
+Using the same example, let's say this option is priced at $14. This means the option premium is priced at $4 more than its intrinsic value. This is where time value comes into play.
+Time value is the additional premium that is priced into an option, which represents the amount of time left until expiration. The price of time is influenced by various factors, such as time until expiration, stock price, strike price and interest rates, but none of these is as significant as implied volatility.
+[ Learn the details of intrinsic value and time value through simple graphics and easy-to-follow calculations in Investopedia Academy's Options for Beginners course. ]
+How Implied Volatility Affects Options
+Implied volatility represents the expected volatility of a stock over the life of the option. As expectations change, option premiums react appropriately. Implied volatility is directly influenced by the supply and demand of the underlying options and by the market's expectation of the share price's direction. As expectations rise, or as the demand for an option increases, implied volatility will rise. Options that have high levels of implied volatility will result in high-priced option premiums. Conversely, as the market's expectations decrease, or demand for an option diminishes, implied volatility will decrease. Options containing lower levels of implied volatility will result in cheaper option prices. This is important because the rise and fall of implied volatility will determine how expensive or cheap time value is to the option, which can, in turn, affect the success of an options trade. 
+For example, if you own options when implied volatility increases, the price of these options climbs higher. A change in implied volatility for the worse can create losses, however, even when you are right about the stock's direction. (For related reading, see: Option Price-Volatility Relationship: Avoiding Negative Surprises.)
+Each listed option has a unique sensitivity to implied volatility changes. For example, short-dated options will be less sensitive to implied volatility, while long-dated options will be more sensitive. This is based on the fact that long-dated options have more time value priced into them, while short-dated options have less.
+Each strike price will also respond differently to implied volatility changes. Options with strike prices that are near the money are most sensitive to implied volatility changes, while options that are further in the money or out of the money will be less sensitive to implied volatility changes. An option's sensitivity to implied volatility changes can be determined by vega – an option Greek. Keep in mind that as the stock's price fluctuates and as the time until expiration passes, vega values increase or decrease, depending on these changes. This means an option can become more or less sensitive to implied volatility changes. (For related reading, see Getting to Know the "Greeks.")
+How to Use Implied Volatility to Your Advantage
+One effective way to analyze implied volatility is to examine a chart. Many charting platforms provide ways to chart an underlying option's average implied volatility, in which multiple implied volatility values are tallied up and averaged together. For example, the CBOE Volatility Index (VIX) is calculated in a similar fashion. Implied volatility values of near-dated, near-the-money S&P 500 index options are averaged to determine the VIX's value. The same can be accomplished on any stock that offers options.
+Source: Prophet.net.
+
+Figure 1: Implied volatility of an option
+Figure 1 shows that implied volatility fluctuates the same way prices do. Implied volatility is expressed in percentage terms and is relative to the underlying stock and how volatile it is. For example, General Electric options will have lower volatility values than Apple options because Apple's stock is much more volatile than General Electric's stock. Apple's volatility range will be much higher than GE's. What might be considered a low-percentage value for Apple might be considered relatively high for GE.
+Because each stock has a unique implied volatility range, these values should not be compared to another stock's volatility range. Implied volatility should be analyzed on a relative basis. In other words, after you have determined the implied volatility range for the option you are trading, you will not want to compare it against another. What is considered a relatively high value for one company might be considered low for another.
+Source: Prophet.net.
+
+Figure 2 : An implied volatility range using relative values
+Figure 2 is an example of how to determine a relative implied volatility range. Look at the peaks to determine when implied volatility is relatively high, and examine the troughs to conclude when implied volatility is relatively low. By doing this, you determine when the underlying options are relatively cheap or expensive. If you can see where the relative highs are (highlighted in red), you might forecast a future drop in implied volatility, or at least a reversion to the mean. Conversely, if you determine where implied volatility is relatively low, you might forecast a possible rise in implied volatility or a reversion to its mean.
+Implied volatility, like everything else, moves in cycles. High-volatility periods are followed by low-volatility periods, and vice versa. Using relative implied volatility ranges, combined with forecasting techniques, helps investors select the best possible trade. When determining a suitable strategy, these concepts are critical in finding a high probability of success, helping you maximize returns and minimize risk.
+Using Implied Volatility to Determine Strategy
+You've probably heard that you should buy undervalued options and sell overvalued options. While this process is not as easy as it sounds, it is a great methodology to follow when selecting an appropriate option strategy. Your ability to properly evaluate and forecast implied volatility will make the process of buying cheap options and selling expensive options that much easier.
+When forecasting implied volatility, there are four things to consider:
+1. Make sure you can determine whether implied volatility is high or low and whether it is rising or falling. Remember, as implied volatility increases, option premiums become more expensive. As implied volatility decreases, options become less expensive. As implied volatility reaches extreme highs or lows, it is likely to revert back to its mean.
+2. If you come across options that yield expensive premiums due to high implied volatility, understand that there is a reason for this. Check the news to see what caused such high company expectations and high demand for the options. It is not uncommon to see implied volatility plateau ahead of earnings announcements, merger-and-acquisition rumors, product approvals and other news events. Because this is when a lot of price movement takes place, the demand to participate in such events will drive option prices higher. Keep in mind that after the market-anticipated event occurs, implied volatility will collapse and revert back to its mean.
+3. When you see options trading with high implied volatility levels, consider selling strategies. As option premiums become relatively expensive, they are less attractive to purchase and more desirable to sell. Such strategies include covered calls, naked puts, short straddles and credit spreads. 
+4. When you discover options that are trading with low implied volatility levels, consider buying strategies. Such strategies include buying calls, puts, long straddles and debit spreads. With relatively cheap time premiums, options are more attractive to purchase and less desirable to sell. Many option investors use this opportunity to purchase long-dated options and look to hold them through a forecasted volatility increase.
+The Bottom Line
+In the process of selecting option strategies, expiration months or strike prices, you should gauge the impact that implied volatility has on these trading decisions to make better choices. You should also make use of a few simple volatility forecasting concepts. This knowledge can help you avoid buying overpriced options and avoid selling underpriced ones.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

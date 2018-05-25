@@ -1,0 +1,206 @@
+
+
+
+Follow the White Rabbit into a New Digital Streaming Reality
+This ambitious project wants to ensure we can access any film or series and reward the content creators for their work.
+
+
+ by  News
+Desk,
+18 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  The video streaming market is enjoying a boom due to the mass adoption of smart devices, which provide users with access to a wealth of media content at all times and in any location. The combined revenue of the industry is forecast to double by 2021, surging from $29.4 billion to $65 billion, with over 383 million users. This is a great market opportunity as so much content is not available to stream legally, as Netflix and other subscription OTTs drastically cut back on buying titles.The market however faces numerous challenges. Piracy, weak competition among streaming providers, and opaque cash flows from digital distribution means making a living for filmmakers is getting harder and harder. On the other side, video streaming providers shift from buying content to producing their own content, giving fans less choice of content and filmmakers less freedom.
+After losing money for over 10 years, Netflix was forced to change their business strategy from distributor to studio and produce more of their own content. The subscription service business model is simply not sustainable if they are to provide a wide selection in content.Meanwhile, the rest of the industry is suffering from piracy: illegal streaming and downloading cost the industry $20 billion in 2017. In Europe alone 240 million people stream peer-to-peer compared to the 20 million that subscribe to Netflix.
+
+“If an entire generation breaks the law, it’s no longer a crime, it’s a business opportunity.”- Alan R. Milligan
+
+White Rabbit wants to create a new, legal business opportunity for peer-to-peer streaming sites and allow pirates to become fans, by allowing them to pay the content holders directly, and sharing a portion of the revenue with streaming sites.
+White Rabbit is a browser plugin that recognizes the content you watch and allows you to pay the rights holder directly. It offers a blockchain-based system ensuring immediate and transparent revenue and by legalizing peer-to-peer, users worldwide get access to all the available digital content they desire at a reasonable price. Revenue is paid directly to artists, producers and all those who spend time and use money to create art and entertainment.
+This is possible with the White Rabbit Token that ensures anonymous peer-to-peer payment and allows rights holders to accept payment for money otherwise lost to piracy and revenue in countries where they have not sold the films rights. Once the token is accepted the peer-to-peer streaming is legalized. Instead of an endless amount of subscriptions to watch the content users want, this is a single payment system ensuring freedom of choice for film and series lovers.
+White Rabbit ICO details
+White Rabbit’s pre-sale starts on May 7 and will run until May 14 or until the pre-sale limit of $5 million is reached. The main ICO stage is scheduled to run from May 15 to June 10, with the hard cap set at $10 million. Considering how volatile the cryptocurrency market is, the White Rabbit team has decided to lock the conversion rate of the WRT token to ETH on the day before the pre-sale. The basic token price is set at $0.13 = 1 WRT, with discounts and bonuses available for early comers.
+To learn more, visit the official website of the project or subscribe for updates on Twitter or Telegram. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

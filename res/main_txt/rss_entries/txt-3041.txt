@@ -1,0 +1,77 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        The world’s largest social media giant Facebook Inc. (FB), said data breaches like that identified earlier this year are possible, the Menlo Park, California-based company said in its recently filed quarterly report.
+With founder and Chief Executive Officer Mark Zuckerberg facing multiple enquiries into the breach of user’s personal data on the Facebook platform, the company included a disclaimer in the risk factors section of its recent filing.
+Facebook Believes More Data Breaching Instances Likely
+“We anticipate that our ongoing investments in safety, security, and content review will identify additional instances of misuse of user data or other undesirable activity by third parties on our platform,”  the company said in its filing. It does not explicitly name Cambridge Analytica, but does not rule out the possibility of more such instances coming to the fore amid the continuing investigations.
+As a part of the ongoing efforts, Facebook believes that it “will discover and announce additional incidents of misuse of user data or other undesirable activity by third parties.”
+Unfortunately, the Cambridge Analytica saga came to Facebook’s attention not as a part of an internal audit, but through external publications that investigated claims made by Cambridge Analytica's chief about how the company bases profiling on user data to display tailored ads, and has the potential to influence voter behavior and election outcomes. The Facebook filing adds, “We may also be notified of such incidents or activity via the media or other third parties.”
+The section concludes by mentioning the possible impact of such discoveries which may lead to a negative impact on company’s brand and reputation, user trust and engagement, unfavorable media coverage, and its financial results.
+The update adds to the precautionary steps taken by the social media giant. Last month, Zuckerberg promised in a Facebook post to “conduct a full audit of any app with suspicious activity,” and to “ban any developer from our platform that does not agree to a thorough audit.” (See also, Facebook Suspends a Cambridge Analytica-Like App.)
+Despite the recent problems related to the issue of user data breach, Facebook came out with strong set of numbers for the quarter. As the results topped Wall Street estimates, the company's stock price jumped more than 9 percent on Thursday following company results. (See also, Facebook Now Says More Users Hit By Data Scandal.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

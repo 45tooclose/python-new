@@ -1,0 +1,210 @@
+
+
+
+Tokentarget’s New Tool Makes Tracking Your ICO Performance Easy and Exciting
+Tokentarget, a full-service blockchain marketing agency has now released a tool which allows ICOs to fully track their participation and performance levels compared to different channels.
+
+
+ by  News
+Desk,
+4 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  During the first three months of 2018, ICOs raised over US$5.8 billion. That’s almost US$2 Billion more than the total contributions for 2017. The buzz over ICOs has opened numerous opportunities for companies to raise funds and it seems that the momentum is only just beginning.
+How does it work currently?
+These days, ICOs employ a scattered marketing style. What this means is that they “scatter” their marketing budget across as many channels as they can and hope to generate some revenue. Sometimes this method works, but invariably it leads to uncertainty, overspending and a lack of positive ROI. Overall, it’s an ineffective use of channels and budget when raising revenue through an ICO.
+So, what now?
+Luckily this inefficiency has now become a thing of the past, as tokentarget, an experienced full-service blockchain marketing agency, just launched a new tracking tool. The new tracking tool is designed to offer ICOs the ability to track contributions made to their projects. This is a complete first in the sector and a breakthrough for ICO analytics. Before this, it was almost impossible to determine the marketing channels that were generating the most contributions.
+
+This revolutionary new tracking solution takes tokentarget a massive step closer to fulfilling its mission to be the go-to marketing agency for blockchain-based projects.  The company’s team of highly skilled and experienced professionals originate from the finance, fintech, investment banking and blockchain sectors. Each and every one is committed to powering effective and measurable marketing results for blockchain and crypto projects around the world. The tracking solution is designed to track all marketing channels, not just the traditional online marketing channels. This means that in addition to tracking social media, paid search, and email campaigns, it can also be used to track bounty programs and influencer marketing.
+
+“This tracking is unique, and allows ICOs to work based on true ROI, rather than assumed ROIs based on traffic amounts and sources” John Lewis, CMO of tokentarget said. He continued: “Our tracking allows ICOs to adjust their marketing spend based on revenue generating results, leading to an optimised AD spend”.
+
+tokentarget marketed some of the most successful ICOs in 2017, including trade.io, Sirin Labs, Loci and many more. With this expertise, the company understands how to provide successful turnkey marketing services for blockchain projects of all types. tokentarget has completely filled the gap left by other blockchain marketing agencies and now provides a complete 360-degree solution.
+The launch of such a powerful blockchain analytics tool is a major shift for the industry. Now, ICOs have the power to control their marketing budget just as major digital companies have been doing for years. Get started now at www.tokentarget.com.
+-----------
+About tokentarget
+Since launching in March 2017, tokentarget has helped over 40 clients raise more than US$600 million via their ICOs. Through their full range of services, including strategy, branding, marcoms, channel marketing and business intelligence, they have helped launch ICOs in verticals such as: Finance, Trading, Sports, Technology, Telecommunications, Energy, Advertising, Loyalty, Payment Services, Healthcare, Luxury Goods and VR. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

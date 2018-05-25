@@ -1,0 +1,75 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        The Boeing Company (BA) shares rose more than 4% on Wednesday after the company reported better-than-expected first quarter financial results. Revenue rose 6.6% to $23.4 billion – beating consensus estimates by $1.18 billion – while net income of $3.64 per share beat consensus estimates by $1.05 per share. The company also raised its outlook for the year and plans to deliver between 810 and 815 planes.
+Most analysts are likely to weigh in on the stock later this week, but Vertical Research upgraded the stock from a Hold to a Buy following the financial results. In addition to the strong performance during the first quarter, management indicated on the conference call that it anticipates spending $12 billion on share buybacks over the next two years and expects the outlook for commercial planes to rise to 41,000 over the next 20 years. (See also: Boeing Finalizes $3B Ryanair Order.)
+
+From a technical standpoint, the stock recouped much of its losses from the prior trading session in which the entire market moved sharply lower. The relative strength index (RSI) remains at relatively neutral levels with a reading of 55.23, but the moving average convergence divergence (MACD) could cross above the zero line and remains in a bullish uptrend. These indicators suggest that the stock could see its recovery extend over the coming sessions.
+[Learn more about supplemental technical indicators like the RSI and the MACD in Chapter 4 of the Technical Analysis course on the Investopedia Academy]
+Traders should watch for a breakout from upper trendline resistance at around $245.00 to R1 resistance at $356.69 or to retest prior highs at around $370.00. If the stock breaks down from these levels, traders should watch for a move to retest lower trendline support at around $325.00 or S1 support at $305.12. Traders will be closely watching analyst commentary as they weigh in on the financial results over the remainder of the week. (For more, see: The Top 3 Boeing Shareholders.)
+Chart courtesy of StockCharts.com. The author holds no position in the stock(s) mentioned except through passively managed index funds.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Chartadvisor-Article'
+    });
+                    
+            
+                

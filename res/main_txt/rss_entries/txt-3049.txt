@@ -1,0 +1,89 @@
+
+
+
+    
+        
+            
+        
+          
+                
+      
+
+    
+
+    
+        If you’ve been investing for a long time and want to turn the responsibility of running your portfolio over to someone else, choosing a wealth management firm is one way to do it.
+Before you hire a firm, however, make sure you’ve chosen someone who really cares about your future and wants to protect your investments. Read our tips below to see what you need to look for in a wealth management firm. 
+Don’t Focus on Price
+When you’re choosing a wealth management firm, it’s easy to judge the differences between companies by one category: price. It’s simple, straightforward, and you can’t argue that one number is smaller than the other.
+Tyler Landes, CFP at Tandem Financial Guidance, LLC, says that instead of getting too fixated on price, you should focus on value. Price is what you pay, value is what you get. 
+“At the end of the day, I tell people to understand how an advisor gets paid, and what service or product they’re going to deliver in exchange,” he said. “Then decide if you think the value is in line with the cost. Cheaper isn’t better if the value isn't there.” 
+You should also ask other clients how their advisor treats them. Also make sure to ask the advisor who their ideal client is. Landes said that if the description doesn’t match your goals and ideas, the relationsip won’t likely work. You want to feel like your advisor will care about your portfolio as much as you do. 
+“I've gained clients because their former advisor didn't reach out to set regular meetings, and the client felt like small potatoes,” said Landes.
+Ask about how often you’ll be able to meet with your advisor or how you’ll stay informed about your investments. You want to be in the loop on what’s going on. 
+Verify Credentials
+When choosing a firm, sit down with the advisor who will potentially be working on your account. You don’t want to have an interview with one person, only to learn down the line that you’ve been handed over to someone else. 
+Also ask where they worked before, whether they are a Certified Financial Planner, what other qualifications they can boast. Keep in mind that you’re the client, so it’s up to the advisor to win you over so as to get your business. 
+You can verify whether an advisor is a CFP here, and look them up through the SEC here, or via Finra's BrokerCheck. Don’t be afraid to do the same kind of research you would perform on a potential hire. Ask what every credential and certification means, and see whether you can find any work history or talk to current and past clients. Do your due diligence before making a decision.
+How Are They Paid?
+There are different ways you can pay a CFP. Some charge a commission based on the products you buy from them, while others charge a set rate based on the size of your portfolio. You want someone who’s as invested in your portfolio’s growth as you are.
+Be wary of hiring anyone who earns a commission on what they sell to you; they’ll be more interested in earning that extra money than making sure what they’re selling is the best fit for your needs. 
+The Bottom Line
+Choosing a wealth management firm may be one of the most important decisions you’ll ever make. Whoever you choose to access your accounts may change the fate of your retirement. That’s not to scare you away from making any kind of decision, but it is important to know that advisors are all different. Don’t make your decision on impulse; ask around for referrals from people you trust, and do your own deep-dive research. (For related reading, see: Under What Circumstances Would I Require Private Wealth Management?)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

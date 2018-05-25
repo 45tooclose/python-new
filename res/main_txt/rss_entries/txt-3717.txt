@@ -1,0 +1,93 @@
+
+
+
+    
+        
+            
+        
+          
+                
+      
+
+    
+
+    
+        Agreeing to be the executor of an estate is a bigger decision than most people realize. It is not simply a matter of reading the will and using it as a set of instructions for giving away someone's wealth. An executor essentially steps in for the testator (the person who wrote the will) and sees to all the final arrangements, financial and otherwise. So it is important to consider the responsibility of the position before agreeing to be listed as the executor. Here are four things you should know before signing on. (Making a careful choice now can save your heirs from a lot of problems later, learn How To Choose The Right Executor For Your Estate.)
+TUTORIAL: Estate Planning
+1. The Complexity of the Estate
+Generally speaking, the larger the estate – whether in terms of property, possessions, assets or the number of beneficiaries – the more difficult and time-consuming it will be to disperse. For example, a house, several bank accounts, a stock portfolio and possessions will all have different steps to dispersal and clearing hurdles like taxation. This is why high net worth people usually use professionals to both set up an estate plan and then help execute it when they pass on.
+That said, even small estates with few beneficiaries can become problematic if just one person contests the will or is otherwise inclined to throw a wrench into the process. The best way to assess how difficult the job will be is to ask to see a copy of the current will, or a draft of the will if one is in the works. If there are obvious red flags like unequal distributions to children, trusts or annuities to untangle, or anything else you feel uncomfortable with, it may be best to pass on the responsibility. (For more, check out Estate Planning: 16 Things To Do Before You Die.)
+2. Your Personal Situation
+Being an executor takes time and energy, and requires a lot of attention to detail – in fact, it is almost solely concerned with details. Before you agree to execute a will, you should be certain that you have the time to do the job. If you have a busy professional life or a lot of family commitments, it may be difficult to set aside the time to be an executor.
+It is important to make the decision based on your current situation. As long as the testator is alive, you can be added or removed as the executor of the estate. You can also request a co-executor or professional help. However, you will not be able to appoint someone else if you find out you don't have the time after the testator has passed away. So it is important to review your decision to serve as an executor every time your situation changes significantly (get married, have kids, as you get older, etc). It is natural for a testator to change executors throughout a lifetime. (See Reasons To Review Or Revise Your Will.)
+3. Immediate Responsibilities
+Some people agree to be an executor thinking that it will be years before they have to do any work. However, doing the job properly means going to work immediately. In the words of Jim Morrison, "the future's uncertain, and the end is always near," so agreeing to be an executor means that your legal responsibility could be called upon at any time. To be prepared, you should:
+Make sure the testator is keeping a list of assets and debts, including bank accounts, investment accounts, insurance policies, real estate and so on.
+Know where the original will and the asset list is being held and how to access them.
+Know the names and contact details of attorneys or agents named by the testator, and what their function is.
+Discuss the testator's wishes as far as a funeral or memorial service, including instructions for burial or cremation.
+Discuss the will with the testator and, if possible, the beneficiaries in order to minimize problems in the future.
+Have a copy of all these documents.
+Again, it is important that you have the time to do gather this information as soon as possible after you've agreed to be the executor. (See The Executor's Checklist: 7 Things To Do Before They Die.)
+4. Duties After the Testator Dies
+Of course, the real work starts when the testator passes away. It is then that the executor is called on for funeral arrangements, locating and filing the will, clearing probate, managing assets, clearing debts, submitting tax returns, establishing and managing any trusts, responding to legal challenges and more. In reality, being an executor is simply carrying out the details of the will and complying with legal requirements. It is easy as long as you are organized and detail-oriented. Even if you aren't detail-oriented, the estate will pay reasonable costs for professional help. That said, you will still need to be involved at every stage. (For things to avoid when estate planning see, Top 7 Estate Planning Mistakes.)
+The Bottom Line
+It is an honor to be selected as an executor. It signifies that the testator trusts you to carry out his or her final wishes and to see to his or her legacy. However, only you know if you are up to the challenge of a particular estate, so it is important that you accurately size up the task as well as your personal situation before committing to do it. Remember, there are always other options – the testator can always find another person, or assign multiple executors or agents who each specialize in a particular area. It is far better to decline the honor for the right reasons (the inability to do the job properly) than to take it on for the wrong ones (a sense of obligation).
+For further reading, checkout the Advanced Estate Planning Tutorial.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

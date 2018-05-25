@@ -1,0 +1,81 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        As tech giants such as Amazon.com Inc. (AMZN) and Alphabet Inc. (GOOGL) are doubling down to challenge the growing dominance of Netflix Inc. (NFLX) in the booming video streaming industry, a lesser known player owned by a handful of big media companies has been gaining traction rapidly. On Tuesday, Hulu announced that its subscriber base has surged past 20 million users in the U.S. 
+The on-demand video subscription service is owned by Hulu LLC, a joint venture between the Walt Disney Co. (DIS), 21st Century Fox Inc. (FOXA), Comcast Corp. and Time Warner Inc. (TWX). Disney, Fox and Comcast each own 30% in the company while Time Warner holds the remaining 10%.
+While this robust growth is a good sign for Hulu, is it enough for the company to enter and survive in the big leagues? 
+(See also: Why 3 Big Cable Stocks Face Steep Declines.)
+Taking On Big Competition
+By comparison, Netflix, which reported its most recent quarterly earnings in mid-April, has over 125 million global subscribers, with 55 million of those located in the U.S. Its latest earnings report revealed 7.4 million new subscribers in the first quarter of 2018, a number that was well received by analysts and investors alike. While Amazon does not break out numbers for its Prime Video audience, Reuters has estimated it at 26 million. 
+Hulu, viewed as the industry underdog, also announced on Wednesday a variety of improvements and changes to its service including a feature that allows consumers to download shows and watch them without internet connection. This feature is also available to particular users for select TV and movies on Netflix.
+Daniel Ives of GBH Insights is bullish on Hulu's potential to carve out a niche among its competitors and capitalize on a window to "really try to establish itself within Hollywood," as an alternative, reports CNN. "Outside of Netflix, there's there's a battle going on for who can be the No. 2, No. 3 player," Ives said. 
+Original Content Is Key
+Netflix plans to shell out $8 billion on programming this year, and has doubled down on adding talent with new hires including "Glee" producer Ryan Murphy and ABC's Shonda Rhimes. Hulu also has its fare share of celebrities, with stars such as Elisabeth Moss and Mindy Kaling joining company executives on Wednesday at the Digital Content NewFronts in New York. At the event, Chief Executive Officer (CEO) Randy Freer stated that "in the race for premium entertainment," Hulu "has the creativity and the resources to go head-to-head with anyone and win." Hulu hopes to use its competitive advantage on the ad front, as its cheaper version and TV package include commercials. The company spent $2.5 billion on original content last year. 
+It's important to note that as Disney and Fox continue discussions to combine assets, a potential deal could make Disney a majority owner of Hulu. Last year, the long time entertainment industry leader announced that it was cutting ties with Netflix in order to roll out its own direct-to-consumer platform by 2019. It remains unclear what exact impact this would have on Hulu. While for Disney, Hulu could become a mainstay for its streaming play, there will be other shareholders like Comcast to contend with before that happens.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

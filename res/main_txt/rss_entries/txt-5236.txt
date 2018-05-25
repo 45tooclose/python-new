@@ -1,0 +1,77 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Teva Pharmaceutical Industries Limited (TEVA) shares rose about 6% in pre-market trading on Thursday morning after the company released its first quarter financial results. While revenue fell 10.3% to $5.07 billion, the results were $270 million higher than analysts were expecting to see. First quarter earnings per share also came in at 94 cents, which was 28 cents higher than analysts were expecting to see on the bottom line.
+Despite Teva raising its guidance and indicating that its restructuring program was on track, shares fell from $19.26 at the open to a low of around $17.78 throughout Thursday. The good news is that the stock rebounded by about 0.3% during Friday's session after investors had a chance to digest the news. Wells Fargo analysts called the quarter "just what investors wanted" and reiterated its Underperform rating and $16.50 price target on the stock. (See also: Teva Stock Spikes After 13F Filing of Buffett's Berkshire Is Revealed.)
+
+From a technical standpoint, the stock opened near its upper trendline resistance on Thursday before falling sharply lower to its pivot point at around $17.62. The relative strength index (RSI) is relatively neutral at 48.89, but the moving average convergence divergence (MACD) has traded higher since April. These technical indicators suggest that the stock still has room to continue its rally despite the recent downturn.
+[Check out Chapter 4 of the Technical Analysis course on the Investopedia Academy to learn more about supplemental technical indicators like the RSI and the MACD]
+Traders should watch for a breakdown from the pivot point to S1 support  at $16.70 or lower trendline and S2 support at $15.43 on the downside, or for a rebound to R1 resistance at $18.90 or upper trendline resistance at around $19.50 on the upside. While the initial reaction to the first quarter was negative, many analysts remain confident in the stock's future, and traders should maintain a relatively bullish bias. (For more, see: 8 Contrarian Stock Picks for a Rocky Market: CS.)
+Chart courtesy of StockCharts.com. The author holds no position in the stock(s) mentioned except through passively managed index funds. 
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Chartadvisor-Article'
+    });
+                    
+            
+                

@@ -1,0 +1,144 @@
+
+
+    
+                          WHAT IS  'Possible Reserves'
+
+      Possible reserves are an estimate of the amount of oil or natural gas reserves that may be available for extraction with existing equipment under existing conditions.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            3P Oil Reserves                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Recoverable Reserves                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Proved Reserves                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Estimated Ultimate Recovery - EUR                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Possible Reserves'
+      Possible reserves are a subset of unproved reserves. Reserve figures are broken into two primary categories according to theoretical accuracy: proved and unproved. Unproved reserves carry more uncertainty and are further broken into categories of probable reserves and possible reserves, the latter of which has a lower probability of being recovered.
+Operating conditions are taken into account when determining how to classify oil reserves. These include operational break-even price, regulatory and contractual approvals, without which the reserve cannot be classified. Price changes therefore can have a large impact on the classification of reserves. Regulatory and contractual conditions may change, and also affect the amount of reserves.
+If a reserve's resources can be recovered using current technology but is not economically profitable it is considered "technically recoverable" but cannot be considered a proven reserve. Reserves less than 90 percent recoverable but more than 50 percent are considered "probable reserves" and below 50 percent are "possible reserves". If the reserve is below 10 percent certainty that it is commercially extractable it is often categorized as a contingent resource. Taken together, proved, probable and possible reserves are known as 3P reserves, and include the combination of all three categories.
+Because of the geological complexity surrounding natural resource exploration, oil reserve figures are more of an approximation than an exact estimate. Estimates are typically revised as more information on the geological makeup of a particular reserve is uncovered. In addition, technological advances may increase the amount of oil or gas that can be recovered, as less of the natural resource will go to waste as efficiency increases.
+Examples of Possible Reserves
+Possible reserves may include reserves which, based on geological interpretations, could possibly exist beyond areas classified as probable. They may include reserves in formations that appear to be petroleum bearing based on analysis but may not be productive at commercial rates. Possible reserves include incremental reserves attributed to infill drilling that are subject to technical uncertainty, and reserves attributed to improved recovery methods when a project or pilot is planned. Reserves in an area of the formation that appears to be separated from the proved area by faulting and geological interpretation will indicate the subject area is structurally lower than the proved area, and thus rated only as possible.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

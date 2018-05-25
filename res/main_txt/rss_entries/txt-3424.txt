@@ -1,0 +1,148 @@
+
+
+    
+                          What is the 'McClellan Oscillator'
+
+      The McClellan Oscillator is a market breadth indicator that is based on the difference between the number of advancing and declining issues on the NYSE. It is primarily used for short and intermediate term trading.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            McClellan Summation Index                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            European Medicines Agency (EMA)                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Toraku Index                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Market Breadth                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'McClellan Oscillator'
+      The McClellan Oscillator is one of a few alternative indicators that are based on market metrics other than price. The McClellan Oscillator provides an indicator based on market breadth which technical analysts can use in conjunction with other market variables to generate profitable trade orders. Other popular alternative indicators to price include volume and the volume weighted average price trendline.
+The McClellan Oscillator was developed by Sherman and Marian McClellan who also developed the McClellan Summation Index. The Summation Index can also be used in conjunction with the McClellan Oscillator. The McClellan Summation Index adds the current day's McClellan Oscillator to the previous day's McClellan Summation Index.
+McClellan Oscillator Construction
+The McClellan Oscillator uses exponential moving average in its trendline calculation. This type of average gives greater weight to more current prices which then have a greater influence on the trendline construction. Overall, its calculation also seeks to identify whether more current differentials in a security’s price are higher or lower than longer term differentials.
+The equation for calculating the McClellan Oscillator is as follows:
+McClellan Oscillator = (19-day EMA of advances – declines) – (39-day EMA of advances – declines)
+The variables in this equation focus on the stock’s traded on the NYSE. Advances include the number of stocks trading above their previous day’s close. Declines are the opposite and include the number of stocks trading below their previous day’s close.
+A sample image is shown below: 
+
+Inferences
+McClellan Oscillator trendlines can help an investor to spot bullish and bearish trends. Generally, an investor will look for how the McClellan Oscillator moves above and below zero. When the Oscillator is above zero it indicates a bullish market with short term advances. The early stages of a rising McClellan Oscillator can be a signal to buy in order to profit from increasing prices. As a McClellan Oscillator trendline rises, investors can also watch for peaks in the trendline which can signal overbought and overinflated prices which are likely to lead to a reversal.
+Adversely, when McClellan Oscillator is below zero it shows that declining prices are outpacing advances and that the security’s price is generally moving lower. Detecting this movement at the early stages can signal profit from selling. Short selling through margin borrowing or put options can also be profitable. Technical analysts also watch for troughs in the trendline. Troughs after a lower trending McClellan Oscillator can be a signal of a bullish reversal which would show the trendline increasing again towards zero.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

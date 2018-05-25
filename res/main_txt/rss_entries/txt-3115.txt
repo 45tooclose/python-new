@@ -1,0 +1,137 @@
+
+
+    
+                          What is 'Short Market Value'
+
+      Short market value (SMV) is the total market value of all securities sold short through an investor’s margin account, as of the previous trading day.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Short Sale                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Short Interest                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Weak Shorts                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Net Short                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Short Market Value'
+      In a short sale transaction, an investor borrows shares from their broker and sells them on the market in anticipation of buying them back at a lower price in the future. Short sale margin requirements are strict because the price of a stock could rise indefinitely, resulting in a loss for short sellers. When an investor sells short securities, margin calls are based on the short market value (SMV) of the securities sold short. For example, under Regulation T, the Federal Reserve Board requires short sale margin accounts to deposit initial margin equal to 150% of the money received for selling the stock short (SMV) at the time the sale is initiated. Maintenance margin is also calculated based on SMV. Investors interested in short sale strategies can learn more and view examples of the minimum initial and maintenance margin requirement to better understand the risks and potential advantages of shorting securities.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

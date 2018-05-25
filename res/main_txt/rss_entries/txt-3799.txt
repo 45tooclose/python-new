@@ -1,0 +1,143 @@
+
+
+    
+                          WHAT is 'Fixed Income Forward'
+
+       
+A fixed income forward is a contract to buy or sell a fixed income security, in the future, at a price agreed upon today. The price of a fixed income forward contract is calculated by subtracting the present value of coupon payments over the life of the contract from the bond price, and compounding this by the risk-free rate over the life of the contract. The value of the contract is the bond price less the present value of coupons less the present value of the price that will be paid at expiration.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Fixed Income                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Forward Contract                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Bond Valuation                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Income Bond                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Fixed Income Forward'
+      Investors use options contracts for fixed income securities in order to lock in a bond price now, while buying or selling the security itself in the future. The risk in holding fixed income forward contracts is that market interest rates for the underlying bonds can increase or decrease, which affects the bond’s yield and thus its price. Forward rates then become the focus of investor attention, especially if the market for the fixed income security is considered volatile.
+Profiting from a fixed income forward depends on which side of the contract the investor is on. A buyer enters the contract hoping the market price of the bond will be higher in the future, since the difference between the contracted price and the market price represents profit. The seller hopes that the bond price will fall.
+While the number of coupon payments for the life of the bond may exceed the life of the contract, only the payments during the contract period are considered. This is because some bonds will have maturities much longer than the duration of the contract, and contract participants are hedging for price movements over a shorter period of time.
+Fixed income futures trading
+Often fixed income forwards are sold on exchanges, and the underlying bond is standardized. A standardized fixed income future investment means that the bonds underlying the contract are fictional. Repayment of these futures can therefore be made with a variety of real bonds at predetermined conversion rates, published by the exchanges along with the types of bonds accepted as payment.
+Fixed income forwards are popular instruments for investors who are looking to hedge interest rate or other risk in the bond market. Other traders are attracted to the fixed income forward market in order to profit from anomalies between the forward and spot markets for bonds and other debt instruments.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

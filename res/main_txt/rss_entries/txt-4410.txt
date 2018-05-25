@@ -1,0 +1,158 @@
+
+
+    
+                          What is a 'Payroll Tax'
+
+      A payroll tax is a tax that an employer withholds from an employee's salary and pays on behalf of his employees. The payroll tax is based on the wage or salary of the employee.
+In most countries, including the United States, federal authorities and some state governments collect some form of payroll tax. The three primary line items deducted from paychecks in the United States are Social Security, Medicare, and income taxes.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Medicare Wages                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Self-Employment Tax                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Social Security Benefits                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Social Security Trust Fund                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Payroll Tax'
+      Governments use revenues from payroll taxes to fund programs such as Social Security, health care, unemployment compensation, and workers compensation. Sometimes local governments collect a small payroll tax to maintain and improve local infrastructure and programs, including first responders, road maintenance, and parks and recreation.
+Generally, an employer is responsible for funding unemployment insurance. If qualified, a former employee can access these funds upon termination of employment. The rate of unemployment insurance the employer will pay varies by industry, by state, and by federal fees. However, there are also some states that require the employee to contribute to unemployment and disability insurance.
+Federal payroll taxes cover Social Security and Medicare contributions, which constitute the Federal Insurance Contributions Act (FICA) tax. The basic premise of Social Security and Medicare is that you pay into them while you work. Later, upon retirement or under certain circumstances, you may qualify to withdraw from those funds.
+Deducted payroll taxes are likely to be itemized on an employee's pay stub. The itemized list typically notes how much was withheld for federal, state, and municipal taxes, as well as Medicare and Social Security payments.
+As of 2018, the Social Security tax is 12.4% on wages up to $128,400, and the Medicare tax is 2.9% on all wages. The employee and the employer share this tax burden equally. Therefore, the employee and the employer each pay 6.2% for Social Security and 1.45% for Medicare taxes. When wages exceed $200,000, an additional 0.9% Medicare tax withholding applies to the employee only.  
+Social Security Payroll Tax
+Funds paid for Social Security taxes go into two trust funds. The Old-Age and Survivors Insurance (OASI) Trust Fund, which pays retirement and survivor benefits, and the Disability Insurance Trust Fund, for disability benefits. The Secretary of the Treasury, the Secretary of Labor, the Secretary of Health and Human Services, the Commissioner of Social Security, and two public trustees manage these trust funds. 
+On August 14, 1935, former President Franklin D. Roosevelt signed into law the Social Security Act. His sentiments about providing a safety net for the disabled and retirees were shared with the American public when he said, "young people have come to wonder what would be their lot when they came to old age".  
+Before signed into law, high-wage earnings were exempt from paying into and from receiving benefits from the Social Security fund. After enactment, the exemption for high earners was eliminated. The House Ways and Means Committee replaced it with a $3,000 cap. Historians have found no evidence supporting why the committee chose an earnings cap over an exemption, but it has been in place ever since the enactment of the Social Security Act. Since 1982, the earnings cap has risen at the same rate as wages.
+The cap on wages subject to the Social Security tax is a subject of controversy. Most workers pay the tax on every dollar of their income. Predominately, workers earn less than the wage base limit. The highest earners pay tax on only a portion of their income. Proponents of lifting the cap say it would result in a significant amount of revenue that could help cover the shortfall Social Security will soon face. Opponents claim it would result in one of the largest tax increases of all time.
+Medicare Payroll Tax
+Money paid for Medicare taxes also goes into two trust funds, the Hospital Insurance Trust Fund and the Supplementary Medical Insurance Trust Fund. The Hospital Insurance Trust Fund pays for Medicare Part A and the associated administration fees. Part A assists in covering hospital and skilled nursing inpatient care. In some cases, it may also include care received at home. 
+The Supplementary Medical Insurance Trust Fund assists in paying for Medicare Parts B and D and other Medicare program administration costs. Part B covers expenses such as laboratory tests and screenings, outpatient care, x-rays, ambulance service, and many other items. Part D helps with prescription drugs.
+Depending on the financial situation, an individual may also have to pay a portion of these medical fees at the time of use. Medicaid is also funded, in part, from these payroll deductions.
+Self-Employment Taxes
+Self-employed individuals, including contractors, freelance writers, musicians, and small business owners also pay their version of payroll taxes. These individuals do not have employers to remit payroll taxes on their behalf. As a result, they must pay their own payroll taxes and must cover both the employee and the employer portions. These taxes are called self-employment taxes, but they function like payroll taxes.
+As of 2018, self-employed individuals must pay 12.4% of their earnings in Social Security contributions and 2.9% in Medicare payments for a total of 15.3% on the first $128,400 of net income. The 0.9% Medicare surtax also applies to self-employment earnings exceeding $200,000.
+Payroll Taxes vs. Income Taxes
+Payroll taxes are specific taxes used for specific programs, and they are distinct from income taxes, which are put into the government's general fund. While everyone pays a flat payroll tax, income taxes are progressive, and rates vary based on earnings. Employers do not match income taxes. Federal income tax is paid into the U.S. Treasury. State income tax, if applicable, goes into the state's treasury.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

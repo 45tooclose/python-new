@@ -1,0 +1,77 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Microsoft Corp. (MSFT) may have had a strong showing in its cloud computing unit for its fiscal third quarter, which it reported last week, but that doesn’t mean the company doesn’t need to beef up, and BMO Capital thinks it can do that via an acquisition.
+In a research report covered by Barron’s, BMO Capital analyst Keith Bachman said the Redmond, Washington, software company is “weak” when it comes to cloud-based apps and, as a result, could make a buy in that area. He pointed to the cloud app offerings of Workday Inc. (WDAY) and Salesforce.com Inc. (CRM) as being stronger. What’s more, he said by making a big acquisition Microsoft can grow its cloud business into new areas. (See also: Microsoft Stock Breaks Out Toward Top of Channel.)
+“We believe that Microsoft will become more aggressive broadly speaking in SaaS/applications, both on an organic and inorganic basis,” wrote Bachman, according to Barron’s. “In particular, we think Microsoft could extend into HCM (human capital management) areas, leveraging LinkedIn in capabilities such as training.”
+Connecting With LinkedIn
+Bachman’s call was prompted by a Bloomberg report in which it quoted the company’s chairman, John Thompson, as saying the LinkedIn acquisition has been “wildly successful” and that he’d back a deal like that again, saying he would be “all in.” Microsoft spent $26.2 billion in cash to acquire LinkedIn back in 2016. The executive noted that he is interested in companies that can help the cloud business land more users with a focus on industries that have been slow to embrace cloud computing. (See also: Microsoft Warms Up to Former Rival Linux.)
+For its fiscal third quarter, Microsoft reported revenue in Microsoft Intelligent Cloud business, which includes Azure, came in at $7.9 billion, up 17%, with Azure seeing sales growth of 93% and server products and cloud services revenue increased 20%. Microsoft enterprise services revenue was up 8% year-over-year in the quarter. “Our results this quarter reflect the trust people and organizations are placing in the Microsoft Cloud,” said Satya Nadella, chief executive officer of Microsoft, of the quarterly results late last week. “We are innovating across key growth categories of infrastructure, AI, productivity, and business applications to deliver differentiated value to customers.”
+The company’s strong performance in the cloud market has even prompted JPMorgan Chase late last week to raise its investment rating on the stock to overweight from neutral, arguing that more earnings upside is in the cards. "We think Microsoft will dominate in the Enterprise, and it stands to benefit from a broad and powerful lineup of Cloud solutions," analyst Mark Murphy wrote in a note to clients, according to CNBC. "While the PC cycle and Windows dynamic are still highly relevant, we believe Microsoft is pushing forward with a successful cloud strategy." The analyst upped his price target on the stock to $110 from $94 a share.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

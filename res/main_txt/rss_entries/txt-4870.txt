@@ -1,0 +1,89 @@
+
+
+
+    
+        
+            
+        
+          
+                
+      
+
+    
+
+    
+        Technical analysis is a useful tool that allows a trader to anticipate certain market activity before it occurs. These anticipations are drawn from previous chart patterns, probabilities of certain trade setups and a trader's previous experience. Over time, anticipation can eliminate the need for over-analyzing market direction as well as identifying clear, objective areas of significance. It isn't as hard as it sounds. Read on to find out how to anticipate the direction of a market trend and follow it through to a profit.
+Anticipation Vs. Prediction
+Technical analysis is often referred to as some sort of black magic used to time the market. However, what many outside of the financial world don't realize is that traders don't try to predict the future. Instead, they create strategies that have a high probability of succeeding – situations where a trend or market movement can be anticipated.
+Let's face it; If traders could pick tops and bottoms on a consistent basis, they would be spending more time out in a Ferrari F430 convertible enjoying a nice stretch of highway than they would hunched over their computer screen. Many of you have probably tried picking tops and bottoms in the past and are through with the game. Perhaps you've already following in the footsteps of many professional traders, who attempt to find situations where they can anticipate a move and then take a portion of that move when the setups occur. (For more insight, see Trading Double Tops And Double Bottoms and Price Patterns - Part 4.)
+The Power of Anticipation
+When deciding on whether or not to make a trade, you likely have your own strategies for entering and exiting the market (if you don't, you should decide on them before clicking the buy/sell button). Technical traders use certain tools such as the moving average convergence divergence (MACD), the relative strength index (RSI), stochastics or the commodity channel index (CCI), along with recognizable chart patterns that have occurred in the past with a certain measured result. Experienced traders will probably have a good idea of what the outcome of a trade will be as it plays out. If the trade is going against them as soon as they enter and it doesn't turn around within the next few bars, odds are that they weren't correct on their analysis. However, if the trade does go in their favor within the next few bars, then they can begin to look at moving the stops up to lock in gains as the position plays out. ('Bars' are used as a generic term here, as some of you may use candlesticks or line charts for trading.)
+Figure 1 is an example of a trade taken on the British pound/U.S. dollar (GBP/USD) currency pair. It uses an exponential moving average (EMA) crossover to determine when to be long and when to be short. The blue line is a 10-period EMA, and the red is a 20-period EMA. When the blue line is over the red, you are long and vice versa for shorts. In a trending market, this is a powerful setup to take because it allows you to participate in the large move that often follows this signal. The first arrow shows a false signal while the second shows a very profitable signal.
+
+Figure 1
+This is where the power of anticipation comes into play. The active trader typically monitors open positions as they play out to see if any adjustments need to be made. Once you had gone long at the first arrow, within three bars you would already be down more than 100 pips. By placing your stop at the longer-term trend moving average, you will probably want to be out of that trade anyway, as a potential reversal might be signaled. On the second arrow, once you were long, it would only take a few days before this trade went in your favor. The trade management comes into play by trailing your stop up to your personal trading style. In this case, you could have used a close under the blue line as your stop, or waited for a close underneath the red line (longer-term moving average). By being active in position management – by following the market with your stops and accepting them when they are hit – you are far more likely to have greater returns in the long run than you would be if you removed the stop right before the market blasted through it. (For further reading, check out Trailing-Stop Techniques.)
+Figure 1 illustrates the difference between anticipation and prediction. In this case, we are anticipating that this trade will have a similar result based on the results of previous trades. After all, this pattern was nearly identical to the one that worked before, and all other things remaining equal, it should have a decent enough chance to work in our favor. So did we make a prediction about what would happen in this case? Absolutely not – if we had, we wouldn't have put our stop-loss in place at the same time the trade was sent. Unlike anticipation, which uses past results to determine the probability of future ones, making an accurate prediction often involves a combination of luck and conjecture, making the results much less, well, predictable.
+Limited Emotion
+By monitoring the trade(s) in real-time and adjusting accordingly, we ensure that emotions aren't able to get the better of us and cause a deviation from the original plan. Our plan originated before the position was taken (and thus had no conflict of interest) so we use this to look back on when the trade is active. Since we already have a plan that involves no emotion, we are able to do as much as possible to stick to that plan during the heat of battle. Make a point of minimizing emotion, but not completely removing it. You're only human, after all, and trading like a robot is nearly impossible for most traders, no matter how successful they are. We know what the market will look like if our anticipation both does and does not occur. Therefore, by using the chart above, you can see where the signals clearly did and did not work as they were happening based on the price action of each bar and its relation to the moving averages. The key is to take ownership of your trades and act based on your trading plan time and time again.
+The Bottom Line
+Objectivity is essential to trading survival. Technical analysis provides many views of anticipation in a clear and concise manner, but as with everything else in life, it doesn't provide a guarantee of success. However, by sticking to a trading plan day in and day out, our emotions are minimized and we can greatly increase the probability of making a winning trade. With time and experience, you can learn to anticipate the direction of your trades and improve your chances of achieving better returns.
+(For more insight, see Ten Steps To Building A Winning Trading Plan and Having A Plan: The Basis Of Success.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

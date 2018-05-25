@@ -1,0 +1,74 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        The Walt Disney Co. (DIS) has done it again with another blockbuster hit on track for a quick $1 billion in box office sales. Its latest superhero movie makes the media giant the studio behind nine of the 10 biggest openings in North American history. 
+Marvel Studios' "Avengers: Infinity War" shattered records this weekend as its global opening raking in an estimated $640.9 million, according to the Burbank, California-based entertainment behemoth. The figure does not include China, the world's second-largest movie market, where the superhero film is set to hit the big screens on May 11. The previous record for a worldwide opening was Universal's "The Fate of the Furious," which secured $541.9 million in opening box office sales in 2017. (See also: Disney to Outperform on DTC Focus: BMO Capital.)
+"Infinity War" generated an estimated $258.2 million domestically over the weekend, beating out "Star Wars: The Force Awakens," which made Disney $248 million in box office sales over its 2015 debut. 
+The 'Pinnacle' of 10 Years of Brand Success
+Last year, Disney announced that it would cut ties with Netflix Inc. (NFLX) and pull its popular Marvel and Star Wars films from the on-demand streaming platform as it builds up its own direct-to-consumer business set to debut in 2019. The company is expected to shell out as much as $30 billion annually on its video-streaming push, according to analysts at RBC Capital Markets. The initiative is reflective of a larger offensive by the company as it takes on new rivals such as Netflix and Amazon.com Inc. (AMZN), who are also planning to accelerate their content spend in the coming years after putting down $6.3 billion and $4.5 billion respectively on content in 2017. 
+Marvel Studios, which Disney bought for $4 billion, has proved to be one of Disney's most valuable investments, pumping out 18 superhero films in the last decade without any signs of a slowdown. "Infinity War" brings together more than 20 of the franchise's heroes, viewed as the pinnacle of 10 year's worth of story lines that have raked in roughly $15.3 billion globally for Disney, according to CNN. (See also: Amazon’s $1B 'LoTR': Most Expensive TV Show Ever.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

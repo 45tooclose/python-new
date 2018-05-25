@@ -1,0 +1,152 @@
+
+
+    
+                          What is 'FINRA BrokerCheck'
+
+      FINRA BrokerCheck is a free, online tool that helps individuals research brokers, brokerage firms, investment adviser firms and advisers. By visiting BrokerCheck, investors can see a variety of information that may be helpful in the selection and vetting of an individual financial advice provider or broker/brokerage firm, such as descriptions, services offered, credentials, sanctions, registrations and more. BrokerCheck is offered and administered by the Financial Industry Regulatory Authority (FINRA), the largest non-governmental securities firm regulator in the United States. The data and information available in BrokerCheck comes mainly from two sources: the Central Registration Depository (CRD), the securities industry online registration and licensing database, provides the broker and brokerage information, while information about investment adviser firms and representatives comes from the Securities and Exchange Commission's Investment Adviser Registration Depository (IARD) database.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Central Registration Depository ...                     
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Rules of Fair Practice                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Compliance Registered Options Principal ...                     
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Series 6                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      Breaking Down 'FINRA BrokerCheck'
+      Given the breadth of its data sources, FINRA BrokerCheck (brokercheck.finra.org) contains information on roughly 700,000 brokers/brokerages and advisers/adviser firms, as well as thousands of previously registered ones. FINRA BrokerCheck is also an explanatory tool that shows how to properly use and manage the information provided. With FINRA BrokerCheck, an investor can find a firm's history, learn of any indiscretions and locate and identify popular choices among investors.
+FINRA BrokerCheck: Available Information
+Regarding brokers who are currently registered with FINRA, a national securities exchange, or who have been registered sometime during the last 10 years, FINRA BrokerCheck provides:
+A report summary of a broker and their credentials
+Broker qualifications, such as current registrations or licenses, including exams that they have passed
+Registration and employment history that includes a list of securities firms a broker is registered or was previously registered, as well as an employment history going back 10 years (both within and outside the industry).
+Disclosures regarding criminal, regulatory, civil judicial, or customer complaint activity
+For brokerage firms, BrokerCheck provides:
+A report summary of a firm and its background
+A firm profile describing a firm's origins, its leadership, and who owns it
+A firm history of acquisitions, mergers or name changes
+A firm operations section that includes its licenses and registrations, what kind of business it engages in, adn any other operational disclosures
+A disclosures section that has information of arbitration awards, disciplinary events, and financial matters on its record (both past and pending).
+BrokerCheck does not contain any information that has not been disclosed to the CRD system, some personal or confidential information (Social Security numbers or residential addresses), as well as satisfied judgments or liens. For more, see the FINRA BrokerCheck informational page and FAQs.
+FiINRA BrokerCheck Other Resources
+In addition to BrokerCheck, individuals considering hiring a broker or investment adviser should search the resources of their state securities regulators, which also oversee and may require the registration of brokers or advisers. FINRA also provides two additional supplementary databases: FINRA Arbitration Awards Online and FINRA Disciplinary Actions Online.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

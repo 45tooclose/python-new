@@ -1,0 +1,140 @@
+
+
+    
+                          What is the  'Sterling Ratio'
+
+      Sterling ratio is a risk-adjusted return measure that uses compounded annual return over average maximum drawdown. There are multiple variations on this basic formula. The formula is as follows:
+
+The Sterling ratio formula uses the average compounded return and average risk presented in the form of maximum drawdown. Drawdown is calculated as the maximum potential loss in the given year. The resulting ratio shows the amount of average annual compounded return delivered per unit of average maximum drawdown risk. The higher quantity of return per unit of risk, the more favorable the result as the investor received each unit of return while experiencing a smoother ride.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Calmar Ratio                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Return Over Maximum Drawdown (RoMaD)                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Current Ratio                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Drawdown                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Sterling Ratio'
+      The Sterling ratio measures return over maximum drawdown. There are many ways the numbers can be adjusted before they are plugged into the formula. The ratio is often used in the context of hedge funds. The risk-reward measure determines which hedge funds have the highest returns while enduring the least amount of volatility. Just like the Calmar ratio, a higher Sterling ratio is generally better because it means that the investment(s) are receiving a higher return relative to risk.
+The Sterling ratio is similar to the Sharpe ratio and the Sortino ratio, as it also produces a risk-adjusted return measurement. The Sterling ratio, along with the Sortino ratio, is primarily used by hedge funds as a way of advertising superior risk management.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

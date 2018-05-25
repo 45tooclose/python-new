@@ -1,0 +1,35 @@
+
+
+The Slavic god of lightning, Perun, is entering the ethereum ecosystem (in spirit at least).
+Inspired by bitcoin's lightning network, a group of researchers hailing from Warsaw have unveiled a new white paper entitled "Foundations of State Channel Networks," which outlines a protocol designed to help ethereum scale to support higher volumes of more complex smart contracts.
+But while a number of ethereum projects are building solutions for this problem, Perun's approach to its protocol is unique - namely in its focus on security, as it provides formal security definitions and security proofs for its protocol.
+Essentially, Perun works like other "state channels" that aim to move transactions off of the blockchain. (The idea is ethereum's "world computer" could one day handle any number of applications from content distribution to online gaming.) However, the difference here is that parties involved can register the current state of the contract at any time, thus enabling smart contracts to rewind channels to the last state at which parties agreed on terms. 
+
+"In case when two (possibly malicious) parties send conflicting states to the channel contract, the logic of the contract will select the latest state on which both users have agreed on," the paper reads.
+A small innovation, University of Warsaw associate professor Stefan Dziembowski, a co-author of the paper, argues that this attribute can't be undersold given the nature of value transfers.
+He told CoinDesk:
+"We are convinced that in the context of cryptocurrencies, a sound security analysis is of particular importance because security flaws have a direct monetary value and hence, unlike in many other settings, are guaranteed to be exploited."
+It turns out, this is such a highly sought-after goal that the researchers are already partnering with tech giant Bosch to put together a prototype. Not only that, but the project has been lauded by ethereum creator Vitalik Buterin.
+In fact, Buterin was actually the first to laud the proposal, arguing the security proofs the team implemented were a step in the right direction for the ecosystem overall, and should be studied, if not adopted, by scaling projects of all kinds.
+"I definitely do think that we need some kind of general-purpose machinery for formally verifying properties of layer-two systems in general," Buterin said.
+Journey to state
+Stepping back, though, the team's path to Perun was a bit meandering.
+Dziembowski told CoinDesk he and the team originally wanted to build a "fair" file-sharing app on top of ethereum but were tripped up by critical issues soon into the process of developing that app.
+"While working on this project we noticed that a fundamental bottleneck to make our application work was high costs from on-chain transactions and the relatively slow time of processing smart contracts running on the blockchain," Dziembowski said.
+This is exactly what other developers have experienced, most famously when the digital cat collectables app CryptoKitties emerged as a user favorite, causing these slow transaction times and high fees. A handful of scaling solutions have been put forth to the ethereum community since then, but the team at Perun actually found their inspiration from a different network altogether.
+It was bitcoin's lightning network, another "layer-two solution" for the bitcoin blockchain, that piqued their interest, and the team moved to rework it a bit to be able to function on ethereum's more ambitious platform.
+Luckily others had already started building on that idea through a technology known as "state channels" - whereby lightning is extended to ethereum's complex smart contracts. As such, Perun's paper merely continues this research by formulating a specification that outlines a bunch of requirements that any actual state channel implementation needs to secure itself against "powerful adversaries."
+Toward reality?
+That said, the Perun team and even Buterin understand that there's still a long way to go.
+Dziembowski said that his team's prototype isn't ready for live use yet, but is "mainly for research purposes" now. And Buterin said he's worried about the future "risk of error" as the theory is put into practice with real smart contract code.
+Speaking to those risks, Dziembowski named The DAO, an ethereum-based organization that was supposed to rely only on code but ended up defunct after users were hacked for more than $50 million of ether, as an example of what, and how much, can go wrong.
+Still, many are excited about the effort.
+Buterin even said he has plans to come up with a similar security framework for Plasma, a highly-anticipated scaling project he co-authored last year and which startups like OmiseGo are now putting into practice.
+Speaking about Perun's work, Buterin continued:
+"I personally am satisfied that it's fundamentally possible to achieve all of the things that you claim in the way that you're doing it."
+The research team responded to him saying that they're working on a simple implementation.
+Motion blur image via Shutterstock
+var riuyojisrlntqyiu,riuyojisrlntqyiu_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){riuyojisrlntqyiu_poll(function(){if(window['om_loaded']){if(!riuyojisrlntqyiu){riuyojisrlntqyiu=new OptinMonsterApp();return riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="//a.optnmnstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;riuyojisrlntqyiu=new OptinMonsterApp();riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");
+
+The leader in blockchain news, CoinDesk is a media outlet that strives for the highest journalistic standards and abides by a strict set of editorial policies. CoinDesk is an independent operating subsidiary of Digital Currency Group, which invests in cryptocurrencies and blockchain startups.
+

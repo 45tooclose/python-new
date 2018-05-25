@@ -1,0 +1,140 @@
+
+
+    
+                          WHAT IS 'Minimum Yield'
+
+      Minimum yield is the lesser of a bond's yield-to-call and yield-to-maturity. Yield-to-call and yield-to-maturity are two different rates of return that can be calculated for every given bond issue, and that vary daily. The minimum yield is used by investors who want to determine a conservative estimate for the value of a particular bond. A bond's yield-to-call and yield-to-maturity will change according to market conditions, though its yield-to-call will always adjust faster simply because maturity date is known while call date can vary. If the current price of a bond is below the call price, the bond's yield-to-maturity will be its minimum yield.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Required Yield                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Dollar Price                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Dollar Bond                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Gross Yield                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Minimum Yield'
+      Minimum yield expresses the least amount of interest a bond can earn. Bonds can earn interest in two ways; either yield-to-maturity, which is the interest a bond earns when it hits maturity date, or yield-to-call, which is the interest a bond earns when it is called, or cashed in prior to maturity. Yield-to-maturity is calculated with the assumption that the bond is cashed in at a specific time. Yield-to-call is calculated with the assumption that the bond is cashed in at a specific cash price. This means that yield-to-maturity is a more variable number than is yield-to-call. 
+Because a bond's yield-to-maturity will move up and down faster than its yield-to-call, investors will see a crossover point. The point at which the two yields are equal is called the crossover price. For example, a bond that has been falling in price but sees the price start to increase will have a yield-to-maturity that shifts directions, making the yield-to-call the minimum yield. Thus, the minimum price varies daily, as do yield-to-call and yield-to-maturity.
+Use of Minimum Yield for Investors
+Minimum yield should not be overlooked, and calculating it should not be seen as a sign of pessimism about a bond or security. An investor needs to understand minimum yield so that they don’t overpay for a bond. Without understanding minimum yield an investor could assume that either yield-to-call or yield-to-maturity is a guaranteed rate, and invest in the bond based on that information, when the actual yield could be significantly lower. Minimum yield is, therefore, not a calculation of what the investor hopes the bond will yield or is guaranteed to yield, but the worst-case assumption of yield that allows the investor to make a realistic decision about investing in that security. It determines if a bond is fairly-priced or overpriced on a given day.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

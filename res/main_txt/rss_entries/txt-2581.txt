@@ -1,0 +1,141 @@
+
+
+    
+                          DEFINITION of 'Dilution Protection'
+
+      Dilution protection refers to contractual provisions that limit or outright prevent an investors stake in a company from being reduced in later funding rounds. The dilution protection feature kicks in if the actions of the company will decrease the investor’s percentage claim on assets of the company. For example, if an investors stake is 20% and the company is going to do an additional funding round, the company must offer discounted shares to the investor to at least partially make up for the dilution of the overall ownership stake. Dilution protection provisions are generally found in venture capital funding agreements. Dilution protection is sometimes referred to as anti-dilution protection.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Anti-Dilution Provision                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Dilution                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Diluted Earnings Per Share - Diluted ...                     
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Broad-Based Weighted Average                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Dilution Protection'
+      Dilution protection is the broad term for any contractual obligation to protect an existing shareholders' ownership in a company. Dilution protection is most common in the venture capital world, particularly with early stage startups. In order to entice investors into risky ventures, companies often have to give in to dilution protection measures that affect later funding rounds. Of course, many companies are willing to do so because there is no guarantee they will survive to see those later rounds if they don’t secure the funding they need today.
+Full Ratchet and Weighted Average Dilution Protection
+Dilution protection is outlined in a funding or investment agreement as an anti-dilution provision. The most common form of anti-dilution provision protects convertible stock or other convertible securities in the company by mandating adjustments to the conversion if more shares are offered. In the event the company sells more shares at a lower price, for example, the dilution protection provision will make a downward adjustment in the conversion price of the convertible securities. This means that, upon conversion, existing investors with dilution protection receive more shares of the company, thereby retaining more of their ownership stake. Anti-dilution provisions come in two main varieties - full ratchet anti-dilution and weighted average anti-dilution. The difference between the two is how aggressively they protect the investor’s ownership percentage.
+The Dangers of Dilution Protection
+Dilution protection usually makes sense at the time it is given to a particular investor, but it can have long-term negative consequences for a company. When there is a class of investors who have additional risk protection, it has a negative impact on the value of every unprotected share offered thereafter. This means that the company may struggle to find new investors or get sufficient capital due to the protections granted to past investors. Venture capitalists do recognize this issue and they can and sometimes do choose to waive their dilution protection to avoid hampering later funding rounds. For a venture capitalist, there is far more money to be made shepherding a startup to a public company than there is in protecting an ownership stake in a struggling private company.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

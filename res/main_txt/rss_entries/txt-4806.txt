@@ -1,0 +1,77 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        At a time when many technology companies are keeping a tight hold on their company operations through their share structures, Zynga Inc.’s (ZNGA) founder is taking the opposite tack.
+The online game maker’s former CEO and founder Mark Pincus has converted all of his “super-voting” Class C shares (70 votes per share) and Class B shares (seven votes per share) into common Class A shares with one vote per share. Essentially, Pincus gave up his voting control by paring down his voting power from 70% to 10% and creates a single-class share structure for the San Francisco-based company.
+Pincus, who is leaving his role as an employees, made the decision in consultation with Zynga’s board, telling The New York Times that they agreed that “the company’ doesn’t benefit anymore from a multiclass structure.” Pincus will become a nonexecutive chairman of Zynga’s board.
+Declining Interest in Core Games
+Dual-class voting structures are common among media companies, and now more technology companies launching IPOs are adopting the practice as a way to retain control. For example, Snap Inc. (SNAP) offered no shares with voting rights during its IPO last year. But, in general, most companies provide one vote per share in their public offerings.
+ Zynga, which owns games like FarmVille and Words With Friends, launched its IPO in 2011. While the company thrived at first on the games’ popularity, it has since struggled with declining interest in its core games. It is also struggling with mounting costs as it tries to shift its games from an internet focus to a more mobile format. Zynga generates about $12 per dollar that is spends on developing video games, while its competitor Glu Mobile generates twice that. (See also: Zynga’s Costs Are Out of Control.)
+Zynga’s stock is up 25.9% in the past year but down 9.8% so far this year.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

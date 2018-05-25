@@ -1,0 +1,77 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Regardless of when and if legislation comes into fruition, trade talk from the White House has been rattling the global financial markets, threatening to slow spending and drive up costs for some of America's largest and most powerful corporations, while injecting uncertainty into the market as it comes off its nine-year bull run. In a Monday story in The Wall Street Journal by Ben Eisen, the reporter highlighted the negative effect that fears over new tariffs could have on the U.S. economy, particularly its ability to put the brakes on corporate spending and decelerate domestic job growth. (See also: Stocks Can Still Do Well During Rising Rates: CS.)
+Despite the Trump administration's recent decision to continue trade negotiations with rivals and put off new tariffs, investors' concerns regarding increasingly protectionist rhetoric and policies from the GOP has sent equities on a roller-coaster ride in 2018. Since new tariffs were announced in early March, the S&P 500 declined about 2.2% through May 1, yet moved 1% or more on 17 of the 43 trading days over the period, wrote Eisen. The worst-off sector amid a period of heightened volatility and uncertainty have been industrials such as Boeing Co. (BA). 
+“At the end of the day, the market absolutely hates uncertainty,” said Dave Lutz, head of exchange-traded fund trading at Annapolis, Maryland-based JonesTrading. “It can handle bad news but it cannot handle uncertainty.” While the U.S. equity market has made a comeback against the backdrop of better-than-expected economic growth in Q1, some on the Street remain worried that ambiguity surrounding global trade negotiations may lead companies to delay hiring and decrease spending, potentially hurting the market in the short term. (See also: Where to Invest for a Trade War: Goldman's View.)
+Economic Uncertainty 
+“We’re somewhat worried about what this type of uncertainty means for the economy going forward,” wrote Deutsche Bank economist Torsten Slok, as cited by the WSJ. The investment firm highlights trade uncertainty as a contributing factor to slowing U.S. job growth. Deutsche Bank noted that the U.S. labor market has been adding a smaller share of jobs in states with high production of steel, aluminum, aircraft, cars and soybeans—or those industries most effected by tariffs. New jobs from these states comprised about 60% of total job creation in March, compared to roughly 75% in the final three months of 2017. 
+While inflation has remained low, rising commodity prices could eat into pre-tax earnings at companies such as heating, ventilation and cooling firm Lennox International Inc. (LII), which is raising prices by 6.5% at the midpoint following a 5% hike at the beginning of the year, according to the WSJ. 
+Manufacturing giant Caterpillar Inc. (CAT) highlighted steel and other commodity costs as a headwind this year, joining firms such as Harley Davidson Inc. (HOG) and Polaris Industries Inc. (PII) that also warned on the tariffs' negative impact on input costs. (See also: 3 Stocks for Whether Economy Grows or Slows: Barron’s.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

@@ -1,0 +1,87 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Asking for referrals is never easy. It can be difficult to find the right balance between being aboveboard in presenting yourself and your services – with an aim to make a sale down the line – and being pushy to the point of annoyance. And yet referrals are an important part of any financial advisor’s business, and often serve as the best way to reach potential clients. Here are a few tips for getting one. They may make asking for and obtaining a referral a little less difficult and a lot more productive. (For more, see: Top Reasons Why Advisors Don't Get Referrals.)
+Give a Little, Get a Little
+If you really want to incentivize your current clients to talk to their friends and family about you, you may need to offer them something in return. One way you can do so is to set up a gift program for those clients who do succeed in referring you to one of their contacts. If that referral results in a prospective client meeting, a gift is a nice way to show your appreciation. Tell all your clients that you are offering a complimentary financial review to any individual to whom they refer you. Then reward those who followed through in making a connection by giving them a store-bought gift or gift certificate. Chocolate, wine, and champagne are always appreciated, as are gift certificates from department stores, spas, or local boutiques. Another approach is to offer a discount on the services you offer to the clients providing you with a successful referral. (For more, see: Top Reasons Why Advisors Don't Get Referrals.)
+One way to get the word out about your referral incentive program is to announce it on your website or in the emails you send out to clients. Just make sure you are in compliance with all corresponding regulations when you do offer gifts to clients. You might also want to rotate the gifts you give, so your clients will be inclined to make more than just one referral. 
+You could also set up a contest for your clients. Whichever client provides you with the most actionable referrals wins the contest and receives the prize. You could have first, second, and third place winners, so more people would be encouraged to be involved. Again, let clients know about the contest during meetings or through your newsletter or email list.
+Use Social Media
+More and more businesses these days are using social media outlets from companies such as LinkedIn Corp. (LNKD), Facebook Inc. (FB), and Twitter Inc. (TWTR) to get their message out into the world. The more you start linking up with your clients through social media, the more your message has a chance to reach their friends and their colleagues. Create a Facebook page and ask your current clients to 'like' it, and then ask them to go ahead and forward it to their network of friends and colleagues. Don’t be shy about reminding your clients about the ways in which your financial and estate planning services have been beneficial to them and others, so they can use those examples to do a bit of selling for you when making a referral to a friend. (For more, see: Social Media ‘Don’ts’ for Financial Advisors.)
+You might also want to start a weekly or monthly blog on your website, with a comments section that could become a platform for interesting and relevant discussions. If a client reads something on your blog that seems relevant to a friend or colleague, he or she can forward the link to that person. In this way, your written words can speak for you and often can be just as good as a word-of-mouth referral. (For more, see: How Advisors Can Get the Most Out of Social Media.)
+Make Use of Organizations, Societies
+Contacting local organizations about making referrals can also be a good way to get access to many like-minded people at the same time. Offer to give a lecture to the organization about the importance of financial planning, and include a question-and-answer session afterward, in which people can really get to know you and talk about what is on their minds. Don’t forget to bring business cards and materials about your business for the attendees to read and take with them. You may even want to conduct a survey asking for feedback on your presentation, and for permission to contact the people in the audience by phone or email. (For more, see: Tips for Advisors Who Want to Grow Their Practice.)
+You could look up which of your clients work at large corporations, and then ask them directly if there might be an opportunity for you to talk with the human resources department at the company about offering your services to their employees. If you specialize in a niche, target those organizations that cater to the relevant type of person or to a group of people in the specialty in question. 
+Professional Networking
+Is there a lawyer or insurance agent you have worked with in the past, whom you admire? If so, you could agree to trade contacts with that person, or make a deal to approach all of your combined contacts as a team. In this way, you can offer a selection of services to a group of people, and the offer will be coming from at least one person these individuals already know and trust. You could also ask these professionals to write a testimonial about you and your services, and post their comments on your website or social media pages. It’s free advertising, and it’s coming from people who really know and admire your work. (For more, see: Top Networking Tips for Advisors.)
+Closing Arguments
+Don’t be afraid to periodically remind your current roster of clients that you are looking for referrals. The best time to do this is often at the end of a productive meeting. You can bring up the fact that you are offering initial meetings with prospective clients free of charge, and that you would be happy to answer any questions their friends or contacts may have. Again, you don’t need to feel like you are asking this person to do you a big favor; rather, approach it as a way of getting the word out about your services to people who potentially need them. (For more, see: How to Be a Top Financial Advisor.)
+The Bottom Line
+A referral from a friend, colleague, or industry expert can go a long way in getting more prospective clients to give you a call. Being proactive about asking for referrals and using social media or connections with organizations and other professionals should be a big part of your approach to growing your client list. (For more, see: Pro Tips for Getting More Referrals.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Medium-Article'
+    });
+                    
+            
+                

@@ -1,0 +1,77 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Apple Inc. (AAPL) shares are marking new all-time highs after legendary investor Warren Buffett said he bought another 75 million shares in the first quarter.
+Already the most valuable company by market cap, Apple saw its stock briefly rally above its previous all-time high of $183.50 on the news in Friday’s session. In the past two years, Apple shares have increased more than 77%, including an 8% gain so far this year.
+Apple’s market cap is more than $930.8 billion, just $20 per share shy of $1 trillion, as of Friday. Amazon.com Inc. (AMZN) ranks second with a market cap of $764.4 billion followed by Microsoft Inc. (MSFT) with a market cap of $725.2 billion. (See also: Why Apple May Soar If It’s Valued Like Netflix.)
+Buffett’s Growing Interest in Apple
+Per Buffett’s usual value-seeking strategy, his bull case for Apple hinges on its long-term success. He dismissed concerns about whether the iPhone X would meet sales goals. "The idea that you're going to spend loads of time trying to guess how many iPhone X [units] ... are going to be sold in a three-month period totally misses the point," Buffett said in an interview with CNBC on Friday. "It's like worrying about the number of BlackBerrys 10 years ago." 
+Buffett’s Berkshire Hathaway (BRK.A) began buying into the tech giant about two years ago with 9.8 million shares, and now it comprises one of his largest holdings. Apple CEO Tim Cook said he was “thrilled” to count the firm among its major investors. (See also: Morgan Stanley: We Were Wrong: Apple to Gain 13%.)
+Berkshire Hathaway held 165 million shares in Apple at the end of 2017. Now, with the latest increase, it owns a 4.7% stake in Apple, or 240.3 million shares worth $42.5 billion.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

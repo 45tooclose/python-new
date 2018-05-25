@@ -1,0 +1,78 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        It’s time to back the greenback!
+As the U.S. dollar hit a hit a six-week high against the pound sterling on Friday morning, David Bloom, the head of HSBC's forex research team told CNBC that he is now changing his stance and taking a bullish view on the leading fiat currency.
+"We have changed our view. We were very wishy-washy, the dollar's kind of going sideways. It worked well but we think we are now in breakout time," said Bloom.
+Changing Economic Scenarios
+Bloom’s updated recommendation on the greenback is based on the data that shows a possibility of slowdown in other regions of the globe. In such a scenario, global investors tend to head to safe heavens, like investing in the present yield of a two-year dollar denominated U.S. bond, which will lead to more demand and improved valuations for the dollar.
+"Maybe I'm four days too late, but at least I've got time to make some money. The point is, this is a dollar bull run for the moment," added Bloom.
+In a note provided by HSBC, it predicts an upward breakout for the dollar in 5 to 10 percent range against other currencies. The dollar is expected to hit 110 for the Japanese yen by June end. Predictions for the 2018 year end are targeting a rate of $1.15 for a euro, and a dollar level of 6.40 against the Chinese renminbi.
+The continued strength of dollar against global currencies has been backed by many recent developments. The dollar index (USDX), which tracks the value of greenback against a basket of other major fiat currencies, is now up by around 2.5 percent over the last fortnight, and has hit its peak since the start of this year. The euro was trading down against the dollar at a three and a half month low, as Mario Draghi, the president of European Central Bank (ECB) failed to offer any clarity regarding the end to the ECB's asset buying program, and issued a cautionary note on the combined region’s constrained economic activity.
+In contrast to the ECB, the Federal Reserve Bank of the U.S.  is expected to remain on track for several more rate hikes this year. In the U.S., inflation has been in the stable range ruling out any adverse decision that could mar the prospects of a continued rally in the dollar in coming times.
+FT cites Michael Sneyd at BNP Paribas, who believes that many market participants jumped on to taking cues from the U.S. bond market for trading the dollar and are caught on the wrong side of the trade. “US rates didn’t matter for the dollar, now they do,” he said, adding that bets against the currencies are now folding under unbearable pressure. (See also, The U.S. Dollar: What Every Forex Trader Needs To Know.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

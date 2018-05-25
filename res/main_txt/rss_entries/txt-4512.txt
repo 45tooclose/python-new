@@ -1,0 +1,90 @@
+
+
+
+    
+        
+            
+        
+          
+                
+      
+
+    
+
+    
+        Naive diversification is best described as a rough and, more or less, instinctive common-sense division of a portfolio, without bothering with sophisticated mathematical models. At worst, say some pundits, this approach can make portfolios very risky. Then again, some recent research indicates that this kind of informed, but informally logical division, is just as effective as those fancy, optimizing formulas.
+Naive Vs. Sophisticated
+Not surprisingly, individual investors rarely use complex asset allocation methodologies. These have intimidating names, such as mean variance optimization, Monte Carlo simulation or the Treynor-Black model, all of which are engineered to produce an optimal portfolio, one which yields the maximum return at the minimum risk, which is indeed the investor's dream. (See also: Major Blunders in Portfolio Construction.)
+In fact, a couple of investigations into optimization theory, such as "Optimal Versus Naive Diversification: How Efficient is the 1/N Portfolio Strategy," conducted by the London Business School's Dr. Victor DeMiguel et al., have argued against the effectiveness of sophisticated models. The difference between them and the naive approach is not statistically significant; they point out that really basic models perform quite well.
+Is the average private investor's way of simply having a bit of this and bit of that really any less viable? This is an extremely important issue and at the very core of investing. One rabbi, Issac bar Aha, seems to have been the grandfather of it all, having proposed around the fourth century, that one should "put a third in land, a third in merchandise and a third in cash." It's pretty good advice that is still sound enough, 1600 years later!
+To some cynics and scientists, it seems too simple to be true, that one can achieve anything close to an optimum merely by putting one-third of your money in real estate, one-third in securities (the modern equivalent of merchandise) and the rest in cash. Alternatively, the classic pie charts that are divided into high-, medium- and low-risk portfolios are very straightforward, and there may be nothing wrong with them.
+Even Harry Markowitz, who won the Nobel Memorial Prize in Economic Sciences for his optimization models, evidently just divided his money equally between bonds and equities, for "psychological reasons." It was simple and transparent; in practice, he was happy to leave behind his own award-winning theories when it came to his own funds.
+Shades of Naivety and the Term Itself 
+There is more to the issue, however. German professor of banking and finance Martin Weber, explains that there are different types of naive models, some of which are a lot better than others. Professor Shlomo Benartzi of UCLA also confirms that naive investors are heavily influenced by what they are offered. For this reason, if they go to a stockbroker, they may end up with too many equities, or be over-weighted in debt instruments if they go to a bond specialist. Furthermore, there are many different types of equities, such as small and large cap, foreign and local, etc., so that any bias could lead a disastrous, or at least, sub-optimally naive portfolio.
+In the same vein, the concept of naivety can itself be simplistic and a bit unfair. Naive in the sense of gullible and ill-informed is, indeed, very likely to lead to disaster. Yet, if naive is taken its original meaning of natural and unaffected – translating to a sensible and logical, if unsophisticated, approach (ignorant of technical modeling techniques),  there is no real reason for it to fail. In other words, it is arguably the negative connotations of the word "naivety" that are the real issue here – the use of a derogatory label.
+Complexity Does Not Always Help 
+Coming from the other side, methodological complexity and sophisticated models do not necessarily lead to investment optimality, in practice. The literature is quite clear on this and given the complexity of the financial markets, it is hardly surprising. Their mixture of economic, political and human factors is daunting, such that models are always vulnerable to some form of unpredictable shock, or combination of factors that cannot be integrated effectively into a model.
+Dr. Victor DeMiguel and his co-researchers concede that complex approaches are seriously constrained by estimation problems. For the statistically minded, the "true moments of asset returns" are unknown, leading to potentially large estimation errors.
+Consequently, a sensibly constructed portfolio, which is regularly monitored and rebalanced in terms of which is happening at the time, not only has intuitive appeal, it can perform just as well as some far more sophisticated approaches that are constrained by their own complexity and opacity. That is, the model may not integrate all the necessary factors, or may not respond sufficiently to environmental changes as they occur.
+Likewise, apart from asset-class diversification, we all know that an equity portfolio should also be diversified in itself. In this context too, the proponents of naive allocation have demonstrated that having more than around 15 stocks adds no further diversification benefit. Thus, a really complicated equity mix is probably counterproductive. (See also: Achieving Optimal Asset Allocation.)
+The Bottom Line
+The one thing on which everyone agrees is that diversification is absolutely essential. But the benefits of advanced mathematical modeling are unclear; for most investors, how they operate is even less clear. Although computerized models can look impressive, there is a danger of being blinded by science. Some such models may work well, but others are no better than simply being sensible. The old adage "stick with what you know and understand" may apply as much to straightforward, transparent asset allocations as it does to various forms of structured investment products.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

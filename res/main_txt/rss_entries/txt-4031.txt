@@ -1,0 +1,83 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Under Armour Inc. (NYSE: UA) is a leader in the performance apparel market. The Baltimore-based company, founded in 1996, develops, markets and distributes apparel and accessories made of synthetic microfibers that help regulate body temperature and improve athletic performance. As of May 1, 2018, Under Armour had a market capitalization of $6.79 billion. As many other retailers these days, Under Armour is struggling with the challenging environment brought on by competition from online retailers, especially Amazon. (For related, see: 2017: The Year of Retail Bankruptcies).
+Under Armour’s five largest institutional shareholders include the Wellington Management Company, holding 25.2 million shares;  Vanguard Group Inc., holding 18.5 million shares; Harris Associates L.P., holding 10 million shares; Bares Capital Management Inc., holding 8.3 million shares; and State Street Corporation, holding 7.2 million shares. 
+The top Under Armour insider shareholders include the following individuals. Class C Under Armour shares do not carry any voting rights. 
+1. Kevin Plank
+Kevin Plank is the founder and current chief executive officer (CEO) of Under Armour. He has held the position of CEO and chairman of the board since 1996, and was president between 1996 and 2008. Plank is on the boards of the National Football Foundation, the College Hall of Fame Inc. and the University of Maryland College Park Foundation. Plank’s academic qualifications include a Master of Business Administration (MBA) from the University of Maryland. Plank is the largest shareholder of Under Armour with his 33.995 million shares of Class C stock and 34.705 million shares of Class A and B stock as per SEC filings.
+2. Patrik Frisk
+Patrik Frisk is the President and chief operating officer (COO) of Under Armor. Formerly the CEO of footwear company Aldo, Frisk joined Under Armor in June 2017 to replace Kevin Plank as the President. Frisk owns 652,526 shares of Class C stock in Under Armor, making him the company's second largest shareholder. 
+3. Michael S. Lee
+Michael Lee is Under Armour's chief digital officer — a position he has held since July 2016. Lee joined the company in March 2015, when it acquired MyFitnessPal — which he founded — for $475 million. Before starting MyFitnessPal, Lee held leadership positions at multiple start-ups in Silicon Valley. Lee is the third-largest shareholder with 391,998 Class C shares as of his most recent SEC filing. 
+4. Harvey Sanders
+Under Armour’s fourth-largest individual shareholder is Harvey Sanders. As of February 2018, he held 192,757 shares of Class A stock and 193,937 shares of Class C stock. Sanders has been an independent director of Under Armour since November 2004. Previously, Sanders served as the CEO and president of Nautica Enterprises Inc. between 1977 and 1993. He is a board member of the Boomer Esiason Foundation for Cystic Fibrosis and the Starlight Starbright Foundation. Sanders also serves on the board of the University of Maryland College Park Foundation.
+5. Kip Fulks
+Kip Fulks has a long association with Under Armour, holding various senior positions within the company, such as managing quality assurance and product development between 1997 and 2008. Fulks is now Under Armour’s strategic advisor, a role he has occupied since May, 2017. He is the company’s fifth-largest direct shareholder, with 261,356 shares of Class C stock as of his February 2018 filing. Other recent roles within Under Armour include president of footwear and innovation from March 2015 to October 2015, chief operating officer (COO) between 2011 and 2015, and chief product officer from 2016-2017.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

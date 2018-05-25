@@ -1,0 +1,79 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        More on BitcoinFormer Paypal CEO Calls Bitcoin A ScamGoldman Hires Former Crypto TraderICO Tokens Are Securities: Former CFTC ChiefBytecoinT.S. Eliot might have been right about April being the cruelest month but it was a great one for cryptocurrency markets. 
+At the start of April 2018, the overall market capitalization for cryptocurrencies was hovering at $263 billion and there were ominous rumblings that bitcoin, the original coin that accounts for the largest chunk of trading volume in cryptocurrency markets, was nearing a bottom. The drawdown in prices was a contagion that spread from bitcoin to other cryptos. Ether crashed below $400 to hit its lowest price since November and Ripple, the third most valuable cryptocurrency, also flirted with historical declines. Tax-related selloffs by traders contributed to the pressure. 
+
+But the markets survived the trough and the end of April looks cheerier. The total market capitalization for cryptocurrencies is $424 billion, as of this writing. On a percentage basis, the figure translates to an increase of 61% withing the month of April. That figure looks even more impressive when you consider that cryptocurrency markets lost 40.3% of their overall value in March. Bitcoin has scaled past $9,000, a figure it crossed last December. Other cryptocurrencies are also on an upward trajectory. Even futures trading for bitcoin on Cboe broke records recently. A series of developments, from the end of tax season to sales by bitcoin whales, were responsible for the surge. (See also: Why Did Bitcoin Jump By $1,000 On April 12?)
+Is It Time To Pop The Champagne? 
+Not quite. The reversal in cryptocurrency market fortunes does not have the same momentum of the rally in crypto markets last December, when the price of bitcoin skyrocketed by 225% in a month. In fact, except for a brief surge on April 12, cryptocurrency prices have moved cautiously as the wave of negative sentiment surrounding bitcoin and other cryptocurrencies, due to recent hacks and scandals, subsides. Institutional investors are also beginning to warm up to the idea of cryptocurrencies as evidenced by the increase in trading volume for bitcoin futures. 
+But investors expecting a run up in prices similar to the one that took place last December may be disappointed. The allure of cryptocurrencies as a novel investment instrument has faded. Regulation and the entry of institutional investors, who will bring liquidity into the ecosystem, is expected to further tamp down volatility and sudden price movements. 
+There’s still money to made in cryptocurrency markets. Thomas Lee of Fundstrat Global Advisors has predicted a price target of $20,000, an appreciation of roughly 122 percent from today’s prices, for bitcoin by the middle of June. (See also: HODL Bitcoin: It's Going To Be $25,000 By The End Of This Year). 
+Investing in cryptocurrencies and other Initial Coin Offerings ("ICOs") is highly risky and speculative, and this article is not a recommendation by Investopedia or the writer to invest in cryptocurrencies or other ICOs. Since each individual's situation is unique, a qualified professional should always be consulted before making any financial decisions. Investopedia makes no representations or warranties as to the accuracy or timeliness of the information contained herein. As of the date this article was written, the author owns 0.01 bitcoin. 
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

@@ -1,0 +1,143 @@
+
+
+    
+                          What is 'Section 16'?
+
+      Section 16 is a section of the Securities Exchange Act of 1934 that describes the various regulatory filing responsibilities of directors, officers and principal stockholders. According to Section 16, every person who is directly or indirectly a beneficial owner of more than 10% of a company, or who is a director or an officer of the issuer of such a security, shall file the statements required by this subsection with the Securities and Exchange Commission (SEC).
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Beneficial Owner                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            SEC Form N-6F                     
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Form 4                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Schedule 13D                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Section 16'
+      Section 16 of the Exchange Act of 1934 requires the reporting of beneficial ownership by the officers, directors or stockholders who possess stock directly or indirectly resulting in beneficial ownership in excess of 10% of the company’s common stock or other class of equity. Parties that fall under Section 16 are typically referred to as insiders. This rule applies to public companies and private companies whose non-equity securities, such as bonds, are traded on national stock exchanges. Insiders of a private or public company covered by Section 16 must file specific forms with the SEC that disclose their equity interests and how they change over time as a result of past transactions.
+Beneficial Ownership
+Under Section 16, a person is considered a beneficial owner even if the individual does not directly own any equity interest in the company. Immediate family members sharing the same household with another member who beneficially owns interest in a covered company are also considered beneficial owners. Financial interest in a company can also exist indirectly if multiple persons act as a group to acquire, possess and sell a covered company's equity securities. In addition, if a person owns equity derivatives that, upon their exercise, provide equity interest, that individual is also considered a beneficial owner. Officers and directors fall under Section 16 requirements regardless of how small or large their beneficial ownership.
+Filing Requirements
+Section 16 requires insiders of a covered company to electronically file Forms 3, 4 and 5. The SEC requires Form 3, which is an initial statement of beneficial ownership, if there is an initial public offering of equity or debt securities or a person becomes a director, officer or 10% holder in a company. New directors and officers, as well as new significant shareholders, must file Form 3 within 10 days. If there is a material change in the holdings of a company's insiders, they are required to file Form 4 with the SEC. In addition, under Section 16, Form 5 must be filed by an insider who has conducted an equity transaction during the year if it was not previously reported on Form 4.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

@@ -1,0 +1,91 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        When it comes to equities, there are few riskier investments than penny stocks. These stocks, which trade under $5 per share, are usually priced that low for a good reason. For example, a penny stock could belong to a once-thriving company that is now on the brink of bankruptcy, or has had to de-list from the larger exchanges and is now trading over-the-counter (OTC). It could also be a new company, so it has scant market history and hasn't yet met the criteria to be listed on a major exchange.
+Penny stocks are volatile and risky by nature, and they're especially susceptible to price manipulation. Once in a while, however, a penny stock will greatly reward the risk-hungry investor. If you had bought shares in the Monster Beverage Corporation (MNST) in 1996, when it was trading at $.04 a share, you would be a happy investor today:.Monster traded above $68 in 2018.
+If you're intrigued by the potential to find such exponential gains, it could be worth diving into the murky waters of penny stocks.
+Check the Fundamentals
+Investors should conduct thorough due diligence before taking chances on any penny stock. For example, it might have looked like a good bet to invest in the ailing Walter Energy Co. After all, Walter Energy had traded as high as $143.76 a share in 2011. But those who bought Walter Energy when it fell to $0.16 would have still been burned as the company soon declared bankruptcy. On the other hand, an investment in Inovio Inc. (INO), which was trading below $1 in 2008 gave investors a number of opportunities to get out above $10 in 2009 and 2013 through 2016.
+The stark contrast between these two stocks lies in company fundamentals. Walter was an established company in metallurgical coal, an aging sector prey to cyclical demand and political pressures. When world leaders made commitments to lowering greenhouse emissions, this put more downward pressure on Walter Energy, which already was reeling from a worldwide coal supply glut and slowing demand from China.
+Walter, which currently trades on the over-the-counter boards, vowed to emerge debt-free by February 2016. As of 2018, the the OTC shares of the company trade near $0.01.
+By contrast, Inovio is a speculative biotechnology play with strong partnerships in its cancer vaccine portfolio, which offers strong buyout potential. As of 2018 a buyout hasn't happened, but the stock continues to sell off and then have huge upside moves which quickly dissipate.
+So when researching penny stocks, you should carefully weigh any potential gains versus fundamental factors underlying the company: its debt, cash flow, buyout potential, and Porter’s Five Forces of Competition among others. You should have the complete picture as to why the stock's trading at its current price before you even think of buying it.
+Industry Life-Cycle Analysis
+Along with analyzing a company’s balance sheet, the penny stock trader should look do an industry life-cycle analysis. Some penny stock companies are in a sector still in its “pioneering phase." This initial phase is characterized by the presence of a large number of small-sized competitors in the space, novel products and concepts, and low customer demand for the products. Because this period is marked by a slew of start-up firms (particularly in tech or biotech), all of which have high costs and little-to-no-sales to date, most of these companies will trade at very low prices owing to their speculative nature.
+Following this initial phase, is the “growth phase," in which many of these companies gain greater market attention and thus their sales and demand skyrocket.
+The perfect example is the tech boom (and crash) of the late 1990s. Many tech startups started life as penny stocks and then experienced astronomical gains in their market caps and valuations as investors snatched up anything related to the then-novel concept of the Internet.
+Penny Stock Industries
+Industries that offer binary outcomes for most of its companies will unsurprisingly contain a plethora of penny stocks. Binary outcomes, or “make or break” speculative plays, are found predominantly in biotech or resource sectors.
+The Canadian TSX Venture Exchange was the home of many resource-based penny stocks that took off during the com﻿﻿modity boom of the 2000s. Then the party ended, and most of the stocks crashed back to nothing, similar to many technology stocks in the 2000 crash.
+However, once in a while, a junior miner comes along that strikes it rich. Between 2008 and 2010, Stornoway Diamonds (SWY.TO) spiked from lows of $0.12 a share to above $3. Following the spike, between 2013 and 2018, Stornoway has predominantly traded below $1.
+Traders can take advantage of these binary-type companies when conditions are favorable, such as when commodities are booming. But investors in these areas must also realize that the stocks can fall just as quickly as they rise.
+Sound Management
+In real estate, it’s all about “location, location, location." For penny stocks, it’s about “management, management, management." Sound management can turn around a struggling firm and launch a startup to new heights. More importantly, experienced and ethical management that have a vested interest in the company via share ownership can provide investors with a sense of security.
+Of course, superstar managers aren't often found working for penny stock companies, but there are a few examples. Take Concur Technologies, which bounced back from its post-tech bubble price of $0.31 and got bought out in 2014 at $129 per share. This remarkable comeback is owed to many factors, but one that stood out was the strong vested interest of President and CEO Rajeev Singh. Singh, who had co-founded the company in 1993, filled a plethora of management roles over the firm’s lifespan before he finally stepped down after Concur’s acquisition by software giant SAP SE (SAP).
+The Bottom Line
+Penny stocks are extremely volatile and speculative by nature. As most trade on OTC exchanges or via pink sheets, where listing standards are lax, penny stocks are susceptible to manipulation and fraud. Still, the potential to make large returns is a strong allure, driving risk-taking investors into taking positions in these securities. Though many penny stocks go bust, if an investor exercises careful fundamental analysis and picks sound management teams, they could find the coveted diamond in the rough.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Medium-Article'
+    });
+                    
+            
+                

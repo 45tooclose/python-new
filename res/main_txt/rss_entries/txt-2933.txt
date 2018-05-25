@@ -1,0 +1,161 @@
+
+
+    
+                          What is 'Lintner's Model'
+
+      In 1956 John Lintner, Harvard University’s Gand Professor of Economics and Business Administration proposed the Lintner model for corporate dividend policy that focused on two core notions: (1) a company's target payout ratio and (2) the speed at which current dividends adjust to the target.
+The following formula describes a mature corporation’s dividend payout:
+∆Dividendt = κ + PAC (Target Dividendt − Dividendt−1) + et; where
+∆Dividendt is change from the previous dividend at period t - 1;
+PAC < 1 is a partial adjustment coefficient,
+κ is a constant; and
+et is an error term.
+(Source)
+From Lintner’s formula, a company’s Board of Directors (B of D) thus bases its decisions about dividends on the firm’s current net income, yet adjusts them for certain systemic shocks, and gradually adapts them to shifts in income over time.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Target Payout Ratio                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Dividend                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Dividend Policy                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Dividend Rate                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Lintner's Model'
+      In 1956 John Lintner developed this dividend model through inductive research with 28 large, public manufacturing firms. Today, although Lintner has passed, his model remains the accepted starting point for understanding how companies’ dividends behave over time.
+Two important things that Lintner observed about corporate dividend policies are:
+1) Companies tend to set long-run target dividends-to-earnings ratios according to the amount of positive net-present-value (NPV) projects they have available.
+2) Earnings increases are not always sustainable. As a result, dividend policy will not materially change until managers can see that new earnings levels are sustainable.
+While all companies wish to sustain a constant dividend payout to maximize shareholder wealth, natural business fluctuations force companies to project the dividends in the long run, based on their target payout ratio.
+Lintner’s Model and Setting Corporate Dividends
+A company’s board of directors (B of D) sets the dividend policy, including the rate of payout and the date(s) of distribution. This is one case in which shareholders are not able to vote on this corporate measure (in contrast with cases like a merger or acquisition, and additional critical issues like executive compensation).
+Three main approaches to corporate dividend policy include:
+
+The residual approach, in which dividend payments come out of the residual or leftover equity only after specific project capital requirements are met. (In such cases companies rely on internally generated equity to finance any new projects.) Companies using the residual dividend approach usually attempt to maintain balance in their debt/equity ratios before making any distributions.
+
+
+The stability approach, in which the Board often sets quarterly dividends at a fraction of yearly earnings. This reduces uncertainty for investors and provides them with a steady source of income.
+
+
+A hybrid of both the residual approach and stability approach, where a company’s Board views the debt/equity ratio as a longer-term goal. In these cases, companies usually decide on one set dividend that is a relatively small portion of yearly income and can be easily maintained, as well as an extra dividend payment to distribute only when income exceeds general levels.
+
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

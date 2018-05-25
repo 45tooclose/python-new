@@ -1,0 +1,86 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Dow component The Walt Disney Company (DIS) has struggled to gain ground in the past month, crisscrossing the psychological $100 level, which has now aligned with 2.5-year symmetrical triangle support. Two "Avengers" mega-hits have failed to stir sidelined capital, which is narrowly focused on the company's broadcasting struggles and plans to roll out a streaming movie service in the fourth quarter of 2019.
+The May 8 earnings report could finally generate a strong trend move, with bears holding the upper hand by a narrow margin. On the plus side, long-term relative strength indicators are approaching oversold levels, indicating that selling pressure may be coming to an end. On the negative side, accumulation-distribution readings have dropped to six-month lows, signaling an ongoing exodus of the smart money crowd. (See also: Disney's 'Avengers: Infinity War' Breaks Records.)
+DIS Long-Term Chart (2011 – 2018)
+ 
+The stock sold off into a test of the 2002 low in the mid-teens during last decade's economic collapse, posting a low at $15.14 that marked a historic buying opportunity. The subsequent recovery wave completed a round trip into the 2007 rally high in the mid-$30s in 2010, with that level also marking 10-year resistance. A 2011 breakout failed, triggering a decline into upper $20s, followed by a powerful buying thrust that reached a new high in the second quarter of 2012. 
+That breakout gathered strong upside momentum, carving a trend advance that generated the most prolific gains since the 1990s. The company was firing on all cylinders at that time, making key acquisitions that included the immensely lucrative "Star Wars" franchise. The theme park division also performed exceptionally well during that period, underpinned by the worldwide economic rebound.
+A high-volume August 2015 breakaway gap signaled the end of the uptrend, with weak ESPN viewership triggering the wide-range sell-off. The decline found support at $90 a few weeks later, yielding a bounce that stalled less than two points below the all-time high at $122.08. More intense selling pressure then took control, undercutting the summer low before bottoming out at $86.25 in February 2016. That completed the first wave of a symmetrical triangle that is still under construction more than 2.5 years later.
+The monthly stochastics oscillator dropped to the deepest oversold reading of the decade in the second half of 2016 and returned to that depressed level one year later. A buying cycle into 2018 fizzled out before reaching the overbought line, while the subsequent downturn is slowly nearing the prior lows. However, if past is prologue, the next long-term buy cycle won't set into motion for another three to six months.
+[Learn to determine if a stock is technically overbought or oversold in Chapter 4 of the Technical Analysis course on the Investopedia Academy.]
+DIS Short-Term Chart (2015 – 2018)
+ 
+The sequence of lower highs and higher lows since 2015 has now completed five waves, the typical count within a triangle pattern before directional energy generates a large-scale breakout or breakdown. The fifth wave landed on triangle support near $100 in mid-March, giving way to a holding pattern that has now crisscrossed the magic number 17 times. This standoff is likely to end on May 8, when the entertainment giant is expected to report earnings per share of $1.70 on $14.1 billion in first quarter revenues. 
+A bounce after the news that mounts the 200-day exponential moving average (EMA) at $104 could presage a quick trip to triangle resistance above $112 and an eventual breakout. Conversely, a weak bounce that stalls under the moving average may attract aggressive short sellers, triggering a breakdown and the first primary downtrend since 2009. On the flip side, a sell-the-news reaction into the mid-$90s would test the 2017 low, offering bulls a final opportunity to salvage the sinking ship. (For more, see: Disney to Outperform on DTC Focus: BMO Capital.)
+The Bottom Line
+Disney stock is bouncing along triangle support while a large supply of frustrated shareholders are closing out positions and hitting the sidelines. Even so, the multi-year consolidation pattern is evenly weighted between a bullish and bearish outcome, highlighting the importance of next week’s quarterly confessional. (For additional reading, check out: Top 5 Companies Owned by Disney.)
+<Disclosure: The author held no positions in aforementioned securities at the time of publication.>
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Chartadvisor-Article'
+    });
+                    
+            
+                

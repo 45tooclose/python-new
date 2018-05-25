@@ -1,0 +1,45 @@
+
+
+Blockchains and smart contracts were supposed to fix the inefficiencies and slash the costs of derivatives trading, but two years since such promises came in vogue, a foundational issue has yet to be ironed out.
+Before banks and traders can rely on a distributed ledger technology as the vaunted "single record of truth," there first needs to be better standardization. Yet as it stands, they use a hodgepodge of data structures and formats to track the life cycle of trades, reflecting in part the variety of regulatory requirements imposed after the 2008 financial crisis. 
+Simply put, without a common language, there's not much to be gained from having a common ledger. 
+Now, the financial world's blockchain evangelists are pinning their hopes on a broader industry effort to harmonize the way data is presented and reported, regardless of the platform used. Known as the common domain model (CDM), it was proposed by the International Swaps and Derivatives Association (ISDA) in May of last year and has the support of blockchain tech startups such as R3 and Axoni. 
+
+But perhaps the biggest champion of CDM as the key to making blockchain a reality in the derivatives space is Barclays.
+The U.K.-based bank recently set up an internal CDM adoption working group, and will be presenting its vision for how smart contracts can be combined with the concept Thursday at ISDA's annual meeting in Miami, Florida. 
+It's a pivotal time for the project, as ISDA is expected to release the first iteration of the blockchain-compatible version of CDM early this summer.
+Sunil Challa from the business architect team at Barclays was emphatic about hitting the reset button.
+"There is a shiny new technology promising to be a panacea for fixing many post-trade processing issues. So, now is an opportune moment to re-engineer our processes," Challa told CoinDesk, adding:
+"Simply replicating the existing fragmented state would be a colossal missed opportunity."
+A common tongue
+Stepping back, Barclays has played a central role in the convergence of DLT, smart contracts and common data standards. 
+Two years ago the bank showcased a prototype of how smart contracts could be used throughout the lifecycle of a derivatives trade, including negotiating an ISDA master agreement, entering individual trades and performing the trades on a distributed ledger. 
+While the concept has caught on, the standards challenge remains in the way of adoption, according to Dr. Lee Braine, a member of the investment bank CTO Office at Barclays. On the one hand, distributed ledger platforms are now reaching acceptance by some of the most systemically important market infrastructure incumbents, Braine said. 
+"But what we haven't yet seen is adoption of common standards by the industry," he said. "What we ultimately need in the derivatives space is multiple market infrastructures, including multiple clearing houses, adopting a common standard for data formats, reference data, transactional data, and business processes."
+That's where Barclays and others believe the CDM comes in. 
+Traditionally, banks have worked to standardize the format of messages between them, but kept their own idiosyncratic ways of communicating data internally - like a country with a national language but numerous local dialects.
+But, as Braine pointed out, the CDM and DLT share a common goal in going further and standardizing data within institutions. (Speaking the national language at home, as it were.) 
+In this way, the CDM could provide an alternative route for addressing the looming challenge of interoperability between different blockchain platforms. At present you often hear industry participants talk about being "blockchain-agnostic" because it's too risky to bet on just one platform provider.
+To illustrate this point, Braine described a future scenario in which banks are trading with each other on different distributed ledgers. If there are some counterparties on one network and other counterparties on other networks, then does that mean you would need to host a node on every network? Or are they going to be genuinely interoperable?
+"A simplistic solution would be to revert to the traditional model of silos with messaging between them, but that risks replicating the fragmentation of the past," said Braine.
+"If you instead transition to the CDM, then at least there is opportunity to standardize on data structures, lifecycle events etc."
+And if that isn't persuasive enough, Barclays estimates significant cost savings to the derivatives market. Its working group projected around 25 percent efficiency gains from adopting CDM just in the clearing space, and around $2.5 billion in annual run costs.
+Regtech rising
+Barclays isn't alone among financial in advocating for the CDM, of course. 
+Goldman Sachs is also a supporter, and sees the common data standard, when combined with shared ledgers, as a way to alleviate some of the pressure created by the increased reporting requirements under regulations like the European Union's MiFID 2. 
+Ayaz Haji, the technical architect for the MiFID 2 program at Goldman Sachs, said a common representation of product terms and lifecycle events should not only reduce inconsistencies but also provide a platform for further efficiencies.
+The investment bank won't rule out alternatives to blockchain in adopting the standard, however.
+"Those who are closest to the CDM project recognize that a persistent shared implementation such as DLT would be the most optimal way to use the model," said Haji. "That said we are also open minded about potential implementations and look forward to vendor feedback to the version of the model which is due to be published by ISDA shortly."
+Less equivocal than Goldman, Barclays is making a forceful case for using DLT in conjunction with the common standard.
+For example, Braine also pointed out a way that a common data standard could amplify another benefit of blockchain. 
+A commonly pitched use case for the tech is the streamlining of regulatory reporting - the regulator can operate a node on the blockchain and pull data directly from it. The U.K.'s Financial Conduct Authority has already tried this out, participating in a proof-of-concept for regulatory reporting of mortgage transaction data using R3's Corda platform.
+The problem is that in the current world, banks have their main trading data, and their risk models basically duplicate that and perform a simulation.  
+"If we were able to use a common domain model, we would be able to use exactly that same data. We wouldn't need to write two versions of what's going on, one just for the risk model," said Braine.
+Ultimately, though, reaching common standards, like implementing blockchains, is a team sport, and the game is still far from won.  
+Clive Ansell, head of market infrastructure and technology at ISDA, concluded:
+"There is a fantastic opportunity ... but the level of success will depend on the industry operating to a common data and processing model."
+Barclays image via Shutterstock.
+var riuyojisrlntqyiu,riuyojisrlntqyiu_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){riuyojisrlntqyiu_poll(function(){if(window['om_loaded']){if(!riuyojisrlntqyiu){riuyojisrlntqyiu=new OptinMonsterApp();return riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="//a.optnmnstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;riuyojisrlntqyiu=new OptinMonsterApp();riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");
+
+The leader in blockchain news, CoinDesk is a media outlet that strives for the highest journalistic standards and abides by a strict set of editorial policies. CoinDesk is an independent operating subsidiary of Digital Currency Group, which invests in cryptocurrencies and blockchain startups.
+

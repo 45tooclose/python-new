@@ -1,0 +1,59 @@
+
+
+
+    
+    
+    
+        
+          
+                
+          
+    A:
+            An investor should hold a short sell position for as long as the investment is profitable and as long as he or she can reasonably expect the profits to increase. However, there are a number of additional factors that can influence a short seller's decision on when to close out his position.
+One factor to consider is interest charged by the broker on the loan of the shares to the investor's margin account. The longer the investor holds on to the short, the more interest charges accumulate. This becomes problematic if the amount of interest paid on the borrowed shares eliminates any profit realized from the short sale. The aim is to hold onto the short until the price of the stock drops, enabling the investor to buy back the borrowed amount of shares at a lower price and realize a profit from the short sell transaction, but interest charges must be figured into net profit.
+Another major factor in determining how long an investor maintains a short position is how large a loss he or she is willing to sustain in the event the stock price rises rather than declines. Maximum acceptable loss should be decided before initiating any investment. Short sellers must have an awareness of the increased risk level involved in selling short as opposed to buying long.
+An investor buying a stock can only sustain a maximum loss of 100% of his or her investment, but a short seller, while having a maximum potential profit of 100%, faces virtually unlimited risk, given that a stock price can theoretically rise to infinitely higher prices.
+If the short position is being used to hedge an existing long position, then the investor may wish to hold on to the short for as long as he or she maintains the opposing long position, or at least until he or she no longer considers the long position to be in danger of significant decline.
+For a more specific strategy, see The Short Squeeze Method.
+        
+    
+
+    
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'FAQ'
+    });
+                

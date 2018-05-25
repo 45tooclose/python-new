@@ -1,0 +1,145 @@
+
+
+    
+                          What is a 'Quanto Swap'
+
+      A quanto swap is a cash-settled, cross-currency interest rate swap, where one of the counterparties pays a foreign interest rate to the other. The notional amount is denominated in the domestic currency. Interest rates may be fixed or floating.
+Because they depend on the currency exchange rate and differences in interest rates in those currencies, they are also known as differential, rate differential or just "diff" swaps. Another name for these swaps could also be guaranteed exchange rate swap because they naturally embed a fixed currency exchange rate in the swap contract.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Forward Swap                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Foreign Currency Swap                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Swap Curve                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Asset Swap                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Quanto Swap'
+      Though they deal with two different currencies, payments settle in the just one money. For example, a typical quanto swap would involve a U.S. investor paying six-month LIBOR in U.S. dollars, for a US$1 million loan, and receive in return, payments in U.S. dollars at the six-month EURIBOR + 75 basis points.
+Fixed-for-floating quanto swaps allow an investor to minimize foreign exchange risk. This avoidance of risk is achieved by fixing both the exchange rate and interest rate at the same time. 
+Floating-for-floating swaps have a slightly higher risk. In this cross-currency swap, exposure of each party to the spread of each country's currency interest rate happens.
+Why Use Quanto Swaps?
+Investors will use quanto swaps when they believe that a particular asset will do well in a country, but at the same time, fear that the country's currency will not perform as well. Thus, the investor will swap the interest rates with another investor while keeping the payout in their home currency. In this way, they can separate interest rate risk from exchange rate risk.
+In a typical interest rate swap,  two agreeable counterparties exchange one stream of future interest payments for another, which has a basis of a specific principal amount. These swaps require the exchange of a fixed interest rate value for a floating rate value. The swap may be either direction but is built to reduce or to increase exposure to the changes in interest rates. An interest rate swap may also help obtain a marginally lower interest rate than would have been possible without the swap.
+However, for an investor in a different country wishing to engage in a swap in the U.S. market, they first would have to exchange their asset from their home currency into U.S. dollars. Each payment is made in U.S. dollars, which the foreign investor must then transfer back into their home currency.
+This strategy will involve potential interest rate risk, depending on whether the foreign investor receives floating rate payments. It also creates a foreign exchange, or currency risk. A quanto swap solves this problem because all future exchange rates are fixed at the time the swap contract writing.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

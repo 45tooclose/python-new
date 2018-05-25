@@ -1,0 +1,44 @@
+
+
+R3 may have started as a consortium of banks looking to use blockchain technology, but it's broadening its ambitions.
+Now a startup whose staff numbers in the hundreds, R3 is proposing its distributed ledger technology platform, known as Corda, be used to link together a wide range of businesses, not just financial ones. The core idea is similar to the one originally pitched: if companies share data and assets with each other on Corda, they can ax duplicative processes and trust that they are all on the same page about who did what.
+In an example offered by R3 CTO Richard Gendal Brown, airlines, travel agents and hotels around the world could reach consensus on which plane seats and rooms have been booked, knowing that the data being shared is the same for everyone all the time.
+Taking this idea further, R3's platform lead Mike Hearn claims Corda would power a future "automatable economy" where bots help to run supply chains. 
+
+"When we stepped back and looked at what we had built, we saw something that was far more broadly applicable," Brown told CoinDesk, adding:
+"It's the freedom and power that comes from knowing that what you are looking at either as a human or a business or even some sort of futuristic robot - is not only correct, but it's current, and it is shared with your counterparts."
+While Brown said Corda has attracted interest from a variety of industries ("people in insurance, people in healthcare, people in government, energy - you name it"), the new positioning of the platform comes at a time when the dust appears to have settled after 2016's hype about corporations exploring blockchain.
+All eyes are now looking for delivery.
+Meanwhile, rivals such as the Hyperledger consortium, with the help of IBM, are courting seemingly every sector and business line with some flavor of enterprise blockchain solution.
+For R3, it's a pivotal time, as the startup is finalizing the first commercial distribution of the open-source Corda platform, targeted for the end of the second quarter. This paid product will be widely available to businesses, beyond consortium members.
+Open, but private
+While R3, one of the first companies to promote the idea of members-only blockchains, is moving toward a more inclusive model, it's not going whole hog.
+Rather, Brown describes the vision as "an open shared network - but still private, secured and permissioned."
+The R3 Corda team were inspired by ethereum's goal of participants all running the same business logic while getting rid of silos and friction between different applications, he said.
+However, the global broadcast design of public blockchain networks, while perhaps necessary in a trustless system like bitcoin, is unpalatable to enterprises.
+"My critique of some of the enterprise blockchain platforms is that being originally inspired by a full broadcast system, I would argue that often they share too much," Brown said.
+To address this problem, the governing Corda design sought to minimize the amount of data that has to be shared among participants, while convincing someone that something is true.
+Corda will not show data up front, Brown said, but will send a piece of evidence to convince the other parties about a fact or set of facts, regardless of whether it's to do with banking, hotels or airlines.
+'Demilitarized zone'
+Aside from keeping data private within the Corda network, sharing it via the internet presents another, more immediate problem. Most companies have their own highly secured data centers, and run their existing applications on their own infrastructure behind lots of firewalls.
+"The data that actually matters, the data that you want to bring into consensus, is hidden deep inside data centers of banks and large firms," Brown said. "This necessarily involves the opening of connections between these firms and sharing data, over the public internet."
+Simply putting an enterprise blockchain node on the internet, as one would do with a bitcoin or ethereum node, is insufficient at best and possibly hazardous, he said.
+"Firstly, it's nowhere near the corporate data, and second what happens if it gets hacked? That's a big attack surface."
+To reconcile this, the Corda node, which needs to be close to the systems of the bank or the manufacturer or the airline, runs there on existing servers or on cloud infrastructure owned by that firm, securely managed in a way that these firms know how to do, Brown said.
+But a small part of the node that needs to be able to connect to the other firms and receive connections from them has to be visible on the internet.
+"We take a tiny bit of the node - we call it the float - and allow it to float out away from the main node and just sit out in the demilitarized zone as they call it," Brown said.
+This piece of the node is "very small, very hardened, very protected," Brown said, adding:
+"That's the bit that is exposed to the bracing winds of the internet,"
+In this way, Corda nodes are connected yet stay protected.
+"The main business logic runs where it matters inside the organization and a tiny highly secured piece floats out onto the internet and is responsible for all communication," Brown said.
+'Working insanely hard'
+Ahead of the commercial release of Corda expected this quarter, R3 has just shipped version 3.0 of the free open-source version, which features what Brown calls "wire stability." This gives developers the same certainty about their data that API stability did for their code.
+"One version of a Corda 3 node deployed to a network will be compatible with any future version of Corda, so that you don't have to upgrade the whole network," Brown said.
+Asked if he has detected any loss of appetite in the enterprise blockchain space, Brown said: "No, not really. Of course you might expect me to say that. But here's why - because what I see is developers working insanely hard" in response to demand.
+"Regarding the commercial version of Corda we are offering, I am being asked every day when is that going to ship," he added, concluding:
+"Maybe this is not visible from the outside, but the people who are preparing to launch major initiatives and go live, they are so heads down on delivery and execution they are not making much noise yet externally."
+R3 office image via CoinDesk.
+var riuyojisrlntqyiu,riuyojisrlntqyiu_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){riuyojisrlntqyiu_poll(function(){if(window['om_loaded']){if(!riuyojisrlntqyiu){riuyojisrlntqyiu=new OptinMonsterApp();return riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="//a.optnmnstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;riuyojisrlntqyiu=new OptinMonsterApp();riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");
+
+The leader in blockchain news, CoinDesk is a media outlet that strives for the highest journalistic standards and abides by a strict set of editorial policies. CoinDesk is an independent operating subsidiary of Digital Currency Group, which invests in cryptocurrencies and blockchain startups.
+

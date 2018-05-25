@@ -1,0 +1,83 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Insiders at Macy's Inc. (M) increased their holdings by 13.14% in the last 12 months, according to data compiled by Morningstar. With an $9.4 billion market cap and operating some 852 stores under the Macy's, Bloomingdale's, and Bluemercury brands, the company is one of the biggest and most legendary retailers in American history, but has had a rough few years. As the shopping public increasingly moves online to sites like Amazon.com, Macy's and other retail giants are looking for new ways to survive. (See also: 8 Companies Amazon Is Killing.)
+The company posted strong Q4 2017 earnings in late February 2018, earning $1.21 billion during the holiday quarter. This is a huge improvement over the same quarter a year before, when the company earned $815 million. Macy's stock soared on this news, and these top three shareholders will be watching closely to see if this reversal of fortune isn't a fluke. All data is courtesy of Morningstar.
+Jeffrey Gennette 
+Jeffrey Gennette is the chairman of Macy's board of directors and chief executive officer, a position he has held since inheriting it from former CEO Terry Lundgren in 2017. Gennette started his career with Macy's in 1983 as an executive trainee. 
+Gennette has since worked his way up to the top job over more than three decades, and oversaw the company's recent Q4 earnings jump. Gennette graduated from Stanford University with an English degree in the early 1980s. 
+Gennette is the largest shareholder of the company, with 99,053 shares as of May 1, 2018. This holding has a market value of $3.08 million. 
+Marna C. Whittington 
+Marna Whittington is the lead independent director of Macy's and is the former CEO of Allianz Global Investors Capital. Whittington also serves as a board member on Phillips 66 (PSX) and Oaktree Capital. Whittington has a master's degree and a Ph.D from the University of Pittsburgh. Whittington retired from Allianz in 2012. 
+Whittington is Macy's second-largest shareholder. She holds 44,834 shares as of May 1, 2018. This holding is valued at $1.39 million. 
+John A. Bryant
+John A. Bryant is also an independent director of Macy's  and served as Executive Chairman of Kellogg Compan until March 15, 2018.
+Mr. Bryant holds an MBA from the Wharton School at University of Pennsylvania. He received a Bachelor of Commerce from Australian National University in commerce and is a Chartered Accountant of Institute of Chartered Accountants In Australia.
+Bryant is the third-largest Macy's shareholder as of May 1, 2018, with 9,825 shares of common stock. This holding has a market value of $305,262. 
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

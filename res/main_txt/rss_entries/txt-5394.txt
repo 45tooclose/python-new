@@ -1,0 +1,263 @@
+
+
+    
+                        
+            
+                Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/ETFMF/ETF/IC-Video/Term");} else {return "/8397/INV-NA/ETFMF/ETF/IC-Video/Term";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/terms/i/inverse-etf.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/ggPwXMLm.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/ggPwXMLm-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/thumbnails/live/36_exchangetradedfunds_421x236.jpg?quality=80&width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "560",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "ggPwXMLm-G9NhEyAa.mp4";
+                
+          
+            document.addEventListener("DOMContentLoaded", function() {
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                        var initializeJWPlayerSetup = function () {
+                            if (new VideoInit().canRun()) {
+                                setUpJwpPlayer();
+                            } else {
+                                new VideoInit().callBack = setUpJwpPlayer;
+                            }
+                        }
+            initializeJWPlayerSetup();
+          });
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "ggPwXMLm-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "An Introduction To Exchange-Traded Funds (ETFs)",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };            
+          
+                    What is an 'Inverse ETF'
+
+      An inverse ETF is an exchange-traded fund (ETF) constructed by using various derivatives for the purpose of profiting from a decline in the value of an underlying benchmark. Investing in inversion ETFs is similar to holding various short positions, or using a combination of advanced investment strategies to profit from falling prices. An inverse ETF is also known as a "Short ETF," or "Bear ETF."
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Inverse Volatility ETF                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Corporate Inversion                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Double Gold ETF                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Stock Exchange-Traded Fund (ETF)                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Inverse ETF'
+      Inverse ETFs along with other ETFs that use derivatives typically are not used as long-term investments. Many inverse ETFs utilize daily futures contracts to produce their returns, and this frequent trading often increases fund expenses. Many inverse and leveraged ETFs carry expense ratios of 1% or more. Despite the expense ratios, it is still easier and less costly for an investor to take a position in an inverse ETF than it is to short sell stocks.
+[ Inverse ETFs provide investors with an attractive alternative to short selling, but what exactly is short selling? Investopedia Academy's Options for Beginners course gives you a wholistic overview of options trading and shows real-time examples of going short and long using puts and calls. Check it out today. ]
+Inverse ETFs vs. Short Selling
+One advantage of inverse ETFs is that they do not require the investor to hold a margin account as would be the case for investors looking to enter into short positions. There are several inverse ETFs that can be used to profit from declines in broad market indexes, such as the Russell 2000 or the Nasdaq 100. In addition, it is possible to buy inverse ETFs that focus on a specific sector, such as financials, energy or consumer staples. Most investors look to purchase inverse ETFs so they can hedge their portfolios against falling prices.
+In addition to a margin account, short selling requires a stock loan fee paid to a broker for borrowing the shares necessary to sell short. Stocks with high short interest may result in difficulty finding shares to short, which drives up the cost of short selling. In many cases, the cost of borrowing shares to short could be 3% or more of the amount that is borrowed. Inverse ETFs often have expense ratios of less than 2%, and can be purchased by anyone with a brokerage account.
+Double and Triple Inverse Funds
+While there are many ETFs available that are designed to profit from the decline in a sector or market, several add leverage to their objectives. Fund providers such as Direxion and ProShares are popular for their leveraged ETFs. These funds, such as the Direxion Daily S&P 500 Bear 3x Shares ETF, use derivatives to provide double and triple the daily return of a given index.
+Like others derivatives-based ETFs, these funds are used primarily by speculators and momentum players that frequently hold on to these positions for no more than a few days.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

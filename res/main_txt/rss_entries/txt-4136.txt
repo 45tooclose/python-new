@@ -1,0 +1,144 @@
+
+
+    
+                          DEFINITION of 'Double Leverage'
+
+      Double leverage occurs when a bank holding company conducts a debt offering to acquire a large equity stake in a subsidiary bank. Ideally, dividends earned on the subsidiary company's stock finance the holding company's interest payments.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Subsidiary                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Leverage                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Wholly Owned Subsidiary                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Chain Banking                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Double Leverage'
+      Because banks have strict capital requirements on the amount of debt they can hold, compared to other types of companies, double leverage can be as an indirect workaround to give the bank access to debt-based capital. Some academics suggest that the fact that banks are willing to use double leverage may suggest that regulators should allow banks to use more debt-based financing.
+Recent Example of Double Leverage
+In April 2018 Reuters reported that certain Business Development Companies (BDCs) had received board approval to increase the amount of debt they were able to borrow. This followed the passing of US legislation in March 2018 that allowed them to double leverage on their funds. A BDC is an organization that invests in and helps small- and medium-size companies grow in the early stages of development, similar in some regards to private equity or venture capital firms. Many BDCs are distinct in that they are set up like closed-end investment funds. BDCs are typically public companies, in contrast with many private equity firms. BDC shares trade on major stock exchanges, such as the American Stock Exchange (AMEX), Nasdaq and others.
+Specific BDCs that received approval for increased debt levels included Apollo Investment Corp (stock ticker: AINV), FS Investment Corp (stock ticker: FSIC), PennantPark Floating Rate Capital Ltd (stock ticker: PFLT), and Gladstone Capital Corp (stock ticker: GLAD). In addition Ares Capital Corp (stock ticker: ARCC) is also set to discuss specific implementation plans.
+Concerns Over Double Leverage
+Several financial authorities have raised concerns about the issue of double leverage for two reasons: first, such intra-firm financing may allow for arbitrage of capital; and second, the assumption of further risk. Recent research shows that bank holding companies are more prone to risk when they increase their double leverage. This specifically occurs when the stake of the parent within subsidiaries is larger than the parent company’s capital in and of itself. Some studies suggest that policymakers should be more efficient in their regulation of complex financial entities to promote stability. When any entity takes on such a large volume of debt, the ability to repay becomes more and more challenging even if the borrower has a strong cash flow history and diverse revenue streams.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

@@ -1,0 +1,55 @@
+
+
+
+    
+    
+    
+          
+    A:
+            On Feb. 3, 1690, the Massachusetts Bay Colony was said to have issued the first paper money in the U.S. in order to pay for military action against Canada during King William's War.
+Massachusetts was a truly pioneering colony when it came to money, as they were also the first to mint their own silver coins in 1652, despite a British law against it. The paper money created in 1690 was called a bill of credit, and represented the colony's obligation to the soldiers. The soldiers could spend or trade the colony's IOU just like silver and gold coins.
+During the revolution of 1775, colonial leaders tried to replicate Massachusetts' paper experiment on a wider scale, but the newly-christened continentals lacked any backing, such as silver or gold. On a small scale it may have worked, but so much money was printed that rapid inflation stripped them of all their value.
+Less than 100 years later, two competing currencies were used to finance the opposing sides of the Civil War. Their values fluctuated with the fortunes of the war. Yet, it wasn't until the National Banks Act after the civil war that the U.S. government introduced a monetary system where banks could issue paper notes based on their holding of government bonds. These disparate currencies were taxed out of existence in the following decades and replaced with national bank notes, giving the U.S. its first uniform paper currency.
+To learn more about monetary policy, see The Fed's Tools for Influencing the Economy.
+
+ 
+        
+    
+
+    
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'FAQ'
+    });
+                

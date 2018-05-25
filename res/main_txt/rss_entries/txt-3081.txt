@@ -1,0 +1,215 @@
+
+
+
+    
+        
+        Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/ActiveTrading/ActiveTrading/IC-Video/Article");} else {return "/8397/INV-NA/ActiveTrading/ActiveTrading/IC-Video/Article";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/trading/heikin-ashi-better-candlestick/?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/3EmRB4Nl.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/3EmRB4Nl-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/content/video/heikinashi_a_bette/heikinashiabettercandlestick.png?width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "100%",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "3EmRB4Nl-G9NhEyAa.mp4";
+                
+          
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                    var initializeJWPlayerSetup = function () {
+                        if (new VideoInit().canRun()) {
+                            setUpJwpPlayer();
+                        } else {
+                            new VideoInit().callBack = setUpJwpPlayer;
+                        }
+                    }
+          initializeJWPlayerSetup();
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "3EmRB4Nl-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "Heikin-Ashi: A Better Candlestick ",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };    
+        
+            
+      
+
+    
+
+    
+        The Heikin-Ashi technique—meaning "average bar" in Japanese—can be used in conjunction with candlestick charts to spot trends and to predict future prices. Most profits are generated when markets are trending, so predicting trends correctly is necessary. Heikin-Ashi charts can also be used to keep traders in trades while a trend persists, but get them out when the trend pauses or reverses.
+Normal candlestick charts are composed of a series of open-high-low-close (OHLC) candles set apart by a time series. The Heikin-Ashi technique uses a modified formula:
+Close = (Open + High + Low + Close) / 4
+o This is the average price of the current bar.
+
+Open = (Open of Previous Bar + Close of Previous Bar) / 2
+o This is the midpoint of the previous bar.
+
+High = Max of (High, Open, Close)
+o Highest value of the three.
+
+Low = Min of (Low, Open, Close)
+o Lowest value of the three.
+
+Constructing the Chart
+The Heikin-Ashi chart is constructed like a regular candlestick chart, except the formula for calculating each bar is different as shown above. The time series is defined by the user, depending on the type of chart desired, such as daily, hourly, 5-minute. The down days are represented by filled candles, while the up days are represented by empty candles. These can also be colored in in the chart platform, so up days are white or green, and down days are red or black, for example.
+
+From the chart above, there are a few differences to note between the two types of charts. Heikin-Ashi has a smoother look, as it is essentially taking an average of the movement. There is a tendency with Heikin-Ashi for the candles to stay red during a downtrend and green during an uptrend. Whereas normal candlesticks alternate color even if the price is moving dominantly in one direction. 
+The price scale is also of note. The current price shown on a normal candlestick chart will also be the current price of the asset, and that matches the closing price of the candlestick (or current price if the bar hasn't closed). Since Heikin-Ashi is taking an average, the current price on the candle may not match the price the market is actually trading at. For this reason, many charting platforms show two prices on the y-axis. One for the calculation of the Heiken-ashi, and another for the current price of the asset.
+[Candlestick charts are just one form of technical analysis that traders can use to identify opportunities. If you're interested in learning about others, Investopedia's Technical Analysis Course provides over five hours of video and several case studies that show you how to identify patterns like these.]
+Putting It to Use
+These charts can be applied to any market. Most charting platforms have Heikin-Ashi charts included as an option. 
+There are five primary signals that identify trends and buying opportunities:
+Hollow or green candles with no lower "shadows" indicate a strong uptrend: let your profits ride!
+Hollow or green candles signify an uptrend: you might want to add to your long position, and exit short positions.
+Candles with a small body surrounded by upper and lower shadows indicates a trend change: risk-loving traders might buy or sell here, while others will wait for confirmation before going short or long.
+Filled or red candles indicate a downtrend: you might want to add to your short position, and exit long positions.
+Filled or red candles with no higher shadows identify a strong downtrend: stay short until there's a change in trend.
+These signals may make locating trends or trading opportunities easier than with traditional candlesticks. The trends are not interrupted by false signals as often, and are thus more easily spotted. 
+
+The chart example above shows how Heikin-Ashi charts can be used for analysis and making trading decision. On the left there are long red candles, and at the start of the decline the lower wicks are quite small. As the price continues to drop, the lower wicks get longer, indicating the price dropped but then was pushed back up. Buying pressures is starting to build. This is followed by a strong move to the upside. 
+The upward move is strong and doesn't give major indications of a reversal, until there are several small candles in a row, with shadows on either side. This shows indecision. Traders can look at the bigger picture to help determine whether they should go long or short. 
+The charts can also be used to keep a trader in a trade once a trend begins.Stay in a trade until the Heikin-Ashi candles change color. A change of color doesn't always mean the end of a trend, it could just be a pause. The Bottom Line
+The Heikin-Ashi technique is  useful for making candlestick charts more readable and trends easier to analyze. The charts are constructed in the same manner as a normal candlestick chart, with the exception of the modified bar formulas. When properly used, these technique can help you spot trends and trend changes, thus making smarter trading decisions.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

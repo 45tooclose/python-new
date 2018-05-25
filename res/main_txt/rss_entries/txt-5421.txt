@@ -1,0 +1,49 @@
+
+ 
+            
+            
+                              
+                              
+              
+              
+              
+                News  
+              
+              
+                                
+                    
+                       
+                      
+                        9 mins ago    |
+                          By Jamie Redman -   |
+                          553                                                                    
+                      
+                        Bitcoin ABC Developers Address a Vulnerability Found                                              
+                    
+                                      
+                    
+                        
+
+            
+
+
+On April 26, 2018, the Bitcoin ABC development team were notified of a critical issue that applies to Bitcoin Cash miners who were utilizing the Bitcoin-ABC 0.17.0 client. After analyzing the vulnerability ABC developers created a patch and distributed the new ABC client 0.17.1 and released the software to BCH mining pools.    
+Also read: Yahoo! Japan Confirms Entrance Into the Crypto Space
+Bitcoin ABC Developers Address a Vulnerability Found in the Client Version 0.17.0
+Just recently the Bitcoin ABC development team were notified of a vulnerability in the ABC 0.17.0 client by an unknown person(s). According to developers, the flaw could have caused an unintended split in the Bitcoin Cash network. Reports detail that an attacker could construct a malicious transaction that would be accepted by Bitcoin-ABC 0.17.0 miners. However, the block would be rejected by the rest of the compatible versions of Bitcoin Cash-compatible mining applications like the Bitcoin Unlimited client.
+“BUCash and versions of Bitcoin-ABC prior to 0.17.0 could be split from the majority Bitcoin Cash blockchain — Only Bitcoin ABC and BUCash nodes were included in the analysis of this vulnerability,” the development team details. 
+After some testing and analysis of the vulnerability, the Bitcoin ABC development team crafted a patch for the issue immediately. “Bitcoin ABC 0.17.1 fixes this problem,” explains the ABC teams incident report and the new software was forwarded to verified BCH miners. The Lead Developer of the Bitcoin.com’s Mining Pool, Shaun Chong, explained that after the vulnerability report was released the ABC development team was very quick to assess and fix the problem.   
+“Bitcoin ABC dealt with the situation professionally and responsibly — They were quick to patch the bug and distribute it privately to miners, hence reducing the risk of a chain split”, Shaun Chong said.
+
+Bitcoin.com Pool mines blocks with Bitcoin Unlimited, and encourages the development of multiple Bitcoin Cash full node implementations, to keep the Bitcoin cash network resistant to bugs from a single implementation. – Shaung Chong, Bitcoin.com Pool.
+
+All BCH 0.17.0 Clients Need to Upgrade ASAP 
+The Bitcoin ABC programmers are asking all 0.17.0 users to upgrade to the latest 0.17.1 client as soon as possible. The team reveals that it will be taking “several actions” in the future to prevent events like this from occurring again and mitigate response times even faster.  “Bitcoin ABC is in discussions with industry participants to establish a formal bug bounty system,” the team emphasizes.
+ABC developers say they would like to thank the anonymous person(s) who responsibly disclosed the issue to the development team. The report provided was “clear and professional” according to the developers. “We also want to thank the miners for their cooperation, understanding and for the fast and professional way in which they took action to protect the Bitcoin Cash network and its users,” the Bitcoin ABC developers conclude.
+Download the latest Bitcoin ABC 0.17.1 version here.
+
+Images via Shutterstock and Bitcoin ABC.
+
+Do you think this is the last vulnerability that will be found in Bitcoin ABC:s implementation? How do you feel about open-source software? Share your thoughts in the comments section below!
+
+        

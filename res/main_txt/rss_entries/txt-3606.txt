@@ -1,0 +1,84 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Dow component McDonald's Corporation (MCD) rallied more than six points after the company beat first quarter profit and revenue estimates on Monday morning, stalling at three-month resistance in the mid-$160s. Global comparative sales also beat estimates, rising 5.5%, while U.S. sales posted a healthy 2.9% increase. The bullish metrics and strong price action should ease shareholder anxiety after a miserable start to 2018 in which the fast food giant's stock has dropped nearly 12%.
+The restaurant industry faced headwinds in the first quarter, with final consumer spending data likely to confirm the weakest growth since 2013. Chains have responded with dozens of new value offerings, hoping the tasty bargains will attract a larger customer base. The approach appears to be working, with an expected 13% quarterly rise in value sales translating into 1% higher year-over-year traffic, the industry's first growth in this category in the past three years. (See also: Do Fast Food Franchises Mean Fast Returns?)
+MCD Daily Chart (2017 – 2018)
+ 
+A multi-year advance stalled just above $100 in 2012, generating nearly four years of range-bound action, ahead of an October 2015 breakout and buying spree that reached $132 in May 2016. A pullback tested new support into November, generating a follow-through rally that broke resistance at the prior high in April 2017. The sturdy uptrend added points at a rapid pace through the end of 2017, ending the year with an impressive 41% return.
+Committed buyers vanished after the stock posted an all-time high at $178.70 in January 2018, replaced by intense selling pressure that relinquished 16 points in five sessions. A vertical bounce ran out of gas just two days later, carving the first leg of an inverse head and shoulders pattern that completed the right shoulder with this morning's buying spike into $165. A breakout above the neckline should generate a test at the bull market high.
+The monthly stochastics oscillator has ticked lower in an active sell cycle since February and is now approaching the oversold level. This bearish divergence may delay a breakout until the third quarter at the earliest, telling market players that a test at the January high will offer a good spot to take profits, reduce position size or establish intermediate short sales. As a result, an inverse head and shoulders breakout may offer a more lucrative set-up for swing traders than trend followers.
+[Learn more about recognizing chart patterns and developing your trading strategy in Chapter 5 of the Technical Analysis course on the Investopedia Academy]
+YUM Daily Chart (2017 – 2018)
+ 
+Rival YUM! Brands Inc. (YUM) reports first quarter earnings on Wednesday morning. The holding company for Taco Bell, Pizza Hut and KFC emerged from last decade's economic collapse in excellent shape, breaking out to a new high in 2010 and entering a strong uptrend that eased into a rising channel in 2012. The rally topped out at $68.96 in May 2015, giving way to a steep correction that found support in the mid-$40s in the first quarter of 2016.
+The stock completed a round trip into the prior high in February 2017 and pulled back, carving the handle of a multi-year cup and handle pattern, ahead of a May breakout that added 18 points into the January 2018 high at $86.93. The downdraft in February found willing buyers, completing a V-shaped recovery pattern just two weeks ago. It has been consolidating near the breakout level since that time, awaiting this week's quarterly confessional. 
+YUM has posted much stronger returns than McDonald's in recent months and could gain ground more quickly in reaction to good news. On-balance volume (OBV) has already lifted to a new high, raising the odds for a breakout that opens the door to the triple digits. And unlike its rival, monthly stochastics is oscillating sideways near the overbought level and flashing no bearish divergences that might inhibit buying pressure. (For more, see: Nacho Fries a Big Hit for Yum! Brands' Taco Bell.)
+The Bottom Line
+McDonald's stock has completed an inverse head and shoulders pattern at the 200-day exponential moving average (EMA) and could test the January high in coming weeks. Rival YUM holds the stronger technical suit in a side-by-side comparison and could hit all-time highs after this week's earnings report. (For additional reading, check out: Why McDonald's Stock Turnaround May Fizzle.)
+<Disclosure: The author held no positions in aforementioned securities at the time of publication.>
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Chartadvisor-Article'
+    });
+                    
+            
+                

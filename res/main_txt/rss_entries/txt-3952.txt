@@ -1,0 +1,279 @@
+
+
+
+EOS Starts to Slide, Skeptics Warn of Further Unraveling
+EOS lined up among the most traded coins, but the spike to $20 was short-lived.
+
+
+ by  Christine
+Masters,
+7 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  The last time EOS reached a peak above $16 in December, a long unraveling followed. This time, EOS shot even higher, possibly leading investors to buying above $20. Now, EOS has started tanking again, losing more than 16% overnight to $16.83. The asset is still up a net 37% in the past five days, but the gains are shakier now.
+EOS keeps getting traded on near-record volumes, and some are encouraging users to buy the dip. But for others, this is just a cycle of dangerous hype, and the buying at peak prices was irrational.
+https://twitter.com/CarpeNoctom/status/991058213549289472
+Still, EOS has a boost from about 40 days of auctions plus the pre-announced date of the mainnet launch on June 1. This may create at least one more bout of hype. In the past 24 hours, EOS deals took up more than 13% of trading volumes, and at the same time, Tether (USDT) trading also activated to above 15%. EOS saw an unprecedented boom of interest, while Bitcoin’s dominance and trading influence dropped to below 30% of all deals.
+
+EOS creates hype by promising a new paradigm that would make Ethereum obsolete, and this has caused the coin to gain extreme visibility compared to other projects. But the prominence of EOS does not decrease the market risk.
+EOS is one of the most successful ICOs, due to its daily auction structure. Besides two large crowdsales of nearly $100 million, the daily auctions may have taken the EOS Ethereum haul to the equivalent of $3 billion. And EOS would not be shy to sell their haul on the market.
+ 
+
+baseUrl = "https://widgets.cryptocompare.com/";
+
+var scripts = document.getElementsByTagName("script");
+
+var embedder = scripts[ scripts.length - 1 ];
+
+(function (){
+
+var appName = encodeURIComponent(window.location.hostname);
+
+if(appName==""){appName="local";}
+
+var s = document.createElement("script");
+
+s.type = "text/javascript";
+
+s.async = true;
+
+var theUrl = baseUrl+'serve/v3/coin/chart?fsym=EOS&tsyms=USD,BTC';
+
+s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+
+embedder.parentNode.appendChild(s);
+
+})();
+
+
+Yet for those that bought at the peak for believing the EOS project could achieve the prices of Ethereum, the slide toward $16 is already a steep loss. Some opinions see EOS bouncing up again from the $16 level, but those would be speculations.
+For now, EOS is once again split between hype and cheering, and skepticism about the technical capabilities of the project.
+Yet EOS has reached a stage that may be a cause for enthusiasm - the mainnet launch. Many other projects are still far from that milestone, most notably TEZOS, where legal battles slowed down the launch and ICO buyers would have to wait until the fall of 2018 to see their project come to life. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 
+
+
+Tags
+
+EOS News
+
+ 
+
+.tag-element .taghoverext {
+    display: inline-block;
+    width: 5px;
+    background: #ff8931 !important;
+    border-radius: 2px;
+    height: 26px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background:#454b50;
+    transition:all 0.3s;
+}
+.tag-element:hover .taghoverext {
+    width:100%;
+}
+.tag-element .tag-href {
+    position:relative;
+    z-index:2;
+    background:none !important;
+    margin-top:0px !important;
+    color:#959595 !important;
+}
+.tag-element .tag-href:hover {
+    background:none !important;
+}
+.tag-element:hover .tag-href {
+    background:none !important;
+    color:#fff !important;
+}
+.tag-element {
+    position:relative;
+    border-radius: 2px;
+    border: solid 1px rgba(206, 212, 218, 0.2);
+    height: 27px;
+    display: inline-block;
+}
+ 

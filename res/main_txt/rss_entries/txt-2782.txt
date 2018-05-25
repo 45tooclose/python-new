@@ -1,0 +1,77 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Shares of Advanced Micro Devices Inc. (AMD) are skyrocketing Thursday after the semiconductor manufacturer beat the Street's estimates for the first-quarter earnings period after market close on Wednesday. Trading up near 14% at $11.04 on Thursday morning, AMD reflects a 7.5% return year-to-date (YTD), compared to the S&P 500's 0.7% decline amid a period of heightened volatility, which has weighed heavily on high-flying tech stocks and chipmakers. 
+Analysts applauded better-than-expected Q1 earnings results from AMD, boosted by continued demand from cryptocurrency miners and its new products such as its Ryzen chips. Revenue in the three months ended in March jumped 40% over last year to $1.65 billion, yielding adjusted earnings of $0.11 per share. The Street had been modeling for $1.57 billion in revenue and $0.09 per share in earnings. AMD Chief Executive Officer Lia Su called the results "outstanding," driven by the uptake of its chips for PCs, video gaming and the data center. 
+Second-quarter revenue guidance also came in significantly above the consensus estimate. In the current quarter, AMD expects revenue of $1.725 billion, give or take $50 million, above the consensus at $1.575 billion. 
+CEO Highlights Gains Against INTC, NVDA
+The Street viewed the blowout quarter as demonstrating signs of accelerated gains against competitors including Intel Corp. (INTC) and NVIDIA Corp. (NVDA). Addressing the competition, Su highlighted AMD's opportunity to address the $75 billion high-performance computing space. 
+"AMD turned in a solid beat and raise to estimates as the company's new Ryzen Desktop CPU, Vega, GPU and Epyc server CPU are gaining traction within their various market," wrote Stifel chip analyst Kevin Cassidy in a note to clients Thursday. He recommends buying AMD on "potential upside to estimated driven by adoption of Epyc server CPUs in 2H18" and expects the stock to gain near 27% over 12 months to reach $14.  
+Even the Street's AMD bears admitted that the quarter may signal more good times ahead for the chipmaker as it makes a turnaround from a period of selling pressure. "Overall the company is finally beginning to show some product inflection to investors, with gross margins for the first time stepping up decently vs Street expectations," wrote Bernstein's Stacy Rasgon in response to the Q1 results. "For the first time since this product cycle kicked off AMD may have given investors at least some reason to dream."
+As for the cryptocurrency space, AMD's CEO indicates that customers who buy its products for crypto mining represented roughly 10% of revenue in Q1, and that while blockchain is important, it's not the company's core focus at the moment. "People are watching the day-to-day of what Bitcoin does—and [they think] that relates to our day to day sales and it doesn't," stated Su, indicating that the decentralized market can be "a bit of a distraction" for investors right now.
+Including Thursday's rally, AMD stock reflects an 17.7% decline over the most recent 12 months and an over 300% return in the five year period. (See also: AMD, NVIDIA at Risk on New Cryptocurrency Chip.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

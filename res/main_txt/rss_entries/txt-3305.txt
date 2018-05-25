@@ -1,0 +1,143 @@
+
+
+    
+                          What is an 'Exchange Distribution'
+
+      Exchange distribution is a type of trade make on a stock exchange where one large block of shares is sold by pooling multiple buy orders and then immediately reporting the trade as one transaction.
+These orders may be placed when a broker receives a request to sell a large block of stock, or other security, in one single transaction. If the order is significant, however, it may be necessary to match many smaller blocks of shares bid by multiple buyers. The grouping and execution of these more modest transactions show as a single transaction. Given the complexity of such a trade, brokers receive an extra commission for distributing orders.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Block Trade                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Distribution Stock                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Block Order                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Execution                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Exchange Distribution'
+      Exchange distribution becomes necessary when the holder of a significant position in a security wants to sell those shares as one transaction, rather than to split the request into multiple trades. The order may be similar in size to a “block trade,” which may be sold to only one buyer, and may not even occur on the open market.  
+Often, however, large block orders cannot be filled unless there are multiple buyers who each want to buy a portion of the shares. Although there is no exact definition of how many shares create a "block," it usually involves at least 10,000 shares on a non-penny stock, or a bond transaction totaling $200,000 or more. These trades typically originate from massive hedge funds and institutions.
+How Exchange Distribution Works
+To distribute a large sell order, a broker circulates the asking price to a group of potential buyers. Once matching of enough orders is complete, it can report on the exchange as a single trade. This grouping can create the appearance of a singular position between one buyer and one seller, even when it represents many different buyers purchasing shares from one seller.
+Buyers often have an incentive to participate in purchasing a portion of a large block of shares because they usually do not have to pay a commission on the transaction. The seller of a large block traditionally pays those costs. In fact, the selling broker may require even more compensation to engage the participation of other registered representatives (RR) and firms in participating in the transaction.
+The opposite of exchange distribution is exchange acquisition. In such an acquisition, brokers fill one large buy order by grouping smaller orders from investors willing to sell. Those transactions are also reported as one single trade even if multiple sellers were required to fill that order.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

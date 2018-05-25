@@ -1,0 +1,84 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Based on what it calls a "market expectations model for equities," Morgan Stanley (MS) finds that the outlook for future stock market gains is at its lowest since January 2007, MarketWatch reports. The good news is that, as of the end of March, Morgan Stanley's model was projecting a 10.4% advance for the S&P 500 Index (SPX) during the next 12 months. Measured from the March month-end close, this would send the index to a new all-time record high of 2,915. The bad news is that expectations are eroding, down from a 12.0% expected 12-month return as of the end of 2017, MarketWatch adds.
+The Federal Reserve ended its meeting on May 2 by announcing that it would not hike interest rates at this time. However, high stock market valuations by historic standards remain an overarching concern of investors. Additionally, rumors and rhetoric related to trade wars continue to heat up, with semiconductor stocks the latest industry group to come under threat. (For more, see also: How Chip Stocks May Get Killed By a Trade War.)
+The Morgan Stanley Model
+As described by MarketWatch, the key inputs to Morgan Stanley's model are corporate earnings growth projections by securities analysts, which have fallen from 10.6% at the start of 2018 to 9.3%, for the lowest growth projection since February 2015. MarketWatch notes, in particular, that the probability assigned to a high growth scenario has been dropping sharply.
+Moreover, while first quarter earnings reports have been strong so far, showing the fastest growth in years, many analysts believe that earnings growth may have peaked, per MarketWatch. Part of the issue is that corporate tax cuts have delivered big one-time bumps in earnings. While earnings may have been placed on a higher long-term plateau as a result, the big tax-driven year-over-year earnings growth rates being enjoyed in 2018 are highly unlikely to be replicated in 2019. (For more, see also: Market on Collision Course, Says Longtime Stock Bull.)
+The Fed Holds Steady
+The benchmark Fed Funds Rate has been left unchanged at the Fed's previous target range of 1.25% to 1.75%, USA Today reports. The 10-Year U.S. Treasury Note ended trading on May 2 at a yield of 2.976%, unchanged from the previous day, per CNBC.
+In its post-meeting statement, the Fed noted that "economic activity has been rising at a moderate rate" and that "both overall (annual) inflation and inflation for items other than food and energy have moved close to 2%," as quoted by USA Today, which indicated that 2% is the Fed's target rate of inflation. However, the futures market gives a 90% likelihood to a rate hike in June, USA Today adds.
+Economists Warn Trump
+On Thursday, President Trump is due to receive a letter signed by more than 1,100 economists, including Nobel laureates and former presidential advisors, warning about the potentially disastrous consequences of protectionism on the economy, Bloomberg reports. A letter with similar warnings was sent by economists in 1930, the year that the Smoot-Hawley Tariff Act was passed, protectionist legislation that is widely believed to have worsened the Great Depression of the 1930s, if not to have been a principal cause.
+"Congress did not take economists' advice in 1930, and Americans across the country paid the price," the letter says, per Bloomberg. "Countries cannot permanently buy from us unless they are permitted to sell to us," the letter continues, also noting, per Bloomberg, that the main impact of import duties will be to raise prices for U.S. consumers, thereby hurting "the great majority of our citizens." Jacob Frenkel, chairman of JPMorgan Chase International, also has pointed to the lessons of the 1930s, and sees protectionism as the biggest threat to the world economy today. (For more, see also: Stocks On 'Collision Course With Disaster,' Face 40% Drop.)
+Looking at Market History
+The low projection of future market gains from the Morgan Stanley model in January 2007 was followed by eight more months of gains. The market peaked on October 9, 2007, and the subsequent bear market shaved 56.8% off the value of the S&P 500 until it hit bottom on March 9, 2009, 517 calendar days later, per Yardeni Research Inc. MarketWatch also notes that the 10.4% 12-month return being predicted by Morgan Stanley's model right now is below its median projection since 1986. 
+The S&P 500 has gained 290% since its bear market bottom, but is down by 1.4% for the year-to-date. After soaring to a new all-time record high in January, the index endured a sharp correction followed by largely sideways movement since then, with a succession of rallies and pullbacks offsetting each other.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

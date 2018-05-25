@@ -1,0 +1,76 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        T-Mobile US Inc. (TMUS) and Sprint Corp. (S) have finally signed a merger agreement after months of discussions that spanned three continents and four public-company boards. (See also: T-Mobile ‘Unstoppable,’ Will Rally 20%: Guggenheim.)
+The deal between America's third- and fourth-largest wireless carriers would value Sprint at $26.5 billion and cover about 127 million customers, according to The Wall Street Journal. The telecom companies indicate that the merger would create a "fiercer competitor" to AT&T Inc. (T) and Verizon Communications Inc. (VZ), whose shares are down about 0.3% and 2.6% respectively on Monday afternoon. However, Sprint and T-Mobile must now convince U.S. regulators and antitrust enforcers that their union will not thwart telecom competition.
+Winning Over the Trump Administration
+Shares of Sprint plummeted 15.3% to $5.50 as of Monday afternoon, while TMUS stock has crashed 7.6% to $59.59, demonstrating investors' fears of more regulatory setbacks from U.S. regulators. The Obama administration had opposed the deal on the ground that an industry run by three major players would be worse for consumers than a market with two behemoths and two lower-cost, smaller rivals, which have been driving down prices in the recent years. 
+To win over the Trump administration, the companies are likely to highlight plans to accelerate the rollout of fifth-generation, or 5G, networks in the U.S. and pledge to spur job creation. To add to their case, the wireless providers can point to new cellphone plan choices for consumers from traditional cable companies such as Comcast Corp. (CMCSA) and Altice USA Inc.
+Tower Companies Sink on Potential for Lost Revenues
+U.S.-based telecom-tower company stocks were down on anticipation of the deal, with shares of Crown Castle International Corp. (CCI) and SBA Communications Corp. (SBAC) sinking about 4% on Friday on a report from Reuters speculating an announcement as early as this week. Tower companies could see a significant chunk of their revenues lost as the merged company will likely cancel contracts for overlapping towers to save costs.
+"There's about 5 percent of revenue at the tower companies today that comes from sites where Sprint and T-Mobile are on the same tower and in a merger scenario these would absolutely go away," said New Street Research analyst Spencer Kurn, as quoted by The Wall Street Journal. Crown Castle and SBA are most exposed to the deal, given they do more business with Sprint and T-Mobile relative to their main rival American Tower Corp. (AMT), which has a more robust international business. (See also: 6 Safe Haven Stocks for a Stormy Market.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

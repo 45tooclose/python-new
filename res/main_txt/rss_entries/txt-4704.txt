@@ -1,0 +1,79 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        In a push to add alternative-fuel vehicles to its global product offerings, General Motors Co. (GM) announced on Tuesday that it will be using 3D-printed parts to achieve its goals, according to Reuters.
+GM's 3D Auto Parts Initiative
+The leading U.S.-based automobile manufacturer said it is working closely with the leading design software company Autodesk Inc. (ADSK) to print lightweight auto parts using 3D printing technology. This week, company executives demonstrated a 3D-printed seat bracket made of stainless steel and developed with the Autodesk technology. Using regular manufacturing methods, the seat bracket would need around eight different components and several suppliers. When designed with the help of the new technology, it consisted of a single part. It also turned out to be 20 percent stronger and 40 percent lighter. It looked like “a mix between abstract art and science fiction movie.” Along with reducing tooling cost and material waste, it will also help reduce the number of suppliers required by GM.
+GM has used 3D printers for prototyping parts for last many years. Over the next year, it believes that the new 3D-printed parts will appear in high-end motorsports applications, and over the next five years it plans to scale up to produce “tens of thousands of parts at scale as the technology improves,” Kevin Quinn, the automaker’s director of additive design and manufacturing, told Reuters.
+The 3D-printing based manufacturing industry is working toward mass production and trying to address issues with “repeatability and robustness,” said Bob Yancey, Autodesk’s director of manufacturing. Autodesk has expertise in exploring different variations of a part design using the cloud computing and artificial intelligence (AI)-based algorithms.
+The leading automaker announced last year it plans to launch 20 new electric and fuel cell models globally by the year 2023. Though electric and battery operated vehicles have seen increasing interest, their mass adoption has been restricted due to their limited range. Lightweight parts could help keep the vehicles lighter and thereby more fuel efficient.
+Promising 3D Printing Technology
+3D printing, also called additive manufacturing, works by piling up only the required amount of liquefied material, tier by tier. It helps in drastically reducing waste as only the required amount is added, and is in contrast with the conventional subtractive approach where the process involves starting with a large block of material and chipping it away till required shape and size is achieved. (See also, How the 3D-Printing Industry Evolved in 2016.)
+GM is not alone in adapting to the promising technology initiative. Earlier, General Electric Co (GE)  said it would increase the use of 3D printers in its manufacturing processes, while Ford Motor Co. (F) has been testing the 3D printing technology since last year. (For more, see Ford Tests 3D Printing for Parts.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

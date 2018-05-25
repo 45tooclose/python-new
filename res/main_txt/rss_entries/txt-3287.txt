@@ -1,0 +1,143 @@
+
+
+    
+                          What are 'Cash-Settled Options'
+
+      A cash-settled option is a type of option for which actual physical delivery of the underlying asset is not required. The settlement results in a cash payment, instead. The amount of the payment the difference between the option strike price and the current value of the security at the exercise date.
+This type of option avoids the high costs of transport or transaction fees. Another reason for using it could merely be that the purchaser does not wish to hold the real investment due to storage costs or other non-financial reasons.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            American Option                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Early Exercise                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Exercise Price                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            European Option                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Cash-Settled Options'
+      There are two forms of options settlement, physical and cash settlement. The most common is a physical settlement for which the trade completes with the transfer of the underlying asset from the seller to the buyer. A call option holder exercises the option on a specific stock. The options seller must then sell the stock to the options buyer at the strike price. The converse is valid for the put option holder. In this case, an options holder would sell the specific stock to the options writer at the strike price.
+Cash-settled options typically use the European style, where the holder may only exercise the option contract at expiration.
+Why Used Cash Settled Options?
+If and when cash settlement is allowed for a particular option, the typical reason for its use is to reduce or eliminate transportation costs, insurance costs and the financing costs of a holding the physical commodity, such as corn or sugar. In the stock market, it is slightly different because taking delivery or providing shares of a single stock involves minimal costs. However, an option on the Standard & Poor's 500 index will require transaction costs to buy or sell the components of the index in the correct proportions. This need is why index options are always cash settled.
+The most significant advantage of cash-settled options is that the buyers and sellers can speculate on a market without worrying about actually buying or selling in the spot market. For example, if a call options buyer thinks a particular stock index or commodity will move higher in price, they may speculate without having to deal with the underlying market itself. Cash settlement is an efficient way to do it.
+For trading purposes, there is little difference, if any, between physical and cash settlement. The real difference is between cash-settled options with the European style exercise and those options with the American execution style. American execution allows the holder to exercise at any time before expiration. This difference only presents an issue when strategies depend on the flexibility of American style exercise.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

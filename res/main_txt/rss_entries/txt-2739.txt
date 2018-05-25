@@ -1,0 +1,75 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Chipotle Mexican Grill Inc. (CMG) is increasing its buyback program by another $100 million, the food chain said. As of March 31, Chipotle had about $50.2 million available for repurchases from its previous buyback program, which had about $118 million at the end of last year. (See also: Chipotle Shares Could Hit Over $400.)
+Chipotle shares were up 22% in Thursday’s session after it reported better-than-expected first-quarter sales and earnings and as its new CEO hinted at fresh menu items to come. Revenue increased 7.4% year over year to $1.15 billion as net income increased to $59.4 million, up from $46.1 million a year prior.
+That performance was driven in part by increased prices, which rose 5% to 7% in January.
+Toward a Turnaround
+The Denver-based burrito maker’s shares have been struggling in recent years, down 46% in the past three years after a series of food safety scares starting with an E. coli outbreak in 2015. But the stock is up more than 40% year-to-date as it works toward a turnaround with former Taco Bell CEO Brian Niccol at the helm since March 5.
+At Taco Bell, Niccol launched mobile order and pay and added new menu items that proved successful, and he is taking steps toward the same strategy at Chipotle. In an investors call, he also said Chipotle has developed some light-hearted ads to revive the brand by underscoring “real ingredients” and is expanding its delivery service. (See also: Chipotle: New Leadership Fuels Turnaround Optimism.)
+Chipotle expects same-store sales to increased in the low-single digits this year as it opens 130 to 150 new locations.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

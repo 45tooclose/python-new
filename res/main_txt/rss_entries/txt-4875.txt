@@ -1,0 +1,145 @@
+
+
+    
+                          DEFINITION of 'Virtual Currency'
+
+      Virtual currency is a type of digital currency that is only available in electronic form and not in physical form. It is stored and transacted in only through designated software, mobile or computer applications, or through dedicated digital wallets, and the transactions occur over the Internet or over secure dedicated networks. Virtual currency is considered to be a subset of the digital currency group, which also includes cryptocurrencies.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Virtual Currency                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Digital Currency                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Interledger Protocol                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Founder's Reward                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Virtual Currency'
+      Virtual currency can be defined as an electronic representation of monetary value that may be issued, managed and controlled by private issuers, developers, or the founding organization. Such virtual currencies are often represented in terms of tokens and may remain unregulated without a legal tender. Unlike regular money, it relies on a system of trust and may not be issued by a central bank or other banking regulatory authority. Due to the lack of a centralized regulatory authority, such virtual currencies are prone to wide swings in their valuations. They derive their value based on the underlying mechanism, like mining in cases of cryptocurrencies, or the backing by the underlying asset.
+The term came into existence around 2012, when the European Central Bank (ECB) defined virtual currency to classify types of “digital money in an unregulated environment, issued and controlled by its developers and used as a payment method among members of a specific virtual community,” according to Bitcoins News.
+Along with use by the common public, a virtual currency can have restricted usage, and it may be in circulation only among the members of a specific online community or a virtual group of users who transact online on dedicated networks. Virtual currencies are mostly used for peer-to-peer payments and are finding increasing use for purchase of goods and services.
+Difference between Digital, Virtual, and Crypto Currencies
+Digital currency is the overall superset that includes virtual currency, which in turn includes cryptocurrencies.
+Compared to a virtual currency, a digital currency covers a larger group that represents monetary assets in digital form. Digital currency can be regulated or unregulated. In the former case, it can be denominated to a sovereign currency – that is, a country’s central bank can issue a digital form of its fiat currency notes. On the other hand, a virtual currency often remains unregulated and hence constitutes a type of digital currency.
+Cryptocurrencies like Bitcoin and Ethereum are considered to be a part of the virtual currency group. A cryptocurrency uses cryptography technology that keeps the transactions secure and authentic, and also helps to manage and control the creation of new currency units. Such cryptocurrencies exist and are transacted over dedicated blockchain based networks which are open to the common public. Anyone can join and start transacting in cryptocurrencies. (See also, How Bitcoin Works?)
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

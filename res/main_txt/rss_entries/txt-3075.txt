@@ -1,0 +1,84 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Intel Corporation (INTC) shares rallied to a new high above $56 in Friday's pre-market session after the company beat first quarter profit and revenue estimates by a wide margin. The chip giant also raised second quarter and fiscal year guidance, adding to euphoria that may attract solid buying interest in the coming days. That's good news for PHLX Semiconductor Index (SOX), which has shown signs of topping out following a multi-year bull market. (See also: Chip Stocks May Have Hit Their 2018 Highs.)
+Intel stock opened the regular session near $55.50, potentially clearing 18-year harmonic resistance at the .618 Fibonacci retracement level of the 2000 to 2009 downtrend near $51.50. If confirmed, this will open the door to a healthy uptrend that could reach the .786 retracement at $62 in the coming months. Unfortunately, that's less than 12% above this morning's opening print, offering mediocre reward:risk that tells sidelined players to wait for a pullback. 
+INTC Long-Term Chart (2000 – 2018)
+ 
+A 14-year uptrend ended at an all-time high in the mid-$70s in September 2000, the seventh month of the internet bubble bear market. The stock split five times during that fruitful period, benefiting from rapid advancements in computing power and the introduction of the worldwide web. It turned sharply lower into the second half of 2002, losing more than 80% of its value before bottoming out at $12.95.
+A bounce into December 2003 stalled in the mid-$30s, carving a resistance level  that wasn't mounted until 2017, and drifted sideways to lower into 2007. The bottom then dropped out in a severe decline that undercut the 2002 low by 90 cents before ending in March 2009. That low print marked a historic buying opportunity, ahead of a bounce that stalled five points under 2003 resistance in 2012.
+A 2014 breakout ended at the 2003 barrier in the mid-$30s, giving way to broad consolidation that established slightly higher resistance near $40. A sharp contraction in PC sales triggered a shareholder exodus during this period, which also encouraged the company to test new initiatives, including the device-focused Internet of Things. Those efforts paid off with a November 2017 breakout that has generated significant upside.
+[Discover more about recognizing chart patterns and developing your trading strategy in Chapter 5 of the Technical Analysis course on the Investopedia Academy]
+INTC Short-Term Chart (2017 – 2018)
+ 
+Price action since last year's breakout has carved a shallow rising highs trendline, with this morning's opening print reversing just below that resistance level. Failure to mount this obstacle quickly will raise the odds for a pullback that fills the gap down to $53, bringing the rally into question. Conversely, a breakout above the trendline will set off bullish momentum signals that favor a rapid trend advance above $60. 
+The stock has also carved a six-month rising wedge pattern, with resistance at the trendline and support at $51.50. A breakdown through that level would set off major reversal signals, indicating that the uptrend may be coming to an end. That doesn't seem likely given strong first quarter results, but big tech stocks have flashed all sorts of bearish divergences since January, so a reversal and downturn can't be ruled out.
+On-balance volume (OBV) topped out in 2014 and entered a distribution phase that lasted until the first quarter of 2016. The indicator bounced back to the prior high in the third quarter, but it took another year for a breakout that has attracted healthy buying interest into 2018. This volume structure tells us that Intel has resumed its long-held reputation as a core holding in retail and institutional portfolios. (For more, see: Micron, Intel Seen Rebounding 10% Short Term.)
+The Bottom Line
+Intel posted a multi-decade high at the opening bell of Friday’s session and reversed at a six-month trendline. A pullback down to $53 should be buyable, while a decline through $51.50 will signal a failed breakout and potential downtrend. (For additional reading, check out: Intel's Chip Lead Is 'Disappearing'.)
+<Disclosure: The author held no positions in aforementioned securities at the time of publication.>
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Chartadvisor-Article'
+    });
+                    
+            
+                

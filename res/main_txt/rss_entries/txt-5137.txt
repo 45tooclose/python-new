@@ -1,0 +1,78 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        More on BitcoinCould This Fundraising Mechanism Step in For ICOs?Why April 2018 Was A Great Month For CryptoFormer Paypal CEO Calls Bitcoin A ScamGoldman Hires Former Crypto TraderOnline social media platform Reddit, which stopped bitcoin payments on its platform earlier this year, is turning bullish on cryptocurrencies. 
+In an interview with Fortune magazine , Reddit co-founder Alexis Ohanian expounded on their potential and predicted a price target of $1,500 for ethereum and $20,000 for bitcoin by the end of this year. Both cryptocurrencies are trading at less than half that figure, currently. The company’s chief technical officer, Chris Slowe,  also told Cheddar that it will again introduce cryptocurrency payments on its platform. Slowe told Cheddar that the company will add ethereum and litecoin—the cryptocurrencies supported on Coinbase’s platform—to the list of coins supported by it. (See also: Reddit Stops Accepting Bitcoin.) 
+Why Ethereum (And Cryptokitties) Is Important 
+Ohanian told Fortune that he is “most bullish” about ethereum because its platform is popular with developers. That popularity will lead to more applications and experimentation on the platform. Ohanian illustrated his theory with the example of Cryptokitties, the app that burst into popularity last year. The app is actually a game, where virtual cats can be bought, bred and sold. When it was launched, Cryptokitties was responsible for slowing down the speed of transactions on ethereum by hogging bandwidth. (See also: Cryptokitties Rule Traffic on Ethereum's Blockchain.)
+Ohanian says its popularity will grow with time. According to him, pet owners can meet and discuss their cat’s antics in spaces set aside for them in the physical world. But a similar experience was absent online and this was the reason for the popularity of internet cats. “So we have no way to meet and talk about our silly cat things until the internet. I’ve seen a lot of this happen before my eyes, and it finally clicked a few years ago,” he explained.
+Not Really a Change in Stance 
+To be sure, the change in Reddit’s stance is not surprising. The social media platform has been bullish on bitcoin (and other cryptocurrencies) since the start. Reddit was among the first online platforms to begin accepting bitcoin back in 2013. Even when it discontinued accepting bitcoin, Reddit stated that it was observing the progress of Coinbase commerce, a product launched by the cryptocurrency exchange recently, before taking a final decision on stopping bitcoin. To that end, Slowe clarified in his conversation with Cheddar that the version of Coinbase’s merchant payment system used by Reddit did not provide for payments made using ethereum and litecoin earlier. The new version will support both cryptocurrencies.     
+Investing in cryptocurrencies and other Initial Coin Offerings ("ICOs") is highly risky and speculative, and this article is not a recommendation by Investopedia or the writer to invest in cryptocurrencies or other ICOs. Since each individual's situation is unique, a qualified professional should always be consulted before making any financial decisions. Investopedia makes no representations or warranties as to the accuracy or timeliness of the information contained herein. As of the date this article was written, the author owns 0.01 bitcoin. 
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

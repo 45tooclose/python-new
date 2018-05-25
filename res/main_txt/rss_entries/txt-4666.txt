@@ -1,0 +1,143 @@
+
+
+    
+                          DEFINITION of 'Circus Swap'
+
+      A Circus Swap is a common Forex transaction that's combination of an interest rate swap and a currency swap in which a fixed-rate loan in one currency is swapped for a floating-rate loan in another currency. A circus swap therefore converts not just the basis of the interest rate liability, but also the currency of this liability. The floating rate in a circus swap is generally indexed to U.S. dollar London Interbank Offer Rate (LIBOR). The term is derived from the acronym CIRCUS, which stands for Combined Interest Rate and Currency Swap. Also known as a “cross-currency swap” or “currency coupon swap".  This transaction is also called cross-currency swap or currency coupon swap.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Forward Swap                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Swap Curve                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Swap                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Reverse Swap                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Circus Swap'
+      Companies and institutions use circus swaps to hedge currency and interest rate risk, and to match cash flows from assets and liabilities. They are ideal for hedging loan transactions since the swap terms can be tailored to perfectly match the underlying loan parameters. The transactions involve three parties--two counterparties who enter into the deal and the institution, most often a bank, that facilities it.
+Circus Swap High Wire
+As an example, consider XYZ PLC, a European company that has a US$100 million loan with a floating interest rate (LIBOR + 2%) on its books. The company is concerned that U.S. interest rates may begin to rise, which would lead to a stronger U.S. dollar against the euro, making it more expensive to make future interest and principal repayments. XYZ would therefore like to swap into a fixed-rate loan in Japanese yen, because interest rates in Japan are low and the company believes the yen may depreciate against the euro. It therefore enters into a circus swap with a counterparty that converts its U.S. dollar floating-rate debt into a fixed-rate loan in Japanese yen. If the company’s views on future interest rates and currencies are correct, it can save a few million dollars on servicing its debt obligations over the loan's term.  
+Multinational corporations use these instruments to make bets and hedge, especially using currencies that don't have a robust swap market. These are transactions with two primary moving parts to consider: currency fluctuation and interest rate movements. But there's even more in motion when you take into account movement in both currencies, plus LIBOR movement as well as interest rate swings in both countries. Banks typically facilitate these transactions, charging a commission, usually around 100 basis points or 1% of the deal.
+ 
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

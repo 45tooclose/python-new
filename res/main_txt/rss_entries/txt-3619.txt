@@ -1,0 +1,74 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Years of low interest rates compelled many investors to embrace defensive sectors such as consumer staples and utilities. Investors flocked to those sectors and the related exchange-traded funds (ETFs) in search of higher dividend yields and in some cases lower-beta alternatives to more cyclical segments of the market.
+The rub with defensive sectors is that they often sport valuations in excess of broader equity benchmarks, indicating that there are times when investors will pay up to play defense. However, with interest rates rising, some defensive sectors are falling out of favor this year. For example, the iShares U.S. Consumer Goods ETF (IYK) is down 8.7% year to date, while its utilities counterpart, the iShares U.S. Utilities ETF (IDU), is lower by nearly 1%. (See also: Guard Your Portfolio With Defensive Stocks.)
+"To some extent, weakness in these two sectors makes sense. Both are classic dividend plays, and accordingly sensitive to higher rates," said iShares parent BlackRock. "As the yield on the 10-year Treasury has climbed towards 3% – a four-year high – you would expect these sectors to under-perform."
+IYK and IDU have trailing 12-month dividend yields of 1.87% and 2.75%, respectively. Data suggest that the relationship between Treasury yields and consumer staples and utilities should be acknowledged by investors considering these sectors. "This relationship has grown even stronger in the post-crisis, yield starved environment," according to BlackRock, Inc. (BLK). "Since 2010, the level of the 10-year Treasury yield has explained approximately 45% of the variation in the relative valuation – defined as the valuation of the sector versus the broader market – for the utilities sector. For the consumer staples sector, the relationship explains approximately 63%." (For more, see: The Return of Relative Value to Defensive Stocks.)
+Simply put, consumer staples and utilities stocks are living up to their rate-sensitive reputation, in large part explaining the laggard status of the sectors this year. With the recent declines, these defensive groups now trade at discounts to the S&P 500. The utilities sector currently trades at a 20% discount to the S&P 500, which is about in line with rising rate environment averages, according to BlackRock. That is still a far cry from the frothy valuations seen on the sector immediately following the global financial crisis.
+A similar scenario is at play with consumer staples stocks. "Large-cap consumer staples companies are trading at an 11% discount to the S&P 500," said BlackRock. "This represents the cheapest relative valuation the sector has possessed since 2010. More interestingly, even after adjusting for the recent backup in rates, staples appear on the cheap side." (For additional reading, check out: Consumer Stocks' Sell-Off Is a Flashback to Financial Crisis.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

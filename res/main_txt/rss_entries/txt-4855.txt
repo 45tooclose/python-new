@@ -1,0 +1,154 @@
+
+
+    
+                          What is 'Tax-Loss Harvesting'
+
+      Tax loss harvesting is the selling of securities at a loss to offset a capital gains tax liability. This strategy is typically employed to limit the recognition of short-term capital gains. Short-term capital gains are generally taxed at a higher federal income tax rate than long-term capital gains. However, the method may also offset long-term capital gains.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Capital Loss Carryover                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Tax Rate                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Tax Planning                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Unrealized Gain                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Tax-Loss Harvesting'
+      Tax-loss harvesting is also known as "tax-loss selling." Usually, this strategy is implemented near the end of the calendar year but may happen at any time in a tax year. With tax-loss harvesting, an investment that has an unrealized loss is sold allowing a credit against any realized gains which occurred in the portfolio. The asset sold is then replaced with a similar asset to maintain the portfolio's asset allocation and expected risk and return levels.
+For many investors, tax-loss harvesting is the most critical tool for reducing taxes. Although tax-loss harvesting cannot restore an investor to their previous position, it can lessen the severity of the loss. For example, a loss in the value of Security A could be sold to offset the increase in the price of Security B, thus eliminating the capital gains tax liability of Security B.
+Tax-Loss Harvesting Example
+Assume an investor as of 2018, has the highest marginal tax rate of 37%. He sold investments and realized long-term capital gains, which are subject to a tax rate of 20%. Below are the investor's portfolio gains and losses and trading activity for the year:
+Portfolio:
+Mutual Fund A: $250,000 unrealized gain, held for 450 days
+Mutual Fund B: $130,000 unrealized loss, held for 635 days
+Mutual Fund C: $100,000 unrealized loss, held for 125 days
+Trading Activity:
+Mutual Fund E: Sold, realized a gain of $200,000. Fund was held for 380 days
+Mutual Fund F: Sold, realized a gain of $150,000. Fund was held for 150 days
+Without tax-loss harvesting, the tax liability from this activity is:
+Tax without harvesting = ($200,000 x 20%) + ($150,000 x 37%) = $40,000 + $55,500 = $95,500
+If the investor harvested losses by selling Mutual Funds B and C, they would help to offset the gains, and the tax liability would be:
+Tax with harvesting = (($200,000 - $130,000) x 20%) + (($150,000 - $100,000) x 37%) = $14,000 + $18,500 = $32,500
+The proceeds of the sales may then reinvested in assets like the ones sold.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

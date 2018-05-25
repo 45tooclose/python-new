@@ -1,0 +1,155 @@
+
+
+    
+                          What is the 'Five Percent Rule'
+
+      The five percent rule requires brokers to use fair and ethical practices when setting commission rates on over-the-counter transactions. The five percent rule, which is more of a guideline than an actual Financial Industry Regulatory Authority (FINRA) regulation, stipulates that a broker may charge the commission percentage by 5%, either up or down, on standard trades so that the prices investors pay are reasonably related to the market for those securities. The rule, also known as the FINRA 5% markup policy, also applies to other transactions, including proceeds sales and riskless transactions.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Commission Broker                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Each Way                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Business Broker                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Carrying Broker                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      Breaking Down 'Five Percent Rule'
+      The five percent rule itself does not set forth any calculation criterion. Instead, it indicates that the broker should follow guidelines. The rule itself has several exceptions. The rule is applied to various transactions, including the following:
+Principal transactions: A broker-dealer buys or sells securities from its own holdings and based on that charges a markup or markdown.
+Agency transactions: Brokerage firm, acting as a middle man, charges a commission on a transaction.
+Proceeds transactions: A broker-dealer sells a security for a client and uses those proceeds to purchase other securities; constitutes one transaction, not two.
+Riskless transactions: Such simultaneous transactions see a firm buy a security from its own holdings and immediately sell it to a customer.
+Five Percent Rule: What Determines a Fair Commission?
+Elements that are considered when determining what is fair and reasonable include:
+The price of the security in question 
+The total value of the transaction (larger transactions may qualify for discounted pricing)
+What kind of security it is (options and stocks transactions have higher costs than bonds, for example)
+The overall value of the members' services
+What it cost to execute the transaction (some firms impost a minimum transaction)
+It should be noted that each factor may contribute to a higher or lower commission than 5%; a large equity transaction that was simple to execute may be done so for far less than 5%, while a small, complicated transaction of a more lightly traded security could be far more than 5%.
+Five Percent Rule Example
+If a client wanted to buy 100 shares of Hypothetical Co. at $10 a share, the total value of that transaction would be $1,000. If the broker's minimum transaction cost was $100, the total fee would be 10%, far more than the 5% rule. However, since the client knew of the transaction minimum fee the five percent rule would not apply. 
+The Five Percent Rule and Investing
+The five percent rule, in the context of investing, may also refer to the practice of not allowing more than 5% of any mutual fund, sector or company stock to accumulate in a portfolio. In this context, the five percent rule is mean to help with diversification and risk management.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

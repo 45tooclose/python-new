@@ -1,0 +1,76 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        With earnings season in full swing, some reports have served as make-or-breaks for many of the tech industry's biggest household names. As the nine-year bull market came to a close in January, leading the market into a period of heightened volatility, investors have come into Q1 reporting season with a more cautious stance. So far, the Street has applauded companies such as Facebook Inc. (FB), Amazon.com Inc. (AMZN) and Twitter Inc. (TWTR), who have shown that they can continue to post strong sales and user growth despite an increasingly competitive and challenging landscape threatened by a handful of factors including more regulatory scrutiny, and heightened global trade tensions.
+In an interview with CNBC, Susquehanna's head of derivative strategy, Stacey Gilbert, highlighted three technology stocks that are favorites among Millennials and should see a move between 8% and 15% on earnings results this week.
+Gilbert was correct in her bet on GrubHub Inc. (GRUB), as shares make a major move on results released before market open Tuesday. The analyst forecast shares of the food delivery company to bounce either up or down by roughly 11%. GRUB sank 8.1% Tuesday morning at $92.91, bringing its year-to-date (YTD) gain to 29.4%, still outperforming the broader S&P 500's 1.6% loss over the same period. Last quarter, the Chicago-based mobile food ordering company saw its stock pop 27% on results. 
+Snap Still Below IPO Price
+Snap Inc. (SNAP), the owner of photo and video sharing app Snapchat, should move about 15% on its report slated for Tuesday after market close, according to Gilbert. Her forecast is for a smaller swing than the stock has historically posted on quarterly results. The analyst indicated that some investors are buying protective put options ahead of earnings. Trading down about 4% on Tuesday at $13.78, SNAP has fallen the same amount YTD and reflects an approximate 23% discount to its initial public offering price (IPO) of $17 per share in March 2017. 
+Gilbert expects on-demand video streaming service Spotify Technology S.A. (SPOT) to rise or fall about 8% on its quarterly results scheduled for after the closing bell on Wednesday. The Swedish entertainment company made its public debut in April in an unusual IPO with no underwriters. The stock is up about 1% at $163.15 on Tuesday, reflecting a 24% gain from its reference price of $132 per share. (See also: Spotify ‘Closest’ to NFLX for Music, Set To Soar: JPMorgan.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

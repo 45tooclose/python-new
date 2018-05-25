@@ -1,0 +1,144 @@
+
+
+    
+                          What is 'Off-The-Run Treasury Yield Curve'
+
+      An off-the-run treasury yield curve is the U.S. Treasury yield curve derived from the maturities, prices and yields of Treasury bills or notes that are not part of the most recently-issued Treasury securities. Because they are not part of the most recently-issued treasuries, they are called off-the-run treasuries.
+Off-the-run Treasuries refer to U.S. government bonds of a given maturity that are not the most recently issued. While they are not as recent as on-the-run treasuries, off-the-run treasuries can be used to construct a yield curve if there is a problem or distortion with the yield curve as represented by on-the-run treasuries.
+A yield curve is important because it actually determines a benchmark for pricing bonds.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Off-The-Run Treasuries                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Treasury Note                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Flat Yield Curve                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Treasury Bond - T-Bond                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Off-The-Run Treasury Yield Curve'
+      On-the-run treasuries are the most actively traded Treasury securities and are estimated to account for more than half of daily trading volumes, but they still actually make up less than five percent of outstanding marketable Treasury securities. The rest of the Treasury debt are known as off-the-run Treasuries. The difference of the amount of on-the-run and off-the-run securities can also influence the pricing between the two securities.
+While the on-the-run treasury yield curve is the primary benchmark used for pricing fixed-income securities, fixed-income analytics are sometimes run by investors and traders based on the off-the-run treasury yield curve because they believe the on-the-run treasury yield curve has price distortions caused by the current market demand for the on-the-run bonds. For example, the U.S. Treasury market is always evolving and is driven by many factors.
+An example of the off-the-run Treasury yield curve
+To picture how the off-the-run treasury yield curve works, think of a timeline when the U.S. Treasury issues bonds. When 10-year bonds are first issued in January of a year, for example, those bonds are considered “on-the-run” Treasuries because they are most relevant. But later on during the year, if the U.S. Treasuries issues a new batch of 10-year bonds in September, the new batch is “on the run” and the January batch become “off-the-run” Treasuries. The yield curve is then calculated using only the Treasuries that are off-the-run.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

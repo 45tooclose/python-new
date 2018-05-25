@@ -1,0 +1,83 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Sustainalytics, a leading provider of corporate Environmental, Social and Governance (ESG) research, ratings and analysis has completed the acquisition of Solaron, which expands the firm’s emerging market expertise, and enhances its deep dive research capability. Solaron, founded in 2007, has spent 10 years establishing itself as a leader in delivering specialized ESG research to institutional investors.
+“Integrating Solaron’s talented team of analysts will allow us to provide clients with truly differentiated ESG-related research services,” says Michael Jantzi, CEO of Sustainalytics. Investors want analysts close by to the markets and companies to which they commit capital. Solaron provides local language, and ESG analysis on-the-ground across more than 10 markets, including India, Brazil and several other countries in Latin America and the Europe, Middle East and Africa (EMEA) regions.
+Scaling technology, people and processes in these emerging markets provides resources that matter more than ever in sourcing valuable ESG data by industry and by company. “Sustainalytics now covers the global investment markets from 13 financial centers around the world, where our over 150 analysts work closely with companies to integrate non-financial ESG data into their predictive metrics,” adds Diederik Timmer, executive vice president and managing director.
+Robust Volume of Data
+The volume of ESG data being reported by companies, even in emerging economies, is robust compared to five years ago. Annual reports and sustainability reports are two sources corporations use to push sustainability data out to investors. Local media coverage and direct contact with a firm, and companies in its supply chain, are other ways to gather local and regional market information. When trying to understand business practices, this data adds value, and any of these data sources can raise awareness for an analyst regarding positive or negative predictive patterns within a firm’s management style, manufacturing processes or supply chain relationships. 
+“Our team has expertise in delivering deep-dive ESG analytics, especially in less developed markets where language can be an issue,” says Vipul Arora, Solaron’s co-founder. Arora is one of 26 people from Solaron to join Sustainalytics, where he will take on a senior role as part of the acquisition. Timmer believes that the addition of these professionals will expand Sustainalytics’ global capability to provide high value, actionable insights to capital market investors.
+Going Local
+A November 2017 study by The Investment Integration Project (TIIP) has identified locality as one of the tools that investors can use to seek competitive short-term returns that build a foundation for future investment opportunities in the long term. Locality investors act intentionally to do the following: develop a deep understanding of a specified geographic area, including the issues crucial to local sustainable development; generate competitive returns by promoting and strengthening local economies, culture and ecology; and consider the short-term and long-term community implications of local investment projects. 
+Developing a comfort level with local ESG due diligence is paramount to this process. Raw ESG data must be aggregated to provide material, non-financial points of comparison within industries and across economic sectors, market by market. Sustainalytics expects to leverage Solaron’s emerging market resources to address the growing demand for client-specific custom research in these local markets. 
+The Forum for the Future entitled its 2018 report on the future of sustainability Living in Nonlinear Times. The report identified “going local” as one of the ways to develop more sustainable behavioral and practice opportunities, thereby reinforcing the need identified in TIIP’s research for investors to have "a deep understanding of specified geographic areas."
+The Competitive Edge
+Maintaining and enhancing a competitive advantage, versus the other major players in ESG research and analytics is, of course, an important part of any acquisition that Sustainalytics considers. “As ESG materiality matures into a core component of mainstream portfolio analysis, we will be leveraging resources like those that Solaron brings through its technology, people and analytics processes to compete on a global scale,” says Timmer.    
+“Our team could not be more excited about joining forces with such a well-respected global market leader as Sustainalytics,” Arora adds.  
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '',
+     'leadGenVertical' : '',
+     'leadGenLayout' : '',
+     'leadGenPage' : ''
+    });
+                    
+            
+                

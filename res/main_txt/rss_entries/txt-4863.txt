@@ -1,0 +1,93 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        United States Treasury inflation-protected securities (TIPS) are a simple and effective way to eliminate one of the most significant risks to fixed-income investments – inflation risk – while providing a real rate of return guaranteed by the U.S. government. As such, it is worthwhile to fully understand how these instruments function, behave and can be incorporated into an investment portfolio.
+Why Invest in TIPS?
+With normal (or nominal) fixed-income investments, investors bear inflation risk in that the purchasing power of interest payments could be eroded by inflation over and above their original expectations. TIPS, however, are guaranteed to keep pace with inflation as defined by the Consumer Price Index (CPI). This is what makes them unique and defines their behavior.
+To illustrate, assume a $1,000 U.S. TIPS was purchased with a 3% coupon; also assume inflation during the first year was 10%. If this were the case, the face value of the TIPS would adjust upward by 10%, to $1,100. Furthermore, the coupon payment (3%), which is also based on face value, would be $33 (payments adjust and are paid semi-annually). The end result is that not only are interest payments protected against inflation, but so is the bond's face value, which is returned to the investor at maturity. Traditional nominal bonds offer neither of these protections.
+Because TIPS protect investors against inflationary concerns and nominal bonds do not, they behave differently from one another. More specifically, as inflationary expectations increase, nominal bonds will become less attractive as future interest payments are eroded by inflation. Similarly, as inflationary concerns decrease (which includes deflation), nominal bonds become more attractive relative to TIPS as future interest payments become more valuable on a real (or after inflation) basis.
+How to Buy TIPS
+TIPS can be purchased in the same way as any other fixed-income investment: either directly as individual bonds through the U.S. Treasury or a broker, or through a mutual fund. If an investor is seeking to match specific cash flow needs, purchasing individual bonds makes sense.
+Buying bonds directly from the U.S. Treasury is the cheapest option in this regard. However, if the goal is to receive a fully diversified fixed-income portfolio of TIPS, a mutual fund is the best option, preferably a low-cost index fund.
+TIPS Portfolio Construction
+In the context of portfolio asset allocation, fixed income plays an important role for investors of all sizes. Keep in mind that over long time periods, fixed income provides much lower returns than equities, but it also provides much lower levels of return volatility. As such, fixed income serves to reduce overall portfolio volatility, especially during times of market stress when equities may fall substantially.
+TIPS offer an additional level of diversification over and above nominal fixed income in that they eliminate the risk of inflation for whatever portion of the portfolio they constitute. Therefore, they will typically exhibit even less risk than nominal bonds, which are subject to inflationary concerns. By combining TIPS with nominal bonds, the fixed-income portfolio should become less volatile, as should the portfolio as a whole.
+Tactics
+As is the case with any other investment vehicle, TIPS can be used tactically. Just as one may purchase equities at a low price or nominal bonds in anticipation of a decrease in interest rates, TIPS can be used to market time according to an investor's expectations for inflation.
+To accomplish this, one must first understand how to determine the embedded inflation expectation in TIPS. This can easily be done by comparing a TIPS yield to that of a nominal U.S. Treasury bond. For example, if a nominal 10-year Treasury bond is priced with a yield to maturity (YTM) of 5% and a similar TIPS is priced with a YTM of 2.5%, the implied inflation expectation would be 2.5%. With this in mind, an investor can theoretically time entry and exit into TIPS depending on his/her expectations for inflation.
+Using the example above, if an investor believes inflation will actually move upward to 3.5%, that investor would buy a TIPS because it will become more valuable if actual inflation is greater than what the market expected. Conversely, if an investor believes inflation will be lower than 2.5%, or that deflation will occur, the investor will either sell his or her existing TIPS or wait for a devaluation to occur before buying.
+However, market timing inflation expectations is no easier than market timing any other security. Also keep in mind that the U.S. Federal Reserve is unable to predict inflation over the short term. As such, tactical moves in and out of TIPS should be made based on long-term horizons.
+To summarize, TIPS can be a wonderful tool for any investor looking to maximize a portfolio's risk-reward payoff. Just as fixed income is an integral aspect of any portfolio, TIPS should be considered an integral aspect of the fixed-income allocation.
+Maximizing Diversification, Adjusting Exposure
+Outside of specific cash flow matching needs, TIPS should generally be purchased through a mutual fund to maximize diversification benefits and proper exposure to these assets. Mutual funds that offer active management strategies for TIPS can add value over time, but there is a much smaller potential to add value in fixed-income investing than equities. Keep in mind that active management is yet another bet within your portfolio, and an expensive one at that. Index funds offer the most efficient access (at a lower cost) to this investment vehicle.
+For investors that wish to market time TIPS, keep track of the embedded inflation expectations in the bond markets and adjust your exposure appropriately based on your long-term – not short-term – expectations for inflation. Again, value can be added in this regard over multi-year time horizons. TIPS are nowhere near as volatile (nor are their returns anywhere as high) as equities, and transaction costs can easily outweigh small, short-term market moves, so be judicious and patient in this regard.
+The best course of action with TIPS is to establish a meaningful allocation within your fixed-income portfolio, say one-third to one-half of the total fixed-income allocation. Furthermore, there are limited opportunities to add value through active management, so purchase a low-cost index fund and stick with it. Market time TIPS only when markets become irrational, either expecting unrealistically high or low inflation rates. Also keep in mind that the Federal Reserve targets inflation rates in the low single digits and adjust your portfolio around those expectations.
+The Bottom Line
+If you keep these factors in mind, TIPS investing will be easy and highly beneficial to your portfolio. TIPS may not be the most exciting investment around, but they are the only securities that provide a guaranteed real rate of return by the U.S. federal government. Don't dismiss how powerful an investment like this can be, especially if you ever plan to retire.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

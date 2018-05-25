@@ -1,0 +1,254 @@
+
+
+
+    
+        
+        Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/Investing/Investing/IC-Video/Article");} else {return "/8397/INV-NA/Investing/Investing/IC-Video/Article";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/articles/fundamental-analysis/11/choosing-valuation-methods.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/cw1IdCZy.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/cw1IdCZy-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/thumbnails/live/173_discountedcashflow-2_421x236.jpg?quality=80&width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "100%",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "cw1IdCZy-G9NhEyAa.mp4";
+                
+          
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                    var initializeJWPlayerSetup = function () {
+                        if (new VideoInit().canRun()) {
+                            setUpJwpPlayer();
+                        } else {
+                            new VideoInit().callBack = setUpJwpPlayer;
+                        }
+                    }
+          initializeJWPlayerSetup();
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "cw1IdCZy-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "Discounted Cash Flow (DCF)",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };    
+        
+            
+      
+
+    
+
+    
+        When deciding which valuation method to use to value a stock for the first time, it's easy to become overwhelmed by the number of valuation techniques available to investors. There are valuation methods that are fairly straightforward while others are more involved and complicated. 
+Unfortunately, there's no one method that's best suited for every situation. Each stock is different, and each industry or sector has unique characteristics that may require multiple valuation methods. In this article, we'll explore the most common valuation methods and when to use them.
+Two Categories of Valuation Models
+Valuation methods typically fall into two main categories:  
+Absolute valuation models attempt to find the intrinsic or "true" value of an investment based only on fundamentals. Looking at fundamentals simply mean you would only focus on such things as dividends, cash flow, and the growth rate for a single company, and not worry about any other companies. Valuation models that fall into this category include the dividend discount model, discounted cash flow model, residual income models, and asset-based models.
+Relative valuation models, in contrast to absolute valuation, operate by comparing the company in question to other similar companies. These methods involve calculating multiples and ratios, such as the price-to-earnings multiple, and comparing them to the multiples of similar companies. For example, if the P/E of a company is lower than the P/E multiple of a comparable company, the original company might be considered undervalued. Typically, the relative valuation model is a lot easier and quicker to calculate than the absolute valuation methods, which is why many investors and analysts begin their analysis with this method. (For more, see The 4 Basic Elements of Stock Value.)
+Let's take a look at some of the more popular valuation methods available to investors, and see when it's appropriate to use each model. 
+Dividend Discount Model (DDM)
+The dividend discount model (DDM) is one of the most basic of the absolute valuation models. The dividend model calculates the "true" value of a firm based on the dividends the company pays its shareholders. The justification for using dividends to value a company is that dividends represent the actual cash flows going to the shareholder, thus valuing the present value of these cash flows should give you a value for how much the shares should be worth.
+The first step is to determine if the company pays a dividend.
+The second step is to determine whether the dividend is stable and predictable since it's not enough for the company to just a pay dividend. The companies that pay stable and predictable dividends are typically mature blue-chip companies in well-developed industries. These type of companies are often best suited for the DDM valuation method. For instance, review the dividends and earnings of company XYZ below and determine if the DDM model would be appropriate for the company:
+ 
+2012
+2013
+2014
+2015
+2016
+2017
+Dividends Per Share
+$0.50
+$0.53
+$0.55
+$0.58
+$0.61
+$0.64
+Earnings Per Share
+$4.00
+$4.20
+$4.41
+$4.63
+$4.86
+$5.11
+In the above example, the earnings per share are consistently growing at an average rate of 5%, and the dividends are also growing at the same rate. The company's dividend is consistent with its earnings trend which should make it easy to predict dividends for future periods. Also, you should check the payout ratio to make sure the ratio is consistent. In this case, the ratio is 0.125 for all six years which makes this company an ideal candidate for the dividend model. (For more on the DDM, see Digging Into the Dividend Discount Model.)
+Discounted Cash Flow Model (DCF)
+What if the company doesn't pay a dividend or its dividend pattern is irregular? In this case, move on to check if the company fits the criteria to use the discounted cash flow model. Instead of looking at dividends, the DCF model uses a firm's discounted future cash flows to value the business. The big advantage of this approach is that it can be used with a wide variety of firms that don't pay dividends, and even for companies that do pay dividends, such as company XYZ in the previous example.
+The DCF model has several variations, but the most commonly used form is the Two-Stage DCF model. In this variation, the free cash flows are generally forecasted for five to ten years, and then a terminal value is calculated to account for all the cash flows beyond the forecast period. So, the first requirement for using this model is for the company to have predictable free cash flows, and for the free cash flows to be positive. Based on this requirement alone, you will find that many small high-growth companies and non-mature firms will be excluded due to the large capital expenditures these companies typically encounter.
+For example, let's take a look at the cash flows of the following firm:
+ 
+2012
+2013
+2014
+2015
+2016
+2017
+Operating Cash Flow
+438
+789
+1462
+890
+2565
+510
+Capital Expenditures
+785
+995
+1132
+1256
+2235
+1546
+Free Cash Flow
+-347
+-206
+330
+-366
+330
+-1036
+In this snapshot, the firm has produced increasing positive operating cash flow, which is good. But you can see by the large amounts of capital expenditures that the company is still investing much of its cash back into the business in order to grow. As a result, the company has negative free cash flows for four of the six years and makes it extremely difficult or nearly impossible to predict the cash flows for the next five to ten years. So, in order to use the DCF model most effectively, the target company should generally have stable, positive and predictable free cash flows. Companies that have the ideal cash flows suited for the DCF model are typically mature firms that are past the growth stages. (To learn more about this method, see Taking Stock of Discounted Cash Flow.)
+Comparables Method
+The last method we'll look at is sort of a catch-all method that can be used if you are unable to value the company using any of the other models, or if you simply don't want to spend the time crunching the numbers. The method doesn't attempt to find an intrinsic value for the stock like the previous two valuation methods. Instead, it compares the stock's price multiples to a benchmark to determine if the stock is relatively undervalued or overvalued. The rationale for this is based on the Law of One Price, which states that two similar assets should sell for similar prices. The intuitive nature of this method is one of the reasons it is so popular.
+The reason why it can be used in almost all circumstances is due to the vast number of multiples that can be used, such as the price-to-earnings (P/E), price-to-book (P/B), price-to-sales (P/S), price-to-cash flow (P/CF), and many others. Of these ratios though, the P/E ratio is the most commonly used one because it focuses on the earnings of the company, which is one of the primary drivers of an investment's value.
+When can you use the P/E multiple for a comparison? You can typically use it if the company is publicly traded since you'll need both the stock price and the earnings of the company. Secondly, the company should be generating positive earnings because a comparison using a negative P/E multiple would be meaningless. And lastly, the earnings quality should be strong. That is, earnings should not be too volatile, and the accounting practices used by management should not distort the reported earnings drastically. (Companies can manipulate their numbers, so you need to learn how to determine the accuracy of EPS. Read How To Evaluate The Quality Of EPS.)
+These are just some of the main criteria investors should look at when choosing which ratio or multiples to use. If the P/E multiple cannot be used, choose a different ratio such as the price-to-sales or price-to-cash flow multiples. 
+The Bottom Line
+No single valuation method fits every situation, but by knowing the characteristics of the company, you can select a valuation method that best suits the situation. Also, investors are not limited to just using one method. Often, investors will perform several valuations to create a range of possible values or average all of the valuations into one. With stock analysis sometimes it's not a question of the right tool for the job so much as it's how many tools you employ obtain varying insights from the numbers.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

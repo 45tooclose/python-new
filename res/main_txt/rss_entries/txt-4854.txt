@@ -1,0 +1,150 @@
+
+
+    
+                          What is a 'Box Spread'
+
+      A box spread, also known as a long box, is an arbitrage strategy created by combining a bull call spread with a corresponding bear put spread. These vertical spreads must have the same strike prices and expiration dates.
+The idea is to use the box when the spreads themselves are underpriced regarding their expiration values. When the trader believes the spreads are overpriced, he or she may employ a short box, which uses the opposite options pairs.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Time Decay                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Asian Tail                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Bull Spread                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Vertical Spread                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Box Spread'
+      A bullish vertical spread maximizes its profit when the underlying asset closes at the higher strike price at expiration. The bearish vertical spread maximizes its profit if the underlying closes at the lower strike at the contract end.  By combining both a bull call spread and a bear put spread, it does not matter where the underlying closes because the payoff is always going to be the difference between the two strike prices. If the cost of the spread, after commissions are less than the difference between the two strike prices, the trade locks in a riskless profit, making it a delta-neutral strategy.
+Building a Box Spread
+The basic plan is to buy an in-the-money (ITM) call, sell an out-of-the-money (OTM) call, buy an ITM put and sell an OTM put. Put another way, buy an ITM call and put, and then sell an OTM call and put. Because there are four options in this combination, commissions can be a significant factor in its potential profitability.
+Example: Intel stock trades for 51.00. Each options contract in the four legs of the box controls 100 shares of stock. The plan is to:
+Buy the 49 call for 3.29 (ITM) for $329 debit per options contract
+Sell the 53 call for 1.23 (OTM) for $123 credit
+Buy the 53 put for 2.69 (ITM) for $269 debit
+Sell the 49 put for 0.97 (OTM) for $97 credit
+The total cost of the trade before commissions would be $329 - $123 + $269 - $97 = $378.
+The spread between the strike prices is 53 - 49 = 4. Multiply by 100 shares per contract = $400 for the box spread.
+In this case, the trade can lock in a profit of $22 before commissions. The commission cost for all four legs of the deal must be less than $22 to make this profitable. It's a razor-thin margin, for sure. And this is only when the net cost of the box is less than the expiration value of the spreads, or the difference between the strikes. There will be times when the box costs more than the spread between the strikes so the long box would not work.  However, a short box might. This strategy reverses the plan and sells the ITM options and buys the OTM options.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

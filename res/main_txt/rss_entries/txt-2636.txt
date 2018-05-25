@@ -1,0 +1,76 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Qualcomm Inc. (QCOM) has taken a beating this year amid broader tech turmoil. Shares of the chipmaker, trading down about 1.4% on Wednesday morning at $49.27, reflect a near-25% loss year-to-date (YTD), underperforming the broader S&P 500's 2% decline over the same period. According to one team of analysts on the Street, the San Diego-based semiconductor manufacturer could face more downside pressure as some of its biggest customers begin to manufacture their own custom chips. (See also: Qualcomm Sinks On Job Cuts, Roadblock to NXP Deal.)
+Wells Fargo analyst David Wong issued a note to clients this week indicating that Qualcomm and other chipmakers could see new custom chips from tech titans such as Apple Inc. (AAPL) and South Korea's Samsung Electronics take a serious bite out of revenues. The downbeat note comes as Apple suppliers have already been knocked down by investor fears regarding slowing demand for mobile phones.
+Wong refers to components such as Apple's in-house made A11 Bionic processor, which runs Apple's latest-and-greatest phone, the iPhone X. The "captive" part is made by Apple and is used only by the tech giant, as opposed to chips sold on the open market and available for use by anyone, which are known as "merchant" sales. 
+Merchant Chip Companies at Risk
+"We think that the growing use of internally designed chips by the biggest smartphone companies is creating a headwind to growth for merchant chip companies that make smartphone application processors and baseband chips" wrote Wong. 
+The Wells Fargo analyst, who maintains a neutral rating on QCOM, pointed to data from research firm Strategy Analytics, estimating that about a third of "applications processor" sales into smartphones are comprised of captive chips from Apple, Samsung and Chinese competitor Huawei. The merchant chip market, on the other hand, has consolidation to a three-player race between Qualcomm, Taiwan's MediaTek and China's Spreadtrum, noted Hong, who sees the space as threatened by expanding use cases and expanded capabilities of captive chips. For example, the analyst suggested that Qualcomm's baseband processor, not just its app processors, could be replaced by new rival chips. 
+Wong also weighed the possibility that Apple will team with Intel Corp. (INTC), not only as a second source to Qualcomm for baseband chips, but also for "future foundry services to make a custom integrated application processor and a baseband modem," as reported by Barron's. 
+QCOM is slated to report its most recent quarterly results after the closing bell today. (See also: 'Double Ordering' Hurts Chip Cos.: Morgan Stanley.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

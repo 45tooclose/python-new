@@ -1,0 +1,94 @@
+
+
+
+    
+        
+            
+        
+          
+                
+      
+
+    
+
+    
+        An estate includes a present or future right to ownership and/or possession of real property. The amount and type of interest that an individual has in real property is called an estate in land. While an estate in land grants the right to possess the property, an interest, such as an easement, bestows only a right to use the land.
+Estates in land are divided into two main classifications: freehold estates and nonfreehold estates. Freehold estates are those involving ownership, while nonfreehold estates are those involving tenants. In order to understand what a nonfreehold estate is, it is helpful to understand the concept of a freehold estate. So this article will compare the two, and describe the four types of nonfreehold estates. (See also: 6 Estate Planning Must-Haves.)
+Freehold Estates
+Freehold estates are estates of indefinite duration that can exist for a lifetime or forever.
+Some types of freehold estates are classified as "estates of inheritance," where the estate continues beyond the life of the holder and descends to his or her living heirs upon death as specified by the will or by law. Examples include the fee simple estate or the defeasible fee estate, which continue for an indefinite period and are inheritable by the owner's beneficiaries.
+Other freehold estates are referred to as "estates not of inheritance" or "life estates," which exist only for the term of a person's life. The ordinary conventional life estate with remainder or reversion, for example, does not continue for an indefinite period, but terminates when the person on whose life the estate is based, or the life tenant, becomes deceased. (See also: Getting Started On Your Estate Plan.)
+Nonfreehold Estates
+A nonfreehold estate is an interest in real property that is less than a freehold estate. Nonfreehold estates are not inheritable and are said to exist "without seisin." Seisin denotes ownership: An individual who is "seised" of an estate is the owner of the estate.
+Also known as a leasehold estate, a nonfreehold estate is created through a lease or rental agreement that can be either written or oral.
+The holder of a nonfreehold estate (the tenant or lessee) holds no ownership interest in the real property, and only has the right to use the property as established in the terms of the lease or rental agreement. Ownership remains with the landlord (lessor). (See also: Becoming A Landlord: More Trouble Than It's Worth?)
+Types of Nonfreehold Estates
+Because nonfreehold estates involve tenants, they are often referred to as "tenancies." There are four types of tenancies:
+Tenancy for Years
+Also called an estate for years or tenancy for a definite term, this is an estate that is created by a lease. A lease is a contractual agreement where a tenant takes a leasehold interest in a real property for a specified duration. The defining characteristic of a tenancy for years is that the term must have a definite beginning and end; that is, a beginning date and either a specific time period (such as one year or one month) and an end date must be declared. As long as a lease is for a definite term, it is identified as a tenancy for years. These leases terminate automatically at the specified end date without the need for notice by either party.
+Tenancy from Period to Period
+A tenancy from period to period is an estate that exists when the tenancy is for a definite initial time, but is automatically renewable unless terminated by the lessor or lessee with prior notice that the tenancy is to be ended. These estates, which are also called periodic tenancies, are of indefinite duration since they can be renewed indefinitely. A tenancy from period to period may be from year to year, month to month, week to week or even day to day, and renews for a like period of time. For example, a month to month periodic tenancy is renewable in one-month periods until it is terminated at the end of a month through proper notice by either party. (See also: 11 Mistakes Inexperienced Landlords Make.)
+Tenancy at Will 
+A tenancy at will, or an estate at will, exists at the pleasure of both the lessor and the lessee. This type of tenancy can be terminated at any time "at the will" of either the owner or the tenant. A tenancy at will lease agreement might contain language that expresses that the lease may be terminated instantly when notice is given. In practice, a tenant is generally entitled to a reasonable amount of time in which to vacate the property. Landlords may prefer a tenancy at will when a property is for sale and any tenants would have to vacate quickly. Tenants may favor a tenancy at will if they plan on renting only for a short period of time; for example, prior to moving or while waiting to move into a new home.
+Tenancy at Sufferance 
+A tenancy at sufferance is the lowest form of estate known to law. Also called an estate at sufferance, it exists indirectly as the result of circumstance, and is never deliberately created. This type of tenancy arises when a person goes into possession of land in a lawful manner, but remains on the property without any right to do so, and without the owner's consent. The only difference between a tenant at sufferance and a trespasser is that the tenant at sufferance had at one time a right to be on the property, but has stayed beyond the terms of the previous agreement. For example, a tenant who remains after a one-year lease has terminated, without consent or recognition from the owner, becomes a tenant at sufferance. The tenant can be evicted at any time without notice. (See also: Top Tips For Successfully Renting Out Your Home.)
+The Bottom Line
+Estates in land can be broadly classified as either freehold or nonfreehold. A freehold estate indicates ownership, while a nonfreehold estate, sometimes referred to as the law of landlord and tenant, involves a lessor and lessee arrangement. It is possible that various types of nonfreehold estates can apply to the same rental over a period of time.
+For example, a tenant could start out with a one-year lease (tenancy for years). And once that period is over, the tenancy could switch to a month-to-month basis (tenancy from period to period). The type of estate that a person has in real property establishes the duration and the scope of their rights to ownership and/or possession of the property.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Mortgage',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

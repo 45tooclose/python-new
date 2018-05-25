@@ -1,0 +1,143 @@
+
+
+    
+                          WHAT IS 'Debt For Bond Swap'
+
+      Debt for bond swap is a debt swap involving the exchange of a new bond issue for similar outstanding debt or vice versa. Debt for bond swap transactions usually take place in order to  take advantage of an interest rate change and/or for tax write-off purposes.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Substitution Swap                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Forward Swap                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Swap                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Foreign Currency Swap                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Debt For Bond Swap'
+      Debt for bond swap is when a company or individual calls a previously issued bond, exchanging it for another debt instrument. Often, a debt for bond swap swaps one bond for another bond with more favorable terms. For example, if interest rates go up a company may decide to issue new bonds at a lower face value and retire its current debt that carries a higher face value; the company can then take the loss as a tax deduction.
+Debt for Bond Swap and Callable Bonds
+The most common kind of bond used in a debt for bond swap is a callable bond, because a bond must be called in order to be swapped for another debt instrument. If a bond can be redeemed by the issuer prior to its maturity, it is a callable bond. Bonds often have strict rules concerning maturity and interest rates, so in order to operate within the regulations, companies issue callable bonds, which enable the issuer to recall a bond at any time without experiencing any penalties. For example, if interest rates decline since the bond’s inception, the issuing company may want to want to refinance this debt at the lower rate of interest. In this case, the company "calls" its current bonds and reissues them at a lower interest rate. Corporate and municipal bonds are two types of callable bonds.
+Generally a debt for bond swap means a second bond is issued, or swapped for the first, meaning debt for bond swaps are most common when interest rates go down. Because of the the inverse relationship between interest rates and the price of bonds, when interest rates go down a company can call the original bond with a higher interest rate, and swap it out with a newly issued bond with a lower interest rate.
+Though a debt for bond swap does not require an issuance of a second bond, a company may choose to use another kind other debt instrument to replace the original bond. A debt instrument can be any paper or electronic obligation that enables an issuing party to raise funds by promising to repay a lender in accordance with terms of a contract. A debt for bond swap could replace the original bond with notes, certificates, mortgages, leases or other agreements between a lender and a borrower.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

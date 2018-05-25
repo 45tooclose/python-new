@@ -1,0 +1,141 @@
+
+
+    
+                          What is a 'Run On The Fund'
+
+      A run on the fund is a situation in which a hedge fund, or other asset pool, faces a growing number of requests for redemptions from investors. A run on the fund may happen for several reasons, but is usually the result of poor performance of underlying assets. This poor performance motivates investors to request the return of their money.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Hedge Fund                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Redemption                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Fund Manager                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Closed Fund                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Run On The Fund'
+      A run on the fund gains momentum as fund managers are forced to sell assets to meet redemption requests. These forced sales often negatively affect the performance of the fund, especially during a bear market. As the market falls, fund managers need to sell assets to raise the necessary cash, and often must sell at a loss. As redemptions further depress the fund's performance, more investors become frightened and request redemptions, causing a negative feedback loop that in many cases can force the fund to close.
+Many hedge funds defend against runs by allowing managers to suspend the investors’ ability to redeem for a period. Before the 2008 financial crisis, such suspensions were extremely rare, as they signaled to investors that the fund was struggling and may even be forced to close. But during the crisis, many large, famous hedge funds, like hedge fund pioneer Paul Tudor Jones’ BVI Global Fund, suspended redemptions to prevent a run on the fund.
+Example of a Run on the Fund
+Peloton Partners suffered a classic run its $1.8 billion mortgage-backed hedge fund in 2008, after the crash in U.S. real estate prices severely damaged Peloton’s performance. Peloton bets against the subprime real estate and invested heavily in higher-grade mortgages, which enabled it to earn an 87 percent return. But, as the crash continued, even Peloton’s higher-grade investments began to sour. The firm suspended redemptions to prevent investors from fleeing en masse, but these measures were too little, too late. Peloton announced in February 2008 that it was closing its mortgage-backed fund and returning whatever money was left to investors.
+A run on the fund is not just limited to hedge funds. In 2008, a prominent money-market mutual fund called the Reserve Primary Fund suffered a run as the result of its investment in the short-term debt of the failed investment bank Lehman Brothers. Though the fund kept just a fraction of its investments in Lehman debt, spooked investors withdrew nearly two-thirds of the fund’s total assets under management within days of the collapse. Though the fund suspended redemptions, it was not enough to prevent its ultimate failure.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

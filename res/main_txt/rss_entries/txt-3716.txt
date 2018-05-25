@@ -1,0 +1,144 @@
+
+
+    
+                          What is a 'Super PO'
+
+      A super PO is principal-only mortgage security that provides the buyer a cash flow from the principal payments on underlying loans. It is companion security, which is designed to support prioritized tranches within a more substantial collateralized mortgage obligation (CMO). Super POs are priced at deep discounts to face value, and investors receive the full par value through a series of payments.
+Super PO prices are susceptible to movements in interest rates.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Planned Amortization Class (PAC) ...                     
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Super Sinker                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Amortizing Security                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Prepayment Risk                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Super PO'
+      Super POs offer support to broader packages of mortgage-backed securities known as collateralized mortgage obligations (CMO). A CMO is a collection of mortgages which have been securitized to provide the investor with a regular income resulting from the underlying mortgage payments. A typical CMO contains sequenced tranches which pay in a designated order. 
+Super POs provide support to the Planned Amortization Class (PAC) and Targeted Amortization Class (TAC) tranche portions of a CMO. They do this by absorbing excess payments or shortfall payments from the borrowers on the underlying mortgage securities. Movements in interest rates drive the variability of payments. As rates increase, borrowers tend not to prepay, and as a result, the Super POs receive funds slowly which forces the value of the Super PO down. When rates decrease, a Super PO will pay investors more quickly, and the companion tranche will increase in value. 
+Income from CMOs can vary according to prepayment by borrowers. One common CMO tranche is the Planned Amortization Class (PAC). A PAC tranche provides investors with set periodic payments and any variability in prepayment by the underlying borrowers is absorbed by a companion security such as a Super PO. 
+Another tranche is the Targeted Amortization Class (TAC). A TAC pays the investor at a targeted rate, rather than a planned dollar amount as in a PAC. Fluctuations in borrower's prepayment may lead to the TAC paying out higher or lower rates than targeted if the CMO is structured to prioritize payment of the PAC tranche over that of the TAC.
+Super POs vs. Other Companion Tranches
+A CMO which contains Super PO securities will also contain an interest-only (IO) counterpart to account for excess or shortfall interest payments from the prioritized tranches. Interest rates also drive the price of an interest-only (IO) security. The IO will increase as interest rates rise since this causes prepayments to slow. IO securities are used as a hedge against the interest rate risk which is built into a principal-only security. 
+CMOs may also include floating-rate tranches which are tied to a rate such as LIBOR and also act as a hedge against interest-rate risk. Residuals are the lowest form of companion tranche. Residual tranches receive any cash flows remaining after all others tranches have been satisfied. This will generally include both principal and interest, complicating the tax status of this tranche.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

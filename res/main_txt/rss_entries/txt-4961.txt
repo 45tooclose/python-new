@@ -1,0 +1,77 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Warren Buffett's Berkshire Hathaway Inc. (BRK.A) bought 75 million more shares of Apple Inc. (AAPL) in the first quarter of 2018, bringing the total investment to 240.3 million shares worth $42.5 billion.
+Buffett, who has called the iPhone "a very sticky product" in the past, revealed the stake purchase to CNBC on Thursday night. "It is an unbelievable company," he said. "If you look at Apple, I think it earns almost twice as much as the second most profitable company in the United States." (See also: 6 Stocks Warren Buffett Might Buy Next)
+Apple stock was up half a percent in pre-market trading.
+Two years ago, Berkshire surprised investors when it disclosed its first investment of 9.8 million shares in the tech giant. In February, Buffett said the stake grew by about 23 percent since the end of September to roughly 165.3 million shares.
+The legendary investor has said he was afraid of tech stocks in the past because he did not understand the business models and he regrets not buying Alphabet and Amazon shares years ago. The flip phone user believes Apple products have a psychological hold on users, and he views it as a consumer company, according to CNBC.
+On Tuesday, Apple proved Wall Street naysayers wrong when it released its quarterly earnings report. For weeks prior analysts had warned that iPhone demand is flagging based on reports from a few suppliers. (See also: Morgan Stanley: We Were Wrong, Apple to Gain 13%)
+Berkshire will release its first quarter earnings report this weekend as thousands of shareholders will gather in Omaha for the annual shareholders meeting, which is also known as "Woodstock for Capitalists."
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

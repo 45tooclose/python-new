@@ -1,0 +1,98 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Many people dream of starting their own businesses, but not everyone is cut out for this line of work. Being employed by someone else offers a slew of advantages, from health insurance and matching retirement contributions to a regular schedule and the company of coworkers. If you're thinking about striking out on your own, consider carefully whether you have what it takes to be successful.
+Are good leaders made or are they born? No one knows for sure, but successful entrepreneurs tend to share these traits:
+Discipline
+To be successfully self-employed, you need to have the discipline to set work hours, meet deadlines, pursue new clients and avoid tempting distractions.
+Frugality
+To prevent yourself from going broke when your business is new or times are slow, you must be willing to cut back, sometimes way back, on your spending. Remaining self-employed has to be a top priority above buying new clothes or other niceties. It's a good idea to be frugal not just in slow months, but in the good ones as well to give yourself a well-padded savings account to tide you over when your business isn't generating income.
+Self-Confidence
+To successfully sell yourself to others, you have to be your own biggest fan. If you don't believe you're one of the best at what you do, no one else will either. Business will rarely just fall into your lap, so you'll need to be willing to promote yourself and ask for work whenever and wherever possible.
+Good Communication Skills
+Clients won't always make their expectations clear. Rather than guessing what they want, you must not be afraid to ask lots of questions. It's also a good idea to ask for feedback during and after assignments to make sure you're meeting your clients' expectations.
+Humility, Honesty and Integrity
+Few clients will expect you to be perfect, but if you can't fess up and apologize when you make a mistake, you'll get crossed off their lists. When you're self-employed, your reputation is crucial. You don't have the image of a company to fall back on or make up for the occasional bad employee. You are the company and you are the employee. Everything you do needs to reflect well on your business.
+Superb Record-Keeping Skills
+It's very important to know when you sent out invoices, when you were paid, who still owes you money, how much money your business has, how much you have made and how much you need to make. Detailed, accurate records are critical to the financial health of your business and are indispensable for tax purposes. (For related reading, see: 10 Tax Deductions and Benefits for the Self-Employed.)
+Motivation
+You won't become a successful business person by watching TV all day. Even when you think you have a day to relax, don't put your assignments off until the last minute. It's better to get as much done as you can when things appear to be slow because you never know what the next day will bring. Also, forget about turning all your work in on the due date and plan to turn some work in early instead. The faster you complete an assignment, the faster you can move on to the next one, which means more money in your pocket. Beating the occasional deadline also instills confidence in your clients that you can be relied upon. It probably goes without saying that missing a deadline is not acceptable except in the most extreme circumstances.
+Flexibility
+Some times will be busier than others, and assignments will arise unexpectedly. You have to be willing to rearrange both your business and personal schedule to accommodate your clients' requests.
+Ability to Set Boundaries
+While it is a good idea to maintain some degree of flexibility, you also must set boundaries and realistic expectations with your clients. These things don't need to be done explicitly, but rather will become the norm as you teach people how to treat you. Don't answer your phone or email after business hours, don't accept unreasonable deadlines or insurmountable workloads and don't let clients negotiate your invoices down or refuse to pay after the work is done.
+Good Health
+Self-employment does not offer paid sick days, so you'll have to work when you're sick, make up the hours later or accept the lost pay. You also must be able to afford your own health insurance, which may include providing health insurance for your spouse and kids, too. (For related reading, see: Buying Private Health Insurance.)
+Ability to Create Balance
+For workaholic types, working at home means it's difficult to know when to stop and take a break. For those who are better at relaxing, it's equally challenging to get out of lounge mode and start working. Regardless of which category you fall into, when you work for yourself, you'll have to push yourself outside of your comfort zone to keep your work life and personal life in balance.
+Optimism
+You won't always have a lot of work and you won't get all the assignments or clients you want. You have to keep pursuing work, maintain a positive mindset and not take the rejections personally or you'll soon find yourself in a cubicle filling out a W-4.
+The Bottom Line
+Personal characteristics will have a major influence on your potential to succeed as an entrepreneur. Before taking a financial and career risk, make sure to assess whether your personality will contribute to or hinder your prosperity. (For related reading, see: Challenges for Self-Employed Finance Professionals.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '',
+     'leadGenVertical' : '',
+     'leadGenLayout' : '',
+     'leadGenPage' : ''
+    });
+                    
+            
+                

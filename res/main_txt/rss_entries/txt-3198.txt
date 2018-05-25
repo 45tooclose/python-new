@@ -1,0 +1,151 @@
+
+
+    
+                          What is 'Listed'
+
+      Listed is being included and traded on a given exchange. Most exchanges have specific requirements which companies must meet in order to be listed and continue to stay listed.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Listing Requirements                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Listed Security                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Primary Listing                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Exchange                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Listed'
+      Companies are frequently being added to a given exchange, such as the Nasdaq. And occasionally companies that have not fulfilled all necessary listing requirements become delisted for a period of time until they again meet the requirements. Generally, companies prefer to be listed on the major exchanges, such as the NYSE and Nasdaq, since they provide the most liquidity and visibility for a company's stock.
+To get listed on Nasdaq, each company must meet at least one of the four requirement sets, as well as the main rules for all companies.
+NASDAQ Requirements to be Listed
+Companies must have a minimum of 1,250,000 publicly traded shares upon listing, excluding those held by officers, directors or any beneficial owners of more than 10 percent of the company.
+In addition, the regular bid price at time of listing must be $4.00, and there must be at least three market makers for the stock.
+Companies may qualify under a closing price alternative of $3.00 or $2.00 if the company meets varying requirements.
+Each company is also required to follow Nasdaq corporate governance rules 4350, 4351 and 4360.
+Companies must also have at least 450 round lot (100 shares) shareholders, 2,200 total shareholders, or 550 total shareholders with 1.1 million average trading volume over the past 12 months.
+NASDAQ also requires companies to meet all of the criteria under at least one of the following standards:
+Earnings standard: The company must have aggregate pre-tax earnings in the prior three years of at least $11 million, in the prior two years at least $2.2 million, and no single year in the prior three years can have a net loss.
+Capitalization with cash flow: The company must have a minimum aggregate cash flow of at least $27.5 million for the past three fiscal years, with no negative cash flow in any of those three years. In addition, its average market capitalization over the prior 12 months must be at least $550 million, and revenues in the previous fiscal year must be $110 million, minimum.
+Capitalization with revenue: Companies can be removed from the cash flow requirement of the second standard if its average market capitalization over the past 12 months is at least $850 million and revenues over the prior fiscal year are at least $90 million.
+Assets with equity: Companies can eliminate the cash flow and revenue requirements, and decrease its marketing capitalization requirements to $160 million if their total assets total at least $80 million and their stockholders' equity is at least $55 million.
+
+ 
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

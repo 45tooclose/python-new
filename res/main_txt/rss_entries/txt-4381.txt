@@ -1,0 +1,223 @@
+
+
+
+    
+        
+        Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/PersonalFinance/WealthManagement/IC-Video/Article");} else {return "/8397/INV-NA/PersonalFinance/WealthManagement/IC-Video/Article";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/articles/investing/060313/what-determines-your-cost-basis.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/lnBdOj39.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/lnBdOj39-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/content/video/know_your_stock_cost/knowyourstockcostbasis.png?width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "100%",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "lnBdOj39-G9NhEyAa.mp4";
+                
+          
+            document.addEventListener("DOMContentLoaded", function() {
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                        var initializeJWPlayerSetup = function () {
+                            if (new VideoInit().canRun()) {
+                                setUpJwpPlayer();
+                            } else {
+                                new VideoInit().callBack = setUpJwpPlayer;
+                            }
+                        }
+            initializeJWPlayerSetup();
+          });
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "lnBdOj39-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "Know Your Stock Cost Basis ",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };    
+        
+            
+      
+
+    
+
+    
+        Investors buy securities for one major reason: to make money. In order to know whether an investment has provided those longed-for gains, investors need to keep track of its performance. Understanding total cost basis is critical to knowing if an investment is fruitful, and what the tax consequences on it wil be.  
+Although brokerage firms are required to report the price paid for taxable securities to the IRS, for some securities, such as those held for a long period of time or those transferred from another brokerage firm, the historical cost basis will need to be provided by the investor. All of which puts the onus of accurate cost basis reporting on investors.
+When it comes to securities and related financial assets, determining the initial cost basis for only one initial purchase is very straightforward. However, as is usually the case in investing, there can be subsequent purchases and sales as an investor makes decisions to implement specific trading strategies and maximize profit potential to impact an overall portfolio. Throw in a number of other issues that can impact cost basis, and the matter of calculating it accurately for personal records and tax purposes can get more complicated.
+In any transaction between a buyer and seller, the initial price paid in exchange for a product or service will qualify as the cost basis. The equity cost basis is the total cost to an investor; this amount includes the purchase price per share plus reinvested dividends and commissions. Equity cost basis is not only required to determine how much, if any, taxes need to be paid on an investment, but is critical in tracking the gains or losses on an investment to make informed buy or sell decisions.
+What is Cost Basis?
+Cost basis starts as the original cost of an asset for tax purposes, which is initially the first purchase price.  But the initial purchase price is only one part of the overall cost of an investment. As time moves forward, this cost basis will be adjusted for financial and corporate developments such as stock splits, dividends and return of capital distributions. The latter is common with certain investments such as Master Limited Partnerships (MLPs).
+Cost basis is used to determine the capital gains tax rate, which is equal to the difference between the asset's cost basis and the current market value. Of course, this rate is triggered when an asset is sold or the gain or loss is realized. Tax basis still holds for unrealized gains or losses where a security is held but has not been officially sold, but taxing authorities will require a determination of the capital gains rate, which can be either short term or long term. This is also known as the "tax basis” and will be covered in more detail below.
+How is it Calculated?
+Once again, the cost basis of any investment is equal to the original purchase price of an asset. Every investment will start out with this status, and if it ends up being the only purchase, determining the cost is as simple as keeping a record on what the original purchase price was. Note that it is allowable to include the cost of a trade, such as a stock-trade commission. This can also be used to reduce the eventual sales price.
+Once subsequent purchases are made, the need arises to track each purchase date and value. For tax purposes, the method used by the Internal Revenue Service (IRS) is  first in, first out, or FIFO for those familiar with the inventory tracking method for businesses. In other words, when a sale is made, the cost basis on the original purchase would first be used and would follow a progression through the purchase history.
+For example, let's assume Lawrence purchased 100 shares of XYZ for $20/share in June and then makes an additional purchase of 50 XYZ shares in September for $15/share. If he sold 120 shares, his cost basis using the FIFO method would be (100 x $20/share) + (20 x $15/share) = $2,300. The average cost method may also be applicable and simply represents the total dollar amount of shares purchased divided by the total number of shares purchased. If Lawrence sold 120 shares, his average cost basis would be 120 x [(100 x $20/share) + (50 x $15/share)]/ 150 = $2,200.
+IRS publications, such as Publication 550, can help an investor learn which method is applicable for certain securities. Otherwise, an accountant can help determine the best course of action. There are also differences among securities, but the basic concept of what the purchase price is applies. Most examples cover stocks. Bonds are somewhat unique in that the purchase price above or below par must be amortized until maturity. For mutual funds, gains must be paid out annually to shareholders, which triggers a taxable event in taxable (nonqualified) accounts. All amounts will be tracked by a custodian or guidance will be provided by the mutual fund firm.
+Why is Cost Basis Important?
+The need to track the cost basis for an investment is needed mainly for tax purposes. Without this requirement, there is a solid case to be made that most investors would not bother keeping such detailed records. And because taxes on capital gains can be as high as ordinary income rates (in the case of the short-term capital gains tax rate), it pays to minimize them if at all possible. Holding a security for longer than a year will mean any capital gain qualifies for long-term status, which is much lower than ordinary income rates and falls based on income levels.
+In addition to the IRS requirement to report capital gains, it is important to know how an investment has performed over time. Savvy investors know what they have paid for a security and how much in taxes they will have to pay if they sell it. Tracking gains and losses over time also serves as a scorecard for an investor and lets him or her know if trading strategies end up being simply profitable or lucrative over time. A steady string of losses may indicate a need to reevaluate the investment strategy.
+Dividends  
+Straightforward calculations of equity cost basis for a non-dividend paying stock are simple: purchase price per share plus fees per share. Reinvesting dividends increase the cost basis of a stock because dividends are used to buy more shares. For example, if an investor bought 10 shares of ABC company for $1000 plus $10 trading fee and received dividends of $200 in year one and $400 in year two, cost basis would be $1610. If he or she then sold the stock in year three for $2000, the taxable gain would be $390. 
+One of the reasons investors need to include reinvested dividends is because dividends are taxed in the year received and if they are not included in cost basis, the investor will pay taxes on them twice. For instance in the above example, if dividends were excluded, cost basis would be $1010 and the taxable gain would be $990. 
+More Complicated Examples
+Calculating cost basis gets much more complicated as a result of corporate actions. This category includes items such as adjusting for stock splits and accounting for special dividends, bankruptcies and capital distributions, as well as merger and acquisition activity and corporate spinoffs. A stock split, such as a two-for-one split where a company issues an additional share for every share an investor owns, doesn’t change the overall cost basis. But it does mean the cost per share becomes divided by two, or whatever the share exchange ratio ends up being.
+According to CCH Capital Changes, a leading authority in helping the IRS and investors track cost basis for corporate actions, there are more than one million corporate action activities each year. Determining the impact of corporate actions isn’t overly complicated, but it can require sleuthing skills such as locating a CCH manual from a local library or heading to the investor relations site of a company’s website. These sources usually provide plenty of detail on M&A activity or spinoffs.
+Mergers
+When a company you own is acquired by another company, the acquiring company will issue either stock, cash or a combination of both to complete the purchase. Payouts for cash will result in having to realize a portion as a gain and pay taxes on it. The issuance of shares will likely keep capital gains or losses as unrealized, but it will be necessary to track the new cost. Companies provide guidance on the percentages and breakdowns. This is also the case when a company spins out a division into its own new company. Some of the tax cost will go with the new firm, and it will be necessary for the investor to determine the percentage, which the company will provide.
+For example, if XYZ company buys ABC company and issues two shares for every one share previously owned, then the investor referred to in the previous example now owns 20 shares of XYZ company. Companies need to file Form S-4 with the SEC, which outlines the merger agreement and helps investors determine the new cost basis.
+Bankruptcies
+Bankruptcy situations are even more complicated. When companies declare bankruptcy, the impact on shares varies. Declaring bankruptcy does not always indicate that shares are worthless. If a company declares Chapter 7, then the company ceases to exist and the shares are worthless; but if a company declares Chapter 11, then the stock may still trade on an exchange or over the counter (OTC) and still retain some value. Therefore the initial cost basis calculations apply. 
+However if the bondholder of a company emerging from Chapter 11 is given common stock in exchange for some of the bonds held prior to declaring bankruptcy, then the cost basis is more complicated. The cost basis would typically be considered the fair market value of the common stock on the effective date; this value is laid out in the Chapter 11 emergence plans.
+Stock Splits
+Luckily, not all corporate actions complicate cost basis calculations; declaring a stock split is one such action. For example, if a company declares a 2 for 1 split, instead of owning 10 shares of ABC company, an investor would own 20 shares. However, the initial cost of $1000 stays the same, so the 20 shares would have a price of $50 per share and not $100.
+Inherited Stocks and Gifts
+In addition to corporate actions, other situations can impact the cost basis; one such situation is receiving a stock gift or inheritance. Calculating cost basis for inherited stock is much easier than on a gift. Cost basis from inheritance becomes the average price on the date of the benefactor's death. Conversely, gifted stock is complicated. If an investor sells the stock, cost basis becomes the purchase price on the date the gifter bought the stock, unless the price is lower on the date of the gift.  If this is the case, the tax cost can be reduced, since the stock has suffered a loss in value.
+How to Keep it Simple
+Several methods can help minimize the paperwork and time needed to track cost basis. Companies offer dividend reinvestment plans (DRIPs) that allow dividends to be used to buy additional stock in the firm. If at all possible, keep these programs in a qualified account where capital gains and losses don’t need to be tracked. Every new DRIP purchase results in a new tax lot. The same goes for automatic reinvestment programs, such as investing $1,000 every month from a checking account. New purchases always mean new tax lots.
+The easiest way to track and calculate cost basis is through brokerage firms. Whether an investor has an online or traditional brokerage account, firms have very sophisticated systems that maintain records of transactions and corporate actions related to stocks. However, it is always wise for investors to maintain their own records by self-tracking to ensure accuracy of the brokerage firm's reports. Self-tracking will also alleviate any future problems if investors switch firms, gift stock or leave stocks as inheritance. 
+For stocks that have been held over many years outside of a brokerage firm, investors may need to look up historical prices to calculate cost basis. Historical prices can be readily found on the internet via sites such as Yahoo Finance or USA Today. For investors that self-track stocks, financial software such as Intuit's Quicken or Microsoft Money, or simply using a spreadsheet like Microsoft Excel, can be used to organize the data. Lastly, websites such as GainsKeeper or Netbasis are available to provide cost basis and other reporting services for investors. All of these resources make tracking and maintaining accurate records easier. 
+The Bottom Line
+Equity cost basis is important for investors to calculate and track when managing a portfolio and for tax reporting. Calculating equity cost basis is typically more complicated than summing the purchase price with fees. Continual monitoring of corporate actions is important to ensure that investors understand the gain/loss profile of a stock position, as well as ensuring that capital gains/losses are accurately reported. Although brokerage firms tend to track and report this information to the IRS, there are situations where they do not have it, such as in the case of a gifted stock. In addition to brokerage firms, there are many other online resources available to assist in maintaining accurate basis.
+The concept of cost basis is basically straightforward, but it can become complicated in many ways. Tracking cost basis is required for tax purposes but also is needed to help track and determine investment success. The key is to keep good records and simplify the investment strategy where possible.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

@@ -1,0 +1,82 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        More on BitcoinFormer Paypal CEO Calls Bitcoin A ScamGoldman Hires Former Crypto TraderICO Tokens Are Securities: Former CFTC ChiefBytecoinBitcoin ETFs may have stalled, but that may not be enough to stop an explosion of cryptocurrency derivatives from coming to the markets this year. A spate of news reports are harbingers to new derivatives expected in the markets. From privately-funded investment funds to public exchanges, a bunch of players are gearing up to launch or participate in the cryptocurrency derivatives ecosystem. (See also: SEC Blocks Bitcoin ETFs Again; Rejected Winklevoss Bid In 2017). 
+The funds have already started rolling in. LedgerX, a bitcoin trading platform, told Coindesk that it has witnessed a sevenfold increase in volume in the six months following its launch of cryptocurrency derivatives. In its first week of trading, the platform had 176 contracts being traded. But that figure has increased by 40 percent monthly. Currently there are 2,000 open-interest contracts on the platform.     
+Who Is Preparing Cryptocurrency Derivatives? 
+In March, Cboe president Chris Concannon revealed his exchange’s plans to build a “crypto-complex” and added that digital currencies were “here to stay”. At the same conference, Cboe chief executive officer Ed Tilly said that the exchange was interested in launching cryptocurrency-related Exchange-traded notes (ETNs) and Exchange-traded funds (ETFs). Cboe beat CME to the punch in introducing bitcoin futures last year. 
+Grayscale investments, whose fund had spectacular returns last year, is also doubling down on cryptocurrency derivatives. It announced plans to launch four new single currency crypto funds and another fund consisting of a basket of cryptocurrencies later this year. Michael Sonnenshein, managing director of the company, said the new additions would bring the total number of cryptocurrency-related investment funds in the company to eight by the end of this year. (See also: Grayscale Launches Four New Investment Funds). 
+New York-based TrueEx was the first exchange approved by the Commodity Futures Trading Commission (CFTC) for Designated Contract Marketplace (DCM) swaps. Now it has partnered with Consensys, a blockchain technology company to promote Ethereum, to form a regulated derivatives marketplace for digital assets. One of its goals is to create a benchmark rate for ether and create “the infrastructure needed for the broad adoption of digital assets by the institutional community.” Then there is the big daddy of them all – Goldman Sachs. The firm hired a cryptocurrency trader, who specialized in derivatives in an earlier avatar, to explore “how best to serve” its clients. (See also: Goldman Hires Crypto Trader). 
+How Crypto Derivatives Make A Difference To Crypto Markets 
+At first glance, the launch of cryptocurrency derivatives might seem like a unrelated development to crypto trading at numerous exchanges. But it has a direct bearing on cryptocurrency markets in two ways. 
+First, cryptocurrency derivatives could boost liquidity and trading volumes for coins other than bitcoin. Both Cboe officials asserted that their “crypto-complex” would include other coins, such as Ethereum and Litecoin, besides Bitcoin. Grayscale has also added Ethereum and Zcash to the list of cryptocurrencies supported by it. A broader approach to crypto markets beyond bitcoin will raise awareness of alternatives. 
+Even as they have pumped money into bitcoin, investors have largely shied away from other cryptocurrencies. Their approach is best exemplified by the glaring disparity in trading volumes for the top three cryptocurrencies. When this piece was written, bitcoin had trading volumes of $8.3 billion. Ethereum, the second most valuable cryptocurrency, had less than 60% of that figure with trading volumes of $2.7 billion. Ripple was the third most valuable cryptocurrency and had trading volumes of $0.5 billion. More vectors for investing through derivatives could make institutional and regular investors comfortable with other cryptocurrencies and generate cash infusions into their markets. In turn, this could result in less volatility in their prices. 
+Second, the introduction of more derivatives by private players could ratchet pressure on regulators to take a second look at their concerns regarding cryptocurrencies. Already, there is talk of bringing cryptocurrencies under the regulatory umbrella. All major exchanges with the United States have expressed optimism regarding the state of cryptocurrencies. Derivatives regulated by government agencies might not be such a bad idea and could help tamp down on their volatility.
+Investing in cryptocurrencies and Initial Coin Offerings ("ICOs") is highly risky and speculative, and this article is not a recommendation by Investopedia or the writer to invest in cryptocurrencies or ICOs. Since each individual's situation is unique, a qualified professional should always be consulted before making any financial decisions. Investopedia makes no representations or warranties as to the accuracy or timeliness of the information contained herein. As of the date this article was written, the author owns 0.01 bitcoin.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

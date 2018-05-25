@@ -1,0 +1,50 @@
+
+ 
+            
+            
+                              
+                              
+              
+              
+              
+                Security  
+              
+              
+                                
+                    
+                       
+                      
+                        13 mins ago    |
+                          By Kai Sedgwick -   |
+                          1118                                                                    
+                      
+                        Exchanges Suspend ERC20 Token Deposits After Discovery of Smart Contract Bug                                              
+                    
+                                      
+                    
+                        
+
+            
+
+
+Ethereum’s smart contract bugs just keep on coming. Exchanges including Okex, Poloniex, Coinone, and Hitbtc today suspended deposits of ERC20 tokens following the discovery of a batch overflow bug written into the smart contracts governing numerous coins. The news comes in the same week that the ethereum community voted against restoring the lost ether that was locked up in the Parity smart contract bug last year.
+Also read: Report Claims 34,000 Ethereum Smart Contracts Are Vulnerable to Bugs
+Ethereum Tokens Battle a Nasty Bug
+Creating an ethereum token that is free from exploitable bugs is a lot harder than it sounds. Earlier this year researchers claimed to have found 34,000 ethereum smart contracts that are vulnerable to bugs and a blog post authored this week has zeroed in on one in particular: a batch overflow bug that affects ERC20 smart contracts. Its discovery is serious enough to have prompted Okex to announce the suspension of ERC20 token deposits, writing:
+
+We are suspending the deposits of all ERC-20 tokens due to the discovery of a new smart contract bug – “Batchoverflow”. By exploiting the bug, attackers can generate an extremely large amount of tokens, and deposit them into a normal address. This makes many of the ERC-20 tokens vulnerable to price manipulations of the attackers.
+
+Okex added: “To protect public interest, we have decided to suspend the deposits of all ERC-20 tokens until the bug is fixed. Also, we have contacted the affected token teams to conduct investigation and take necessary measures to prevent the attack.” Numerous other exchanges have followed suit.
+The SMT smart contract shows clear signs of exploitation
+Squishing Bugs Is a Never-Ending Battle
+The possibility of attackers being able to steal, freeze, or duplicate ERC20 tokens is a nightmare scenario for any projects building on the ethereum protocol, as well as for existing tokens, whose teams will now be closely scrutinizing their code for vulnerabilities. One of the tokens affected is Smartmesh (SMT), an ERC20 that is tradeable on Huobi, Gate.io, Hitbtc, and Okex. Its smart contract currently shows signs of blatant exploitation, with a token balance and token value that run to over 30 figures. Hundreds of billions of SMT have been transferred from the Smartmesh smart contract in the past 24 hours.
+
+The batch overflow blog post published on April 22 also identifies the Beautychain (BEC) token as having fallen prey to the same exploit. Its author writes: “We further run our system to scan and analyze other contracts. Our results show that more than a dozen of ERC20 contracts are also vulnerable to batchoverflow. To demonstrate, we have successfully transacted with one vulnerable contract (that is not tradable in any exchange) as our proof-of-concept exploit.” 
+While the ERC20 tokens that have been affected by this exploit appear to comprise lesser known coins, the risk the bug presents is not limited to these projects alone. If attackers can create tokens out of thin air, they can then trade these on exchanges for ethereum or bitcoin, which has the potential to affect the price of these assets and to affect confidence in the ethereum ecosystem in particular. With the war for next generation blockchains heating up as competitors such as EOS prepare to launch, smart contract bugs are a burden that ethereum could do without.
+Do you think ERC20 bugs can be eradicated altogether, or is there likely to be more vulnerabilities still undiscovered? Let us know in the comments section below.
+
+Images courtesy of Shutterstock, and Coinmarketcap.
+
+Need to calculate your bitcoin holdings? Check our tools section.
+
+        

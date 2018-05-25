@@ -1,0 +1,81 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Amazon.com Inc. (NASDAQ: AMZN) is one of the biggest retail and technology companies in the country with a market capitalization that exceeds $667 billion. Last year, the company also announced plans for a second headquarters in the United States, which it said will create 50,000 jobs and billions of dollars in construction investments in the new location. Recently, the company's stock has come under pressure after criticism from U.S. President Donald trump.
+The company was founded in July 1994 by Jeffrey Bezos, initially only as an online bookstore. As the company evolved, it began selling DVDs, CDs, and streaming music and video services. It then began offering a wide variety of products such as cloud storage, video games, software and electronics, clothing, toys and food. In fact, there are few things you can't get on Amazon. According to the company's 2017 financials, it employed approximately 566,000 people, had operating cash flow of $18.4 billion and had revenue of $177.9 billion.
+Per its latest proxy filing, Jeff Bezos, Andrew R. Jassy, Jeffrey M. Blackburn and Jeffery Wilke were Amazon's four largest individual shareholders as of February 20, 2018.
+Jeff Bezos
+The number-one shareholder in the company, with approximately 78.83 million shares, is Amazon's chief executive officer (CEO) and founder, Jeff Bezos. Bezos was born in 1964 in Albuquerque, New Mexico and studied computer science and electrical engineering at Princeton University. Upon graduating, Bezos went to work for the Wall Street firm D.E. Shaw, becoming the youngest senior vice president in its history. He left the company and started Amazon in 1994, initially setting up the company in his garage in Seattle. After Bezos and a few employees wrote the software for Amazon, the company began to make $20,000 per week, selling products in 45 different countries.
+In September 2000, Bezos founded an aerospace manufacturer and spaceflight company called Blue Origin. In 2013, Bezos paid $250 million for the Washington Post. On July 27, 2017, Jeff Bezos surpassed Bill Gates as the world's richest man with a net worth of over $124 billion.
+Andrew R. Jassy
+With 85,955 shares, Andrew R. Jassy is Amazon's second-largest individual shareholder. Jassy is the CEO of Amazon Web Services, a subsidiary of Amazon that offers various cloud computing services across the globe. Before Jassy became the CEO of Amazon Web Services on April 13, 2016, he served as senior vice president of the group. With a team of 57 people, Jassy founded Amazon Web Services in 2003 and helped it grow into a $6 billion company with 1 million users in 190 different countries. He attended Harvard University, earning a bachelor's degree and master's of business administration (MBA). Prior to joining Amazon, he worked at Coupa Software Inc. and founded a marketing consulting company, serving as its manager.
+Jeffery Wilke
+Jefferey Wilke is the CEO Worldwide Consumer for Amazon since April 2016 and with 83,979 shares also the third-largest individual shareholder in the company. Wilke joined Amazon in 1999 as vice-president and general manager, and served as the senior vice-president for the consumer business prior to his current role. He holds a BSE degree in Chemical Engineering from Princeton University and underwent graduate studies at MIT's Leaders for Global Operations (formerly Leaders for Manufacturing) program.
+Jeffrey M. Blackburn
+Jeffrey M. Blackburn is the senior vice president of business development and digital entertainment Amazon.com, and has been at the company since 1998. He is also the head of Amazon's M&A, investments and strategic business development worldwide. Blackburn is the fourth-largest individual shareholder with his 63,350 shares. Prior to joining Amazon he was an associate at both Deutsche Bank and Morgan Stanley in Silicon Valley. At Deutche he worked on Amazon's IPO. He holds his undergraduate degree from Darthmouth College and an MBA from Stanford University. 
+ 
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

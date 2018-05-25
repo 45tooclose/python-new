@@ -1,0 +1,139 @@
+
+
+    
+                          DEFINITION of 'Itemized Statement'
+
+      An itemized statement is a periodic document issued by a financial institution, such as a bank or brokerage firm, to its customers detailing all account activity for the period. Itemized statements include deposits, credits, debts, fees and all other pertinent activity. Usually, this information is presented in chronological order, although it may be broken down in several different ways for the customer's convenience.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Combined Statement                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Bank Statement                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Descriptive Statement                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Income Statement                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Itemized Statement'
+      Itemized statements can be issued for many types of accounts and financial products. Itemized statement of bank card accounts will list the names of all debiting merchants next to each terminal entry. ATM locations are typically listed for debit card withdrawals. Itemized statements used to be considered a premium service for preferred customers by many institutions, but computerized recordkeeping has made them commonplace today.
+Example of an Itemized Statement
+For example, Bert has a brokerage account and bank account with XYZ Bank and Brokerage. Every month, he receives an itemized statement breaking down all of the trading, credit, debit and fee activity within his account.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

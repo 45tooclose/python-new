@@ -1,0 +1,86 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Newcomers to the financial industry will find that cold calling can still be an effective method of garnering clients and building a book of business. While conducting investor seminars and visiting corporations to assist in the administration of their retirement plans are excellent alternatives to cold calling, sometimes cold calling is still beneficial, or even required. It only works if you do it well, though, so read on for a list of tips and strategies to be included in cold call scripts.
+Don't Sell on the First Call
+Many freshly-minted brokers make the mistake of trying to make a sale the very first time they speak to a prospective client. In many cases, they are so eager to open an account that they give the impression of ramming stocks down the prospect's throat. Being too persistent, however, will cause many prospective clients to recoil. Instead, give the prospect two or three stocks to keep an eye on – ones you believe will do well. It's a good idea to avoid sharing your very best ideas with non-clients, because your next pick (if and when they become your clients) may suffer in comparison with your first picks. Essentially, you want to give your prospective clients three stocks that you think have the greatest potential for appreciation, even if that growth is relatively small.
+By providing prospective clients with two or three recommendations – instead of just one – you will also be hedging your bets, while evincing an understanding of a portfolio approach to asset management. Remember – anything can happen in the stock market, and it is not uncommon for even the best companies to trade lower in some markets. Finally, hearing the name of just one stock, your prospect may get the impression that you are after their money for one stock and one trade, and this is surely not how you want to commence a relationship.
+After the initial conversation, wait a couple of weeks or months, then follow up with the prospect and review the picks you gave them. Odds are, if your selections have done well, the prospect will be more interested in talking to you and hearing your next ideas. This is what's known as a 'soft-sell' approach.
+Don't Mail Things
+There is an old saying in the brokerage industry: "mailers are failers". This doesn't mean that you shouldn't provide the potential client with the information he or she requests, but try to do what you can by email. This keeps the prospect involved. If he or she is willing to go to a website that describes your company and your talents, while offering access to your company's research, you'll probably be better off. The more you engage your potential clients and give them the opportunity to participate in learning more about you and your firm, the more interested they are likely to be.
+Emphasize Your Talents
+If you have experience with estate planning or retirement plans, or if you can present a narrative about how you've helped customers achieve their financial goals, you'll make more headway than if you simply pitch the prospect stocks to buy. The prospect will need a reason to have confidence in you before sending money your way.
+Ask Questions, But Don't Get Too Personal
+A good salesman – and a solid advisor – asks plenty of questions. This is how you will find out what the prospect's financial goals and dreams are. Still, remember that they don't know you, and therefore they will be reluctant to discuss intimate details about their current stock holdings. Brokers who go for the throat and ask these personal questions on the very first call are more likely to fail. Better to leave the prerogative of revealing this information up to your prospects by suggesting this: once they get to know you and learn about your firm and your capabilities, perhaps they would be willing to discuss their assets and goals with you then. This allows you to sell the potential client on the advantages of dealing with you and your firm without being the stereotypical pushy salesmen.
+Listen To The Prospect's Responses
+Remember: we have two ears (and just one mouth) for a reason. In other words, brokers can benefit from listening more and talking less. Listen to whatever your prospective clients say on the phone, because even though they may not open up to you over the first few calls, they sometimes release valuable information that can help improve your odds of making a sale. For instance, they may talk about their wife, kids, or large mortgage. They may also mention the death of a relative, or a recent change of jobs. Life-changing events such as these present reasons why a prospect may need the help of a financial professional. It is your job to show them this and to present yourself as the best possible candidate for the job.
+Set a Date to Call Again
+The first telephone call you make to a prospective client is an introduction – not a sales call. It allows both the prospect and broker to get to know each other, and provides the opportunity to ask some basic questions regarding the prospect's financial position. At the end of the call, brokers should say that they would like to follow up in a few weeks or months, and suggest a specific date to do this. Of course, this means that you should follow up with the prospect on this date. This will show them that you are professional, organized, and mean business. (To learn about what clients expect from their brokers, see Is Your Broker Acting In Your Best Interest?)
+The Bottom Line
+Cold calling will likely continue to be a necessary part of being a broker; particularly for newer brokers, as they build their book of business. Still, cold calling doesn't have to be a hard sell. The most successful brokers emphasize their firm's reputations and their talents, and listen to what prospective clients have to say. If you follow these simple tips, it is likely that you'll succeed at using cold calling to build up your business.
+To continue reading on this subject, see Making The Most Out Of Your Day, Alternatives To The Cold Call.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

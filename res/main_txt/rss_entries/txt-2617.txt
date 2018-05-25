@@ -1,0 +1,82 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Facebook, Inc. (NASDAQ: FB) has established itself as the leading social media giant with a market capitalization of nearly $463 billion. When FB issued its initial public offering (IPO) on May 18, 2012, many mutual funds already snapped up shares on the private market. Thereafter, these funds spread their shares of Facebook across many funds. Although FB's stock price has gone on a roller coaster ride, those funds that held on to shares benefited from its high growth rate. It is important to note that these funds have ownership of the Facebook Class A shares, and not the Facebook Class B shares that carry heavier voting rights.
+In March of 2018, Facebook stock saw huge dips on the news that millions of users' personal data had been harvested for political purposes by Cambridge Analytica, a political data/strategy firm. This news has investors abandoning Facebook in droves, and has seen the social media giant's market cap drop by over $50 billion. 
+Here are the three mutual funds that hold the most Facebook stock in their portfolios:
+Vanguard Total Stock Market Index (VTSMX)
+The  Vanguard Total Stock Market Index was launched in April 1992. Since then, its assets have grown to more than $72 billion, and it invests primarily in U.S. large and giant cap stocks. Its portfolio of 3,637 holdings has 19.4% allocated to the technology sector, 20.5% to financial services and 12.5% to healthcare. The top 10 holdings have 17.7% allocation and include highly reputable companies such as Apple, Inc., Microsoft, Amazon.com and Johnson & Johnson.
+VTSMX has generated a 10-year annual average return of 9.62% as of March 31, 2018. Its annual expense ratio stands at 0.14%. VTSMX is most appropriate for investors looking for very broad diversification and exposure to major U.S. corporations at a low expense ratio, and with emphasis on technology and the financial services sectors.
+As of March 31, 2018, Facebook accounted for 1.4% of the fund's portfolio, and it was the sixth-largest holding. On the other hand, the fund's 59.1 million Facebook shares give it a 2.03% stake in the company.
+Fidelity Contrafund (FCNTX)
+Launched by  Fidelity in May 1967, the Fidelity Contrafund seeks to provide capital appreciation by normally investing in common stocks with growth characteristics and/or value characteristics. It charges a net expense ratio of 0.74%. The fund invests in U.S. equities (91.21% allocation) and foreign equities (5.74% allocation).
+The fund's top sector allocations are 40.2% in technology, 18.4% in financial services and 14.65% in consumer discretionary. Facebook is its largest single stock bet, accounting for 5.06% of the fund's portfolio. The Fidelity Contrafund has a 10-year annual average return of 10.59% as of March 31, 2018. The fund carries a low-to-moderate degree of risk, but it has the potential to generate high returns. The fund has the second highest amount of Facebook shares, with over 49 million to its name. 
+Vanguard 500 Index Fund Investor Shares (VFINX)
+The Vanguard 500 Index Fund Investor Shares seeks to provide investment results corresponding to the price and yield performance of the S&P 500 Index, its benchmark index, with a high degree of positive correlation. VFINX was issued by Vanguard in August 1976, and has assets of $400.6 billion. VFINX is managed by the Vanguard Equity Investment Group and charges an annual expense ratio of 0.14%.
+To achieve its investment objective, VFINX implements an indexing strategy and invests nearly all of its total assets in stocks included in the S&P 500, with approximately the same proportions as the weightings in the index.
+The fund allocates about 24.9% of its assets to the information technology sector, with 14.7% to financial services and 13.7% to the healthcare sector. It owns 42 million shares, or 1.46% of the outstanding shares, in Facebook, making it the third-largest mutual fund holder of facebook. VFINX's Facebook bet accounts for 1.69% of the fund's total assets, and was the sixth-largest holding its portfolio.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

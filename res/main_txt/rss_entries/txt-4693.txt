@@ -1,0 +1,89 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Since Tesla produced the first Roadster sports car in 2008, Tesla Motors Inc. (NASDAQ: TSLA) and its chief executive officer (CEO) Elon Musk have cemented their status as icons of technology and innovation. Now with big corporations like PepsiCo., Wal-Mart and Anheuser-Busch Inbev placing big orders for the recently unveiled electric semi-autonomous truck, Tesla is digging in deeper.
+While automakers such as Ford Motor Company (NYSE: F) and General Motors Company (NYSE: GM) have dabbled in electric vehicles as part of their larger lineups, Tesla is the most well-known name focusing solely on electric cars. But as the competition is increasing, Tesla has come under fire for production issues, slow deliveries and burning through cash. As of early 2018, Tesla had sold more than 265,000 electric cars worldwide, with thousands of more electric cars on pre-order.
+
+Tesla is Musk's fourth big technology venture, following successful launches of Zip2, PayPal Corporation (NASDAQ: PYPL) and SpaceX. Most people are probably familiar with the Tesla story, but here are a few things that people may not know about the company and its leader.
+Tesla Wasn't Exactly Founded by Musk
+When it comes to Tesla and Musk, it's difficult to think of one without the other. With that type of connection, many may assume that Musk is the founder of the company, but that's actually not the case.
+Martin Eberhard and Marc Tarpenning founded Tesla in 2003. Musk didn't join the company until 2004, when he led the company's Series A round of investment, joining Tesla's board of directors in the process. This fact is a bit complicated by the fact that the company considers Musk a founder in its corporate governance. This hasn't set well with Eberhard, who attempted to sue Musk in 2009 for "changing history." 
+Tesla's Designs Are Open-Sourced
+On June 12, 2014, Musk posted a blog entry on Tesla's website titled "All Our Patents Belong to You." In the post, Musk talks about his goal of creating sustainable transportation for everyone, and he felt that enforcing patents on Tesla's technology would inhibit that goal. In essence, Musk said that he wanted the world to move in this direction, even if it came at Tesla's expense. Anybody with the time, resources and motivation could build their own electric car by using Tesla's own blueprints.
+Musk Spent Just Two Days in Grad School
+In 1995, Musk graduated from the University of Pennsylvania with degrees in physics and economics. Upon completion of those programs, he moved to California to begin work towards a Ph.D. in physics at Stanford. Musk didn't take long to decide that the graduate program wasn't for him. He left Stanford after just two days to focus on his software company, Zip2, instead.
+Tesla's Sales Model Is Illegal in Most States
+Tesla's former direct-to-consumer sales model is unique in the auto industry, but in most places, it's actually illegal.
+Tesla, until recently,  didn't have any dealerships. Instead, it operated showrooms where consumers could see some of the vehicle models up close and learn about their features. There were no sales people, no test drives and, in most cases, the showroom personnel wouldn't even quote a price. Anybody wishing to buy a Tesla needed to go online, order one and wait for it to be delivered.
+Most states have laws requiring that vehicles sales be completed through licensed dealerships. With Tesla previously operating zero dealerships, the company would not be allowed to sell vehicles directly to the consumer, and would instead be left with only the online sales option. Some states are beginning to soften their stance on this requirement, and Tesla has begun changing to sell cars in their showrooms and specific dealerships
+Tesla Comes With a Built-In Insane Mode
+Models with the P85D engine can flip the car to Insane mode, which puts all of the vehicle's power into acceleration at once, and covers the distance in 3.2 seconds. Not to be outdone, cars with the P90D engine have a similar Ludicrous mode, a clever nod to "Spaceballs," one of his favorite films. 
+Elon Musk Doesn't Have a Salary
+Musk isn't scraping to get by, but he also isn't living on a week-to-week paycheck either. Musk's payment plan recently changed so that he gets massive payouts when the company hits specific financial goals. If the company hits its goals (a market cap of $650 billion), Musk could see a payday of up to $55.8 billion, but if they don't, he could get no payment.  (See also: The Top Tesla Shareholders (TSLA))
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

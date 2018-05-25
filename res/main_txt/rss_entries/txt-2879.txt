@@ -1,0 +1,141 @@
+
+
+    
+                          WHAT IS 'Office of Federal Housing Enterprise Oversight (OFHEO)'
+
+      The Office of Federal Housing Enterprise Oversight (OFHEO) was a federal regulatory body that oversaw the government-sponsored enterprises , Freddie Mac and Fannie Mae until the Federal Housing Finance Agency replaced it in 2008.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            U.S. House Financial Services Committee                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Government-Sponsored Enterprise ...                     
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Agency Swap Program                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Agency Security                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Office of Federal Housing Enterprise Oversight (OFHEO)'
+      OFHEO was established as an independent entity within the Department of Housing and Urban Development by the Federal Housing Enterprises Financial Safety and Soundness Act of 1992. The OFHEO worked to ensure the capital adequacy and financial safety of the two housing GSEs. OFHEO's mission was to promote housing and a strong national housing finance system by ensuring the safety and soundness of Fannie Mae and Freddie Mac. It also set the annual conforming loan limits. The Federal Housing Finance Agency was created by the merger of the OFHEO, the Federal Housing Finance Board and other functions.
+The conservator role
+The FHFA absorbed the legal and regulatory authority of the entities it replaced, including the authority to place GSEs into receivership or conservatorship. Since 2008, FHFA has served as conservator of GSEs Fannie Mae and Freddie Mac. GSEs have an implicit guarantee from the government that they will not be allowed to fail. Their aggregate loans in the secondary market make them the largest financial institutions in the US. A collapse of any GSE could lead to a severe market downturn, which could cause an economic crisis. Following the 2008 subprime mortgage crisis, Fannie Mae and Freddie Mac received federal assistance almost immediately to mitigate the negative impact that the default on subprime mortgages had on the economy.
+In its GSE conservator role, the FHFA has three goals. It seeks to maintain credit availability and foreclosure prevention activities for new and refinanced mortgages to foster liquid, competitive, and resilient national housing finance markets. In addition, it works to decrease taxpayer risk by increasing the role of private capital in the mortgage market. And, the FHFA seeks to construct a new single-family securitization infrastructure that is adaptable for use by future participants in the secondary market. The secondary mortgage market trades existing mortgages and mortgage-backed securities. The FHL Banks system that FHFA oversees provides funding for the U.S. mortgage markets and financial institutions. Its provides member thrift institutions, commercial banks, credit unions, insurance companies, and certified community development financial institutions with a source of funding for mortgages and asset-liability management, liquidity for short-term needs, and additional funds for housing finance and community development. 
+The FHFA is a member of the Financial Stability Oversight Council, which is charged with identifying risks to the financial stability of the United States, promoting market discipline and responding to emerging risks to the stability of the United States' financial system. FHFA is not funded by Congress; it receives funding from the entities it regulates.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

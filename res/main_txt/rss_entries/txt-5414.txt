@@ -1,0 +1,210 @@
+
+
+
+Talk the Crypto Talk: Some Jargon You Need to Master
+Want to sound like a crypto expert? Start by getting familiar with some of the lingo.
+
+
+ by  Komfie
+Manalo,
+17 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  Cryptocurrencies and blockchain have been all the rage for a while now. Almost everybody you meet on the street has either invested, planning to or at least heard of those. Still, most do not have sufficient information to understand the nascent technology.
+Do not fret though. Even veteran investors do not fully comprehend this phenomenon because blockchain and cryptocurrencies are still evolving, and we are only starting to realize and accept their many benefits.
+Indeed, a study by cloud services provider intY showed that 41% of Brits have no clear understanding of what blockchain is and believe it has something to do with funeral financing.
+In case you want to pass yourself off as a crypto expert, here is some jargon you need to learn, with explanations courtesy of Business Insider’s Katie Canales.
+
+HODL (Hold On for Dear Life)
+This example of crypto lingo has a rather curious origin.  HODL started out as a joke when a member of the Bitcoin message board created a post with the subject line “I AM HODLING.” He wrote that in December 2013 to inform the group he was “holding” his Bitcoin position.
+Apparently, the typo in the subject line became popular within the Bitcoin community, and memes were made about it. Bitcoin fans started using HODL to mean "hold on for dear life" for a long position on Bitcoin regardless of the price swings.
+To the Moon
+The phrase “to the moon” has been adopted to describe dramatic upward movements in cryptocurrency prices. “Mooning” denotes that the price of a digital currency has peaked. When you hear someone ask “When moon?” it means the person is asking about the appropriate time to divest his or her digital currency holdings before prices go down.
+When Lambo
+Cryptocurrencies made many investors instant millionaires (and some billionaires) when Bitcoin’s price peaked at nearly $20,000 in December 2017. “When Lambo" is a laconic way of asking someone when they will make enough money to buy a Lamborghini. In other words, when their digital currency investments will have them flush with cash.
+Hyperbitcoinization
+The term is used by Bitcoin investors to describe their dream scenario: a world where fiat currencies have become devalued and replaced by Bitcoin and other digital currencies.
+This is only a fraction of the vocabulary in circulation. The crypto community has also borrowed phrases from other industries - for example, whale and FUD (fear, uncertainty, and doubt) - and tweaked existing words to fit its needs (bitshaming, which refers to making fun of Bitcoin holders who have failed to get rich). The bottom line is you need to DYOR (do your own research) and pick up some jargon if you want to fit in with the crypto crowd. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

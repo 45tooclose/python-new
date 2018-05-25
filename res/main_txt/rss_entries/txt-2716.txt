@@ -1,0 +1,79 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        MIT Technology Review is prepared to take down the world’s most popular cryptocurrency!
+Technology writer Morgan Peck has published a plan stating three different ways that could help to get rid of Bitcoin.
+Option One: Government Takeover
+No, Morgan is not suggesting that Bitcoin be taken over by the government. Instead, the plan is that governments create their own digital currencies – called fedcoins – with improved features over those offered by Bitcoin and controlled by the likes of trusted institutions like the Federal Reserve Bank. The network nodes could operate like the institutional banks - akin to JP Morgan and Bank of America – who will be responsible for a select group of addresses on the blockchain and for all the transactions and activities occurring for those. The Fed would act as the final arbiter.
+Fedcoin and its network would help with tasks including automatic collection and filing of taxes, facilitating transactions for the purchase of groceries, trading and investments, and all regular transactions. Citing success in a simulation run in 2016 by the Bank of Canada on an Ethereum-based platform, launching such a currency in regulatory purview can be a game changer. (See also, How The US Government Handles Its Massive Stash Of Bitcoins?)
+Option Two: Facebook Sneak Attack
+This option banks on the massive popularity of world’s largest social media platform, which can be used to topple bitcoin. Facebook would adopt Bitcoin and join the Bitcoin network as one of the network operators and then launch its own Facebook-hosted bitcoin wallet. All its 2.2 billion users could be integrated with the Facebook wallet. Promotional activities, like paying token amounts for like, share, post, and watch ads, can let users start earning bitcoins through the Facebook Bitcoin system, and Facebook can launch a mining operation in the background to gain control of the majority. Once they have a sufficient number of coins, then similar to a Bitcoin fork, (like the birth of Bitcoin Cash) fork out to a new, better currency on the Facebook platform, which would lead to doomsday for Bitcoin. (See also, Will There Be a Facebook Cryptocurrency In 2018?)
+Option Three: Go Forth and Multiply
+Create an enormous variety of tokens, thousands if not millions, that can represent anything and everything.
+Imagine having a simple digital wallet in your mobile, which has a variety of tokens – like FacebookCash, GoogleCash, WalmartCash and more. Even if you are taking a bus ride on city’s public transport, you can pay the fare with any of the tokens (or their fractions). Shopping on Amazon.com allows you an option to pay in fractions of GoogleCash tokens that may represent your Google stock holdings, and you can pay for repairs of your Toyota using WalmartCash tokens that could represent your Walmart shopping reward points. Since everything will be tokenized with seamless interchangeability, including the goods, services and money, one will soon become indifferent to a particular token, including the present-day popular Bitcoin. Bitcoin will eventually die, as people will be able to transact through any forms of tokens.
+While the three different plans look interesting, implementing them will be a challenge considering the involvement of diversified stakeholders and the vast scale of operations. Such interesting reads indicate the growing popularity of cryptocurrencies, and how different stakeholders, institutions, and large organizations are pondering over tackling them or building something better.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

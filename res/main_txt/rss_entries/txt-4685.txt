@@ -1,0 +1,78 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Shares of Snap Inc. (SNAP), the parent company of the photo and video sharing platform Snapchat, have fallen to their lowest level ever on a disastrous quarterly earnings report, confirming investors' fears about a poorly received app redesign and the firm's weakening relationship with advertisers. In response to the social media company's results, analysts on the Street aren't cutting Snap any slack, instead offering a series of downbeat forecasts and warning on billions more to be shed from the firm's market capitalization. 
+On Wednesday, SNAP missed the consensus for Q1 revenue by a long shot, warning investors on a substantial deceleration in its year-over-year (YOY) revenue growth rate for the current quarter. Daily active users and revenue-per-user results also fell short of forecasts. 
+SNAP stock closed down a whopping 21.9% on Wednesday at $11.03, dragging its year-to-date (YTD) loss to 24.5%, compared to the broader S&P 500's 1.4% slump, its rival Facebook Inc.'s (FB) near-flat run and Twitter Inc.'s (TWTR) 27.2% gain over the same period. SNAP, a favorite among Millennials, hit the public market in March 2017 at an initial public offering (IPO) price of $17 per share. (See also: Will Snap's Bold Moves Against Facebook Be Enough?)
+Losing its Cool? 
+The results fueled the already bearish sentiment on the Street for SNAP. Analysts at Piper Jaffray called the Los Angeles-based tech firm a "poorly structured company that is demonstrating a clear pattern of mismanagement." Piper Jaffray's Sam Kemp wrote a note to clients expecting the "negative news cycle around Snap" to persist as advertisers back away from the platform and approach it more "skeptically."
+Deutsche Bank, which rates SNAP at hold with a $12 price target, indicated that the company risks “losing its ‘cool’ status with users frustrated by the redesign. As a result, analyst Lloyd Walmsley argued that advertisers will be "increasingly unlikely to put money into Snap advertising without clear ROI returns." He warned that the tech firm will have to move fast to prove its value to advertisers and investors, particularly considering its relatively high level of cash burn. 
+Morgan Stanley and Credit Suisse were among other investment banks which lowered their SNAP price target, to $8 and $16 respectively. Morgan Stanley's Brian Nowak issued a note to clients on Wednesday forecasting the social media stock to fall over the next 12 months as the company faces continued challenges in turning its business around, highlighting a fateful app redesign, faulty performance on Android smartphones and advertisers' concerns in Q1. 
+Credit Suisse was a bit more forgiving, indicating that the quarter was "conviction-testing" and maintaining an outperform rating on SNAP stock. (See also: Snap Shares Tank After Kylie Jenner Snubs Redesign.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

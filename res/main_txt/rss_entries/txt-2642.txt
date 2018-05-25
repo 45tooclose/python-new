@@ -1,0 +1,144 @@
+
+
+    
+                          WHAT IS 'Home Affordable Modification Program - HAMP'
+
+      The Home Affordable Modification Program (HAMP) was a federal government loan modification program introduced in 2009 to help struggling homeowners avoid foreclosure. HAMP was aimed at helping homeowners who were paying more than 31 percent of their gross income toward mortgage payments. The program expired at the end of 2016 but a sister initiative, the Home Affordable Refinance Program (HARP) has been extended through 2018.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Mortgage Modification                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Loan Modification Specialist                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Term Payment Plan                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Front-End Ratio                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Home Affordable Modification Program - HAMP'
+      HAMP was created in response to the subprime mortgage crisis of 2008, as homeowners across America found themselves unable to sell or refinance their homes, or afford the monthly payments caused when higher market rates kicked in on their adjustable rate mortgages (ARMs). Although taxpayers subsidized some of the loan modifications, arguably the biggest contribution of HAMP was standardizing what had been a haphazard loan modification system—incentivizing private lenders and investors to fund their own modifications.
+HAMP Eligibility: The NPV Test
+Eligibility was determined through a calculation called the net present value (NPV) test. If the test showed that a lender (or investor currently holding the loan) would make more money by modifying the loan rather than foreclosing, the property became eligible as long as it met other qualifications. Besides the requirement that a homeowner prove financial hardship, the home had to be habitable and with an unpaid principal balance under $729,750.
+How Relief Worked
+Relief took several forms: Eligible homeowners could receive reductions in their mortgage principal; reductions in their interest rate (known as forbearance); or an extension of the loan term, all of which would have the effect of reducing monthly payments. In many cases the new, modified loan was also eligible for HAMP modification, thus reducing a homeowner’s payment even further. Families in the program reduced their monthly payment by a median of more than $530.
+Incentives for Lenders
+The government refers to the ratio of payments to gross income as the front-end debt-to-income (DTI) ratio. Working in conjunction with mortgage lenders, the HAMP program provided incentives for banks to reduce the DTI ratio to less than or equal to 38 percent; the Treasury would then step in to reduce the DTI ratio to 31 percent or less. Mortgage servicers received an up-front payment of $1,000 for each eligible modification they performed, plus up to $1,000 per year for up to three years while the borrower was in the program.
+The original Home Affordable Modification Program was limited to primary residences. In 2012, the program was revised to include homes not occupied by the owner, homes with multiple mortgages, and homeowners whose DTI ratio was below the original requirement of 31 percent or higher.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Mortgage',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

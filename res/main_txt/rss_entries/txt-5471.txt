@@ -1,0 +1,78 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Ripple (XRP), one of the top 5 digital currencies by market cap and widely hailed as a revolutionary bridge between the cryptocurrency space and the traditional banking world, has come under fire by a disgruntled investor. The investor, Ryan Coffey, has filed a class-action lawsuit against Ripple Labs Inc., the company that controls the currency, and its CEO Brad Garlinghouse, alleging that Ripple violated both federal and state-level securities regulations in the way that it sold its tokens to the broader public.
+"Never-Ending ICO"
+The suit alleges that Ripple has offered what amounts to a "never-ending ICO," according to ccn.com. Per the argument of the lawsuit, this ongoing sale should be classified as an unregistered securities offering, per the U.S. Securities Act as well as California-specific law.
+The suit claims that "defendants have since earned massive profits by quietly selling off this XRP to the general public...in order to increase demand for XRP, and thereby increase the profits it can derive by selling XRP, Ripple Labs has consistently portrayed XRP as a good investment, relayed optimistic price predictions, and conflated Ripple Labs' enterprise customers with usage of XRP."
+Suit Stems From Individual Experience
+Coffey, who is the lead plaintiff named in the suit, claims to have bought 650 XRP on January 6, 2018, when the token was valued at $2.60. He then sold off his entire stake on January 18, trading it for $1,105 in USDT, a separate token pegged to the USD. The net loss on the series of trades was $551.
+Although Coffey's experience was an individual one, the lawsuit has been filed on behalf of all XRP investors who purchased tokens beginning in January of 2013 and after. This lawsuit does not mark the first of its kind, as the Securities and Exchange Commission (SEC) has launched probes into dozens of different ICOs in an effort to determine whether or not they meet securities offerings requirements. Former Commodity Futures Trading Commission Chairman Gary Gensler commented recently on XRP, saying he would classify it as a "noncompliant security" as a result of its centralized model of distribution. Ripple executives, on the other hand, maintain that XRP is exempt from this type of classification. They also pointed out that the company has "not been served."
+Investing in cryptocurrencies and Initial Coin Offerings ("ICOs") is highly risky and speculative, and this article is not a recommendation by Investopedia or the writer to invest in cryptocurrencies or ICOs. Since each individual's situation is unique, a qualified professional should always be consulted before making any financial decisions. Investopedia makes no representations or warranties as to the accuracy or timeliness of the information contained herein. As of the date this article was written, the author owns bitcoin and ripple.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

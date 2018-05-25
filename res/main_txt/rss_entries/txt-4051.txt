@@ -1,0 +1,96 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        The Pension Protection Act of 2006 (PPA) brought much needed tax and retirement-planning relief for both individuals and institutions. Among the major provisions of this act was the creation of a new breed of financial professional known as the fiduciary advisor. This innovation may have sparked a new era in financial planning – one in which objective financial advice becomes an employee benefit as common as group health insurance or retirement plans. What does this act mean to those in the financial industry?
+What is a Fiduciary Advisor?
+A fiduciary advisor, by definition, is an advisor who is paid a retainer by an employer to advise employees on their retirement plan investments, as well as to provide a complete range of other products and services. Fiduciary advisors are not responsible for the entire company's retirement plan; they are only accountable for the advice which they give to employees on an individual basis.
+What Are the Requirements for Becoming a Fiduciary Advisor?
+The PPA contains a set of guidelines that financial planners must meet in order to be considered for the fiduciary advisor position. Employers must screen potential applicants per the following criteria:
+Regulatory and/or Disciplinary History – Has the prospective advisor been involved in any previous legal or arbitration proceedings, or had any judgments awarded against him or her?
+Previous Experience and Client Satisfaction – Does the prospective advisor have a current thriving practice with a satisfied client base? How long has the advisor been in business, and what kinds of results has the advisor produced?
+Level of Knowledge and/or Expertise – Does the prospective advisor have the ability to competently advise clients? Does the advisor specialize in an area that is particularly relevant to employees (such as stock options, if the employer is a publicly traded corporation).
+Personal or Professional Affiliations or Relationships – If the advisor is involved with any other organization or business arrangement that could represent a possible conflict of interest, then these must be fully disclosed to the employer.
+Compensation – The employer must consider the compensation arrangement required by the advisor. Will the advisor charge hourly or annual retainer fees, or commissions, or some combination thereof? Will compensation for all services be the same? May the fiduciary advisor charge a flat fee for offering retirement plan advice, and then make a commission on the sale of long-term-care insurance to the same employee?
+What Services Will the Fiduciary Advisor Provide to Employees? – Will the advisor provide simple retirement plan advice, or will comprehensive financial planning also be included? Is it appropriate to also offer other financial products and services to employees; things like mortgage advice, income tax planning and preparation, and estate planning? If so, how will these services be charged for and compensated? Will the employer foot the bill for all services, or will some services be considered ancillary benefits that come at an extra cost to the employee?
+Once a fiduciary advisor has been selected, he or she will be subject to an annual performance audit by an independent third party. Employers will also be required to conduct periodic in-house reviews of the fiduciary advisor to ensure that the advisor continues to adhere to the initial criteria the advisor had met when he or she was hired. In fact, the PPA Act allows for an exception to the Securities and Exchange Commission (SEC) rule that prohibits advisors from using historical investment results for clients in written literature or advertising of any kind. Under this provision, prospective fiduciary advisors can outline all of their qualifications that relate to meeting the criteria described above in written form, in the interest of providing employers with the necessary information with which to properly select a candidate. This includes past performance of client investments, within certain guidelines.
+Fiduciary Advisors: The Pros
+For Employers
+There are several reasons why employers should consider hiring an unaffiliated, full-time fiduciary advisor.
+First, no computer model or customer service department is going to be able to match the level of service that can be provided by an on-site financial professional. Computer models often require a certain level of expertise to correctly interpret financials, and retirement plan customer service representatives are generally limited in the scope of advice they can provide to employees. Therefore, having a fiduciary advisor on staff will meet the employer's fiduciary requirements in a way that cannot be duplicated.
+Secondly, it may be perilous for employees to rely solely on a computer model for satisfactory asset allocation. At this point, they do not have enough of a track record to offer any real historical performance results.
+Finally, having an unaffiliated advisor will ensure that no employees will turn elsewhere for advice because of a possible conflict of interest.
+For Employees
+The advantages that employees can reap from a fiduciary advisor are mainly based on getting personal. The employees will have a full-time financial planner who personally knows them and their individual situations, and has their best interests in mind when making recommendations. This personal level of service will likely lead to other benefits as well, as the advisor could assist employees in other areas such as budgeting, estate planning, or income taxes.
+For Advisors
+From a marketing and prospecting standpoint, being hired as a fiduciary advisor can represent a tremendous windfall in terms of potential business. The time-consuming task of prospecting for individual business can be replaced with a ready-made base of employees to whom the fiduciary advisor has exclusive access.
+This market will continue to grow rapidly as firms abandon traditional defined-benefit plans in favor of defined-contribution plans or other cheaper alternatives, such as stock option plans. Furthermore, mandatory automatic enrollment in the employer's retirement plan will keep bureaucracy and paperwork to a minimum for the advisor, who is only responsible for the actual advice given on an individual basis, as opposed to the overall plan assets and their composite performance. Of course, the fiduciary advisor will have to meet the professional standards of prudence, loyalty and adequate asset diversification, as well as compliance with all ERISA regulations. The clients' best interests must always come first when making any recommendation, although possible benefits to the fiduciary advisor and/or the employer may also be considered, as long as they are subordinate to the needs of the employee.
+The Bottom Line
+The fiduciary advisor boom may be just around the corner, and prosperity may be awaiting those who can meet the selection criteria for this position, and subsequently to capitalize on it. The possible market base for fiduciary advisors includes all the 100 million households in the U.S. – quite a large base to draw from by any standard. Financial planners who are looking for a new way to grow their practices should investigate this possibility immediately.
+SEE: Cold Call Without Getting The Cold Shoulder, Fiduciary Designations Enhance Planning Career
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

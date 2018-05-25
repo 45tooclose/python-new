@@ -1,0 +1,101 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        One of the best things that financial advisors can provide to clients is an annual review of their financial situation. While this may seem intuitive, not all advisors do it.
+These sessions are beneficial for both the client and the financial advisor. While, ideally, there is ongoing communication all year long, a face-to-face meeting devoted to discussing where the client is and what might have changed over the past 12 months can lead to a much more in-depth conversation than a quick email or phone call.
+Here are some tips for conducting a meaningful client financial review, along with a laundry list of questions that should be answered during such a meeting. (For related reading, see: How to Help Clients Stick to New Resolutions.)
+Go Beyond Merely Reviewing Investments
+Reviewing a client’s portfolio is certainly a key reason to conduct a financial review. The review leads to a discussion of how the client is doing compared to her financial plan, and how she's progressing towards her various goals, such as saving for retirement and college.
+It is beyond these obvious topics, however, where the real value in these meetings lies. You need to ask the client what is going on in her life to determine how that might impact what you are doing for her. Key information might include her current employment/career situation, any health issues, or any changes in the client’s toward about risk.
+Asset Allocation
+This is one of the most important elements to reviewe. Is the client’s allocation within the target ranges set forth in the investment plan? Especially with the volatility in the markets so far in 2016, it wouldn’t be surprising if the portfolio needed to be rebalanced back into the target range.
+Moreover, does the target asset allocation still fit his or her situation? Is the client expressing a level of discomfort with the historic stock market declines we’ve seen at the start of 2016?
+Tax Planning
+While investment decisions should not be driven by tax considerations, tax planning is nonetheless important. Are the client’s assets located in the appropriate accounts? For those with charitable inclinations, are there appreciated securities that could be used to make donations in a tax-efficient manner? (For more, see: How Fees and Fund Costs Can Ruin Clients' Retirement.)
+Has the client’s income changed significantly? If his or her income will be lower this year, perhaps a conversion of some of his or her traditional IRA assets to a Roth IRA might be appropriate.
+The 2015 tax-extender or PATH legislation made some provisions permanent, and extended others. Among the provisions made permanent was the qualified charitable deduction (QDC) provision for required minimum distributions for those aged 70.5. This is a nice planning tool for those clients who may be charitably inclined, and don’t need some or all of their distribution amount.
+There were several provisions included that impact small businesses. 
+Estate Planning Issues
+This is often an area that gets pushed to the side if for no other reason than that many clients don’t like to think about their own mortality. Still, it is important that you ensure that the client’s desires for the distribution of their assets would be met were they to die suddenly. Some of the issues can be easily remedied – such as making sure that beneficiary designations on retirement accounts and life insurance policies are up to date and reflect the client’s current wishes.
+Ensuring that beneficiary designations on all retirement accounts, relevant employee benefits, life insurance policies, and other vehicles where benefits pass via such a designation is critical, and should be reviewed periodically. These instruments rely on the beneficiary designation and not on what is in the client’s will.
+Also to ask: Has the client’s family situation changed? Is there another child or grandchild to be accounted for? Did the client get married? Divorced? Did his or her spouse die?
+In the case of clients with children who are minors, it is critical that they have a designated guardian for those children in the event of the client's death. Financial advisors should urge them to have this in written form in their estate planning documents, and to be sure to review this with the client(s) periodically in order to ensure that they remain willing and able to assume this role if ever needed. (For related reading, see: Estate Planning Tips for the Average Client.)
+Retirement Planning Issues
+Regardless of the client’s age, there is invariably some sort of retirement-planning issue to address.
+For clients in the accumulation stage – are they on track toward accumulating enough for retirement? While this number might be tough to nail down for clients who are 20 or more years away from retirement, what is critical is to ensure that clients are saving as much as possible via their 401(k) plans and other vehicles, so as to ensure a reasonable shot at a solid retirement.
+For clients who are within ten years of retirement the questions are more critical and concrete. Does the client have a fairly clear picture of what his retirement will look like? How long would he ideally like to work? How much will his lifestyle cost? 
+Will the recent changes to couples' Social Security claiming strategies retirement plans? How will they pay for healthcare costs in retirement?
+Financial advisors should be ensuring that clients at this point in life have their arms around all potential sources of retirement income. Beyond 401(k) accounts, IRAs, and taxable investments, pensions and Social Security should be considered. Is the client eligible for a pension from an old employer? Have they been in contact with that employer to ensure that the company knows where to contact them when the time comes to make decisions as to how they will draw on that pension?
+Insurance Issues
+Does the client have adequate life insurance for her situation? Younger parents typically need a large death benefit, and some form or term insurance is often appropriate. 
+Older clients may have a need to ensure adequate retirement income for a surviving spouse, or for estate planning purposes. In the latter case, the death benefit might be needed to cover estate taxes for clients with larger estates. Financial advisors can play a key role in helping clients secure the right amount and the right type of policy to meet their needs.
+Clients in their working years should have disability insurance, whether via their employer or via private insurance. Lastly, don’t neglect policies that protect the client’s home and liability.
+The Bottom Line
+Sitting down with clients to do a formal review of their overall financial situation is valuable for both the client and the financial advisor. The client gets a comprehensive picture of whether he or she is on point with a financial plan. The advisor gains insights into the client’s attitudes, and learns where and how to advise him in terms of helping him achieve his financial goals. (For related reading, see: Estate Planning Tips for Advisors.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

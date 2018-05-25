@@ -1,0 +1,143 @@
+
+
+    
+                          What is a 'Hedgelet'
+
+      A hedgelet is a simplified futures contract which pays the holder a specific payoff if one particular economic event occurs before the contract’s expiration date. These events include movements in economic indicators, such as commodity prices, housing starts, or foreign exchange rates. A hedgelet is one type of binary option.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Roll Forward                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Front Month                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Cash Contract                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Fixed Income Forward                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Hedgelet'
+      A hedgelet is simplified in that it is a binary product with limited risk. The contract either results in a payoff to the holder, or it does not, based on a particular economic situation. This simplicity makes a hedgelet an attractive investment option for a speculator with a firm opinion on a specific economic variable. Unlike other binary options contracts, a hedgelet does not offer the buyer a put or call option on an underlying asset.
+Hedges have long been available to larger investors or corporations interested in speculating on or protecting themselves against, economic volatility. An airline might use a derivative contract to lock in a favorable price for jet fuel, a bank might do the same to limit losses due to interest rate movements, or a city government might lessen losses which arise from catastrophic weather events. 
+These hedge contracts are frequently written as part of a sophisticated package of derivatives designed to protect against various market risks. In the case of the city or bank mentioned above, the written hedge is a form of insurance.
+Hedglets are priced between $0 and $10, offering the smaller investor a relatively low-risk vehicle for speculation on underlying variables. These contracts first became available in 2004 via HedgeStreet, an online exchange now known as Nadex. The Commodities Futures Trading Commission regulates Nadex.
+How Does a Hedgelet Work?
+An investor willing to speculate that the U.S. Dollar-to-Euro exchange rate would go above 1.25 USD/Euro might open a Nadex account and find a contract for sale at $10. This contract will result in a $100 payoff if the USD/Euro rate hits the strike point. If the rate does rise, the investor will profit $90 per contract ($100 payoff less $10 investment). If the exchange rate does not meet the strike price, the investor loses the $10 contract price. 
+These contracts are short term, and most expire by year’s end. Nadex does not offer the contracts directly. To buy a product like the one in this example, a second investor must have gone to Nadex and listed the hedgelet.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

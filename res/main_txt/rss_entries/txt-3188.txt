@@ -1,0 +1,100 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Many investors are confused when it comes to the stock market — they have trouble figuring out which stocks are good long-term buys and which ones aren't. To invest for the long term, not only do you have to look at certain indicators, you also have to remain focused on your long-term goals, be disciplined and understand your overall investment objectives.
+In this article, we will tell you how to identify good long-term buys and what's needed to find them.
+Focus on the Fundamentals
+There are many fundamental factors that analysts inspect to decide which stocks are good long-term buys and which are not. These factors tell you whether the company is financially healthy and whether the stock has been brought down to levels below its actual value, thus making it a good buy.
+The following are several strategies that you can use to determine a stock's value.
+Dividend Consistency
+The consistency of a company's ability to pay and raise its dividend shows that it has predictability in its earnings. It also shows that it's financially stable enough to pay that dividend (from current or retained earnings). You'll find many different opinions on how many years you should go back to look for this consistency — some say five years, others say as many as 20 — but anywhere in this range will give you an overall idea of the dividend consistency.
+Examine the P/E Ratio
+The price-earnings ratio (P/E) ratio is used to determine whether a stock is over or undervalued. It's calculated by dividing the current price of the stock by the company's earnings per share. The higher the P/E ratio, the more willing some investors are to pay for those earnings. However, a higher P/E ratio is also seen as a sign that the stock is overpriced and could be due for a pullback — at the very least. A lower P/E ratio could indicate that the stock is an attractive value and that the markets have pushed shares below their actual value.
+A practical way to determine whether a company is cheap relative to its industry or the markets is to compare its P/E ratio with the overall industry or market. For example, if the company has a P/E ratio of nine while the industry has a P/E ratio of 14, this would indicate that the stock has an attractive valuation compared with the overall industry.
+Watch for Fluctuating Earnings
+The economy moves in cycles. Sometimes the economy is strong and earnings rise. Other times, the economy is slowing and earnings fall. One way to determine whether a stock is a good long-term buy is to evaluate its past earnings and future earnings projections. If the company has a consistent history of rising earnings over a period of many years, it could be a good long-term buy.
+Also, look at what the company's earnings projections are going forward. If they're projected to remain strong, this could be a sign that the company may be a good long-term buy. Alternatively, if the company is cutting future earnings guidance, this could be a sign of earnings weakness and you might want to stay away.
+Avoid Valuation Traps
+How do you know if a stock is a good long-term buy and not a valuation trap (the stock looks cheap but can head a lot lower)? To answer this question, you need to apply some common-sense principles, such as looking at the company's debt ratio and current ratio.
+Debt can work in two ways:
+During times of economic uncertainty or rising interest rates, companies with high levels of debt can experience financial problems.
+In good economic times, debt can increase a company's profitability by financing growth at a lower cost.
+The debt ratio measures the amount of assets that have been financed with debt. It's calculated by dividing the company's total liabilities by its total assets. Generally, the higher the debt, the greater the possibility that the company could be a valuation trap.
+There is another tool you can use to determine the company's ability to meet these debt obligations — the current ratio. To calculate this number, you divide the company's current assets by its current liabilities. The higher the number, the more liquid the company is. For example, let's say a company has a current ratio of four. This means that the company is liquid enough to pay four times its liabilities.
+By using these two ratios — the debt ratio and the current ratio — you can get a good idea as to whether the stock is a good value at its current price.
+Analyze Economic Indicators
+There are two ways that you can use economic indicators to understand what's happening with the markets.
+Understanding Economic Conditions 
+The major stock market averages are considered to be forward-looking economic indicators. For example, consistent weakness in the Dow Jones Industrial Average could signify that the economy has started to top out and that earnings are starting to fall. The same thing applies if the major market averages start to rise consistently but the economic numbers are showing that the economy is still weak.
+As a general rule, stock prices tend to lead the actual economy in the range of six to 12 months. A good example of this is the U.S. stock market crash in 1929, which eventually led to the Great Depression.
+Evaluate the Economic "Big Picture"
+A good way to gauge how long-term buys relates to the economy is to use the news headlines as an economic indicator. Basically, you're using contrarian indicators from the news media to understand whether the markets are becoming overbought or oversold.
+A good example of this occurred in 1974, when a cover of Newsweek showed a bear knocking down the pillars of Wall Street. Looking back, this was clearly a sign that the markets had bottomed and stocks were relatively cheap.
+In contrast, a Time magazine cover from Sept. 27, 1999, included the phrase, "Get rich dot com" — a clear sign of troubles down the road for dotcom stocks and the markets. What this kind of thinking shows is that many people feel secure when they're in the mainstream. They reinforce these beliefs by what they hear and read in the mainstream press. This can be a sign of excessive optimism or pessimism. However, these kinds of indicators can take a year or more to become reality.
+The Bottom Line
+Investing for the long term requires patience and discipline. You may spot good long-term investments when the company or the markets haven't been performing so well. By using fundamental tools and economic indicators, you can find those hidden diamonds in the rough and avoid the potential valuation traps.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

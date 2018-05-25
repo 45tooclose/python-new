@@ -1,0 +1,143 @@
+
+
+    
+                          What is a 'Cabinet Crowd'
+
+      Cabinet crowd refers to the small group of New York Stock Exchange (NYSE) members who trade in inactive bonds. Trading activity on these bonds is very light, resulting in a broader bid-ask spread, lower liquidity, and lower prices than comparable actively-traded bonds.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Active Bond                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Active Bond Crowd                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Crowded Short                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Bond                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Cabinet Crowd'
+      The term cabinet crowd has its origins in the steel racks, known as cabinets, where ledgers containing limit orders on inactive bonds have traditionally been stored. Bond trading on the NYSE has historically taken place in a bond room. Different areas of that room serve as venues for foreign bonds, Liberty Bonds, and corporate bonds. In the mid-20th Century, the room was organized in four areas, the active, inactive, foreign, and government sections. Each housed its own “crowd.”
+Over time, the inactive bond crowd came to be known as the cabinet crowd or, less often, as “book crowd.” Due to low activity on these fixed-income securities, it is common for an open order to sit in the cabinet ledger for a long time, if not indefinitely.
+Book refers to the ledger in a which a clerk would record all open orders yet to be filled. The clerk managing each ledger is roughly analogous to the specialist who handles trades on a particular stock at the NYSE. The chief difference is this clerk does not manage their inventory. Instead, the clerk facilitates trades between brokers.
+The Disappearance of the Cabinet Crowd
+Bond trading activity on the New York Stock Exchange (NYSE) has dropped dramatically since the early 20th century as fixed-income activity has migrated to the over-the-counter (OTC) market. This shift was primarily driven by the power of institutional traders relative to retail investors in the bond market. Banks and brokerages, as opposed to individuals, were more active in fixed-income securities and required a trading environment where they can trade with other more substantial and liquid, institutions. 
+Unlike that of the cabinet crowd, OTC trading relies on informal, discreet interactions to seek out trading partners. Transparency among traders, specifically about bid and ask prices, is low. The OTC markets lack a central cabinet where they can go to get a complete picture of existing offers. OTC activity is much more significant and has thus attracted the vast majority of institutional traders away from the bond room of the NYSE over the history of the exchange.
+The NYSE continues to handle a low level of trading in a wide range of bonds including corporate, treasury, municipals, and others. In 1976, the Automated Bond System replaced the ledgers of the cabinet crowd. This system is an electronic version of the order book used by the cabinet crowd.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

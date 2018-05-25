@@ -1,0 +1,75 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        "Enough is enough," says one high-profile British entrepreneur, who is taking social media giant Facebook Inc. (FB) to court in a crusading defamation case. Martin Lewis, a popular U.K. personal finance guru, wrote in a press release that within the last year the Silicon Valley platform had published more than 50 scam advertisements using his name and image to deceive people. (See also: Already More ICOs in 2018 Than All of 2017: $6.3B.)
+Lewis, who runs the popular consumer finance site MoneySavingExpert.com and is host of ITV's "The Martin Lewis Show," says he has been "fighting for over a year to stop Facebook letting scammers use my name and face to rip off vulnerable people—yet it continues. I feel sick each time I hear of another victim being conned because of trust they wrongly thought they were placing in me. One lady had over £100,000 taken from her." Lewis said many of the ads were running "get rich quick" schemes, with titles such as "Bitcoin code" or "Cloud trader."
+He noted that while Facebook is the leader in face and text recognition, the platform has been unwilling to stop the publishing of advertisements with Lewis' picture or name on it, despite his repeated requests. He wrote that the tech behemoth "simply continues to repeatedly publish these adverts and then relies on me to report them, once damage has been done." Lewis indicated that any punitive damages received from Facebook will be pledging to to anti-scam charities. 
+Attorney: Facebook Is Not Above the Law
+In January, Facebook said it was banning advertisements for cryptocurrencies including bitcoin, the world's largest digital coin by market capitalization. Yet Lewis suggests that Facebook, which "claims to be a platform not a publisher," is paid to "publish, promulgate and promote what are often fraudulent enterprises" and must take more responsibility for what runs on its platform. 
+The attorney leading the charge wants the case to demonstrate that "Facebook is not above the law," and for damages to exceed the "cost of business" and show that "the price of causing misery is very high." 
+At a price of $8,921.01 at 12:42 p.m. UTC, BTC has rallied over 12% this month, yet still reflects a near 55% decline from highs reached near $20,000 in mid-December. (See also: Crypto Funds Dropped 29% in March.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

@@ -1,0 +1,170 @@
+
+
+    
+                          DEFINITION of 'Iterated Prisoner's Dilemma'
+
+      The iterated prisoner's dilemma is an extension of the general form except the game is repeatedly played by the same participants. An iterated prisoner's dilemma differs from the original concept of a prisoner's dilemma because participants can learn about the behavioral tendencies of their counterparty.
+The iterated prisoner's dilemma at times has been called the "Peace-War game."
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Tit For Tat                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Diner's Dilemma                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Prisoner's Dilemma                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Paradox of Rationality                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Iterated Prisoner's Dilemma'
+      Since the game is repeated, one individual can formulate a strategy that does not follow the regular logical convention of an isolated round.
+"Tit for tat" is a common iterated prisoner's dilemma strategy.
+The iterated prisoner's dilemma game is fundamental to many theories of human cooperation and trust. Based on the assumption that the game can model transactions between two people requiring trust, cooperative behavior in populations may be modeled by a multi-player, iterated, version of the game.
+The theory behind the game has captivated many scholars over the years. More recently, organizational design researchers have used the game to model corporate strategies. The prisoner's dilemma is also now commonplace for game theories becoming popular with investment strategist. Globalization and integrated trade have further driven demand for financial and operational models that can describe geopolitical issues.
+Example of the Iterated Prisoner's Dilemma Game
+For example, you and a colleague, are in jail and suspected of committing a crime. You are isolated from each other and do not know how the other will respond to questioning. The police invite both of you to implicate the other in the crime (defect). What happens depends on what both of you do, but neither of you know how the other will respond. If your colleague betrays you (yields to the temptation to defect) while you remain silent, then you receive the longest jail term while your colleague gets off free (and visa versa). If you both choose to cooperate with each other (not the police) by remaining silent, there is insufficient evidence to convict both of you, so you are both given a light sentence for a lesser crime. If both of you decide to defect, then you have condemned each other to slightly reduced but still heavy sentences.
+The payoff in this game is a reduction in prison sentencing of very good, fairly good, fairly bad or very bad, which is translated into a point score system as follows:
+ 
+What your colleague does
+This table shows payoffs to you for various outcomes. 
+Co-operate
+Defect
+What you do
+Co-operate
+Fairly good.
+			REWARD
+			for mutual co-operation.
+			3 points
+
+Very bad.
+			SUCKER'S PAYOFF.
+0 points
+
+Defect
+Very good.
+			TEMPTATION
+			to defect.
+			5 points
+Fairly bad.
+			PUNISHMENT
+			for mutual defection.
+			1 point
+The game is played iteratively for a number of rounds until it is ended (as if you are repeatedly interrogated for separate crimes). The scores from each round are accumulated, so the object is to optimize the point score before reaching game over. Game over is determined randomly anywhere between 1 and 100 rounds. At the end of the game, the scores are translated into percentages of the best possible scores.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

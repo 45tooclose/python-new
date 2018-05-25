@@ -1,0 +1,77 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Embattled Swiss-based food and drinks giant Nestlé S.A. (NSRGY) and Starbucks Corp. (SBUX) have joined forces to create a global coffee alliance.
+Under the terms of the deal, Nestlé, the owner of the Nescafé and Nespresso coffee brands, will pay Starbucks $7.15 billion in upfront cash for the rights to market, sell and distribute its packaged products in supermarkets across the world. The Starbucks brand portfolio will also be represented on Nestlé’s single-serve capsule machines. Both companies confirmed in a joint statement that the agreement does not cover the Seattle-based chain’s ready-to-drink coffee, tea and juices.
+Starbucks, which is also set to receive market-linked royalties from Nestlé, said the partnership will enable it to reach more customers and boost its earnings per share by the end of fiscal year 2021 or sooner.
+The Seattle-based chain added that it plans to share proceeds from the deal with shareholders. The company now expects to return approximately $20 billion in cash through share buybacks and dividends through fiscal year 2020. Starbuck’s shares rose 2 per cent in pre-market trading.
+“This global coffee alliance will bring the Starbucks experience to the homes of millions more around the world through the reach and reputation of Nestlé,” said Kevin Johnson, president and CEO of Starbucks. “This historic deal is part of our ongoing efforts to focus and evolve our business to meet changing consumer needs, and we are proud to work alongside a company that is committed to our shared values.”
+Meanwhile, Nestlé said its arrangement to sell Starbucks packaged coffee and tea will boost its earnings per share by 2019. The Swiss-based firm is the world’s biggest coffee company, generating $2 billion in sales each year from the popular drink, but has struggled to maintain its market leading position of late due to increased competition. (See also: Starbucks: Losses to Speed Up on Craft Coffee Buzz.)
+“This transaction is a significant step for our coffee business, Nestlé's largest high-growth category,” said the company's CEO Mark Schneider. “With Starbucks, Nescafé and Nespresso we bring together three iconic brands in the world of coffee." (See also: Top 5 Companies Owned By Nestle.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

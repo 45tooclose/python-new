@@ -1,0 +1,198 @@
+
+
+
+    
+        
+        Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/Professional/Professional/IC-Video/Article");} else {return "/8397/INV-NA/Professional/Professional/IC-Video/Article";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/articles/professionaleducation/09/non-finance-courses.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/du06IWCF.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/du06IWCF-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/content/video/7_courses_finance_st/7coursesfinancestudentsshouldtake.png?width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "100%",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "du06IWCF-G9NhEyAa.mp4";
+                
+          
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                    var initializeJWPlayerSetup = function () {
+                        if (new VideoInit().canRun()) {
+                            setUpJwpPlayer();
+                        } else {
+                            new VideoInit().callBack = setUpJwpPlayer;
+                        }
+                    }
+          initializeJWPlayerSetup();
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "du06IWCF-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "7 Courses Finance Students Should Take ",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };    
+        
+            
+      
+
+    
+
+    
+        Most careers in finance involve finding effective ways to manage an organization's money to create wealth and increase the organization's value. Finance majors prepare for this career by studying topics about "planning, raising funds, making wise investments and controlling costs," according to the College Board. This knowledge sets them up for a wide array of career paths in the areas of corporate finance, financial institutions and investments. 
+Tutorial: Education Savings Account
+Executives in search of well-rounded finance students look for certain skills. Studies have revealed that these executives want schools to place more emphasis on quantitative, strategic, critical decision-making and communicative skills, which are sometimes best developed in classes outside of business schools. If you want to get the best possible preparation for the finance world from your undergraduate education, put some thought into classes that may fall outside the finance curriculum.
+What Companies Want
+Business leaders at Booz Allen Hamilton, a strategy and technology consulting firm, discussed areas of change that could be implemented at graduate business schools in the article "What Business Needs from Business Schools." They suggested more courses were needed to teach graduates to effectively manage individuals and team-driven organizations, provide tools for problem solving and provide better grounding in theory. They also recommended more courses outside of the traditional curriculum. (For related reading, see: Business Grads, Land Your Dream Job.)
+Finance students should consider taking courses outside of their finance degree curricula, including the following areas of study:
+Mathematics – Courses in college algebra and calculus will help students learn how to solve equations in complex financial markets. Statistics helps with decisions based on the likelihood of various outcomes and allows finance students to learn to reach conclusions about general differences between groups and large batches of information. It also explains the movements of a company's stock. 
+Accounting – Financial and managerial accounting courses teach finance students how to understand, record and report financial transactions, monitor the company's budgets and performance, and examine the costs of the organization's products and services.
+Economics – Economics looks at how scarce resources are allocated to achieve needs and wants. A course in macroeconomics will teach finance students to understand the impact of financial market activities on the overall economy. Microeconomics will help them understand the behaviors that occur within individual firms and among consumers, as well as how various financial decisions can impact a firm's success.
+Psychology – Financial professionals need to understand the behaviors and thought processes that help drive the movements in financial markets. A course in critical thinking teaches a finance student to reflect on and evaluate an argument, and examine situations in all dimensions before applying a solution. This involves understanding what is not known about the situation versus what is known. Behavioral finance can help students explore why and how the financial markets aren't working by examining how investors' behaviors are associated with market anomalies. This subject helps financial professionals determine where investors make mistakes and how to correct them, by examining the emotion or thought behind the actions. Behavioral psychology helps finance majors look at the observable and cognitive aspects of human behavior, within a financial environment. (For related reading, see: Taking a Chance on Behavioral Finance.)
+Writing - A course in technical writing will teach students how to put forth strong, clear and organized ideas, purposes and explanations in memos, reports and letters.
+Additional Course Recommendations
+The business consultants at Booz Allen Hamilton—Joyce Doria, Horacio Rozanski and Ed Cohen—made their case for curriculum reform and suggested courses in psychology, economics and human behavior. In addition, they recommended classes in the following areas of study:
+Communications – A communications course, such as public speaking, helps finance students present financial reports and explain the meanings behind equations and numbers to colleagues in group settings. It also helps with the management of people and organizational relations, such as delegating responsibilities to employees within financial departments. Business students also need courses in corporate communications, crisis communications and public relations strategies, according to a Public Relations Society of America study. It states how financial scandals and downturns can affect shareholder support, consumer confidence and corporate reputation.
+Ethics – Corporate scandals have also encouraged some business schools, such as the University of San Francisco and Loyola University Chicago, to add a course in ethics to their finance curricula. These courses focus on moral development in an attempt to stem future misconduct in business environments.
+The Bottom Line 
+Students studying finance will be tasked with big responsibilities in their careers. They will have to manage the flow of money at their companies and identify financial risks and returns to make effective business decisions. Those finance majors who want to have an edge over their competition, both during the initial post-graduate job search and throughout their careers, will take advanced mathematics, accounting, economics, psychology, communications and writing courses to gain a deeper insight into their jobs and a better ability to work effectively with people. (For more, see: Top Job-Search Mistakes For Finance Grads.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

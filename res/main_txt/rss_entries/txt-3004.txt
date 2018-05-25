@@ -1,0 +1,212 @@
+
+
+
+Digital Currencies Can Gain Mainstream Acceptance, Top Bank Regulator Says
+A top bank regulator in the US is bullish on the cryptocurrency outlook, saying digital money has the potential to go mainstream.
+
+
+ by  Komfie
+Manalo,
+7 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  A top US bank regulator has added his voice to the bullish choir on cryptocurrencies. Speaking at an industry event, Comptroller of the Currency Joseph Otting said digital currencies have the potential to go mainstream.
+Otting was among the high-profile participants in a day-long symposium organized by the U.S. Chamber of Commerce Center for Capital Markets on Thursday. Asked to comment on his bullish outlook, Otting replied:
+
+“When I was a kid I had cat’s eye marbles I could trade for baseball cards with my buddies.”
+
+Bill Huizenga, who chairs the House Financial Services Committee Financial Services Subcommittee, underscored the urgency of putting in place regulatory guidelines for initial coin offerings (ICOs). He stated:
+
+“The longer we wait, the harder it is going to be to put the toothpaste in the tube. We know fraud is happening.”
+
+Huizenga acknowledged that abuses were rife in the cryptocurrency space but said he would not support any legislation that goes against common sense.
+During the same session, SEC Corporation Finance Director Bill Hinman told participants that ICOs have the potential “to facilitate capital formation” but only if they follow existing securities laws.
+
+World coming to terms with cryptos
+This optimism about the future of cryptocurrencies supports the view of Nvidia CEO Jen-Hsun Huang, who said in February the world had started coming to terms with digital currencies.
+Huang described digital currencies as “a real thing — it’s not going to go away,” insisting that the “concept of virtual goods and virtual worlds and virtual currency all ties together.”
+Use blockchain to fight criminals
+In March, International Monetary Fund chief Christine Lagarde posted a blog on the agency’s website, suggesting authorities could fight “fire with fire” by employing blockchain technology to curb the criminal use of cryptocurrencies. The article acknowledged the advantages of blockchain technology as well as its potentials but also warned about the “the peril that comes along with the promise.” 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

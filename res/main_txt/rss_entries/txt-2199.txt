@@ -1,0 +1,28 @@
+
+
+Users of MyEtherWallet, a web app for storing and sending ether and ethereum-based tokens, experienced an attack Tuesday that saw users of the service lose around $152,000 worth of ether.
+The company was quick to alert users to the danger, tweeting a warning at 7:29 a.m. EDT, within 15 minutes of when the hack began:
+
+Couple of DNS servers were hijacked to resolve https://t.co/xwxRJ4H4i8 users to be redirected to a phishing site. This is not on @myetherwallet side, we are in the process of verifying which servers to get it resolved asap.
+-- MyEtherWallet.com (@myetherwallet) April 24, 2018 
+
+Even so, users took to social media to report that they were losing funds.
+"Went on to myetherwallet and saw that myetherwallet had [an] invalid connection certificate in the corner," rotistain posted to the wallet's subreddit around 8:30 a.m. EDT, adding:
+"As soon as I logged in, there was a countdown for about 10 seconds and A tx was made sending the available money I had on the wallet to another wallet  '0x1d50588C0aa11959A5c28831ce3DC5F1D3120d29.' I have no idea what happened."
+Micky Socaci, lead developer at BlockBits.io, explained the attack in a post to the ethereum subreddit.
+"Do not use myetherwallet.com if you're using Google Public DNS (8.8.8.8 / 8.8.4.4) at this moment," he wrote, adding: "It seems these DNS servers are resolving the domain to a bad server that CAN steal your keys!"
+His explanation fits with MyEtherWallet's assertion that the attack was not on their side. Domain Name System (DNS) servers resolve website URLs to the appropriate IP addresses.
+Money on the move
+As of press time, the affected funds are being shuffled around and broken into smaller increments, according to data from blockchain information provider Etherscan.
+Initially, the Etherscan block explorer showed 0x1d50588C0aa11959A5c28831ce3DC5F1D3120d29 as having received 179 inbound transactions starting from 7:17 a.m. and totaling 216.06 ether, or nearly $152,000 at the time of writing.
+The attacker sent 215 ether to another address, 0x68ca85dbf8eba69fb70ecdb78e0895f7cd94da83, at 10:15 a.m. Since then, the funds have been split further, with increments being divided between multiple wallet addresses.
+According to MyEtherWallet CEO Kosala Hemachandra, "all the DNS servers are resolving back to correct addresses."
+"But I want to wait another [hour] or so," he added during a conversation on Skype.
+Hemachandra said that the hackers were apparently "large enough to do a DNS poisoning attack on Google public DNS servers, which made it cache a malicious IP address for myetherwallet.com." Google fixed the issue "in a very short time," he went on to say.
+"It is really unfortunate, we live in a world where even the most secured websites are prone to this kind of attacks," Hemachandra told CoinDesk. "I am sad about this and I hope MEW team will be able to educate users and convince them [to] use hardware wallets and local versions of MEW
+Google's press office did not immediately respond to a request for comment.
+Hacker image via Shutterstock.
+var riuyojisrlntqyiu,riuyojisrlntqyiu_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){riuyojisrlntqyiu_poll(function(){if(window['om_loaded']){if(!riuyojisrlntqyiu){riuyojisrlntqyiu=new OptinMonsterApp();return riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="//a.optnmnstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;riuyojisrlntqyiu=new OptinMonsterApp();riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");
+
+The leader in blockchain news, CoinDesk is a media outlet that strives for the highest journalistic standards and abides by a strict set of editorial policies. CoinDesk is an independent operating subsidiary of Digital Currency Group, which invests in cryptocurrencies and blockchain startups.
+

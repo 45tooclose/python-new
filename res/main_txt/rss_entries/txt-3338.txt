@@ -1,0 +1,140 @@
+
+
+    
+                          DEFINITION of 'Adaptive Expectations Hypothesis'
+
+      Adaptive expectations hypothesis is a theory that states individuals adjust their expectations of the future based on recent past experiences and events. In finance, this effect can cause people to make investment decisions based on the direction of recent historical data, such as stock price activity or inflation rates, and adjust the data (based on their expectations) to predict future activity or rates.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Hypothesis Testing                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Headline Inflation                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Inflation Targeting                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Linder Hypothesis                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Adaptive Expectations Hypothesis'
+      Adaptive expectations hypothesis suggests that investors will adjust their expectations of future behavior based on recent past behavior. If the market has been trending downward, people will likely expect it to continue to trend that way because that is what it has been doing in the recent past. The tendency to think this way can be harmful as it can cause people to lose sight of the larger, long-term trend the focus instead on recent activity and the expectation that it will continue. In actuality, many items are mean reverting. If a person becomes too focused on recent activity they may not catch signs of the turning point and can miss out on opportunity.
+Examples of Adaptive Expectations Hypothesis
+For example, before the housing bubble burst, home prices had been appreciating and trending upward for a considerable length of time in many geographic areas of the U.S. People focused on this fact and assumed it would continue indefinitely, so they leveraged up and purchased assets with the assumption that price mean reversion wasn't a possibility because it hadn't occurred recently. The cycle turned and prices fell as the bubble burst.
+As another example, if inflation over the last 10 years has been running in the 2-3% range, investors would use an inflation expectation of that range when making investment decisions. Consequently, if a temporary extreme fluctuation in inflation occurred recently, such as a cost-push inflation phenomenon, investors will overestimate the movement of inflation rates in the future. The opposite would occur in a demand-pull inflationary environment.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

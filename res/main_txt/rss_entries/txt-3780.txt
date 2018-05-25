@@ -1,0 +1,75 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Amazon.com Inc. (AMZN) has committed to pouring $5 billion into the Indian e-commerce market, and that bet appears to be paying off. The Seattle-based online retailer is now the leader in India with rival Flipkart a close second. That’s notable given that Flipkart is the local player, which could sell a stake to Walmart Inc. (WMT).
+According to Quartz, which cited data from 7Park Data, as of April, Amazon’s market share in India stood at 44%, down from 50% at the start of the year, but still ahead of Flipkart, which controls about 40% of the market, Quartz reported. Part of the reason why Amazon has been successful is that it has an offering that provides customers with lower prices and at the same time gives them access to several services. Take Amazon Prime: It offers Indian customers two-day delivery, the ability to stream video and music and other perks for $15. That has drawn a slew of Indians who are price sensitive to the e-commerce giant. (See also: Amazon Sees Groceries as Bulk of Indian Business.)
+But it's not just in market share when Amazon is leading. According to the 7Park Data information, in April it had monthly active user growth rate of 40% compared to the 30% at Flipkart. Quartz noted Amazon’s streaming service is a hit with Indians because it offers than a large catalog of content.
+Warming to Walmart?
+Still, despite Amazon’s strong showing in India, Flipkart is making strides to close the gap. At the beginning of this year Amazon had 50% market share and Flipkart was at 33%. In around three months, Flipkart has been able to narrow the gap. It's also reportedly doing better than its U.S counterpart when it comes to hawking mobile phones and fashion, Quartz reported.
+The battle between Amazon and Flipkart may get more interesting if Walmart is successful in its bid to acquire a stake in the e-commerce company. Bloomberg reported earlier this month that Flipkart is leaning toward selling a stake to Walmart instead of Amazon because a deal with the Bentonville, Arkansas-based retailer is more likely to happen. Bloomberg noted both companies are making bids that value Flipkart at around $20 billion. (See also: Walmart in Talks to Become the Largest Shareholder in Amazon India Rival.)
+Flipkart's board thinks a deal with Walmart would close more quickly since the American retailer lacks an online presence in India, leading to fewer hurdles. The company's founders, Sachin and Binny Bansal, also prefer a deal with Walmart because they believe it would allow them to continue leading the company. What’s more, Walmart executives have expressed their commitment to grow in the Indian market. Talks are centered on Walmart buying a minority stake but it could move higher, up to the 50% to 60% range, Bloomberg reported. The size depends on Flipkart shareholders'—including SoftBank and Tiger Global Management—willingness to sell. Walmart could pay around $7 billion for one third of Flipkart, noted the report.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

@@ -1,0 +1,78 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        As stocks make a comeback from a series of sell-offs earlier this year that dragged many of 2017's highest-flying equities into correction territory, one Wall Street vet indicates that the current rally, set to become the largest in history, is one to cash in on and not buy into, reported CNBC. (See also: Trade Uncertainty Already Hurting US Companies.)
+“I think stocks will go up another 15 to 20%, but ultimately, when the recession arrives—and it will arrive—there's going to be a very hard sell-off in equities,” said Scott Minerd of Guggenheim Securities in an interview with CNBC's Brian Sullivan on Tuesday. 
+The firm's global chief investment officer sees one last window in the nine-year-old bull market for stocks to post major gains. He expects valuations to lower as risk premiums increase. Optimism should fuel the bull market another 12 to 18 months to June or December 2019, said Minerd. According to data compiled by LPL Research, this extended rally would mark the longest bull market in history, surpassing a 114-month run from November 1990 to March 2000, wherein the S&P 500 gained 418% with an annualized return of 19%. From March 2009 to March 2018, the S&P 500 returned 309% over 109 months with an annualized return of 16.7%. 
+Minerd: US Economy to Fall into Recession by 2020
+Minerd calls 2018 the "penultimate" year before a recession, which he sees rocking the market by 2020 at the latest. He indicated that the longer the expansion, the more likely the sell-off will be particularly brutal. Before late January injected a surge of volatility into equities, driven by investor fears over a handful of factors including rising rates, tightening monetary policy, more regulation on big tech and rising global trade tensions, investors were smooth sailing on the nine-year bull market. This strength comes against the backdrop of a strong U.S. economy, posting growth for 106 straight months, as noted by CNBC.
+Guggenheims' global investment chief reiterated his forecast for a whopping 40% to 45% drop off in stocks beginning as early as 2019. (See also: Stocks On 'Collision Course With Disaster,' Face 40% Drop.)
+"Recessions occur when the economy reaches constraints. As the economy reaches constraints, prices begin to rise and the Federal Reserve has to raise interest rates and, as I like to say: Every economic expansion does not die of old age; it dies because the Federal Reserve shoots it in the head," said Minerd. 
+Minerd's ominous interview with CNBC comes as analysts at Credit Suisse warn investors against getting too down on the market. In a lengthy report to clients, Credit Suisse's U.S. equity strategist Jonathan Golub made the case for the S&P 500 to reach 3,000 by year-end, representing a 15% gain from Thursday morning, as reported by CNBC. Golub views positives such as a stellar earnings season, in which profits are on track to grow at an "unheard of" 23%, as outweighing mounting investor concerns such as rising rates and global trade tensions. 
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

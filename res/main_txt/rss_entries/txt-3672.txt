@@ -1,0 +1,88 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        For years, a debate has raged as to whether actively managed funds or passively managed index products are the best choice for client portfolios. The best active managers can add value, especially in challenging market environments like the one we’ve seen thus far in 2018. On the other hand, passive indexing is low-cost and has outperformed a high percentage of many actively managed funds.
+However, there are more options to choose from than the binary "active" versus "passive." The emergence of smart beta products in has created an interesting “middle ground” alternative to consider as well. Why not use both to build the best possible portfolio for your clients?
+What is Smart Beta?
+Smart beta combines many of the benefits of passive investing with the advantages of active investing. While there is no single, definitive approach, smart beta funds generally use a rules-based approach tied to a benchmark. Like active funds, these strategies may seek to add alpha, reduce risk or increase diversification beyond a standard benchmark, at a lower cost than traditional active management, but higher than true passive investing.
+The Use of Factors
+Most smart beta products use factors, or characteristics defined by the fund manager, to attempt to outperform their benchmark. Factor-based ETFs generally employ a strategy that carves out a slice of a benchmark that is either developed internally or is provided by an industry benchmark provider. The fund will be rebalanced periodically and perhaps once or twice per year, the benchmark will be re-screened with certain stocks being eliminated and others added.
+Some examples of factors include:
+Quality ETFs invest in companies with strong balance sheets and consistent earnings growth. These companies often have solid management teams in place and have a trend of consistent and growing dividend payouts. FlexShares Quality Dividend Fund (QDF) is an example of a fund that combines quality and dividend factors.
+Momentum ETFs invest in stocks that are likely to gain in price either absolutely or relative to a peer group. iShares MSCI USA Momentum Factor Index ETF (MTUM) is an example of an ETF using this factor.
+Low volatility ETFs screen for stocks whose prices should tend to fluctuate less than the rest of the market. iShares Edge MSCI Min Vol USA ETF (USMV) and PowerShares S&P 500 Low Volatility Portfolio (SPLV) are two of the largest low-volatility ETFs in the marketplace.
+Value ETFs invest in stocks that generally have lower valuations or slower growth than their peers within their universe of stocks. iShares Edge MSCI Intl Value Factor ETF (IVLU) is an ETF that invests in international large and mid-cap stocks with lower valuations.
+Size factor ETFs tilt their portfolios to include more exposure to small cap stocks than the benchmark. Small caps, especially small-cap value stocks, have long been shown to add value over time. iShares Edge MSCI USA Size Factor ETF (SIZE) invests in large and mid-cap stocks with a tilt toward stocks with a lower market capitalization.
+Multi-factor ETFs will combine one or more smart beta factors in order to meet predetermined objectives. JPMorgan Diversified Return U.S. Equity ETF (JPUS) is an example of a multi-factor smart beta ETF. JPUS uses the relative value, quality and momentum factors simultaneously in screening large cap U.S. stocks.
+Passive or Active?
+Most smart beta funds exhibit some of the features of both active and passive funds.
+Like active funds, smart beta ETFs rely on a rules-based process to differ from the benchmark. While a traditional index fund endeavors to passively track an index like the S&P 500, smart beta funds restrict (or expand) their investment universe in comparison to the benchmark in order to deliver a specific investment goal.
+Smart beta ETFs are like passive products because they still passively follow an index. Where active managers will buy and sell securities in order to meet an investment objective, smart beta ETFs passively observe rules that tie them to an industry (or custom) benchmark.   
+Smart beta funds are generally more expensive than a passive, market cap weighted index fund, but less expensive than a full actively managed fund.
+The Bottom Line
+Smart beta funds offer an alterative to pure passive or pure active management. These funds can be used to enhance a client’s allocation to tilt the portfolio’s focus in a specific direction. They can be used in conjunction with both traditional index and active funds as a tool to help achieve your client’s investing objectives.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '',
+     'leadGenVertical' : '',
+     'leadGenLayout' : '',
+     'leadGenPage' : ''
+    });
+                    
+            
+                

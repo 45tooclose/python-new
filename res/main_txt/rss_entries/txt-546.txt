@@ -1,0 +1,44 @@
+
+
+Imagine having a $100 bill in your pocket. Now, imagine $100 worth of pennies.
+Notice the difference?
+Bitcoin isn't without its irritating kinks, and tiny bitcoin pieces called "dust" are among the lesser-known. As the analogy above shows, the bitcoin protocol sometimes needs to generate tiny output coins when users send bitcoin back and forth, coins so small in value they require more fees to spend than they're actually worth.
+But since blockchain room is limited and small value transactions, say $0.01, still can often take up just as much room as larger transactions, too many of these tinier coin pieces can lead to performance issues in the system as a whole. 
+
+In the past, dust wasn't necessarily problem for bitcoin users. The story changed, however, as fees grew higher than ever late last year, making smaller value transactions much more expensive to send. In short, some developers argue the time is ripe to get rid of bitcoin dust now that fees are down again.
+Decentralized applications developer Greg Slepak, like many others in the space, is thinking ahead to a time where bitcoin adoption and transaction rates increase - something that might or might not happen.
+If that does happen, the argument goes, it's more profitable to move these tiny data pieces while fees are relatively low, especially if a user has collected a lot of them.
+Slepak, for one, isn't about to take any chances.
+He told CoinDesk:
+"That time might not come again."
+Extinguishing dust
+To get rid of this "dust," users need to "consolidate" their all their dust "transaction outputs" into one. That just means sending one transaction that effectively lumps them together.
+Going back to our original analogy, it's similar to trading in a bunch of pennies, nickels and dimes for a fresh dollar bill. How (and whether) users can identify and get rid of dust, depends on their wallet, however.
+Slepak recommends Electrum, a long-standing simplified payment verification (SPV) wallet, that validates transactions with less data, and is thus common to use on mobile devices.
+A user can select a number of "change addresses" holding dust, then select the "send from" button to create one transaction consolidating all these little dust particles into a single transaction output.
+Some wallets might not offer this granular level of control, especially if they're custodial wallets like Coinbase, which essentially manage these sort of details themselves behind the scenes - choosing whether to keep or get rid of dust.
+Bitcoin wallet Blockchain and offers a variation of this feature as well.
+Bad for privacy?
+One caveat, though, is extinguishing dust in this way can reveal more about your financial history than you might like.
+Say you have dust collected in a number of different accounts. In cryptocurrencies, it's best-practice for financial privacy not to reuse bitcoin addresses. (Though not everyone actually does this since it's not very convenient.)
+If this the case, consolidating dust from several accounts at once can compromise a user's privacy. Since the blockchain is public, it's easy to tell that all these transactions at least might have come from the same user. This is especially the case if a user has gone through a know-your-customer (KYC) filters at a bitcoin exchange, where users are required to confirm their identity, as a way to curb financial crime in the cryptocurrency world.
+If one user's address is tied to a real-world identity in this way, then all the other addresses storing dust in the consolidation transaction will suddenly be as well.
+"It's like saying, 'Yes indeed, and these other addresses belong to me, too,'" Slepak remarked.
+"This is why people should use Monero instead," he added, pointing to a cryptocurrency that is more private by default and where this sort of privacy managing wouldn't be an issue.
+These privacy concerns really depend, though. If a user's dust is already all tied to the same account, then the dust is already linked together anyway. So, mashing the dust together into one transaction, in this case, won't harm a user's privacy.
+So, while Slepak thinks that this is the time people should move to stamp out their dust "if they don't want to lose those funds," he said, they should only do so if such "privacy implications" don't bother them.
+Bigger obstacles ahead
+On the other hand, Blockchain data software engineer, Antoine Le Calvez, one of the blockchain's most avid data trackers, argues that dust levels have already been decreasing by quite a bit.
+That's thanks to bigger bitcoin businesses. Because of the high fees earlier this year, larger bitcoin companies were driven to adopt more efficient transaction technologies - including getting rid of dust - to reduce fees.
+"Coinbase cleaned their wallet. And they were quite a massive contributor," Le Calvez told CoinDesk. "Since the end of the consolidation, there's been less dust created."
+Users can consolidate transactions to potentially save money in the future - if they so desire. But bitcoin companies might have a larger-scale impact on overall dust levels - as they already have.
+But, just like Slepak, Le Calvez is thinking about the future. Fees might get worse if bitcoin ever gains more attention on a larger scale. This could happen if and when the Lightning Network, trumpeted as the future of bitcoin payments, since they're cheaper and gives bitcoin more scale, actually gains traction.
+"I think that anything that results in more usage of the blockchain can lead to fees that are higher than the dust itself," Slepak said.
+Le Calvez added that "it's easy" to clean up dust when payments aren't coming in at such a high volume, like they are today. That might not be the case if and when the level of transaction "heats up" again.
+He stated:
+"The real test, though, will be the next run up."
+Gold dust image via Shutterstock
+var riuyojisrlntqyiu,riuyojisrlntqyiu_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){riuyojisrlntqyiu_poll(function(){if(window['om_loaded']){if(!riuyojisrlntqyiu){riuyojisrlntqyiu=new OptinMonsterApp();return riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="//a.optnmnstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;riuyojisrlntqyiu=new OptinMonsterApp();riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");
+
+The leader in blockchain news, CoinDesk is a media outlet that strives for the highest journalistic standards and abides by a strict set of editorial policies. CoinDesk is an independent operating subsidiary of Digital Currency Group, which invests in cryptocurrencies and blockchain startups.
+

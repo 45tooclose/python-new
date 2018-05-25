@@ -1,0 +1,76 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        The CEO and co-founder of WhatsApp is leaving the messaging service because parent company Facebook Inc. (FB) is seeking to use its personal data and weaken the popular app’s encryption, people familiar with the matter told The Washington Post.
+Jan Koum, who has yet to confirm his departure date, will also reportedly step down from Facebook’s board of directors, a role he was awarded after WhatsApp was acquired by the social network for $19 billion in 2014. Brian Acton, who co-founded WhatsApp, also left the company in September to start his own non-profit business and called for people to delete their Facebook accounts when the Cambridge Analytica data leak came to light. (See also: WhatsApp Co-founder Joins "#DeleteFacebook" Chorus)
+“It’s been almost a decade since Brian [Acton] and I started WhatsApp, and it’s been an amazing journey with some of the best people. But it is time for me to move on,” Koum wrote on his Facebook profile. “I’m taking some time off to do things I enjoy outside of technology, such as collecting rare air-cooled Porsches, working on my cars and playing ultimate frisbee. And I’ll still be cheering WhatsApp on — just from the outside.”
+Koum and Acton developed WhatsApp keeping in mind the need to protect user privacy and shun advertising. The pair promised not to compromise this mission when they sold their start-up to Facebook, and even added encryption to further safeguard user data in 2016.However, Facebook has since come under pressure to squeeze more money out of the free encrypted messaging service. This pressure led the social network to take steps to undermine WhatsApp’s core values. (See also: How WhatsApp Makes Money.)
+Facebook’s privacy practices have come under scrutiny after it emerged that Cambridge Analytica, a political marketing firm tied to President Donald Trump’s election campaign, inappropriately obtained information on 87 million of the social network’s users. It declined to comment on why Koum decided to leave his role.
+The social network’s CEO Mark Zuckerberg gave away little while responding to Koum’s resignation letter on Facebook. “I’m grateful for everything you’ve done to help connect the world, and for everything you’ve taught me, including about encryption and its ability to take power from centralized systems and put it back in people’s hands," wrote Zuckerberg. “Those values will always be at the heart of WhatsApp.” (See also: Facebook Shares Fall After Data Leak Bombshell.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

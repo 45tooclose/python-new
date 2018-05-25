@@ -1,0 +1,83 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Elon Musk, the outspoken chief executive of Tesla Inc. (TSLA) is at it again, this time vowing to start a candy company after famed investor Warren Buffett dismissed his comments that moats aren’t important in business.
+During Tesla’s controversial earnings call last week in which Musk refused to take Wall Street questions, the eccentric chief executive said the idea that a company should have a buffer or moat to push back from the competition isn’t an effective strategy. “If your only defense against invading armies is a moat, you will not last long,” Quartz quoted Musk as saying.  The issue came up after the green car company revealed it was providing competitors with access to its superchargers as a way to drive the market. Musk said the pace of innovation ultimately determined the competitiveness of a company not the size of a moat. (See more: Is Elon Musk Making Things Worse for Tesla?)
+Musk Vows To Create His Own Candy Company
+While Musk is known for his outspokenness and sometimes seemingly bizarre behavior, his most recent comments didn't sit well with Buffett, a big believer in building a competitive buffer. At Berkshire Hathaway’s annual shareholder meeting this past weekend Buffett said “there are some pretty good moats around,” adding “Elon may turn things upside down in some areas. I don’t think he’d want to take us on in candy,” reported Quartz. Buffett has long held up See’s Candies, which he acquired in the 1970s as a classic example of a company with a strong moat. Musk, not one to let comments go by, quickly turned to Twitter to troll Buffett, vowing to start his own candy company.
+I’m starting a candy company & it’s going to be amazing
+— Elon Musk (@elonmusk) May 5, 2018
+
+
+ 
+ 
+Shorts May Have Nowhere To Go  
+The latest antics out of Musk comes in the wake of the company’s most recent earnings conference call in which he dismissed analyst questions as “boring.” Investors reacted by selling off the stock, with shorts increasing their bets that shares will go lower. Still, with short interest nearing $12 billion, according to S3 Partners, it may be getting too expensive to bet against the stock. (See more: Tesla Shorts May Soon Lose Their Attractiveness: S3 Partners.) According to S3 Partners short interest increased by almost 400,000 shares after the earnings conference call alone. Although investor sentiment on Tesla hasn’t changed, S3 Partners analyst Ihor Dusaniwsky noted that tightness in supply and expensive borrowing costs are now eating away at shorts profits.
+ 
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

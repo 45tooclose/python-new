@@ -1,0 +1,86 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Solar stocks took a beating in the second half of 2015 and throughout 2016, but the sector turned around in 2017. In fact, one exchange-traded fund (ETF) tracking the sector – the Guggenheim Solar ETF (TAN) – generated impressive returns of over 54% last year. Solar stocks soared in the past due in part to federal tax credits for home solar installation and other incentives to stimulate the industry, but the sector was surprisingly resilient in 2017 despite a presidential administration that does not prioritize renewable energy to the same extent as its predecessor.
+The facts on the ground suggest that solar's fortunes may remain strong over the medium and long term. Consider that solar energy use is skyrocketing – around 25% of all new energy installations in the first three quarters of 2017 were solar, second only to natural gas. The solar workforce has skyrocketed by 168% over the past seven years, reaching over 250,000 workers in 2017, edging out the number employed in natural gas and nearly doubling the number employed in coal.
+Of course, there's continued uncertainty under the Trump administration, which may not pursue aggressive alternative energy policies. On Jan. 23, 2018, President Trump imposed tariffs on imported solar panels, aiming to protect U.S. companies against dumping by foreign manufacturers – a decision that could have significant effects on the industry and its major players.
+That said, depending on your point of view, the sunny outlook for the industry may mean that the time is right to jump into solar. If you're considering solar exposure for your portfolio, here are the top picks for 2018. Note: All figures are current as of May 2, 2018.
+First Solar, Inc. (FSLR)
+Following a somewhat disappointing 2016, when revenue was down nearly 20% from 2015, First Solar had an impressive year in 2017. After the company beat consensus estimates in the first two quarters of 2017, the results for the third quarter were even more impressive – First Solar reported third quarter revenue of $1.09 billion, representing year-over-year growth of 60% and crushing the consensus estimate of $824.2 million. While the company missed revenue estimates in the fourth quarter, the adjusted loss of 25 cents per share came in better than expectations of a 33-cent loss.
+The solid third quarter earnings report was enough to send First Solar stock soaring by over 20% in the trading session on Oct. 27, 2017, and the shares posted additional gains of over 13% in the first part of December. The stock saw some declines in February 2018 in conjunction with the broader market correction, testing support levels at around $61, but it has recovered since then and is currently trading at $68.02 per share.
+First Solar could actually benefit from Trump's tariff decision because it uses thin-film solar panels – a different technology than what is employed by the Chinese companies that the tariff is designed to protect against. Thus, although First Solar has manufacturing facilities overseas, its panels are exempt from the tariff. The stock's response to the tariff decision was rather muted, indicating that the advantages to First Solar may have been priced into the shares prior to the formal announcement of the policy. (See also: Buy First Solar on Better Products: Deutsche Bank.)
+SunPower Corporation (SPWR)
+SunPower lost more than 70% of its value over the course of 2016, a figure that strikes fear in the heart of the average investor. Bankruptcy is a definite concern with some solar companies, but SunPower is majority owned (66%) by petroleum giant Total S.A. (TOT), which is propping the solar company up with credit and even purchasing solar panels for its 5,000 gas stations. SunPower is plowing money into new technology from Congenra Solar to boost its solar panels' efficiency and move into utility-scale projects, which could be a game changer for the balance sheet.
+SunPower has a market cap of $1.177 billion. The stock is currently trading at $8.36 per share. Third quarter 2017 revenue of $533.6 million beat analysts' expectations but was down 30.7% from 3Q 2016. Fourth quarter revenues were also down nearly 25% year over year, although adjusted earnings per share of 25 cents exceeded expectations. The recent imposition of tariffs on solar panels imported to the U.S. raises significant concerns for SunPower because it relies on panels imported from manufacturing facilities in Asia that will be affected by the new trade policy. (For more, see: First Solar and SunPower: Effects of Solar Panel Tariffs.)
+On April 18, 2018, SunPower announced its agreement to acquire 100% of SolarWorld Americas, a well-known American producer of high-quality solar panels. 
+Vivint Solar, Inc. (VSLR)
+Vivint is a residential solar company that provides both rooftop solar and storage solutions. The stock had a bang-up month in June 2017, rallying over 80% after Goldman Sachs analysts upgraded the shares to Buy and nearly doubled their price target from $3.50 to $6.00 per share. However, Vivint shares subsequently gave up the majority of those gains. Even so, the stock ended 2017 up nearly 56% for the full year, and after some declines to start 2018 followed by a recovery in March, it is currently trading at $3.85 per share.
+The volatility experienced by the stock in recent months could give investors pause, but the company's move to a cash and loan sales model and its national footprint could make it an attractive acquisition target. Plus, Vivint has some of the lowest solar installation costs in the country. Legislation passed in Nevada last summer allows solar owners to sell excess electricity to the utility companies, which prompted Vivint to restart operations in the state after a two-year hiatus.
+The company's financial performance has been growing stronger in recent periods. First quarter 2017 revenue of $53 million was up more than 200% over the prior-year period, and 2016 total revenue of $135 million was up more than 110% from 2015. The company turned profitable in the third quarter of 2017, generating a gross profit of $16.4 million for the period that ended Sept. 30. (For additional reading, check out: Sunny Times Ahead for the Solar Sector.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

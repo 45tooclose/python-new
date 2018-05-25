@@ -1,0 +1,88 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Widely acknowledged as the world's most renowned investor, with a stellar long-term track record to back up that assessment, remarks by Warren Buffett deservedly get a great deal of attention, and others repeatedly try to replicate his methods and anticipate his moves. The annual meeting of his Berkshire Hathaway inc. (BRK-A) is coming up on Saturday, May 5, and investors will be eager to parse his comments for valuable insights. In anticipation of that meeting, Bhumika Gashti, who heads a team of research analysts at Credit Suisse AG, thinks that these stocks may be among those that fit Buffett's criteria, according to Barron's: Ulta Beauty Inc. (ULTA), O’Reilly Automotive Inc. (ORLY), Cognizant Technology Solutions Corp. (CTSH), CDW Corp. (CDW), Centene Corp. (CNC) and Universal Health Services Inc. (UHS). (For more, see also: Rules That Warren Buffett Lives By.)
+What They Do
+Ulta is a retailer of beauty products with in-store salons. O'Reilly is a retailer of auto parts, tools and accessories that also provides various diagnostic and repair services. Cognizant offers information technology consulting and outsourcing services. CDW provides information technology services such as cloud computing and data center optimization. Centene is involved in administering various government-sponsored healthcare programs. Universal manages hospitals and other healthcare centers.
+Statistical Details
+For the six stocks mentioned above, here are their price gains over the past five years and for the year-to-date through April 30, as well as their forward P/E ratios, per Yahoo Finance:
+Ulta: +186% 5 years, +12.1% YTD, 19.8x P/E
+O'Reilly: +39%, +6.5%, 15.0x
+Cognizant: +155%, +15.5%, 16.0x
+CDW: +306%, +2.9%, 13.6x
+Centene: +370%, +7.6%, 13.3x
+Universal Health: +74%, +0.8%, 11.0x
+Shares of Berkshire Hathaway are up by 120% over the past 10 years, during which time the S&P 500 Index (SPX) has risen by 92%. Over the past five years, the respective figures are 85% and 66%, while YTD they are -2.3% and -1.0%. The current forward P/E for Berkshire stock is 20.2, per Yahoo Finance, while that for the S&P 500 is 17.0, per calculations by Birinyi Associates as reported by The Wall Street Journal. Note that CDW started trading on June 27, 2013, and its five-year gain is calculated from that date onward. (For more, see also: Think Like Warren Buffett.)
+Keeping It Simple
+"Buffett has arguably been modest all of these years; he actually buys wonderful companies at wonderful prices," as Barron's quotes Gashti. She distills his selection criteria for stocks into these factors, per Barron's: high returns on equity (ROE), high returns on net tangible assets, consistent earnings power, the ability to deal with inflation, small or no debt loads, low stock valuations, good management, and businesses that are easy to understand.
+All the above six stocks qualify as being in easy-to-understand businesses. Per Yahoo Finance, all except Ulta have below-market forward P/E ratios, and all are expected to post full year 2018 EPS gains of 20% or more, per consensus estimates. Low PEG ratios are offered by O'Reilly (0.85), CDW (0.96), and Centene (0.86). High ROEs belong to Ulta (33%), O'Reilly (99%), and CDW (52%). Low or no long-term debt characterizes Ulta and Cognizant.
+More Potential Targets
+Berkshire Hathaway held nearly $116 billion in cash and short-term investments as of the end of 2017. In their own attempt to apply Buffett's oft-stated investment criteria, CNBC came up with their own list of possible targets for him earlier this year. These include: Illinois Tool Works Inc. (ITW), Campbell Soup Co. (CPB), parts of General Electric Co. (GE), AmeriSourceBergen (ABC) and Southwest Airlines Co. (LUV).
+Illinois Tool works is "an under-the-radar-screen stalwart with a solid cash flow," per CNBC. The food industry is consolidating, and Buffett-backed Kraft-Heinz Co. (KHC) is a logical acquirer for Campbell, CNBC says. Buffett already has noted that he can afford to buy troubled GE in its entirely, but CNBC thinks that its airline leasing business may be the best fit for Buffett, who is optimistic about the airline industry. Meanwhile, Southwest has solid free cash flow, good management and a domestic focus, CNBC notes. AmeriSourceBergen is a leading distributor of pharmaceuticals, and CNBC observes that it would fit in with the partnership to reduce employee health costs that Buffett has joined with Amazon.com Inc. (AMZN) and JPMorgan Chase & Co. (JPM).
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

@@ -1,0 +1,82 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Cameron and Tyler Winklevoss may have first risen to prominence for their complicated relationship with Facebook Inc. (FB), but the famous twin-brother investors have shifted their focus in recent years. One of their latest projects, Gemini Partners, is a cryptocurrency exchange that has recently made significant moves in an effort to stand out from the rest of the crowded field.
+According to a report by BTCNewsToday, just days ago the digital currency exchange announced a new partnership with Nasdaq in an effort to monitor markets. At the same time, Nasdaq CEO  Adena Friedman hinted at the possibility of the foundational stock exchange adopting cryptocurrencies at some point in the future, pending the stability of regulatory efforts that the industry has yet to see realized. The partnership has analysts and cryptocurrency enthusiasts wondering exactly what could be in store for Gemini and if this will be the move that cements the exchange's place as a major player in the crypto space.
+SMARTS Market Surveillance Technology In Play
+Gemini will reportedly be the first digital currency exchange to make use of Nasdaq's SMARTS Market Surveillance Technology. According to Nasdaq, this technology system aids compliance teams in reducing surveillance challenges including "translating regulatory guidelines/rules governing trading contact into trading alerts" to minimize potential violations in trading, "efficiently analyzing and managing alerts and outputs," and "sourcing, capturing and maintaining data elements required to conduct a complete review of all trading activity."
+Considering the evolving position of the U.S. Securities and Exchange Commission on the subject of cryptocurrencies over the past several years, as well as the hesitation on the part of major financial institutions to enter into the space because of the regulatory status of these investment vehicles, a partnership with Nasdaq could be a tremendous boon for Gemini. Currently, SMARTS is in use with 17 regulators and 140 market participants in 45 marketplaces.
+Nasdaq does not yet have a digital currency exchange component, but the company has worked in partnership with numerous exchanges. Still, there is room for improvement in the relationship between a traditional exchange like Nasdaq and the cryptocurrency and blockchain worlds more generally; Friedman has indicated that "ICOs need to be regulated" and that the "SEC is right that those are securities and need to be regulated as such." (See also: Nasdaq CEO Hints at Future Cryptocurrency Exchange.)
+Potential Benefits for Gemini
+Making use of SMARTS could allow Gemini to seek out and eliminate unusual trading behavior in an effort to reduce market manipulation, which remains a significant threat in the exchange industry broadly and in digital currencies specifically. Tyler Winklevoss suggested that "[Gemini's] deployment of Nasdaq's SMARTS Market Surveillance will help ensure that Gemini is a rules-based marketplace for all market participants."
+The partnership also comes at a time when cryptocurrency exchanges have seen greater levels of scrutiny than ever before. With the threat of fraudulent activity, hacks, scam ICOs and other nefarious activities taking place in the cryptocurrency world seeming to grow more menacing all the time, exchanges like Gemini have been increasingly motivated to offer users a secure, transparent experience that will not be at risk of running afoul of regulatory measures put in place by government agencies.
+Gemini Makes Other Moves As Well
+The partnership with Nasdaq is not the only step that Gemini has taken to set itself apart from other digital currency exchanges. Just weeks ago, the Winklevoss' company announced a step toward large-scale volume exchange when it launched so-called block trading for its users. These large trades can now be accomplished off-book, published with a delay of several minutes in order to minimize the risks of localized volatility, which continues to be a concern for cryptocurrency traders around the world.
+Earlier this year, the Winklevoss brothers also revealed plans to launch a Virtual Commodity Association, a self-regulating organization for digital currency markets that also aims toward efficiency and transparency. While the proposed plan has yet to take effect, it was met with a cautious welcome by many in the digital currency space. Supporters believe that an organization of this type would help to maintain innovation in the cryptocurrency space while also facilitating issues of liquidity and pricing, among other things. (See also:  Winklevoss Twins Unveil Proposal for Self-Regulation of Crypto Markets.)
+The exact impact of the partnership between Gemini and Nasdaq remains to be seen; however, if it is successful, it may prove to be a transformative change for the cryptocurrency exchange world.
+Investing in cryptocurrencies and Initial Coin Offerings ("ICOs") is highly risky and speculative, and this article is not a recommendation by Investopedia or the writer to invest in cryptocurrencies or ICOs. Since each individual's situation is unique, a qualified professional should always be consulted before making any financial decisions. Investopedia makes no representations or warranties as to the accuracy or timeliness of the information contained herein. As of the date this article was written, the author owns bitcoin and ripple.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

@@ -1,0 +1,142 @@
+
+
+    
+                          What is 'Drip Pricing'
+
+      Drip pricing is a pricing technique where only part of an item's price is advertised, with the total amount revealed at the end of the buying process. Drip pricing may initially withhold mandatory fees, such as local hotel taxes, booking fees or resort fees, or may not include add-ons that are required to use a product or service, such as internet access, certain facilities or amenities. These additional, often mandatory costs are disclosed one by one or "dripped."
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Dividend Reinvestment Plan - DRIP                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Treasury DRIP                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Advertised Price                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Impose                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      Breaking Down 'Drip Pricing'
+      The price listed in a newspaper advertisement, in an email, or on a website (the "headline price") may not be what a good or service ultimately costs the consumer. Companies would rather show a lower price (and later explain that mandatory fees will make things look more expensive) than scare away a customer with sticker shock. Drip pricing can make comparison shopping more difficult and penalize sellers who are more transparent with their pricing. Drip pricing is especially prevalent online, where it is used by a variety of retailers. The reasoning behind its use is that a shopper may have put so much time into the shopping process that by the time additional fees or charges are disclosed they have already made up their minds to make a purchase.
+Drip Pricing in Practice
+Drip pricing is frequently associated with the hospitality industry. Airlines may show the price of having a seat on a plane, but may exclude baggage fees, seat selection fees, taxes, and other costs that consumers associate with being part of the typical travel experience. Hotels may show room pricing that does not include local taxes or resort fees, or may not include the cost of services such as access to the gym or pool.
+Companies use drip pricing for products that may face heavy price competition. This is because consumers are most likely to shop around for the best price for these types of items. This creates an incentive for companies to try to show the lowest price possible, even if the price that they show is not what the consumer will ultimately pay. Companies may utilize this pricing approach in order to entice a customer into starting the purchase process, at which point the customer may not want to restart his or her search.
+Drip Pricing Regulation
+Regulators in the United States have not taken a firm stance on drip pricing, though consumers' opinions may eventually force regulators to make a decision on whether to limit or ban the practice. In the European Union, regulators have mandated that taxes, fees and surcharges may not be dripped.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'ActiveTrading',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

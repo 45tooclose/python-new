@@ -1,0 +1,139 @@
+
+
+    
+                          What is a  'What-If Calculation'
+
+      A what-if calculation is an output from a financial model using different assumptions or scenarios. What if "x" is inputted into the model — what is the result? What-if calculations enable an economic forecaster to check the variance in end results for a financial model using various hypothetical levels for inputs such as interest rates, inflation rates and exchange rates for a GDP model, for instance. These calculations are generally performed with spreadsheet software. What-if calculations can also be referred to as sensitivity analysis or stress testing.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Sensitivity Analysis                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Efficiency Variance                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Sensitivity                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Profitability Index                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'What-If Calculation'
+      What-if calculations can be run very easily once a sound financial model is set up. Any number of variable inputs can be changed to estimate how a studied output is affected. All types of corporations put together financial models for internal budgeting needs and to evaluate contemplated investments. In a discounted cash flow model used to assess the viability of a project, for example, changes in the discount rate can lead to wide ranges in the net present value of the project. The key benefit of what-if calculations, in this case, is that they can test the viability of the project under various scenarios.
+What-If Calculations on Wall Street
+Wall Street cannot function without spreadsheets. Whether it is a banker in mergers and acquisitions, a sell-side analyst, or a risk manager running internal value-at-risk (VaR) models, what-if calculations in a financial model are routinely performed to account for various possibilities that may impact the valuation of an acquisition target, price-earnings ratio of a stock, or the conformity of a set of derivative transactions to risk parameters. The caveats of what-if calculations is that a) a model must be set up correctly, and b) the output will only be as reliable as the inputs. As it was so painfully demonstrated during the financial crisis, what-if calculations failed because modelers put together faulty models and, on top of that, made grossly erroneous assumptions for model inputs.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

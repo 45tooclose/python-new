@@ -1,0 +1,39 @@
+
+
+Wouldn't it be nice to make some extra cash while browsing social media?
+That's the promise of Golem, a peer-to-peer market for putting your computer's excess CPU power to use for other people. And today, after three years and 14 software implementations later, it's going live on the ethereum blockchain.
+The project, which sold out of its GNT token in 20 minutes, raising 820,000 ETH - around $340 million, according to current metrics - in 2016 by selling its crypto utility tokens to investors will likely see a significant amount of fanfare since Golem was one of the earliest generations of ethereum applications.
+But it has also received some amount of criticism for its failure to turn around a product relatively quickly. 
+
+"This is typical for software development in general, and blockchain in particular, is that we underestimate the complexity of what we want to do," Julian Zawistowski, CEO and founder of Golem, told CoinDesk. "You always underestimate how difficult it is, and this was obviously the case with us."
+That said, even though the project is still far from its goal of building a worldwide supercomputer, the mainnet launch is an important step forward in proving out its underlying architecture and ethereum itself.
+In its current format, the service enables computers to rent unused CPU power for creating computer-generated imagery (CGI) using Blender, an open-source software for animated films, visual effects, interactive 3D applications and video games. It works by swapping computational power for GNT through an interface that connects to Blender directly.
+And this current release, Golem Beta or Brass Golem, is an effort to test whether the technology functions in real market conditions with real money. "We have to see how it behaves in the wild," Zawistowski said.
+CTO and co-founder of the company, Piotr "Viggith" Janiuk, told CoinDesk:
+"The release is there to prove to us and everyone that we can actually deliver something that can run on mainnet and that's really usable. And well, it is."
+Big ambitions
+As such, Golem today works through a software client, which connects the two parties in Golem's network - "requesters," those that sell computational resources, and "providers," those that want to rent CPU power.
+The providers are given small tasks, or "subtasks," which went pieced together, create a full computational picture.
+"We send those subtasks over a peer-to-peer network where peers compute them, return the results for you and connect that into one piece and pay for the use of the other peoples' computers," Zawistowski said.
+Zawistowski explained that all interactions happen directly between nodes on the network. While it's not built on a blockchain itself, Golem uses ethereum not only for its token but also its consensus layer.
+For now, the primary function of the mainnet release is to test the economic assumptions of the network, as well as appealing to early adopters for feedback on usability and issues.
+"You start with a very simple Golem that should work up to a point where we have the Golem which is perfect and self-contained and modular, and you give it a computation and it's done in a matter of seconds," Janiuk said.
+And that future goal is first to create a dedicated plugin for Blender so that there's no extra step for using Golem's service through the application, and then, even more ambitious, allowing the network to provide computational resources for the sought-after form of artificial intelligence called machine learning.
+"We definitely need to move in the direction of machine learning. This is something that is suited to Golem pretty well," Janiuk said.
+Inventing the wheel
+But that will take time.
+Speaking to the project's long road to production, Janiuk told CoinDesk, "Interfacing with ethereum seems pretty straightforward, but once you want to move into production it is difficult. You have to make sure that it is as bulletproof as possible; there can be no holes because you're risking someone else's money."
+And what the team behind Golem found was that their aim of splitting computational tasks up into smaller tasks and then reintegrated them was an uphill battle.
+The project faced with complicated and previously unresearched technical barriers.
+For example, while verification - or proving that a computation is correct - is easy to achieve for simple crypto transactions, it becomes extremely difficult to develop around different kinds of computations.
+On top of that, there was the issue of building on ethereum, which has seen its fair share of hurdles recently, as platform apps cause transaction backlogs and rising fees. Even ethereum creator Vitalik Buterin lamented the state of affairs on the network recently, telling an audience in Seoul, South Korea that app makers are "screwed" by scaling challenges.
+Yet, as witnessed during CryptoKitties' peak hype, this isn't limited to Golem, but something that extends across the industry.
+"Any decentralized solution right now is I believe still at least a few steps before being even close to something that can be called a production-grade solution," Janiuk said.
+And Zawistowski compared the situation to web development and infrastructure building in the 90s. While web developers today have a host of tools to choose from when building web applications, in the early days, developers had to start from scratch.
+This is true of the blockchain space as well, Zawistowski said, adding:
+"Very often you have to invent the wheel to solve your problems. Not reinventing the wheel, but actually inventing the wheel."
+Technician installing CPU in computer image via Shutterstock
+var riuyojisrlntqyiu,riuyojisrlntqyiu_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){riuyojisrlntqyiu_poll(function(){if(window['om_loaded']){if(!riuyojisrlntqyiu){riuyojisrlntqyiu=new OptinMonsterApp();return riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="//a.optnmnstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;riuyojisrlntqyiu=new OptinMonsterApp();riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");
+
+The leader in blockchain news, CoinDesk is a media outlet that strives for the highest journalistic standards and abides by a strict set of editorial policies. CoinDesk is an independent operating subsidiary of Digital Currency Group, which invests in cryptocurrencies and blockchain startups.
+

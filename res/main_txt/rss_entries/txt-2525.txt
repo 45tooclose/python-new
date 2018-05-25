@@ -1,0 +1,215 @@
+
+
+
+Nigeria Wants Legal Framework for Blockchain Regulation
+Nigeria is pushing its regulators to put in place rules to regulate blockchain and cryptocurrencies.
+
+
+ by  Komfie
+Manalo,
+2 hrs ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  Nigerian lawmakers are pushing the country’s central bank and the Nigerian Deposit Insurance Commission (NDIC) to establish a legal framework to regulate the blockchain technology space, Business Day reported.
+Members of Nigeria’s House of Representatives have passed a resolution in addition to an earlier motion submitted by Solomon Adaelu. The latter highlights the uniqueness of the blockchain technology and its potential to improve financial services.
+
+Adaelu said in his motion:
+
+“Blockchain as a digital and decentralization ledger technology that records all transactions without the need for a financial intermediary bank is new to humanity and can be a core payment facilitator for the financial services industry.”
+
+He noted that since the first cryptocurrency, Bitcoin, was introduced in 2008, blockchain has been credited with addressing the challenges presented by double-spending in virtual currency transactions without the need for a centralized authority or server.
+Even leaders of the G20 agreed during their summit in Buenos Aires last month to draft unified rules on cryptocurrencies, he said.
+
+"Countries such as the USA, the UK, Russia, Venezuela, and Kenya have provided a framework for the regulations of this emerging technology,” he added.
+
+Cryptocurrency mining poses energy problem in Nigeria
+The cryptocurrency craze has descended on Nigeria as well, and the nation has been experiencing energy problems due to Bitcoin mining operations. Mining a single piece of digital currency consumes at least 24 terawatt-hours of electricity per year, which is enough to power a single average American household for at least seven days.
+In a report, Motherboard Vice said that Bitcoin mining is producing a large amount of waste and carbon emissions and is costing the world more than it should.
+Each Bitcoin transaction consumes an average of 215 KWh per day, more than the average 901 KWh monthly energy consumption of an average American.
+Motherboard Vice stated:
+
+"That means that, at a minimum, worldwide Bitcoin mining could power the daily needs of 821,940 average American homes."
+ 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+  

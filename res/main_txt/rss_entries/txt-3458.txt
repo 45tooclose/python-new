@@ -1,0 +1,144 @@
+
+
+    
+                          DEFINITION of 'Aggregator'
+
+      An aggregator is a party that purchases mortgages from financial institutions and then securitizes them into mortgage-backed securities (MBS). Aggregators can be the issuing banks or subsidiaries within the financial institutions themselves or brokers, dealers, correspondents or another type of financial corporation. Aggregators earn profit by purchasing individual mortgages at lower prices and then selling the pooled MBS at a higher premium.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Mortgage Originator                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Primary Mortgage Market                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Weighted Average Coupon - WAC                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Mortgage Excess Servicing                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Aggregator'
+       
+
+Aggregators are essentially service providers who eliminate some of the effort issuers need to go through in creating a mortgage-backed security. Depending on what the end customer is looking for, aggregators have the ability to seek out and purchase a defined type of mortgage from a diverse set of lenders and originators. By expanding the search across a variety of mortgage originators, including regional banks and specialty mortgage companies, it possible to create a tailored mortgage-backed securities that couldn't easily be sourced from a single mortgage originator.
+Understanding the Secondary Mortgage Market
+Aggregators are better understood as a phase of the securitization process than a distinct entity in the secondary mortgage market. When the originator like a bank issues a mortgage, they want to move it off the books to free up capital to loan again. Selling a single mortgage directly to an investor is tricky because a single mortgage is facing a lot of difficult to quantify risks based on the individual buying a property. Instead, the aggregator buys up a whole bunch of loans where overall performance is easier to predict, and then sells that pool to investors in tranches. So there is a pooling/aggregation phase that takes place before the MBS can be sliced up and sold.
+When Aggregators are also Originators
+Often mortgage originators also become aggregators as securitizing a pool of mortgages can be seen as a natural extension of their business. When the originator acts as an aggregator, they usually create a special purpose vehicle (SPV) as a walled off subsidiary for the purpose of pooling and selling loans. This removes some liability and frees up the originator’s aggregator arm to purchase loans from other institutions as well as from the parent entity, as is sometimes necessary in the creation of a tailored MBS.
+In theory, the originator owned aggregators operate the same way as third-party aggregators even though they are dealing with a majority of the mortgages from a single customer which is also the owner. In practice, there could be situations that would not exist with a third party. For example, the aggregator could be subtly encouraged not to seek as steep a discount on secondary market mortgages in order to help the parent company’s balance sheet, shifting any overall loss to the aggregator. Of course, the MBS market leading up to the mortgage meltdown had larger issues than the possibility of an aggregator and originator colluding.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Mortgage',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

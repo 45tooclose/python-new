@@ -1,0 +1,210 @@
+
+
+
+“Crypto Heroes” Play the Long Game: Tim Draper
+Bitcoin bull believes crypto investors need to be prepared for some short-term pain, if they want to enjoy substantial gains in the long-term.
+
+
+ by  Maryam
+Manzoor,
+17 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  Tim Draper, venture capitalist and long-time proponent of Bitcoin and cryptocurrencies in general, believes that crypto “hodlers” need to have faith in the technology and adopt a long-term approach when it comes to their investments.
+In an interview with Forbes, Draper – who was an early investor in multiple successful tech companies including Tesla, Hotmail, and Skype, and also an early investor in Bitcoin – said:
+
+“As a “hodler” myself, I believe it’s important to sacrifice in the short term for a long-term gain.”
+
+Discussing the definition of a “hero” (in light of his new book, How To Be The Startup Hero), Draper claimed that crypto heroes need to be aware of the fact that they have “identified a technology that can take on the big monopoly and transform the world”. Secure in this knowledge, they need to be prepared to take short-term hits for the sake of a bigger pay-off in the future.
+Draper went on to reiterate his belief in a bright future for crypto, and doubled down on his prediction that Bitcoin will reach $250,000 by 2022 – a prediction he claims he made based on his belief that Bitcoin will see mass mainstream adoption in the future, and come to replace fiat currencies entirely.
+
+“I think that in the future fiat will resemble carrying around change … I think that cryptocurrencies will eventually grow to maybe $100 trillion and fiat currencies will fall from $80 trillion to $30 trillion.”
+
+He also added that the growth of Bitcoin depends on a “network effect” – its value grows in proportion to the number of people who possess and use it.
+
+“Right now there are 40 million Bitcoin wallets. I think that this number will continue to grow and the value of Bitcoin will be determined by the square of that.”
+
+In addition to foreseeing a bright future for cryptocurrencies, Draper was equally optimistic about the technology underlying digital currencies – so much so, that he claimed “blockchain technology is actually much bigger than the Internet”. He went on to expound on its potential, stating that blockchain tech (owing to the fact that it is an ideal, trusted third party that provides security) has “the potential to transform industries that have historically been government regulated because they are so big”, including banking, real estate, health care, and even the government itself. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

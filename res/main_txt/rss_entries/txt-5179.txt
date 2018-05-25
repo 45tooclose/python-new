@@ -1,0 +1,46 @@
+
+
+"Sleep? What's this word you talk about?"
+It's safe to say ethereum founder Vitalik Buterin's joke during the first day of EDCON, an ethereum developer conference now taking place in Toronto, had some truth to it, both for himself and the developers who took the stage with him to discuss one of the $76 billion blockchain's toughest challenges: scaling.
+In contrast to the day's more cheery asides, the discussion, featuring Vlad Zamfir, Philip Daian, Joseph Poon, Karl Floersch, Hsiao-Wei Wang and Justin Drake, struck a comparatively restrained note, one that was perhaps sobered by the sheer weight of the scaling challenges ahead.
+These challenges were on full display six months ago when the platform was brought almost to a halt by the viral popularity of CryptoKitties, a decentralized application for trading digital kittens. More recently, though, even Buterin acknowledged the issue at an event in Seoul, South Korea, saying app developers were "screwed" because of the protocol's current scale. 
+
+However, it was a point noted prominently at EDCON as well, with Zamfir, the developer behind ethereum's upcoming consensus algorithm change, giving another prominent voice to the doubts.
+Zamfir told attendees:
+"I still don't know how scalable it can get. I don't know, I can't even quantify the possible scalability of the blockchain, really."
+That said, there's one thing in the platform's favor, and that might be the sheer number of potential solutions to the scalability hurdle, a list that now includes Raiden, Plasma, Liquidity Network, Loom Network, OmiseGO, sharding, state channels and perhaps even others now in the earliest stages of experimentation.
+Still, the developers assembled were realistic, noting that there's still a lot of R&D that needs to be done before ethereum can scale to allow for its vision of creating a decentralized world computer.
+"What keeps me up at night is that not that many people know how to solve it," said Floersch, a crypto-economics researcher who works on scaling solution Plasma.
+So many solutions
+Still, that's not to say that understanding of the challenge isn't increasing. For instance, it's now accepted that there are two categories of scaling solutions.
+This includes layer-one technologies, like sharding, that necessitate changes to the ethereum blockchain itself, and "layer-two" technologies, which can be built independently and added to the blockchain without an underlying change.
+All these solutions are being pursued at the same time, and while that might seem to add complexity and confusion, according to Buterin, it's both the safest and most impactful way to get a solution ready for the network. By actively pursuing all ideas, he said, even if one scaling solution doesn't work, there's always a backup.
+And if they all work, the ideas can be combined to make something even better.
+"For every single problem, multiple solutions exist," Buterin said, adding:
+"If for some reason the trolls are right and sharding gets delayed by five years then guess what, next year we still have awesome state channel networks and we still have raiden and we still have liquidity and whatever else is being built."
+Poon, the co-author of the paper on the plasma scaling solution (and also bitcoin's lightning network paper), echoed this point, adding that in striving towards the same goal, developers can make discoveries that might be useful for other scaling approaches as well.
+"It doesn't matter what wins, so to speak, because they all do similar things and they all achieve things in somewhat similar ways," Poon said.
+Yet, there wasn't unanimous agreement on that topic.
+Zamfir, for instance, warned that the multiple layer-two solutions - or those stacked on top of ethereum - could increase the incentive for bad actors to attack the underlying blockchain.
+"I don't think the security of these things is independent, in fact, I worry that layer-one solutions will be compromised by layer-two solutions," he said during the panel.
+However, Zamfir acknowledged that this experimentation on layer-two technologies is necessary in case there's no conclusion on how to make changes to the blockchain at all.
+Touching on another hot topic for the ethereum community, Zamfir said, "I do think that we should experiment with things on layer-two, just in case layer-one governance breaks down and we can't do anything with layer one."
+When will it happen?
+With all these different efforts, from the outside, you might think ethereum scaling is right around the corner. But there's some disagreement on this, too.
+Buterin remains optimistic, saying that within a year he expects plasma, a scaling technology inspired by the lightning network that looks to decrease the amount of data that's stored on the main blockchain, to be deployed by many different startups in place of proprietary permissioned blockchains.
+As detailed by CoinDesk, new advancements, such as Plasma Cash, have further mitigated the risks in how plasma chains communicate with the ethereum blockchain.
+And those building sharding technology, another scaling solution that purports to lower the data load by splitting the blockchain into parts running on different servers, are making good progress, according to Drake, a developer working of sharding.
+Even though Buterin's recent proof-of-concept for sharding was quickly bypassed by further advancements in research, Drake said a "semi-formal spec" will be released in the next couple months.
+Still, though, there were some on the panel who think true breakthroughs lay further ahead.
+"In my opinion, in a year nothing substantial will have changed in regard to fundamental blockchain scalability," Daian said. Seeming to hint at Project Chicago, his new initiative aimed at redesigning ethereum, Daian went on, "Hopefully in five years we'll see fundamentally new architectures that are really delivering huge throughputs."
+But even when those new architectures arrive, adding them to ethereum will be a challenge since the protocol must make sure it's all compatible. As such, Daian expects smaller ethereum competitors to be the first to patch in the new architectures.
+On top of that, many of these solutions have trade-offs - putting decentralization, verifiability and security on the line - that aren't always considered as much as they should be, Poon said.
+"Oftentimes people make claims about scalability and they're not really saying what the tradeoffs are," he said.
+To avoid this, Floersch emphasized the importance of educating users on the value of decentralized technology, so they don't make regrettable choices in the interim.
+And Buterin remained positive, concluding:
+"In the longer term, I do think the weaknesses of centralization are going to show themselves."
+EDCON image via Joseph Lubin Twitter
+var riuyojisrlntqyiu,riuyojisrlntqyiu_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){riuyojisrlntqyiu_poll(function(){if(window['om_loaded']){if(!riuyojisrlntqyiu){riuyojisrlntqyiu=new OptinMonsterApp();return riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="//a.optnmnstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;riuyojisrlntqyiu=new OptinMonsterApp();riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");
+
+The leader in blockchain news, CoinDesk is a media outlet that strives for the highest journalistic standards and abides by a strict set of editorial policies. CoinDesk is an independent operating subsidiary of Digital Currency Group, which invests in cryptocurrencies and blockchain startups.
+

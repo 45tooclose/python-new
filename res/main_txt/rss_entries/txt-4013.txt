@@ -1,0 +1,81 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Jeff Bezos, the Chief Executive Officer (CEO) and founder of one of the fastest-growing, most disruptive companies in the world, has little of a "work/life balance" in the traditional sense. The leader of Amazon.com Inc. (AMZN) didn't rise to the top of the tech industry by segmenting his life into enjoyment and hard work, yet spun the idea on its head and built something that looks more like a "work/life mesh." According to Bezos, the concept of a work/life balance is extremely limiting, and can prevent people from pursuing their passions and reaching their highest potential. 
+(See also: How Jeff Bezos Got to Be the World's Richest Man.)
+CEO and Founder Says Work/Life Relationship Is a Circle of Positive Reinforcement, Not a Balancing Act
+At a recent event hosted by Axel Springer, the business mogul indicated that he recommends his employees completely erase the beaten-in idea of needing to have a strict trade-off between their personal and professional lives. Instead, he tells his new hires to strive towards a more holistic relationship between "life at the office" and "life at home." 
+Bezos, who grew up in a middle class family and became the world's richest man last year, makes a point to take time to do simple things outside of his duties at the helm of a $732 billion company. Parts of his routine mirror that of a "normal life." Amazon's CEO wakes up without an alarm every morning, eats breakfast with his family, takes a limited number of meetings and sets aside time for tasks such as washing his own dishes. 
+"This work-life harmony thing is what I try to teach young employees and actually senior executives at Amazon too. But especially the people coming in," said Bezos. "I get asked about work-life balance all the time. And my view is, that's a debilitating phrase because it implies there's a strict trade-off."
+According to the master mind behind "the everything store," the relationship between work and life is the most beneficial and fulfilling when working as a circle, or some type of positive loop, rather than a balancing act. 
+"If I am happy at home, I come into the office with tremendous energy," Bezos said, according to Business Insider. "And if I am happy at work, I come home with tremendous energy. You never want to be that guy — and we all have a coworker who's that person — who, as soon as they come into a meeting, they drain all the energy out of the room ... You want to come into the office and give everyone a kick in their step."
+While Bezos' comments on work culture may seem bold and counter intuitive, his ideas are in line with that of a growing group of entrepreneurs, freelancers, "gig economy" workers, and other "digital nomads" who refuse to view work as simply a means to an income, or a step towards retirement. 
+As they say, "if you love what you do, you'll never work a day in your life." As Millennials demand this new type of job satisfaction as part of a well-rounded, meaningful life, corporations across the board, and notably tech's biggest behemoths such as Amazon, have invested heavily in creating a more flexible work experience that complements personal endeavors and inspires social interaction. 
+(See also: Measuring Job Satisfaction in the Millennial Age.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

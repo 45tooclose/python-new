@@ -1,0 +1,144 @@
+
+
+    
+                          What is 'Business Logic'
+
+      Business logic is the custom rules or algorithms that handle the exchange of information between a database and user interface. Business logic is essentially the part of a computer program that contains the information (in the form of business rules) that defines or constrains how a business operates. Such business rules are operational policies that are usually expressed in true or false binaries. Business logic can be seen in the workflows that they support, such as in sequences or steps that specify in detail the proper flow of information or data, and therefore decision-making. Business logic is also known as "domain logic."
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Authorization Date                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Luhn Algorithm                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Business Credit Card                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Standard Floor Limit                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      Breaking Down 'Business Logic'
+      Put another way, business logic is real-world business rules put into computer code and shown in a computer program via a user interface. Business logic is most evident in its role in creating workflows that pass data between users and software systems. Business logic determines how data may be shown, stored, created and altered. It provides a system of rules that guides how business objects (parts of software that control how data is transported) work with one another. Business logic also guides how business objects within software are accessed and updated. It exists at a higher level than the type of code that is used to maintain basic computer infrastructure, such as how a database is displayed to a user or as basic system infrastructure. 
+The algorithms involved in business logic perform behind-the-scenes data processing that is invisible to the user but is critical to keeping things running smoothly in a modern economy. 
+Business Logic vs. Business Rules
+Business rules are useless without business logic to determine how data is calculated, changed and transmitted to users and software. But without business rules to create a framework, business logic therefore cannot exist. Business logic is any part of a business enterprise that makes up a system of processes and procedures, whereas anything else is an example of a business rule. 
+Business Logic Example
+A credit card issuer's business logic may specify that out-of-state credit card transactions above a certain limit, say $500, be flagged as suspicious, and the issuer contacted as soon as possible to confirm the authenticity of the transaction. The policy of flagging such a transaction is an example of a business rule; the actual process of flagging the transaction is an example of business logic. Given that millions of credit card transactions are conducted every single day, business logic enables such transactions to be checked and processed in an efficient and timely manner.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '',
+     'leadGenVertical' : '',
+     'leadGenLayout' : '',
+     'leadGenPage' : ''
+    });
+                          
+    
+  

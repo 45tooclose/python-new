@@ -1,0 +1,100 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Finding stocks that will appreciate is the oldest game in the market, but it is not impossible to win. You have to perform due diligence to make sure the stock's fundamentals look good, make some educated guesses about demand for the company's products or services, and make sure that the stock chart shows an uptrend or a rebound.
+Also, you need to appraise the market in general. With Republicans controlling Congress and the White House, stocks may continue to perform well due to fewer regulations and lower taxes. However, there is a good chance that the Fed will raise interest rates again throughout 2018, and that can affect the cost of borrowing money to do business. (See also: The Impact of a Fed Interest Rate Hike.)
+These cross currents suggest conflicting influences on growth stocks. However, the expanding economy may be the most important factor. Demand for products and services looks like it is on the increase.
+We have selected three growth stocks that are currently showing signs of moving upward or recovering from a drop. These are also companies with products and services that are showing increased demand. All figures are current as of May 3, 2018. (See also: Value or Growth Stocks: Which is Best?) 
+Broadridge Financial Solutions, Inc. (BR)
+Broadridge gives investors communications solutions throughout the financial services industry. In other words, it processes information for all stakeholders in a transaction. The company also provides proxy voting services for equity and mutual fund investors. Broadridge oversees and facilitates stock transfers, along with records of those transfers. The company also provides productivity tools and performance reporting, along with data aggregation and portfolio management. It is involved in clearing securities and can provide transfers in multiple currencies.
+The stock has been in an uptrend since November 2016 and has consistently found support at its 50-day moving average. This a healthy sign. While it is currently trading near its all-time high, strong fundamentals and the company's recent acquisitions suggest that Broadridge stock could have more room to grow. (See also: Broadridge's Q1 Earnings to Benefit From Acquisitions.)
+Average Volume: 810,098
+Market Cap: $12.576 billion
+P/E Ratio (TTM): 33.03
+EPS (TTM): $3.12
+Dividend and Yield: $1.46 (1.35%)
+The Brink's Company (BCO)
+This company has expanded well beyond moving cash around in armored trucks. It also provides security systems, payment processing, cash management, guarding of airports and companies in other industries, and smart safes.
+Over the past three quarters, Brink's has seen a rebound in revenues. The company also beat earnings estimates in three of the past four quarters, missing the mark by just a penny in the fourth quarter of 2017. Brink's stock has been in an uptrend since December 2016 and broke sharply higher in early February 2017, which indicates increasing demand for the stock. The stock price dipped over the second half of October 2017, and it posted further declines in February 2018 along with the broader market, so this could indicate a buying opportunity for investors who predict additional upside for the shares. (See also: Stock-Picking Strategies: Growth Investing.)
+Average Volume: 489,431
+Market Cap: $3.808 billion
+P/E Ratio (TTM): 229.45
+EPS (TTM): $0.33
+Dividend and Yield: $0.60 (0.80%)
+Amazon.com, Inc. (AMZN)
+Amazon continues to add to its stature as a retailer by moving into streaming video and web services. And it made a move into groceries by purchasing Whole Foods. The Whole Foods acquisition actually caused a pullback in Amazon shares, but the prospect of increased income from the deal is now buoying the stock. Recent criticism from President Donald Trump has contributed to another pullback in Amazon shares, but it remains to be seen how much of an impact the tough talk and any potential presidential actions will have on the company in the long term.
+The chart suggests that the stock hit a resistance point at around $840 per share in November 2016 and dropped sharply. The stock broke above that level on higher volume and has continued its uphill climb. It repeatedly tested the psychologically important $1,000 level over the second half of 2017 before breaking out in late October. Even after the recent Trump-related declines, Amazon shares are currently trading at $1,572.08. (See also: How Amazon Will Be Worth $1.6 Trillion in Less Than a Decade.)
+Average Volume: 6,339,032
+Market Cap: $762.813 billion
+P/E Ratio (TTM): 255.62
+EPS (TTM): $6.15
+Dividend and Yield: N/A (N/A)
+The Bottom Line
+All of these companies are making smart moves to diversify their offerings across a range of industries and consumer types, not to mention business-to-business marketing. If the economy expands at a reasonable rate this year, these three companies will be well positioned to prosper. Investors should stay abreast of the broad economic trends as well as the fundamentals for each of these stocks. One or all of them could win big for 2018 and beyond. (See also: Grabbing Growth Stocks on the Cheap.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

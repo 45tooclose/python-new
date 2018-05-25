@@ -1,0 +1,263 @@
+
+
+
+Bitcoin Cash Enjoys Mighty Price Soar; Skeptics Raise Eyebrows and Manipulation Claims
+Bitcoin Cash is showing that it is as attractive as Bitcoin as its price soars ahead of another fork.
+
+
+ by  Tedra
+DeSue,
+5 hrs ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  Bitcoin Cash’s price may be on a tear, but there is a swirl of controversy surrounding what’s causing the mighty moves higher.
+Since last week, its value has soared more than 50% to roughly $1,362 at the time of writing Wednesday evening. As it climbed, so did the amount of criticism over it, and then there’s the continued comparison of it to Bitcoin.
+Let’s discuss.
+
+Bitcoin Cash is smashing it
+Bitcoin Cash’s price soar has been largely attributed to the potential launch of a hard fork. We reported to you about Bitcoin Cash announcing its next hard fork with a May 15 deadline.
+It’s being done to unroll the Bitcoin ABC 0.17.0 version. This is the second hard fork for the project after an update last fall to fix problems with estimating mining difficulty.
+As that deadline approaches, we’re seeing a clear positive reaction from investors. Take Monday, for example. On that day, Bitcoin Cash’s price soared by 20%. Then it rose 18% on Tuesday, only to shed some of its value. Still, it should be noted that its price was up almost 98% since last week as of Tuesday.
+Those price gains led to the crypto trading at $1,570, which was the highest level for its price in three months.
+At the time of writing Wednesday evening, the price was about $1,299.
+Questions over price rise’s legitimacy
+As BCH traders have enjoyed the price soar, pundits think something nefarious is going on.
+For example, Bloomberg reported this week that the price surge was due in part to one of the largest mining groups in the space “burning” a portion of the coins it receives in exchange for solving the complete mathematical puzzles that serve as the backbone of the network, potentially reducing supply and driving up the value.
+According to Bloomberg, the maneuver is the latest example of how the battle between the supporters of Bitcoin and Bitcoin Cash are escalating their beef to influence the coins’ prices after the significant losses they suffered last year.
+The mining group is Antpool. To Bloomberg, Kyle Samani of Multicoin Capital, had this to say about the group.
+
+"Antpool has burned $12 worth of Bitcoin Cash a day. This was purely a PR game so they could say ‘reducing supply.”’
+
+Tom Lee speaks
+Fundstrat’s Tom Lee weighed in on Bitcoin Cash versus Bitcoin this week. To the surprise of few, he’s pro Bitcoin over Bitcoin Cash.
+
+“I prefer not to pick winners and losers when we’re looking at cryptocurrencies like Bitcoin/Bitcoin Cash. Both have merits, but if I was putting new money to work today, I would be a lot more interested in buying a lagger that could attract inflows rather than something that’s potentially overbought.”
+ 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 
+
+
+Tags
+
+Bitcoin Cash News
+
+ 
+
+.tag-element .taghoverext {
+    display: inline-block;
+    width: 5px;
+    background: #ff8931 !important;
+    border-radius: 2px;
+    height: 26px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background:#454b50;
+    transition:all 0.3s;
+}
+.tag-element:hover .taghoverext {
+    width:100%;
+}
+.tag-element .tag-href {
+    position:relative;
+    z-index:2;
+    background:none !important;
+    margin-top:0px !important;
+    color:#959595 !important;
+}
+.tag-element .tag-href:hover {
+    background:none !important;
+}
+.tag-element:hover .tag-href {
+    background:none !important;
+    color:#fff !important;
+}
+.tag-element {
+    position:relative;
+    border-radius: 2px;
+    border: solid 1px rgba(206, 212, 218, 0.2);
+    height: 27px;
+    display: inline-block;
+}
+ 

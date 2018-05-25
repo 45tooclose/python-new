@@ -1,0 +1,82 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        With so many companies listed as being a part of the oil sector, confusing their roles is almost inevitable. When most people think 'oil company', they are picturing the exploration and production part of the industry – the people who find deposits and drill wells. In this article we’ll explore two other important types of oil company – service companies and refiners – and what makes them unique.
+Upstream, Midstream and Downstream
+The oil industry is split into three phases. Upstream is the exploration and production, midstream is the shipping and pipelines, and downstream is the refining of the crude oil into value-added products for commercial sale.
+Service Companies
+Service companies work across all the phases of production. These are firms like Halliburton (HAL) and Baker Hughes (BHI). They provide services like engineering, fluid hauling, maintenance, geological surveying, non-destructive testing, and so on. Although they work across all the phases, oil service firms make the most money when upstream production is booming. On the midstream and downstream, oil service firms see regular income that can see them through dips in upstream activity, but it is the upstream activity is a huge driver of revenue. This is because they have new business coming in and new projects to bid on.
+Refiners
+Oil refining is a purely downstream function, although many of the companies doing it have midstream and even upstream production. This integrated approach to oil production allows companies like Exxon (XOM), Shell (RDS.A), and Chevron (CVX) to take oil from exploration all the way to sale. The refining side of the business is actually hurt by high prices, because our demand for many petroleum products, including gas, is price sensitive. However, when oil prices drop, selling value-added products becomes more profitable. (Read our very helpful Oil Price Analysis: The Impact of Supply and Demand.)
+There are some purer refining plays, like Marathon Petroleum Corporation (MPC), CVR Energy Inc, (CVI) and Valero Energy Corp (VLO). These companies enjoy lower energy prices, and benefit from stronger U.S. production because crude can’t be exported; only the refined products can be. This means that refiners have the whole of the shale oil supply to work with, and their input costs have dropped with the new supply.
+A Shared Space at Midstream
+One area service companies and refiners agree on is creating more pipeline capacity and transport. Refiners want more pipeline to keep down the cost of transporting oil by truck or rail. Service companies want more pipeline because they make money in the design and laying stages, and get a steady income from maintenance and testing.
+The Bottom Line
+Oil service companies and refiners both play an important role in the oil industry, but they tend to profit more in opposite markets. Oil service firms make money when high demand for crude oil is driving exploration and production. Refiners make money when the demand for fuel and value-added petroleum products is high, and they don’t mind when the price for crude goes lower. Both offer a compelling investment opportunity, depending on where the price of crude is.  
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

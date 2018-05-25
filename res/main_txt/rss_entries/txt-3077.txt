@@ -1,0 +1,103 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Technical Analysis in ActionTime for Big Cap Biotech (CELG, VRTX)Russian Stocks Heading Toward Breakout Levels (RSX, RSXJ)Where is Netflix Headed from Here? (NFLX, BIDU)3 ETFs to Trade the Breakout in Value Stocks (IWF)The moving average (MA) is a simple technical analysis tool that smooths out price data by creating a constantly updated average price. The average is taken over a specific period of time, like 10 days, 20 minutes, 30 weeks, or any time period the trader chooses. There are advantages to using a moving average in your trading, as well as options on what type of moving average to use. Moving average strategies are also popular and can be tailored to any time frame, suiting both long term investors and short-term traders. (see "The Top Four Technical Indicators Trend Traders Need to Know.")
+Why Use a Moving Average
+A moving average helps cut down the amount of "noise" on a price chart. Look at the the direction of the moving average to get a basic idea of which way the price is moving. Angled up and price is moving up (or was recently) overall, angled down and price is moving down overall, moving sideways and the price is likely in a range.
+A moving average can also act as support or resistance. In an uptrend, a 50-day, 100-day or 200-day moving average may act as a support level, as shown in the figure below. This is because the average acts like a floor (support), so the price bounces up off of it. In a downtrend a moving average may act as resistance; like a ceiling, the price hits it and then starts to drop again.
+
+The price won't always "respect" the moving average in this way. The price may run through it slightly or stop and reverse prior to reaching it. 
+As a general guideline, if the price is above a moving average the trend is up. If the price is below a moving average the trend is down. Moving averages can have different lengths though (discussed shortly), so MA may indicate an uptrend while another MA indicates a downtrend.
+[Moving averages are a great way to identify areas of support or resistance, but they shouldn't be the only strategy that you use to identify potential trades. If you want to learn how other technical analysis strategies, Investopedia Academy's Technical Analysis Course is an excellent starting point.]
+Types of Moving Averages
+A moving average can be calculated in different ways. A five-day simple moving average (SMA) adds up the five most recent daily closing prices and divides it by five to create a new average each day. Each average is connected to the next, creating the singular flowing line.
+Another popular type of moving average is the exponential moving average (EMA). The calculation is more complex as it applies more weighting to the most recent prices. Plot a 50-day SMA and a 50-day EMA on the same chart. You'll notice the EMA reacts more quickly to price changes than the SMA does, due to the additional weighting on recent price data.
+Charting software and trading platforms do the calculations, so no manual math is required to use a MA.
+
+One type of MA isn't better than another. An EMA may work better in a stock or financial market for a time, and at other times an SMA may work better. The time frame chosen for a moving average will also play a significant role in how effective it is (regardless of type).
+Moving Average Length
+Common moving average lengths are 10, 20, 50, 100 and 200. These lengths can be applied to any chart time frame (one minute, daily, weekly, etc), depending on the traders trade horizon.
+The time frame or length you choose for a moving average, also called the "look back period", can play a big role in how effective it is. 
+An MA with a short time frame will react much quicker to price changes than an MA with a long look back period. In the figure below the 20-day moving average more closely tracks the actual price than the 100-day does.
+
+The 20-day may be of analytical benefit to a shorter-term trader since it follows the price more closely, and therefore produces less "lag" than the longer-term moving average. A 100-day MA may be more beneficial to a longer-term trader.
+Lag is the time it takes for a moving average to signal a potential reversal. Recall, as a general guideline, when the price is above a moving average the trend is considered up. So when the price drops below that moving average it signals a potential reversal based on that MA. A 20-day moving average will provide many more "reversal" signals than a 100-day moving average. 
+A moving average can be any length, 15, 28, 89, etc. Adjusting the moving average so it provides more accurate signals on historical data may help create better future signals.
+Trading Strategies - Crossovers
+Crossovers are one of the main moving average strategies. The first type is a price crossover, and is when the price crosses above or below a moving average to signal a potential change in trend.
+
+Another strategy is to apply two moving averages to a chart, one longer and one shorter. When the shorter MA crosses above the longer term MA it's a buy signal, as it indicates the trend is shifting up.This is known as a "golden cross."
+When the shorter MA crosses below the longer term MA it's a sell signal as it indicates the trend is shifting down. This is known as a "dead/death cross"
+
+MA Disadvantages
+Moving averages are calculated based on historical data, and nothing about the calculation is predictive in nature. Therefore, results using moving averages can be random. At times the market seems to respect MA support/resistance and trade signals, and other times it shows no respect.
+One major problem is that if the price action becomes choppy the price may swing back and forth generating multiple trend reversal or trade signals. When this occurs it's best to step aside or utilize another indicator to help clarify the trend. The same thing can occur with MA crossovers, where the MAs get "tangled up" for a period of time triggering multiple losing trades. 
+Moving averages work quite well in strong trending conditions, but poorly in choppy or ranging conditions.
+Adjusting the time frame can remedy this problem temporarily, although at some point these issues are likely to occur regardless of the time frame chosen for the MA(s).
+The Bottom Line
+A moving average simplifies price data by smoothing it out and creating one flowing line. This makes seeing the trend easier. Exponential moving averages react quicker to price changes than simple moving averages. In some cases this may be good, and in others it may cause false signals. Moving averages with a shorter look back period (20 days, for example) will also respond quicker to price changes than an average with a longer look period (200 days). Moving average crossovers are a popular strategy for both entries and exits. MAs can also highlight areas of potential support or resistance. While this may appear predictive, moving averages are always based on historical data and simply show the average price over a certain time period.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

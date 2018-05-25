@@ -1,0 +1,208 @@
+
+
+
+BlockShow Comes to Europe: Cryptovest Readers Get 20% Off Tickets
+BlockShow Europe, the largest industry event, will take place in Berlin, Germany, on May 28-29 2018. It will offer insights from most prominent industry leaders and exceptional networking opportunities.
+
+
+ by  News
+Desk,
+9 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  On May 28-29, 2018, Berlin will play host to BlockShow Europe, a major international event for the blockchain industry and a showcase for the best solutions and applications utilizing this innovative technology. This will be the third large-scale conference dedicated to best practices, trends, and developments in the blockchain ecosystem.
+The German capital has been chosen for a good reason: with a high concentration of investment and venture capital, it is considered one of the main European hubs for fintech and blockchain and is an industry trendsetter.
+BlockShow Europe 2018 invites investors, startups, and companies looking to implement blockchain technologies in their products to join the biggest international industry event to learn about the latest developments in decentralized technologies. The conference participants will get insights from industry leaders and acknowledged experts, meet promising companies and potential partners alongside engaging in networking.
+More than 3,000 blockchain enthusiasts and over 120 exhibitors and sponsors are expected to attend, which is twice as many as the number for the Singapore leg of the event. Additionally, more than 100 companies and media partners from all over the world will support the Berlin edition, providing global coverage plus massive branding and advertising opportunities.
+BlockShow Europe 2018 offers a diverse and sophisticated agenda featuring 80+ globally renowned speakers, among them financial industry experts, executives at major central banks, and representatives of European government bodies. They will share their vision for blockchain development and adoption in panel discussions, speeches, and Q&A sessions.
+The long list of crypto celebrities and blockchain industry influencers expected to attend includes Bobby Lee, a legendary Bitcoin proponent and co-founder of China's oldest cryptocurrency exchange; Llew Claasen, Bitcoin evangelist, venture capitalist, and executive director at Bitcoin Foundation; Patrick Lowry, venture capitalist and CEO at Iconiq Lab; and Jimmy Wales, a technology visionary and founder of Wikipedia.
+The main stage of the conference will focus exclusively on burning issues such as global blockchain regulations, due diligence, and governmental blockchain initiatives.
+The second stage will be devoted to practical aspects, with experts discussing a wide range of blockchain technology applications and use cases that will transform the major industries.
+Startups will have the chance to participate in a competition for young and innovative companies and win the BlockShow Oscar, which comes with a monetary prize of €50,000. The final stage of the competition will be held on the second day of the conference (May 29).
+Registration for BlockShow Europe 2018 is now open. Please, visit the official website to get additional information about the event and buy a ticket.
+
+Cryptovest readers can get a special 20% discount by using the promo code 20CRYPTOVEST on this link: https://blockshoweurope.com/buy-tickets/
+ 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

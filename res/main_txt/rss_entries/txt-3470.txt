@@ -1,0 +1,142 @@
+
+
+    
+                          What is 'Flash Crash'
+
+      A flash crash is an event in electronic securities markets wherein the withdrawal of stock orders rapidly amplifies price declines. The result appears to be a rapid sell-off of securities that can happen over a few minutes, resulting in dramatic declines. A flash crash, like the one that occurred on May 6, 2010, is exacerbated as computer trading programs react to aberrations in the market, such as heavy selling in one or many securities, and automatically begin selling large volumes at an incredibly rapid pace to avoid losses. Flash crashes can trigger circuit breakers at major stock exchanges like the NYSE, which halt trading until buy and sell orders can be matched up evenly and trading can resume in an orderly fashion.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Splash Crash                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Black Monday                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Flash Freeze                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Stock Market Crash Of 1929                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Flash Crash'
+      Shortly after 2:30 p.m. EST on May 6, 2010, a flash crash began as the Dow Jones Industrial Average fell more than 1,000 points in 10 minutes, the biggest such drop in history, at that point. Over one trillion dollars in equity was evaporated, although the market regained 70 percent by the end of the day. Initial reports that the crash was caused by a mistyped order proved to be erroneous, and the causes of the flash were attributed to a Navinder Sarao, a futures trader in the London suburbs, who plead guilty for attempting to "spoof the market," by quickly buying and selling hundreds of E-Mini S&P Futures contracts through the Chicago Mercantile Exchange.
+There are have been other flash crash type events in recent history wherein the volume of computer generated orders outpaced the ability for the exchanges to maintain proper order flow: 
+August 22, 2013. Trading was halted at the Nasdaq for more than 3 hours when computers at the NYSE could not process pricing information from the Nasdaq.
+May 18, 2012 - Facebook's IPO. While not a flash crash per se, Facebook shares were held up for more than 30 minutes at the opening bell as a glitch prevented the Nasdaq from accurately pricing the shares causing a reported $460 million in losses.
+Preventing Flash Crashes
+As securities trading has become a more heavily computerized industry driven by complicated algorithms across global networks, the propensity for glitches, errors and even flash crashes has risen. That said, global exchanges like the New York Stock Exchange, Nasdaq and the CME have put in place stronger security measures and mechanisms to prevent them and the staggering losses they can lead to. They cannot eliminate them altogether, but they have been able to mitigate the damages they can cause.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

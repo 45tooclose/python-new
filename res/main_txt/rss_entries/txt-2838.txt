@@ -1,0 +1,145 @@
+
+
+    
+                          What is 'Kiosk'
+
+      A kiosk is a small, temporary, stand-alone booth used in high-traffic areas for marketing purposes. A kiosk is usually manned by one or two individuals, who help attract attention to the booth to get new customers. Retail kiosks are frequently located in shopping malls or on busy city streets with significant foot traffic.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Bitcoin ATM                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Handle                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Foreign Exchange                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Case Management                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Kiosk'
+      Because of their small, temporary natures, kiosks can be low-cost marketing strategies. They are also a good way to give a company a human face and to give customers the opportunity to ask questions about a product. For example, a local newspaper might set up a kiosk at a grocery store to sign up new subscribers. Similarly, credit card companies often set up kiosks in airports to seek new customers for a credit card that offers frequent-flyer miles.
+Employment Kiosks
+In addition to kiosks that sell retail products or services, some companies set up employment kiosks where job seekers can apply for work. This type of kiosk is especially commonplace in chain stores such as Walmart and Sears. Employment kiosks provide a way to quickly identify promising candidates, who will often receive an interview on the spot.
+The kiosk may include a computer station at which the applicant can use a keyboard or touchscreen to input information about their employment history, education and personal data. Some employment kiosks also administer assessment tests to help determine an applicant's strengths and weaknesses. Information collected at the kiosk is frequently available to the hiring manager almost immediately.
+Food Service Kiosks
+In an effort to streamline the process of taking food orders, some restaurants install self-service kiosks. Customers can follow interactive prompts to select their meal and customize their order. The kiosks usually accept credit or debit cards, eliminating the need for a human cashier. When restaurants use kiosks, the need for counter personnel is reduced, lowering payroll costs for the company.
+Health Care Kiosks
+The health care industry is also starting to implement kiosks as a method for accepting bill payments, checking in patients for appointments and patient recordkeeping. At some kiosks, patients can even take their own blood pressure or perform other non-invasive tests, and then relay the results to their doctors. In some cases, medical kiosks also offer educational videos about medical conditions and their treatments.
+Patient kiosks can reduce medical costs by cutting down on paperwork and eliminating some clerical staff positions. Critics of medical kiosks are primarily concerned with patient confidentiality in their arguments against their use.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

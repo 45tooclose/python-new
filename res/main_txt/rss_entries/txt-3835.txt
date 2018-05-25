@@ -1,0 +1,99 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        In the high leverage game of retail forex day trading, there are certain practices that can result in a complete loss of capital. There are five common mistakes that day traders can make in an attempt to ramp up returns, but that ultimately have the opposite effect.
+Below we outline these five potentially devastating mistakes, which can be avoided with knowledge, discipline and an alternative approach (For more strategies that you can use, check out Strategies For Part-Time Forex Traders).
+TUTORIAL: Forex Tutorial: The Forex Market
+Averaging Down on Forex Trades
+Traders often stumble across the practice of averaging down. It is rarely intended, but many traders have ended up doing it. There are several problems with averaging down in forex markets.
+The main problem is that a losing position is being held — not only potentially sacrificing money, but also time. Thus, this time and money could be placed in a better position.
+Secondly, a larger return is needed on your remaining capital to retrieve any lost capital from the initial losing trade. If a trader loses 50% of their capital, it will take a 100% return to bring them back to the original capital level. Losing large chunks of money on single trades or on single days of trading can cripple capital growth for long periods of time.
+Averaging down will inevitably lead to a large loss or margin call, as a trend can sustain itself longer than a trader can stay liquid — especially if more capital is being added as the position assumes losses.
+Day traders are especially sensitive to these issues. The short timeframe for trades means opportunities are short-lived and quick exits are needed for bad trades (To learn more on averaging down, check out Buying Stocks When The Price Goes Down: Big Mistake?).
+Pre-Positioning Forex Trades for News
+Traders know the news events that will move the market, yet the direction is not known in advance. Therefore, a trader may even be fairly confident that a news announcement, for instance that the Federal Reserve will or will not raise interest rates, will impact markets. Even then, traders cannot predict how the market will react to this expected news. Other factors such additional statements, figures or forward looking indications provided by news announcements can also make market movements extremely illogical.
+There is also the simple fact that as volatility surges and all sorts of orders hit the market, stops are triggered on both sides. This often results in whip-saw like action before a trend emerges (if one emerges in the near term at all).
+For all these reasons, taking a position before a news announcement can seriously jeopardize a trader's chances of success.
+Forex Trades After News Hits
+Similarly, a news headline can hit the markets at any time causing aggressive movements. While it seems like easy money to be reactionary and grab some pips., if this is done in an untested way and without a solid trading plan, it can be just as devastating as trading before the news comes out.
+Day traders should wait for volatility to subside and for a definitive trend to develop after news announcements. By doing so, there are fewer liquidity concerns, risk can be managed more effectively and a more stable price direction is visible (For more on this topic, see: How To Trade Forex On News Releases).
+Risking More Than 1% of Capital on Forex Trades
+The practice of taking on excessive risk does not equal excessive returns. Almost all traders who risk large amounts of capital on single trades will eventually lose in the long run. A common rule is that a trader should risk (in terms of the difference between entry and stop price) no more than 1% of capital on any single trade. Professional traders will often risk far less than 1% of capital.
+Day trading also deserves some extra attention in this area and a daily risk maximum should also be implemented. This daily risk maximum can be 1% (or less) of capital, or equivalent to the average daily profit over a 30 day period. For example, a trader with a $50,000 account (leverage not included) could lose a maximum of $500 per day under these risk parameters. Alternatively, this number could be altered so it is more in line with the average daily gain (i.e., if a trader makes $100 on positive days, they keeps their losses close to $100 or less).
+The purpose of this method is to make sure no single trade or single day of trading hurts has a significant impact on the account. Therefore, a trader knows that they will not lose more in a single trade or day than they can make back on another by adopting a risk maximum that is equivalent to the average daily gain over a 30 day period (To understand the risks involved in forex, see Forex Leverage: A Double-Edged Sword).
+Unrealistic Expectations in Forex Trading
+Much can be said of unrealistic expectations, which come from many sources, but often result in all of the above problems. Our own trading expectations are often imposed on the market, yet we cannot expect it to act according our desires. Put simply, the market doesn't care about individual desires and traders must accept that the market can be choppy, volatile and trending all in short-, medium- and long-term cycles. There is no tried-and-true method for isolating each move and profiting, and believing so will result in frustration and errors in judgment.
+The best way to avoid unrealistic expectations is to formulate a trading plan. If it yields steady results, then don't change it — with forex leverage, even a small gain can become large. As capital grows over time, a position size can be increased to bring in higher returns or new strategies can be implemented and tested.
+Intra-day, a trader must also accept what the market provides at its various intervals. For example, markets are typically more volatile at the start of the trading day, which means specific strategies used during the market open may not work later in the day. It may become quieter as the day progresses and a different strategy can be used. Towards the close, there may be a pickup in action and yet another strategy can be used. If you can accept what is given at each point in the day, even it does not align with you expectations, you are better positioned for success.
+The Bottom Line
+There are five common forex day trading mistakes that can affect traders at any given time. These mistakes must be avoided at all costs by developing a trading plan that takes them into account.
+When it comes to averaging down, traders must not add to positions, but rather sell losers quickly with a pre-planned exit strategy. Additionally, traders should sit back and watch news announcements until their resulting volatility has subsided. Risk must also be kept in check at all times, with no single trade or day losing more than what can be easily made back on another.
+Lastly, expectations must be managed accordingly by accepting what the market is giving you on a particular day. In general, traders are more likely to find success through understanding the common pitfalls and how to avoid to them.
+For further reading on successful forex strategies, check out 10 Ways To Avoid Losing Money In Forex.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

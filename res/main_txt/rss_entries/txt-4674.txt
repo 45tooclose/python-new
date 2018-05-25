@@ -1,0 +1,86 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        In recent years, startups, entrepreneurs, and even larger businesses have hitched their wagon to initial coin offerings, a cutting-edge way to raise capital outside of the traditional financial system. Retail investors have demonstrated their willingness to fund new ventures, and profit as their acquired tokens increase in value due to the project gaining users, revenues, momentum, and notoriety. On the other side of the equation, an ICO-launched business is the beneficiary of funding, a preassembled audience, and a low-overhead transactional model thanks to cryptocurrency.
+Despite the intricacy of the ICO concept, including the correct legal definition for tokens, a project’s accountability to token holders, and the simultaneous existence of thousands of different currencies, it hasn’t experienced much resistance from regulators or governments. This is because everyone has something to gain from the proliferation of cryptocurrency, from the smallest singular entities to the largest central banks in the world.
+After sitting on the sidelines, it’s only logical that nations themselves will want to reap the benefits of cryptocurrency, which include inexpensive cross-border settlement, transparency to combat financial fraud, and an influx of foreign capital. The progression of cryptocurrency’s timeline from speculation to business relevancy has a logical end: state-controlled cryptocurrencies. However, the issue is a tangled one. Few countries have seriously considered their own digital money, yet among them, it’s only fitting that Estonia be the first to follow through.
+Estonia’s Love Affair With Crypto
+For governments, it’s difficult to sit idly by while capital flows outward into cryptocurrencies like Ethereum and Ripple instead of into their own fiat money, equity markets, or respective private sectors. In Estonia’s case, evidence suggests that this has been the prevalent feeling for years. Why would the nation allow private companies, or even non-proprietary open source projects to mint the currency that may one day underpin the economy? Without a crypto-friendly environment, Estonia’s business sector will bleed talent and innovative startups to countries that are more accommodating.
+Accordingly, building a comfortable ecosystem for blockchain-based businesses and cryptocurrency has been a priority for Estonia, which sees the young technology as its ticket to compete on the world stage. The country is incredibly supportive of its burgeoning tech sector and has invested significantly in widespread digitization. Partly due to the nationwide hack that took place in 2007, Estonia has digitized all its public services and processes, with each citizen given a secure digital identity and all public data kept encrypted in decentralized storage.   
+Estonia is embracing blockchain technology in every way possible while remaining within legal boundaries. Part of this endeavor has been to ensure that digital businesses in Estonia aren’t limited when it comes to the creation of their own tokenized businesses. Where regulators might hesitate, businesses can innovate their way around problems and limitations with blockchain.
+Take Blockhive, for example, which is an Estonian company. Where the legality of ICOs is still tenuous at best in many places, Blockhive helps companies launch with a paradigm they dub ‘initial loan procurement’, or ILP. Instead of incubating startups for an eventual ICO, which is what companies like Catena Capital and Waves accomplish, an ILP uses tokens as debt instruments given to contributors, who are paid back with the company’s returns after it’s solvent.
+Estonia is now attempting its latest move towards complete digitization by proposing what it calls ‘Estcoin’, which would be an official state cryptocurrency. Other countries, such as Venezuela (with its Petro), Turkey, and Iran have also determined that a sovereign-backed cryptocurrency could serve their purposes. Estonia, however, is unique due to its proven embrace of digital technology, but also because of its EU membership. This presents some unique obstacles.
+"An inclusive national currency embodies the best of what blockchain and cryptocurrency has to offer. Estonia is leading the charge in this regard. In fact, Estonia is setting itself apart as the de-facto crypto hub of the world. From their forward-thinking e-residency program to an established legal framework that allows developers to thrive, Estonia is setting the tone for crypto development around the world," said Blockhive Co-Founder Hikaru Kusaka.
+When the idea to run a state-backed ICO was flown past European Central Bank President Mario Draghi in late 2017, he wholly rejected it based on the principle that all member countries should use the euro exclusively. However, this harkens to another consideration of cryptocurrencies, which is how they’re officially and legally defined. In the three proposals outlined by Estonian technology leader Kaspar Korjus, he lays out how Estonia would be able to launch its ambitious ICO without threatening the economic union.
+Launching Estcoin
+The crux of Estcoin is that it will be tied into Estonia’s existing e-residency program, which is a type of digital citizenship that makes using public services and doing business in the country easy—even from afar. E-residents don’t necessarily need to live in Estonia either. They can simply apply for e-residency to streamline operations with Estonian businesses and government agencies.
+The first proposal for looping Estcoin into this picture would involve an ICO that raises money to add new services and people to the e-residency program, and the exclusive use of Estcoin within the program. For example, residents could be paid to contribute to the program by referring new citizens to sign up, onboarding their own businesses or improving the service in some way. Eventually, Estcoin might be allowed to make its way from the constraints of the e-residency model to exchanges.
+The second proposal requires no fundraising and makes Estcoins untradeable. They’d be nothing more than a medium by which digital services are rendered. Many who are familiar with blockchain understand that smart contracts use cryptocurrency to denominate value (not necessarily monetary value) that is shuffled around the ecosystem. The value here is simply the ability to access digital services, like surrendering a coin to sign a digital contract or file taxes. Finally, the third idea for Estcoin involves it being pegged to the euro, which basically mimics the economy that already exists while adding the beneficial utilities accompanying blockchain.
+While Estcoin still remains conceptual rather than a reality, it demonstrates the country’s dedication to the idea of a transparent, equitable and digitized society. Even compared to G7 nations, Estonia is impressively cognizant of how dependent its trajectory is on technology. They’re not wrong, and regardless of how successful Estcoin is, or isn’t, Estonia is setting an inspiring example for how countries across the planet can embrace the virtues of blockchain.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

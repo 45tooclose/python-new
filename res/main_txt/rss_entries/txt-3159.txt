@@ -1,0 +1,209 @@
+
+
+
+Rumors Abound That Silicon Valley Firm Andreessen Horowitz Is Launching a Crypto Assets Fund
+The Andreessen Horowitz firm excited the crypto space with a job listing indicating it may start a crypto fund, but now players are confused because the posting has been removed.
+
+
+ by  Tedra
+DeSue,
+5 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  The crypto space was excited, and then sort of disappointed, after the Andreessen Horowitz firm posted a job listing indicating that it was launching a crypto assets fund only to remove it a few days later.
+Recode reported on Wednesday that the firm was readying to launch a crypto assets fund after finding two cryptocurrency-related job listings on its site. As of Friday, the listings had been removed, leaving many to wonder, “what’s up?”
+While there’s been no response from Horowitz about this possible fund, the space’s players are hopeful it’s true for the sake of further legitimizing the space.
+Job post heard throughout crypto space
+Recode reported that on its website, Andreessen Horowitz had listed two job openings related to cryptocurrencies. One was for legal counsel and the other was for a finance and operations manager.
+Since that report, the postings have been removed. Links to the posts state “job was removed.”
+Specifically, the listings stated the firm was looking for someone for a “separately managed fund focusing on crypto assets,” according to Recode. The media outlet also noted that the job postings did not specify how much the fund would gather under management or when it would begin investing.
+Of note about the listing was that the term assets was not defined. This led Recode to draw the conclusion that the firm “could choose to run its token- and blockchain-related startup investing out of this pool of capital, as well.”
+Here’s the posting for the legal counsel position:
+ 
+SEC rules need not apply
+We’ve reported to you extensively about the U.S. Securities and Exchange Commission’s efforts to crack down on the bad actors in the crypto space, especially when it comes to initial coin offerings.
+In our reporting, we noted how notable U.S. mainstream institutional investors, including Marc Andreessen’s firm, are turning their heads and money to Blockchain-related projects. The firm he co-founced has invested in Coinbase, Earn.com and CryptoKitties.
+The firm’s execs seem so enamored with the space that they joined a convoy of sorts in visiting the SEC in mid-April to discuss how the regulator should not be harsh in regulating Silicon Valley players and their crypto projects. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

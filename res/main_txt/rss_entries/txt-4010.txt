@@ -1,0 +1,80 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        On Monday, the overall cryptocurrency market shed a whopping $4 billion as eight out of the top 10 cryptocurrencies fell sharply against the US dollar. The most popular cryptocurrency, Bitcoin, is now trading around $9,000 indicating a near 4 percent. The lone warriors were Ethereum, which gained a paltry half a percent, and Tron, which emerged a surprise winner with around 15 percent jump defying the negative movement of the overall cryptocurrency market. (See also, What Is Tron?)
+The rally helped Tron to achieve the rate of around $0.1011 and a market cap of $6.653 billion. The spike, along with the relative decline in other cryptocurrencies, also helped Tron to spring back into the top 10 list of cryptocurrencies with the highest market capitalization. It is now ranked ninth, comfortably ahead of the tenth placed NEO with nearly 15 percent more market cap.
+Image Courtesy: CoinMarketCap.com
+What’s Leading the Surge in Tron?
+While there is no clarity regarding the surge in Tron’s valuation, there are a few factors that can be attributed to the spike.
+Tron founder Justin Sun tweeted on Monday about the upcoming main net launch that may have been the catalyst for the rally. While its test net was launched in March and has been successfully running since, the main net deployment is eagerly awaited. Main net is the main network where actual transactions of the cryptocurrency take place over a distributed ledger. It contrasts with the test net, or test network, which is mainly used for testing.
+Sun’s update also has a potential for lot of other developments for Tron. Sun was earlier associated with Chinese technology giant Alibaba Group (BABA) and there are strong rumors that Tron may be able to benefit by striking a strategic partnership with Alibaba. CCN reports that “these rumors resurfaced on Monday in an article published by a cryptocurrency news blog, which speculated that a partnership would be bullish for Tron but also included no data indicating that such a development was in the works. The article was widely-shared on social media, and may have influenced the token’s short-term performance.”
+Earlier in December last year, Alibaba founder Jack Ma clearly denied any interest in Bitcoin or any other cryptoassets, though the company launched its own cryptocurrency mining platform in January. (For more, see Alibaba Launches Cryptocurrency Mining Platform.)
+Tron had shed some of the gains from the 24-hour high of $0.101197, and was trading at $0.091 during Tuesday morning ET.
+Investing in cryptocurrencies and Initial Coin Offerings ("ICOs") is highly risky and speculative, and this article is not a recommendation by Investopedia or the writer to invest in cryptocurrencies or ICOs. Since each individual's situation is unique, a qualified professional should always be consulted before making any financial decisions. Investopedia makes no representations or warranties as to the accuracy or timeliness of the information contained herein. As of the date this article was written, the author owns no cryptocurrencies.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

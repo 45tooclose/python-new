@@ -1,0 +1,86 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        "If you want to see capitalism in action, go to Hong Kong." ~ Milton Friedman
+Hong Kong has come a long way. As a British colony, it was described as a “barren rock” by former British foreign secretary and prime minister Lord Palmerston. Today, the Hong Kong Stock Exchange is reportedly the eighth largest in the world. But how do foreign investors trade on the Hong Kong Stock Exchange? In this article, we will explore direct and indirect routes to gain exposure to the Hong Kong market. 
+Since the British handoff in 1997, Hong Kong and mainland China have operated under the principle of one country, two systems. Hong Kong is called a special administrative region and is free to pursue capitalism and manage its own taxes, money, trade, foreign exchange, and currency--the Hong Kong dollar. In mid-November 2014, a program titled “Shanghai-Hong Kong Stock Connect” was launched, which establishes a cross-border channel for access to stock markets and investment. This arrangement allowed investors in mainline China and Hong Kong to trade specified companies listed on each other’s stock exchange through their local securities firm. (Related reading Hong Kong And China's Touchy Ties). The following are a few ways that investors can trade directly or indirectly on companies listed in the Hong Kong Stock Exchange. 
+1. Exchange-Traded Funds
+The easiest way for U.S. investors to gain exposure to Hong Kong's securities is through exchange-traded funds (ETFs). These provide diversification as well as ease of trading without the currency risk. Popular exchange-traded funds in the category include iShares MSCI Hong Kong Index Fund and Hong Kong AlphaDEX Fund.
+The iShares MSCI Hong Kong Fund (NYSE: EWH) is invested primarily in giant-cap stocks in the financial and real estate space. The 20-year-old fund is diversified across 44 holdings, and as of September 2016, manages assets worth $2.05 billion. First Trust Hong Kong AlphaDEX Fund (NYSE: FHK) is a 4-year-old fund that seeks to track the Hong Kong stock markets by matching up with the Defined Hong Kong Index. The fund works on an indexing approach and has assets to the tune of $8.8 million under management. 
+2. American Depository Receipts
+Investors in the United States can select Hong Kong stocks listed as American Depository Receipts (ADR) on the home bourses like the NYSE or NASDAQ or from over-the-counter (OTC) exchanges. ADRs are a hassle-free way to own foreign stocks as they are traded on U.S. exchanges and can be bought just like  common shares through a brokerage account. The drawback here is the limited choice—only a few foreign stocks are registered as ADRs.
+Some popular Hong Kong ADRs include: AIA Group Ltd. (US OTC: AAGIY), Sun Hung Kai Properties Limited (US OTC: SUHJY), Hong Kong Television Network Limited (US OTC: HKTV), and Melco Crown Entertainment Limited (NASDAQ: MPEL).
+3. Invest Directly Through a Broker in Your Country
+ETFs are an indirect way to hold stocks on the Hong Kong Stock Exchange; ADRs are a direct way to own, but choices are seriously limited (foreign companies must register with the U.S. Securities and Exchange Commission (SEC) to be offered as ADRs). Investors who are keen on participating directly and widely on the Hong Kong stock exchange should open a brokerage account with a brokerage firm in their own country that offers a platform for international trading. 
+Brokerage firms that offer international access generally offer many international exchanges, including Hong Kong’s. Make sure to research brokers thoroughly before trading with them. Check the account type (discretionary or non-discretionary), the commission structure, and regions and countries covered. In the United States, look for SEC registration along with membership in SIPC and FINRA. Some of the prominent U.S. brokerage firms for trading foreign stocks are Euro Pacific Capital Inc., E*Trade (NASDAQ: ETFC), Interactive Brokers (NASDAQ: IBKR), EverTrade, Fidelity, and  Charles Schwab (NYSE: SCHW).
+4. Invest Directly Through a Hong Kong-Based Broker
+Investors from across the globe can invest online through local  stock brokers based in Hong Kong. However, there are restrictions on residents of certain countries and certain hurdles Hong Kong brokers must clear to offer services. In the United State, for example, financial institutions not registered with the SEC cannot solicit U.S. citizens as clients. In addition, the Foreign Account Tax Compliance Act of 2010 (FATCA) placed additional restriction. Check here for a list of financial institutions in approved status. Because of restrictions, some Hong Kong brokers avoid U.S. clients. However, residents of other nations may not face the same issues.
+The Bottom Line
+The Hong Kong Stock Exchange has been soaring with huge Chinese investments flowing into the markets. Investors keen on playing long term must remember that the recent price appreciation and accompanying volatility is not based on fundamentals. Investors should take care to base decisions on company earnings and economic factors and not just on price fluctuations. On the whole, investors should choose their preferred route to the Hong Kong Stock exchange after understanding the costs, risks, tax considerations, and regulatory compliance involved.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '',
+     'leadGenVertical' : '',
+     'leadGenLayout' : '',
+     'leadGenPage' : ''
+    });
+                    
+            
+                

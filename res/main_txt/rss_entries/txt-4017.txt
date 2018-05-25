@@ -1,0 +1,75 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Investors hoping for a big payout from Apple Inc. (AAPL) in the form of stock buybacks and dividend increases may have to wait some more.  Barclays thinks the company is at risk of returning less to shareholders as it picks up acquisitions amid lackluster iPhone demand.
+In a research note ahead of Apple’s quarterly earnings report later Tuesday (May 1), Barclays cut its price target on the Cupertino, California iPhone maker to $157 from $168, implying the stock could decline close to 5% from where the stock closed Monday (April 30). According to CNBC, which reported on the note, it marks the second time in two months Barclays has lowered its price target on Apple’s shares. (See more: Apple Traders Bet on 8% Drop as Earnings Approach)
+According to CNBC, the Wall Street firm argued in its research report that many investors currently own shares of Apple due to expectations that it will buy back shares and hike its dividend. After all, thanks to the tax reform bill signed into law by President Donald Trump late last year, Apple has said it will bring back about $258 billion from overseas and that it plans to use the majority of its cash position. That has prompted widespread speculation that the company will raise it dividend by a good amount and announce a sizeable share repurchase program. But Barclays thinks Apple may give back less than hoped as it earmarks more money for acquisitions prompted by what is expected to be lackluster iPhone sales during the March ending quarter.
+"Our concern is that a weaker iPhone franchise could require the company to allocate more cash to M&A," Barclays wrote in the note covered by CNBC. "In contrast, we think many holders are in the stock for capital returns being the main beneficiary of excess cash. As a result, there could be a sell on the news event around the... earnings call if capital returns are only in line with expectations, set against a backdrop of softening earnings power." The firm thinks investors are willing to ignore weaker iPhone demand in exchange for a large payout from the company and without that, the stock will decline. (See more: Samsung’s Warning Could Spell Bad News for Apple.)
+Barclays expects Apple to return around $84 billion to shareholders, which is on top of the $52 billion left under its existing capital return program. The Wall Street firm said it would likely be comprised of $21 billion in dividends and $63 billion in stock buybacks. Meanwhile, Morgan Stanley thinks the capital return program will be $210 billion for stock buybacks and $52 billion going to dividends, much larger than Barclays forecast. Barclays expects Apple to allocate $10 billion to acquisitions, invest $10 billion in data centers in the U.S. and place $5 billion in its advanced manufacturing fund. The firm speculated that Apple could make buys in cloud services, gaming and augmented reality and pour money into original content as it battles with the likes of Netflix (NFLX) and Amazon (AMZN).
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

@@ -1,0 +1,145 @@
+
+
+    
+                          What is a 'Trading Range'
+
+      A trading range occurs when a security trades between consistent high and low prices for a period of time. The top of a security’s trading range often provides price resistance, while the bottom of the trading range typically offers price support.
+Example of a Trading Range
+
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Wide-Ranging Days                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Reduced Spread                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Futures Spread                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Credit Spread                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Trading Range'
+      When a stock breaks through or falls below its trading range, it usually means there is momentum (positive or negative) building. A breakout occurs when the price of a security breaks above a trading range, while a breakdown happens when the price falls below a trading range. Typically, breakouts and breakdowns are more reliable when they are accompanied by large volume, which suggests widespread participation by traders and investors.
+Many investors look at the duration of a trading range. Large trending moves often follow extended range-bound periods. Day traders frequently use the trading range of the first half-hour of the trading session as a reference point for their intraday strategies. For example, a trader might buy a stock if it breaks above its opening trading range.
+Trading Range Strategies
+Support and Resistance: If a security is in a well-established trading range, traders can buy when the price approaches support and sell when it reaches resistance. Technical indicators, such as the relative strength index (RSI), stochastic oscillator and the commodity channel index (CCI), can be used to confirm overbought and oversold conditions when price oscillates within a trading range. For example, a trader could enter a long position when the price of a stock is trading at support, and the RSI gives an oversold reading below 30. Alternatively, the trader may decide to open a short position when the RSI moves into overbought territory above 70. A stop-loss order should be placed just outside of the trading range to minimize risk. (For more, see: How do I effectively Create a Range-Bound Trading Strategy?)
+Breakouts and Breakdowns: Traders can enter in the direction of a breakout or breakdown from a trading range. To confirm the move is valid, traders should use other indicators, such as volume and price action. For instance, there should be a significant increase in volume on the initial breakout or breakdown as well as several closes outside the trading range. Instead of chasing the price, traders may want to wait for a retracement before entering a trade. For example, a buy limit order could be placed just above the top of the trading range, which now acts as a support level. A stop-loss order could sit at the opposite side of the trading range to protect against a failed breakout.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

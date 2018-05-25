@@ -1,0 +1,138 @@
+
+
+    
+                          DEFINITION of 'Rating'
+
+      A rating is an assessment tool assigned by an analyst or rating agency to a stock or bond. The rating assigned indicates the stock or bond's level of investment opportunity. For a stock, an analyst may assign a buy, hold or sell rating and an explanation of why they recommend this action for the stock. For a bond, a ratings agency will assess the bond's relative safety based upon the issuing entity's fundamental financial picture which scrutinizes the issuer's ability to repay principal and make interest payments.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            AAA                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Municipal Bond                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Double Barreled                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Bond Rating Agencies                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Rating'
+      Analysts that work on both the buy and sell side of the industry research stocks and write opinions on those stocks which will often include a rating, such as buy, hold or sell. Analysts on the buy side will write opinions for their own teams for the purposes of informing portfolio management decisions. Analysts on the sell side will write opinions for the purposes of providing that research to others and possibly selling particular stocks.
+Bonds are rated by various organizations such as Moody's and S&P. The rankings for Moody's and S&P from highest to lowest in the investment grade category are Aaa/AAA, Aa1/AA+, Aa2/AA, Aa3/AA-, A1/A+, A2/A, A3/A-, Baa1/BBB+, Baa2/BBB and Baa3/BBB-. The ratings assigned by the various ratings agencies are based primarily upon the insurer's or issuer's creditworthiness. This rating can, therefore, be interpreted as a direct measure of the probability of default. However, credit stability and priority of payment are also factored into the rating.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

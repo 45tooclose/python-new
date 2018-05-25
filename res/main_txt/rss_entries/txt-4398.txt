@@ -1,0 +1,83 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        The WTI crude oil futures contract has posted the highest high since the fourth quarter of 2014, underpinned by strong world demand and rising geopolitical tensions. Major energy funds have risen in tandem but are underperforming the underlying commodity by a wide margin, stuck well below their January 2018 highs. This bearish divergence could generate profitable short sales in the coming weeks because crude may be close to topping out for the year.
+Three decades of spot market data highlight strongly seasonal crude oil performance, with higher prices expected in April and May followed by mixed summer action often dictated by the paths of hurricanes and their impact on Gulf oil rigs. Prices then tend to drop in November and December, finding support levels for new energy themes in the following year. Geopolitical tensions, like the current dispute with Iran, can greatly affect these long-observed seasonal cycles.
+The summer driving season generates the spring spike, with forces unknown lifting crude oil to raise pump prices. This phenomenon typically ends around Memorial Day, or less than four weeks from now, suggesting that the futures contract will top out at or below $70. The 50% retracement of the 2014 into 2015 crude oil downtrend is located at $67, with a wide-range decline through that level setting off bearish signals that could generate short sale profits in underperforming energy funds. (See also: How the Oil and Gas Industry Works.)
+ 
+The SPDR Select Sector Energy ETF (XLE) sold off from $101.52 to $49.93 between 2014 and 2016, bottoming out at a five-year low. The subsequent recovery wave stalled in December just above the .618 Fibonacci sell-off retracement level in the upper $70s, giving way to a decline that lasted into the second half of 2017. It completed a round trip into resistance in January 2018, posting the high so far this year, and gave up half the rally wave into February.
+A basing pattern in the mid-$60s yielded an April breakout that stalled at the .618 sell-off retracement about two weeks ago. It has been grinding sideways since that time, even though crude oil has continued to gain ground. It appears that trade war fears are keeping a lid on the fund, which is showing greater correlation with U.S. equities than the crude oil contract. This lagging behavior could yield a breakdown through range support near $72, setting off short sale signals and a test at the 2018 low.
+[Learn more about establishing a trading strategy based on Fibonacci retracements in Chapter 6 of the Technical Analysis course on the Investopedia Academy.]
+ 
+The SPDR S&P Oil & Gas Exploration & Production ETF (XOP) has carved a similar trajectory, declining to a multi-year low at $22.06 in January 2016 and bouncing strongly into year end. It also ended the subsequent pullback in the second half of 2017, but unlike its rival, the rally into 2018 failed to reach the 2016 high. The fund sold off with the equity market into February and is now trading in a sideways pattern near the .618 retracement of the 2016 uptrend. Committed buyers need to mount two resistance levels to end the bearish divergence with crude oil – at the December 2016 and January 2018 highs. 
+On-balance volume (OBV) lifted to a multi-year high at the end of 2017, but heavy distribution into April has undermined the indicator's bullish tone. While this headwind makes it harder for the fund to cover the six points up to the second resistance level, a breakout above $40 could attract the buying power needed to accomplish that task. As with XLE, a breakdown through short-term range support would set off attractive short sale signals. (For more, see: Short Sellers Circle Oil and Gas Stocks as Crude Price Climbs.)
+The Bottom Line
+Energy funds have underperformed crude oil in recent months, with price action more levered to trade war fears than the futures contract. Meanwhile, positive sector seasonality is nearing its end, raising the odds that crude will turn lower and set off short sale signals in the relatively weaker funds. (For additional reading, check out: 9 'High Beta' Energy Stocks That Can Soar.)
+<Disclosure: The author held no positions in the aforementioned securities at the time of publication.>
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Chartadvisor-Article'
+    });
+                    
+            
+                

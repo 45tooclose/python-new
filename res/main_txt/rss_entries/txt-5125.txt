@@ -1,0 +1,77 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Pandora Media Inc. (P) is starting to benefit from marketing initiatives from its newly installed chief marking officer, the company said. Pandora saw audience metrics improve—namely, more lapsed users returning—as it shifted from brand marketing to data-based marketing and launched features like personalized playlists, Pandora CEO Roger Lynch said in a statement. Pandora shares were up more than 22% in Friday’s session on the company’s latest quarterly report.
+“Music streaming and digital audio continue to see massive growth, and this quarter we took key steps to position Pandora to capture this significant opportunity,” said Lynch. “We improved audience metrics—in part by increasing usage of Premium Access, which gives ad-supported listeners the ability to enjoy Pandora Premium after viewing a 15-second ad ... Pandora is exactly where we want to be: at the center of a growing market with huge potential.”
+The music-streaming service said has been under pressure from increased competition from Spotify Technology S.A. (SPOT), which launched a public offering earlier this year. Total listener hours still declined in the first quarter to 4.96 billion from 5.21 billion a year prior. Spotify reported 170 million monthly active users in March. Lynch said he believes Pandora, with 72.3 million users at the end of the first quarter, is competitive with Spotify because it offers “the most expansive free music service there is.” (See also: Spotify Offers ‘Netflix-Like Promise.’)
+First-Quarter Results
+Pandora reported first-quarter revenue of $319.2 million, up from 12% the same quarter a year prior, excluding Ticketfly, Australia and New Zealand. Of that revenue, about $216 million was from advertising and $105 million was from subscriptions, which is up 63% from a year ago.
+Adjusted net loss for the quarter increased to $73 million, versus $71 million a year prior. Cash flow improved to $544.4 million, up from $500.8 million the same quarter a year prior.
+Shares of Pandora are down 35.5% the past year. 
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

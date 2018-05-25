@@ -1,0 +1,214 @@
+
+
+
+    
+        
+        Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/Investing/Investing/IC-Video/Article");} else {return "/8397/INV-NA/Investing/Investing/IC-Video/Article";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/articles/fundamental-analysis/11/valuing-private-companies.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/k38KY02I.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/k38KY02I-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/content/video/valuing_private_comp/valuingprivatecompanies.png?width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "100%",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "k38KY02I-G9NhEyAa.mp4";
+                
+          
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                    var initializeJWPlayerSetup = function () {
+                        if (new VideoInit().canRun()) {
+                            setUpJwpPlayer();
+                        } else {
+                            new VideoInit().callBack = setUpJwpPlayer;
+                        }
+                    }
+          initializeJWPlayerSetup();
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "k38KY02I-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "Valuing Private Companies ",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };    
+        
+            
+      
+
+    
+
+    
+        Determining the market value of a company that publicly trades on a stock exchange can be done by multiplying the company's stock price by its outstanding shares. However, for private companies, the process is not as straightforward or transparent. Private companies do not report their financials publicly, and since there's no stock listed on an exchange, it's often difficult to determine a value for the company.  
+How Private and Public Companies Differ
+Ownership
+The most obvious difference between privately-held companies and publicly-traded companies is that public firms have sold at least a portion of their ownership during an initial public offering (IPO). An IPO gives outside shareholders an opportunity to purchase a stake in the company or equity, in the form of stock. The ownership of private companies, on the other hand, remains in the hands of a select few shareholders. The list of owners typically includes the companies' founders, family members in the case of a family business, along with initial investors such as angel investors or venture capitalists. Private companies also don't have the same requirements for accounting standards as public companies making reporting far easier than had the company gone public. 
+Reporting
+Public companies must adhere to accounting and reporting standards. These standards, stipulated by the Securities and Exchange Commission (SEC), include reporting numerous filings to shareholders including annual and quarterly earnings reports and notices of insider trading activity.  
+Private companies are not bound by such stringent regulations, allowing them to conduct business without having to worry so much about SEC policy and public shareholder perception. The lack of strict reporting requirements is one of the major reasons why private companies remain private.
+Access To Capital
+The biggest advantage of going public is the ability to tap the public financial markets for capital by issuing public shares or corporate bonds. Having access to such capital can allow public companies to raise funds to take on new projects or expand the business.
+Private Equity
+Although private companies are not typically accessible to the average investor, there are times when private firms may need to raise capital and as a result, need to sell part of the ownership in the company. For example, private companies might elect to offer employees the opportunity to purchase stock in the company as compensation by making shares available for purchase. Also, privately-held firms might seek capital from private equity investments and venture capital. In such a case, those investing in a private company must be able to estimate the firm's value before making an investment decision. In the next section, we'll explore some of the valuation methods of private companies used by investors.
+Valuation Of Private Companies
+Comparable Company Analysis
+The most common method of estimating the value of a private company is to use comparable company analysis (CCA). This approach involves searching for companies that are publicly traded that most closely resemble the private (or target) firm.
+The process includes researching companies of the same industry, ideally a direct competitor, similar size, age, and growth rate. Typically, several  companies in the industry are identified that are similar to the target firm. Once an industry group has been established, averages of their valuations or multiples can be calculated to provide a sense of where the private company fits within its industry.   
+For example, if we were trying to value an equity stake in a mid-sized apparel retailer, we would look for public companies of similar size and stature with the target firm. Once the "peer group" has been established, we would calculate the industry averages including operating margins, free-cash-flow and sales per square foot (an important metric in retail sales).
+Equity valuation metrics must also be collected, including price-to-earnings, price-to-sales, price-to-book, and price-to-free cash flow. The EBIDTA multiple can help in finding the target firm's enterprise value which provides a much more accurate valuation because it includes debt in its value calculation.
+Also, if the target firm operates in an industry that has seen recent acquisitions, corporate mergers, or IPOs, we can use the financial information from those transactions to calculate a valuation. Since investment bankers and corporate finance teams have already determined the value of the target's closest competitors, we can use their findings to analyze those companies with comparable market share to come up with an estimate of the target's firm's valuation. 
+While no two firms are the same, by consolidating and averaging the data from the comparable company analysis, we can determine how the target firm compares to the publicly-traded peer group. From there, we're in a better position to estimate the target firm's value.
+To learn more, check out Peer Comparison Uncovers Undervalued Stocks.
+Estimated Discounted Cash Flow
+The discounted cash flow method on valuing a private company, the discounted cash flow of similar companies in the peer group is calculated and applied to the target firm. The first step involves estimating the revenue growth of the target firm by averaging the revenue growth rates of the companies in the peer group. 
+This can often be a challenge for private companies due to the company's stage in its lifecycle and management's accounting methods. Since private companies are not held to the same stringent accounting standards as public firms, private firms' accounting statements often differ significantly and may include some personal expenses along with business expenses (not uncommon in smaller family-owned businesses) along with owner salaries, which will also include the payment of dividends to ownership.
+Once revenue has been estimated, we can estimate expected changes in operating costs, taxes and working capital. From there, free cash flow can be calculated which provides the operating cash remaining after capital expenditures have been deducted. Free cash flow is typically used by investors to determine how much money is available to give back to shareholders in the form of dividends, for example. 
+The next step would be to calculate the peer group's average beta, tax rates, and debt/equity ratios. Ultimately the weighted average cost of capital or WACC needs to be calculated. The WACC calculates the average cost of capital whether it's financed through debt and equity. 
+The cost of equity can be estimated using the Capital Asset Pricing Model (CAPM).
+The cost of debt will often be determined by examining the target's credit history to determine the interest rates being charged to the firm. The capital structure including the debt and equity weightings as well as the cost of capital from the peer group should also need be factored into the WACC calculations. 
+Although determining the target's capital structure can be difficult, industry averages can help in the calculations. However, it's likely that the costs of equity and debt for the private firm will be higher than its publicly-traded counterparts, so slight adjustments may be required to the average corporate structure to account for these inflated costs. Often a premium is added to the cost of equity for a private firm to compensate for the lack of liquidity in holding an equity position in the firm.
+Once the appropriate capital structure has been estimated, the weighted average cost of capital (WACC) can be calculated. The WACC provides the discount rate for the target firm so that by discounting the target's estimated cash flows, we can establish a fair value of the private firm. The illiquidity premium, as previously mentioned, can also be added to the discount rate to compensate potential investors for the private investment.
+For more on TUTORIAL: DCF Analysis and to learn more, see The Capital Asset Pricing Model: An Overview.
+The Bottom Line
+As you can see, the valuation of a private firm is full of assumptions, best guess estimates, and industry averages. With the lack of transparency involved in privately-held companies, it's a difficult task to place a reliable value on such businesses. Several other methods exist that are used in the private equity industry and by corporate finance advisory teams to determine the valuations of private companies. 
+To learn more, please read For Companies, Staying Private A Matter Of Choice.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

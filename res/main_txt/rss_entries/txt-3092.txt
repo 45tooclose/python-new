@@ -1,0 +1,82 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Rising interest rates bode well for bank profits, giving them more leeway to increase their net interest spreads, or the profit margins between what they pay depositors and charge borrowers. With the yield on the 10-Year U.S. Treasury Note having closed above the 3% level for the first time in more than four years on Wednesday, financial stocks are becoming increasingly attractive investments right now, CNBC reports.
+Regional banks such as California-based East West Bancorp Inc. (EWBC), North Carolina-based BB&T Corp. (BBT), and Minnesota-based U.S. Bancorp (USB) have fared particularly well lately, with their share prices up by 9.6%, 4.7% and 2.2%, respectively, from the close on April 2 through the close on April 25, per CNBC data.
+Small Is Beautiful
+From a recent closing low of 2.721% on April 2, the 10-Year T-Note yield ended Wednesday's trading session at 3.024%, then settled down to 2.975% at the close on Thursday. The SPDR S&P Regional Banking ETF (KRE), which tracks smaller banks such as those mentioned above, was up by 5.0% during the same period.
+By contrast, shares of the big national banks have, so far, proven to be less responsive to the recent interest rate jump. The Financial Select Sector SPDR Fund (XLF), which is tied to the share prices of these institutions, was up by 2.6%, also per CNBC data. Among the big banks in the XLF SPDR are JPMorgan Chase & Co. (JPM), up 1.9%; Bank of America Corp. (BAC), up 2.6% and Wells Fargo & Co. (WFC), up 2.1%.
+As another point of comparison, the S&P 500 Index (SPX) rose by 3.3% over the same period. Its April 2 closing value of 2,581.88 was just marginally above the low close for the year-to-date, 2,581.00 on Feb. 8.
+The Longer View
+Earlier this year, respected banking sector analyst Dick Bove indicated his belief that banks are entering an era of sustained secular growth. In addition to an uptrend in interest rates that he expects to last decades, he cites tax reform, regulatory reform and technological advances as reasons for optimism. (See also: 4 Reasons Bank Stocks Will Rise Longterm: Bove.)
+The Yield Curve Matters
+Peter Cecchini, the chief market strategist at investment banking, securities trading and securities brokerage firm Cantor Fitzgerald, tells CNBC that rising interest rates are bullish for banks and other financial stocks only if the yield curve steepens, with long-term rates rising faster than short-term rates. The reason is that banks generally acquire funds at short-term rates, through deposits and commercial paper, while lending mainly at long-term rates.
+However, the recent trend has been toward a flat yield curve, with the difference between the yields between two-year and 10-year U.S. Treasury debt narrowing, CNBC observes. If a flat yield curve morphs into an inverted yield curve, with short rates higher than long rates, that is normally a sure-fire signal of an upcoming recession.
+Trading Strategies
+For long-only investors, Cecchini tells CNBC that rising interest rates also are good news for insurance companies, since this will boost the earnings on their bond portfolios. Meanwhile, to obtain downside protection against their holdings of bank stocks, Cecchini suggests buying a put option on a bank ETF and selling one at a lower strike price, using the premium received on the latter to defray the cost of the former. The options on the regional banking SPDR, he adds, tend to have higher volatility, and thus higher premiums, than the big-bank SPDR.
+For bullish investors, CNBC cites a recommendation from Credit Suisse Group AG to buy a call option on the regional banking SPDR and partially finance this by selling a call at a higher strike price. They suggest, as reported by CNBC, buying a June call with a strike price of about $63 and selling one with a strike price of around $67. The regional banking SPDR hit a high of $62.90 in morning trading on Friday, as of 10:40 a.m. New York time.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

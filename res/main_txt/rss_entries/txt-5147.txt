@@ -1,0 +1,102 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        There are many ways to implement a successful retirement strategy. One of them is to carefully map out a sensible financial plan and then stick to it through thick and thin; another is just to wing it, using your intuition and gut feelings and hope for the best.
+Although there seems to be no contest between these two courses of action, far too many people choose the latter option when planning for retirement. A large segment of the working population believes that their hunches will get them where they need to go without a solid foundation. This article will address several major misconceptions that people commonly harbor when it comes to retirement planning.
+Myth 1: Short-term Safety
+The Misconception:  You should be able to better predict a stock price tomorrow compared to predicting where it will be 10 years from now, and there is a much lower chance of a big drop in a single day than there is over time in a given stock or fund.
+The Reality
+Numerous studies conducted by economists, market researchers and investment companies have repeatedly shown that it is often less risky to hold stocks for longer periods. It is extremely rare to find a 10-year period in which the stock market delivered a negative return. Stocks and real estate are the two big asset classes that have outpaced inflation over time, and despite some bearish periods, they have slowly risen in value and will likely continue to do so.
+Myth 2: Paper Loss
+The Misconception:  If I don't sell my losing position, then I don't have a loss.
+The Reality
+This is sheer nonsense. You are losing money in a declining stock, regardless of whether you actually sell it or not. You won't be able to claim a loss on your tax return if you don't actually divest, but the difference between realized and recognized losses is only for tax purposes. Your actual loss is the same regardless of what is or is not recognized on the tax return.
+Myth 3: Leave it to The Pros
+The Misconception: Let the money managers handle it.
+The Reality
+Although professional portfolio management is a wise choice in many instances, it is still necessary to be personally involved in the management of your finances. It's OK to delegate market trading to a pro, but don't leave your finances entirely in the hands of your broker or banker. Many people will take more time to find a deal on eBay than manage their retirement. (Yes, it's more important to make sure that your assets are allocated correctly than to find a used copy of "The Godfather Trilogy."
+Myth 4: Hold On
+The Misconception: Don't sell an investment and then buy it back again; instead, just hold it.
+The Reality
+As mentioned previously, you can sell a depressed holding and declare a capital loss before the end of the year to get a tax deduction. Just be sure not to buy an identical stock 30 days before and 30 days after the date of the sale. Buying back in during this period will trigger the IRS' wash sale rules and will cause your capital-loss claim to be void. If you have already made this error and filed your return, then you must file an amended return immediately.
+Myth 5: Put Off 'Til Tomorrow
+The Misconception: Retirement is a long way away, and I therefore won't have to worry about it for a long time yet.
+The Reality 
+This is perhaps the most dangerous myth of all. You will be poor and dependent upon relatives if you don't get this under control, NOW. It will take time for your investments to grow to what they will need to be to sustain you through your non-working years. If you don't start saving now, then you won't have that time.
+Myth 6: Play It Safe
+The Misconception: I should put all of my retirement money in totally secure investments, especially after I retire.
+The Reality
+Not necessarily. You might be able to get away with this, but most retirees should have at least a small portion of their savings allocated to equities in some form, either through individual stocks or mutual funds. You need to sit down with your financial planner and run a realistic cash-flow projection that can predict with reasonable accuracy whether a portfolio with no market risk can sustain you through your retirement years.
+Myth: Social Security Solves All
+The Misconception: Social Security benefits will sustain me through my retirement years.
+The Reality
+Dream on. Social Security pays bare-subsistence income at best, and will certainly not provide you any kind of comfortable life. It might cover rent or a mortgage payment plus utilities, but the rest will probably be up to you. Don't count on Uncle Sam to meet all your retirement needs. The future of Social Security is in doubt as it is.
+The Bottom Line
+This article has addressed seven of the most common retirement planning myths. How many of them do you believe? Consult your financial advisor for a comprehensive retirement checkup or human resources department for a review of your company retirement plan.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'IRA',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

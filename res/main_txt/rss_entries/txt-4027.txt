@@ -1,0 +1,206 @@
+
+
+
+    
+        
+        Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/ActiveTrading/ActiveTrading/IC-Video/Article");} else {return "/8397/INV-NA/ActiveTrading/ActiveTrading/IC-Video/Article";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/articles/basics/03/080103.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/YOt4UEUf.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/YOt4UEUf-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/content/video/a_beginners_guide_t/hedging.jpg?quality=80&width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "100%",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "YOt4UEUf-G9NhEyAa.mp4";
+                
+          
+            document.addEventListener("DOMContentLoaded", function() {
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                        var initializeJWPlayerSetup = function () {
+                            if (new VideoInit().canRun()) {
+                                setUpJwpPlayer();
+                            } else {
+                                new VideoInit().callBack = setUpJwpPlayer;
+                            }
+                        }
+            initializeJWPlayerSetup();
+          });
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "YOt4UEUf-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "A Beginner's Guide To Hedging",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };    
+        
+            
+      
+
+    
+
+    
+        Although it sounds like something that is being practiced by your gardening-obsessed neighbor, hedging is a practice every investor should know about. There is no arguing that portfolio protection is often just as important as portfolio appreciation. Like your neighbor's obsession, however, hedging is talked about more than it is explained, making it seem as though it belongs only to the most esoteric financial realms. Well, even if you are a beginner, you can learn what hedging is, how it works and what techniques investors and companies use to protect themselves.
+What Is Hedging?
+The best way to understand hedging is to think of it as insurance. When people decide to hedge, they are insuring themselves against a negative event. This doesn't prevent a negative event from happening, but if it does happen and you're properly hedged, the impact of the event is reduced. So, hedging occurs almost everywhere, and we see it everyday. For example, if you buy homeowner's insurance, you are hedging yourself against fires, break-ins or other unforeseen disasters.
+Portfolio managers, individual investors and corporations use hedging techniques to reduce their exposure to various risks. In financial markets, however, hedging becomes more complicated than simply paying an insurance company a fee every year. Hedging against investment risk means strategically using instruments in the market to offset the risk of any adverse price movements. In other words, investors hedge one investment by making another.
+Technically, to hedge you would invest in two securities with negative correlations. Of course, nothing in this world is free, so you still have to pay for this type of insurance in one form or another.
+Although some of us may fantasize about a world where profit potentials are limitless and risk-free, hedging can't help us escape the hard reality of the risk-return tradeoff. A reduction in risk will always mean a reduction in potential profits. So, hedging, for the most part, is a technique not by which you will make money but by which you can reduce potential loss. If the investment you are hedging against makes money, you will have typically reduced the profit you could have made, and if the investment loses money, your hedge, if successful, will reduce that loss.
+How Do Investors Hedge?
+Hedging techniques generally involve the use of complicated financial instruments known as derivatives, the two most common of which are options and futures. We're not going to get into the nitty-gritty of describing how these instruments work, just keep in mind that with these instruments you can develop trading strategies where a loss in one investment is offset by a gain in a derivative.
+[Technical traders will often hedge their positions with options to limit risk or enhance returns. If you want to learn more about technical analysis and how to identify profitable trading opportunities, Investopedia Academy's technical analysis course is an excellent start.]
+Let's see how this works with an example. Say you own shares of Cory's Tequila Corporation (ticker: CTC). Although you believe in this company for the long run, you are a little worried about some short-term losses in the tequila industry. To protect yourself from a fall in CTC you can buy a put option (a derivative) on the company, which gives you the right to sell CTC at a specific price (strike price). This strategy is known as a married put. If your stock price tumbles below the strike price, these losses will be offset by gains in the put option. (For related reading, see: Use Married Puts to Protect Your Portfolio.)
+The other classic hedging example involves a company that depends on a certain commodity. Let's say Cory's Tequila Corporation is worried about the volatility in the price of agave, the plant used to make tequila. The company would be in deep trouble if the price of agave were to skyrocket, which would severely eat into their profits. To protect (hedge) against the uncertainty of agave prices, CTC can enter into a futures contract (or its less regulated cousin, the forward contract), which allows the company to buy the agave at a specific price at a set date in the future. Now CTC can budget without worrying about the fluctuating commodity.
+If the agave skyrockets above the price specified by the futures contract, the hedge will have paid off because CTC will save money by paying the lower price. However, if the price goes down, CTC is still obligated to pay the price in the contract and actually would have been better off not hedging.
+Because there are so many different types of options and futures contracts, an investor can hedge against nearly anything, including a stock, commodity price, interest rate or currency. Investors can even hedge against the weather. (For related reading, see: How Do You Trade the Weather?)
+The Downside
+Every hedge has a cost, so before you decide to use hedging, you must ask yourself if the benefits received from it justify the expense. Remember, the goal of hedging isn't to make money but to protect from losses. The cost of the hedge—whether it is the cost of an option or lost profits from being on the wrong side of a futures contract—cannot be avoided. This is the price you pay to avoid uncertainty.
+We've been comparing hedging to insurance, but we should emphasize insurance is far more precise. With insurance, you are completely compensated for your loss (usually minus a deductible). Hedging a portfolio isn't a perfect science and things can go wrong. Although risk managers are always aiming for the perfect hedge, it is difficult to achieve in practice. (For related reading, see: Massive Hedge Fund Failures.)
+What Hedging Means to You
+The majority of investors will never trade a derivative contract in their life. In fact, most buy-and-hold investors ignore short-term fluctuation altogether. For these investors there is little point in engaging in hedging because they let their investments grow with the overall market. So why learn about hedging?
+Even if you never hedge for your own portfolio you should understand how it works because many big companies and investment funds will hedge in some form. Oil companies, for example, might hedge against the price of oil while an international mutual fund might hedge against fluctuations in foreign exchange rates. An understanding of hedging will help you to comprehend and analyze these investments.
+The Bottom Line
+Risk is an essential yet precarious element of investing. Regardless of what kind of investor one aims to be, having a basic knowledge of hedging strategies will lead to better awareness of how investors and companies work to protect themselves. Whether or not you decide to start practicing the intricate uses of derivatives, learning about how hedging works will help advance your understanding of the market, which will always help you be a better investor. (For related reading, see: Practical and Affordable Hedging Strategies.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

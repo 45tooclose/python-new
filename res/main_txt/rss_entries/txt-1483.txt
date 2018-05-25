@@ -1,0 +1,45 @@
+
+
+Online advertising has long seemed a ripe target for blockchain transformation.
+Going back to the early days of bitcoin, technologists imagined that cryptocurrency tips would fund content creators so they wouldn't have to rely on display ads to pay the bills. More recently, marketers have experimented with smart contracts on ethereum to prevent bots from generating fraudulent traffic that bilks advertisers.
+Now, a notable partnership involving a blue-chip advertiser and a well-known media brand is testing a private blockchain to see if it can remove some of the adtech intermediaries leeching from their value chain.
+Announced today, the ad industry blockchain R&D consortium AdLedger is launching a proof-of-concept with publisher Salon Media and IBM, which is playing a dual role of advertiser and technology provider.  
+
+It's the first proof-of-concept from the consortium, which formed in January with the mission of bringing transparency to the ad supply chain. And, while a trial of a private enterprise blockchain may not seem as radical as bitcoin tipping, it's a shot across the bow of the many middlemen - up to 15 - that take a cut of ad dollars on their way from the advertiser to the publisher right now.
+"Basically what we believe is that the existing protocol was built by those middlemen - and was built to enrich them, for lack of a better term," Christiana Cacciapuoti, AdLedger's executive director, told CoinDesk.
+As an alternative, the trial aims to show how a media campaign can be done fairly and transparently by using a blockchain to track spending from start to finish and reveal which intermediaries are taking out more value than they are putting in.
+But, in addition to demonstrating the potential, it's also meant to lay foundations for actual products for the ad industry.
+As Cacciapuoti explained:
+"We are going to come up with rules and standards around a blockchain application and what that should look like, and get some hands-on experience for our members." 
+Those members include well-known ad industry names such as GroupM, IPG Mediabrands, IAB, IBM, iSpot.tv, MAD Network, Publicis Media and TEGNA.
+For Salon Media, the trial promises to "not only help publishers like us regain more control over our inventory but will also illuminate where inefficiencies exist within the long and complex supply chain," said Ryan Nathanson, the publisher's chief operating officer, in a statement.
+"The shared ledger on the blockchain will act as a single source of truth creating indisputable transparency for both the brand itself and the publisher which will aid in greater accuracy during reconciliation as well as make advertiser spend much more efficient," he added.
+Where'd the money go?
+The specific problem the partners are tackling is campaign reconciliation - getting everyone on the same page about where advertising dollars are going and avoiding discrepancies.
+The UK's Guardian newspaper exposed the extent of this problem when it bought its own ad inventory using the so-called programmatic process, and then went on to sue Rubicon Project, alleging the online advertising platform had illegally spirited away a large proportion of the spend. 
+The lawsuit highlighted how little of the money advertisers think is going to premium publishers actually get there; the Guardian measured this at around 20 cents to 30 cents on the dollar.
+The industry has become this opaque and convoluted in spite of, if not as a direct result of, tech advancements.
+Cacciapuoti, whose day job is vice president of partnerships and platform operations at adtech firm MAD Network, witnessed in her career the rise of ad networks that would buy publishers' "remnant" inventory, which was then aggregated into packages that included bottom-of-the-barrel sites rather than premium news as promised.   
+The proposed fix was automation. 
+In 2010, the Interactive Advertising Bureau (IAB) introduced real-time bidding, which meant looking at essentially a type of customer relationship management software called a supply-side platform (SSP) that connected publishers' inventory with bidders. On the flipside, the advertiser goes to a demand-side platform (DSP) and broadcasts what they want to buy.
+Publishers and ad buyers pay SSPs a fee to be connected to the auction process. But discrepancies abound between the amounts of advertising publishers and advertisers think has been delivered. 
+Lots of third-party companies have sprouted up within the gaps, matching and verifying, as the system has grown in complexity. 
+As Cacciapuoti put it:
+"The joke is, 'how many companies does it take to serve an ad on a website?'"
+The answer can be as many as 15 middlemen from the advertiser to the publisher, she said. And all of these players are taking something out. 
+For example, the SSP, which is just one of those intermediaries, takes 30 percent of the publisher's revenue, right off the bat. 
+Enter blockchain
+AdLedger's hunch is that a blockchain can expose where all of those cuts are being taken and participants can easily see who is taking out more value than they are putting in, while also providing a golden record of how much advertising is being placed. 
+If it works as expected, the technology will eliminate an average 10 percent discrepancy rate.
+"As an advertiser, we know better than anyone that the current digital advertising system is broken," said Chad Andrews, global solutions leader of advertising at IBM, explaining its participation in the trial.
+"We believe that blockchain can help our advertising dollars go further by eliminating unnecessary intermediaries, and combining disparate sources of data ... [to produce] immediate metrics," he said.
+The trial will also demonstrate how recording impression-level data to a shared ledger can provide an instant view, instead of 24 hours or 48 hours later, which means advertisers can better optimize campaigns.   
+After the proof-of-concept is complete, the consortium will produce a white paper which will delve into how the technology performed, right down into the weeds of consensus algorithms (AdLedger is using the open-source Hyperledger Fabric, which is based partly on code contributed by IBM), and what should be allowed to be done off-chain versus what has to be done on the blockchain.
+Cacciapuoti acknowledged that while blockchain has got some people excited, there's also a degree of "banner blindness" in the industry to yet another buzzword. It's also a difficult concept to grasp even for B2B players. 
+As she told CoinDesk:
+"I think the vast majority of our members, while they are really smart leaders in their spaces, have no idea what blockchain is."
+Junk mail image via Shutterstock
+var riuyojisrlntqyiu,riuyojisrlntqyiu_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){riuyojisrlntqyiu_poll(function(){if(window['om_loaded']){if(!riuyojisrlntqyiu){riuyojisrlntqyiu=new OptinMonsterApp();return riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="//a.optnmnstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;riuyojisrlntqyiu=new OptinMonsterApp();riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");
+
+The leader in blockchain news, CoinDesk is a media outlet that strives for the highest journalistic standards and abides by a strict set of editorial policies. CoinDesk is an independent operating subsidiary of Digital Currency Group, which invests in cryptocurrencies and blockchain startups.
+ 

@@ -1,0 +1,143 @@
+
+
+    
+                          DEFINITION of 'Self-Tender Defense'
+
+      A self-tender defense is a defense against a hostile takeover, in which the target company makes a tender offer for its own shares.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Proration                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Creeping Tender Offer                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Hostile Takeover Bid                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Tender Panel                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Self-Tender Defense'
+      A self-tender defense aims to make the cost of acquiring a company prohibitively expensive to the hostile bidder. By using any cash on hand or raising debt to repurchase some of the stock, the target company hopes to become less attractive to the acquirer by increasing liabilities and reducing assets. As a result, the bidder might need to use other assets to meet the target's financial obligations. In a similar fashion, stock buybacks are used to fend off hostile takeovers, by increasing debt and maintaining a defensive capital structure.
+Using a Self-Tender Defense
+Self-tender defenses are generally used together with other defensive strategies, such as super majority provisions, staggered board elections and various shareholders’ rights plans otherwise known as poison pill defenses.
+While extreme forms of takeover defense can prevent the removal of bad management, takeover defenses can be good for stockholders. If a hostile bid is an opportunistic one that undervalues the firm, resistance may increase the offer price, and give competing bidders the opportunity to enter the auction. For example, the target company might solicit an offer from a white knight.
+To learn more about corporate takeover defenses, read our guide Corporate Takeover Defense: A Shareholder's Perspective.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

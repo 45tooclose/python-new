@@ -1,0 +1,143 @@
+
+
+    
+                          What is a 'Limit-On-Close (LOC) Order '
+
+      A limit-on-close (LOC) order is a limit order that is designated for execution at the market close.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Bracketed Sell Order                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Scale Order                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Immediate Or Cancel Order - IOC                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Bracketed Buy Order                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Limit-On-Close (LOC) Order '
+      A limit-on-close order is a limit order with execution based on the market’s closing price. Limit orders in general offer investors the opportunity to set a price for buying and selling securities. This is advantageous over a market order because it allows the investor to control the exact price they pay to purchase a security and the profit they receive from selling a security.
+A limit order can be available to either buy or sell shares. A limit buy order sets a specified price for buying shares that is below the current market price. An investor who has a strong belief in a stock’s valuation at a specific price could use a limit order to buy at their specified price. If the price falls to the limit order price, then the order is executed. Orders can be partially or fully filled depending on exchange terms and market liquidity.
+A limit sell order is an order that allows the investor to control the profit they make from a security. In a limit sell order the investor sets a sell price that is higher than the current market price. If the price reaches the sell order price, then the order is executed. Oftentimes, a limit order will be initiated as a good ‘til canceled (GTC) order.
+LOC Terms and Procedures
+In a limit-on-close order an investor can seek to buy or sell a security at a specified price. Buy orders are often more common in this scenario. A LOC order is essentially a limit order that is executed at the market’s closing price. An investor might choose this type of order because they believe that the closing price offers the best price of the day.
+A LOC order must be submitted by a specified timeframe, typically 3:45 pm EST. LOC orders are submitted and executed on the same trading day. They do not continue to carry over if they are not executed. A LOC order will only be executed if the closing price matches the limit order price or better. Partial orders may or may not be filled depending on the brokerage and exchange order allowance.
+For an example, consider the following. A trader enters a buy limit-on-close order for 100 shares of ABC at $52.50 and the shares at the end of the day have a closing price of $50. Since the price of $50 is better than the specified LOC order, the order would be executed. If however, the price was quoted at $54 at the market’s close, then the order would not be filled.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

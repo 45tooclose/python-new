@@ -1,0 +1,145 @@
+
+
+    
+                          What is an 'End of Day Order'
+
+      An end of day order is a buy or sell order requested by an investor that is only open until the end of the day.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Day Order                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Open Order                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Limit Order                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Immediate Or Cancel Order - IOC                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'End of Day Order'
+      End of day orders can be compared to good 'til canceled (GTC) orders which are open for an undefined timeframe. End of day orders must be transacted by the end of a trading day regardless of the time that the order is placed. Many broker-dealers will default to an end of day order.
+Order Options
+Generally investors have two timeframes they can choose from for the execution of their trade order. End of day orders offer a specified timeframe and must be filled by the end of the trading day. Good ‘til canceled orders remain open indefinitely unless canceled by the investor. Both of these orders offer the full range of trade options to the investor. With either an end of day order or good ‘til canceled order, investors can choose from the following options:
+Market order: A market order does not have a specified price. This order can be placed at the market’s be current rate for a specified security. These types of orders are typically executed within minutes during normal trading hours.
+Limit order: Limit orders are primarily used when buying a security below its market price or selling a security above its market price. These orders will set a specified price to buy that is below the current market price or a specified price to sell that is above the current market price.
+Stop order: Stop orders are primarily used to mitigate substantial losses on a security. A stop loss order is an order to sell that is initiated with a specified price that is below the market’s current price.
+End of Day Order Considerations
+End of day orders can be advantageous for a buyer because they do not have to continue following the order’s progress after the trading day has closed. Most market orders are typically placed immediately and therefore not a concern for end of day order cutoffs. End of day orders that are unexecuted for any reason will need to be re-entered again.
+An end of day limit order frees an investor from the investment’s deduction in the future which allows them to place other trades. If an investor is seeking a specified price they may need to place a GTC order to wait for the price to be reached. This type of scenario is often associated with an investor’s risk management strategy and is best deployed as a GTC order. The GTC designation allows an investor to construct floors and ceilings for risk management purposes using limit and stop orders.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

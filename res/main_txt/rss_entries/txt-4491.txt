@@ -1,0 +1,77 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        E-commerce and cloud computing behemoth Amazon.com (AMZN) continues to add value to its monthly Prime membership service, enticing more than 100 million households to join for exclusive perks such as free two-day shipping and access to exclusive TV, movies and music. (See also: Why Did Amazon Hike Prime Subscription Fee?)
+After the Seattle-based retail giant made its aggressive push into the brick-and-mortar space with its blockbuster $13.7 billion acquisition of Whole Foods Market last summer, Amazon has been introducing more deals for its Prime members who shop at the natural foods grocer, where the company now sells branded hardware such as its Alexa-powered smart home devices. 
+As part of a larger initiative to more fully integrate Amazon and Whole Foods, the company is reportedly planning new perks for its monthly subscribers, including an additional 10% off already discounted prices, according to CNBC. The move is set to disrupt grocers like Walmart Inc. (WMT), Kroger Co. (KR), Target Corp. (TGT) and other rivals who are already knee deep in a price war as changing consumer preferences and new competition disrupt traditional industry leaders. 
+Prime Territory
+On the other hand, new benefits for Prime members shopping at Whole Foods should boost Amazon vendors, many of them niche and small, as noted by CNBC. These merchants are positioned to see sales grow as they gain access to the global platform's massive consumer base. 
+Sources told CNBC that while 75% of Whole Foods shoppers are Amazon Prime members, less than 20% of Amazon Prime members shop at the organic food chain. A potential 10% off Whole Foods purchase would add to existing perks for Prime members such as free delivery of Whole Foods products in certain locations, 5% cash back when using AMZN's Visa rewards card at Whole Foods, and other exclusive member deals such as roses on Valentine's Day and turkey on Thanksgiving. Earlier this year, Whole Foods announced that it would end its loyalty program on May 2, telling shoppers to expect more benefits soon. 
+Amazon, which blew past analysts' forecasts in the first quarter, announced that it would increase the annual fee of its Prime membership by $20 to $119 as it continues to double down on its investments in avenues such has live streaming deals, delivery services and media offerings. (See also: Walmart Inks Deal With Postmates for Deliveries.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

@@ -1,0 +1,145 @@
+
+
+    
+                          What is a 'Surcharge'
+
+      A surcharge is a fee, charge, or tax added to the cost of a good or service. A surcharge is typically added to an existing tax and may not be included in the stated price of the good or service. It may be a temporary measure to defray the cost of increased commodity pricing, such as with a fuel surcharge, or it may be permanent.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Automated Teller Machine - ATM                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Convenience Fee                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Fee Structure                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            SEC Fee                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Surcharge'
+      Many entities, including governments, businesses, and service professionals assess surcharges for goods or services.  For example, taxi drivers may add a fuel surcharge of $1 when gas prices increase. The cost of some products and services do not include the added surcharge. Instead, the calculated fee will be assessed upon acceptance or purchase of the item and appears in the contract or purchase agreement.
+Surcharges may be set at specific dollar amounts, such as $5 per transaction, or based on a percentage of the total price.
+Offsetting Surcharge Fees
+Many industries, such as the telecommunications and cable industries, regularly use surcharges to offset fees imposed on the business through federal, state, or local regulations. When regulations impose additional costs on the market, the business may adjust the surcharge instead of the price of the good or service.
+For example, a customer may see a regulatory recovery fee on a cable bill. The purpose of the regulatory recovery fee is to offset the burden on the cable provider for certain voice service fees imposed by various government entities. Another example of a cable surcharge is the fee to provide sports programming to the viewing market. In this case, the charge is to offset the premium the cable provider pays for the ability to broadcast the events.
+If regulations raise the burden on a company by $1 per customer, the company may increase its regulatory recovery fee by $1. In this way, the company avoids having to absorb the loss or the full amount of the government fee, efficiently passing it on to the consumer.
+Surcharges as Convenience Fees
+One surcharge experienced by many consumers are Automated Teller Machine (ATM) fees associated with using a network’s ATM. The ATM surcharge is most often levied by the bank or other institution who owns and operates the machine. An ATM fee is shown as a set dollar amount per transaction. Most ATM providers waive fees for customers of the sponsoring ATM.
+Some businesses have added surcharges to compensate for the costs associated with accepting credit cards. Another name for these fees is a checkout fee. This additional fee may be a specific dollar amount or may be a percentage of the total price of the goods or services purchased.  Some card issuers, such as Visa and Mastercard, prohibit merchants from surcharging customers.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

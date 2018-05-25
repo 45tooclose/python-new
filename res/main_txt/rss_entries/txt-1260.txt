@@ -1,0 +1,38 @@
+
+
+Imagine a way to expand bitcoin payments to millions per second. Now, imagine a clunky, command-line interface.
+That's the extent of the divide between the vision enabled by bitcoin's best-yet scaling solution, the lightning network, and the current state of its design. But while that's daunting, developers are moving ahead on designs to make the payment system easier to use, with one recently submitting a proposal for connecting lightning with a payment technology that could make it feel as futuristic as it's touted.
+That payment technology, near-field communication, or NFC, would allow a user to pay for an item just by holding their smartphone an inch away from the device it's paying.
+Not a new idea in bitcoin or the payments world at large, NFC-based payments have caught on throughout Asia and Europe - not only on smartphones, but also through chips embedded in payment cards. And while the U.S. might be lagging behind in NFC adoption, bitcoin's early adopters might just be the right target audience. 
+
+As such, the proposal, submitted by developer Igor Cota, looks to standardize a way to connect lightning with NFC.
+Invoking the name of his lightning wallet that uses NFC, Presto, Cota told CoinDesk:
+"I want the payments to be instant just like with the contactless cards we have here in Europe. A user would simply tap on the payment terminal and presto!"
+Further, Cota imagines turning any computer into a lightning point-of-sale terminal through the use of a $29 USB attachment, a route that has proven successful in his early tests.
+Replacing QR codes
+Given the success, Cota's proposal is about standardizing what he's created, adding it to the many other standard rules that describe how each lightning software implementation should operate.
+Many bitcoin payments implementations tend to use QR codes - those pixelated-looking black-and-white squares that encode data that can then be scanned and consumed by smartphones. And while Presto supports QR codes alongside NFC, he believes the latter provides a much better experience.
+QR codes not only can be a bit finicky, but they also can become "unwieldy," Cota said, especially when more information is added to them. In this way, merchants won't be able to add much information such as itemized receipts and coupons to QR codes, he said.
+NFC, though, doesn't have this hurdle.
+"I'd like to see a system where the payment terminal sends a nice HTML receipt for the customer - that receipt has, say, a table list of your grocery shopping with subtotal, taxes, grand-total, perhaps a shop logo, some loyalty code or a coupon for future use," he said.
+In Cota's mind, this would give consumers a more detailed record of their spending habits, empowering them to take even more control of their finances.
+"Imagine a wallet that can tell you how much you've spent on broccoli last month?" Cota said, adding:
+"With crypto you're always in control, but with these digital receipts you are even more so."
+A bolt of lightning
+But first, Cota is trying to get his NFC implementation added to the standards that lightning network developers have established in an effort to make sure all implementations are compatible with each other.
+These standards are called "BOLTS," and Cota believes NFC should be added to BOLT 11, which explains how "invoices" - describing how much a person owes - should be encoded and presented to a user. It's a similar process to that of the credit card reader at Starbucks showing you that you owe $4.50 for a mocha latte.
+For now, BOLT 11 only describes a standard for QR codes.
+Already, Cota has come up with a rough standard, putting together a Multipurpose Internet Mail Extensions (MIME) type, which is a format for sending data; an NFC application ID, which indicates the payment method is lightning; and a "very simple protocol to forward socket data."
+Though these pieces weren't so hard to come up with, Cota said he thinks it's important to write up a standard, whereby all NFC-enabled point-of-sale devices can accept any NFC-based lightning payment, now to be ahead of the game should NFC-based lightning payments take off.
+"For the sake of interoperability, it would be great if we agreed on some standards," he explained.
+And already, most of the public technical feedback has been positive, with Lightning developers ZmnSCPxj and Corné Plooy responding favorably to the proposal on the mailing list.
+However, Bitrefill lightning developer Justin Camarena was a bit wishy-washy, telling CoinDesk:
+"It's an obvious way to pay in the future but it seems we're a bit too early as there are no hardware point-of-sales offering lightning support."
+Still, Cota is plugging away on the next steps to move the project forward.
+"As you can see the [Presto user-interface] is not really there yet but I'm working on it," he said, adding, "What I'm working on at the moment is a protocol that makes sure the NFC payment goes through even in case the paying device is offline."
+Cota plans to submit another pull request for developers to review once this mechanism is finished.
+NFC image via Igor Cota
+var riuyojisrlntqyiu,riuyojisrlntqyiu_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){riuyojisrlntqyiu_poll(function(){if(window['om_loaded']){if(!riuyojisrlntqyiu){riuyojisrlntqyiu=new OptinMonsterApp();return riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="//a.optnmnstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;riuyojisrlntqyiu=new OptinMonsterApp();riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");
+
+The leader in blockchain news, CoinDesk is a media outlet that strives for the highest journalistic standards and abides by a strict set of editorial policies. CoinDesk is an independent operating subsidiary of Digital Currency Group, which invests in cryptocurrencies and blockchain startups.
+

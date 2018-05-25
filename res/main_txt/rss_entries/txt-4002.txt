@@ -1,0 +1,150 @@
+
+
+    
+                          What is an 'Upside Tasuki Gap'
+
+      An Upside Tasuki gap is a candlestick formation that is commonly used to signal the continuation of the current trend.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Downside Tasuki Gap                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Candlestick                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            White Candlestick                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Morning Star                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Upside Tasuki Gap'
+      The Upside Tasuki Gap is a gap candlestick pattern that can be identified to support an uptrend. It can also be known as a Bullish Tasuki Gap or the Upward Gap Tasuki. This gap also has an adverse pattern which occurs in a bearish market and is known as a Downward Tasuki Gap. These patterns are predicted to have originated from Japanese technical analysis.
+The Upside Tasuki Gap is one of many gap patterns that can form through a bullish trend. Supporting uptrend gap patterns are also usually used in conjunction with the Upside Tasuki Gap to add affirmation to a bullish trading strategy.
+Gaps
+Gaps are significant price changes that typically occur from one day to the next. In some situations, they may have specified depths that help to confirm certain signals. Typical technical analysis gap patterns will be identified over two to three days of trading. Therefore, gap patterns are usually identified in conjunction with other associated patterns to confirm their validity.
+Upside Tasuki Gap Construction
+The Upside Tasuki Gap pattern is formed when a series of candlesticks have demonstrated the following:
+1. The first bar is a large white candlestick within a defined uptrend.
+2. The second bar is another white candlestick with an opening price that has gapped above the close of the previous bar.
+3. The last bar is a red candlestick that closes within the gap between the first two bars. It is important to note that the red candle does not need to fully close the gap.
+In technical analysis charting, it is not uncommon to see the price of an asset close a price gap previously created. Sometimes traders get ahead of themselves and send the price higher too quickly, which can result in a slight pullback. The red candlestick that forms the Upside Tasuki Gap is as a period of slight consolidation before the bulls continue to send the price higher.
+Uptrend Indicators
+Upside Tasuki Gaps can occur at any time during a bullish trending pattern. Bullish patterns typically follow a cycle that begins with a breakaway gap confirming a reversal and then several runaway gaps followed by an exhaustion gap. As a candlestick pattern is trending higher it will form an ascending channel. This channel is constructed by two positive sloping lines at the peak and trough levels of a candlestick pattern. It can be common for an Upside Tasuki Gap to occur within an ascending channel that also includes a breakaway gap, runaway gaps and an exhaustion gap.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'ActiveTrading',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

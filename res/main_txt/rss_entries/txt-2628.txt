@@ -1,0 +1,94 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        In early 2009, the mysterious cryptocurrency developer (or team of developers) working under the alias Satoshi Nakamoto released the first software program that implemented the digital currency  bitcoin. Since then, bitcoin has gone on to not only gain massive appeal across the globe but also to inspire hundreds of other digital currencies.
+Many of these cryptocurrencies make use of aspects that were already inherent in Satoshi's initial program and concept. Others take the bitcoin model and adapt or attempt to improve upon it. In some cases, bitcoin has spawned variations which are based on the same underlying concept and program but which are distinct from the original. In these situations, the bitcoin blockchain has undergone a process known as forking, through which the blockchain itself is divided into two distinct entities.
+It is through this forking process that various digital currencies with names similar to bitcoin have come to be: bitcoin cash, bitcoin gold and others. For the casual cryptocurrency investor, it can be difficult to tell the difference between these cryptocurrencies and to map the various forks onto a timeline. Below, we'll walk through many of the most important forks to the bitcoin blockchain over the past several years. (See also: Can Bitcoin Hard Fork?)
+Genesis Block
+In 2009, shortly after releasing bitcoin, Satoshi mined the first block on the bitcoin blockchain. This has come to be referred to as the Genesis Block, as it represented the founding of the cryptocurrency as we know it. Satoshi was able to make numerous changes to the bitcoin network early on in this process; this has become increasingly difficult and bitcoin's user base has grown by a tremendous margin. The fact that no one person or group can determine when and how bitcoin should be upgraded has similarly made the process of updating the system more complex. In the years following the Genesis Block, there have been several hard forks. (See also: Will Bitcoin Undergo 50 Forks in 2018?) 
+During a hard fork, software implementing bitcoin and its mining procedures is upgraded; once a user upgrades his or her software, that version rejects all transactions from older software, effectively creating a new branch of the blockchain. However, those users who retain the old software continue to process transactions, meaning that there is a parallel set of transactions taking place across two different chains.
+Bitcoin XT
+Bitcoin XT was one of the first notable hard forks of bitcoin. The software was launched by Mike Hearn in late 2014 in order to include several new features he had proposed. While the previous version of bitcoin allowed up to seven transactions per second, bitcoin XT aimed for 24 transactions per second. In order to accomplish this, it proposed increasing the block size from 1 megabyte to 8 megabytes.
+Bitcoin XT initially saw success, with more than 1,000 nodes running its software in the late summer of 2015. However, by just a few months later, the project lost user interest and was essentially left for dead. Bitcoin XT is technically still available, but it is generally seen to have fallen out of favor.
+Bitcoin Classic
+When bitcoin XT declined, some community members still wanted block sizes to increase. In response, a group of developers launched Bitcoin Classic in early 2016. Unlike XT, which proposed increasing block size to 8 megabytes, Classic intended to increase it to only 2 megabytes. Like Bitcoin XT, bitcoin classic saw initial interest, with about 2,000 nodes for several months during 2016. The project also still exists today, with some developers strongly supporting Bitcoin Classic. Nonetheless, the larger cryptocurrency community seems to have generally moved on to other options.
+Bitcoin Unlimited
+Bitcoin Unlimited remains something of an enigma some two years after its release. The project's developers released code but did not specify which type of fork it would require. Bitcoin Unlimited set itself apart by allowing miners to decide on the size of their blocks, with nodes and miners limiting the size of blocks they accept, up to 16 megabytes. Despite some lingering interest, Bitcoin Unlimited has largely failed to gain acceptance.
+Segregated Witness
+Bitcoin core developer Peter Wuille presented the idea of Segregated Witness (SegWit) in late 2015. Put simply, SegWit aims to reduce the size of each bitcoin transaction, thereby allowing more transactions to take place at once. SegWit was technically a soft fork. However, it may have helped to prompt hard forks after it was originally proposed.
+Bitcoin Cash
+In response to SegWit, some bitcoin developers and users decided to initiate a hard fork in order to avoid the protocol updates it brought about. Bitcoin cash was the result of this hard fork. It split off from the main blockchain in August 2017, when bitcoin cash wallets rejected bitcoin transactions and blocks.
+Bitcoin cash remains the most successful hard fork of the primary cryptocurrency. As of this writing, it is the fourth-largest digital currency by market cap, owing in part to the backing of many prominent figures in the cryptocurrency community and many popular exchanges. Bitcoin cash allows blocks of 8 megabytes and did not adopt the SegWit protocol.
+Bitcoin Gold
+Bitcoin gold was a hard fork that followed several months after bitcoin cash in October 2017. The creators of this hard fork aimed to restore the mining functionality with basic graphics processing units (GPU), as they felt that mining had become too specialized in terms of equipment and hardware required.
+One unique feature of the bitcoin gold hard fork was a "post-mine," a process by which the development team mined 100,000 coins after the fork had taken place. Many of these coins were placed into a special "endowment," and developers have indicated that this endowment will be used to grow and finance the bitcoin gold ecosystem, with a portion of those coins being set aside as payment for developers as well.
+Generally, bitcoin gold adheres to many of the basic principles of bitcoin. However, it differs in terms of the proof-of-work algorithm it requires of miners.
+SegWit2x
+When SegWit was implemented in August 2017, developers planned on a second component to the protocol upgrade. This addition, known as SegWit2x, would trigger a hard fork stipulating a block size of 2 megabytes. SegWit2x was slated to take place as a hard fork in November 2017. However, a number of companies and individuals in the bitcoin community that had originally backed the SegWit protocol decided to back out of the hard fork in the second component. Some of the backlash was a result of SegWit2x including opt-in (rather than mandatory) replay protection; this would have had a major impact on the types of transactions that the new fork would have accepted. (See also: What Happens Now That the Bitcoin Hard Fork Was Canceled?)
+On Nov. 8, 2017, the team behind SegWit2x announced that their planned hard fork had been canceled as a result of discrepancies among previous backers of the project.
+In only a few short years, bitcoin has already spawned a large number of forks. While no one can say for sure, it's likely that the cryptocurrency will continue to experience both soft and hard forks into the future as well, continually growing the cryptocurrency community while also making it increasingly complicated.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

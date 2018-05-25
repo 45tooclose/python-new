@@ -1,0 +1,75 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Alexis Ohanian, the co-founder of popular social news aggregator Reddit, recommends investors hoping to win big on cryptocurrency look past bitcoin to ethereum, the world's second-largest cryptocurrency by market capitalization. (See also: Crypto Could Crash 90% This Year: GP Bullhound.)
+"I’m most bullish about Ethereum simply because people are actually building on it," said Ohanian in an interview published Tuesday by Fortune. The tech executive now works full time at his venture capital firm Initialized Capital, which has invested in crypto-related businesses such as trading platform Coinbase. Reddit was sold to publishing house Conde Nast in 2006 for an undisclosed sum pegged somewhere between $10 and $20 million.  
+Ethereum Blockchain Preferred by Developers
+Ohanian prefers ethereum to bitcoin given the ease and flexibility developers have when building applications on the former versus the bitcoin blockchain. He foresees bitcoin more than doubling to reach $20,000 by year-end, surging past highs just below that benchmark in December 2017. Meanwhile, the crypto bull sees ethereum reaching $1,500 over that time, representing an over 100% gain from Thursday at 3:21 p.m. UTC. At a price tag of $741.36 for one ethereum, the digital coin reflects a near 800% gain over the most recent 12 months. Fortune's Term Sheet initially reported that Ohanian was forecasting ethereum to jump 21 times to reach $15,000, yet later amended the story to note that he reached out to indicate he misspoke and meant to leave out a zero. 
+The entrepreneur and venture capitalist added that blockchain, the underlying distributed ledger technology behind crypto transactions, will require one to two years to reach its true potential. He suggested that much of the noise surrounding blockchain has been "hype and BS," this year, much like "how it was with artificial intelligence and machine learning" before those technologies took off in a real way. He expects the next 12 to 24 months to produce the "really vital, protocol-level, basic infrastructure around software and blockchain" necessary to create the "Web 3.0" and will serve as the "foundation for a very different, much better Internet." (See also: Already More ICOs in 2018 Than All of 2017: $6.3B.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

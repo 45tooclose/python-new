@@ -1,0 +1,77 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Shortly after noon EDT on Apr. 25, 2018, the New York Stock Exchange (NYSE) announced it would suspend trading on five symbols due to a price scale coding malfunction. The affected stocks are Amazon (AMZN), Booking Holdings Inc. (BKNG), Alphabet Inc. Class A and Class C (GOOGL and GOOG), and Zion Oil & Gas Inc. (ZNWAA). These stocks are still being traded on the Nasdaq, NYSE Arca, and NYSE American today. 
+In a trader alert, the exchange announced that trades of the five symbols will be suspended for the day and that any outstanding orders will be canceled. 
+"To me it sounds extremely minor and not a big deal but definitely part of the [Nasdaq symbol migration] rollout," said Joe Saluzzi, partner and co-founder at Themis Trading told CNBC. 
+On the NYSE, a price scale code is used convert a whole integer price in binary to a decimal price for a given stock. Price scale codes determine the decimal position of a company's converted price. Codes of 0, 1, 2, 3, 4, or 6 indicate the exponent of base 10 by which the whole integer price should be divided.  
+
+(image: NYSE)
+A NYSE API Specification document gives the following example: Whole integer price is 1350 and the price scale code is 2. To determine the decimal price, divide 1350 by 100 (10^2 or 102). The result is a decimal price of 13.50. 
+Earlier this morning, the exchange alerted traders that execution reports priced at $1000 or higher were being incorrectly published with a price scale code of 5. In other words, stocks priced above a $1000 threshold were being divided by a larger number than was accurate to determine their trading prices. 
+As of 1:15 pm today on the NASDAQ, AMZN was trading at $1450.61, GOOG at $1025.17, GOOGL at $1029.98, and BKNG at $2079.00. 
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

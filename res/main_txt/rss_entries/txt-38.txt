@@ -1,0 +1,43 @@
+
+
+There's more to bitcoin's lightning network than meets the eye.
+That said, data visualizations have become a favorite tool for bitcoin users eager to tell the story of the steady adoption of the in-development payments technology. Already, a ton of visualizers have been launched to depict the network in novel ways - from 3D renderings and historical time series to family trees and experimental animations.
+Like blossoming clusters of galaxies, watching the nodes and channels unfurl into complicated webs has become somewhat of a sport for lightning fans.
+"I used to check the bitcoin price every day, but now I check the lightning network nodes every day," a lightning enthusiast wrote on Reddit, adding that unlike the price charts, lightning is always on an upward trend. 
+
+But according to several developers that work on lightning implementations, the images don't tell the whole story.
+"Most of the snapshots will become increasingly irrelevant," said Olaoluwa 'Laolu' Osuntokun, a developer at Lightning Labs, which recently launched its lightning network implementation into public beta.
+For one, the pictures are based on views from a single node, which has limited access to the entire lightning network.
+"It isn't authoritative, not really indicative of the longer-term topology," Osuntokun continued.
+Nevertheless, the images right now play an important role, often deployed to solve unanswered questions about how the network is growing, namely whether lightning is fulfilling its (sometimes contested) promise of decentralization.
+"It gives people something they can point to to say, 'Look it's lightning!'" Osuntokun said.
+Pseudonymous developer "Intel," who created the popular lightning mainnet explorer, #recksplorer, agreed, saying visualizers are the easiest way to observe the network growth at this point.
+Intel continued:
+"You can visually compare how they looked before and look now, making the network growth really noticeable. It's much more eye candy than sharing raw numbers of network nodes."
+A complete picture?
+Still, according to Osuntokun, as the network continues to grow, these visual depictions will become more problematic.
+While users have at times complained about the lack of visibility across the whole network, thinking it was due to faulty code, the partial view of the nodes is a necessary characteristic, as it enhances privacy and cuts down on individual node storage costs.
+Plus, because of certain implementation parameters, if a channel has been inactive for more than two weeks or it contains a very small amount of funds, the channels might not be visible to all nodes. And finally, there could be nodes and channels that don't announce themselves at all.
+"It's actually optional for nodes to send out authenticated proofs attesting to the existence a channel," Osuntokun said.
+As such, even layering views from multiple nodes wouldn't give you a complete picture.
+Tyzbit, the pseudonymous author of several interactive lightning visualizers, compared this to a dark, crowded room, with groups of people hidden behind others.
+"You don't need to know about everyone in the room to send money to someone, you just need one working route," tyzbit explained. "No one has a perfect picture of the network."
+But according to Osuntokun, while that could worry people that actually the lightning network isn't growing as fast as some suggest, it actually displays the more positive opposite.
+Because on lightning, there's no need for consensus, or, a global agreement of what the network is, it's even possible that several, unconnected lightning networks could exist at once. With this in mind, it's likely that lightning could be much bigger than depicted in the images.
+He told CoinDesk:
+"An explorer should only be seen as a lower bound for the number of nodes or channels on the network."
+The end of visualizers
+Still, visualizers may have a short shelf life anyway.
+For one, Osuntokun said that as lightning adds more privacy features, visualizers will be unable to gather more specific data, like physical location, about the nodes. This is obviously a benefit for users since data about their location could expose them to attacks, but it's at the expense of the visual tools.
+"As the graph gets larger and larger, visualizations will probably start to collapse channels into one another in order to reduce the dimensionality of the rendering," Osuntokun said, "otherwise, things may just end up looking like a ball of yarn pretty soon."
+Intel echoed this point, stating that visualization software will eventually not be able to handle the amount of overlaps in the network.
+"[A] large lightning network becomes like a tangled mess, and there is no way that you can untangle it for visualization purposes," he said.
+And this might be coming sooner than later. For instance, despite being labelled reckless for users to transact on the lightning network before Lightning Lab's March beta release, Intel's explorer saw rapid growth, reaching 1,337 nodes and 3,798 channels in a matter of weeks.
+Even at its current size, the developer's explorer is already a bit unruly.
+Because of that, Intel concluded:
+"You can already see that happening on my explorer. The future of network visualizers is uncertain."
+Lightning network visualizer image via #recksplorer
+var riuyojisrlntqyiu,riuyojisrlntqyiu_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){riuyojisrlntqyiu_poll(function(){if(window['om_loaded']){if(!riuyojisrlntqyiu){riuyojisrlntqyiu=new OptinMonsterApp();return riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="//a.optnmnstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;riuyojisrlntqyiu=new OptinMonsterApp();riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");
+
+The leader in blockchain news, CoinDesk is a media outlet that strives for the highest journalistic standards and abides by a strict set of editorial policies. CoinDesk is an independent operating subsidiary of Digital Currency Group, which invests in cryptocurrencies and blockchain startups.
+

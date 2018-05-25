@@ -1,0 +1,143 @@
+
+
+    
+                          What is a 'Quote'
+
+      A quote is the last price at which a security or commodity traded, meaning the most recent price on which a buyer and seller agreed and at which some amount of the asset was transacted.
+The bid or ask quotes are the most current prices and quantities at which the shares can be bought or sold. The bid quote shows the price and quantity at which a current buyer is willing to purchase the shares, while the ask shows what a current participant is willing to sell the shares for.
+This is also known as an asset's "quoted price."
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Level 3                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Price Transparency                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Current Price                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Thin Market                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Quote'
+      Quotes for stock and bond prices change throughout the trading day as new transactions occur one after another in a continual stream of trades. When a stock quote is referenced for a given company, it represents the most recent price at which a trade was successfully executed for that particular security.
+Potential investors or sellers in a company are more concerned about the bid and ask quotes as they reflect at what prices the stock can be bought or sold, while the price quote as defined above shows the price at which the stock traded most recently.
+Quotes as Part of an Investment Strategy
+Historical quotes may be referenced by investors for the sake of examining potential trends in a security’s market activity and volatility. Quotes can be represented in a relation to an instance of time, allowing for comparisons with comparable periods. For instance, investors might reference quotes from the same day, one year apart in order to chart the potential trajectory for the security. They could also compare quotes across a day of trading, especially if there is volatility, in order to develop an investing strategy in response to the activity.
+Quotes may be provided by a variety of outlets, such as investment news sites and trading platforms. There may be a delay in the reporting of such quotes, especially from free services that are public available. Trading and investing platforms may offer quotes as close to real-time as possible as a service to their subscribers. This may be especially crucial for subscribers who want to be able to make decisions on their trading activity as quotes become available. Investing platforms might also allow users to set up quote-driven alerts that are sent when shares cross certain thresholds. Such notifications can also be tied to automated responses. For example, an investor might put a sell order in place that is contingent on receiving a quote that shares of a security have reached a desired threshold.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

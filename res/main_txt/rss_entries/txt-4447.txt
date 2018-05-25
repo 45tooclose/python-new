@@ -1,0 +1,95 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Alibaba Group Holding Ltd. (BABA), the largest retailer in the world after surpassing Wal-Mart Stores Inc. (WMT) last year, is buoyed by a diverse array of businesses in sectors ranging from healthcare to media and entertainment. Just like Jeff Bezos and Amazon (AMZN), the Alibaba Group operates all around the world with businesses across many verticals.
+With operations in more than 200 countries, the Chinese company's flagship company, of course, is Alibaba.com, the world’s largest business-to-business trading platform. Alibaba.com has three main segments: an English-language portal, Alibaba.com, that connects sales between importers and exporters; a Chinese portal, 1688.com, that serves as a platform for China’s in-country business trade; and a retail website, AliExpress.com, that connects buyers to small quantities of product at wholesale prices. (For more, see also: Alibaba to Bring US Businesses Online to China.)
+Here are nine other companies owned by Alibaba Group:
+Lazada
+Alibaba Group announced in March 2018 that it would invest another $2 billion in Lazada Group SA. Alibaba had previously held an 83% stake in the company after it invested $1 billion in June 2017. Alibaba took control of Singapore-based Lazada in April 2016 in a $1 billion deal with its founder, Rocket Internet, making it Alibaba’s largest acquisition to date. (For more, see also: Alibaba Makes a Lifesaving $1B Investment in Lazada.)  
+Lazada focuses on e-commerce in six Southeast Asian countries: Vietnam, Indonesia, Malaysia, Singapore, the Philippines and Thailand.
+South China Morning Post
+Alibaba Group acquired South China Morning Post, a century old Hong Kong-based, English-language newspaper, in December 2015 for about $266 million as part of its plan to grow its media and entertainment business.
+At the time, Jack MA, CEO of Alibaba, said it wanted to reshape coverage of what it thought was a negative portrayal of China in Western media.  
+AutoNavi
+Alibaba Group acquired AutoNavi, a Chinese map and navigation company, in 2014. The company has been providing mapping data to Google for more than a decade, and it also has connections with Apple Inc. (AAPL) in providing mapping data on China. Its own app garnered more than 100 million users, making it one of the top apps in the country.
+Taobao
+Alibaba Group founded Taobao in 2003 as a consumer-to-consumer marketplace in China, similar to eBay Inc. (EBAY) or Amazon (AMZN). At the time of its launch, eBay had acquired China’s main online auction site, Eachnet. To compete, Taobao offered free seller listings and features like messaging for buyers, and it became the leading auction site in the country within two years. 
+Alipay
+The Alibaba Group founded Alipay in 2004 and it’s now the world’s largest online payment with more than 400 million users. Alipay, now under parent company Ant Financial Services Group, also an Alibaba Group affiliate, surpassed PayPal as the largest digital payment platform in 2014. In August of 2017 Alipay annouced a partnership with Yelp, a sign of their plans to expand west. 
+Alipay says it connects with 65 financial institutions like MasterCard and Visa. It provides payment services for its own businesses, like Taobao.
+Alibaba Pictures Groups
+Alibaba Pictures Group Ltd. was renamed from ChinaVision Media after Alibaba Group bought a 60% stake for $804 million in 2014. The entertainment company has been the largest Chinese movie company since 2015.
+Although a dominant player in Chinese film production, Alibaba Pictures Group said in November 2017 that they had reported losses of $83.7 million. 
+Aliwangwang and Laiwang
+Alibaba Group launched Aliwangwang, its own instant messaging service, in 2004 for real-time interactions between Taobao’s online sellers and customers. Now, Aliwangwang is the second-largest instant messenger in China.
+In other messaging technology companies, Alibaba Group announced in 2013 that it would use Laiwang, its own messaging service app, over rival Tencent’s messaging service app, WeChat. Laiwang is now another company under the Alibaba Group.
+Ali Health Information Technology
+Ali Health is Alibaba Group’s health-care company that started in 2014 after Alibaba and private equity firm Yunfeng purchased a 54% stake in a company called Citic 21CN. Lately, Alibaba has been focusing on beefing up the company into its flagship healthcare platform with a $488.3-million deal in which Ali Health will acquire Alibaba’s health food business.
+Alibaba is selling Ali JK Nutritional Products Ltd. to Ali Health for a roughly 6.1% discount, the company said.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '',
+     'leadGenVertical' : '',
+     'leadGenLayout' : '',
+     'leadGenPage' : ''
+    });
+                    
+            
+                

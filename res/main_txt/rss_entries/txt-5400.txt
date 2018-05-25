@@ -1,0 +1,85 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        For investors new to the cryptocurrency world, one of the most overwhelming and confusing aspects can be blockchain. Blockchain technology is what powers and supports the digital currency space, and many analysts believe that it contains numerous viable applications and uses beyond cryptocurrencies as well. You may have heard about financial institutions and even mainstream corporations around the world beginning to explore ways that they can integrate blockchain technology into their traditional practices. Beyond that, though, it can be a bit of a mystery as to what blockchain is exactly and as to how it works. Below, we'll explore the ins and outs of blockchain, providing an overview of this technology, how it works with regard to cryptocurrencies and other potential applications and why it may be one of the most revolutionary inventions since the internet.
+The Three Primary Components of Blockchain
+Blockchain can actually be thought of as the combination of several different existing technologies. While these technologies themselves aren't new, it is the ways in which they are combined and applied which brought about blockchain. According to CoinDesk, these three component technologies are:
+Private key cryptography
+A distributed network that includes a shared ledger
+Means of accounting for the transactions and records related to the network
+To illustrate the technology of private cryptographic keys, it helps to envision two individuals who wish to conduct a transaction online. Each of these individuals holds two keys: One of these is private and one is public. By combining the public and private keys, this aspect of cryptography allows individuals to generate a secure digital identity reference point. This secure identity is a major component of blockchain technology. Together, a public and a private key generate a digital signature, which is a useful tool for certifying and controlling ownership.
+The digital signature of the cryptography element is then combined with the distributed network technology component. Blockchain technology acts as a large network of individuals who can act as validators to reach a consensus about various things, including transactions. This process is certified by mathematical verification and is used to secure the network. By combining the use of cryptographic keys with a distributed network, blockchain allows for new types of digital interactions.
+Process of Confirmation
+One of the most important aspects of blockchain technology is the way that it confirms and validates transactions. In the example above, in which two individuals wish to conduct a transaction online, each with a private and a public key, blockchain allows the first person (person A) to use their private key to attach information regarding the transaction to the public key of the second person (person B). This information together forms part of a block, which contains a digital signature as well as a timestamp and other relevant information about the transaction, but not the identities of the individuals involved in that transaction. That block is then transmitted across the blockchain network to all of the nodes, or other component parts of the network, which will then act as validators for the transaction.
+All of this sending of information and validating of blocks requires huge amounts of computing power. In practical terms, it may seem unrealistic to expect millions of computers around the world to all be willing to dedicate computing power and other resources to this endeavor. One solution to this issue for the blockchain network is mining. Mining is related to a traditional economic issue called the "tragedy of the commons." Put simply, this concept summarizes a situation in which individuals who each act independently in their own self interests tend to behave in ways contrary to the common good of all users as a result of depleting a resource through their action at a collective level. In the process of blockchain validation, an individual who gives up a small portion of his or her computational power in order to provide a service to the network thereby earns a reward. By acting out of self-interest (aiming to earn the reward: in this case, a small amount of a cryptocurrency), that person has been incentivized to help serve the needs of the broader network.
+Chains of Blocks
+Why go through this complicated process of validation anyway? For blockchain networks, this is a crucial step toward insuring that cryptocurrencies cannot be spent in multiple transactions at the same time, a concept known as double-spending. In order to protect against double-spending, blockchain networks have to ensure that cryptocurrencies are both uniquely owned and imbued with value. One way of providing this service is to have the nodes within the blockchain network act as components of the ledger system itself, maintaining a history of transactions for each coin in that network by working to solve complicated mathematical problems. These nodes serve to confirm or reject blocks representing bits of information about transactions. If a majority of node operators arrive at the same solution to a problem, the block is confirmed and it is added to the chain of blocks that exist before it. This new block is timestamped and is likely to contain information about various aspects of past transactions. This is where there is room for variation depending upon the particular network: some blockchain networks include certain types of information in their blocks, while others include different sets of information.
+It is this last aspect of blockchain that some people believe provides the most potential for future applications in the future. The data making up blocks in a blockchain such as the one corresponding to bitcoin, for example, is linked with the past transactions that have taken place between different individuals, acting as a public record of all past transactions. But the data included in blocks could be essentially anything. For governments, for example, aspects of blockchain technology might prove useful when it comes to authorizing transactions, which is normally done through compliance regimes. Blockchain technology could be useful for providing audit trails or to foster new connections between different financial institutions and potential partners. For other aspects of the financial world, blockchain may be able to streamline the process of clearing and settlement, which has traditionally taken days. This technology could also help to automate regulatory compliance by translating legal prose into code, for example, or by permitting certain types of transactions and blocking others. There are wide-ranging possibilities for blockchain technology both within and outside of the financial world.
+As with any new technology, however, it's not entirely clear how to best make use of the powerful capabilities of blockchain. As time goes on, it's likely that continued experimentation will unveil new ways of utilizing blockchain for a variety of different purposes, as well as new methods of utilizing blockchain in order to make it more effective, efficient, secure and powerful. In the meantime, the largest blockchain networks, such as those for digital currencies like bitcoin, are only continuing to grow. (See also: 5 Ways to Invest in the Blockchain Boom.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

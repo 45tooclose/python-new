@@ -1,0 +1,145 @@
+
+
+    
+                          What is 'Posted Price'
+
+      The posted price is the price at which a company has publicly announced it will buy or sell a commodity. In markets where an official exchange does not operate, traders will often refer to the posted prices of the major companies trading that commodity.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            West Texas Intermediate - WTI                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Differential                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Commodity Trader                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Benchmark Crude Oil                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Posted Price'
+      A posted price may represent either the price at which a company is willing to buy a commodity or the price at which it is willing to sell it. Therefore, the posted price typically has a relationship to a company’s bid and ask spread. Posted prices offer a starting point for commodity prices in situations where the actual market price is unknown.
+Uses for posted price
+In areas where a commodity does not trade on an official exchange, it can be difficult for traders to evaluate pricing and make investment decisions. In those cases, posted prices offer a benchmark to use in place of a quoted price. Such benchmarks could involve either a specific price or a price calculated off of quoted prices of similar commodities. The posted prices of major companies can also be aggregated to form an average price that serves as a benchmark for a commodity.
+In the oil industry, posted prices often get established where large quantities of oil or gas move from one entity to another, such as refineries, terminals and major interconnections between pipelines. For example, many markets use the price of West Texas Intermediate, or WTI, oil as a benchmark in their pricing. Cushing, Oklahoma, serves as the major settlement point for WTI oil, which comes largely from the Midwest and Gulf Coast regions of the United States. The Energy Information Administration of the U.S. Department of Energy lists the average price paid for WTI crude oil daily, making it an easily available point of reference for other markets.
+Benchmark pricing
+The Western Canadian oil market has no formal commodity exchange on which to trade. Major oil companies issue posted prices for Western Canadian oils based upon a price differential applied to the WTI benchmark. Averaged together, these posted prices in turn serve as a benchmark for the price of crude oil in Western Canada, called Western Canada Select, or WCS.
+The differential between WCS and WTI is subject to change based upon conditions in the region. In late 2017 and early 2018, for example, the gap between the two benchmarks changed drastically as production in Alberta outstripped the area’s pipeline capacity. The oversupply caused buyers to discount WCS oil against WTI more steeply than in the recent past, greatly reducing both their posted prices and the resulting benchmark.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

@@ -1,0 +1,144 @@
+
+
+    
+                          WHAT IS 'Intercommodity Spread'
+
+      An intercommodity spread is a sophisticated options trade that attempts to take advantage of the price differential between two or more related commodities, such as crude oil and heating oil, or corn and wheat. A trader of intercommodity spreads will go long on one futures market in a given delivery month while simultaneously going short on the related commodity in the same delivery month.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Crush Spread                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Crack Spread                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Futures Spread                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Spread                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Intercommodity Spread'
+      Intercommodity spread trading requires knowledge of the dynamics between the various commodities being optioned. For example, wheat typically costs more than corn but the spread can vary, from perhaps 80 cents to $2 per bushel. An intercommodity spread trader will know that when the spread between wheat and corn rises to around $1.50, the spread will tend to contract and the price of wheat will drop relative to corn. Conversely, when the wheat/corn spread narrows to around 90 cents per bushel, the price of wheat tends to increase relative to corn.
+With this knowledge, a trader can go long on wheat and short on corn when the spread is widening, or go long on corn and short on wheat when the spread is narrowing. In this way the trader hopes to make money by correctly predicting the price trend. Note that the trader is not concerned with the actual price of each commodity but rather with the difference in price, and where the difference is headed.
+Different Types of Intercommodity Spreads
+Examples of intercommodity spreads include the crack spread and the crush spread. A crack spread involves the simultaneous purchase of futures in crude oil and in petroleum products that are refined from that oil, such as gasoline and heating oil. A trader might execute what’s known as a 3-2-1 crack spread, meaning three long options on crude oil against two short options on gasoline and one short option on heating oil. Or the trader could execute a reverse spread, going long on gasoline and heating oil, and short on crude oil.
+A crush spread is similar but generally applies to agricultural commodities. It involves buying simultaneous long and short futures in a raw crop and in the crushed and refined crop. For example, a trader could go long on raw soybeans but sell short on soybean oil futures.
+One advantage to intercommodity trading over simply buying straight futures is that intercommodity trades often have lower margin requirements, meaning the trader can borrow more and thus make larger trades. However these leveraged trades can expose the trader to greater risk when spreads move in unexpected directions.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

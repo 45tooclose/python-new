@@ -1,0 +1,78 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Billionaire investor and Berkshire Hathaway Inc. (BRK.A) CEO Warren Buffett indicated that his company has completely sold off its stake in International Business Machines Corp. (IBM), according to an interview with CNBC's Becky Quick that aired Friday. When asked if Berkshire owns any IBM stock, Buffett first responded "no, I think we have zero," and added "the answer is almost certain."
+According to regulatory filings, at the end of last year, the Omaha, Nebraska-based conglomerate owned over 2 million shares of the old-guard technology company, worth just below $300 million at Friday's prices. At that time, Berkshire had already dumped roughly 94.5% of its once-massive stake in the company after buying $10.7 billion worth of common stock in 2011 at an average price of $170 per share. Trading up about 0.7% on Friday morning at $142.94, IBM reflects a 6.8% decline year-to-date (YTD) and a 10.1% fall over the most recent 12 months, compared to the S&P 500's 0.9% slump and 10.9% return over the same respective periods. 
+The Armonk, New York-based IT giant took a major hit last month on full year guidance that fell short of the Street's expectations. While top line and bottom line numbers exceeded estimates, investors have become impatient with a lack of progress in the company's turnaround plan and concerned over a deceleration of growth in the firm's new strategic imperatives business. (See also: IBM Suffers Its Worst Day in Four Years.)
+Buffett Bulks Up on Apple
+Buffett has reallocated funds into smartphone maker Apple, revealing 75 million more shares bought in Q1 and adding to Berkshire's already large stake in the Cupertino, California-based tech titan, at 165.3 million shares. 
+Regarding struggling industrial conglomerate General Electric Co. (GE), Buffett denied rumors that he was weighing the possibility of buying some or all of the company. He did, however, applaud GE management, particularly CEO John Flannery, who he says is performing commendably in "very tough job." 
+"I want the company to do well," Buffett said of GE, which has seen its stock continue to free fall nearly 20% in 2018 and 52% over the most recent 12 months. 
+Berkshire's highly anticipated annual shareholders meeting will take place in Omaha on Saturday. (See also: IBM Unveils Tiny Computer Based on Blockchain.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

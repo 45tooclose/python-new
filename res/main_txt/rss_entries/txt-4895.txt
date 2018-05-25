@@ -1,0 +1,96 @@
+
+
+
+    
+        
+            
+        
+          
+                
+      
+
+    
+
+    
+        "Give me six hours to chop down a tree, and I will spend the first four sharpening the ax." - Abraham Lincoln
+For the do-it-yourself investor, knowing your strengths and weaknesses – as well as how much time and effort you are willing to commit to charting your investment course – will put you in the best position to succeed. This article will address the best ways to break down the often-daunting task of understanding and allocating your investments.
+1. Make an Assessment
+The best place to start any journey is by knowing where you currently stand. Generally speaking, the younger you are, the more willing you should be to take on risk. It is not vital at this point to be pouring 100% of your expendable funds into investing. If you are participating in some retirement plan such as a 401(k) or an individual retirement account (IRA), you can rest easier knowing that you are on the right path toward a healthy retirement.
+Your time horizon, or how long before you need to touch the money, goes hand in hand with your age. If that horizon is 25 years or more, you can consider yourself near the top of the risk profile for investing. This does not mean that you should be taking foolish risks, but rather that you can participate fully in the equity markets should you decide to. While stock returns are, by their very nature, more volatile than other asset classes, consider that there has been no measured period in the U.S. stock market over 25 years where anything has earned a higher return than equities.
+Gauge your investment knowledge by asking yourself a few simple questions. Have you ever done a full fundamental analysis of a stock prior to purchasing it? Do you understand the basics of asset allocation and diversification? Do you understand the nature of fixed-income products?
+If you cannot answer a definitive "yes" to these, it would be best to simply create an overall asset allocation in line with your age, and from there invest in a few managed funds to start.
+2. Know What You Have
+Be aware of what you own. Start with the most recent statements from any investments or plans you currently have, and determine what percentage you have in stocks versus bonds and cash.
+Next, decide how much time you wish to spend on your personal investing. The goal here is to come up with an actual number in terms of hours per week. The higher the ratio of individual stocks to funds that you hold, the greater the time commitment will be. If you feel that you can devote four to five hours per week to research, you can aim toward owning a few individual stocks in your portfolio. The ratio of how much time you should set aside per stock is a relative figure and will depend on your knowledge and experience, so be prepared for it to change over time.
+3. Assess Your Informational Sources
+You don't need to subscribe to expensive data services to find the data you need to conduct stock analysis. You can find publicly available information easily using free internet sources – earnings reports, press releases, Securities and Exchange Commission (SEC) filings, balance and cash flow statements, for example. Any reputable website will tell you where its data is coming from and how often it is being updated, so you can feel confident that your information is current and accurate. 
+Set minimum guidelines to streamline your due diligence. A market cap minimum or a valuation cap is an easy way to filter down the tens of thousands of stocks into a subset that you can review more fully. Many free stock screeners can do this task for you.
+4. Draw Up a Strategy
+There are many advantages to creating a base asset allocation with mutual funds or exchange traded funds (ETFs). This can take a lot of the pressure off of you. With these investments, you don't have to select every holding in your portfolio. Decide what area of the market interests you the most, whether it is a specific sector/industry or an asset class, and gain the experience of managing this portion of your portfolio more directly.
+Look up a general market index like the Standard & Poor's 500 and review the sector breakdown. It would be wise to not diverge too much from these sector weightings in your own portfolio. If you have 60% of your money in technology stocks when they represent only 15% of the S&P, you have a dangerous over-allocation of resources – even for the most skillful of investors.
+Let's say, for example, that you want to directly research and purchase your own healthcare and technology stocks, which together comprise about 30% of the overall market. You could construct a portfolio of ETFs in all the other sectors except healthcare and technology, and keep that 25% to 30% for you to invest in individual stocks in those two sectors.
+It's a good idea to keep a "watch list" of stocks that you have researched and found some interest in. It may be a company you really like that currently is valued fully, or a small company that you'd like to keep an eye on. Review this list weekly for any material changes. When selling a stock out of your portfolio, this will become a natural place to begin looking for a replacement.
+5.Re-Assess and Adjust Your Strategy
+Pick a schedule for assessing your progress. This isn't so much about seeing how your returns stack up to some benchmark as it is a chance to review your overall asset allocation and your learning progress. If your ratio of stocks to bonds has changed significantly, you'll want to bring it back into balance.
+When reviewing your individual stock holdings, look over their fundamentals to make sure nothing has changed significantly. If you feel on top of things and want to increase the percentage of your holdings that you manage directly, you can do so knowing that you are re-allocating thoughtfully and prudently. Also, understand that this means your hourly time commitment will increase.
+The Bottom Line
+You always will be learning. This is the time to remember the old adage, "It's the journey, not the destination that counts." It won't be long before you are making major strides in your understanding of finances. You should be able to tackle mutual funds, or other vehicles, with confidence. Time spent on learning more about investing, whether in stocks or not, always pays a hefty dividend.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

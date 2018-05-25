@@ -1,0 +1,209 @@
+
+
+
+Central Bank Issued Cryptocurrency Proposed by Former Fed Governor
+A former governor of the Federal Reserve Bank of the United States thinks it would be a good idea for the institution to issue its own cryptocurrency.
+
+
+ by  Miguel
+Gomez,
+4 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  Kevin Warsh, a former governor of the United States Federal Reserve who held the office from 2006 to 2011, thinks that a blockchain-based currency wouldn’t be a bad idea for the organization.
+
+“Most central banks have a view that these crypto-assets are clever, like guys in the garage did it and it’s kind of cool, or risky,” he said.
+
+But the underlying technology behind cryptocurrencies could present a valuable venue for the Fed to have a strong record of all transactions performed under its system. Warsh considers that although this wouldn’t eliminate the US dollar, it could help the Fed manage situations more effectively.
+
+“Not that it would supplant and replace cash, but it would be a pretty effective way when the next crisis happens for us to maybe conduct monetary policy,” he said.
+
+Major central banks in Europe have already thought of the idea of introducing national cryptocurrencies in the past, but none that we know of have taken any steps to make this a reality.
+
+The Swiss National Bank explains that issuing a national cryptocurrency runs the risk of pretty nasty bank runs since this concept would put the SNB directly in the position of acting as a commercial bank to end customers rather than as a lender of last resort.
+On the other hand, the idea of implementing blockchain technology into central banking infrastructures isn’t a novel one, and central banks appear more comfortable working in these parameters. One example of this would be the Bank of England, which began tests at the end of March for a blockchain settlement system.
+Although many national governments and financial institutions still consider blockchain an immature technology, they’re very much on board with the idea of helping it develop into something with the potential to revolutionize how they provide services.
+The Fed is unlikely to start issuing cryptocurrency anytime soon, but perhaps it will think about implementing the underlying technology into its infrastructure once it sees a precedent that proves that it can benefit from powering bits and pieces through blockchains. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

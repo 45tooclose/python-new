@@ -1,0 +1,144 @@
+
+
+    
+                          DEFINITION of 'Asymmetric Volatility Phenomenon - AVP'
+
+      The asymmetric volatility phenomenon is the observed tendency of equity market volatility to be higher in declining markets than in rising markets.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Asymmetrical Distribution                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Asymmetric Information                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Implied Volatility - IV                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Historical Volatility - HV                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Asymmetric Volatility Phenomenon - AVP'
+      Asymmetric volatility is a real phenomenon: market uptrends tend to be more gradual and downtrends tend to be sharper and steeper and become cascading declines. And the daily range in prices tends to be higher during downtrends than uptrends.
+However, there is no consensus about what causes it. One explanation is that trading leverage leads to margin calls and forced selling. Other explanations come from the field of behavioral finance, like behavioral feedback loops in which certain behavior incites more of the same behavior and panic selling.
+People are subject to loss aversion, according to prospect theory, developed by Kahneman and Tversky in 1979. In other words, they prefer avoiding losses to acquiring equivalent gains. Some studies suggest that losses are twice as powerful, psychologically, as gains. This bias skews our assessments of probability. For example, prospect theory also accounts for other illogical financial behaviors, such as the disposition effect, which is the tendency for investors to hold onto losing stocks for too long and sell winning stocks too soon. Building on the work of Kahneman and Tversky, evolutionary psychologists have developed theories regarding why the assessment of risks and odds are inseparable from emotion – and why loss aversion might cause asymmetric volatility.
+One of the difficult factors in identifying the causes of asymmetric volatility is separating out market-wide (systematic) factors from stock-specific (idiosyncratic) factors. Loss-aversion theory has evolved into the asymmetric value function:
+
+The existence of the asymmetric volatility plays an important role in risk management and hedging strategies as well as options pricing.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

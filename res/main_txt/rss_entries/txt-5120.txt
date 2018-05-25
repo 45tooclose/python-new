@@ -1,0 +1,143 @@
+
+
+    
+                          WHAT IS 'TAPO'
+
+      A traded average price option, or TAPO, is an option in which the profit or loss to the investor is based not solely on the price of the underlying asset at expiration, but on the difference between the strike price and the average price of the underlying asset during the option's term. A TAPO can also be known as an Asian option.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Listed Option                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Asian Option                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Options On Futures                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Option                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'TAPO'
+      TAPOs are over–the-counter, or OCT, contracts with a payoff based on the average price of the underlying asset over a specified amount of time. The time frame, in which the average price is derived, is determined when the options contract is created. For example, settlement values are derived from the difference between the strike price and the average price of the underlying asset on the selected dates over the life of the options contract.
+TAPOs are also known as Asian Options because in 1987, Banker’s Trust in Tokyo offered the first Traded Average Priced Options on the price of oil. They got the name Asian options because of where they started trading as opposed to American and European options, which have nothing to do with geography.
+Compared to standard options contracts, TAPOs have a lower premium because the contract often has a shorter lifespan. The premium is also less than exchange traded contracts due to the way these specific contracts derive value. Rather than a contract having a daily price, you are receiving an average price throughout a specified amount of days. Another way to think about the lower premium of a TAPO is with lower volatility comes lower option premiums.
+TAPOs enable traders to manage volatility risk and offer a cost-effective alternative to standard listed options. They are options contracts with a price that is determined by the price of the underlying asset during a period of time as opposed to a value determined at maturity. TAPOs cost less than regular American options and protect investors from market volatility risk. The difference in the options contracts is that American options can be exercised at any time during the life of the contract. This is more valuable than European options, which have to be exercised at maturity.
+One exchange where TAPOs are commonly traded is the London Metal Exchange, a major marketplace for futures in non-ferrous metals such as aluminum, copper, lead and zinc. These call and put options come in contract lengths ranging from one to 27 calendar months and their settlement price is determined by the monthly average settlement price. TAPOs, traded options and futures are all used as hedging tools. While investors have to keep in mind the counterparty risk, these options are a low-cost strategy to protecting profits.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

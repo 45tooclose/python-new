@@ -1,0 +1,205 @@
+
+
+
+Bitstamp Said to Be Negotiating $350M Sale to S Korea’s Nexon
+The oldest Bitcoin exchange still standing, Bitstamp, might be acquired by South Korean video game company Nexon, according to anonymous sources familiar with the matter.
+
+
+ by  Anatol
+Antonovici,
+5 hrs ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  Bitstamp, the oldest Bitcoin exchange still in operation, has gone on the block, people familiar with the situation told Business Insider (BI). According to two anonymous sources, South Korean gaming company Nexon is the most likely buyer, and the parties are nearing a deal valued at about $350 million.
+The sources also said Bitstamp had held talks with another interested party but declined to provide more details.
+
+A Nexon spokesperson said, “We can neither confirm nor deny the facts about your inquiry,” while a representative for Bitstamp replied to BI’s request for comments by saying, “I am not in the position to comment on the matter. We kindly ask you to keep an eye out for any official statement from our side on the topic of your inquiry.”
+
+Bitstamp is a crypto exchange founded in 2011 by Slovenian Nejc Kodrič. It has 3 million registered users and 500,000 active trading accounts, the CEO said in January. At the time of writing, Bitstamp ranks at number 13 among crypto exchanges in terms of trading volume, according to Coinmarketcap data. The company is on the list of exchanges that CME Group relies on when deciding the price of its futures contracts. Bitstamp is currently headquartered in Luxembourg.
+
+Nexon is a computer and mobile game company established in 1995. It has created video games like the Korean and Japanese versions of "Counter Strike" and the Korean version of “FIFA Online.” The company transferred its headquarters to Tokyo and was listed on the Tokyo Stock Exchange, currently having a market cap of 1.3 trillion yen ($12.7 billion).
+At the beginning of 2017, Bitstamp raised $2.4 million via a crowdfunding campaign. In 2013, the exchange received an investment of about $10 million from Pantera Capital.
+Early in April, Japanese online brokerage service Monex Group acquired Tokyo-based crypto exchange Coincheck for over $33 million. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

@@ -1,0 +1,152 @@
+
+
+    
+                          DEFINITION of 'SEC Form 424B3'
+
+      SEC Form 424B3 is the prospectus form that the Securities and Exchange Commission (SEC) requires an issuing company to file, detailing the information that resulted in a significant change from previously-supplied information. Companies are required to file prospectus form 424B3 in accordance with Rule 424(b)(3) of the Securities Exchange Act of 1933.
+Companies may file also forms 424B4 and 424B5 for additional disclosures.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            SEC Form 424B5                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            SEC Form 424B1                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            SEC Form S-20                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            SEC Form S-1                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'SEC Form 424B3'
+      The Securities Exchange Act of 1933 was created to help investors make informed decisions by requiring securities issuers to complete and file registration statements (including financial and material information) with the Securities and Exchange Commission before making an issue available for purchase by the public.
+Significant penalties exist for issues who do not adhere to proper filings and disclosure protocol. For example any person who willfully violates the Act of 1933 is subject to five years in prison, a $10,000 fine, or both. The Act also holds company directors, attorneys, accountants, the entire underwriting syndicate, and all persons who signed the registration statement civilly liable for false and misleading statements contained in the registration statement and prospectus. Investors may sue any one of the participating individuals or multiple parties who purchased the new issue and was not aware of any false statements or omissions.
+Often, registration statements filings required under the Securities Exchange Act of 1933 are also registration statements under the Investment Company Act of 1940.
+Example of SEC Form 424B3
+In November 2017 Galena Pharmaceuticals filed SEC Form 424B3 as a supplement to its initial proxy statement or consent solicitation statement to provide certain clarifications and additions to the disclosures. Revised disclosures included:
+
+Galena’s amendment to “Questions and Answers About the Merger and the Galena Special Meeting.” With regards to “What effect will abstentions and ‘broker non-votes’ have on the outcome of the votes with respect to each of the Galena Proposals?”, Galena amends that abstentions will have “the same effect as a vote ‘AGAINST,’” and broker non-votes will have no effect on the outcome of the vote.
+
+
+In addition Galena amended a full paragraph on page 107 of the Proxy Statement in the section titled “The Merger—Opinion of Galena Financial Advisor.” Added text is underlined, and removed text has a strike-through:
+
+“When selecting the companies used in these analyses, the criteria utilized by Canaccord Genuity considered a number of potential companies to be included in its selected peer group, selected precedent initial public offering and selected precedent transaction analyses. While none of these companies was directly comparable to SELLAS due to, among other reasons, their exact product focus and stage of development, number of products under development and other financial, business and/or operating characteristics, the criteria utilized by Canaccord Genuity were the therapeutic indication of the selected company’s lead program and the development phase of that lead program when compared to that of SELLAS, as noted in the tables below….”
+
+
+This examples makes clear the level of detail many 424B3 Forms will go into.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

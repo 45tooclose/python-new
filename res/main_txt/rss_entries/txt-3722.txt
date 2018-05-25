@@ -1,0 +1,90 @@
+
+
+
+    
+        
+            
+        
+          
+                
+      
+
+    
+
+    
+        Being an executor for an estate comes with a lot of responsibility (see 4 Things To Consider Before Becoming An Estate Executor). The process can be daunting if you go into it unprepared. In this article, we'll look at some simple steps you can take while the testator is living that will make your job as the executor much easier when the time comes.
+1. Ensure that you know where the will and other documents are located.
+This is an obvious first step, but its importance can't be overstated. It will make your job easier if the testator keeps the original will, any deeds, partnership documents, insurance policies or other important papers in an agreed-upon location (whether in the home or in a safe deposit box) and then keeps copies at a backup location. The copies can be held directly by the executor or filed at the offices of the lawyer the testator uses. (
+2. Make certain that property and accounts are made joint where appropriate.
+If the testator has a spouse, he or she would likely prefer that assets flow immediately through where possible. The easiest way to ensure this is to set all accounts as joint, and make sure that properties and titles are in both names. This is also true of any business enterprises involving a partner. This has the added benefit of reducing the size of the estate you must execute, as long as both parties do not die simultaneously.
+It is also worth having the testator confirm that the correct beneficiary is named for accounts that demand a specification (like pensions, retirement accounts, insurance policies, etc). If the testator has gone through a divorce, remarried, outlived a child or some such event, the listed beneficiaries will likely need to be updated. (See also: An Estate Planning Must: Update Your Beneficiaries.)
+3. Have the testator's preferences recorded.
+Does the testator want an Irish wake or a low-key cremation? Are there any charities he or she supports if all the beneficiaries pass away? Get these preferences in writing and signed by the testator. Talk with the testator about any issues he or she believes will cause problems. One common problem that many people overlook is dispersing personal possessions with little financial value but a lot of sentimental value. So …
+4. Create a possessions list and assign "ideal recipients."
+More than money, items of sentimental value tend to cause the most trouble for executors. Because emotion and memories are involved, it's hard to balance and measure the worth of these items. Working with the testator, you can create a rough draft for dispersal of personal items as well as a fair system of distributing, along with the reasoning in the testator's own words.
+If possible and appropriate, sharing the list with those involved may eliminate any future problems. Of course, you will have to talk it over with the testator before contacting the beneficiaries and explaining what their share entails. The main benefit of working from a list is that you can track gifts that are given prior to the death of the testator, as many people begin dispersing personal items as they age and, especially in the case of high net worth people, give financial gifts prior to their death. While this pre-death dispersal means your job is getting easier, keeping track can help balance issues of fairness and makes sure the testator is aware of it to when gifting personal items and cash. (See also: 6 Estate Planning Must-Haves.)
+5. Set up a yearly accounting sheet and updating schedule.
+Computers have made it much easier to track changes in accounts and possessions. If the testator keeps track of the estate on a yearly basis, you'll have a current snap shot of assets when/if you are called upon to execute the will. This document will cut down the time you spend looking for a gold watch the testator gave to a grandchild or tracking the funds that were supposed to be held in a now empty investment account.
+6. Have a sealed accounts document.
+Up to this point, the advice hasn't changed much from 50 years ago. However, in the digital age, it is becoming more and more important for an executor to have a record of the testator's online presence (Facebook, Paypal, eBay, etc.) in order to deactivate accounts and collect unclaimed/unlisted amounts belonging to the estate. This document can remain sealed until the testator's death, as long as it is recorded. The same ends can be met through presenting a death certificate to many of these sites, but the whole premise here is to simplify the process for you as an executor. So, it is better that the information is recorded and kept with all the other important documents.
+7. Make contact with the professionals.
+You should know the accountant, lawyer and other professionals that the testator employs. They may even have further advice on how to prepare what is specific to the testator's situation (diverse partnerships, complicated ownership of property, etc.).
+The Bottom Line
+Being an executor comes with a lot of responsibility, but a little preparation will greatly reduce the complications that can come with the job. Taking these steps while the testator is still living will make your job easier and, more importantly, insure you are acting in a way that carries out the testator's wishes for the estate and legacy he or she has left behind. (See also: Estate Planning: 16 Things To Do Before You Die.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

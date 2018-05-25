@@ -1,0 +1,77 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        While the Street grew increasingly bearish on Apple Inc. (AAPL) stock ahead of its quarterly earnings report, investors have lifted shares of the iPhone maker to all time highs this week on a series of positive news including results which exceeded expectations. Bears have cautioned against slowing demand for the Cupertino, California-based tech giant's 10th anniversary iPhone X, which starts at a price tag of $999. However, on the Q2 earnings call, Chief Executive Officer Tim Cook highlighted the success of the iPhone X, notably that it was the best-selling iPhone in every week of the quarter ended March, and that it was the best-selling smartphone in the key Chinese market, where Apple has been viewed as losing market share to lower-cost, home-grown rivals like Oppo, Huawei and Xiaomi. (See also: Morgan Stanley: We Were Wrong, Apple to Gain 13%.)
+According to a report by Strategy Analytics, iPhone X shipments of 16 million units made the model the world's most popular smartphone for the second quarter in a row. The firm attributed strength of Apple's priciest iPhone model to date to "a blend of good design, sophisticated camera, extensive apps and widespread retail presence for the device."
+Despite Fears, iPhone X Captures the Biggest Slice
+Strategy Analytics estimates that the iPhone X captured 5% of the market worldwide in the quarter ended in March, with total units from its launch to the end of the period reaching an approximate 50 million units. Apple's other iPhone models assumed the next three places on the top-seller list, with the iPhone X followed by the iPhone 8 and iPhone 8 Plus, which shipped 12.5 million and 8.3 million units, respectively. The previous-generation iPhone 7 shipped 5.6 million units to take fourth place. 
+Xiaomi's Redmi 5A and Samsung's Galaxy S9 Plus were the best-selling Android smartphone models worldwide. 
+In Q1 2018, the smartphone market fell 2.9%, according to the IDC, yet the iPhone benefited from a growth of nearly 3% worldwide over the same period. 
+On Friday, CNBC aired an interview with Warren Buffett in which the billionaire investor said that his company, Berkshire Hathaway Inc., had bought another 75 million of AAPL stock, adding to the 165 million shares Berkshire reported it held at the end of 2017. (See also: Apple Vs. Facebook: May the Best Stock Win.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

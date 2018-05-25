@@ -1,0 +1,85 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Gold went on a bit of a roller coaster ride in 2017. Gold prices bounced between highs and lows from month to month in a trading range of roughly $1,200 to $1,300 per ounce before breaking out to a yearly high of nearly $1,350 per ounce in September. The SPDR Gold Shares ETF (GLD), the SPDR ETF that tracks gold bullion, returned 12.81% in 2017. The precious metal trades at around $1,314 per ounce as of May 3, 2018.
+Despite headwinds related to the likelihood of additional interest rate hikes, gold may be poised to deliver solid returns again in 2018. The precious metal has traditionally been perceived as a safe haven investment in times of economic uncertainty – and no one can argue that major shakeups such as Brexit​, Donald Trump's presidency, skepticism about a resolution on the Korean peninsula and volatility in the cryptocurrency market have contributed to a general feeling of unpredictability. (See also: Missile Tests Send Gold Prices to Highest Levels This Year.)
+To get in on the movement in gold prices, there are plenty of options beyond investing in gold-indexed exchange-traded funds (ETFs) or purchasing a stash of the precious metal. Some of the hottest gold stocks for 2018 are mining and exploration companies. These top gold and gold mining stocks could be a good way to gain exposure to the market this year. All figures are accurate as of May 3, 2018. (See also: What Drives the Price of Gold?)
+Barrick Gold Corporation (ABX)
+Barrick is the gold mining leader, both in terms of size and low operating costs. Company guidance calls for all-in sustaining costs (AISC) of just $765 to $815 per ounce for 2018. The gold miner cranked out an impressive $1.5 billion in free cash flow (FCF) in 2016, which may have contributed to a 42% dividend hike to investors that year. FCF ticked downward in 2017, but Barrick is still generating enough to secure continued payouts, and the dividend yield is currently 0.88%.
+Barrick's second quarter 2017 earnings per share (EPS) were up 57% over the second quarter of 2016, blowing out analysts' expectations, but third quarter EPS missed estimates by one cent. Shares declined at the end of October in response to the third quarter earnings miss and on concerns about operations in Tanzania, which could be an overhang in 2018. However, the company posted an earnings beat for the final quarter of 2017, and given its low costs and solid production pipeline, Barrick could be a good medium-term investment, especially if it can continue to slash debt from its balance sheet. The stock is currently trading at $13.57 versus an average 12-month price target of $15.96. (For more, see: Barrick Gold Q3 Earnings Miss, Revenues Beat Estimates.)
+Royal Gold, Inc. (RGLD)
+Royal Gold isn't like the traditional mining companies that have to invest in a lot of costly equipment and operations to actually get the precious metal from the ground – it makes its money through royalty and streaming agreements with the heavy earth movers. In fact, one of Royal Gold's major sources of revenue is a streaming agreement for a Dominican mine with Barrick Gold. This low-cost business model is a gold mine (pardon the pun) for Royal Gold in terms of free cash flow – the company was able to convert about 60% of its revenue into cash flow in the first three quarters of fiscal 2017. 
+The stock currently trades at $88.35 per share, well below its average 12-month price target of $96.11. For the quarter that ended Dec. 31, 2017, Royal Gold reported EPS of $0.44, missing consensus estimates by a penny. Revenue of roughly $114.35 million was essentially in line with analyst estimates and marked an increase of roughly 7% from the year-ago quarter. (See also: Royal Gold Discloses Operational Updates for Q1.)
+Franco-Nevada Corporation (FNV)
+This is another precious metals streaming and royalty company that is heavily focused on gold. However, the Canada-based company has a more diversified portfolio, with investments in 80 oil and gas projects, of which more than 60 are currently in production stage. Although the company has taken advantage of what it views as positive market conditions to jump into the oil and gas fields, Franco-Nevada plans to retain its focus on metals, with the long-term goal of generating 80% of revenue from precious metals including gold, silver and platinum group metals.
+Franco-Nevada has consistently beaten EPS estimates over the past four quarters. The stock is currently trading at $72.32, so there is some room for growth into its average 12-month price target of $81.27, and the dividend yield of 1.28% could be attractive to some investors. Furthermore, there is a chance that the stock could exceed expectations as the company's diversification efforts begin to bear fruit.
+Agnico Eagle Mines Limited (AEM)
+This Canadian gold producer is headquartered in Quebec and has a market cap of $9.74 billion. Its balance sheet shows low debt, with a debt-to-equity ratio hovering around 28%. Agnico Eagle exceeded EPS expectations in all four quarters of 2017. More recently, the company missed first quarter 2018 EPS estimates by two cents. Agnico Eagle has a long history of consistent dividend payments, and the current dividend yield is 1.01%.
+The stock is currently trading at $42.20 per share. It carries an average 12-month price target of $52.53, which represents potential upside of approximately 25% from current levels. (See also: Assessing Agnico Eagle Mines Valuation.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

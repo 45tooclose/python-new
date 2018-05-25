@@ -1,0 +1,145 @@
+
+
+    
+                          What is a 'Profit Center'?
+
+      A profit center is a branch or division of a company that is accounted for on a standalone basis for profit calculation. A profit center is responsible for generating its own results and earnings and, as such, its managers have decision-making authority related to product pricing and operating expenses. Profit centers are crucial in determining which units are the most and least profitable within an organization.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Profit                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Operating Profit                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Profit Margin                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Net Profit Margin                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Profit Center'
+      Profit centers function as a way to differentiate between certain revenue-generating activities. This facilitates more accurate analysis and cross-comparison. The analysis of profit centers is required to determine the future allocation of available resources and to decide whether certain activities should be cut entirely.
+Not all units within an organization can be tracked as profit centers. This is particularly the case for departments that provide an essential service within an organization but do not generate their own revenues. For example, the research department within a broker-dealer, the administration arm of a company and a unit that provides after-sales support in an organization.
+Profit Centers and Resource Allocation
+The concept of profit centers is the development of a framework to facilitate optimal resource allocation and profitability. To optimize profits, management may decide to allocate more resources to highly profitable areas while reducing allocations to less profitable or loss-making units.
+Examples of Profit Centers within Specific Businesses
+Using the retailer Walmart as an example, certain business activities could be divided into profit centers for analysis. For example, clothing could be considered one profit center, while home goods could be a second profit center. In addition, departments that rotate on a seasonal basis, such as the garden center or sections relating to holiday décor, can be examined as profit centers to separate the seasonal contribution of these departments from those with a year-round contribution.
+Similarly, Microsoft may choose to separate the funds produced from the sale of its Windows operating system from that of other software suites, such as Microsoft Office, or other hardware sectors, such as the X-Box gaming console. This allows overall profitability of differing products to be examined and correlated based on associated cost and revenue comparisons.
+Profit Centers Versus Cost Centers
+While profit centers are operated with a focus on bringing in revenue, cost centers are not associated with the direct generation of profits. Coset centers can include various support departments, such as IT support or accounting, which are critical to business functions but do not hold a specific responsibility to generate profits.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

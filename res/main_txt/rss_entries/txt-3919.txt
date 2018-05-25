@@ -1,0 +1,264 @@
+
+
+    
+                        
+            
+                Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/Entrepreneur/SmallBusiness/IC-Video/Term");} else {return "/8397/INV-NA/Entrepreneur/SmallBusiness/IC-Video/Term";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/terms/c/capitalbudgeting.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/tZEPQ5RW.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/tZEPQ5RW-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/dimages/graphics/capital_budgeting.jpg?quality=80&width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "560",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "tZEPQ5RW-G9NhEyAa.mp4";
+                
+          
+            document.addEventListener("DOMContentLoaded", function() {
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                        var initializeJWPlayerSetup = function () {
+                            if (new VideoInit().canRun()) {
+                                setUpJwpPlayer();
+                            } else {
+                                new VideoInit().callBack = setUpJwpPlayer;
+                            }
+                        }
+            initializeJWPlayerSetup();
+          });
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "tZEPQ5RW-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "Capital Budgeting",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };            
+          
+                    What is 'Capital Budgeting'
+
+      Capital budgeting is the process in which a business determines and evaluates potential expenses or investments that are large in nature. These expenditures and investments include projects such as building a new plant or investing in a long-term venture. Often times, a prospective project's lifetime cash inflows and outflows are assessed in order to determine whether the potential returns generated meet a sufficient target benchmark, also known as "investment appraisal."
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Capital Investment Analysis                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Net Present Value - NPV                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Payback Period                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Initial Cash Flow                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Capital Budgeting'
+      Ideally, businesses should pursue all projects and opportunities that enhance shareholder value. However, because the amount of capital available at any given time for new projects is limited, management needs to use capital budgeting techniques to determine which projects will yield the most return over an applicable period of time. Various methods of capital budgeting can include throughput analysis, net present value (NPV), internal rate of return (IRR), discounted cash flow (DCF) and payback period.
+There are three popular methods for deciding which projects should receive investment funds over other projects. These methods are throughput analysis, DCF analysis and payback period analysis.
+Capital Budgeting with Throughput Analysis 
+Throughput is measured as the amount of material passing through a system. Throughput analysis is the most complicated form of capital budgeting analysis, but is also the most accurate in helping managers decide which projects to pursue. Under this method, the entire company is considered a single, profit-generating system.
+The analysis assumes that nearly all costs in the system are operating expenses, that a company needs to maximize the throughput of the entire system to pay for expenses, and that the way to maximize profits is to maximize the throughput passing through a bottleneck operation. A bottleneck is the resource in the system that requires the longest time in operations. This means that managers should always place higher consideration on capital budgeting projects that impact and increase throughput passing though the bottleneck.
+Capital Budgeting Using DCF Analysis
+DCF analysis is similar or the same to NPV analysis in that it looks at the initial cash outflow needed to fund a project, the mix of cash inflows in the form of revenue, and other future outflows in the form of maintenance and other costs. These costs, save for the initial outflow, are discounted back to the present date. The resulting number of the DCF analysis is the NPV. Projects with the highest NPV should be ranked over others, unless one or more are mutually exclusive.
+The Most Simple Form of Capital Budgeting
+Payback analysis is the most simple form of capital budgeting analysis and is therefore the least accurate. However, this method is still used because it's quick and can give managers a "back of the napkin" understanding of the efficacy of a project or group of projects. This analysis calculates how long it will take to recoup the investment of a project. The payback period is identified by dividing the initial investment by the average yearly cash inflow.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

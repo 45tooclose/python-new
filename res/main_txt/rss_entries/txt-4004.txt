@@ -1,0 +1,149 @@
+
+
+    
+                          What is a 'Conditional Order'
+
+      A conditional order is an order that includes one or more specified criteria. Generally conditional orders refer to more complex order types used in advanced trading strategies.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Canceled Order                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Immediate Or Cancel Order - IOC                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Open Order                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Good This Month - GTM                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Conditional Order'
+      Conditional orders can be used by all types of traders.  Discount brokerages will offer basic conditions such as limit, stop and stop limit. More advanced traders will seek to place conditional orders with broader criteria.
+Non-conditional orders typically refer to defaulted orders in which the investor does not have specific levels demanded for price or timing. Market orders are one of the most common orders placed by novice traders. These orders have no specified price criteria and are placed at the first available price given following the order submission.
+Standard Conditional Orders
+Brokerage firms and discount brokerages offer some standard conditional orders for traders with certain criteria. These orders will typically be limit, stop and stop limit. Nearly all trading platforms will have these standard conditional order types available for client accounts.
+Advanced Conditional Orders
+Advanced conditional orders build on the concept of limit, stop and stop limit. They also layer additional criteria to a trade which can help an advanced trader in deploying broader risk management.
+Advanced trading platforms such as  Interactive Brokers will offer these advanced conditional orders. These conditional orders are also available through some of the popular technical analysis platforms such as: MetaStock, Worden TC2000, eSignal, NinjaTrader, Wave59 PRO2, EquityFeed Workstation, ProfitSource, VectorVest and INO MarketClub. (For more on these platforms see also: The Best Technical Analysis Trading Software)
+Advanced conditional orders usually include several conditional variables in the order submission. Trade order variables can be based on price, time, volume, margin cushion, percentage change and more. Various combinations of variables can be used. Traders can also use operators to specify variables such as equal to, greater or less than.
+Specific types of conditional orders can also exist such as one-cancels-other (OCO) orders or order-sends-order (OSO). In an OCO order, multiple conditional orders can be placed with other orders canceled once one has been executed. In a OSO the execution of an order triggers more orders to be placed. (See also: Introduction To Order Types: Conditional Orders)
+Advanced conditional orders can be used by traders and technical analysts for a wide variety of trading strategies. These orders can help a technical analyst to ensure profits at a specified price point. They may also be used by portfolio managers as risk management.
+In one basic example, consider a technical analyst following a stock with a price approaching its support trendline in a Bollinger Band chart. If they feel a reversal is likely at the support level, they can institute a conditional order to buy call options on the stock. This conditional order would be primarily based on price. Therefore, the order would include an order to buy an option at a specified price when the underlying security reaches a specified price.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

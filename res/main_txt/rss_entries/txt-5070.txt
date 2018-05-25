@@ -1,0 +1,77 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        On Thursday, social media platform Twitter Inc. (TWTR) released a blog post asking its users to change their passwords due to a bug that the company found that may have left its 336 million account holders vulnerable to hackers. (See also: Twitter Jumps, Morgan Stanley Upgrades on Ad Sales.)
+Twitter Chief Executive Officer Jack Dorsey took to his Twitter account, following up on the company blog post, to reiterate that the firm has "no indication of breach or misuse," and warned users because "it's important for us to be open about this internal defect." Twitter also disclosed the password flaw in a regulatory filing Thursday.
+"We recently discovered a bug where account passwords were being written to an internal log before completing a masking/hashing process," wrote Dorsey, who is also the CEO of the mobile payments company Square Inc. (SQ). Twitter indicated that the problem has been fixed without the help of outside security researchers and that his San Francisco-based company is "implementing plans" to prevent future mishaps. 
+Data-Driven Ad Businesses Under Fire
+The news comes as media giants such as Facebook Inc. (FB), Alphabet Inc. (GOOGL) and Twitter face heightened scrutiny regarding their data-driven advertising businesses. As opposed to direct-to-consumer-focused business models employed by U.S. tech giants like Amazon.com Inc. (AMZN), Netflix Inc. (NFLX) and Apple Inc. (AAPL), free services like Twitter have relied on troves of consumer data to draw in advertisers. Recent scandals such as Facebook's Cambridge Analytica breach have led many on the Street to fear a user backlash against these ad-focused media giants, while expecting more regulation on the red-hot industry. 
+Twitter has made a comeback recently, but it has failed to regain highs reached back in 2013 as it faces off against a growing number of competitors such as Facebook's Instagram platform and Snap Inc.'s (SNAP) Snapchat. To revive user growth, the company has doubled down on new initiatives and partnerships intended to push into video and live streaming, as well as create more original content on its platform.
+TWTR stock surged earlier this week on news that the Walt Disney Co. (DIS) would create new live shows specifically for its platform. Closing up about 0.4% on Thursday at $30.67, TWTR reflects a near 28% gain year-to-date (YTD) and a 65.2% increase over 12 months, compared to the S&P 500's 1.6% loss and 10.1% incline over the same respective periods. (See also: Prominent Short-Seller Bullish on Twitter.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

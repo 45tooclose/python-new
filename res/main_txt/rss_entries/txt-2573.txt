@@ -1,0 +1,79 @@
+
+
+
+    
+        
+            
+        
+          
+                
+      
+
+    
+
+    
+        The number of millionaires is growing rapidly and is concentrated largely in the U.S. By comparison, overall, the wealth growth since the millennium – $139 trillion – appears to have be the slowest since the Great Recession, according to a report released by the Credit Suisse Research Institute.
+More Millionaires
+The number of millionaires in the world has increased by 155%, while the number of ultra high net worth individuals (defined in the report as people with a net worth above US $50 million) increased by 216%. Of the latter group, 51% reside in North America and 49% live somewhere else in the world, demonstrating that the U.S. continues to dominate in terms of the ultra wealthy. According to a forecast included in the report, the U.S. is expected to have the highest growth of millionaires – both standard and high net worth – in the world over the next five years.
+How big? The number of U.S. households with a net worth of $1 million or more, not including the primary residence (NIPR), increased by 400,000 to reach a record 10.8 million in 2016. (See also: How Much to Save to Become a Millionaire.)
+In the U.S., there are 13.6 million people with $1 million or more in wealth, up 283,000 from the previous year. By the year 2021, the number of millionaires will reach 18 million – a 33% increase from current figures – and a number that is significantly higher than any other country. A different report on the same topic released by Spectrem Group in March 2017 suggests that the number of millionaires in the United States is even higher.
+Credit Suisse also suggests that financial inequality in the U.S. is on the rise. Although the average wealth is $345,000 per person, the median wealth is only $30,000, marking a significant drop from last year and three times as low as other countries with similar average wealth.
+Global Wealth
+In the UK, over 406,000 people now find themselves outside of the millionaire’s club, after roughly US $1.5 trillion was wiped from the country's household wealth. The decline is largely blamed on the impact of Brexit. Overall global wealth has grown 5.2% annually in terms of USD since the year 2000 – representing only modest growth, according to the report. In dollar terms, wealth has grown by $139 trillion over the same period; by comparison, the estimated GDP of the entire world in 2015 is US $73.2 trillion.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Deposit',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

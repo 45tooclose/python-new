@@ -1,0 +1,81 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Short seller Jim Chanos, founder of Kynikos Associates, ripped into Tesla Inc. (TSLA) and its Chief Executive Officer (CEO)  Elon Musk in an interview with CNBC on Thursday. He cast aspersions on Tesla's accounting practices and the actions of its widely followed leader, serial entrepreneur and angel investor Elon Musk. 
+Chanos pointed to the "accelerating rate of executive departures at Tesla," most recently the resignation of the head of the auto pilot division. He indicated that in his "zillion years" of selling short, he's "learned that the number one sign of impending problems is mass executive departures," at around 30 or 40 leaves. The TSLA bear pointed to the firm's "somewhat well-known executive departure list," which he says is now up to two pages, single-spaced, for the past 18 months. Chanos added that there are "only two companies he's ever seen with an executive departure like this," pointing to Valeant Pharmaceuticals Intl Inc. (VRX) and Enron. He drew parallels between those companies and Musk's company, indicating that they were "led by cult-like leaders who had changed the paradigm in their industries." (Related: Tesla is Biggest Short in North America)
+Investors to Realize Cash Is Being 'Incinerated' at EV Pioneer
+While not explicitly accusing Tesla's CEO of doing anything illegal, Chanos said he "may be misleading investors."
+"I think Elon Musk has crossed the Rubicon in terms of making statements to investors that he might rue later," said the short seller. 
+The investor said that TSLA has "actually been an OK short relative to this market," indicating that stock has gone no where in four years, when the his firm initially bet against the auto maker. When Chanos shorted the stock, Tesla's 2020 earnings estimate was at $20 per share, now down to about $4 or $5 per share, he stated. 
+In the recent period, some Tesla investors have become impatient with continued production setbacks at the Silicon Valley auto maker as the company burns through cash in efforts to ramp up production of its first mass market vehicle, the Model 3 sedan. Tesla shareholders applauded progress on Model 3 targets earlier this month, as Musk promised to hire hundreds of workers per week and start 24/7 operations to achieve a new goal of 6,000 vehicles per week. Trading about flat on Thursday morning at $280.78, TSLA reflects a near 10% decline year-to-date (YTD) and a 450% return over five years, compared to the S&P 500's 0.5% loss and 68% gain over the same respective periods. (See also: James Chanos Calls Tesla's Equity 'Worthless'.)
+Chanos suggests that "the big buys," such as Porsche and Audi, are coming after Tesla's seven-year-old Model S with better, faster, more stylish cars at more attractive price points. He foresees a tipping point where investors realize that their investment is being "incinerated," as he views the EV pioneer as a "laggard" in auto pilot, behind General Motor Inc. (GM) with its Cruise technology and Alphabet Inc.'s (GOOGL) Waymo. 
+The short seller criticized Tesla for not following industry standards in the way that it reports gross margins. Unlike other auto OEMs, Tesla does not include R&D expenses and certain other things like service costs and warranty costs in its gross margin, said Chanos, indicating that it inflates Tesla's gross margins by as much as 10 full points. While Tesla does not have traditional dealer or service networks, and has to provide a  supercharger network, he said it should still make an Apple to Apples comparison with its rivals on R&D and warranty expenses. Ultimately, Chanos said that while Tesla's SGA expenses and operating expenses "are higher than everyone else's" the company is pointing people to gross margins "as some holy grail." That being said, TSLA's reported gross margins are somewhere around 15%, lower than the industry average anyway, added Chanos. 
+Chanos even expects Musk to leave the company as CEO and move over to SpaceX. 
+Yet to do something that people say is impossible is kind of Elon Musk's thing, and has been the reason why many either love him or hate him. Either way, Musk has proved steadfast in his goals, showing no signs of giving up any time soon.
+ 
+(See also: Why the Bulls Still Believe in Tesla.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

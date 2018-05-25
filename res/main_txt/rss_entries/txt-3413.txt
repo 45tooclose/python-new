@@ -1,0 +1,87 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        If cost is no consideration, the private-jet world is pretty much your oyster. Still, like any investment, the acquisition of a personal plane merits careful evaluation. For some, outright ownership can prove to be a logical move; for others, a lesser commitment may serve perfectly well. Follow us as we file some flight plans.
+Purchase Points
+There’s only one way to be in full control of your private-flying experience: acquire your own aircraft. Depending on size, range, amenities and level of comfort, a personal plane can set you back anywhere from $3 million to $90 million. The smallest jets typically carry four passengers with a range of 2,000 to 3,000 miles (without refueling). Medium-sized models generally carry eight passengers with a range of around 7,000 miles, while the largest jets carry upwards of 12 passengers with a flying range of 4,000 miles. 
+Before you start scrutinizing any purchase arrangement, remember that owning a personal jet doesn’t just come with the fun of private flying freedom. After your initial capital outlay, expect to pay around $500,00 to $1 million in annual operation and operation costs: crew salaries, maintenance (routine and unplanned), aircraft insurance and hangarage ("parking" your plane in a hangar)… at a bare minimum. As the owner you have to cover everything, including the unexpected.
+A number of savvy online aircraft cost calculators can give you a good idea of what to expect. They’re advanced enough to determine running costs based on actual utilization levels, and how financing, capital cost considerations, residual value and finance payments (where applicable) affect operating expenses.
+The biggest trade-off for this admittedly hefty capital outlay is unlimited flying flexibility and carte blanche on absolutely every element of the craft's customization, from nose to tail. That can include everything from pilots and crew (handpicked by you) to the finest aesthetic detail, right down to seating arrangements, carpet color and leather finishes. Owning a private jet also comes with the freedom to plan trips spontaneously and with multiple stops in a single day – knowing your plane is always available for you.
+If you do decide to purchase, a gamut of specialist aviation lenders and equipment financiers (including major banks) offer a range of flexible financing arrangements worth shopping around for; there are even nifty online lender calculators to help you do the numbers.Outright purchasing also offers the fiscal and financial benefits of asset ownership, which includes being able to take a deduction for one of the biggest expenses of owing a plane: the aircraft's depreciation. For more, see Can I Afford a Private Jet?
+The Luxury of Leasing
+What if the numbers for a full investment outlay don't add up, but your flying hours and/or needs still justify private jet use? Leasing an aircraft offers many of the same benefits of owning one – without the long-term financial commitment. Owners often rent their planes to generate revenue when not using their aircraft themselves.
+Dry-leasing (the most common practice) refers to leasing an aircraft without pilots, cabin crew, maintenance or insurance, and typically applies to longer timeframes; wet-leasing includes these privileges – generally for a shorter period. Either way, it is obviously much less expensive than purchasing, providing greater liquidity in the long term.
+Lessors have the luxury of walking away at the end of the lease, without the depreciation hit owners face when they sell; they also generally have the freedom to renew their contracts, with a new private jet.
+Leasing can also be a good way to test drive the private-plane concept before signing on any dotted lines. Aviation company Tyrus Wings offers a Try Before You Buy scheme, for example, offering access to a jet (and crew) on a short-term basis (three or six months). This way you can get a true feel for a plane, without the financial outlay and management concerns.
+Part-Time Plans
+If you simply prefer the idea of a personal plane with even less financial outlay and lower monthly management fees, there are other appealing options. These plans facilitate paying on a “per flight” basis.
+Fractional ownership is similar to full aircraft ownership from a tax and legal standpoint, but instead of purchasing the plane outright, flyers acquire a share in it via a management company (such as Netjets, which pioneered the scheme in 1986). Shares come in standard divisions such as “Whole,” “Quarter,” “Eighth” and “Sixteenth”; a sixteenth share typically would give you 50 hours of flying time. While fractional generally translates to higher cost on a per-hour basis than owning outright, it allows you to only buy the amount of time that you need. Often an aircraft ready for you in as little as four to six hours.
+Membership plans are available from charter brokers (or licensed resellers of unused fractional shares), who acquire blocks of time from charter companies at a discounted rate. They then on sell these as a “jet membership” or “block-time” cards to private flyers.
+Of course, there’s also simply chartering a plane for one-time use – typically the most cost-effective way to fly privately. This time-honored approach has never been easier, since it's taken full advantage of digital technology (See also: The Economics of Private Jet Charters.)
+The Bottom Line
+Investment, economics or just pampering – whatever your private flying motivation, there are numerous options to facilitate a smooth financial ride. Is there a magic formula to determine your best bet? Not exactly. Passenger capacity, range and budget comprise basic considerations, but as the saying in the private jet biz goes: If you have to ask the price, perhaps an alternative to ownership makes more sense.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

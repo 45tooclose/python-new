@@ -1,0 +1,106 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        The futures market has a long history that dates back to rice traders in pre-industrial Japan. A future is a contract between a buyer and seller. They agree to exchange a set amount of product (whatever the futures contract is for) at the contract price when the contract expires. While this is the institutional application, most traders never take physical delivery of barrels of oil or bushels of wheat, for example. Rather, traders make and lose money based on the price fluctuations of the contract, with most traders opting to close their position before the contract expires.
+The first step in being able to trade futures is to understand a futures price quote. 
+Futures Quote Information
+When looking up a futures price quote, most sources will provide several basic pieces of information.
+Open: The price of the first transaction of the day.
+High: The high price for the contract during the trading session.
+Low: The low price for the contract during the trading session.
+Settle: The closing price at the end of the trading session.
+Change: The change between the closing price of the current trading session and the closing price of the previous trading session. This is usually quoted as a price and a percent.
+52-Week High/Low: The highest and lowest prices the contract has traded at in the last year.
+Open Interest: The number of open or outstanding contracts.
+Volume: The number of contracts that have changed hands during the session.
+Exchange: The exchange the contract trades on
+Contract/Ticker: Futures contracts expire. There are multiple contracts traded throughout the year, so each futures contract has a specific name/code that explains what is is and when it expires. 
+Most free quotes are delayed by at least 10 to 20 minutes. To get up to the date, by-the-second quotes, requires a subscription within a trading or charting platform or from a site or service that provides futures quotes.
+Reading a Futures Quote
+Most sources provides quotes that are laid with figures as shown above. Here is an example from the Wall Street Journal.
+
+At the very top is the futures contract, which is corn, and this specific contract expires in July. It trades on the Chicago Board of Trade (CBOT)  exchange. Also near the top is the current price, and how much the price has moved up or down during the day. The quote also shows how much volume there is, the low and high price of the day (1 day range), open interest, and high and low prices for last 52-weeks. 
+The graph shows the price movement over the last few trading sessions. Along the bottom is the open and settlement price. 
+Index Futures
+Index futures have similar looking price quotes as commodity futures (shown above). Let's look at another quote which is common, and that is seeing the basic pricing information for multiple contracts (different expiry) within the same future. For example, below is a quote of E-mini S&P 500 Futures which trade on the Chicago Mercantile Exchange (CME).
+The quote shows basic pricing information for contracts with different expiry dates. This quote is not quite as detailed as the one above, but still provides the expiry date, last price, change, yesterday's close/settle, today's open, high, low, volume, and the Hi/Low Limit.
+The Hi/Low Limit are thresholds set by the exchange. If the price moves to one of these levels (they are typically far away), trading will be paused so traders can regain their composure and order can be restored to the market. 
+
+Contracts nearer to expiry are shown at the top, while those further from expiry are further down the list. One of the major things to notice is that volume tends to be higher in the contracts nearer to expiry. This is because traders close out positions before the expiry. As a contract expires, volume then moves into the next closest contract.
+Contract Codes
+In the image above, there is a June, September, and December contract listed for the E-Mini S&P 500. While these are spelled out in the chart above, often they are not. Instead, "ESM8" or "ESM18" is displayed. This means: E-mini S&P 500, June, 2018.
+ES is the ticker symbol for the E-Mini S&P 500. Every futures contract has a ticker symbol. Luckily most sites and charting platforms let you type either a name or ticker into the quote box. For example, start typing Crude Oil into a futures quote box to bring up an oil futures quote, which is ticker CL. 
+Next we have the month. This one is tricky, because it is based a code. 
+
+From the code table above, you can see if you want to trade an E-Mini S&P 500 contract that expires in June, you will be looking for a contract that starts with "ESM". For a contract that expires in December,, "ESZ".
+For the year you want to trade, you simply tack on the year you want to trade.
+2019 is 19 and 2020 is 20, for example. Some sites and software only uses one number on the end, for example, 9 instead of 19. Remember, the further out the contract is from expiry, typically the less volume it has.
+The Bottom Line
+Understanding a futures price quote takes some practice. There is a lot of information and a lot of different contracts. One of the trickier things to get used to is the ticker symbol coding. Since contracts expire, ticker symbols contain the contract symbol as well as the month and year of expiry. When trading futures, make sure you are trading the contract you want, paying special attention to the monthly code.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

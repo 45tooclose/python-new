@@ -1,0 +1,31 @@
+
+
+As many as a dozen or more ethereum-based ERC-20 smart contracts have been found to contain bugs that let attackers create as many tokens as they want.
+While the bugs - first identified on April 22 and April 24, respectively, in a pair of posts published by a group called Coinmonks - aren't tied to the ERC-20 standard itself, the issues prompted a number of exchanges to suspend ERC-20 tokens as they investigate. Those exchanges included OKEx, Poloniex, Changelly, Quoine and HitBTC.
+Huobi.Pro separately announced on April 25 that it had suspended all coins, but has since limited that to ERC-20-based tokens. As of press time, Poloniex has moved to reinstate services for ERC-20 tokens.
+In one example, an attacker transferred 57,896,044,618,658,100,000,000,000,000,000,000,000,000,000,000,000,000,000,000.792003956564819968 BeautyChain Tokens - as shown by transaction data on Etherscan - on April 22, a development that prompted the initial investigation into the issue. 
+
+"Our study shows that such transfer comes from an "in-the-wild" attack that exploits a previously unknown vulnerability in the contract. For elaboration, we call this particular vulnerability batchOverflow," Coinmonks' post on the 22nd explained. "We point out that batchOverflow is essentially a classic integer overflow issue."
+Countless coins
+The batchOverflow post outlines how the batchTransfer function in a contract has a maximum number of tokens that can be sent in a transaction, adding that the value of the tokens being transferred must be less than the total number of tokens that were generated. However, the "_value" parameter - one of the two that determine the total number of tokens - can be manipulated, which would then change another variable, resulting in an attacker being able to create as many tokens as they'd like.
+Further, the attacker can bypass the barriers in the contract which would normally ensure that a reasonable number of tokens are being transferred.
+"With amount zeroed, an attacker can then pass the sanity checks in lines 258-259 and make the subtraction in line 261 irrelevant," the post explained, noting:
+"Finally, here comes the interesting part: as shown in lines 262-265, the balance of the two receivers would be added by the extremely large _value without costing a dime in the the attacker's pocket!"
+While initial reports indicated all ERC-20 tokens may be impacted, the "batchTransfer" function is not part of the token standard.
+The Medium post did not list the vulnerable projects, though it did note that the BeautyChain was the first project they discovered. In a sign of the seriousness of that bug, OKEx said on April 24 that it was rolling back trades on the BeautyChain Token.
+The exchange also announced around that time that in light of the bugs, it was suspending desposits and withdrawals a project called SmartMesh trading due to "abnormal trading activities." Coinmonks and author Ranimes noted that this was possibly due to the proxyOverflow bug, which, like batchOverflow, is a classic integer overflow problem. Certain variables can be manipulated to spontaneously generate large amounts of tokens.
+One Twitter user noted that an attacker created $5 octodecillion in SmartMesh tokens.
+
+Someone transferred 65,133,050,195,990,400,000,000,000,000,000,000,000,000,000,000,000,000,000,000.891004451135422463
+Smartmesh tokens worth ($5,712,591,867,014,630,000,000,000,000,000,000,000,000,000,000,000,000,000,000.00) to his addresshttps://t.co/w72eALHXhI
+— ⚡CRYPTOLOGIST⚡ (@kadhirvelavan) April 25, 2018
+
+As one of the posts noted, the danger exists that someone can use a vulnerable cryptocurrency to manipulate prices in their favor by trading with bitcoin, ether or another trading pair.
+Representatives for the BeautyChain and SmartMesh projects did not immediately respond to requests for comment. However, a statement on BeautyChain's website acknowledges the bug and states that trading will resume at an undetermined point in the future.
+Similarly, SmartMesh announced that it would take steps to prevent price manipulation, saying:
+"The SmartMesh Foundation will take the equivalent amount of SMT to the counterfeit amount and destroy it to make up for the losses caused, and keep the total supply of SMT at the value of 3,141,592,653."
+Image via Shutterstock
+var riuyojisrlntqyiu,riuyojisrlntqyiu_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){riuyojisrlntqyiu_poll(function(){if(window['om_loaded']){if(!riuyojisrlntqyiu){riuyojisrlntqyiu=new OptinMonsterApp();return riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="//a.optnmnstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;riuyojisrlntqyiu=new OptinMonsterApp();riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");
+
+The leader in blockchain news, CoinDesk is a media outlet that strives for the highest journalistic standards and abides by a strict set of editorial policies. CoinDesk is an independent operating subsidiary of Digital Currency Group, which invests in cryptocurrencies and blockchain startups.
+

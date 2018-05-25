@@ -1,0 +1,209 @@
+
+
+
+Study: Bitcoin Futures Curve Flat in Q1, Signs of Backwardation Emerge
+Research firm Element Group said the Bitcoin futures trading curve is indicative of little conviction in the Bitcoin marketplace.
+
+
+ by  Komfie
+Manalo,
+15 mins ago
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+Subscribe
+
+
+  The Bitcoin futures curve was flat in the first quarter, showing signs it has entered a backwardation state, as shown in a study by Element Group, an advisory firm catering to the digital token capital markets.
+Element analyzed Bitcoin's patterns from when the first futures contract began trading in December 2017 and compared them with data as of the end of March 2018. It found that the downward curve implied strongly there was little conviction in the Bitcoin marketplace, with the current spot price exceeding the expected futures spot price.
+
+Part of the research paper said:
+
+“The majority of futures trading today is likely being done for hedging and risk management purposes, rather than for speculation. We also believe that market makers who take on the other side of a speculator shorting futures have a desire to be paid for that risk, given Bitcoin’s high volatility. This payment for risk will usually show up as a deep discount to spot.”
+
+The CBOE officially launched Bitcoin futures trading on December 10, 2017, a move that sent the cryptocurrency price soaring. The CME Group followed suit within a week, helping Bitcoin futures for January reach more than $19,000.
+In the early days, it was expected that the futures would spark more mainstream interest in cryptocurrencies, drawing in not just hedge funds and wealthy individuals but also retail investors.
+However, the researchers said their deeper analysis of the different segments of Bitcoin traders had revealed that large digital currency holders, both Bitcoin and infrastructure buyers, “are  willing  to  sell  contracts  at  current  spot  price  or  even  lower.” According to the analysts,  investors do this to protect themselves from the downside risk.
+Element co-founder and CEO Stan Miroshnik commented:
+
+“Given that Bitcoin has only been trading for a few months, the ‘normal’ state of the markets has yet to be determined, and an efficient lending market for cryptocurrency does not yet exist. Identifying and analyzing the initial trends in this largely uncharted and volatile sector is critical to creating a sustainable and lucrative next generation of capital markets.”
+ 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

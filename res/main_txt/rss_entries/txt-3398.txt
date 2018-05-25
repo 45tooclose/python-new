@@ -1,0 +1,91 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Some of the most important market moves take place outside the NYSE and Nasdaq regular trading session of 9:30 a.m. to 4 p.m. Eastern. Price volatility is driven by forces outside the regular trading session, and knowing how to trade stocks and futures during this period is an opportunity for investors looking to profit.
+[Pre-market and after-hours trading are great ways to profit outside of regular hours, but many day traders are focused on entering and exiting trades during regular hours. Investopedia's Become a Day Trader Course teaches aspiring day traders how to identify opportunities and profit from short-term opportunities.]
+The often volatile pre-market trading session is widely followed to gauge the market outlook ahead of the regular open.
+Economic Indicators
+Economic indicators are a main driver of price action in the pre-market trading session. A majority of important economic releases are issued at 8:30 a.m. Eastern, an hour before the New York open. Market reaction to the data can cause substantial price moves and set the trading tone for the day. 
+The Employment Situation report, issued by the Bureau of Labor Statistics on the first Friday of every month at 8:30 a.m. Eastern, is the release with the highest impact on the market. Other major market-moving reports released at 8:30 a.m. Eastern include gross domestic product (GDP), retail sales and weekly jobless claims. Looking at the analyst expectations for these numbers will help you understand the market reaction. Usually, the biggest market moves occur when the number far exceeds or misses the expected forecast, creating high volatility and the trading risks and opportunities that accompany it. (For related reading, see Economic Indicators to Know.)
+Earnings Releases
+Earnings season refers to the period in which publicly traded companies release their quarterly earnings reports. Earnings season starts one or two weeks after the end of each quarter. Consequently, most companies release their earnings in early to mid January, April, July and October. During this time, company earnings are generally released before the market open and after the close, often causing substantial price moves in the underlying stocks outside regular trading hours.
+As with economic indicators, the largest reactions typically occur when a company substantially exceeds or misses expectations. Having access to extended-hours trading allows the stock trader to react quickly and potentially capitalize on the initial reaction to positive or negative news.
+Major News Events
+News and announcements of major geopolitical events are often reported after regular trading hours or over the weekend, potentially causing massive market moves. Wars and natural disasters are examples of unexpected events that can take the market by surprise at any time. Having access to the market before the market open allows you to better position yourself and hedge against risk in case of such unforeseeable events.
+Trading Stocks on ECNs
+Electronic communication networks, otherwise known as ECNs, are a mechanism that enables traders to participate in extended-hours stock trading. ECNs are electronic trading systems that automatically match buy and sell orders at specified prices, allowing major brokerage firms and individual traders to trade directly among themselves without requiring a middleman such as an exchange market maker.
+Instinet, the first ECN, was founded in 1967 and initially used by institutions to trade with each other. Since then, a number of ECNs have emerged to facilitate trading outside regular market hours. Pre-market trading in stocks occurs from 4 a.m. to 9:30 a.m. Eastern, and after-hours trading on a day with a normal session takes place from 4 p.m. to 8 p.m. Eastern. Many retail brokers offer trading during these sessions, but may limit the types of orders that can be used.
+When trading during pre- and post-market sessions, some brokerage firms only allow investors to view quotes from the one ECN the firm uses. It’s also important to note that the level of liquidity is typically much lower when trading outside regular market hours. The spreads between bid and offer prices are often wider, and the "thin" level of trading can cause higher volatility, carrying with it the associated risks and opportunities.
+The Futures Market
+The futures market, especially the benchmark S&P 500 futures contract, is closely followed in the pre-market session to gauge market sentiment for the day. Futures contracts are standardized contracts to buy or sell an asset, such as a physical commodity or a financial instrument, at a predetermined future date and price. (For related reading, see Futures Fundamentals: How the Market Works.)
+Stock index futures are futures contracts on financial indexes such as the Dow, Nasdaq or S&P 500. The Chicago Mercantile Exchange’s e-mini S&P 500 futures contract is the world's most actively traded stock index future, with over 2.2 million futures and options contracts traded on average per day, as of January 2018.
+Trading virtually 24 hours a day, e-mini S&P 500 futures can indicate how the market is likely to trend at the start of the New York session open. S&P 500 futures are often used by money managers to either hedge risk over a certain time period by selling the contract short, or to increase their stock market exposure by buying it.
+In addition to offering market access almost 24 hours a day, a major benefit of trading e-mini S&P 500 futures is the high liquidity level. The bids-to-offer spreads are consistently tight. The spread is effectively a cost of entry to the market. Tight spreads are critical because the wider the spread, the more a trade has to move in your favor just to break even. (For related reading, see: Beginner's Guide to Trading the E-Mini Futures Contracts.)
+Finally, unlike trading stocks on ECNs, all e-mini S&P 500 futures trades are executed centrally through the Chicago Mercantile Exchange and its member firms.
+The Bottom Line
+Once the dominion of institutional investors, the advent of electronic markets has made trading outside market hours increasingly accessible to retail traders and investors. Whether you are looking to get a feel for how the market will open or for wider trading opportunities, following market action outside regular trading hours opens up a myriad of new possibilities.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

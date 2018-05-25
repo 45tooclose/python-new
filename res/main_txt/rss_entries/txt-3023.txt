@@ -1,0 +1,83 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        More on Blockchain and BitcoinIBM Planning to Use Blockchain to Track DiamondsWhy Is Walmart Filing Blockchain Patents? Hyperledger ExplorerWhy Does Ripple Want More Government Regulation?The introduction of ASIC mining rigs has always sparked controversy in cryptocurrency communities. For example, bitcoin’s members blame the rigs for centralizing mining operations. Similarly, the founder of Siacoin is concerned about introduction of the rigs for his crypto. 
+Now ethereum, the world’s second-most valuable cryptocurrency, is grappling with the same problem. (See also: How To Mine Ethereum On Your Computer). 
+Bitmain, the China-based mining giant, recently introduced ASIC rigs for ethereum’s blockchain. But the news has hardly received a warm response from ethereum’s community. Instead, it has kickstarted an intense debate in the community about the merits and demerits of allowing ASIC miners into ethereum’s ecosystem. The discussion has important implications for the cryptocurrency’s future.
+How ASIC Mining Rigs Affect Ethereum’s Ecosystem 
+ASIC mining rigs bring a slew of benefits and disadvantages to a cryptocurrency’s ecosystem. For example, they bring economies of scale to operations because they are relatively inexpensive and more efficient (as compared to GPU rigs) at processing hash functions. In turn, this translates to higher profit margins for miners. But mining efficiency comes at the cost of decentralization. 
+As the experience with bitcoin has shown, ASIC rigs's affordability is an incentive for entrepreneurs to set up large mining farms that offer the capability to control the future development of cryptocurrencies. (See also: Bitmain Announces Plans For Hard Fork). The bitcoin cash fork, which was made possible only with support from the mining community, is a case in point. 
+Ethereum underwent a fork earlier after the DAO hack. Now some are arguing for another fork to shield the cryptocurrency from ASIC mining rigs. For example, ethereum core developer Piper Merriam has proposed a code change to make ethereum’s algorithms less effective on ASIC miners. But that will require nodes on ethereum’s network to upgrade their algorithms to the latest version, an effort- and resource-intensive task.  
+In response, others have suggested holding off on a possible fork. For example, Vitalik Buterin has said that he is leaning towards “no action”. According to him, the upgrade process will be “fairly chaotic and detract from more important things.”
+Will ASIC Mining Rigs Have A Limited Impact? 
+Buterin’s assessment may turn out to be a cogent one. This is because ASIC mining rigs may end up having a limited impact on ethereum’s network, which is already fairly centralized, according to earlier reports. (See also: Are Large Mining Pools Bad For Cryptocurrencies?) 
+There are two reasons for this. 
+First, Ethash, the algorithm used to mine ethereum, is already fairly ASIC-resistant. It is an adaptation of bitcoin’s Proof of Work (PoW) algorithm and uses Decentralized Acyclic Graphs (DAG). DAGs, which are also used in IOTA, require low CPU and small memory for computations. They can also be pre-generated, instead of being mined in real-time. This is unlike bitcoin’s algorithm, which reportedly requires enormous processing power and energy. 
+Second, ethereum is already slated to move towards a Proof of Stake (PoS) algorithm, which assigns new coins based on stakes held by each node instead of computation-intensive mathematical problems. This means that mining coins may become a redundant in the future ethereum network.
+Investing in cryptocurrencies and other Initial Coin Offerings ("ICOs") is highly risky and speculative, and this article is not a recommendation by Investopedia or the writer to invest in cryptocurrencies or other ICOs. Since each individual's situation is unique, a qualified professional should always be consulted before making any financial decisions. Investopedia makes no representations or warranties as to the accuracy or timeliness of the information contained herein. As of the date this article was written, the author owns 0.01 bitcoin. 
+ 
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

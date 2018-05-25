@@ -1,0 +1,80 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        The staggering decline of pay-TV has been exacerbated by the rising popularity of on-demand streaming services such as as Netflix Inc. (NFLX) and its growing number of competitors taking on old-guard telecommunications companies such as Charter Communications Inc. (CHTR), AT&T Inc. (T) and Comcast Corp. (CMCSA), as outlined by The Wall Street Journal. From the beginning of 2015 through the end of last year, 9 million Americans have either cut the cord or chosen not to buy a traditional cable package when moving into new households, according to estimates from MoffettNathanson.
+This widespread shift away from cable TV toward direct-to-consumer offerings from companies such as Netflix, Facebook Inc. (FB), Apple Inc. (AAPL), Amazon.com Inc. (AMZN), Hulu and others, including a platform Walt Disney Co. (DIS) is set to launch in 2019, has led many investors to pull their money out of cable and telecom holdings and into tech stocks, as noted by the WSJ's Shalini Ramachandran in a story published April 27.
+“Companies like Amazon and Netflix are delivering game-changing convenience at incredibly efficient prices," said Guggenheim Securities analyst Michael Morris, as cited by the WSJ. For example, Seattle-based retail behemoth Amazon has funneled capital into building out its monthly Prime subscriber base, now reaching more than 100 million households, by offerings its users exclusive access to TV, movies and sports streaming, thanks to deals such as a recently announced partnership with the NFL for live football games. 
+Investors Re-Allocate Towards Big Tech 
+"As an investor, you say, ‘I don’t know how this plays out, but I do know it is very difficult to compete if my competitor is undercutting me on the pricing side,'" said Morris. 
+In the first quarter, earnings reports from traditional providers sparked a greater sell-off in the space, including a 12% decline in shares of Charter, marking their largest single-day percentage drop in nine years. Rivals including Comcast and AT&T also suffered losses on similarly downbeat reports as investors fear that big telecom companies' broadband customer growth will not be enough to offset sweeping declines from cord cutting. (See also: Media Industry Looks Weak in Q1: Pivotal Research.)
+On Wednesday, Comcast reported its fourth consecutive quarter of cable TV subscriber losses, while AT&T posted video revenue declines as consumers ditch satellite TV for cheaper online services. Verizon Communications Inc. (VZ), which has been attempting to refocus on its digital media business, posted a decline of 22,000 Fios broadband video customers in Q1, accelerating a loss of 13,000 in the year ago period. 
+New Streaming Services Hurt Cable
+Meanwhile, broadband customer growth has failed to outweigh traditional TV weakness, as all major providers posted a deceleration in their addition of high-speed internet customers over last year. Performance of new streaming services from companies such as AT&T's DirectTV Now and DISH Network Corp.'s (DISH) Sling TV have also done little to ignite hope for the old-guard players on the Street. 
+Shares of Comcast, AT&T and Charter have declined 21.2%, 16.9% and 18.3% respectively, year-to-date (YTD), underperforming the broader S&P 500's 0.9% slump over the same period. For comparison, deep-pocketed tech rivals Netflix and Amazon have seen their shares skyrocket 63.2% and 34.7% respectively in 2018. (See also: Comcast, Independence Health in New Partnership.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

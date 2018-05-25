@@ -1,0 +1,213 @@
+
+
+
+Crypto Fund Assets Could Double This Year, Research Suggests
+Crypto Fund Research sees potential for crypto funds to double their assets this year.
+
+
+ by  Komfie
+Manalo,
+7 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  Total digital currency fund assets could rise twofold this year, with the number of crypto-focused fund launches likely to be almost 100 based on developments so far in 2018, according to a study by Crypto Fund Research.
+The number of cryptocurrency hedge funds launched in 2017 exceeded 100 within a total of nearly 700 new hedge funds. This figure represents 14% of the new hedge fund launches although crypto funds account for less than 1% of the estimated $3.2 trillion of assets held by hedge funds.
+
+The study report noted:
+
+“Crypto hedge funds are the fastest growing segment of the hedge fund industry. In addition, several of the top performing hedge funds in 2017 were cryptocurrency funds. Hedge funds are the most common type of digital asset fund, but venture capital crypto funds are launching quickly, and existing tech/FinTech VC firms are expanding investments into blockchain startups and launching their own blockchain funds. As some blockchain companies mature, private equity funds are beginning to get involved.”
+
+Among the existing 276 cryptocurrency investment funds, 174 have been set up as hedge funds, while 90 are venture capital crypto funds. There is also a handful of crypto ETFs and crypto private equity funds, the researchers added.
+Assets under management
+However, the bulk of crypto investment funds are considered small-cap, with more than one-third managing under $10 million in assets. But some crypto funds have assets under management exceeding $100 million, examples being Arrington XRP, Galaxy Digital Assets, MetaStable Capital, Polychain Capital, and The Logos Fund.
+But Crypto Research said:
+
+“We expect digital asset funds to increase in size in 2018 due to both inflows as well as a potential appreciation of their underlying assets. Current crypto fund assets are still quite small. All crypto funds combined have less than 10% of the assets of the largest traditional hedge fund managers.”
+
+According to the study, the crypto fund space has been enjoying steady growth because of the number of new fund launches and the rise in the value of digital assets as seen by the huge jump in Bitcoin prices in 2017.
+Harvard starting ‘em young
+One of those attracted by the opportunities in crypto funds is 19-year-old Bushra Hamid, a Harvard undergraduate who is partnering with three schoolmates to launch Plympton Capital, a $1 million hedge fund focused on cryptocurrency.
+Hamid said she and her team started work on the hedge fund two months ago and were able to raise about $700,000 in seed capital from friends and family. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

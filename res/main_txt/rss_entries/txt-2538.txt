@@ -1,0 +1,240 @@
+
+
+
+Cash Strapped Elio Motors Fails to Deliver; Wants Investors to Plow in More Money via Token Offering
+Elio Motors is turning to the crypto space with a token offering to fund a vehicle it has failed to deliver, despite almost yearly claims that it’s close to production.
+
+
+ by  Tedra
+DeSue,
+5 hrs ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  A financially-troubled auto maker that’s failed to deliver any vehicles since its inception more than five years ago is now looking to raise money through a token offering.
+We’re talking about Elio Motors, which came onto the auto scene with much fanfare about six years ago. The draw was due to the unique aspects of the vehicle – three wheels, roughly $6,800 price tag, and promise of it getting about 83 miles per gallon.
+Now, all these years later, the only thing Elio has to show for its efforts is a prototype of the three-wheeler, and a balance sheet showing a disturbing cash burn rate. So the thought that it’s planning a token offering to raise money has many raising their eyebrows.
+Another interesting development that has surfaced pertaining to Elio is its relationship with Overstock.com. The online retailer has agreed to purchase some of the company’s common stock, and the CEO has voiced nothing but praise for the company.
+Let’s discuss.
+
+The automaker with no autos wants its own crypto
+Elio Motors’ founder, Paul Elio, set out to build a three-wheeled, gas powered vehicle that would turn heads and be easy on the wallet. People wanting one of the so-called trikes plopped down as much as $1,000 to reserve one of the vehicles and be one of the first to drive the cool-looking vehicle around.
+Now, all these years later, they are still in wait-and-see mode. Even more are scratching their heads as to how a company that claimed to have raised more than half a billion dollars has failed to deliver even one vehicle.
+Despite raising all that money, it still hasn’t built any cars. So it set its sights on the crypto space.
+Elio Motors’ offering plans were explained in an announcement released Tuesday. In it, it is stated that it expects to launch a security token offering (STO) to, “among other things, fund production of the Elio vehicle.”
+
+Elio Motors believes that the digital token to be sold in the STO, anticipated to be called ElioCoin, will be the first of its kind - a digital token that is associated with the production of a motor vehicle - as well as the first digital token sale led by a major investment bank.
+
+The initial tokens would only be sold to institutional accredited investors.  It is expected that the STO will include a pre-sale of the ElioCoin.
+Cash burn problem
+On its site, Elio boasts having raised $102 million through a first-of-its-kind stock offering. It claims to have received as of June 2016, another $24.1 million in reservation fees, and $411.6 million in what it calls “potential orders received.”
+That’s dwindled to it having a miniscule amount of cash on hand. Its cash management problem wasn’t made clear until Elio had to make filings to the U.S. Securities and Exchange Commission in November 2017, (the last official filing).
+Elio reported that for the three months ended Sept. 30, 2016, operating expenses increased by 242% compared to the same period in 2015. Engineering, and R&D costs had soared 891%.
+What’s worse is the reveal that the company only had roughly $101,000 of cash, but its working capital deficit was a concening $26 million.
+Who knows what it is now.
+Fleecing or vaporing?
+An observer who’s followed Elio since its inception, and who also has a penchant for cryptos raised several concerns about Elio.
+On YouTube, someone using the handle “Steve” posted a video with his thoughts on Elio seeking to raise money through the token offering.
+He said that Elio may be late to the game with its planned offering, noting a lot of people are far wiser about investing in ICOs than they were a few years ago or even a few months ago.
+
+“Perhaps they are looking at raising up [capital} rather than getting $100 million from private Wall Street investors to which they may feel obligated to, they’d rather nickel and dime people to get  into top 200 coin range where they can get a nice, cool roughly $100 million from average joes, and not feel as obligated to deliver a product. I’m just skeptical from the standpoint from being a car enthusiast, and being a previous Elio supporter.”
+
+Then there is the matter of Elio possibly being a vaporware company. These companies announce a product that they fail to ever build or deliver.
+
+Steve said:               
+“One of the last things we need in the Blockchain and cryptocurrency space is another vaporware company coming in and trying to claim to deliver a product.”
+
+He takes issue with the company not being able to turn out this vehicle, too.
+
+“If all this money they’ve gotten til now still can’t help them turn out this vehicle of which they’ve built a functioning prototype, which is better than most vaporware companies, why haven’t they built more?”
+
+Overstock.com connection
+Elio also announced Tuesday that Overstock.com was going to buy $2.5 million of newly issued shares of its stock. Elio intends to use the proceeds to fund capital expenditures and repay certain outstanding debt and accounts payable.
+Given Elio’s troubling financial history, and its failure to deliver, why Overstock.com would get involved with it is a head-scratcher for some. It seems it largely relates to its Overstock Cars division.
+And then there’s also the gushing over the three-wheeler that’s come from Overstock.com’s CEO and founder Patrick Byrne. He said he sat in one for five minutes and “was in awe.”
+
+It is really comfortable, and feels like great fun. I am confident that this will become my car for at least two-thirds of the days I drive. Given its breakthrough pricing and ultra-low delivery cost, I anticipate that Overstock Cars and even Overstock Retail will play a role in bringing this product to the public.”
+
+We’ll keep you posted as to how this all pans out. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

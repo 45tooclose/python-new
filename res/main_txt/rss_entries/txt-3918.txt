@@ -1,0 +1,147 @@
+
+
+    
+                          DEFINITION of 'Investigational New Drug (IND)'
+
+      An Investigational New Drug (IND) application is the first step in the drug review process by the U.S. Food and Drug Administration (FDA). The application is submitted by the company responsible for developing the drug (the sponsor) to the FDA.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            New Drug                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Drug                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Abbreviated New Drug Submission ...                     
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Phase 2                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Investigational New Drug (IND)'
+      Investigational New Drugs (INDs) fall into two categories:
+1. Commercial - submitted mainly by companies seeking marketing approval for a new drug
+2. Research (non-commercial) - the majority of INDs are filed for non-commercial research and are of three main types – Investigator IND, Emergency Use IND, and Treatment IND.
+The IND application contains information in three broad areas –
+Animal pharmacology and toxicology studies: contains the preclinical studies needed to establish whether the drug is reasonably safe for initial tests in humans, as well as any previous experience involving human use of the drug (such as in foreign markets).
+Manufacturer information: includes information to ensure that the company can manufacture sufficient batches of the drug.
+Clinical Protocols and Investigator Information: contains protocols to determine if the initial trials will expose human subjects to needless risks, and includes qualifications of the clinical investigators who will oversee administration of the compound.
+An IND is not an application for marketing approval. It is the avenue through which the sponsor gets from the Food & Drug Administration (FDA) an exemption to the Federal law that prohibits an unapproved drug from being transported across state borders. This exemption is required since in most cases the sponsor will need to ship the investigational drug to investigators in other states. To obtain the exemption, the sponsor must submit sufficient data through the IND, documenting the safety of the drug for use in human testing.
+In effect, an IND is submitted after the sponsor has determined through animal studies that the proposed drug is reasonably safe for initial use in humans, and that it shows sufficient promise as a treatment to justify commercial development. The FDA reviews the IND application and decides whether it is safe for the company to progress to the next stage, i.e. clinical trials, wherein the drug is tested in humans. The sponsor has to wait for 30 calendar days after submitting the IND before commencing any clinical trials. Since it can cost hundreds of millions of dollars – and many years – to undertake the clinical trials necessary to bring a new drug to market, the IND application signifies that the sponsor is willing to make this huge investment. As such, investor reaction to an IND application – the first step in a long and arduous process for drug approval – filed by a company is typically neutral.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '',
+     'leadGenVertical' : '',
+     'leadGenLayout' : '',
+     'leadGenPage' : ''
+    });
+                          
+    
+  

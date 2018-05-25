@@ -1,0 +1,145 @@
+
+
+    
+                          What is a 'Nominal Yield Spread'
+
+      Nominal yield spread is the difference, expressed in basis points, between the Treasury and non-Treasury security of the same maturity. It is the amount that, when added to the yield at one point on the Treasury yield curve represents the discount factor that will make a security's cash flows equal to its current market price.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Yield Spread                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Interpolated Yield Curve - I Curve                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Curve Steepener Trade                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Yield Elbow                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Nominal Yield Spread'
+      Nominal yield spreads are a convention frequently used in pricing certain types of mortgage-backed securities (MBS).  There are many different types of MBSs, but most of them trade at a nominal yield spread. These MBSs are priced at a spread over the interpolated Treasury curve at the point equal to their weighted average life (WAL).
+A yield spread is a difference between the quoted rate of return on different debt instruments which often have varying maturities, credit ratings, and risk. The spread is straightforward to calculate since you subtract the yield of one from that of the other. 
+The nominal yield spread is considered easy to understand since it involves assessing the difference between a corporate bond yield to maturity and the value of the equivalent Treasury bond having the same timeline. You are comparing the government and corporate versions of the same bond with identical maturity terms.
+A nominal yield spread defines one point along the entire Treasury yield curve to determine the spread, at that particular single point, where the price of the security and the present value of the security's cash flow are equal.
+Other Types of Yield Spreads
+A zero-volatility spread (Z-spread) measures the spread realized by the investor over the entire Treasury spot-rate curve, assuming the bond would be held until maturity. This method can be a time-consuming process, as it requires a lot of calculations based on trial and error. You would basically start by trying one spread figure and run the calculations to see if the present value of the cash flows equals the bond’s price. If not, you have to start over and keep trying until the two values are equal.
+An option-adjusted spread (OAS) converts the difference between the fair price and market price, expressed as a dollar value, and converts that value into a yield measure. Interest rate volatility plays an essential part in the OAS formula. The option embedded in the security can impact the cash flows, which is something that must be considered when calculating the value of the security.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

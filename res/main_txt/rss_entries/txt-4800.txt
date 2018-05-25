@@ -1,0 +1,143 @@
+
+
+    
+                          What is 'Revdex'
+
+      A Revdex is a bond index that estimates the approximate yield that an investor will receive if he or she invests in revenue bonds maturing in 30 years. This index is comprised of a broad range of 25 revenue bond issues with investment grade ratings. The index provides an estimate of the yield on a 30-year revenue bond offered under current market conditions. All of the investments in the Revdex have a maturity rating of A or better.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Bond Buyer 20                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Revenue Bond                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Bond Buyer 11                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Bond Market                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Revdex'
+      The Revdex index, also known as the 25 bond index, contains bonds from a variety of industries with a variety of ratings that estimates the yield on 30-year revenue bonds. The Rev portion of its name  refers to the fact that it helps predict the return on revenue bonds. Both individual consumers and investors can use the Revdex to gauge how the municipal market is faring.
+There are two types of tools that are used to measure the performance of the municipal market: the Bond Buyer’s Index of high-grade general obligation bonds, known as the BBI and the Bond Buyer's Revenue Bond index, which is known as the Rev-dex. “These two indexes are to the municipal bond market what the Dow Jones Industrial Average is to the stock market,” the paper noted.
+A wide range of revenue bonds is used from differing project types such as bridges, tolls, housing, sewage and hospitals. The index can be used by investors to gauge or estimate the yield that might be obtained on a 30-year revenue bond under current market conditions. Because the index contains issues from a broad variety of sectors, it can provide the investor with a better sense of the "going rate" or yield that might be expected on such a revenue bond. This can help to evaluate the investment value of any individual revenue bond. 
+Where to find the Revdex
+One of the easiest ways to see the latest 25 Bond Index or Revdex is through The Bond Buyer. The Bond Buyer is both a paper and digital newspaper that is published every weekday, Monday through Friday, and provides information about municipal issues, including bonds. The Bond Buyer requires a subscription.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

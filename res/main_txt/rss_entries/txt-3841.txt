@@ -1,0 +1,87 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Gold becomes the go-to investment plan when market volatility shakes investor confidence. Investors have a variety of alternatives in terms of convenience and expense.  
+In 2004, the first exchange-traded fund (ETF) specifically developed to track the price of gold was introduced in the United States. It was touted as an inexpensive alternative to owning physical gold or buying gold futures, and since its introduction, ETFs have become a widely accepted alternative. Many investors look to certain gold-specific ETFs as a convenient and exciting way to participate in the gold market without exposure to the risks of physically purchasing bullion or the effort of understanding gold futures trading. However, what many investors fail to realize is that the price to trade ETFs that track gold may outweigh their convenience, and trading gold future contracts may be a better alternative under the right circumstances. In this article, we'll explore whether it's better to invest in gold ETFs or to go with the more traditional gold futures.
+Problems with Gold ETFs
+For more sophisticated investors, or those with investment capital that exceeds a few hundred dollars, there are significant drawbacks to investing in gold-specific ETFs that go beyond the day-to-day fluctuation of gold prices. These challenges include tax implications, non-gold-related market risk and additional fees.
+Taxed as a Collectible
+Investors who buy shares in an ETF that tracks gold prices do not actually own gold. The investor cannot make a claim on any of the gold shares and, under IRS regulations, their ownership in the ETF represents ownership in a "collectible." Despite the fact that the managers of gold ETFs do not make investments in gold for their numismatic value, nor do they seek out collectible coins, the shareholder's investment is treated as a collectible. This makes long-term investment in gold ETFs (one year or longer) subject to a relatively high capital gains tax (maximum rate of 28%, rather than the 20% rate that is applicable to most other long-term capital gains). Exiting the position before a year to avoid the tax would not only diminish the investor's ability to profit from any multiyear gains in gold but would also subject them to a much higher (almost 40%) short-term capital gains tax.
+Market Risk
+ETFs that track gold are also exposed to a host of company risks that have nothing to do with the actual fluctuation in gold's value. In the SPDR Gold Trust prospectus, for example, the trust can liquidate when the balance in the trust falls below a certain level,the net asset value (NAV) drops below a certain level, or by agreement of shareholders owning at least 66.6% of all outstanding shares. These actions can be taken regardless of whether gold prices are strong or weak.
+Fees, Fees and More Fees
+Finally, gold ETFs are inherently diminishing investments. Because the gold itself produces no income and there are still expenses that must be covered, the ETF's management is allowed to sell gold to cover these expenses. Each sale of gold by the trust is a taxable event to shareholders. That means that a fund's management fee, along with any sponsor or marketing fees, must be paid by liquidating assets. This diminishes the overall underlying assets per share, which, in turn, can leave investors with a representative share value of less than one-tenth of an ounce of gold over time. This can lead to discrepancies in the actual value of the underlying gold asset and the listed value of the ETF.
+Given these drawbacks, many ETF investors turn their attention to trading gold futures.
+Think About Gold Futures
+The risks that gold-focused ETFs bear are not seen in gold futures. Gold futures, in comparison to the ETFs, are straightforward. Investors are able to buy or sell gold at their discretion. There are no management fees, taxes are split between short-term and long-term capital gains, there are no third parties making decisions on the investor's behalf, and at any time investors can own the underlying gold. Finally, because of margin, every $1 that's put up in gold futures can represent $20 or more in gold.
+For example, a $1000 investment in an ETF such as the SPDR Gold Shares (ARCA:GLD) would represent one ounce of gold (assuming gold was trading at $1,000). Using that same $1000, an investor could purchase an E-micro Gold Futures gold contract that represents 10 ounces of gold. The drawback to this kind of leverage is that investors can both profit and lose money based on 10 ounces of gold. Couple the leverage of futures contracts with their periodic expiration and it becomes clear why many investors turn to an investment in an ETF without really understanding the fine print.
+SEE: Trading Gold And Silver Futures Contracts
+The Bottom Line
+ETFs and gold futures both represent a diversification into the metals asset class. There are pros and cons to both instruments, but that doesn't automatically make gold-specific ETFs superior to gold futures. Investors must be aware that, while on the surface, an ETF can instantly create portfolio reallocation in one place, the fund may end up costing them more than they expected in both taxes and management fees on the back end. At the same time, less experienced investors may be better off paying a little extra for an ETF rather than taking on an uncomfortable level of risk with futures.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

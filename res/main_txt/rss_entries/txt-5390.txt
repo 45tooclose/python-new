@@ -1,0 +1,146 @@
+
+
+    
+                          What is a 'Tracking Stock'
+
+      A tracking stock is a common stock issued by a parent company that tracks the performance of a particular division without having claim on the assets of the division or the parent company. It may also be known as designer stock or may refer to a type of security specifically designed to mirror the performance of a larger index.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Parent Company                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Taxable Spinoff                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Spiders - SPDR                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Stock Exchange-Traded Fund (ETF)                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Tracking Stock'
+      When a parent company issues a tracking stock, all revenues and expenses of the applicable division are separated from the parent company's financial statements and bound to the tracking stock. Oftentimes, this is done to separate a subsidiary's high-growth division from a larger parent company that is presenting losses. The parent company and its shareholders, however, still control the operations of the subsidiary.
+Benefits of Tracking Stocks to Investors
+Tracking stocks allow investors the opportunity to invest in a particular portion of a business while the company maintains overall control. Investors receive dividends relating to the performance of the associated portion of the business regardless of the overall performance of the business as a whole. This allows investors to participate in business segments that appeal to them the most whether for financial or intrinsic reasons.
+Benefits of Tracking Stocks to Companies
+Through the use of tracking stocks, companies can gauge investor interest in specific segments of the business as the associated activity of each tracking stock serves as a division of the business’s various offerings. For example, a large scale telecommunications company may choose to use tracking stocks to separate the activities of their wireless, or cellular division from its landline services. Investor interest in each can be measured based on the activities of the aforementioned tracking stocks.
+Tracking stocks also eliminate the need for the company to create a separate business or legal entity in order to separate the associated activities. This removes the need for the creation of additional management teams and shareholders as would occur when establishing a new legal entity, such as with the creation of a spinoff.
+Index Tracking Stocks
+One of the most popular tracking stocks is the PowerShares QQQ Trust QQQ ETF, which is an exchange-traded fund that mirrors the returns of the Nasdaq 100 index. Another type of tracking stock is Standard & Poor's depository receipts (SPDRs), which mirror the returns of the S&P 500 index. SPDRs, also referred to as spiders, represent ownership of a unit in the SPDR trust and are traded under the symbol SPY on the American Stock Exchange.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

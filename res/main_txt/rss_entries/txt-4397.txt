@@ -1,0 +1,145 @@
+
+
+    
+                          What is 'Annualize'
+
+      To annualize is to convert a short-term calculation or rate into an annual rate. This conversion most frequently happens with rates of less than one-year duration and usually does consider the effects of compounding. Annualizing is useful in determining the return of investments and in the calculation of the real cost of a loan.
+The annualized rate is not a guarantee, and its accuracy depends on the variance of the rate.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Annual Return                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Annualized Total Return                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Periodic Interest Rate                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Annual Basis                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Annualize'
+      The annualized rate is also known as an "annualized return" and is like "run rate." In the case of loan products, the annualized cost is often expressed as an annual percentage rate (APR). The APR considers every cost associated with the loan, such as interest and origination fees, and converts the total of these costs to an annual rate that is a percentage of the amount borrowed.
+Consider an investment that returns 1% a month. Because a year consists of 12 months, the security will return 12% on an annualized basis. However, because of market volatility, the annualized return of a stock cannot be determined with a high degree of certainty based on its performance during a shorter period. As an example, a stock may return 1% in month one and return -.5% the following month.
+Annualization is also useful for determining the actual cost of a loan. Specific loan products, such as payday loans and title loans, charge a flat finance fee of $15 or $20 to borrow a nominal amount for a short period such as a few weeks or a month. Expressed in dollars the $20 fee does not appear to be large, however, expressed as an annualized rate, 240%, it is extremely large relative to the loan amount.
+Annualizing for Tax Purposes
+Annualization can involve converting a taxation period of less than one year into an annual basis period. This conversion helps wage earners establish an effective tax plan and manage any tax implications.
+For example, an individual may multiply his monthly income by 12 months to determine his annualized income. They may then see their effective tax rate based on the calculation.  For many, this is helpful when budgeting quarterly taxes.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

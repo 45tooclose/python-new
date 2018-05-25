@@ -1,0 +1,75 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Shares of Ford Motor Co. (F) spiked Thursday following better-than-expected earnings results from the automaker in the first quarter. Results have fueled optimism on the Street as analysts applaud its decision to abandon the American car business almost entirely as the company shifts focus to meet rapidly evolving consumer preferences.
+In the three-month period ending in March, the 115-year-old Detroit auto giant posted earnings per share (EPS) of $0.43 on revenue of $41.96 billion, compared to the analysts average forecast at EPS of $0.41 on revenue of $37.06 billion. 
+Trading up about 2% at $11.35, Ford reflects an 8.3% decline year-to-date (YTD). The stock crashed in late January on Q4 earnings, as investors remained concerned regarding rising steel and aluminum costs, foreign exchange volatility and rising auto loan rates. (See also: Ford Stock Is Too Cheap to Ignore: Here's Why.)
+Catching Up to GM
+The positive results slimmed Ford's lag behind General Motors Co. (GM), which has seen its shares decline about 2.1% at $37.32 on weaker-than-expected earnings results, bringing its YTD loss to 8.8%. While both F and GM stock have both underperformed the broader S&P 500's 0.4% fall in 2018 to about the same degree, the former is in the red over the most recent 12 months while GM has gained 8.6%. 
+Following a larger movement among Detroit's Big Three automakers to discontinue some of their car models as they ramp up production of more profitable sport-utility vehicles, pickup trucks and SUVs, Ford announced that it will transition to only making the Mustang and new Focus Active crossover within the next few years. The other 90% of its North America portfolio will be made up of trucks and SUVs by 2020. As fuel prices stay low, consumers have reverted back to less-efficient, bread-and-butter models like the F-Series truck. 
+Ford's upbeat Q1 report comes as analysts have pointed to increased infrastructure spending plans from the White House as serving as a positive driver for automakers, while other bulls have argued that the Street is underestimating the company's pickup business, while fears of higher costs facing OEMs have been viewed as overblown. (See also: Ford to End Taurus, Fiesta Lines; GM Kills Sonic.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

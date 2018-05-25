@@ -1,0 +1,153 @@
+
+
+    
+                          DEFINITION of 'Know Sure Thing (KST)'
+
+      Know Sure Thing, or KST, is a momentum oscillator developed by Martin Pring to make rate-of-change readings easier for traders to interpret. In a 1992 Stocks and Commodities article, Mr. Pring referred to the indicator as "Summed Rate of Change (KST)", but the KST term stuck with technical analysts. The indicator is relatively common among technical analysts preferring momentum oscillators to make decisions.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Signal Line                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Special Memorandum Account - SMA                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Ease Of Movement                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Trade Signal                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Know Sure Thing (KST)'
+      Know Sure Thing is calculated by taking the simple moving average (SMA) or four different rate-of-change (ROC) periods, adding them together to come up with the KST, and creating a signal line by taking the 9-period SMA of the KST.
+The rate-of-change calculations include:
+RCMA #1 = 10-period SMA of 10-period ROC
+RCMA #2 = 10-period SMA of 15-period ROC
+RCMA #3 = 10-period SMA of 20-period ROC
+RCMA #4 = 15-period SMA of 30-period ROC
+The KST is calculated with the following equation:
+KST = (RCMA #1 x 1) + (RCMA #2 x 2) + (RCMA #3 x 3) + (RCMA #4 x 4)
+And finally, the signal line is calculated by taking the 9-period SMA of the KST value.
+Interpreting Know Sure Thing
+The Know Sure Thing indicator can be used in the same manner as many other momentum oscillators, such as the well-known relative strength index (RSI). Trading signals are generated when the KST crosses over the signal line, but traders may also look for convergence and divergence with the price, overbought or oversold conditions, or crossovers of the center line.
+Many traders combine the KST indicator with other forms of technical analysis to maximize their odds of success. For example, traders may look at other non-momentum indicators, chart patterns, or candlestick patterns to help in their decision-making.
+Let's take a look at an example chart:
+
+In the example above, the KST indicator reached highly overbought conditions in early-February and eventually experienced a crossover, which generated a well-timed sell signal. The indicator also crossed over in late-February, mid-March, and mid-April with limited success, but the key is looking for both overbought or oversold conditions, as well as a crossover to signal the trade.
+Traders may have also looked at other forms of technical analysis to maximize their odds of a successful trade. For example, traders looking at the above chart may have considered the significant bearish volume on the day that the signal occurred or the candlestick patterns leading up to the trading signal when making their decision. These insights could also be used to avoid making less profitable trades suggested by the KST indicator.
+Chart courtesy of TradingView.com.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'ActiveTrading',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

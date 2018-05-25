@@ -1,0 +1,75 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Amid lingering equity market volatility, investors poured into fixed income exchange-traded funds (ETFs) in significant fashion in April. In fact, April was a great month for bond ETFs on multiple fronts. Last month, BlackRock, Inc. (BLK), the parent company of iShares, the world's largest ETF issuer, said that combined assets under management for bond ETFs listed around the world eclipsed $800 billion.
+Entering the final trading day of last month, "U.S.-listed bond ETF flows have attracted $14.7 billion so far in April, on track for [the] biggest month of net inflows since October 2014 (October 2014 had inflows of $17.3 billion)," said Steve Laipply, head of U.S. iShares fixed income strategy at BlackRock. Entering Monday, six of the top 10 asset-gathering ETFs in April were bond funds compared with just three equity funds on that list. Conversely, just one bond fund was found on the list of the top 10 ETFs in terms of outflows. All six of the bond ETFs on the top 10 inflows list are iShares products. (See also: Bond ETFs: A Viable Alternative.)
+With the Federal Reserve poised to continue hiking interest rates this year, bond investors are embracing shorter-duration ETFs. For example, the iShares Short Treasury Bond ETF (SHV) was the top asset-gathering ETF in April (as of April 27), regardless of asset class. SHV, which has an effective duration of just 0.42 years, had April inflows of $2.52 billion as of April 27. The iShares 1-3 Year Treasury Bond ETF (SHY), with an effective duration of 1.83 years, added nearly $851 million in new assets last month, a total surpassed by just nine other ETFs.
+"Investors began allocating to fixed income once rates appeared to stabilize in the high 2% range (10-year)," said Laipply. "Flows have gone to floating rate, shorter maturity and interest rate hedged exposures." Speaking of floating rate note funds, the iShares Floating Rate Bond ETF (FLOT) took in $1.22 billion in new money last month, good for the seventh spot among all U.S.-listed ETFs. FLOT has an effective duration of just 0.16 years.
+On a year-to-date basis, four of the top 10 asset-gathering ETFs are bond funds. Two of those ETFs are SHV and FLOT. (For more, see: The Time for Short Duration Bonds Is Now.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

@@ -1,0 +1,140 @@
+
+
+    
+                          What is the 'Brace Gatarek Musiela Model - BGM'
+
+      The Brace Gatarek Musiela Model (BGM) is a nonlinear financial model that uses LIBOR rates to price interest rate derivatives. The Brace Gatarek Musiela (BGM) model prices securities by examining market-quoted rates. It is used most frequently when pricing swaptions and caplets (a call on LIBOR) on the LIBOR market.
+It is also known as the LIBOR market model.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            LIBOR                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            LIBOR Curve                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Caplet                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Hull–White Model                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Brace Gatarek Musiela Model - BGM'
+      Unlike the Hull-White model, which uses the instantaneous short rate, or the Heath-Jarrow-Morton (HJM) model, which uses the instantaneous forward rate, the Brace Gatarek Musiela Model (BGM) model only uses rates that are observable: forward LIBOR rates. The BGM model is also consistent with Black’s model, which is a variant of the widely used Black-Scholes derivative model.
+The BGM model can determine a price for an investment if the payoff can be broken down into forward rates (yields), since forward rates apply to a specific time frame and correlate with other forward rates. Investors can run simulations using the various volatilities and correlations, and then determine the fair value by discounting coupons.
+The London Interbank Offered Rate is the average of interest rates estimated by each of the leading banks in London that it would be charged were it to borrow from other banks. It is usually abbreviated to Libor or LIBOR.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

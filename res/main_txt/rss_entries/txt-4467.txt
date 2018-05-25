@@ -1,0 +1,145 @@
+
+
+    
+                          WHAT IS 'Commodity Credit Corporation - CCC'
+
+      The Commodity Credit Corporation, or CCC, is an agency of the United States Department of Agriculture (USDA) that supports and protects farm income and prices. The agency helps to maintain an adequate variety and volume of agricultural commodity supplies.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Cash Conversion Cycle - CCC                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Cash Discount                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Farm Credit System - FCS                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Commodity Market                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Commodity Credit Corporation - CCC'
+      The CCC is managed by a board of directors, which acts under the general supervision of the Secretary of Agriculture, who is an ex-officio director and chairperson of the board. The president appoints the seven members who comprise the board, in addition to the secretary. All board members and corporation officers are USDA officials.
+The CCC has no operating personnel. The Farm Service Agency’s, or FSA's, personnel and facilities handle the price support, storage and reserve programs, as well as domestic acquisition and disposal activities.
+The CCC was created on October 17, 1933 as part of President Franklin Roosevelt’s New Deal. It was incorporated under a Delaware charter and given initial capitalization of $3 million, funded by the Reconstruction Finance Corporation. The CCC was transferred to the USDA on July 1, 1939, and then made a federal corporation within the USDA by the Commodity Credit Corporation Charter Act on July 1, 1948. 
+The Federal Agriculture Improvement and Reform Act of 1996, also known as the 1996 Farm Bill, changed US agricultural policy by removing the link between income support payments and farm prices, among other provisions. Prior to that bill, the USDA made deficiency payments to producers of wheat, feed grains, cotton and rice to make up the differences between target prices and fluctuating market prices. The 1996 Farm Bill capped spending, guaranteeing farmers a series of fixed but declining production flexibility contract payments, which allowed them choices in what they could produce on their land.
+The updated CCC Charter Act   
+The CCC Charter Act, as amended by the Presidential Appointment Efficiency and Streamlining Act that went into effect on August 10, 2012, extended support to producers through loans, purchases, payments and other operations. It also ensured access to the materials and facilities required in the production and marketing of agricultural commodities and helped to facilitate their systematic distribution.
+Today, the CCC operates numerous domestic programs, including those related to income support, disaster and conservation. Foreign assistance is a major focus for the CCC as well. It extends direct credit and guarantees commodity sales to foreign countries, and sends agricultural commodities to combat hunger and malnutrition. Assisting developing countries and emerging democracies under the Food for Progress Program is also a component of the CCC’s efforts to modernize and strengthen global agriculture. 
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

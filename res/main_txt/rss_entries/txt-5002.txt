@@ -1,0 +1,77 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Walmart Corp.’s (WMT) expansion into the Indian e-commerce market just got a boost after the board of Flipkart, one of India’s leading online retailers, approved the Walmart's offer to a buy a majority stake.
+Bloomberg, citing people familiar with the matter, reported Flipkart's board approved a deal in which it will sell roughly 75% of the company to a group led by Walmart for around $15 billion. Bloomberg noted that Alphabet Inc. (GOOG), the parent of Google, is taking part in the investment with Walmart. The Bentonville, Arkansas retailer bested Amazon.com Inc. (AMZN) which made its own offer for Flipkart.  (See more: Amazon Makes Formal Offer for 60% of Flipkart.)
+Softbank Stands To Make A Good Profit
+According to the report, SoftBank, the Japanese Flipkart investor, will sell its entire stake in the company, which amounts to about one-fifth of the Indian company. The deal values Flipkart at $20 billion and is expected to close within ten days, although terms could still change.  Tencent Holdings, Naspers and Microsoft Corp. (MSFT), three existing Flipkart shareholders, are expected to keep small stakes in the company as part of the deal. A $20 billion valuation is a lot higher than the $12 billion Flipkart was valued at in 2017, noted Bloomberg. Softbank stands to make a large profit. Bloomberg reported it invested $2.5 billion last year via its technology-focused Vision investment fund. The stake could now be valued at more than $4 billion.
+Amazon Is Odd Man Out
+While Amazon reportedly made a similar offer for Flipkart the board favored Walmart over the Seattle, Washington-based online retailer because it thought the deal would hit fewer hurdles. Walmart doesn’t have an online presence in India, but as of this year, Amazon has emerged as the leading e-commerce operator in the country. Flipkart’s founders, Sachin and Binny Bansal, also preferred a deal with Walmart because they believe it would allow them to continue leading the company, Bloomberg said in an earlier report. (See also: Amazon Sees Groceries as Bulk of Indian Business.)
+With India seen as the next bastion of growth for e-commerce, Walmart is making a big bet on its international expansion. If the deal is completed, it will have access to 1.3 billion consumers in a market that is just starting to embrace e-commerce. Amazon has already vowed to pour $5 billion into India.  Quartz, citing data from 7Park Data, reported that as of April, Amazon’s market share was larger than Flipkart's. Foreign companies have had a tough time cracking the Indian market with China’s e-commerce giant Alibaba Group Holding Ltd. (BABA) having a tough go of it in the country as well. Flipkart can profit from the deal, as Walmart's deep knowledge of retailing, logistics and marketing can help it better compete against Amazon and other retailers.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

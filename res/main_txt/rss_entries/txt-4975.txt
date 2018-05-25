@@ -1,0 +1,216 @@
+
+
+
+Rolls Royce, Airbus Weigh Blockchain for Tracking Parts
+Some of the largest aerospace suppliers and aircraft part makers are exploring blockchain technologies for supply chain tasks.
+
+
+ by  Anatol
+Antonovici,
+12 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  Aerospace suppliers are exploring the distributed ledger technology (DLT) for supply chain management tasks such as tracking parts. Among the companies studying the potential are US flight control systems supplier Moog, engine maker Rolls-Royce, travel technology company Sabre, European plane manufacturer Airbus, and Russian air transport company S7 Group.
+Moog is collaborating with several companies to build a blockchain-powered system called VeriPart, which will be applied to trace 3D-printed parts. Technology chief George Small said the aerospace industry was experimenting with innovative technologies like blockchain to track components in the supply chain, a trend more visible thus far in the healthcare and food industries. Small revealed that his company was negotiating with potential clients to test the VeriPart system.
+
+“The solution is broadly applicable to manufactured goods and associated data that need to be tracked across supply chains from origin to delivery and on into service,” Small told Reuters.
+
+UK-based industrial giant Rolls-Royce, the world’s second-largest manufacturer of aircraft engines, is also collaborating with blockchain developers to explore the technology for the supply chain.
+
+“The company sees opportunities to automate records for complex products that currently require significant manual effort to ensure they are well managed,” a spokesman said.
+
+Sabre Corporation, the largest Global Distribution Systems service for air bookings in North America, revealed that it had been eyeing blockchain for various use cases, including tracking components. Sabre Labs director Philip Likens said:
+
+“It's a situation where you don't need ultra fast technology, but you need to be able to trust what's in the blockchain record.”
+
+He noted that DLT could be helpful at recording relevant data, for example, the manufacturer and the date of part production and installation.
+
+Elsewhere, Airbus has created a working group inside the company to explore how blockchain could address business challenges, with the supply chain being in focus.
+
+“Blockchain could improve the tracking of goods and become a complement to, not a wholesale replacement of, suppliers' procurement software,” the company explained in a post.
+
+In Russia, air transport holding company S7 Group has started the development of a platform for tracking aircraft parts with the help of blockchain. According to the project, the platform connects all companies wishing to keep tabs on their parts, including manufacturers, service providers, and airlines.
+Last October, we reported that Air France KLM’s MRO lab was testing use cases of DLT in aircraft maintenance, among them recording and managing parts on in-service planes. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

@@ -1,0 +1,79 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        What’s the best way to collect funding for charity? Put your idle computing power to use.
+International organization United Nations Children's Fund (UNICEF), which provides humanitarian and developmental aid to children and mothers across the globe, especially in developing countries, has come up with a unique way to collect funds. UNICEF is using CoinHive, a crypto-mining service that is capable of extracting cryptocurrency through visitors’ computers, for collecting funds, reports Bitcoin Magazine.
+Online Mining
+Working on the principle of “Give hope, just by being here,” the dedicated web portal operated by UNICEF Australia uses a part of the website visitor’s computer's processing power. Called The Hope Page, the site, through the visitor’s web browser, uses their computer's processor to solve cryptographic puzzles, which are an integral part of cryptocurrency algorithms. A user is free to select how much of their computer’s processing power they wish to allocate to this task. The portal includes an easy-to-use slider that can be moved to indicate the processing power to be contributed toward the effort. The minimum one can allocate is 20%, and the maximum is 80%. The mining automatically ends when the user leaves the portal or closes the website. The longer a user stays on that portal, the more processing power is dedicated toward solving the cryptocurrency problems. (See also, How Does Bitcoin Mining Work?)
+The earned cryptocurrency is automatically donated to UNICEF Australia, and the cumulative funds are then used for the necessary funding of life-saving supplies like safe water, therapeutic food and vaccines. The group is currently focused on the ongoing Rohingya crisis, in which families and children have been displaced in Myanmar due to military violence to refugee camps in neighboring Bangladesh.
+How It Works
+Behind the web portal works CoinHive, a software that has the capability to use a website visitor’s computer processing power to mine cryptocurrencies like Monero. In the past, the software has been accused for performing such mining illegally, without the knowledge of the user. However, UNICEF is using it as a consent-driven opt-in service that the user has to provide explicitly before commencing the donation-linked activity.
+ “We wanted to leverage new emerging technologies to raise awareness about current humanitarian crises and raise funds to support children caught up in them. The Hope Page allows Australians to provide help and hope to vulnerable children by simply opening the page while they are online,” said Jennifer Tierney, UNICEF Australia’s director of fundraising and communications.
+Investing in cryptocurrencies and Initial Coin Offerings ("ICOs") is highly risky and speculative, and this article is not a recommendation by Investopedia or the writer to invest in cryptocurrencies or ICOs. Since each individual's situation is unique, a qualified professional should always be consulted before making any financial decisions. Investopedia makes no representations or warranties as to the accuracy or timeliness of the information contained herein. As of the date this article was written, the author owns no cryptocurrencies.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

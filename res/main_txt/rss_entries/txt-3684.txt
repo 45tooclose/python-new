@@ -1,0 +1,84 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        McDonald’s, run by the McDonald's Corporation (NYSE: MCD), is a quick-service restaurant that competes directly with fast food restaurants such as Burger King, Wendy’s (NASDAQ: WEN), Taco Bell, KFC and Subway. Fast-casual restaurants are also close competitors, and this group includes Chipotle Mexican Grill, Inc. (NYSE: CMG) and Panera Bread Company. Starbucks Corporation (NASDAQ: SBUX) is a specialty quick-service restaurant with an offering overlapping with McDonald’s. McDonald’s also competes with a fragmented market of takeout and casual dining restaurants. Internationally, McDonald’s faces competition from some of the largest fast food chains in addition to regional competitors and smaller local restaurants.
+The burger giant is banking on using fresh beef for its quarter pounder patties to woo customers. In March 2018, the company said it had already rolled these out to more than 3,500 locations and hopes to expand this to 14,000 locations (excluding Alaska and Hawaii) by May. Here's a look at some of McDonald's competitors.
+1) Starbucks
+Starbucks is the world’s largest coffee house chain. As of January 2018, the company operates around 27,000 stores in 75 different countries, including 13,930 in the United States. None of the company’s U.S. locations are franchises. Starbucks serves coffee, espresso, cappuccino, tea, pastries, sandwiches and other foods. Starbucks markets itself as a high-quality option at a high price point. The company reported fiscal 2017 revenue of $22.4 billion, making Starbucks the second highest-selling U.S. chain restaurant behind McDonald’s. As of March 2018, Starbucks’ market cap was $80 billion.
+2) Yum Brands, Inc.
+Yum! Brands, Inc. (NYSE: YUM) operates several large quick-service restaurant chains including Taco Bell, KFC and Pizza Hut. The company has over 44,000 locations in 135 countries. YUM was ranked 422nd on the 2017 Fortune 500 list. Revenue exceeded $5.8 billion for the full- year 2017 . Taco Bell serves fast food breakfast and lunch dishes inspired by Mexican cuisine, including tacos, burritos, nachos and related specialty items. KFC serves various chicken dishes and sandwiches along with sides and beverages. Pizza Hut is a quick-service pizza restaurant chain. As of March 2018, Yum! Brands’ market cap was $26 billion.
+3) Chipotle
+Chipotle is a fast-casual restaurant chain serving tacos, burritos and salads. The company was formed as a spinoff from McDonald’s with a 2006 initial public offering (IPO). Chipotle operates 2,250 locations in the U.S., Canada, the United Kingdom, Germany and France, none of which are franchised. The company has a higher price point than its fast food competitors and claims to offer superior quality food. Chipotle reported 2017 revenue of $4.5 billion. As of January 2018, Chipotle’s market cap was $8.8 billion.
+4) Subway
+Subway is the largest restaurant chain in the world, with 46,000 locations in 110 countries. All Subway locations are owned by franchisees, of which there are more than 21,000. The company’s menu consists primarily of submarine sandwiches and salads. Subway is in the middle of a sales slump, and announced they would be closing hundreds of locations earlier this year. Subway reported 2017 sales of $11.3 billion in the U.S. The company was founded in 1965 and is headquartered in Milford, Connecticut.
+5) Panera
+Panera Bread Company is a fast-casual restaurant chain specializing in soup, salad, sandwiches and bakery products. It was founded in 1981 under the name Au Bon Pain. Panera offers more nutritious, higher-quality options at higher price points than McDonald’s. There are 1,900 Panera locations, roughly half of which are franchised. Panera reported revenue of $2.79 billion in 2016. In July 2017, Panera announced they had successfully completed being acquired by JAB Holding Company (JAB) for $7.5 billion. JAB is a German private company owned by the Reinmann Family 
+6) Wendy’s
+Wendy’s is a fast-food restaurant chain with almost 6,537 locations worldwide. Wendy’s menus include hamburgers, sandwiches, chicken products and side dishes. The company reported 2017 revenue of $1.27 billion, though total system sales were higher because sales at franchised locations are not included in consolidated revenues. Wendy's has a reported market cap of $3.97 billion as of March 2018. 
+6) Burger King
+Burger King started in 1954 and is headquartered in Miami, Florida. As of December 2017, Burger King had over 14,000 locations in over 100 countries, with roughly 11 million daily visitors worldwide. Nearly all of those locations are owned by independent franchisees. The company’s menu includes breakfast, lunch and dinner items available a la carte. Hamburgers, chicken sandwiches, chicken tenders, French fries and beverages are categories featured on the menu. Burger King recorded over $1.2 billion in revenue during 2017, and is owned by parent company Restaurant Brands International, which also owns Tim Hortons and Popeyes.  
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Deposit',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

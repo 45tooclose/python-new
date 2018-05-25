@@ -1,0 +1,79 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        International Flavors & Fragrances Inc. (IFF), the leading business which produces and markets flavors, fragrances and cosmetics ingredients, has announced a deal to acquire Frutarom Industries Ltd., a flavor and fragrance company based in Tel Aviv, Israel, in a cash and stock deal valued at $7.1 billion.
+Acquisition Creates a Global Leader
+New York-based IFF aims to create a global leader in taste, scent and nutrition, expanding its global consumer base and complementary product portfolio. The deal brings Frutarom's diversified product line under the IFF umbrella. With a 30,000 strong customer base spread across 150 nations, Frutarom has over 70,000 products in its portfolio. Frutarom specializes in natural products that generate three-quarters of its sales.
+The combined entity is expected to have a total revenue of $5.3 billion in 2018 on a pro forma basis. The companies expect to realize around $145 million worth of cost synergies by the third year after deal closure, with around 25 percent expected to be achieved during the first year. These savings are expected through combined procurement, footprint optimization and reorganization of overhead expenses. Integrated solutions, combined research and development efforts, and cross-selling opportunities will further bolster revenue.
+What’s in it for Shareholders?
+The definitive deal involves a cash and stock transaction valued at approximately $7.1 billion, which will also cover Frutarom’s net debt. The shareholders of Frutarom, which is listed on the Tel Aviv Stock Exchange as well as on the London Stock Exchange, will receive $71.19 in cash and 0.249 of a share of IFF common stock for each Frutarom share they hold. Based on IFF’s Friday, May 4, 10-day volume weighted average price (VWAP), the total payout value comes to around $106.25 per share.
+Additionally, Frutarom shareholders will also be entitled to receive a special dividend, on a per share basis, equal to 0.249 of the per share value of IFF dividends at a future date.
+“This transaction is a big win and a fantastic outcome for shareholders, customers, and employees of both companies,” said IFF Chairman and CEO, Andreas Fibig. “Frutarom has an extremely attractive product portfolio, including broad expertise in naturals and diverse adjacencies with capabilities beyond our core taste and scent businesses. It also has significant exposure to complementary and fast-growing small- and mid-sized customers. By combining our deep R&D expertise with Frutarom’s, we are offering our customers a broader range of solutions and accelerating our growth strategy. We believe this combination will lead to faster and more profitable growth, enhanced free cash flow and generate greater returns for our shareholders.”
+Shares of IFF declined more than 7 percent during premarket ET hours, while Frutarom stock price surged marginally by 0.4 percent on the LSE. (See also, Top 4 Cosmetics Stocks of 2018.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

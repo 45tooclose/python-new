@@ -1,0 +1,93 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Certificates of deposit (CDs) are favorites among individual investors interested in fixed-income instruments. Like bonds, they pay interest – only, at maturity, as opposed to periodically. They're highly liquid. And because they're available only through banks, they carry FDIC insurance.
+A popular use of CDs is through the practice of creating "laddered" portfolios, which provide a highly customized and safe way to produce cash flows. In this article, we will take a look at CD laddering and show you how to easily set up a portfolio.
+CD Laddering
+A  CD ladder strategy involves spreading your investment across multiple CDs with varying maturity dates. The point is to create a portfolio that produces periodic cash, in the shape of interest distributions customized to fit your needs.
+For example, you could invest $10,000 in 10 CDs to create quarterly cash flows for the next two and a half years (where one $1,000 CD would mature every quarter). As the CDs mature, you simply reinvest your original outlay into new investments to perpetuate the quarterly cash flows.
+A laddered CD portfolio requires constant maintenance, although your local banker can make it less painful by automatically renewing your CDs.
+Benefits of CD Laddering
+Laddering CDs can provide several benefits to individual investors. Individuals can customize their cash distributions. For example, someone may want monthly interest payments, or perhaps they only need money once a year.
+CDs also offer FDIC insurance against default should a bank become insolvent. With the exception of U.S. Treasury bonds, which are also backed by the federal government, no other vehicle offers such protection for fixed-income investors.
+Additionally, by laddering CDs, investors are able to customize their aggregate (or total) rate of interest, generally on the upside. For example, an investor may only purchase three-month CDs to produce quarterly cash flows, realizing a relatively low rate of return. With a laddered CD portfolio, however, they can still achieve quarterly payments, but with a much higher total portfolio rate of return, because longer maturity CDs generally pay higher interest.
+Purchasing CDs
+There are two ways to purchase CDs. The first way is directly through a bank, which is straightforward and doesn't carry commissions. Generally speaking, banks offer different rates of return depending on their respective need to draw customer deposits. Moreover, FDIC insurance only protects a finite amount of money per client per bank. So you may need to shop around to get the best rate and fully protect your assets.
+In these instances, investors often use a brokerage house rather than searching from bank to bank in order to save time. Because brokerage houses do not issue CDs, only broker them, any CD purchased through a broker is traded like a bond and commissions are involved. In itself, this practice is benign, but you need to be on the lookout for a few things. The first factor to consider is how commissions will affect your CDs' yield to maturity (YTM). Although a CD may pay a stated amount of interest, your actual YTM could be materially lower depending on commissions. Secondly, you also need to be aware of what might happen should you need to cash in your CD before it matures. This is something brokers often fail to mention until after the sale is completed, or not at all, and it can cost you.
+A Few CD Considerations
+If you cash in your CD early at a bank you will typically forfeit some amount of interest, but your principal is always safe. With a brokered CD, however, the only way out is to get another person to buy your CD on the open market. Because CD markets, like bond markets, fluctuate with changes in interest rates, you could end up losing your principal just as if you had sold a bond.
+For example, if you purchase a CD when the prevailing interest rate is 5% and sell it when rates are 10%, you will lose substantial principal. On the other hand, if the situation were reversed, you would end up making money. So, like any other securities market, the CD market is also a double-edged sword of gains and losses. (See also: It's In Your Interest.)
+Additionally, keep in mind that FDIC insurance rules also apply to all bank CDs, whether they are purchased directly from a bank or a brokerage house. So if you are a large investor, you will need to deploy your assets across multiple institutions or account names to take full advantage of FDIC insurance.
+The Bottom Line
+All in all, like any other investment, the practice of using laddered CDs depends entirely on your personal financial goals. Generally speaking, they are great for people who want safety of capital, predictable cash flows and simplicity. CDs are very easy to understand, to access and to structure to meet your financial goals.
+On the other hand, the rates of return for CDs are generally low due to the safety they offer. Moreover, they offer no special tax treatment to save money on local, state or federal taxes; therefore, if you are in a high tax bracket, they are difficult to justify. If you are in a low tax bracket, they make a lot more sense.
+Just keep in mind that the safest course of action with CDs is to go through your bank and make sure your deposits are covered by FDIC insurance limits. If you decide to go through a brokerage house, understand that you have introduced a variety of risky variables like commissions, the questionable motivations of salespeople (the broker) and potential loss of principal. Keep it simple and reap the benefits.
+The ladder strategy can be used with other instruments, by the way. For details, see Boost Bond Returns With Laddering.
+ 
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Deposit',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

@@ -1,0 +1,146 @@
+
+
+    
+                          What is 'Weighted Alpha'
+
+      Weighted alpha is a weighted measure of how much a stock has risen or fallen over a certain period, usually a year. Generally, more emphasis is placed on recent activity by assigning higher weights to later prices than those assigned to earlier movements. This helps to give a return figure that has a greater focus on the most current period and is a more relevant measure for short-term analysis. This technique is popular with technical analysts.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Weighted                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Weighted Average                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Weighted Average Market Capitalization                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Weighted Average Credit Rating                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Weighted Alpha'
+      Weighted alpha uses weighted mathematical calculations to arrive at an alpha performance figure. Alpha is a performance indicator that shows how much a security has returned above a specified benchmark.
+Weighted Alpha Calculation
+Weighted calculations give an assigned weight based on various factors. Indexes use weighting to give higher weight to securities by price or market cap. In a weighted alpha calculation, higher weight is typically given to more recent time period returns over a time series.
+Weighted alpha calculations usually focus on one year of a security’s return. In general, if a security has a positive weighted alpha, an investor can assume its price has been gaining over the past year. Adversely if a security’s price has a negative weighted alpha, investors can assume that the one-year price return is lower.
+Weighted Alpha = [ Sum of (Weight x Alpha) ] / 365
+In a weighted alpha calculation, weights can vary based on preferences or technical analysis software programs. Some weighted alpha calculations may assign weights by quartiles while others use a standard decreasing weight methodology.
+Weighted Alpha Inferences
+Weighted alpha is used by a variety of investors. Most commonly technical analysts will use weighted alpha as an indicator for supporting buy and sell signals. Technical analysts use this measure to identify companies that have shown a strong trend over the past year and, more specifically, to focus their attention on companies whose momentum is building. When weighted alpha is positive it can support a bullish buy signal. When weighted alpha is negative it can support a bearish sell signal.
+As an example, consider a stock that has experienced several highs and lows over the last year through both bullish and bearish trending patterns. A technical analyst using a Bollinger Band channel may see that the price is approaching its support trendline. If the stock has a positive weighted alpha it can be an affirmation that the stock’s price has largely been gaining over the last year supporting another bullish push higher.
+In another scenario a trader may see a stock’s price reaching and beginning to exceed its resistance band in a Bollinger Band channel. Often this is a signal of a reversal and would indicate a sell signal. However, if this security has a positive weighted alpha it is more likely to break beyond its resistance level and move higher. Therefore, the weighted alpha could support a buy trade in this scenario.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'ActiveTrading',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

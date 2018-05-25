@@ -1,0 +1,146 @@
+
+
+    
+                          What is a 'Basket Option'
+
+      A basket option is a type of financial derivative where the underlying asset is a group, or basket, of commodities, securities or currencies. As with other options, a basket option gives the holder the right, but not the obligation, to buy or sell an underlying asset at a specific price, on or before a certain date.
+This exotic option has all the characteristics of a standard option, but with the basis of the strike price on the weighted value of its components. Currency baskets are the most popular, and they will settle in the holder' s home currency.
+Because it involves just one transaction, a basket option often costs less than multiple single options.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Options On Futures                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Currency Option                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Pegging                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            In The Money                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Basket Option'
+      A currency basket option provides a more cost effective method for multinational corporations (MNCs) to manage multi-currency exposures on a consolidated basis. For example, a global corporation such as McDonald's might buy a basket option involving Indian rupees and British pounds, in exchange for U.S. dollars.
+Technically, an equity index option is a basket option because the underlying asset is a weighted basket of component stocks. However, because the index is a standardized basket where a third party calculates and maintains it, index options trade similar to individual options and are not considered exotic options.
+Characteristics of Basket Options
+The most important feature of a basket option is its ability to efficiently hedge risk on multiple assets at the same time. Rather than hedging each individual asset, the investor can manage risk for the basket, or portfolio, in one transaction. The benefits of a single transaction can be great, especially when avoiding the costs associated with hedging each and every component of the basket or portfolio.
+Since each basket is unique, these options involve two counterparties and trade over-the-counter. This type of trading limits liquidity, and there is not a guaranteed way to close the options trade ahead of expiration. Some traders might open a partially offsetting trade with another counterparty on a slightly different basket or related individual assets. 
+For example, an option on a commodities index might partially offset an option on the investor's specific basket of commodities. A Standard & Poor's index option might partially offset an option based on a portfolio of blue chip stocks. And an option on the U.S. Dollar index might partially offset an option on a basket of global currencies. 
+A problem for basket option pricing is that a basket or portfolio does not react in the same way its individual components do. This makes sense because investors often structure diversified portfolios so that component assets do not correlate. Therefore, a basket may not necessarily react to changes in volatility, time and price level in the same way as its components do individually.
+A rainbow option is a similar type of derivative with a basket of underlying assets. However, unlike a basket option, all the assets underlying a rainbow option must move in the intended direction. Another name for the rainbow option is a correlation option.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

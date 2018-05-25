@@ -1,0 +1,63 @@
+
+
+
+    
+    
+    
+          
+    A:
+            Gross income includes all of the income a person receives during a year that is not explicitly exempt from taxation, whereas taxable income is the amount of income that is actually subject to taxation, after all allowable deductions or exemptions have been subtracted from the gross income.
+Gross Income
+Gross income is the starting point from which the Internal Revenue Service (IRS) calculates an individual's tax due. Some people confuse their gross income with their wages. While wage earnings often do make up the bulk of it – typically more than 80% of total reported gross income in the U.S. – gross income incorporates much more – any income (earned or unearned) not explicitly designated by the IRS as tax-exempt, in fact.
+Other sources include job-related moneys, like bonuses or commissions; royalties and gambling winnings; and various investment returns: bond interest; capital gains or dividends from stocks;  or income from property rentals. Some withdrawals from retirement accounts – like required minimum distributions (RMDs) – Social Security benefits or disability insurance income may also qualify to be included in the calculation of gross income.
+Self-employed individuals/business owners and businesses calculate gross income in a slightly different way. Gross business income is not the same as gross revenue; rather, it's the total revenues obtained from the business, minus any allowable business expenses – gross profit, in other words. Gross income for business owners is referred to as net business income.
+Taxable Income
+Taxable income is not a term found the IRS' lexicon; rather, it's a layman's term that can have a few different meanings. Usually, though, it's the equivalent of what the IRS technically calls adjusted gross income (AGI): the number left over after you apply deductions, credits and other tax considerations to your gross income.
+There are numerous items that significantly reduce the gross income figure for an individual to the actual taxable income or AGI in IRS-speak.
+One of the first deductions from gross income is the appropriate personal exemption for an individual and his spouse and dependents. In addition to the personal exemption, taxpayers can take further deductions, either in the form of a standard deduction or by itemizing.
+Itemizing deductions often reduces an individual's tax liability more than the standard deduction if he has a significantly large amount of medical costs (including health insurance paid out-of-pocket, not through paycheck deductions), charitable contributions or other itemizable expenses, like student loan interest payments, alimony, and mortgage interest. Contributions to a qualifying individual retirement account (IRA) or 401(k) plan further reduce an individual's taxable income.
+The Bottom Line
+There are many exceptions, limitations, rules and other complications that affect the computation of your taxable income. Generally speaking, however, you want to maximize your gross income and minimize your AGI, since that's the figure that counts, as far as the IRS is concerned, to determine your actual tax bill. Most Americans calculate their taxable income on Form 1040. Form 1040 is designed to help individuals arrive at gross income, apply deductions one at a time and, ultimately, produce an AGI number to apply to taxes or tax benefits.
+For more detail, see "What are the differences among gross income, adjusted gross income and modified adjusted gross income?"
+        
+    
+
+    
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'RoboAdvisor',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'FAQ'
+    });
+                

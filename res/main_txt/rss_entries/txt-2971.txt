@@ -1,0 +1,205 @@
+
+
+
+Taiwan Tightens Grip on Cryptocurrencies, Cites Money Laundering Anxieties
+Taiwan's government broke from its typical blasé attitude with cryptocurrencies to call for a new regulatory framework.
+
+
+ by  Miguel
+Gomez,
+17 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  Taiwan’s lax attitude to cryptocurrencies might come to an end soon, as the government follows the example set by other Asia-Pacific countries and calls for a new regulatory framework. Qiu Taisan, the country’s justice minister, set a deadline of November 2018 for these regulations, which will focus chiefly on money laundering prevention.
+According to reports, the deadline comes before the Asia Pacific Group on Money Laundering comes to visit the country and audits its current anti-money laundering regulations. Gu Lixiong, chairman of the Financial Supervisory Commission, confirmed that the framework would take more aim at money laundering than anything else. He also confirmed that banks have already been instructed by the FSC to classify any Bitcoin accounts as “high-risk clients”.
+
+Taiwan was usually one of the few “safe haven” countries in Asia where cryptocurrency operators could do their thing without much interference. The previous chairman of the FSC, Wellington Koo, was staunchly against any harsh measures that would jeopardize the cryptocurrency or ICO markets in the country.
+
+“Just because China and South Korea are banning doesn’t mean that Taiwan should follow suit—there is a huge opportunity for growth in the future. We should emulate Japan, where they treat cryptocurrency as a highly regulated, highly monitored industry like securities,” he said.
+
+To be fair, Lixiong and Taisan aren’t calling for any radical measures. Simple anti-money laundering regulations for cryptocurrency market operators also exist in Japan, a country with a flourishing ecosystem full of exchanges.
+It’s all a matter of perspective. Taiwan is regulating its exchanges and financial businesses, but from the outset it doesn’t look like they are trying to push them into the sea.
+Right now, it’s still too soon to make a call on whether the country is breaking away from its original trend or simply trying to rein in a market out of fear that it will run amok. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

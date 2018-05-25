@@ -1,0 +1,77 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        As on-demand streaming platforms like Netflix Inc. (NFLX) and Amazon.com Inc.'s (AMZN) Prime Video gain popularity, one team of bulls on the Street foresees shares of Roku Inc. (ROKU) outperforming as the dominant leader in streaming video devices. 
+The Los Gatos, California-based company manufactures hardware that allows customers to access internet-streamed video or audio services through televisions, and licenses its operating system to television manufacturers. Roku went public in September at an initial public offering price (IPO) of $14. While the stock has more than doubled since its debut on the Nasdaq, it has sharply underperformed the broader market this year, down 36.6% year-to-date (YTD) at a price of $32.80 on Tuesday morning. By comparison, the S&P 500 has declined 1.3% in 2018. 
+In a note to clients Monday, KeyBanc Capital Markets initiated coverage on Roku stock at overweight, expecting a turnaround as the firm posts strong sales growth over the next two years. Analyst Evan Wingren highlighted Roku's "strong competitive position" and "improving fundamentals" as the "unique platform play" continues to capitalize on the growth of long-form streaming video. 
+ROKU as a Long-Term Value Play
+"We believe its purpose-built TV operating system, OEM relationships, growing platform, and early content efforts set it up for long-term value creation as streaming video continues to see adoption globally," wrote the KeyBanc analyst. Roku, the leader in the video streaming player space with an over 35% hold over the market, sold its operating system in about 20% of smart TVs in U.S. and Canada last year, wrote Wingren. He expects the company to generate sales growth on its platform by over 60% annually through 2019. 
+"Roku players and smart TVs enable it to capitalize on the growing secular shift to streaming video," wrote KeyBanc. "Although the majority of streaming viewing has shifted to ad-free environments, we believe that ad-supported streaming will continue to see strong adoption over the long run and could provide a tailwind to Roku."
+Wingren's 12-month price target of $42 implies an approximate 28% upside from Tuesday as shares trade up roughly 1%. (See also: Roku Shares Could Fall 50% Further.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

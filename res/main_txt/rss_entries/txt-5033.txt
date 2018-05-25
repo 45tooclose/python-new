@@ -1,0 +1,92 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Cryptocurrencies have gained enormous popularity due to many factors. Two important ones among those are the features of privacy and anonymity that cryptocurrency networks offer which allow a user to keep their identities as well as their transactions concealed. Amid mounting concerns about data privacy, the world of cryptocurrencies is also becoming worried about threats to user privacy. (See also, Leaked Photo Suggests NSA Infiltrated Cryptocurrencies.)
+Let’s have a look at the top privacy-oriented cryptocurrencies, which have several built-in privacy features. They claim to offer enhanced and fool-proof security to keep the network user’s identities and their activities completely concealed. All figures are as of early May 2018.
+Monero (XMR)
+At the top of the list stands Monero, the cryptocurrency whose popularity and adoption has been on the rise in the virtual world primarily due to its anonymization characteristic. Monero transactions are un-linkable and untraceable as it uses the concepts of ring signatures and stealth addresses to hide the identities of the sender and the receiver. Additionally, Ring Confidential Transactions, or RingCT, is used to hide the transaction amount, ensuring complete anonymity. (For more, see What Is Monero (XMR) Cryptocurrency?)
+As of May 2018, Monero has the 12th largest market cap with an exchange rate of around $245.
+Dash (DASH)
+Originated as a fork of Bitcoin, Dash emerged as a blend-word for Digital Cash in January 2014, and is defined as “the first privacy-centric cryptographic currency.” It uses a coinjoin anonymization strategy called PrivateSend (earlier known as DarkSend) which anonymizes the transactions carried out by its users. It obfuscates the transaction details by mixing transactions of multiple participants and projecting them as one single transaction. For example, if there are transactions from A to Z, B to Y, and C to X, then Dash mixes them up so that they appear on the Dash blockchain as A, B, C to X, Y, Z. This mechanism ensures that there is no way to know who transferred what amount to which other participant. A minimum of three such transactions are required for the coinjoin mixing. (For more, see What Is Dash Cryptocurrency?)
+Dash ranks 13th on the list of cryptocurrencies by marketcap, and has an exchange rate of $482 against the US dollar.
+Verge (XVG)
+Instead of relying on cryptographic techniques, Verge banks on the existing and tested technology of The Onion Router (TOR) and the Invisible Internet Project (I2P) to protect user's identities. TOR bounces a user’s communications over a distributed network of relays and tunnels run by volunteers spread across the globe thereby hiding the user’s identity, while I2P encrypts user data before sending it through an anonymous, peer-to-peer and volunteer-run globally distributed network. It allows hiding the location as well as IP addresses of the transacting participants.
+Verge recently made headlines when a popular adult website adopted it to start accepting cryptocurrency payments. The primary reason for the development was Verge’s privacy features. (For more, see Pornhub Partnership Ups Verge Cryptocurrency Price.)
+Verge ranks 24th by marketcap, and has an exchange rate of 8.13 cents.
+ZCash (ZEC)
+ZCash defines itself as “If Bitcoin is like http for money, Zcash is https," underlining its enhanced security and privacy features. ZCash has implemented a cryptographic tool called Zero-Knowledge Proof and grants participants an option to shield transactions. It allows participants to transact without any of them revealing their addresses to the other(s). Zero-Knowledge Proof also obfuscates the transaction amount.
+ZCash ranks at number 27 in the list of cryptocurrencies by market cap and has an exchange rate of $297. (See also, What Is ZCash?)
+Bitcoin Private (BTCP)
+Bitcoin Private emerged as a unique “fork-merge” of two popular cryptocurrencies - Bitcoin and ZClassic. The fork-merge occurred on February 28, 2018, and the main net was launched on March 3.
+Essentially, Bitcoin Private attempts to combine the security and popularity of Bitcoin along with the privacy features of Zclassic, which itself is a fork of ZCash. It offers the same privacy features as ZCash.
+Bitcoin Private currently stands at 38th rank in the list of cryptocurrencies by market cap, and has an exchange rate of $38.90.
+The Bottom Line
+While privacy is a much-desired feature in the virtual world, it also brings in the perils of criminal use. Cryptocurrency operators have to constantly fend off numerous hacking attempts by malicious participants, and their anonymous users are prone to investigations by law enforcement agencies and regulators. Though Bitcoin remains the most popular cryptocurrency, it is constantly being targeted for tracking its users. (For more, see NSA Helped Track Down Bitcoin Users, Snowden Papers Allege.)
+Investing in cryptocurrencies and Initial Coin Offerings ("ICOs") is highly risky and speculative, and this article is not a recommendation by Investopedia or the writer to invest in cryptocurrencies or ICOs. Since each individual's situation is unique, a qualified professional should always be consulted before making any financial decisions. Investopedia makes no representations or warranties as to the accuracy or timeliness of the information contained herein. As of the date this article was written, the author owns no cryptocurrencies.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

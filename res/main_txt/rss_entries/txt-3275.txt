@@ -1,0 +1,75 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Microsoft Corporation (MSFT) shares initially moved lower in the aftermath of its third quarter financial results, but they recovered on Friday following new guidance and analyst upgrades. Revenue rose 15.6% to $26.82 billion – beating consensus estimates by $1.05 billion – while earnings per share of 95 cents beat consensus estimates by 10 cents per share. The strongest growth came from server and cloud services, which grew 20%.
+On its conference call, the company provided fourth quarter revenue guidance of $28.8 billion to $29.5 billion, which was higher than the $28.08 billion consensus estimate. JPMorgan analysts upgraded the stock from Neutral to Overweight and increased their price target to $110 per share, which represents a significant premium to the current market price. Additional analysts could weigh in on the results next week and provide potential catalysts for traders. (For more, see: Microsoft Jumps After Earnings Beat.)
+
+From a technical standpoint, Microsoft stock rebounded from the 50-day moving average at $93.06 to break out from R1 resistance at $96.65 and prior highs, but it remains within its price channel dating back to December of last year. The relative strength index (RSI) appears neutral with a reading of 56.82, but the moving average convergence divergence (MACD) continues to trend higher past the zero line, suggesting potential for a further rebound ahead.
+[Learn to develop a trading strategy using supplemental indicators like the RSI and the MACD in Chapter 4 of the Technical Analysis course on the Investopedia Academy]
+Traders should watch for a breakout from the upper end of its price channel at around $100.00 to R2 resistance at $102.02 or a breakdown to retest support at the 50-day moving average or pivot point at $91.86. Despite the positive financial results, traders should tread carefully moving into next week given that Friday's black candlestick shows a close below the highs of the day. That said, the intermediate trend remains bullish. (For additional reading, check out: Microsoft: 7 Secrets You Didn't Know.)
+Chart courtesy of StockCharts.com. The author holds no position in the stock(s) mentioned except through passively managed index funds.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Chartadvisor-Article'
+    });
+                    
+            
+                

@@ -1,0 +1,148 @@
+
+
+    
+                          What is the 'Percentage Price Oscillator - PPO'
+
+      The percentage price oscillator (PPO) is a technical momentum indicator that shows the relationship between two moving averages. To calculate the PPO, subtract the 26-period exponential moving average (EMA) from the 12-period EMA, and then divide this difference by the 26-period EMA. The result is then multiplied by 100. The indicator tells the trader where the short-term average is relative to the longer-term average.
+Here is the PPO calculation:
+{(12-day EMA – 26-day EMA) / 26-day EMA} x 100
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Exponential Moving Average - EMA                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Moving Average Convergence Divergence ...                     
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            McClellan Oscillator                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Price Zone Oscillator                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Percentage Price Oscillator - PPO'
+      
+The PPO and the moving average convergence divergence (MACD) are both momentum indicators that measure the difference between the 26-period and the 12-period exponential moving averages. The main difference between these indicators is that the MACD reports the absolute difference between the exponential moving averages, whereas the PPO expresses this difference as a percentage. This allows a trader to use the PPO indicator to compare stocks with different prices more easily. For example, regardless of the stock's price, a PPO result of 10 means the short-term average is 10% above the long-term average.
+Example of Percentage Price Oscillator                                                                                             
+
+Comparing Securities
+The PPO’s percentage values allow traders to use the indicator to compare different securities easily. This is particularly useful if the securities vary significantly in price. For example, A trader who is comparing Apple, which is trading at $160, and Amazon, which is trading at $1,460, could compare the indicator’s oscillating range for each stock to determine which one is more volatile. For instance, if the PPO’s range for Apple is between -3 and +3, and Amazon’s PPO range is between -2 and +3, it is evident that Apple is more volatile because it has a 6 point range compared to Amazon’s 5 point range. The PPO indicator is also useful for comparing momentum between securities. Traders simply need to look at which stock has the higher PPO value. 
+Trading with the Percentage Price Oscillator
+The PPO generates trading signals in the same way the MACD does. The indicator generates a buy signal when the PPO line crosses the trigger line from below to above, and a sell signal when PPO line crosses the trigger line from above to below. The trigger line is created by taking a 9-period moving average of the PPO line (see example above.)
+Centerline crossovers also generate trading signals. Traders consider a move from below to above the centerline as bullish, and a move from above to below the centerline as bearish. The PPO crosses the centerline when the 12-period and 26-period moving average cross.
+Traders can use the PPO to look for technical divergence between the indicator and price. For example, If the price of a security makes a higher high, but the indicator makes a lower high, it may indicate the bullish momentum is subsiding. Conversely, if a security’s price makes a lower low, but the indicator makes a shallower low, it could suggest that the bears are losing their traction. (For further reading, see: How Do I use the Price Percentage Oscillator (PPO) to create a forex trading strategy?)
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

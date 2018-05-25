@@ -1,0 +1,78 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        The world of digital currency exchange-traded funds suddenly became more newsworthy late last month, as news broke that Grayscale Investments LLC had hired Samantha McDonald of SPDR Gold (GLD) and SPDR Long Dollar Gold Trust (GLDW) to serve as vice president for finance. McDonald previously served as chief financial officer and treasurer of those two ETFs. GLD is the largest ETF that invests directly in physical gold. In her new role, McDonald oversees finance, accounting, and legal for Grayscale. What does it mean that a top executive from the gold ETF world has moved over to the realm of digital currency ETFs?
+A Boost for Grayscale
+According to Grayscale CEO Barry Silbert, the addition of McDonald to the team could help the firm to expand its reach as digital asset ETFs continue to become increasingly common and popular. Silbert explained that McDonald brings "a wealth of knowledge and experience managing ETFs and other complex financial instruments" to her new role, adding that "she will play a critical role for Grayscale as digital currencies continue to grow as an asset class for institutional and individual investors," according to a report by PRNewsWire.com.
+Grayscale is perhaps best known as the provider of single-asset and diversified investment products, most notably Bitcoin Investment Trust (GBTC), the first publicly-quoted instrument which was solely invested in bitcoin.
+McDonald Sees Links Between SPDR, Grayscale
+In a statement, McDonald expressed excitement at the new opportunities, saying that "the growing family of products at Grayscale reminds [her] of the early days of SPDR." She added that "Grayscale sits at the forefront of digital currency investing and the company has enormous potential to further establish itself as the innovator in this developing marketplace."
+While cryptocurrencies more broadly have dramatically increased in prominence and popularity in the past few years, traditional investors and financial firms have generally been more hesitant to get involved in the space. Digital currency ETFs in particular have faced a steep uphill climb, dealing with pushback from analysts and those in the larger ETF community who are skeptical about the potential for investment success, as well as continued and unresolved issues regarding the legal status of cryptocurrencies like bitcoin. That McDonald, a storied executive in the traditional ETF space, has made the move to the digital currency ETF world may help to strengthen investor interest and trust in that area.
+Investing in cryptocurrencies and Initial Coin Offerings ("ICOs") is highly risky and speculative, and this article is not a recommendation by Investopedia or the writer to invest in cryptocurrencies or ICOs. Since each individual's situation is unique, a qualified professional should always be consulted before making any financial decisions. Investopedia makes no representations or warranties as to the accuracy or timeliness of the information contained herein. As of the date this article was written, the author owns bitcoin and ripple.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

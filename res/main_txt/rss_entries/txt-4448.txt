@@ -1,0 +1,145 @@
+
+
+    
+                          What is 'Tied Selling'
+
+      Tied selling is the illegal practice of a company providing a product or service on the condition that a customer purchases some other product or service. It is frequently used in reference to banks and referred to as coercive tied selling, but is also associated with the sales practices of product tying or bundling, which may be legal in some contexts. Tied selling may also be referred to as a "tying arrangement" or a "tying agreement." 
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Points                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Home Mortgage                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Purchase Mortgage Market                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Mortgage Originator                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      Breaking Down 'Tied Selling'
+      Tied selling is related to the practice of "tying," the often-illegal arrangement where, in order to buy one product, the consumer must purchase another product that exists in a separate market. Tying may be applied more broadly than tied selling, which refers specifically to a banking practice and is a more common term in Canada. Tied selling in a banking context is often referred to as "coercive tied selling." Tied selling is referred to in that country's Bank Act, which addresses coercive tied selling thusly: "A bank shall not impose undue pressure on, or coerce, a person to obtain a product or service from a particular person, including the bank and any of its affiliates, as a condition for obtaining another product or service from the bank."
+In the United States, tying falls under the wider legal umbrella of illegal competition that was originally censured by the Sherman Antitrust Act and refined in later acts. Tying as a practice, as well as "tied-in" selling or "tied" products is addressed by both the Federal Trade Commission (FTC) and the U.S. Department of Justice (DOJ). 
+Tied Selling vs. Tying vs. Bundling
+Tied selling differs from bundling, which combines products and can afford consumers lower prices that if items were purchased individually, and preferential pricing, which is better pricing if a customer uses more of a company's goods or services. The distinction between tying (illegal) and bundling (legal within limits) is an important one for businesses to understand. 
+Tied selling may be used as a means of price discrimination in that it may help banks (or other companies) consolidate a customer's business within a single provider. It may also stymie competition by giving larger, full-service companies an edge over smaller, single-service providers or those with more limited product lineups, such as with startup companies. In the context of bundling, tying may be beneficial to a consumer, providing discounts for bundling related products (such as fast food value meals that are cheaper than if their component parts were purchased separately or more favorable rates, fees or terms for banking products when multiple service services are used). Bundling or tying may also provide better service or product experience for consumers, such as if a computer manufacturer limits the use of a specific type of peripheral hardware or software because aftermarket options may create errors or damage their product.
+Tied Selling Example
+An illegal example of tied selling would be when your bank's mortgage specialist tells you that you qualify for a home mortgage but the bank will approve it only if you transfer your investments to the bank or its affiliates. You want the mortgage, but you don't want to move your investments.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Deposit',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

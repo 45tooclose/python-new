@@ -1,0 +1,77 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Amazon.com Inc. (AMZN) stepped up its battle for Indian e-commerce dominance, formally making an offer for Flipkart, the local internet retailer that is in deal talks with Walmart Inc. (WMT).
+Reuters, citing India's CNBC-TV18, reported that Amazon offered to purchase a 60% stake in one of the leading e-commerce players in the country. According to the report, which cited unnamed sources, Amazon is also dangling a $2 billion breakup fee to address concerns that a deal between Amazon and Flipkart could run afoul of regulators in India. The report noted the offer for the majority of Flipkart should be similar to what Walmart is offering to get a crack at the more than 1 billion consumers in the country. (See also: Walmart in Talks to Become the Largest Shareholder in Amazon India Rival.)
+Last month Bloomberg reported the Bentonville, Arkansas-based retailer was likely to emerge as the winner of the bidding war with it offering around $20 billion. While talks in April were centered on Walmart acquiring a minority stake, sources told Bloomberg it could increase to between 50% and 60%. The size depends on Flipkart shareholders'—including SoftBank and Tiger Global Management—willingness to sell. Walmart could pay around $7 billion for a one-third of Flipkart, noted Bloomberg at the time.
+Walmart Vs. Amazon
+Flipkart’s board had appeared to be leaning toward Walmart over Amazon because it thinks the deal will have fewer hurdles. Walmart doesn’t have an online presence in India, but as of this year, Amazon has emerged as the leading e-commerce player in the country. Flipkart’s founders, Sachin and Binny Bansal, also prefer a deal with Walmart because they believe it would allow them to continue leading the company, reported Bloomberg.  (See also: Amazon Sees Groceries as Bulk of Indian Business.)
+With India seen as the next bastion of growth for e-commerce Amazon and Walmart have been picking up their efforts in the country. Whichever one proves successful will get access to 1.3 billion consumers in a market that is just starting to embrace e-commerce. Amazon has already vowed to pour $5 billion into India and the efforts are already paying off.
+According to Quartz, which cited data from 7Park Data, as of April, Amazon’s market share in India stood at 44%, down from 50% at the start of the year, but still ahead of Flipkart, which controls about 40% of the market, Quartz reported. Part of the reason why Amazon has been successful is that it has an offering that provides customers with lower prices and at the same time gives them access to several services. Take Amazon Prime: It offers Indian customers two-day delivery, the ability to stream video and music and other perks for $15. That has drawn a slew of Indians who are price sensitive to the e-commerce giant.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

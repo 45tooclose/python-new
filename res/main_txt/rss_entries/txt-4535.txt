@@ -1,0 +1,88 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        The cryptocurrency world is full of uncertainty that swings both ways: On the one hand, there has been incredible optimism among investors and developers at the potential future of the digital currency space (some of which has led to speculation, some analysts argue). On the other hand, though, and related to this sense of optimism, there have also been more than a few fraudulent schemes and outright scams that have cost investors dearly. Initial coin offerings (ICOs) are a prime example of the dichotomy at play here. For every NEO and ethereum, projects that have used massively successful ICOs to launch disruptive new products and platforms, there are at least a few ICOs that have been overhyped at best, or criminal at worst.
+Whether you're approaching an ICO from the perspective of a developer or a startup founder who is looking to make the most of your concept, or if you're an investor who is assessing whether or not to consider investing in a particular new project that remains untested, it's essential that you be able to determine whether or not a given ICO has what it takes to be successful. While it is impossible to predict whether an ICO will be as tremendously successful as a project like ethereum, it is more readily possible to find red flags in an ICO that might give you an indication that staying away is the best move.
+The Basics: The Whitepaper
+Investors should always do due diligence before entering into a new investment. This is one of the oldest tenets in the financial world, and it nonetheless bears repeating. Particularly in a space as fast-paced as cryptocurrencies, it can be easy to jump on board with a herd mentality and without having fully appraised a potential investment opportunity. For ICOs, there are at least three things to consider as fundamental aspects of the project.
+First, it's essential that you take time to thoroughly read and analyze the whitepaper for any given project. This is a document, typically available on the project's website that outlines the aims and strategies of that project at various levels of detail. Explore the whitepaper with a critical eye, looking for areas that might be problematic. Some projects, for example, have stratospheric ideas but little by way of a practical approach for achieving those goals. Others may lack crucial details about certain elements of implementation that leave you wondering whether the project is truly feasible. A good whitepaper is not a guarantee of success, but an incomplete, hastily written, or otherwise problematic whitepaper can be a sign of failure to come. Conversely, if you're preparing a whitepaper for the launch of your ICO, know that investors will pore over every detail. It pays to spend the time to make sure it is thorough and well presented.
+A good whitepaper should include various levels of detail. There should be some type of basic roadmap that lays out a clear and reasonable timeline and plan of action for achieving goals. There should be a clear and succinct vision statement; companies lacking a statement of this kind may not have sufficient focus to be able to achieve real success. If a whitepaper has glaring issues with spelling, formatting or grammar, this may be reason for pause; however, keep in mind that whitepapers are commonly presented in English, even though projects making use of whitepapers are taking place all over the world. A project whitepaper with issues like these may not necessarily be a scam, but it should give you cause for a bit of concern. Whitepapers that seem to suggest that investors must buy into the project immediately are often considered suspect, as are those that don't provide substantial data and figures to back up claims.
+The Basics: The Team
+Next, take time to research the team of individuals associated with the project. There have been high-profile projects claiming team members who in actuality have had no affiliation with the project at hand. There have even been cases where companies have falsified information about non-existent people that they claim as team members. Again, it can be difficult to gauge these things; as an investor, approach the situation with caution and trust your gut. (See also: How to Identify Cryptocurrency and ICO Scams.)
+The Basics: The Research
+Do as much external research as you can about the project, focusing on reputable sources. Beware of herd mentality, and insure that you feel comfortable with the project before entering an investment.
+In the process of researching an ICO, it can be helpful to consider what other potential investors have said about that project. However, keep in mind that consensus among peer investors can be forged or purchased. Before trusting what an anonymous user in an online forum posts about a particular project, consider that user's other postings. Cross-reference their comments with their posting history, particularly with regard to questions of scams and ploys.
+Public Information
+ICOs can be incredibly diverse in terms of their focus and goals. However, all successful ICO projects share a few traits in common. One of these is financial transparency. Companies that withhold financial information that should reasonably be available to potential investors may be hiding something. For a sense of what is reasonable to expect with regard to financial information that should be publicly available, take time to familiarize yourself with many different ICO projects. The more experience you have viewing and analyzing the specifics of these projects, the better your sense for what is standard and what is insufficient will be.
+Token Ownership
+ICOs make use of tokens in order to fund their projects. Investors buy up tokens that have been specifically created or assigned for the project at hand and on the hopes that those tokens will increase in value as the project is launched successfully. It's important to know about how tokens are distributed and owned before making an investment in an ICO.
+Before buying into an ICO, consider why the company is releasing its own token rather than using an established one. Learn about how the ICO itself will work, how tokens will be distributed, and what the company plans to have happen with tokens following the sale. Many successful ICOs have a balance of token distribution: Some are retained for the team itself as a means of motivation. Projects with too many or too few tokens can be problematic, so it pays to learn about whether there is a cap to the number of tokens generated and whether there are individual caps on purchasers. If not, a single investor or small group could buy up a significant portion of the tokens, thereby preventing an even distribution. While there is no single successful model for token ownership and distribution, you should be looking for a well-considered and sensible plan.
+There are many, many factors to consider before either investing in or launching an ICO. The best way to prevent yourself from falling victim to a scam is to do thorough research. The more that you know about the industry as a whole, the better you'll be able to recognize those projects that are suspicious. Conversely, you'll also be better able to find potential investment opportunities that provide a real possibility for success, both in the short and the long terms.
+ 
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '',
+     'leadGenVertical' : '',
+     'leadGenLayout' : '',
+     'leadGenPage' : ''
+    });
+                    
+            
+                

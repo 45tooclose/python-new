@@ -1,0 +1,213 @@
+
+
+
+Goldman Sachs Starts Trading Cryptocurrency Derivatives
+One of the largest investment banks in the world decided to start playing the cryptocurrency game, a predictable move after hiring Justin Schmidt last month.
+
+
+ by  Miguel
+Gomez,
+15 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  Less than a month after hiring Justin Schmidt as its first-ever head of digital assets, Goldman Sachs, one of the largest investment banks in the world, started has trading cryptocurrencies.
+At this point, Goldman Sachs isn’t necessarily purchasing or selling any Bitcoin. Instead, it will be trading derivatives based on the cryptocurrency, using its own stockpile of money with its clients.
+However small this step may seem, it’s just one more stepping stone towards legitimacy for cryptocurrency enthusiasts the world over. This doesn’t mean that Goldman Sachs believes in Bitcoin, though.
+
+“I would not describe myself as a true believer who wakes up thinking Bitcoin will take over the world. For almost every person involved, there has been personal skepticism brought to the table,” said Rana Yared, managing director of the securities division at Goldman.
+
+Until recently, financial institutions viewed Bitcoin as an untouchable asset. For the most part, that’s still the case. However, the launch of Bitcoin futures by CBOE and CME put the cryptocurrency world on the launchpad to mainstream status.
+The snowball effect continued as more financial institutions, particularly in Europe and Asia, began to take this phenomenon seriously.
+Seeing Goldman Sachs dive into cryptocurrency trading was something unthinkable a few years ago. This move by the company now illustrates how far the market has come and how much more it can travel.
+
+Yared said that the company chose to act in this fashion because it’s come to the conclusion that Bitcoin is neither a fraud nor a currency, choosing instead to treat it as a commodity like gold.
+
+“It resonates with us when a client says, ‘I want to hold Bitcoin or Bitcoin futures because I think it is an alternative store of value,’” she added.
+
+On the other hand, Justin Schmidt, Goldman’s new hire, wants to get his hands on Bitcoin itself as quickly as possible. He said that the bank must first acquire approval from the Federal Reserve.
+Both Yared and Schmidt agree, however, on the fact that Bitcoin doesn’t yet provide storage options that are up to the standards of people who regularly trade on Wall Street. If Goldman is to engage with Bitcoin directly, it will have to find a solution to store the cryptocurrency for its clients that isn’t vulnerable to theft.
+Schmidt’s statements seem to show a slight air of optimism regarding the company’s cryptocurrency ambitions, suggesting that Goldman Sachs might warm up to it even further.
+If it does, this will only further cement the status that these digital coins have been gaining over the past few months. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

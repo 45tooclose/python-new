@@ -1,0 +1,144 @@
+
+
+    
+                          WHAT IS 'Two-Step Mortgage'
+
+      A two-step mortgage offers an initial interest rate for an agreed-upon introductory period, usually five or seven years or during the construction of a property, after which the interest rate is adjusted to reflect prevailing interest rates.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Fixed-Interest Security                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            ARM Index                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            First Mortgage                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Home Mortgage                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Two-Step Mortgage'
+      A two-step mortgage is an attractive option for borrowers in certain situations. Borrowers who want to enjoy a lower-than-market interest rate and monthly payment over the first several years of the loan are are the classic consumers for a two-step loan. Other common two-step borrowers are homeowners who expect to sell the home before the initial period expires. Buyers willing to bet that interest rates will drop during the loan’s initial rate would make likely candidates for a two-step loan.
+Lenders are attracted to two-step because they bring in borrowers who might not otherwise qualify for a traditional loan, and the market risk represented by rising interest rates is absorbed by the borrower. Typically, the interest rate at the end of the initial period will be higher than the initial rate. This makes the loan more profitable deal for the lender when the borrower chooses not to refinance over the course of the loan. This is rare, since the two-step borrower is very likely to refinance or sell the property in order to avoid the interest rate hike.
+Two-step vs adjustable-rate mortgages
+Two-step mortgages are often referred to as adjustable-rate mortgages, or ARMs, but the terms are not interchangeable. Two-step loans feature one re-adjustment of a loan’s interest rate at the end of the initial rate period. At this point, the interest rate is locked in for the life of the loan, often 25 years. ARMs, however, come in many varieties and will often readjust the borrower’s interest rate many times over the remainder of the loan. ARMs are typically referred to by a pair of numbers describing their terms: a 5/5 ARM makes its first rate adjustment at five years, then once every five years following. A 7/1 ARM does not adjust until the 7-year mark, then each year following. A 2/28 ARM adjusts after two years, then remains at the adjusted level for the remainder of the 30-year loan. This type of ARM is a two-step mortgage.
+The two-step construction loan
+Another type of two-step loan is designed to help buyers finance an initial stage of construction, followed by a more traditional loan. A separate construction phase is necessary because the collateral used for a traditional loan, the home itself, does not yet exist. This loan is generally interest-only, with a higher interest rate but much shorter life than a standard loan. The lender typically approves both the homebuyer and the contractor, and releases payments to the contractor on an as-needed basis. Once construction is complete, the loan can be rolled into a typical mortgage or paid off before setting up a mortgage for the completed project.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Mortgage',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

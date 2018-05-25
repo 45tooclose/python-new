@@ -1,0 +1,147 @@
+
+
+    
+                          What is 'Near Term'
+
+      Near term is a period of time referring to a short time into the future. Near team is used to describe events that may occur soon. In finance, the term is often used to explain the timeframe during which an event or change is expected to occur. It can mean different timeframes based on the industry, security being traded or business.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Event Study                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Event Driven Strategy                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Triggering Event                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Event Risk                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Near Term'
+      Financial market analysts may use the near term in reference to events including profits, the issuance of bonds, expectations for the next quarter, etc.
+For example, Company ABC is likely to export very little gasoline in the near term due to a 20 percent loss of refining capacity following the emergency shutdown. Also, an analyst may indicate that stock XYZ has a bright near-term outlook, meaning the company is expected to do well in the next few months.
+Those investors making investments in near-term securities may be trading options with a looming expiration date or in a one month government bond. Or they may be looking at near-term chart trends when day trading a stock.
+Near Term in Economics
+In economics, a reference to near term may refer to a level of growth in a common indicator such as gross domestic product (GDP), inflation, consumer spending or the cost of labor.
+As an example, the Federal Reserve may be planning to monitor the near-term level of weekly jobless claims to gauge whether or not to change interest rate policy at an upcoming meeting. Or Congress may be waiting to receive the near-term trade deficit numbers before deciding whether to pass economic legislation aimed at closing the gap by lowering taxes on exports.
+Near Term in Business
+When discussing business, near term may refer to an active or soon-to-be active period of time that an event may take place. A company may have a revised near-term debt rating due to a recent deterioration of a company's financials, whether from a lawsuit, public relations disaster or sudden change in industry regulations.
+Near-term sales are often pegged to a series of short timeframes. Often broken down into quarters, an "athleisure retailer" for example may be expecting a blowout sales number due to a heavily-marketed endorsement from an influential celebrity or professional athlete.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

@@ -1,0 +1,77 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Investors sold off of Tesla Inc. (TSLA) stock this week in light of the electric vehicle manufacturers's most recent quarterly earnings call, in which Chief Executive Officer Elon Musk proved yet again that there is seldom a dull moment when it comes to his Silicon Valley car company. Some on the Street criticized the widely followed serial entrepreneur's dismissal of a couple of analysts questions, in which he called them "boring" and "not cool" as he shifted attention toward a pro-Tesla YouTube personality. (See also: Why Tesla Is Burning Through Cash.)
+Morgan Stanley's Adam Jones called Tesla's Q1 call the most unusual he had experience in his two decades on the sell side. Yet not all took the bizarre stand off between Musk and his questioners as a reason to become more bearish on the stock. In fact, the Palo Alto, California-based company scored its most bullish outlook yet from a team of analysts who expect the stock to skyrocket nearly 83% over 12 months.
+Trading up about 1.9% at $289.81 on Friday afternoon, TSLA reflects a 6.9% loss year-to-date (YTD) and a 1.9% decline over the most recent 12 months, underperforming to the S&P 500's 0.5% fall and 11.3% return over the same respective periods. 
+TSLA to 'Almost Reach Positive FCF by Year End'
+After Tesla's Q1 results, New Street Research initiated coverage on shares of the automaker at outperform with a price target of $530, topping the previous Street high by $60 and forecasting a market capitalization of as high as $300 billion. 
+"We find Tesla will almost reach positive free cash flow by year end, despite missing unreasonable early production volume expectations," wrote New Street Research analyst Pierre Ferragu, formerly of Sanford Bernstein. In the three months ended April, Tesla burned through cash slower than analysts expected, exceeding top line and bottom line estimates and reiterating a targeted rate of about 5,000 Model 3 units per week in two month's time. Despite falling short of its goal to product 2,500 Model 3s by the end of Q1, the automaker said its weekly production for its first mass-market sedan went as high as 2,270 in mid-April.
+On Friday, Musk took to Twitter Inc. (TWTR) in defense of his combative tone with analysts on the Q1 call, reminding his followers that Tesla is the most shorted U.S. equity, and has been for a while, indicating that the two questions he ignored were from sell-side analysts hoping to dig for comments that would support their bearish thesis on TSLA. (See also: Musk Promises 'Short Burn of the Century'.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

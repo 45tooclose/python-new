@@ -1,0 +1,92 @@
+
+
+
+    
+        
+            
+        
+          
+                
+      
+
+    
+
+    
+        Retirement can be financially difficult for many Americans. The median retirement account balance in the United States is below a level that will sustain a retiree until death. With Social Security benefits on the decline, this provides many Americans with a retirement problem.
+If retiring Americans are looking to maximize their retirement, it's a good strategy to retire to Southeast Asia, in one of many countries that offer a tropical lifestyle for a bargain. One of the most popular retirement destinations in Southeast Asia is Thailand, which offers a low cost of living and a relaxing lifestyle.
+1. Low Cost of Living
+The cost of living in Thailand is much lower than in the U.S. It's possible to rent a one-bedroom apartment in a city center for about $370 per month, and you can buy a one bedroom home for $234 per square feet. That said, ownership isn't as easy as putting down money. Technically, foreigners are not allowed to own property in Thailand, but there are some loopholes and exceptions that make foreign ownership possible.
+Food, transportation and entertainment also cost comparatively less than they do in the U.S. The cost of living is over 40% lower than in the U.S., so a retiree can live a comfortable lifestyle in Thailand.
+While the dollar hasn't been as strong against the Thai baht as in the past, inflation has remained low. As of the first quarter of 2018, the Thai baht has hovered near 3-1/2 year highs against the dollar. But inflation has barely edged up 1% since early 2017, somewhat mitigating the impact of the weaker dollar.
+2. Delicious Food
+Thai restaurants are some of the most popular international eateries in the U.S. If a retiree enjoys this type of food, Thailand offers an immediate benefit for eating and entertaining. In fact, Thailand has many native dishes that are unavailable in the U.S. However, local Thai food tends to be even spicier than that offered in America.
+It's also possible to take Thai cooking classes for an affordable price. This provides retirees with a fun activity that doubles as a great method for eating.
+If Thai food isn't a retiree's favorite cuisine, Thailand still offers comfort food fit for an American. Many local stores offer simple pleasures, such as cheese, American wine and peanut butter. Additionally, the country has a diverse selection of restaurants. Japanese sushi, Indian curry, pizza and sandwiches can be found throughout most major cities.
+3. Tropical Climate and Exotic Setting
+With multiple islands, Thailand offers a retirement locale complete with tropical beaches and an exotic lifestyle. The climate in Thailand is humid and often takes time for newcomers to get used to, but places such as Phuket provide affordable alternatives compared to more expensive tropical locations.
+4. Central Travel Location
+Thailand has become the travel hub of Southeast Asia and is a good place to start traveling to the rest of Asia. Many airlines offer discount flights in and out of Thailand. Living in Thailand allows a retiree to travel to China, Japan and Vietnam for extended vacations.
+5. Availability of Retirement Visas
+Retirement visas in Thailand are available to foreigners who are 50 and older. These types of visas are valid for a 12-month period and can be renewed without needing to leave the country, which makes living in Thailand extremely easy for American retirees. To qualify, a foreigner must first apply for and receive a non-immigrant visa and then a retirement visa. To receive a retirement visa, a foreigner must open a Thai bank account and show proof that they have access to funds over the 12-month period.
+In terms of funds, a retiree must show that they will have access to at least THB 800,000, or just over $25,380, over a one-year period. The person can put the full amount in a Thai bank account; or show that they have monthly retirement funds of THB 65,000, or just over $2,062 per month; or show that their combined monthly retirement payments and bank savings will equal at least THB 800,000 or $25,380.  
+6. High Number of Expats and Foreigners
+The Thailand government reported that it saw over 35 million foreign visitors in 2017 and expects that number to rise to 37.55 million in 2018. It's possible for retirees to meet other retirees, expats and tourists. This also means that most Thai businesses are familiar with foreigners, which makes it easy for retirees to live in Thailand.
+7. Low Language Barrier
+Many locals in Thailand speak English well, especially in the more southern part of the country. With a low language barrier, retirees can confidently move to the country and deal with the many necessities of relocation, such as finding a home.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'IRA',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

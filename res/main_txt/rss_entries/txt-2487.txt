@@ -1,0 +1,114 @@
+
+
+
+
+Ethereum News
+ April 25, 2018 14:42
+ OKEx Suspends ERC20 Deposits on Discovery of Critical Ethereum Smart Contract Bug
+
+
+
+
+ 
+
+
+Advertisement 
+
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1513203250972-0'); });
+
+
+ 
+Join our community of 10 000 traders on Hacked.com for just $39 per month.
+Cryptocurrency exchange OKEx has suspended deposits of all ERC20 tokens after the alleged discovery of a serious bug in at least 12 smart contracts built to this token standard.
+In a statement published Tuesday, the Hong Kong-based exchange — third-largest in the world as measured by daily trading volume — announced the suspension of deposits, explaining that attackers have exploited a newly-discovered smart contract bug called “batchOverflow” to generate “an extremely large amount of tokens” out of thin air and then deposit them into a normal Ethereum address.
+From the statement:
+“We are suspending the deposits of all ERC-20 tokens due to the discovery of a new smart contract bug – ‘BatchOverFlow’. By exploiting the bug, attackers can generate an extremely large amount of tokens, and deposit them into a normal address. This makes many of the ERC-20 tokens vulnerable to price manipulations of the attackers.”
+“To protect public interest, we have decided to suspend the deposits of all ERC-20 tokens until the bug is fixed. Also, we have contacted the affected token teams to conduct investigation and take necessary measures to prevent the attack,” the exchange operator added.
+Changelly, a cryptocurrency trading service that acts as a broker between users and exchanges, has also suspended ERC20 token trading in response to the exploit.
+
+Dear Customers, ERC20 tokens are temporarily unavailable due to an exploit check. We will bring them back, once we are sure there is no vulnerability in deposits received. Follow the updates! https://t.co/qYutri4X3X
+— Changelly.com (@Changelly_team) April 25, 2018
+
+A Medium post published over the weekend claims to have discovered the vulnerability, which the author says affects “more than a dozen ERC20 contracts.”
+According to the post, batchOverflow is a “classic integer overflow” issue, which occurs when an operation attempts to use a numeric value outside of the range that the variable is able to represent with its allocated number of bits.
+The post includes a proof-of-concept, which appears to show the researchers generating a nearly unlimited amount of tokens from a vulnerable ERC20 token contract.
+Source: Coinmonks/Medium
+It’s currently unclear how many and what specific tokens are affected by the bug, though it appears that BeautyChain (BEC) was among the first to be exploited, and exchanges first began to suspend BEC trading on April 22 and in some cases have rolled back BEC trades.
+This story is developing. Follow CCN for continued coverage.
+Follow us on Telegram.
+Advertisement
+
+
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1513203355638-0'); });
+
+
+
+
+
+
+POSTED IN:  Ethereum News, ICO News, News 
+
+TAGS:  beautychain, bec, Changelly, erc20 bug, erc20 token, okex 
+
+
+
+
+AUTHOR
+Josiah Wilmoth
+
+
+
+Share post
+
+ 
+
+
+
+
+Josiah is a full-time journalist at CCN. A former ancient and medieval literature teacher, he has been reporting on cryptocurrency since 2014. He lives in rural North Carolina with his wife and children. Follow him on Twitter @Y3llowb1ackbird or email him directly at josiah.wilmoth(at)ccn.com.
+
+
+
+
+
+
+
+
+
+	/* <![CDATA[ */
+		var disqus_url = 'https://www.ccn.com/erc20-bug-allows-attackers-to-print-some-tokens-out-of-thin-air-researchers-claim/';
+		var disqus_identifier = '135562 https://www.ccn.com/?p=135562';
+		var disqus_container_id = 'disqus_thread';
+		var disqus_domain = 'disqus.com';
+		var disqus_shortname = 'cryptocoinsnews';
+		var disqus_title = "OKEx Suspends ERC20 Deposits on Discovery of Critical Ethereum Smart Contract Bug";
+		var disqus_config = function () {
+			var config = this; // Access to the config object
+			config.language = '';
+
+			/* Add the ability to add javascript callbacks */
+			
+			/*
+			   All currently supported events:
+				* preData — fires just before we request for initial data
+				* preInit - fires after we get initial data but before we load any dependencies
+				* onInit  - fires when all dependencies are resolved but before dtpl template is rendered
+				* afterRender - fires when template is rendered but before we show it
+				* onReady - everything is done
+			 */
+
+			config.callbacks.preData.push(function() {
+				// clear out the container (its filled for SEO/legacy purposes)
+				document.getElementById(disqus_container_id).innerHTML = '';
+			});
+								};
+	/* ]]> */
+	
+
+	/* <![CDATA[ */
+		var DsqLocal = {
+			'trackbacks': [
+				],
+			'trackback_url': "https:\/\/www.ccn.com\/erc20-bug-allows-attackers-to-print-some-tokens-out-of-thin-air-researchers-claim\/trackback\/"		};
+	/* ]]> */
+	

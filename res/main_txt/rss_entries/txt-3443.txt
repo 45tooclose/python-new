@@ -1,0 +1,148 @@
+
+
+    
+                          What is a 'Keltner Channel'
+
+      A Keltner Channel is an envelope channel used in technical analysis to chart bands around security price candlestick patterns. It includes a moving average center line and two boundary bands. The trendlines are constructed from two ten-day moving averages of different varieties.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Envelope                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Price Band                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Upper Management                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Shale Band                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Keltner Channel'
+      Keltner Channels were introduced by Chester W. Keltner in his 1960 book “How to Make Money in Commodities.” Keltner Channels are typically an alternative channel pattern used in conjunction with signals from standard envelope channels such as Bollinger Bands or Donchian Channels. Different variations for calculating the trendlines in a Keltner Channel have also been generated due to market modifications since the original Keltner Channels were introduced.
+Keltner Channel Construction
+Keltner Channels begin with a center trendline drawn from a ten-day moving average that considers the high, low and closing price for the day.
+Center trendline: This trendline is a ten-day moving average of each day’s (High + Low + Close) / 3. 
+The upper and lower bands are drawn using trendlines that are based on the difference between the security’s ten-day moving average high minus low price for a single day.
+Upper band: The upper band is drawn from the ten-day moving average of each day’s high minus low.
+Lower band: The lower band is the inverse of the ten-day moving average of each day’s high minus low.
+See also: Discovering Keltner Channels and the Chaikin Oscillator
+Keltner Channel Trading Signals
+Using the designated upper and lower bands generates a relatively thinner channel than other comparable envelope channels. Thus, the signals for this channel can vary slightly from standard methodology. Generally, traders will want to buy when a price reaches its lower band (also known as the support level) and sell when it reaches its upper band (also known as the resistance level). With a Keltner Channel, traders tend to watch for movement beyond the resistance and support lines to indicate a trading signal. Thus, a candlestick pattern moving substantially above the resistance trendline is a sign to sell and a candlestick pattern moving substantially below the support line is a sign to buy.
+Keltner Channel Variations
+The methodology above is the standard for most Keltner Channels however it is important that traders understand how their technical system is charting Keltner Channels. This channel’s methodology has been modified since its introduction to include some different variations. Some Keltner Channel calculations will include a center trendline drawn from an exponential moving average with upper and lower trendlines drawn using the average true range.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

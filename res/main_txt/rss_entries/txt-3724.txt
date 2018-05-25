@@ -1,0 +1,150 @@
+
+
+    
+                          DEFINITION of 'S&P 500/Citigroup Growth Index'
+
+      S&P 500/Citigroup Growth Index is a market-capitalization-weighted index developed by Standard and Poor's in conjunction with Citigroup. It consists of stocks within the S&P 500 Index that exhibit strong growth characteristics. The S&P 500/Citigroup Growth Index is the outcome of a numerical ranking system based on three growth factors and four value factors to determine the constituents and their weightings.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Dow Jones U.S. Total Market Index                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            S&P Phenomenon                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Standard & Poor's - S&P                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Capitalization-Weighted Index                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'S&P 500/Citigroup Growth Index'
+      The index is determined by the basic growth and value factors below.
+Growth factors:
+Five-year earnings per share growth rate
+Five-year sales per share growth rate
+Five-year internal growth rate
+Value factors:
+Price-to-book ratio
+Price-to-cash flow ratio
+Price-to-sales ratio
+Dividend yield
+Index Performance
+The S&P 500/Citigroup Growth Index is the basis for iShares S&P 500 Growth ETF (exchange-traded fund), whose ticker symbol is IVW. In the five-year period from 2012-2017, IVW had risen 162%, compared to the most common benchmark, S&P 500 Index, which had increased 139%. The primary reason for the outperformance of the growth index was the fact that the growth index contained (and continues to contain) companies like Apple, Amazon, Microsoft, Facebook and Google, all high-octane growth companies during that period.
+Index Hazard
+Investors who buy into passive vehicles like ETFs must be aware that they are inherently momentum-driven because they are tied to underlying assets that are weighted by market capitalization. If a group of technology stocks in an index increases rapidly in market value, the passive funds and ETFs are forced to buy the stocks to keep in line with the index. The demand pressure bids up prices of the shares, resulting in additional gains of the growth index. The "benign circle" of increasing prices, however, can suddenly and unexpectedly break and potentially devolve into a vicious cycle in which share prices fall, decreasing the index value and causing more selling by passive vehicles to maintain balance with the underlying index.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

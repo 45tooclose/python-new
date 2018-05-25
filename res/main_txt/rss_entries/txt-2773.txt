@@ -1,0 +1,226 @@
+
+
+
+Bezop in the Line of Fire After Reports That It Leaked a Quarter of a Million Investors’ Personal Info
+Bezop is learning the hard way about shoring up its database to the hilt to avoid leaks that expose its users’ private information.
+
+
+ by  Tedra
+DeSue,
+19 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  Bezop, who enjoys the presence of John McAfee as an advisor, is being accused of leaking a bounty of its users’ personal information.
+News of the leak surfaced this week from Kromtech Security Center. Its researchers found the leak, which exposed everything ID thieves need to carry out their misdeeds.
+Let’s discuss.
+
+How this happened
+At the end of March, Kromtech’s researchers reported that they’d discovered a leak that exposed the full names, addresses, email addresses, encrypted passwords, and wallet information for more than 25,000 investors.
+But that’s not all. The researchers also found the leak put out to the public links to scanned passports driver’s licenses, and other IDs.
+The blame seems to rest squarely on the shoulders of Bezop. The researchers found that the MongoDB database in use had no security.
+According to Cripto Turk, the front end store side of the Bezop's system is based on MongoDB, HTML5, React JS, and Node.
+The McAfee connection
+As noted above, John McAfee is an advisor to Bezop’s’ board. At the beginning of the year, he tweeted the following about startup:
+
+ICO of the week: BEZOP.IO. Bezop is a distributed version of https://t.co/d4FBsqmKpI. it allows simple and secure creation of e-commerce sites - searchable in the same manner as Amazon - but with no Amazon as middle man. This could be as huge as it gets in the blockchain world.
+— John McAfee (@officialmcafee) January 2, 2018
+That tweet came on the heels of the Bezop token sale, which was held in December. The Bezop token is built on an open Ethereum Blockchain.
+Kromtech pointed out that around the time of the token offering, Bezop launched its first bounty program. The program was launched to allow people to earn its tokens in exchange for promoting it. They can post to social media sites like Facebook, as well as post to forums using an approved Bezop signature. They can also moderate forums, or write stories about Bezop to receive its tokens.
+According to Kromtech:
+
+One of the tables in the publicly open database was named “Bounty”, so it appears that the database left unprotected may contain the information for the people who invested and participated in this part of the program.
+
+Lesson learned
+In its note about its findings, a Kromtech writer didn’t mince words about how this leak doesn’t bode well for Bezop.
+Most would agree with Kromtech’s note that this is not a “very good start for a company such as this to place personal information of anyone on the Internet and open to the public, especially its early investors.”
+Also, few may disagree with the following statement from Kromtech:
+
+“In fact, it's a little difficult to grasp how it could happen, even if by mistake.  Given the changes to MongoDB, it would have to have been deliberately configured to be public, a configuration, which should not even be risked internally.”
+
+It was further stated how making investors’ personal information public was obviously not a good practice and a huge mistake to make.
+
+We hope that they ensure that their new product, which uses MongoDB as part of its design, and any future bounty programs using the same, will be configured far more securely than this MongoDB instance turned out to be.  Ease of use should never be placed above security, even during the development cycle.
+ 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

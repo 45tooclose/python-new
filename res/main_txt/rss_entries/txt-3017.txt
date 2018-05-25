@@ -1,0 +1,245 @@
+
+
+
+CV Market Watch™: Weekly Trading Overview ( 20-27 April)
+Despite a mid-week slump, both Bitcoin and altcoins recovered and continued with a smooth appreciation, as shakedowns become more limited.
+
+
+ by  Christine
+Masters,
+15 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  Bitcoin (BTC) showed its ability to preserve price levels, only dipping once to $8,800 before recovering the $9,000 levels. However, Bitcoin trading activity suddenly sank, from habitual levels of around 36% of all deals to about 30%, as altcoins stole the show.
+
+
+
+
+Digital Currencies Can Gain Mainstream Acceptance, Top Bank Regulator Says
+
+
+
+
+Bitcoin (BTC) climbed to $9.328.07, up around 5% in the past day, netting a 10% gain this week. The price dominance of BTC fluctuates all the time, falling to 37.7% as altcoins picked up the pace ahead of the weekend. Tethers (USDT) trading expanded to more than 15% of deals, while affecting several altcoins as well. The Japanese Yen is responsible for more than 54% of BTC trading. Volumes remain steady at around $7 billion in 24 hours.
+
+baseUrl = "https://widgets.cryptocompare.com/";
+var scripts = document.getElementsByTagName("script");
+var embedder = scripts[ scripts.length - 1 ];
+(function (){
+var appName = encodeURIComponent(window.location.hostname);
+if(appName==""){appName="local";}
+var s = document.createElement("script");
+s.type = "text/javascript";
+s.async = true;
+var theUrl = baseUrl+'serve/v3/coin/chart?fsym=BTC&tsyms=USD,BTC';
+s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+embedder.parentNode.appendChild(s);
+})();
+
+
+
+
+
+Study: Bitcoin Futures Curve Flat in Q1, Signs of Backwardation Emerge
+
+
+
+
+Ethereum (ETH) is getting more evidence of ICOs keeping the price depressed, as more projects have liquidated part of their holdings to fund developments. ETH climbed by 17% this week, to $680.20, but still not achieving anything close to a vertical climb.
+Ripple (XRP) had an exciting week with a low-ball selling order that crashed the market. However, XRP managed to recover to $0.83, while hopes of multi-dollar prices continue. XRP is almost flat this week.
+Bitcoin Cash (BCH, BCC) once again stole the spotlight, and was one of the strongest climbers, as it excited panic buying. However, BCH slid from the $1,500 levels quickly, settling for a net weekly gain of 36%. BCH moved to $1,402.07, after adding a more subdued 5% in the past day. However, BCH is seeing more bullish attitudes, and possibly a price of $3,000 at the next big rally.
+EOS (EOS) continued its climb, boosted by the process of node creator candidacies. EOS grew by 59% this week to $16.28 as interest in trading accelerated. EOS has less than 40 days to the mainnet launch, with a possibility to continue the price rally.
+
+Litecoin (LTC), displaced by EOS, remained habitually steady, with a net change of 2.9% since last week, at $152.71. The Korbit listing and trading did little for LTC prices.
+Stellar (XLM) is getting more active by the day, rising above $0.40 with predictions of $1 prices. XLM added a net 11% this week, to $0.41.
+Cardano (ADA) is drifting sideways, not picking up a trend, as the asset was overhyped a few months back, and now fails to incite interest. ADA grew by about 3% this week, to $0.29, still keeping much of the gains.
+IOTA (MIOTA) remains on the sidelines, but keeps up the pace. MIOTA added around 10% and toward the end of the week appreciated to $2.07.
+NEO (NEO) hovers at $76.90 as interest has waned a bit, up just 2.9% this week. Traders have moved to cheaper assets, and NEO has no room for growth. NEO is on the verge of a “flippening” with TRON, which gained speed this week.
+TRON (TRX) became the most mentioned crypto asset on Twitter, and may enter the Top 10 of coins at any time. TRX added a net 47% to its price, rising to $0.074.
+Monero (XMR) is at $263.16, looking at an upcoming hard fork at the end of the month. XMR added just 5% this week, as interest has waned.
+DASH (DASH) is adding value slowly, growing by about 12% in the past seven days to $493.22. A return to $1,000 prices may be slow to come.
+NEM (XEM) inched up to $0.40, up about 4% this week, but the coin has returned to a relatively obscure position.
+As altcoin season came along, the search for more exotic coins, which were still sleepers, accelerated price gains. OmiseGo (OMG) touched $20 and seems robust enough to keep the gains and continue upward. Other assets made dramatic speculative moves: ZClassic (ZCL) is once again entering danger territory on expectations of three-digit prices soon. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

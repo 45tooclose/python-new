@@ -1,0 +1,145 @@
+
+
+    
+                          What is 'Overnight Trading'
+
+      Overnight trading refers to trades that are placed after an exchange’s close and before its open. Overnight trading hours can vary based on the type of exchange in which an investor seeks to transact.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Overnight Position                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Translation Risk                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Currency ETF                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Canadian Overnight Money Market ...                     
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Overnight Trading'
+      Overnight trading encompasses a broad range of orders that are placed outside of standard market hours. Across the financial markets there are various avenues for trading through a variety of exchanges. The mainstream markets include stocks and bonds. Alternative markets may include foreign exchange trading and cryptocurrencies. Each market has standards for overnight trading that must be considered by investors when placing trades during off-market hours.
+Foreign Exchange
+The foreign exchange (forex) market is the largest in the financial industry and includes the trading of global currencies. Foreign exchange trading can be done 24 hours a day five days a week because of the multiple listing of currencies on global market exchanges. Therefore, foreign exchange markets will provide one exception to overnight trading constraints. Many day traders choose to trade foreign exchange currencies for this reason. The overlap of trading hours between exchanges in North America, Australia, Asia and European markets makes it possible for a trader to execute a foreign exchange trade through a broker-dealer at any time.
+Batch Trading
+Batch trading is an important trading mechanism that helps to ease the burden of an overabundance of trades placed in the equity markets overnight. Batch trading is used once per day at a market’s open. Batch trading is integrated into the basic concept of bid/ask execution. However, in the pre-market, trading prices are static which requires a market maker to execute a large batch of trades at the market’s open rather than dealing with the standard price fluctuations that occur throughout the trading day.
+Forward NAV
+Mutual funds are governed by a forward net asset value (NAV) pricing rule that requires all orders placed after the market’s close to receive the next day’s closing NAV price. This rule helps to ensure a smooth NAV accounting close at the end of each day for mutual funds. Since NAVs are only calculated once per day, a mutual fund investor may see a substantial difference in the closing price from one day to the next. For mutual fund investors, this can provide greater incentive to place a trade before the current day’s market close.
+Bond Markets
+Bonds in the secondary market also trade on exchanges throughout the day. Bonds are only issued on certain exchanges which limits their availability for 24 hour trading similar to equities. Also similar to equities secondary market bonds trade through maker makers. Bonds are listed on a variety of exchanges including bond exchanges at the NYSE and Nasdaq. Bond trading is overseen by the Securities Industry and Financial Markets Association (SIFMA) which also regulates the hours of trading. Bond market exchanges have expanded hours during regular business days. On the NYSE bonds can be traded from 4:00 a.m. EST to 8:00 p.m. EST.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

@@ -1,0 +1,284 @@
+
+
+    
+                        
+            
+                Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/Investing/Investing/IC-Video/Term");} else {return "/8397/INV-NA/Investing/Investing/IC-Video/Term";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/terms/w/wacc.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/E6cvhgya.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/E6cvhgya-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/thumbnails/live/120_wacc_2_421x236.jpg?quality=80&width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "560",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "E6cvhgya-G9NhEyAa.mp4";
+                
+          
+            document.addEventListener("DOMContentLoaded", function() {
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                        var initializeJWPlayerSetup = function () {
+                            if (new VideoInit().canRun()) {
+                                setUpJwpPlayer();
+                            } else {
+                                new VideoInit().callBack = setUpJwpPlayer;
+                            }
+                        }
+            initializeJWPlayerSetup();
+          });
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "E6cvhgya-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "Weighted Average Cost Of Capital (WACC)",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };            
+          
+                    What is 'Weighted Average Cost Of Capital - WACC'
+
+      Weighted average cost of capital (WACC) is a calculation of a firm's cost of capital in which each category of capital is proportionately weighted.
+All sources of capital, including common stock, preferred stock, bonds and any other long-term debt, are included in a WACC calculation. A firm’s WACC increases as the beta and rate of return on equity increase, as an increase in WACC denotes a decrease in valuation and an increase in risk.
+To calculate WACC, multiply the cost of each capital component by its proportional weight and take the sum of the results. The method for calculating WACC can be expressed in the following formula:
+
+Where:
+Re = cost of equity
+Rd = cost of debt
+E = market value of the firm's equity
+D = market value of the firm's debt
+V = E + D = total market value of the firm’s financing (equity and debt)
+E/V = percentage of financing that is equity
+D/V = percentage of financing that is debt
+Tc = corporate tax rate
+Explanation of Formula Elements
+Cost of equity (Re) can be a bit tricky to calculate, since share capital does not technically have an explicit value. When companies pay debt, the amount they pay has a predetermined associated interest rate that debt depends on size and duration of the debt, though the value is relatively fixed. On the other hand, unlike debt, equity has no concrete price that the company must pay. Yet, that doesn't mean there is no cost of equity. Since shareholders will expect to receive a certain return on their investment in a company, the equity holders' required rate of return is a cost from the company's perspective, since if the company fails to deliver this expected return, shareholders will simply sell off their shares, which leads to a decrease in share price and in the company’s value. The cost of equity, then, is essentially the amount that a company must spend in order to maintain a share price that will satisfy its investors.
+Calculating cost of debt (Rd), on the other hand, is a relatively straightforward process. To determine the cost of debt, use the market rate that a company is currently paying on its debt. If the company is paying a rate other than the market rate, you can estimate an appropriate market rate and substitute it in your calculations instead. 
+There are tax deductions available on interest paid, which is often to companies’ benefit. Because of this, the net cost of companies’ debt is the amount of interest they are paying, minus the amount they have saved in taxes as a result of their tax-deductible interest payments. This is why the after-tax cost of debt is Rd (1 - corporate tax rate).
+[To learn how to model WACC into a company's balance sheet, check out our course on Financial Modeling in Excel on the Investopedia Academy]
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Capital Funding                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Weighted Average                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Incremental Cost of Capital                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Economic Value Added - EVA                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Weighted Average Cost Of Capital - WACC'
+      In a broad sense, a company finances its assets either through debt or with equity. WACC is the average of the costs of these types of financing, each of which is weighted by its proportionate use in a given situation. By taking a weighted average in this way, we can determine how much interest a company owes for each dollar it finances. 
+Debt and equity are the two components that constitute a company’s capital funding. Lenders and equity holders will expect to receive certain returns on the funds or capital they have provided. Since cost of capital is the return that equity owners (or shareholders) and debt holders will expect, so WACC indicates the return that both kinds of stakeholders (equity owners and lenders) can expect to receive. Put another way, WACC is an investor’s opportunity cost of taking on the risk of investing money in a company.
+A firm's WACC is the overall required return for a firm. Because of this, company directors will often use WACC internally in order to make decisions, like determining the economic feasibility of mergers and other expansionary opportunities. WACC is the discount rate that should be used for cash flows with risk that is similar to that of the overall firm.
+To help understand WACC, try to think of a company as a pool of money. Money enters the pool from two separate sources: debt and equity. Proceeds earned through business operations are not considered a third source because, after a company pays off debt, the company retains any leftover money that is not returned to shareholders (in the form of dividends) on behalf of those shareholders. 
+Suppose that lenders requires a 10% return on the money they have lent to a firm, and suppose that shareholders require a minimum of a 20% return on their investments in order to retain their holdings in the firm. On average, then, projects funded from the company’s pool of money will have to return 15% to satisfy debt and equity holders. The 15% is the WACC. If the only money in the pool was $50 in debt holders’ contributions and $50 in shareholders’ investments, and the company invested $100 in a project, to meet the lenders’ and shareholders’ return expectations, the project would need to generate returns of $5 each year for the lenders and $10 a year for the company’s shareholders. This would require a total return of $15 a year, or a 15% WACC.
+Uses of Weighted Average Cost of Capital (WACC)
+Securities analysts frequently use WACC when assessing the value of investments and when determining which ones to pursue. For example, in discounted cash flow analysis, one may apply WACC as the discount rate for future cash flows in order to derive a business's net present value. WACC may also be used as a hurdle rate against which to gauge ROIC performance. WACC is also essential in order to perform economic value added (EVA) calculations.
+Investors may often use WACC as an indicator of whether or not an investment is worth pursuing. Put simply, WACC is the minimum acceptable rate of return at which a company yields returns for its investors. To determine an investor’s personal returns on an investment in a company, simply subtract the WACC from the company’s returns percentage. For example, suppose that a company yields returns of 20% and has a WACC of 11%. This means the company is yielding 9% returns on every dollar the company invests. In other words, for each dollar spent, the company is creating nine cents of value. On the other hand, if the company's return is less than WACC, the company is losing value. If a company has returns of 11% and a WACC of 17%, the company is losing six cents for every dollar spent, indicating that potential investors would be best off putting their money elsewhere.
+WACC can serve as a useful reality check for investors; however, the average investor would rarely go to the trouble of calculating WACC because it is a complicated measure that requires a lot of detailed company information. Nonetheless, being able to calculate WACC can help investors understand WACC and its significance when they see it in brokerage analysts' reports.
+Limitations of Weighted Average Cost of Capital (WACC)
+The WACC formula seems easier to calculate than it really is. Because certain elements of the formula, like cost of equity, are not consistent values, various parties may report them differently for different reasons. As such, while WACC can often help lend valuable insight into a company, one should always use it along with other metrics when determining whether or not to invest in a company.
+Need more WACC? Read Cost of Capital - Weighted Average Cost of Capital and Investors Need A Good WACC.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

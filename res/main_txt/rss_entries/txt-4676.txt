@@ -1,0 +1,144 @@
+
+
+    
+                          WHAT IS 'Required Cash'
+
+      Required cash is the total amount that a buyer must deliver to close on a mortgage or to finalize a refinance of an existing property.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Home Mortgage                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Mortgage Insurance                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            First Mortgage                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Silent Second Mortgage                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Required Cash'
+      Required cash describes the final amount that a buyer or refinancing homeowner brings to close a loan.  It can be delivered to the lender via bank wire or cashier's check. This can include the following: any down payment, cash to purchase points, insurance premiums and a long list of other fees and tax payments.
+In 2015, the Consumer Financial Protection Bureau, or CFPB, issued a ruling consolidating the forms used by lenders to disclose required cash to prospective and closing buyers. This rule combined the disclosures mandated by the Truth in Lending Act and the Real Estate Settlements Act. The new forms designed to satisfy both laws are known as the TILA-RESPA Integrated Disclosures, or TRID. Under the 2015 rule, lenders are required by the federal government to list required cash on a loan estimate form within three days of receiving a borrower’s application. Three days prior to closing, the lender is required to supply an updated estimate on a closing disclosure form. The forms are almost identical, allowing the borrower to look for material changes. Prior to 2015, this information was presented to the borrower on a good faith estimate, or GFE, form.
+Components of required cash
+Required cash is also referred to as cash to close. The largest portion of required cash is the down payment. Historically, the down payment was 10-20 percent of the purchase price. In the early 2000s, as home prices rose steadily and lending practices loosened, lenders offered loans with no required down payment. These were known as zero-down or no-money-down loans. Defaults on these loans contributed significantly to the financial crisis of 2008, and they become rare after that.
+A second component of required cash is money used to buy points. These payments allow borrowers to lower their interest rate in exchange for extra cash at closing. Essentially, the borrower is paying interest up front in order to secure a lower interest rate over the life of the loan.
+The loan estimate form will also list a series of other fees associated with the transfer of ownership, and these charges will be included in required cash. Such charges include a loan application fee, pest inspection fee, title search fee and a survey fee. Lenders must also list property taxes and prepaid interest due during the first month of ownership.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Mortgage',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

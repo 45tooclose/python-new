@@ -1,0 +1,140 @@
+
+
+    
+                          DEFINITION of 'Net Payoff'
+
+      Net payoff is the profit or loss from the sale of an item after the costs of selling it, any additional costs associated with the asset or experienced over the life of the asset, and associated accounting losses have been subtracted. This term is commonly used in describing real estate and investment transactions.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Multi Index Option                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Average Price Call                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Average Price Put                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Asset-Or-Nothing Call Option                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Net Payoff'
+      Net payoff is a term used to describe the "all in" gain or loss experienced after a sales transaction has been completed. When considering the sale of an asset, the seller should take into consideration not just the sale price, but how much the asset cost over its life, and the amount she will actually receive at the end of the transaction after commissions and any other associated taxes or fees are subtracted from the proceeds. The resulting amount is the net payoff.
+Example of Net Payoff
+For example, if Amy sells her house for $250,000, she will need to subtract her mortgage payoff amount, real estate agent's commission and any settlement fees from $250,000 to determine her net payoff.
+As another example, consider the sale of some shares of stock. The net payoff would be the amount received for the sale minus the trade commission.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

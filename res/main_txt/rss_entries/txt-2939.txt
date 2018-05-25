@@ -1,0 +1,142 @@
+
+
+    
+                          DEFINITION of 'National Securities Clearing Corporation - NSCC'
+
+      The National Securities Clearing Corporation or NSCC is a subsidiary of the Depository Trust & Clearing Corporation (DTCC) that provides centralized clearing, risk management, information and settlement services to the financial industry. The NSCC offers multilateral netting so that brokers can offset buy and sell positions into a single payment obligation. This reduces their financial exposure and capital requirements.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Depository Trust & Clearing Corporation ...                     
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Continuous Net Settlement - CNS                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Clearing Broker                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Depository Trust Company - DTC                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'National Securities Clearing Corporation - NSCC'
+      The National Securities Clearing Corporation was established in 1976 and is a registered clearing corporation, regulated by the U.S. Securities and Exchange Commission (SEC). Before its inception, strong demand for paper stock certificates had become nearly overwhelming for many  stock brokerages, causing the stock exchanges to close once a week. To overcome this problem, multilateral netting was proposed. This is an arrangement among multiple parties to sum transactions in a centralized area, rather than settle them individually. This helps avoid the need for multiple invoicing and payment settlements among various parties.
+The decision to work with multilateral netting led to the formation of the NSCC. Today, this corporation serves as a seller for every buyer, and buyer for every seller for trades that settle in U.S. markets. The NSCC helps reduce the value of payments exchanged by an average of 98% daily. In addition, it’s important to note that NSCC generally clears and settles trades on a T+2 basis.
+The NSCC and the Depository Trust Company or DTC (another subsidiary of the DTCC) play a major part in the settlement and clearing of securities transactions. They are the largest providers of these services, worldwide.
+NSCC and Depository Trust & Clearing Corporation (DTCC)
+As noted above the NSCC is a subsidiary of the DTCC or Depository Trust & Clearing Corporation. Along with the NSCC the DTCC manages an additional four clearing corporations and one depository. The DTCC is the world's largest financial services corporation dealing in post trade transactions. The DTCC’s core function is to integrate the NSCC and DTC, streamlining clearing and depository transactions in order to reduce costs and increase capital efficiency. (Founded in 1973 the DTC remains one of the world's largest securities depositories. The entity is organized as a limited purpose trust company and provides electronic safekeeping of securities balances. In addition the DTC acts as a clearinghouse to process and settle trades in corporate and municipal securities.)
+The DTCC takes offsetting positions with clients in every transaction to ensures that transactions are completed in a prompt and efficient manner. Clearing brokers associated with the DTCC are exchange members, who help ensure that trades settle appropriately and that transactions are successful. In addition these clearing brokers maintain paperwork associated with the clearing and executing of a transaction.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

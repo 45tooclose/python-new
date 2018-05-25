@@ -1,0 +1,141 @@
+
+
+    
+                          DEFINITION of 'Tailgating'
+
+      Tailgating is when a broker, financial advisor or another sort of investing agent buys or sells a security for a client, and then proceeds to make the same transaction for himself. While tailgating is not an illegal practice, it is frowned upon and considered unethical by professionals in the field.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Investment Advisor                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Financial Advisor                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Discretionary Account                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Client Base                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Tailgating'
+      Tailgating is legal; however, it is also a highly unethical act. It is easily confused with two other investment-related actions, both of which are illegal. Investors and practitioners should be aware that, while it may appear similar, tailgating is not the same thing as the practice of insider trading. While insider trading occurs when the purchase or sale of a security arises from confidential, or proprietary, information, tailgating takes place when the broker takes a cue or trade request from the client with the client's own information, and then places the same trade for his own account based on the information the client provided.
+Tailgating should also not be confused with the practice of front-running. While tailgating is seemingly more similar to front-running than it is to insider trading, front-running is an illegal action that occurs when the practitioner uses the investment information the client provided and performs the trade for himself before doing so for the client.
+Example of Tailgating
+Tom is an investment advisor for his client, Bill. Bill contacts Tom and provides him with information that Company A is planning to announce a reorganization of its management structure, which includes bringing in new managers to improve overall performance. With this provided information from Bill, Tom agrees with Bill the new management will most likely succeed in improving Company A's performance, and therefore increase in profitable investments. After purchasing the 1,000 shares for Bill as he requested, Tom proceeds to purchase another 1,000 shares for himself.
+As is gathered from the example above, tailgating is frowned upon, especially by professionals in the investment industry because the investment advisor who tailgates is essentially trying to bank on whatever information the client is personally going by in his trade request. In addition to the ethical issue, tailgating can often be a dangerous practice financially, depending on the information being relied upon. If the information provided by the client is false or faulty, the investment advisor is not only risking his reputation but also his bank account.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

@@ -1,0 +1,77 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Boston-based industrial conglomerate General Electric Co. (GE) has warned that it could put its dormant subprime mortgage lending business into bankruptcy protection, reported CNN. 
+The move would help the lending unit, called WMC Mortgage, deal with potential courtroom losses and other future liabilities, noted GE in a filing with the Securities and Exchange Commission (SEC) on Tuesday. The company shut down its mortgage business back in 2007 as the market for lending to risky borrowers collapsed, dragging the economy into a recession. For the past decade, the business has continued to face legal issues including lawsuits from investors and an investigation by the Justice Department. If GE loses one of those lawsuits, it could file for bankruptcy, the company wrote in the SEC filing. (See also: GE 'Most Expensive Stock' in Industry Sector: JPM.)
+WMC One of the Worst Lenders of Risky Mortgages
+The announcement marks the first time that the Dow Jones Industrial Average (DJIA) component has indicated that it is weighing declaring bankruptcy for the defunct lending unit. When GE acquired WMC in 2004 under former CEO Jeffrey Immelt, it was reportedly the country's sixth-largest subprime lender.
+WMC was targeted by federal bank regulators as one of the worst subprime mortgage lenders that fueled the 2008 financial crisis, which cost investors in the junk-quality assets to lose billions. Irrational exuberance and overwhelmingly high ratings on high-risk mortgage-backed securities caused the housing bubble to burst in the late 2000s. WMC, which lent to people with low credit scores before the crisis, was behind more than 10,00 foreclosures between 2005 and 2007. Now, investors are suing GE's WMC for allegedly misrepresenting the quality of the mortgages it sold and demanding it buy the mortgages back. 
+There are currently four pending lawsuits against WMC, including an alleged loss of more than $425 million on about $800 million worth of WMC mortgage loans from TMI Trust Co. In February, GE warned that WMC's losses could ultimately exceed the total value of the unit's assets. 
+Yet even if WMC files for bankruptcy, GE might not be off the hook in dealing with the unit's woes. At the very least, the filing would temporarily stop litigation against the lending unit as it seeks to limit its exposure. The process could also accelerate settlements that GE agrees to fund, as noted by The Wall Street Journal. WMC's filing Tuesday estimated possible losses of $500 million above its reserves. Last month, GE set aside another $1.5 billion to cover potential losses from a Justice Department investigation into WMC. (See also: GE Capital Could Have 'Zero Value,' Says Street.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

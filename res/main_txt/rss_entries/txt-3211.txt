@@ -1,0 +1,83 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        It’s likely that at one time in your life you have noticed an increase in the amount of available credit on your credit card. While this may not have been something you asked for or even wanted, you should feel special. This means your card issuer thinks you are an above average borrower, and wants to make sure you remain a loyal customer.
+Now, what if you took out a new credit card and the issuing company started you off with a fairly low credit limit? What if that limit wasn't raised after the first year? Should you ask for an increase? The answer is yes, and there are several good reasons why.
+Increase Your Credit Score
+When you increase your amount of total available credit, it lowers your credit utilization rate. also known as your credit utilization ratio. This is one of the factors FICO takes into account when determining your credit score, and having a high credit utilization rate can have a negative impact. For example, let’s assume that you started out with a credit limit of $1,000 and regularly have $800 charged onto the card; that means your credit utilization is at 80%. Now let’s assume you asked for a credit limit increase and now have a maximum of $5,000. If you are still charging $800 each month, your new credit utilization is now 16%.
+Receiving this increase in credit limit lowered your credit utilization, which ends up helping your overall credit score over the long term. Most credit experts recommend keeping this percentage at 30% or below. One important thing to consider is that when you request the increase in your credit limit, the issuer will be doing a hard credit inquiry, which will give you a short-term two to five point credit score decrease. However, if the issuer automatically gives you an increase, then there will be no hard inquiry.  (For more, see "3 Easy Ways to Improve Your Credit Score.")
+Avoid a Credit Score Decline
+Anyone that is looking to increase his or her available credit probably wants the ability to spend more with the card. This could be for a number of different reasons. You may want to put more of your everyday spending on the card to earn rewards. Maybe you have a big upcoming purchase that you want to use the card for. (For more, see "Rewards Credit Cards That Give Back the Most.")
+If you need extra credit, you have two options. You can work to get an increased credit limit on the current card, or you can take out a new card. While taking out a new card might be attractive because of the signup bonus it offers, it might not be the best choice for you. Every time you get a new card, your average length of credit decreases. Because this makes up 15% of your credit score, you could see a short-term decrease in your FICO score. (For more, see "What Is a Good Credit Score?")
+The next time you are looking to add more available credit, you are better off forgoing a new card and asking for a credit limit increase on an existing card.
+How to Ask for a Credit Limit Increase
+Now that you have made the decision to ask for a credit limit increase, you need to figure out how exactly you are going to ask for it – and hopefully reduce your chances of being turned down.
+The timing of your request is going to be a big factor. Consider for how long the account has been open. If you recently received the credit card, then you may want to establish some history with the account before asking for an increase. It’s also probably not the best time to ask for an increase if you have been bad at paying your bill on time or are currently behind on your payments. Make sure you establish a good track record for paying your bill by its due date before making your request.
+Once you have a credit history that will make the issuer smile, it is time to go ahead and call the number on the back of your card. Be prepared: They are probably going to ask you a lot of personal questions about your current employment and income. They will also ask you to explain why you need an increase in credit limit. Be honest with them, but also use this as an opportunity to make yourself look good. Tell them that you have a high FICO store or that you have been a long-time cardholder. Card issuers understand that there are a lot of other companies out there; as long as you are a good borrower, they want to keep you with them and not someone else.
+The Bottom Line
+Increasing your credit limit can have its advantages. The biggest one is that it can help reduce your credit utilization rate, which will help increase your credit score. Figure out the best time for putting in your request, and then go for it.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'CreditCard',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Medium-Article'
+    });
+                    
+            
+                

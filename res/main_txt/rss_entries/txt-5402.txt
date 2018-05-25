@@ -1,0 +1,84 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        For many digital currency enthusiasts, bitcoin and ethereum occupy central spaces as focal points. Beyond this, amateur investors may be aware of other cryptocurrencies like ripple or EOS, and they may also be familiar with gimmick tokens like dogecoin. Some of the other major digital currencies are often neglected, however; litecoin tends to be one of these cryptocurrencies which is all too frequently overlooked.
+As of this writing, litecoin occupies the No. 7 spot on the list of largest digital currencies by market cap, with a total circulation amounting to more than $9 billion worth of tokens. For some dedicated fans, however, litecoin remains a staple of the digital currency world, and its creator, Charlie Lee, earns reverence that is commonly reserved for Vitalik Buterin or even Satoshi Nakamoto. In this article, we'll take a look at who Lee is and how his experience has helped to shape litecoin today.
+Early Life and Beginning Career
+Charlie Lee was born in the west African nation of Ivory Coast, his parents having lived in that country for decades. When he was 13, Lee moved with his family to the United States, graduating high school in 1995 and attending MIT. Lee earned bachelor's and master's degrees in computer science, graduating in 2000.
+Even from the earliest stages of his professional career, Lee showed a keen interest in and aptitude for computer technology. In the early 2000s, Lee spent years working for a number of top tech companies, including Google and Guidewire Software. It was during his stint at Google as a software engineer that he began to develop the idea of litecoin.
+According to a biography on Medium, Lee's work at Google involved projects like YouTube Mobile and Chrome OS. In 2011, while working at Google, Lee learned about bitcoin while reading an article on Silk Road. This proved to be a crucial turning point for Lee; prior to this time, he had been searching for ways to get involved in the trading of gold. His personal background and economic beliefs led him to approach the Federal Reserve System with skepticism. In his search for a way of investing that was less reliant upon standard financial means, Lee became highly interested in bitcoin and the new blockchain technology that supported it.
+From Miner to Developer
+Along with many other early adopters of bitcoin who were also talented computer scientists, Lee began to experiment with mining. He also came into contact with Mike Hearn, a developer who worked on the core blockchain client software for bitcoin. These conversations and his interest in bitcoin inspired Lee to try his hand at developing his own digital currency, modeled after bitcoin. Lee was far from the only computer scientists and software engineer to make this attempt; in the early years of bitcoin, numerous developers were hoping to build the next bitcoin.
+Lee's first cryptocurrency project was called Fairbix. He developed this coin in September 2011, modeled after both bitcoin and Tenebrix, a currency that had been released earlier in the year. Indeed, Lee and the other members of his development team used large portions of the Tenebrix source code. While Fairbrix was not a success, due to a pre-mining issue and software bugs that left the coin susceptible to a 51% attack, it was not a completely useless endeavor; Lee would adopt the proof-of-work protocol from Fairbix for his later work with litecoin.
+Litecoin
+Just weeks after the failed release of Fairbrix, Lee released litecoin as well. Litecoin was modeled after the core bitcoin code, with several adjustments that Lee felt would improve upon bitcoin. These included the hashing protocol itself, the transaction time for blocks and the total maximum supply cap value, among others.
+Although litecoin was modeled after bitcoin, Lee has worked to present the cryptocurrency as an alternative to bitcoin, rather than as a competitor. Lee believes that litecoin is more useful for smaller transactions like online shopping, while bitcoin could be more useful for major international transactions.
+Since the release of litecoin, Lee has worked at Coinbase, the popular digital currency exchange. In June 2017, Lee left Coinbase to spend more time on litecoin. While litecoin has seen major success, in the spring of 2018 rumors began to circulate that Lee was planning on leaving his own cryptocurrency. Lee has stated that he will eventually leave the currency because he believes that his involvement as the leader of the network will prevent litecoin from becoming fully decentralized. As of early May 2018, Lee has not provided any further information about his future plans with regard to litecoin or other digital currency projects, nor has he indicated when litecoin users can expect him to extricate himself fully from the digital currency he created.
+Investing in cryptocurrencies and other Initial Coin Offerings (“ICOs”) is highly risky and speculative, and this article is not a recommendation by Investopedia or the writer to invest in cryptocurrencies or other ICOs. Since each individual's situation is unique, a qualified professional should always be consulted before making any financial decisions. Investopedia makes no representations or warranties as to the accuracy or timeliness of the information contained herein. As of the date this article was written, the author owns cryptocurrency.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

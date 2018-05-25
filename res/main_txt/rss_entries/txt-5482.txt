@@ -1,0 +1,140 @@
+
+
+    
+                          DEFINITION of 'Ballot'
+
+      A ballot is a document that a shareholder of a company fills in to vote on corporate matters contained in a proxy filing for an annual meeting. The ballot is typically completed and submitted (electronically or by mail) by shareholders ahead of an annual meeting, where vote results are officially tallied and recorded by the company secretary. The ballot can also be filled out at an annual meeting, which is open for all shareholders to attend in person.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Voting Right                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Shareholder                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Common Shareholder                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Proxy Fight                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Ballot'
+      At least once a year, a public company prepares a proxy statement (SEC Form DEF 14A) that details items put up for shareholder vote. Some of the items placed on the ballot are perfunctory such as approval of the audit fees and ratification of auditors. The re-election of existing members of the Board of Directors or approval to elect a new nominee also appears on a ballot, and although this voting matter is usually routine, there are instances where board members are voted out if enough shareholders believe they are not effective in their duties. Also in the category of usually-but-not-always is checking the box to approve executive compensation. This ballot item is a non-binding "say-on-pay" vote that sometimes can express some shareholder pushback on the amounts the Named Executive Officers (NEO) are paid in the forms of cash, equity and other non-cash compensation.
+In an increasing number of cases, shareholder proposals are placed on a ballot after a thorough vetting process. Such proposals can range from ESG-related matters (for example, a proposal to cease business in a country that ignores human rights) to overthrowing the entire Board of Directors. The proxy statement will show the voting recommendations of the Board on each ballot item, but each shareholder is given the opportunity to exercise his or her right to vote on important corporate matters with the ballot. The ballot can be a potent tool to effectuate positive change at a company; however, inertia, lack of concern, lack of awareness or a combination of all three leaves power in the hands of the Board of Directors and institutional investors (in many cases, passive funds that have large percentage holdings) to do as they please in almost all cases.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

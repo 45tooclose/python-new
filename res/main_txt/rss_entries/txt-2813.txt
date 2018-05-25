@@ -1,0 +1,139 @@
+
+
+    
+                          DEFINITION of 'Reintermediation'
+
+      Reintermediation can be used in several contexts within finance. Each context involves the introduction of money or an extra step into an already existing process or system.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Deposit Interest Rate                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Time Deposit                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Brokered Deposit                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Deposit In Transit                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Reintermediation'
+      Reintermediation can involve introducing money back into the banking system. Individuals withdrawing funds from non-bank investments such as real estate and depositing into bank and depositary financial-institution accounts constitutes reintermediation.
+Opposite of disintermediation. Reintermediation involves introducing a middle-man between a supplier and a customer. It creates extra steps in the supply chain and can cause the price to the end consumer to rise. This can be useful in a case where the end consumer might need extra help in picking the right good, and the middle-man can provide expertise on the entire market of goods as part of their service offering.
+Reintermediation usually occurs to secure federal deposit insurance on account funds, out of uncertainty about the movement of the financial markets or changes in the interest-rate environment. It is also used in this context in retail channels, such as when an industry decides to return to selling to wholesalers and ceases selling directly to consumers.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Deposit',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

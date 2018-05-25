@@ -1,0 +1,86 @@
+
+
+
+    
+        
+            
+        
+          
+                
+      
+
+    
+
+    
+        Choosing whether to lease a new vehicle instead of buying it largely comes down to one’s priorities. For some drivers, getting a new set of wheels is all about dollars and cents. For others, it’s more about forming an emotional connection to the car. Before opting for one path or the other, it’s important to understand the key distinctions.
+The major drawback of leasing is that you don’t acquire any equity in the vehicle. It’s a bit like renting an apartment – you make monthly payments, but have no ownership claim to the property when the lease expires. Consequently, you can’t sell the car a few years later and use the proceeds to help buy your next automobile.
+However, there are a number of cases where a lease offers a definite advantage. Its benefits include:
+Lower initial payments. If your monthly bill is a major concern, leases offer savings in the short-term. While you might pay a bit more interest, the principal portion of your payment is usually considerably less than that of a loan. As a result, lessees are often able to afford more luxurious cars than they otherwise could.
+A new car every few years. For a lot of people, there’s nothing like the feeling of driving away with a brand new ride. If you’re one of them, leasing may be the way to go. When the lease is up in a few years, you can return it and get your next new car.
+Worry-free maintenance. Many new cars offer a warranty that lasts at least three years or 36 months. So when you take out a three-year lease, most repairs you need will probably be covered. Leasing arrangements largely eliminate the possibility of a significant, unforeseen expense.
+No resale worries. Are you the type of person who hates to haggle? If so, the idea of selling your used car to a dealership or a private buyer probably has you reaching for the antacids. With a lease, you simply return the car. The only thing you have to worry about is paying any end-of-lease fees, including those for abnormal wear or additional mileage on the vehicle.
+Maximizing tax deductions. If you use your car for business purposes, a lease will often afford you more tax write-offs than a loan. That’s because the IRS allows you to deduct both the depreciation and financing costs that are part of each monthly payment. If you’re leasing a luxury automobile, however, the amount you can write off may be limited. 
+Some Caveats
+If you’re thinking about the long-term financial impact, leases start to look less attractive. Because you don’t build equity and have to pay certain fees that don’t come with a loan, including an acquisition fee (also called a lease initiation fee), experts say it’s usually cheaper overall to buy a car and hold onto it for as long as possible.
+It’s also worth keeping in mind that leases provide less flexibility than buying. Annual mileage limits – whether they're 12,000 miles or 15,000 miles – are fairly standard. If you exceed those, you could face a hefty fee. Additionally, leases discourage you from customizing your car. The finance company may require you to reverse any modifications prior to returning it, which can be a pain – and an extra expense.
+Also be aware that if your car is totaled in an accident before the end of your lease, you may be liable for additional costs not covered by your car insurance unless the lease included car gap insurance to cover any problems. (See also: Get Up To Speed On Car Gap Insurance.)
+Take these factors into consideration before starting your search for a new vehicle.
+The Bottom Line
+For drivers who love stepping into a new car every few years, leasing can be an attractive option. Leases generally come with an option to buy at the end, but they make the most financial sense if you’re confident you don’t want to hold onto the automobile long-term. (See also: Loan or Lease? calculator.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'AutoInsurance',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

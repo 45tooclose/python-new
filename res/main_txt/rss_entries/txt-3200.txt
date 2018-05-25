@@ -1,0 +1,259 @@
+
+
+    
+                        
+            
+                Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/ETFMF/MF/IC-Video/Term");} else {return "/8397/INV-NA/ETFMF/MF/IC-Video/Term";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/terms/d/deltahedging.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/RlKU7Tzj.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/RlKU7Tzj-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/dimages/graphics/delta_hedging.png?width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "560",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "RlKU7Tzj-G9NhEyAa.mp4";
+                
+          
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                    var initializeJWPlayerSetup = function () {
+                        if (new VideoInit().canRun()) {
+                            setUpJwpPlayer();
+                        } else {
+                            new VideoInit().callBack = setUpJwpPlayer;
+                        }
+                    }
+          initializeJWPlayerSetup();
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "RlKU7Tzj-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "How Does Delta Hedging Work?",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };            
+          
+                    What is 'Delta Hedging'
+
+      Delta hedging is an options strategy that aims to reduce, or hedge, the risk associated with price movements in the underlying asset, by offsetting long and short positions. For example, a long call position may be delta hedged by shorting the underlying stock. This strategy is based on the change in premium, or price of option, caused by a change in the price of the underlying security.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Delta Neutral                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Delta-Gamma Hedging                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Gamma Hedging                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Futures Equivalent                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Delta Hedging'
+      The theoretical change in premium for each basis point or $1 change in price of the underlying is the delta, and the relationship between the two movements is the hedge ratio. The price of a put option with a delta of -0.50 is expected to rise by 50 cents if the underlying asset falls by $1. The opposite is true as well. The delta of a call option ranges between zero and one, while the delta of a put option ranges between negative one and zero. For example, the price of a call option with a hedge ratio of 0.40 will rise 40% of the stock-price move if the price of the underlying stock increases by $1.
+Options with high hedge ratios are usually more profitable to buy than to write, since the greater the percentage movement, relative to the underlying's price and the corresponding little time-value erosion, the greater the leverage. The opposite is true for options with a low hedge ratio.
+Delta Hedging With Options
+An options position could be hedged with options with a delta that is opposite to that of the current options position to maintain a delta neutral position. A delta neutral position is one in which the overall delta is zero, which minimizes the options' price movements in relation to the underlying asset. For example, assume an investor holds one call option with a delta of 0.50, which indicates the option is at-the-money, and wishes to maintain a delta neutral position. The investor could purchase an at-the-money put option with a delta of -0.50 to offset the positive delta, which would make the position have a delta of zero.
+Delta Hedging With Stock
+An options position could also be delta hedged using shares of the underlying stock. One share of the underlying stock has a delta of one because the value changes by $1 given a $1 change in the stock. For example, assume an investor is long one call option on a stock with a delta of 0.75, or 75 since options have a multiplier of 100. The investor could delta hedge the call option by shorting 75 shares of the underlying stocks. Conversely, assume an investor is long one put option on a stock with a delta of -0.75, or -75. The investor would maintain a delta neutral position by purchasing 75 shares of the underlying stock.
+Pros and Cons of Delta Hedging
+One of the primary drawbacks of delta hedging is the necessity of constantly watching and adjusting positions involved. Depending on the movement of the stock, the trader has to frequently buy and sell securities in order to avoid being under or overhedged. It can also be expensive. It is particularly when the hedging is done with options, as these can lose time value, sometimes trading lower than the underlying stock has increased. Trading fees apply to the trades made to adjust the position as well. Delta hedging primarily benefits the trader when they anticipate a strong move coming, as it primarily protects the investor from small moves. 
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

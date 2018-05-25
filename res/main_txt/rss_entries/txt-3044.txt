@@ -1,0 +1,94 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        San Francisco-based DocuSign began trading on the NASDAQ under the DOCU ticker on Friday, April 27 after filing for its initial public offering (IPO) in March. Shares were priced at $29, and the company raised $629 million on a valuation of $4.4 billion before the start of trading. (For more, see DocuSign Prices IPO Above Expected Range at $29)
+The 15-year-old company operates as a leader in a niche area – it enables you to affix your digital signature on documents using its secure electronic signature technology and digital transaction management services, eliminating the need to send paper documents. 
+DocuSign also facilitates a secure exchange of electronic contracts and authorized documents. Its other services include electronic authentication of various entities, individuals, and documents, as well as the management of user identity, and workflow automation.
+The company was last valued on private markets at about $3 billion, ReCode reports.
+Let’s look at DocuSign's various offerings, and how it uses them to make money.
+DocuSign’s e-Signature Solutions and Services
+DocuSign does not charge individuals who sign the documents, but it makes money from the counterparties who initiate the contracts.
+For instance, if an Africa-based content writer is hired by a U.S.-based web portal and a contract needs to be signed between the two, the writer will not be charged for signing the DocuSign contract sent to him/her electronically by the web portal employer. Only the employer will need to pay DocuSign for creating, hosting, notifying, and managing such contracts and signatures.
+DocuSign offers annual as well as monthly plans in many variants to cater to the needs of a variety of users and businesses. 
+The Personal plan allows a single user to send up to five documents each month to collect signatures and is suitable for individual contractors and small-scale employers. It offers basic features, like specified number of fields to collect basic information, reusable templates, basic workflows that automatically move the documents from one party to the other based on submission status, support for multiple languages, and integration with various online storage solutions like Google Drive and DropBox. The plan starts at $120 annually.
+The Standard plan additionally offers functionality to set and send automated reminders, and personal branding across a range of documents. Standard plan starts at $300 annually per user.
+The Business Pro plan offers additional features which are intended for large organizations. They include two-factor text message authentication, in-person signatures on client devices, bulk sending of forms and documents, and even the collection of any necessary payments like those for submitting a form fee or paying for an invoice. Annual charges for Business Pro plan start at $480 per user.
+Additionally, DocuSign also offers bespoke custom solutions. In addition to all the features available in the Business Pro plan, one can benefit from other functions that allow integration with various CRM solutions and with existing or new APIs, admin-level access for user management, and enterprise level support.
+Other Products and Solutions
+Though DocuSign is mostly popular for its e-signature services, it also makes money from a host of other products and services.
+DocuSign Payments allows for the collection of payments and signatures in one step, thereby reducing cost overhead. With integration powered by Stripe, PayPal, and Authorize.Net, DocuSign Payments makes a good fit for collecting signs and payments for insurance premiums, membership agreements, rentals, and donations. This service is currently available in the U.S., UK, Canada, and Australia, and supports payments through credit card, debit card, ACH payments, Apple Pay, and Android Pay. In addition to the subscription charges for Business Pro plans that include Payment solutions, a customer needs to pay the payment gateway fees for each transaction which varies in the range of up to 3% in addition to other fixed costs.
+DocuSign also offers mobile apps that allow salespersons to meet with a customer, put up a proposal, and instantly receive the signed contract on a mobile device. The DocuSign mobile SDK can be easily used by developers and programmers to integrate DocuSign offerings into their own apps.
+DocuSign offers integrated partner solutions with industry leaders enabling it to offer Digital Transaction Management platform. It offers compatibility and seamless integration with various products and services from the likes of Microsoft, Salesforce, Google, Oracle, SAP and Apple.
+Solutions Catering to Wide Industry Sectors
+Agreements form an integral part of the real estate sector for buying, selling, refinancing or rental dealings. DocuSign offerings fit well for serving the needs of property developers, sellers, agents and brokers to get the documentation done in minimal time.
+Similarly, the documentation needs of the financial industry, which includes the banks, lenders, wealth managers, asset managers, insurance intermediaries, and brokers, are also fulfilled by DocuSign solutions.
+Within the healthcare space, DocuSign solutions help by procuring necessary details quickly and easily - like patient consent, new patient forms, medical records update, claims processing data, and provider agreement.
+Each department of a particular business - ranging from Facilities, Finance, Human Resources, IT/Support Operations, Legal, Sales and Marketing, Procurement, to Product/Process Management – that has any documentation, signing, and approval needs can be a potential client for DocuSign.
+The company competes with Adobe EchoSign, Nitro Cloud, HelloSign and Authentisign who offer similar services.
+The Bottom Line
+In its IPO filing, the company posted revenue of $348.5 million in 2017. The company has yet to disclose the product- or segment-wise details of its revenues and profits. The large gamut of products, services and solutions that it offers caters to a wide variety of industry sectors as well as individuals, and fit into fulfilling the needs of various departments of a business for any documentation needs that can be digitized.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

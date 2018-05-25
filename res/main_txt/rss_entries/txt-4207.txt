@@ -1,0 +1,103 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        The most successful investors were not made in a day. Learning the ins and outs of the financial world and your personality as an investor takes time and patience, not to mention trial and error. In this article, we'll lead you through the first seven steps of your expedition into investing and show you what to look out for along the way.
+1. Getting Started in Investing
+Successful investing is a journey, not a one-time event, and you'll need to prepare yourself as if you were going on a long trip. Begin by defining your destination, then plan your investment journey accordingly. For example, are you looking to retire in 20 years at age 55? How much money will you need to do this? You must first ask these questions. The plan that you come up with will depend on your investment goals. (For related reading, see: Having a Plan: The Basis of Success.)
+2. Know What Works in the Market
+Read books or take an investment course that deals with modern financial ideas. The people who came up with theories such as portfolio optimization, diversification and market efficiency received their Nobel prizes for good reason. Investing is a combination of science (financial fundamentals) and art (qualitative factors). The scientific aspect of finance is a solid place to start and should not be ignored. If science is not your strong suit, don't fret. There are many texts, such as Stocks For The Long Run by Jeremy Siegel, that explain high-level finance ideas in a way that is easy to understand.
+Once you know what works in the market, you can come up with simple rules that work for you. For example, Warren Buffett is one of the most successful investors ever. His simple investment style is summed up in this well-known quote: "If I cannot understand it, I will not invest in it." It has served him well. While he missed the tech upturn, he avoided the subsequent devastating downturn of the high-tech bubble of 2000.
+3. Determine What Investment Strategy Works for You
+Nobody knows you and your situation better than you do. Therefore, you may be the most qualified person to do your own investing—all you need is a bit of help. Identify the personality traits that will assist you or prevent you from investing successfully, and manage them accordingly. (For related reading, see: Costly Personality Traits in Financial Planning.)
+A very useful behavioral model that helps investors to understand themselves was developed by  fund managers Tom Bailard, Larry Biehl and Ron Kaiser.
+
+The model classifies investors according to two personality characteristics: method of action (careful or impetuous) and level of confidence (confident or anxious). Based on these personality traits, the BB&K model divides investors into five groups:
+Individualist – careful and confident, often takes a do-it-yourself approach
+Adventurer – volatile, entrepreneurial and strong-willed
+Celebrity – follower of the latest investment fads
+Guardian – highly risk averse, wealth preserver
+Straight Arrow – shares the characteristics of all of the above equally
+Not surprisingly, the best investment results tend to be realized by an individualist, or someone who exhibits analytical behavior and confidence, and has a good eye for value. However, if you determine that your personality traits resemble those of an adventurer, you can still achieve investment success if you adjust your strategy accordingly. In other words, regardless of which group you fit into, you should manage your core assets in a systematic and disciplined way.
+4. Know Your Investment Friends and Enemies
+Beware of false friends who only pretend to be on your side, such as certain unscrupulous investment professionals whose interests may conflict with yours. You must also remember that, as an investor, you are competing with large financial institutions that have more resources, including greater and faster access to information. (For related reading, see: Choosing An Advisor: Wall Street vs. Main Street.)
+Bear in mind you are potentially your own worst enemy. Depending on your personality, strategy and particular circumstances, you may be sabotaging your own success. A guardian would be going against his or her personality type if he or she were to follow the latest market craze and seek short-term profits. Because you are risk averse and a wealth preserver, you would be affected far more by large losses that can result from high-risk, high-return investments. Be honest with yourself, and identify and modify the factors preventing you from investing successfully or moving you away from your comfort zone.
+5. Find the Right Investing Path
+Your level of knowledge, personality and resources should determine the path you choose. Generally, investors adopt one of the following strategies:
+Don't put all of your eggs in one basket. In other words, diversify.
+Put all of your eggs in one basket, but watch your basket carefully.
+Combine both of these strategies by making tactical bets on a core passive portfolio.
+Most successful investors start with low-risk diversified portfolios and gradually learn by doing. As investors gain greater knowledge over time, they become better suited to taking a more active stance in their portfolios. (For related reading, see: Investing 101: A Tutorial for Beginner Investors.) 
+6. Be in It for the Long Term
+Sticking with the optimal long-term strategy may not be the most exciting investing choice. However, your chances of success should increase if you stay the course without letting your emotions, or "false friends," get the upper hand.
+7. Be Willing to Learn
+The market is hard to predict, but one thing is certain: it will be volatile. Learning to be a successful investor is a gradual process and the investment journey is typically a long one. At times, the market will prove you wrong. Acknowledge that and learn from your mistakes. When you succeed, celebrate.
+The Bottom Line
+What you achieve as an investor will depend on your goals, but sticking to these seven simple steps will help keep you on the right path.
+(For related reading, see: 3 Ways to Increase Your Investment Performance.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

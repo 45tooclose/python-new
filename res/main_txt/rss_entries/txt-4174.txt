@@ -1,0 +1,146 @@
+
+
+    
+                          What is the 'Barron's Confidence Index'
+
+      The Barron's Confidence Index is a ratio to calculate investors desire to assume additional risk during investment. The ratio is the average yield-to-maturity of Barron's Best Grade bond list to average yield-to-maturity of its Intermediate Grade bond list. 
+To arrive at the value, Barron's will divide average yield-to-maturity (YTM) of Barron's Best Grade bond list by the average yield-to-maturity of its Intermediate Grade bond list. The index, published weekly, is a measure of investor confidence in the U.S. economy. It is also referred to by the Weekly Barron’s C.I./Yield Gap.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Bond Yield                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Bond Fund                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Dollar Price                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            AAA                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Barron's Confidence Index'
+      The basis of the Barron’s Confidence Index is on the theory that if investors are optimistic they are more likely to invest in riskier bonds, driving yields downwards and the index upwards. The index also assumes that bond traders are more sophisticated than stock investors and that as a result, their actions are more predictive of future market activity.
+From a mathematical perspective, the index is based on the fact that yields on top-grade bonds are always lower than yields on lesser-grade bonds. The index is still less than 100 percent, and the theoretical maximum value of this ratio is 1. For example, if the average yield of the ten high-grade bonds is 4.5 percent and the average yield of the intermediate-grade bonds is 5 percent, the Barron’s Confidence Index is 90 percent (4.5 percent divided by 5 percent and multiplied by 100).
+When investors are confident about the economy’s future, they are willing to take more risk and buy more speculative bonds. The price of higher-quality bonds then goes down, which increases their yield.  This dynamic indicates investors need lower premiums in returns to take on increased risk.
+An index around 80 percent is considered a bearish outlook for the stock market. When confidence in the economy is low, investors seek higher quality debt, which increases bond prices and lowers yields.
+While the raw index number is meaningful, it’s also useful to track its direction. A falling confidence number indicates decreasing confidence in the market; a rising value, of course, means increasing confidence.
+Background of Barron’s Confidence Index
+Barron’s, a News Corp’s Dow Jones & Company publication that covers U.S. financial information, market developments, and relevant statistics, is published weekly. Barron’s Best Grade bond list comprises 10 top high-grade bonds, typically AAA rated, which is the highest possible rating assigned to an issuer's bonds by credit rating agencies. AAA-rated bonds are highly creditworthy because the issuer can easily meet its financial commitments. The Intermediate Grade bond list includes ten lower-grade BBB rated bonds, which are so measured because there is a higher risk that the issuer will default on the debt.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

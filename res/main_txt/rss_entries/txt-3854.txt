@@ -1,0 +1,147 @@
+
+
+    
+                          What is 'Hydraulic Fracturing'
+
+      Hydraulic fracturing is a process which injects high-pressure liquid into an oil- or gas-bearing rock formation to create fractures. This typically yields improved flows, making it useful for oil and gas firms seeking more economical production in areas that would otherwise produce low-flow wells.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Fracking                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Non-Hydraulic Fracturing                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Shale Oil                     
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Reserves to Production Ratio                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Hydraulic Fracturing'
+      Hydraulic fracturing involves pumping fuel into a wellbore to create enough pressure to create and expand cracks in hard rock formations. The fluid injected into the well contains a combination of water, chemicals and small particles of sand or ceramic materials. The water and chemicals crack and open the rock through high pressure, while the solid particles, called proppant, stay in place and keep the fractures open in order to stimulate better flow of liquids or gases out of the well.
+History of hydraulic fracturing
+Hydraulic fracturing was first used in Kansas in 1947 in an attempt to extract natural gas from a limestone formation in the Hugoton gas field. Since that time, petroleum engineers have regularly used hydraulic fracturing as a means of increasing well production. While fractures sometimes exist naturally in formations, both natural and man-made fractures can be widened by this process.
+Use in Unconventional Plays
+Hydraulic fracturing is one of several technologies that have made unconventional oil and gas plays more economically viable. Tight oil and gas reservoirs, including those embedded within shale formations such as the Bakken, Eagle Ford, Niobrara and Pierre formations in the United States, typically require a combination of horizontal drilling and hydraulic fracturing to produce efficiently.
+Environmental and political controversy
+Environmental concerns linked to hydraulic fracturing include air pollution from methane emissions, groundwater contamination, and potential risk of induced earthquakes. The disposal of wastewater from the drilling process plays a primary role in many arguments about how to weigh the technology’s risks against its benefits.
+After drilling companies inject fluids into the well, the back-pressure from the rock formation generally pushes the mix of water and chemicals back to the surface through the wellbore. At that point, the fluids can be recycled or collected for eventual disposal. While drilling companies take precautions to ensure their wells do not leak either fracturing fluids or petroleum liquids into local water tables, environmental groups have voiced concerns about contamination from inadequate holding tanks and spills. Some operations dispose of wastewater in deep wells, which has recently been correlated with increased risk of earthquakes in Oklahoma.
+These concerns have made the process subject to strict regulation in some areas, including outright bans in France and the states of Vermont and New York.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

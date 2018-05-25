@@ -1,0 +1,81 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        With trade tensions mounting, the latest bombshell out of Washington is a rumor that the Trump administration may prohibit U.S. companies from selling semiconductors to China, Barron's reports. The short-term fallout may include a retaliatory cutoff of key supplies and components that U.S. chipmakers source from China. The longer-term downside is that China is likely to accelerate its efforts to become a major semiconductor-producing nation, which ultimately will erode the worldwide market share enjoyed by U.S.-based manufacturers, Barron's notes.
+Even companies that suffer no direct effects from these actions are in danger of seeing their share prices plummet as investors dump chipmaking stocks. The PHLX Semiconductor Index (SOX) is up by 223% for the past 10 years, through the close on Monday, per Yahoo Finance. Its seven largest components by market capitalization are, also per Yahoo Finance: Intel Corp. (INTC), $241 billion; Taiwan Semiconductor (TSM), $197 billion; NVIDIA Corp. (NVDA), $137 billion; Texas Instruments Inc. (TXN), $100 billion; Broadcom Inc. (AVGO), $94 billion; Qualcomm Inc. (QCOM), $76 billion; and Micron Technology Inc. (MU), $53 billion. The combined market value of these companies is $898 billion.
+'Massive Expansion of Powers'
+"Everything happening is what the business community was fearful about—the massive expansion of powers," is how Ed Mills, a Washington-based policy analyst with Raymond James Financial, described the Trump administration's moves to Barron's. "The administration has extended the definition of national security to include economic security, of not letting our technology secrets out," observed Mary Lovely, a senior fellow with the Peterson Institute for International Economics, in comments to Barron's.
+President Trump's rumored move against chip sales to China partly is an attempt to thwart theft of intellectual property. It also represents an area where the U.S. has ample leverage to pry general trade concessions from China, given China's heavy dependence on chips from U.S. manufacturers, Barron's indicates.
+NVIDIA and Advanced Micro Devices Inc. (AMD) are leading producers of chips for applications in artificial intelligence (AI). Given the national security implications for the U.S. of maintaining AI leadership, Barron's suggests that these two manufacturers are especially likely to feel the pinch from any export ban. Already, back in 2015, the U.S. Department of Commerce blocked some sales of NVIDIA and Intel chips to the Chinese supercomputing industry, per Barron's.
+Recently, the Commerce Department barred sales of fiber-optic components to China, which was devastating to the share prices of U.S. manufacturers in this field, Barron's notes. This action was tied to allegations that the prospective Chinese buyers had violated U.S. sanctions against Iran.
+IEEPA and CFIUS
+The International Economic Emergency Powers Act (IEEPA) was enacted during the Iranian hostage crisis of 1979 and allows the U.S. president to restrict sales of goods to other countries on national security grounds. This would be the enabling legislation that Trump would use to limit or ban semiconductor sales to China, wrote Barron's.
+"IEEPA sanctions are often structured such that they preclude a U.S. business from being invested in a business of a third country that's producing goods or services for the targeted state," as Matt Gold, a former U.S. trade representative, told Barron's. As a result, he added, U.S.-based chipmakers also may be constrained from sharing chip designs with other companies that do business with China. This may be a big problem for firms such as NVIDIA and Qualcomm, which outsource their production abroad, most notably to Taiwan Semiconductor, said Barron's. Intel, on the other hand, has its own factories, the Barron's article added.
+The Committee on Foreign Investment in the U.S. (CFIUS), is a body in the executive branch of the U.S. government that reviews foreign investments in the U.S. in relation to national security concerns. This is the group that recommended blocking Broadcom's bid for Qualcomm, Barron's said. Since then, Broadcom shifted its corporate domicile to the U.S. from Singapore. Ed Mills told Barron's that Congress is moving toward expanding CFIUS rules, with the upshot that Chinese firms will find it more difficult to invest in U.S. companies.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

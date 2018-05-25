@@ -1,0 +1,83 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Tesla Inc. (TSLA) and its CEO, Elon Musk, may be running out of time, according to analysts at Bloomberg, who estimate that the electric car maker burns through more than $6,500 every 60 seconds.
+In a story published Monday, Bloomberg's Dana Hull and Hannah Recht suggest that, despite Musk's remarks indicating that Tesla will not need to raise additional capital this year, "there is now a genuine risk that the 15-year-old company could run out of cash in 2018."
+When Tesla reports earnings on May 2, they expect investors to keep a close eye on free cash flow, which has been negative for five consecutive quarters. (See also: Musk May Be Misleading Investors: Billionaire Short Seller Jim Chanos.)
+Jostling for Position in the EV Space
+Over the recent years, Tesla has poured money into expanding its offerings from its luxury cars, the Model S and Model X SUV, most recently trying to ramp up production of its first mass-market vehicle, the Model 3 sedan, as it heads off against a growing number of competitors in the EV space. A pioneer of the EV market, Musk's Palo Alto, California-based company now rivals both traditional automakers and more niche startups. Tesla also has aggressive plans to add an electric semi truck to its portfolio, as well as a new sports car and a crossover within the next few years. 
+While Musk has been criticized as relying too much on automation, his company's hiring spree has grown its workforce from just shy of 900 in 2010 to roughly 40,000 workers today. Tesla's inability to boost revenues as fast as it adds manpower, including a doubling of its workforce last year, has probably contributed to its financial stress, as noted by Bloomberg. Meanwhile, General Motors Co. (GM) and Ford Motor Co. (F) each generate about 2.5 time as much revenue per employee, according to the reporters.
+Tesla's outspoken and widely followed CEO has affected the company's ability to raise money in a way that hasn't been seen before, wrote Hull and Recht. Musk has poured a large sum of his own money into his startup, including a Series A round in 2004, wherein he contributed $6.3 million of $7.5 million and assumed the role of chairman of the board. 
+Bloomberg: Company Is 'Extraordinarily Lucky'
+Since its $225 million initial public offering (IPO) in June 2010, Tesla has raised capital by means that any automaker would, through selling stock and convertible bonds, monetizing leases and floating junk bonds, wrote Bloomberg. However, through its unique positioning as a clean-energy champion, and with its high-profile CEO at the helm, the company has been "extraordinarily lucky," noted Hull and Recht, highlighting opportunities such as an early strategic equity investment from rival Daimler AG and a near $500 million loan from the U.S. Department of Energy in 2010.
+At the end of 2017, Tesla has $3.5 billion in cash on hand and $9.4 billion in outstanding debt. Bears, such as short seller Jim Chanos, remain convinced that the EV company is on the brink of bankruptcy, while Moody's Investor Services seemed to provide amo to the downbeat sentiment with a warning that Tesla will need another $2 billion in 2018, while $1.2 billion of exiting debt will come due by 2019. 
+Musk has continued to gain fame and popularity among his loyal followers, continually setting lofty targets and showing an unwavering commitment to proving his doubters wrong. TSLA, down almost 25% from highs in September, has returned roughly 450% to shareholders over the most recent five years, compared to the S&P 500's 66% gain over the same period. 
+'Interest-Free Loans' From Customers
+Tesla reported $854 million in customer deposits at the end of 2017, which "essentially serve as interest-free loans" that can stretch on for years, wrote Bloomberg, noting that if the company were to go bankrupt the deposit holders would likely be wiped out. 
+The bulls have continued to point to Musk's personal commitment to the company, with a recently passed compensation plan reliant on TSLA skyrocketing to a $650 billion market capitalization and reaching other ambitious top line and bottom line targets. If his stock award vests, the CEO would own a 28% stake in the company worth about $184 billion. 
+“There’s not another CEO in America who is taking as enormous of a financial risk on their company,” said Ross Gerber of Gerber Kawasaki Wealth & Investment Management. That gives everyone something to agree on. (See also: Why the Bulls Still Believe in Tesla.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

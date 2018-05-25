@@ -1,0 +1,140 @@
+
+
+    
+                          WHAT IS 'Bond Buyer 11'
+
+      The Bond Buyer 11 (BB11) index is a theoretical and estimated average of bond yields. The BB11 is published by The Bond Buyer and used as a benchmark in tracking municipal bond yields
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Bond Buyer 20                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            The Bond Buyer                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Bond Fund                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Bond Yield                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Bond Buyer 11'
+      The BB11 is calculated from the average yield of 11 selected general obligation municipal bonds maturing in 20 years. It is composed of 11 of the 20 bonds in the Bond Buyer 20 (BB20). The average rating of the 11 bonds that make up the index are rated Aa2 by Moody's or grade AA by Standard & Poor’s. The Bond Buyer also has a BB40 index composed of 40 bonds.
+Bond index issues
+There are hundreds of market indexes. Some focus on the entire stock or bond market, and some focus on a sector within the market such as technology. There are potential problems inherent in bond indexes. Most bond indexes are market weighted, meaning they are based on the market value of the bonds. So, companies with more debt have a higher allocation in a corporate bond index. It may not be beneficial to hold more of a company’s debt as it borrows more. In addition, many bonds don’t trade very frequently so have wide spreads. This makes it difficult to price such bonds as they may not have traded in weeks. Any method to calculate the price would generate just an estimate, which may not be close to the actual price of the next trade. To eliminate this problem, a bond index can be structured to include only more liquid or most liquid bond issues with tight spreads that are frequently traded. However, if the index includes too few bonds, this can create another problem. Traders may be able to front-run a smaller index by anticipating which bonds large bond funds would buy and sell. This could enable the traders to generate low risk profit at the expense of the fund buyers and sellers. The solution is to include a larger number of bonds, as do many indexes. Also, most bond indexes don’t include smaller bond issues to minimize the problems associated with a lack of liquidity.
+Another issue is that when a bond reaches maturity, it ceases to exist. Because of this there is a natural turnover built into every bond index, as bonds are removed and new ones added. However, the characteristics of the bonds being added differ from the characteristics of bonds that were removed from the index. As a result, key characteristics of a bond index, such as the average maturity of bonds in the index, can change every year.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

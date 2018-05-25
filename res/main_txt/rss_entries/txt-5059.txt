@@ -1,0 +1,97 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        The world wants to know: What is Elon Musk on about? On May 2, 2018, shares in progressive car company Tesla (TSLA) plunged in after-hours trading following a bizarre first-quarter earnings call with executive Elon Musk. Musk cut analysts off during the call, dismissing questions about gross margins as "boring." Rather, he and other Tesla executives instead fielded a series of questions from a Youtube personality and Tesla enthusiast named Gali Russell. Russell had tweeted at Musk earlier in the week, seeking to ask a "crowdsourced" question during the conference call on Wednesday, according to CNBC. Russell got more than he bargained for: Musk not only answered his question, he also took several additional questions as well. The entire exchange has prompted some analysts to question Musk's motivations and even to suggest that he may be hiding something or acting in a duplicitous manner. Is it true that Musk might be wrecking his car company?
+ 
+Please ignore this thread unless you’re interested in a tedious discussion about Tesla stock
+— Elon Musk (@elonmusk) May 4, 2018
+
+
+Exhibit A: Call May Have Revealed Issues With Cash
+During the call, Musk cut off analysts attempting to ask questions about cash flow. He brusquely promised for a "reorganization" over the next several weeks, indicating that he feels "quite confident about hitting positive cash flow in Q3." However, his assurances were not enough to prevent a sudden drop in stock prices. Tesla is known as an innovative company, and Musk for being a business leader who refuses to play it safe. He makes bold claims and goals and takes significant risks (financial and otherwise) in attempts to achieve them. Considering the many successes he has experienced, with Tesla, SpaceX, and various other projects, many of these successes have been worth the risk in hindsight. (For more, see Why Tesla is Burning Through Cash)
+ 
+Oh and uh short burn of the century comin soon. Flamethrowers should arrive just in time.
+— Elon Musk (@elonmusk) May 4, 2018
+
+
+However, the call may have prompted investors and analysts to feel added concern about how quickly Tesla burns through cash, particularly as it prepares production on its Model 3. Musk, for his part, blamed some of the insecurity on "the number of third-party companies" that Tesla is using, which he says has "gotten out of control."
+Exhibit B: Tesla is the most-shorted stock
+... and Musk isn't too proud to Tweet it (Related: The Case Against Tesla):
+First, it’s important to know that Tesla is the most shorted (meaning most bet against) stock on the market & has been for a while https://t.co/srEp1tf6ZU
+— Elon Musk (@elonmusk) May 4, 2018
+
+
+According to CNBC, Musk has not shied away from pushing back against would-be sellers who have bet against his company. The executive even went so far as to taunt short sellers, suggesting that they "place [their] bets" in a tweet earlier this year. Nonetheless, Musks's confidence has not convinced some skeptics to change their minds. Goldman Sachs analyst David Tamberinno wrote in April that his company believes "the sustainable production rate for the second quarter of 2018 is most likely below the 2,000 vehicle mark the company achieved in the final week of the [first] quarter."
+Exhibit C: Musk is spending $500,000 Every Hour
+As an ambitious, innovative company, Tesla must work hard and spend lots of cash in order to develop and test its new products and concepts. This innovation does not come cheap by any means. A report in November of 2017 suggested that Tesla was spending an average of about $8,000 per minute, or $500,000 per hour, in order to fund its product development and other projects. Bloomberg suggested that this level of spending was unsustainable, even for someone as ambitious as Musk, calculating that the company would run out of funds by early August of 2018 at that rate and if nothing changes. Such rampant spending certain doesn't inspire confidence for many would-be investors.
+Biting Off More Than Tesla Can Chew?
+It's possible that Musk and fellow executives at Tesla have simply bitten off more than they can chew. During the call, Musk stressed that production of the company's Model Y will not begin at the end of 2019, but rather "closer to 24 months from now, 2020." He indicated that production for that vehicle will not happen at Tesla's primary factory in Fremont, California, saying instead that the company is "jammed to the gills" at that location.
+In spite of these concerns, it may not be time to throw in the towel on Tesla just yet. CNBC reported that analysts from Bernstein were quoted as saying that "beneath the bizarre theatrics" of being cut off mid-question, the see "Tesla's Q1 as in-line with expectations on most metrics, including revenues, gross margins, and free cash flow." Morgan Stanley analysts suggested that the conference call "didn't go very well" and reminded the analyst community that "an important part of Tesla's success has been its relationship with the capital markets in funding its ambitious plans." J.P. Morgan analysts noted "better than expected revenue, margin, and EPS" but "bigger than expected cash outflow and record net loss."
+Tesla may have some rethinking to do regarding its strategies, both in terms of general business practices as well as regarding its executives' demeanor during calls of this type. On the other hand, perhaps analysts simply caught Elon Musk at a bad time. Regardless, the company remains one to watch closely in the weeks and months to come.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

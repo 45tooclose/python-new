@@ -1,0 +1,219 @@
+
+
+
+Blockchain Popularity to Create Challenges for BFSI
+Blockchain looks set to give the financial services industry a run for its money as adoption of the technology accelerates and forces re-evaluation of long-entrenched practices.
+
+
+ by  Komfie
+Manalo,
+16 mins ago
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+Subscribe
+
+
+  Deloitte and Netscribes have separately declared that the accelerating pace of blockchain technology adoption could pose major challenges to the banking, financial services, and insurance (BFSI) industry.
+Deloitte said in a blog post:
+
+“In financial services, the genie is out of the bottle: Blockchain and other distributed ledger technologies have inspired the industry to re-examine processes and functions that have been static for decades."
+
+According to the professional services giant, blockchain offers advantages in reducing cost and cutting transaction time in addition to providing increased transparency. The technology is also being credited with making things move faster from “proof of concept to proof of practical with real-world, actionable solutions.”
+
+Linda Pawczuk, principal at Deloitte and author of the post, stated:
+
+“Blockchain will be disruptive, but it will also find its place and create opportunities.  Blockchain can enable financial services companies to offer some services with lower cost, better security, and improved visibility while creating new product opportunities and new operating models.”
+
+Pawczuk went on to add:
+
+“Just as the internet reshaped where and how companies allocated costs, generated revenue, and defined profit, blockchain offers similarly profound shifts. In 1990, could we have envisioned commerce and retail as we know it today with the internet and ubiquitous access through mobile devices?”
+
+Blockchain sees widespread use in finance
+Separately, Netscribes said that blockchain is being extensively used in BFSI for financial dealings and cross-border payments as well as in healthcare, supply chain management, energy, media and informatics industries. However, BFSI still holds the largest market share, while supply chain management is expected to grow at the fastest rate.
+It added that the global blockchain technology market is expected to reach $13.96 billion by 2022, expanding at a compound annual rate of 42.8%.
+Blockchain may all be hype
+However, Zulfikar Ramzan, CTO of RSA, has offered a contrarian view about the benefits of  blockchain technology and even described it as “a buzzword to get people excited about technology.”
+Ramzan commented:
+
+“For example, we talk about supply chain management. People tout that as a very classic blockchain use case. But to me, that seems like that’s a shared database use case—and you know, it’s funny because people who don’t understand the security nuances don’t understand why a database is not worse than a blockchain. In fact, I think in many cases, it’s better.”
+ 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

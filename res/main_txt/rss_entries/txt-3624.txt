@@ -1,0 +1,140 @@
+
+
+    
+                          DEFINITION of 'Interledger Protocol'
+
+      Interledger protocol is a protocol used for payments across payment networks. The protocol connects ledgers from two different banks, thereby removing intermediaries and central authorities from the system. It promises to reduce costs and the time required to process cross-border transactions. It is used by Ripple Labs to connect bank systems across borders in its products.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Full Nodes                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Bitcoin Mining                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Centralized Market                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            SelfKey (KEY)                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Interledger Protocol'
+      The current process for cross-border transfers between banks involves navigation of multiple payment protocols used by digital ledgers to process transactions. The protocols communicate using connectors. But the tools and standards used in such systems are fragmented. For example, the current set of connectors do not have standardized modes for communication. The introduction of intermediary banks to facilitate transactions between entities that do not have a direct relationship with each other further complicates the process. This is because it multiplies the number of hops to complete a transaction, thereby making it more expensive and time-consuming. It also magnifies security risks because payments have to travel through multiple systems to reach the final recipient.   
+The Interledger Protocol uses the concept of cryptographic escrow to enable passage of funds through connectors. The Interledger protocol whitepaper defines cryptographic escrow as the financial equivalent of a two-phase commit protocol. The latter protocol consists of two steps. The first step consists of defining a set of conditions for a transaction to move forward or abort. The second step defines the processing of the transaction once conditions are met. 
+Cryptographic escrow for ledgers is the conditional locking of funds between two parties. The funds are released only after certain conditions, including time-based ones for the transaction to take place, are met. Otherwise, the transaction is voided. At the end of a successful payment transaction, the sender receives a cryptographic receipt from the recipient. Alternately, the escrowed funds are returned to respective parties. 
+The Interledger protocol can be implemented in two modes: atomic mode and universal mode. In atomic node, notaries are incorporated into the system. They are an ad-hoc group that is used to verify and validate transactions. Typically, atomic modes take place between trusted connector nodes between banks or financial service companies that might have a relationship to each other. Universal mode does not require notaries and can work between untrusted connectors. It uses Ripple’s internal cryptocurrency, XRP, to facilitate transfers. The transfer is accompanied by time constraints. If it does not take place within a certain timeframe, then the transaction is annulled.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

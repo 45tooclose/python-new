@@ -1,0 +1,76 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Headquartered in San Francisco, Square, Inc. (SQ) was founded in 2009 by Jack Dorsey and Jim McKelvey, two entrepreneurs who shared a dream to create a company that could aggregate merchant services and mobile payments into a single, easy-to-use set of tools. Square helps small businesses to accept credit cards, track their sales and inventory, and even obtain financing. The company's products include Square Cash, which allows users to send and receive money for free via a mobile app that can be downloaded on a smartphone, and Square Point-of-Sale, a free Android app which allows merchants to process payments via smartphone. On November 19, 2015, Square's stocks began trading on the New York Stock Exchange with a valuation of $2.9 billion. As of April 27, 2018, the company has a market capitalization of $19 billion. The stock price has grown more than 300% since its IPO. In November 2017, the Square Cash App announced a trial that made bitcoin trading available to some of its users. The stock price rocketed to a record-high of $48.86 per share on the news. On March 12, 2018, the stock reached its highest level ever since its IPO, at $54.89 per share, on positive news about extending its bitcoin trading services to Wyoming. On April 27, 2018, Square announced its acquisition of Weebly, a web-builder and web-hosting service company based out of San Francisco. 
+Going Full Circle With Square
+Square charges merchants 2.75% of the sales price of any transaction they process via swipe, insert, or tap, and 3.5% plus fifteen cents for every transaction that is manually keyed in. Square POS enables customers to pay, tip, and sign on the merchant's mobile phone or tablet, and merchants can use it to accept all types of credit cards and record cash, gift cards or other forms of payment. They can also send and track invoices, customize products, email receipts, apply discounts and email refunds, access real-time sales data, and track inventory in real time.
+This product is generally used in conjunction with Square Reader, a small device that can be installed on a smartphone or tablet that reads credit and debit cards. Users can access this information and engage in these activities by logging on to the app's dashboard. The money from the merchant's transactions are typically deposited in one to two days. Other products offered by the company include Square Analytics, a set of free tools that can be applied on top of its POS products, and Square Appointments, an online service that allows users to book appointments. 
+Square Stand turns an iPad into a complete point-of-sale tool. The company has also expanded into financing small businesses with products like Square Capital, which provides cash advances to merchants and has no time limit on when they should be paid back. The firm also now provides complete payroll services to businesses in eight states with Square Payroll. Square released a new version of Square Reader in 2015 that is compatible with Apple Pay and other contact-less systems.
+Square received seven rounds of private funding before the company went public in 2015. The last round of funding before its IPO was a Series E financing in October 2014 from Acequia Capital. Other investors include Sequoia Capital and Khosla Partners. 
+Some of the companies that Square has acquired include Storehouse, Fastbite, Kili and Caviar. It also has a partnership with BigCommerce, an ecommerce platform. A few of Square's major competitors include Blockchain, Google Wallet and Intuit Inc. (INTU). The company now has satellite offices in Ontario, New York, and Atlanta. Square's IPO in November 2015 was valued at $2.9 billion, roughly half of the company's valuation in 2014 of $6 billion. As of April 27, 2018, the company has a market capitalization of $19 billion. The company has more than 2,000 employees, and its board of directors includes former U.S. Treasury Secretary and Harvard University President Lawrence Summers, former CFO of Goldman Sachs David Viniar.
+(For related reading, see: What's Driving Square Stock in 2017.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '',
+     'leadGenVertical' : '',
+     'leadGenLayout' : '',
+     'leadGenPage' : ''
+    });
+                    
+            
+                

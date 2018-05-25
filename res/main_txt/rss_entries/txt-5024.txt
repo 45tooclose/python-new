@@ -1,0 +1,81 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Citron Research's Andrew Left, known for his short bets against companies such as Valeant Pharmaceuticals Inc. (VRX), broke with his usual mode this week to praise Alibaba Group (BABA). According to the investor, BABA is a much better deal than its U.S. counterpart, Amazon.com Inc. (AMZN). (See also: Square’s Shares to Fall to $30: Short Seller.)
+The prominent short seller recommended buying shares of the Chinese e-commerce giant prior to it quarterly earnings report, slated for before the opening bell on Friday. Left set a $250 price target on BABA, reflecting an over 37% upside from Friday pre-market as shares trade down about 0.3% at $182. Alibaba stock has gained 5.8% year-to-date (YTD) and nearly 56% over the most recent 12 months, far outperforming the broader S&P 500's 1.6% decline and 10.1% incline over the same respective periods. 
+'Most Compelling Growth Story in the Market'
+"Citron Research believes the most compelling growth story in the market is also the world’s most heavily shorted stock," wrote Left in a research note where he reiterated his 18-month bull position. The investor highlighted BABA's massive total addressable market, calling it a "tollbooth to middle class consumption in China."
+Left urged investors to overlook potential for shrinking operating margins, indicating that heavy investments will pay off as the internet behemoth plays offensive in its domestic market, a key region for every global player in retail. In the firm's fiscal fourth-quarter report, BABA posted a 29% decline in profits over last year, attributing the fall to a rise in M&A activity intended to expand its overseas presence and push into the physical retail market. Revenue popped 61% over the same period last year to 61.93 billion yuan, or about $9.74 billion. 
+Trading at a 40% Discount to US Counterpart
+According to his assessment, Left indicated that BABA is trading at a 40% discount to Amazon stock, despite a handful of factors including that it operates with "lighter assets," is "better at empowering small businesses." He noted that BABA accounts for 80% of Chinese online retail sales, while Amazon's domestic share stands somewhere between 40% to 50%, while the former is growing its sales roughly 20% faster than the Seattle-based tech titan. Further, he applauded BABA's ability to report higher margins without a burgeoning cloud business like Amazon's Amazon Web Services (AWS). 
+While Amazon faces uncertainty regarding more regulation on tech in the U.S., Left noted that the Chinese government is partnering with Alibaba, while the firm is weighed a secondary listing in China. 
+'A Coiled Spring'
+Alibaba's 33% stake in mobile payments company Ant Financial is also underestimated by the Street and should be priced into the stock, wrote the widely followed short seller. 
+"The stock has flat-lined for nine months now, despite growing revenue over 50 percent throughout this time,” wrote Left. “BABA’s price-to-earnings multiple has compressed by a whopping 7-times over the same time period and is at its lowest level since early 2017 before the company saw an inflection in business fundamentals. The stock is a coiled spring.” (See also: Prominent Short-Seller Bullish on Twitter.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

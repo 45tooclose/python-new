@@ -1,0 +1,81 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Exxon Mobil Corporation (NYSE: XOM) is the largest publicly traded, multinational oil and gas company in the world, and is among the top five companies worldwide by market capitalization, with a market cap value of $318.8 billion. The company was founded in 1870 and is the primary corporate descendant of Standard Oil Company, and one of the Seven Sisters, the seven major oil companies that dominated the oil industry from the 1940s to the 1970s. The three largest individual shareholders of Exxon Mobil stock are, in order, Michael Dolan, Andrew Singer and Mark Albers. All of the leading individual Exxon Mobil shareholders are current top executives at the company. We've also included a section on previous leader of Exxon, Rex Tillerson. 
+Michael Dolan
+Senior vice president of Exxon Mobil Corporation since 2008, Michael Dolan also has a long history with the company. Dolan first came to work at Mobil Oil Corporation in 1980, where he held a number of management and engineering positions. He eventually became vice president and general manager for Mobil's petrochemical operations in the Americas, just prior to the 1999 merger of Exxon and Mobil. After the corporate merger, Dolan was made the Middle East and Africa regional director of Exxon Mobil Chemical Company. He later worked as executive vice president of Exxon Mobil Saudi Arabia, and vice president of Exxon Mobil, prior to assuming the position of senior vice president. Dolan earned a bachelor's degree in chemical engineering at Worcester Polytechnic Institute and an MBA degree at Drexel University. As of his February 2018 SEC filing, Dolan is the current largest individual shareholder, owning 1,056,903 shares of Exxon Mobil.
+Andrew P Swiger
+Senior Vice President and Principal Financial Officer Andrew P Swinger joined Exxon Mobil in 1978 as an engineer in Louisiana. Over the course of forty years, he has held numerous positions in the company all over the world, including as a general manager at their major Singapore plant, a production vice president for the African and European regions in the company's London office, and as executive vice president of ExxonMobil production in Texas. Swinger is the second largest shareholder of Exxon stock, with 944,298 shares as of his November 2017 SEC filing. 
+Mark Albers 
+A Texas man from childhood, Senior Vice President Mark Albers graduated from Texas A&M with a petroleum engineering degree, and joined up with Exxon Mobile in 1979. In his time with the company, Alebrs has held a number of managerial positions around the world, such as serving as a technical manager in Australia, and becoming the Alaska interests manager. 
+In 2004, Albers became president of ExxonMobil development in the Texas HQ, and shortly after was elected to the Senior VP position. Albers serves on the board of the United States Council for International Business, and on the board of the National Action council for Minorities in Engineering. He is currently the third largest shareholder in the company, with 878,722 shares of of his November 2017 SEC filing. 
+Rex Tillerson
+Rex Tillerson, who first came to work at Exxon in 1975 as a production engineer, assumed the positions of chairman and chief executive officer (CEO) in 2006. Tillerson has a long and distinguished history at the company. In 1989, he was appointed the general manager of the central production division of Exxon Company U.S.A., overseeing oil and gas production in the critical areas of Texas and Oklahoma. His work earned him the position of production advisor at Exxon in 1992. He next took an overseas position as the president of Exxon Yemen Inc. In 1998, he moved on to become the president of Exxon Neftegas Ltd. and vice president of Exxon Ventures Inc., where he managed Exxon's affairs in Russia. Prior to assuming his current position at the company, Tillerson also served as executive vice president of Exxon Mobil Development Company, senior vice president of Exxon Mobil and president of Exxon Mobil.
+Tillerson was selected by then-President Elect Donald Trump to serve as his Secretary of State, and was given a $180 million retirement package. Tillerson sold all of his stock in the company, with stock that he would've made in future years liquidated and the value put in a trust unable to invest in Exxon. Tillerson is no longer a shareholder, but his influence over the company and the country have been massive. On March 13th of 2018, Tillerson was fired from the White House by President Trump. 
+Institutional and Mutual Fund Stockholders
+Institutional investors and mutual funds hold far more shares than any individual Exxon Mobil stockholder. The largest institutional investor holding Exxon Mobil shares is The  Vanguard Group Inc., which held 317.711 million shares as of December 2017. The mutual fund that holds the largest amount of shares is the Vanguard Total Stock Market Index Fund ("VTSMX"), which held 102.4 million shares as of their January 2018 filing.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

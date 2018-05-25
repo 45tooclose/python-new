@@ -1,0 +1,144 @@
+
+
+    
+                          What is the 'Interbank National Authorization System (INAS)'
+
+      The Interbank National Authorization System (INAS) is a network of banks that are affiliated with MasterCard International. The network facilitates the worldwide exchange of bankcard authorizations between different financial institutions. The network is used for both credit and debit cards bearing the MasterCard logo.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Interbank Network for Electronic ...                     
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            MasterCard Card                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            MasterCard Acquirer                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Bank Card                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Interbank National Authorization System (INAS)'
+      The Interbank National Authorization System (INAS) is related to the MasterCard system INET, which have been combined into Banknet, a worldwide data communications network. Together, these two systems facilitate all MasterCard transactions everywhere.
+The Interbank Card Association
+MasterCard was launched as Master Charge: The Interbank Card by a group of banks in California that formed the Interbank Card Association (ICA). Original member banks included Wells Fargo, Crocker National, United California Bank, and the Bank of California. The Master Charge card was launched in competition with Bank of America’s BankAmericard, later rebranded as Visa.
+The Interbank Association began automating their Master Charge authorization system in 1973. In this year, they rolled out INAS. In 1974, they introduced INET. In 1979, the ICA changed the name of the card to MasterCard. Today, more than 25,000 banks in 20 countries and territories around the world issue MasterCards.
+In 1984, MasterCard launched Banknet, which ties together all MasterCard data processing centers and issuing members into the world’s largest telecommunications network. Through Banknet, MasterCard can authorize credit card transactions from around the world in less than one minute. Banknet’s hub is located in St. Louis, Missouri.
+Interbank Clearing and Settlement
+MasterCard uses a peer-to-peer, edge-based network for processing its payment authorizations. This means that MasterCard authorizations can travel directly through the network to their endpoint, without having to pass through a single, specific point first. This design makes MasterCard’s authorization network more resilient than that of competitors like Visa, because it means that one failure in the network won’t cause the failure of a significant number of other points in the network. However, MasterCard’s INAS also integrates centralized hub-and-spoke architecture, to be used with transactions that require more strenuous security measures.
+MasterCard’s INAS uses sophisticated telecommunications and computing technology to receive and authorize payment requests, clear payments, and then settle payments via ACH and Federal Reserve wire transfers. Each year, INAS and Banknet process 74 billion transactions in 150 currencies.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Deposit',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

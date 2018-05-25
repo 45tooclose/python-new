@@ -1,0 +1,75 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+         
+Amazon.com Inc. (AMZN) and Tesla Inc. (TSLA) have something in common with farming and construction companies: they join them on a new list of the most dangerous places to work in the U.S.
+7 Amazon Workers Killed in the Past Five Years
+The National Council for Occupational Safety and Health’s Dirty Dozen list is out, which gauges safety and danger in factories and warehouses around the country. To make it on the Dirty Dozen list the company’s employees had to have been exposed to unnecessary and preventable risk; have a repeated history of risky practices and have received multiple citations by state and federal authorities.  “Tens of millions of workers in the U.S. suffer from unnecessary risks in the workplace because employers fail to observe well-documented safety practices,” the council wrote in a report.
+Take Amazon for starters. According to the National Council for Occupational Safety and Health, seven workers have been killed at the e-commerce’s warehouse during the past five years with three of the deaths within a five-week span, at three different locations. “Amazon workers suffer injuries – and sometimes lose their lives – in a work environment with a relentless demand to fill orders and close monitoring of employee actions,” wrote the advocacy group.  “Despite a pattern of preventable deaths, Amazon is requesting billions in tax breaks for a new headquarters, on top of $1 billion already received from state, local taxpayers.”
+The council also took issue with Amazon’s interest in ultrasonic wristbands that track if warehouse workers aren’t performing their job, likening them to robots. “The new ultrasonic wristbands – not yet in use – can record each worker’s hand movements and ‘buzz’  a worker’s wrist if he or she makes a movement in the wrong direction.” Amazon’s addition to the Dirty Dozen list comes as its founder and Chief Executive Jeff Bezos has been named the richest man in the world at the same time that warehouse workers make an average of around $28,000 a year. (See more: 6 Things We Learned From Jeff Bezos' Annual Letter.)
+In the case of Tesla, it too got a stinging assessment, with the Council calling it: “a company of the future under working conditions of the past.” According to the group injuries at Tesla are 31% higher than the industry average while serious injuries are 83% higher. While Tesla says it has seen a reduction in injuries the council argues an independent investigation revealed it didn’t report all of the serious injuries. (See more: Tesla Factory Workers Accuse Company of Intimidation.)  “Tesla’s clean cars are produced by workers who must endure dirty, unsafe working conditions,” noted the Council, pointing to OSHA safety violations at the green vehicle maker.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

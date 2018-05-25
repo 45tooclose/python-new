@@ -1,0 +1,97 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Bitcoin futures contracts were launched in December of last year, and have already gained traction in the market. Many market participants, who cannot hold spot positions in bitcoin cryptocurrency due to compliance regulations, can now trade bitcoin futures contracts. Futures contracts also offer risk mitigation and hedging possibilities. Amid increasing participation in bitcoin futures trading, here’s a look at how bitcoin future contracts are priced. (For more, see How to Invest in Bitcoin Futures?)
+How is the Price of Bitcoin Futures Determined?
+Each month, the exchange introduces new bitcoin contracts that have expiry date three months in the future. For instance, bitcoin contracts expiring in April were launched in February, and those expiring in May were introduced in March.
+As new 3-month away contracts are launched each month, market makers set an initial price for those contracts and the trading begins. As the trading gains momentum, the demand and supply mechanism takes precedence to determine the price of the futures.
+All futures contracts derive their value from their respective underlying. In case of bitcoin futures, their prices depend on bitcoin spot prices, and any move in the latter affects the former. This dependency leads to the prices of the two moving in sync with each other, though there is a difference between the two.
+The theoretical formula for calculating the futures price from the spot price is as follows:
+Futures Price = Spot price *(1+ rf – d)
+Where, rf = risk-free rate on annual basis, and d = dividend
+The above formula needs customization for two points that are particular to bitcoin – (1) the change for risk-free rate from an annual to a daily basis, and (2) there is no dividend in cases of bitcoin so ‘d’ can be removed.
+Bitcoin Futures Price = Bitcoin Spot price * [1+ rf*(x/365) ]
+Where x = number of days to expiry.
+The formula is based on the concept of cost of carry. Anyone with money to invest in a futures contract can alternatively invest it in secure bonds to earn the minimum available risk free rate of return. Hence, the formula includes a provision for computing the returns which are at least at par with the risk-free rate over time until the contract expires. In case of there is no possibility of arbitrage, the futures price will be the sum of spot price and the cost of carry, which is reflected in the formula.
+Let’s verify this against recent historical values. With the risk-free rate value of 2.25%, bitcoin spot price of $8,171 as of April 18, the bitcoin futures price expiring in April comes to around $8,175.3. This theoretically calculated value is very close to the actual price of $8,180 at which the contract was closed on April 18.
+The slight difference of around $5 is attributed to brokerage charges and the market perception of volatility which could shift the real payout by a few points.
+Real-World Price Determination
+Beyond the theoretical calculations, the bitcoin futures prices in the real world tend to run with wild swings in either direction. To understand the randomness in price discovery mechanism of futures, let’s have a look at how the prices of bitcoin futures contracts have behaved in the recent past:
+
+Image Courtesy: TradingView
+The above graph shows the price of bitcoin in blue (spot price), the price of bitcoin futures contract expiring in April in green (launched in February), and price of a bitcoin futures contract expiring in May in red (launched in March).
+A few important observations can be made from the above graph.
+At times, the price of futures may almost come close to the spot price (arrow no. 1), at times it may move much higher (arrow no. 2 and 3), and at times it may fall below the spot price (arrow no. 4). This is due to the relative differences between the blue graph (spot price) and the green and red graphs (future prices) at the marked locations.
+Why do such differences occur? Aren't futures contracts said to closely follow spot prices?
+While the theoretical formula is good for the ideal case of no arbitrage, it does not account for the real-world perception of volatility and price arbitrage. The same is reflected in the $5 difference that we saw in the previous section.
+This happens because the market participants perceive and include the possible impacts of volatility. If there are only 2 days to expiry, the futures price calculation formula will simply tell us that due to only 2 days remaining, the price of bitcoin futures contract will remain very close to bitcoin spot price.
+However, due to high volatility, its spot price may shoot up or down significantly within hours. Additionally, there may be big events occurring, like a particular country like China announcing a ban on cryptocurrencies, which will change the perception of the market participants for the near term that is reflected in the spot price. Also, bitcoin trades 24/7, which may mean its spot prices are prone to high volatility within hours and even minutes based on local developments, while futures market may remain open only for a specified number of hours. It is possible that futures price closed on Tuesday very near to the spot price, but overnight there was a development that spiked the bitcoin spot prices by 12 percent and hence Wednesday morning futures will open with a wide gap.
+Unfortunately, the theoretical formula does not account for such instances which have the potential to impact the futures prices drastically. While spot prices can instantly reflect bitcoin-related developments, the perceived volatility and its impact over the remaining days to expiry makes futures pricing a guessing game.
+The Bottom Line
+Despite all inconsistencies in the price discovery mechanism and the large variance of volatility impact on futures pricing, futures trading remains a high-stakes game. Combining it with the 24/7 trading in spot prices adds another layer of complexity to valuing futures. Nevertheless, bitcoin futures trading continues to draw interest as this volatility and uncertainty also allows for profitable opportunities.
+Investing in cryptocurrencies and Initial Coin Offerings ("ICOs") is highly risky and speculative, and this article is not a recommendation by Investopedia or the writer to invest in cryptocurrencies or ICOs. Since each individual's situation is unique, a qualified professional should always be consulted before making any financial decisions. Investopedia makes no representations or warranties as to the accuracy or timeliness of the information contained herein. As of the date this article was written, the author owns no cryptocurrencies.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

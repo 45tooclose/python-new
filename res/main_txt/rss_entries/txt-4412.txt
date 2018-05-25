@@ -1,0 +1,206 @@
+
+
+
+    
+        
+        Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/ActiveTrading/ActiveTrading/IC-Video/Article");} else {return "/8397/INV-NA/ActiveTrading/ActiveTrading/IC-Video/Article";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/articles/optioninvestor/10/binary-options.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/GnT0kBvk.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/GnT0kBvk-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/content/video/binary_options_outsi/binary.jpg?quality=80&width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "100%",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "GnT0kBvk-G9NhEyAa.mp4";
+                
+          
+            document.addEventListener("DOMContentLoaded", function() {
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                        var initializeJWPlayerSetup = function () {
+                            if (new VideoInit().canRun()) {
+                                setUpJwpPlayer();
+                            } else {
+                                new VideoInit().callBack = setUpJwpPlayer;
+                            }
+                        }
+            initializeJWPlayerSetup();
+          });
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "GnT0kBvk-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "Risk and Reward of Binary Options Outside the US",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };    
+        
+            
+      
+
+    
+
+    
+        Binary options let traders profit from price fluctuations in multiple global markets but it's important to understand the risks and rewards of these controversial and often-misunderstood financial instruments. Binary options bear little resemblance to traditional options, featuring different payouts, fees and risks, as well as a unique liquidity structure and investment process. (For related reading, see: A Guide To Trading Binary Options In The U.S.)
+Binary options traded outside the U.S. are also structured differently than those available on U.S. exchanges. They offer a viable alternative when speculating or hedging but only if the trader fully understands the two potential and opposing outcomes. The Financial Industry Regulatory Authority (FINRA) summed up regulator skepticism about these exotic instruments, advising investors "to be particularly wary of non-U.S. companies that offer binary options trading platforms. These include trading applications with names that often imply an easy path to riches".
+What Are Binary Options?
+Binary options are deceptively simple to understand, making them a popular choice for low-skilled traders. The most commonly traded instrument is a high-low or fixed-return option that provides access to stocks, indices, commodities and foreign exchange. These options have a clearly-stated expiration date, time and strike price. If a trader wagers correctly on the market's direction and price at the time of expiration, he or she is paid a fixed return regardless of how much the instrument has moved since the transaction, while an incorrect wager loses the original investment.
+The binary options trader buys a call when bullish on a stock, index, commodity or currency pair, or a put on those instruments when bearish. For a call to make money, the market must trade above the strike price at the expiration time. For a put to make money, the market must trade below the strike price at the expiration time. The strike price, expiration date, payout and risk are disclosed by the broker when the trade is first established. For most high-low binary options traded outside the U.S., the strike price is the current price or rate of the underlying financial product. Therefore, the trader is wagering whether the price on the expiration date will be higher or lower than the current price. (For more, see What is the history of binary options?)
+Foreign Versus U.S. Binary Options
+Non U.S. binary options typically have a fixed payout and risk, and are offered by individual brokers rather than directly on an exchange. These brokers profit on the difference between what they pay out on winning trades and what they collect on losing trades. While there are exceptions, these instruments are supposed to be held until expiration in an "all or nothing" payout structure. Foreign brokers are not legally allowed to solicit U.S. residents unless registered with a U.S. regulatory body such as the SEC or Commodities Futures Trading Commission (CFTC). 
+The Chicago Board Options Exchange (CBOE) began listing binary options for U.S. residents in 2008. The SEC regulates the CBOE, which offers investors increased protection compared to over-the-counter markets. Chicago-based  Nadex also runs a binary options exchange for US residents, subject to oversight by the CFTC. These options can be traded at any time, with the rate fluctuating between one and 100 based on the current probability of the position finishing in or out of the money. There is full transparency at all times and the trader can take the profit or loss they see on their screen prior to expiration. They can also enter as the rate fluctuates, taking advantage of varying risk-to-reward scenarios, or hold until expiration and close the position with the maximum gain or loss documented at the time of entry. Each trade requires a willing buyer and seller. because U.S. binary options trade through an exchange, which makes money through a fee that matches counter-parties.
+High-Low Binary Option Example
+Your analysis indicates the S&P 500 will rally for the rest of the trading day and you to buy an index call option. It's currently trading at 1,800 so you're wagering the index's price at expiration will be above that number. Since binary options are available for many time frames – from minutes to months away – you choose an expiration time or date that supports your analysis. You choose an option that expires in 30 minutes, paying out 70% plus your original stake if the S&P 500 is above 1,800 at that time or you lose the entire stake if the S&P 500 is below 1,800. Minimum and maximum investments vary from broker to broker.
+Say you invest $100 in the call that expires in 30 minutes. The S&P 500 price at expiration determines whether you make or lose money. The price at expiration may be the last quoted price, or the (bid+ask)/2. Each binary options broker outlines their own expiration price rules. In this case, assume the last quote on the S&P 500 before expiration was 1,802. Therefore, you make a $70 profit (or 70% of $100) and maintain your original $100 investment. If the price finished below 1,800, you would lose your original $100 investment. If the price expires exactly on the strike price, it is common for the trader to receive her/his money back with no profit or loss, although brokers may have different rules. The profit and/or original investment is automatically added to the trader's account when the position is closed.
+Other Types of Binary Options
+The example above is for a typical high-low binary option – the most common type of binary option – outside the U.S. International brokers will typically offer several other types of binaries as well. These include "one touch" options, where the traded instrument needs to touch the strike price just once before expiration to make money. There is a target above and below the current price, so traders can pick which target they believe will be hit before the expiration date/time..Meanwhile, a "range" binary option allows traders to select a price range the asset will trade within until expiration. A payout is received if price stays within the range, while the investment is lost if it exits the range..
+As competition in the binary options space heats up, brokers are offering additional products that boast 50% to 500% payouts. While product structures and requirements may change, risk and reward is always known at the trade's outset, allowing the trader to potentially make more on a position than they lose. Of course, an option offering a 500% payout will be structured in such a way that the probability of winning the payout is very low.
+Unlike their U.S. counterparts, some foreign brokers allow traders to exit positions before expiration, but most do not. Exiting a trade before expiration typically results in a lower payout (specified by broker) or small loss, but the trader won't lose his or her entire investment.
+The Upside and Downside 
+Risk and reward are known in advance, offering a major advantage. There are only two outcomes: win a fixed amount or lose a fixed amount, and there are generally no commissions or fees. They're simple to use and there's only one decision to make: is the underlying asset going up or down? In addition, there are also no liquidity concerns because the trader doesn't own the underlying asset and brokers can offer innumerable strike prices and expiration times/dates, which is an attractive feature. The trader can also access multiple asset classes anytime a market is open somewhere in the world.
+On the downside, the reward is always less than the risk when playing high-low binary options. As a result, the trader must be right a high percentage of the time to cover inevitable losses. While payout and risk will fluctuate from broker to broker and instrument to instrument, one thing remains constant: losing trades will cost the trader more than she/he can make on winning trades. Other types of binary options may provide payouts where the reward is potentially greater than the risk but the percentage of winning trades will be lower.
+Finally, OTC markets are unregulated outside the U.S. and there is little government oversight in the case of a trade discrepancy. While brokers often use external sources for quotes, traders may still find themselves susceptible to unscrupulous practices.
+The Bottom Line
+Binary options outside the U.S. are an alternative for speculating or hedging but come with advantages and disadvantages. The positives include a known risk and reward, no commissions, innumerable strike prices and expiry dates while negatives include non-ownership of the traded asset, little regulatory oversight and a winning payout that is usually less than the loss on losing trades.  
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

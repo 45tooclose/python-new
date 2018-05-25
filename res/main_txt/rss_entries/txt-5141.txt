@@ -1,0 +1,55 @@
+
+
+
+    
+    
+    
+          
+    A:
+            In most states, an insurance company must give a policyholder written notice of at least 30 days before canceling a policy. The policy between the insurance company and the insured is a formal contract that specifies the reasons the insurer can cancel the policy and the time frame and method in which it can do it.
+Rights for the Insured
+Once an insurance policy is issued, an insurance company cannot cancel the policy except for reasons specifically stated in the policy. State laws usually limit what an insurance company can include as reasons for cancellation of the policy. Typical reasons include failure by the insured to make required premium payments, and suspension or revocation of the insured's driver's license in the case of auto insurance. Other reasons include the insured misrepresenting the asset or committing fraud, and the insured intentionally damaging the asset, such as deliberately causing an automobile accident, or causing harm to oneself in the case of life insurance or medical insurance. In some states, homeowner's insurance policies can be canceled for an excessive number of claims or for significant changes in risk.
+Each state has an insurance commission or division charged with protecting consumers while encouraging a financially stable and competitive insurance marketplace. State insurance regulators confirm insurance companies are financially sound so they can pay claims. They also provide services to policyholders to ensure they are treated fairly by making sure claims are handled promptly and accurately, and that insurance companies honor their policies. To find your state insurance commission, visit the National Association of Insurance Commissioners (NAIC).
+(For related reading, see: 5 Insurance Policies Everyone Should Have.)
+        
+    
+
+    
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'HomeInsurance',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'FAQ'
+    });
+                

@@ -1,0 +1,77 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Fitbit, Inc. (FIT) shares broke out from trendline resistance on Monday after the company announced a collaboration with Alphabet Inc. (GOOG) on consumer and enterprise digital health solutions. Under the terms of the agreement, Fitbit will use Google's Cloud Healthcare API to connect user data from wearables with electronic medical records while also leveraging its recently acquired Twine Health coaching platform for diabetes and hypertension management.
+On Tuesday, Fitbit stock moved nearly 3% lower by mid-day as traders took profits off of the table. The sentiment on the stock has been very mixed over the past quarter, with analysts disagreeing on its future potential. Morgan Stanley cut Fitbit stock to underweight with a $4.00 per share price target in early April, shortly after Craig-Hallum analysts had initiated coverage on the stock with a Buy rating and a $10.00 per share price target in March. (For more, check out: 'Hard to See a Floor' on Fitbit: Morgan Stanley.)
+
+From a technical standpoint, the stock broke out from an ascending triangle pattern to briefly touch the 200-day moving average at around $5.78 on Monday before giving up much of those gains by mid-day on Tuesday. The relative strength index (RSI) appears neutral with a 57.92 reading, while the moving average convergence divergence (MACD) remains in a bullish trend following a crossover back in early April.
+[Discover more about the moving average convergence divergence in Chapter 4 of the Technical Analysis course on the Investopedia Academy]
+Traders should watch for a rebound from trendline support levels at around $5.50 to retest the 200-day moving average at $5.78 or R1 resistance at $6.08. If the stock fails to break out, traders should watch for a move down to the pivot point at $5.29. A breakdown from these levels could lead to a move to S1 support levels at $4.77 near prior lows. For now, technical indicators suggest a slight bullish bias on the stock. (See also: Why Twitter and Fitbit Surged Yesterday.)
+Chart courtesy of StockCharts.com. The author holds no position in the stock(s) mentioned except through passively managed index funds. 
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Chartadvisor-Article'
+    });
+                    
+            
+                

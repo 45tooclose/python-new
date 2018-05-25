@@ -1,0 +1,83 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Rising levels of market volatility and subsequent selling pressure have started to take hold of the strongest performing market segments such as biotechnology. The sudden shift in sentiment now has some active traders talking about a long-term shift in trend. In this article, we take a look at several troublesome charts and identify what traders need to see before betting on a move higher. (For related reading, see: The Industry Handbook: Biotechnology.)
+iShares Nasdaq Biotechnology ETF (IBB)
+Traders who want to gain exposure to a broad range of biotechnology companies often look to exchange-traded products such as the iShares Nasdaq Biotechnology ETF. In case you aren't familiar, the IBB fund has total net assets of approximately $8.5 billion and consists of 193 holdings. Taking a look at the chart, you can see that it has been trading within a well-defined uptrend since late 2016. The recent series of closes below the trendline are the first cases of a move below support since its inception and mark a common technical sell signal. The close below the dotted trendline also suggests that its role has reversed from one of support to one of resistance and that it will now likely be used as a guide for determining the placement of sell orders. Based on the proximity to major resistance, the risk/reward is in favor of the bears.
+Furthermore, a key factor that traders will be specifically interested in is whether the 50-day moving average (blue line) will cross below the 200-day moving average (red line). In the event of a bearish crossover, also known as the death cross, traders would expect this to mark the beginning of a long-term downtrend. Most technical traders would likely not buy back in until the 50-day moving average crosses back above the 200-day moving average. Based on recent weakness, it looks like this bearish scenario is likely. (For more, see: Biotech Stocks Face a Steep Drop.)
+
+Alexion Pharmaceuticals, Inc. (ALXN)
+One of the top holdings of the IBB ETF that could generate some interest by active traders over the coming few sessions is Alexion Pharmaceuticals. Taking a look at the chart, you can see that the 200-day moving average was too strong for the bulls to overcome earlier in 2018. Active traders will agree that the retracement from resistance is common behavior, and the stock is now trading near another critical level of support, which would likely trigger a move lower if broken. (For more, see: 3 Hot Biotech Stocks Facing Sharp Declines.)
+
+[Learn how to use moving averages to analyze stock charts and develop your trading strategy in Chapter 2 of the Technical Analysis course on the Investopedia Academy]
+BioMarin Pharmaceutical Inc. (BMRN)
+Another top holding of IBB that will likely garner some attention from active traders is BioMarin Pharmaceutical. Taking a look at the chart below, you can see that the price has trended sideways since 2016, and the apparent bias to the downside suggests that a move below the nearby support level could be a catalyst to a move lower. The bulls will likely want to remain on the sidelines until the price is able to clear the resistance of the descending trendline or even the major resistance shown by the horizontal trendline, depending on their risk tolerance. (For more, see: Why Biotech Stocks Face Steep Declines Ahead.)
+
+The Bottom Line
+The biotech sector has been one of the strongest performers in recent years, but the recent break of IBB below its long-term ascending trendline suggests that the run could be coming to an end. Traders will keep a watch on major technical levels over the coming few sessions because a continued move lower will likely mark the beginning of a long-term downtrend. (For more, see: 3 Big Biotech Stocks Poised for More Declines.)
+Charts courtesy of StockCharts.com. At the time of writing, Casey Murphy did not own a position in any of the assets mentioned.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Chartadvisor-Article'
+    });
+                    
+            
+                

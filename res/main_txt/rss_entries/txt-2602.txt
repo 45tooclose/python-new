@@ -1,0 +1,141 @@
+
+
+    
+                          What is an 'Open Position'?
+
+      An open position in investing is any trade, established or entered, that has yet to be closed with an opposing trade. An open position can exist following a buy, a long position or a sell or a short position. In any case, the position remains open until an opposing trade takes place.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Buy To Open                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Open Position Ratio                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Net Long                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Sell To Open                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Open Position'
+      For example, an investor who owns 500 shares of a certain stock is said to have an open position in that stock. When the investor sells those 500 shares, the position is closed. Buy-and-hold investors typically have one or more open positions at any given time. Short-term traders may execute "round-trip" trades; a position is opened and closed within a relatively short period. Day traders and scalpers may even open and close a position within a few seconds, trying to catch very small but frequent price movements throughout the day.
+An open position represents market exposure for the investor. It contains risk that can only be eliminated by closing the position. Open positions can be held from minutes to years depending on the style and objective of the investor or trader. Portfolios are composed of many open positions. The amount of risk entailed with an open position depends on the size of the position relative to the account size and the holding period. Longer holding periods entail more risk due to more exposure to unexpected events specific to the stock, sector or overall market conditions. The only way to eliminate exposure is to close out the open positions. Closing a short position requires buying back the shares while closing long positions entails selling the long position.
+Open Position Diversification
+The recommendation for investors is to limit risk by only holding open positions that equate to 2% or less of their total portfolio value. By spreading out the open positions throughout various market sectors and asset classes, an investor can also reduce risk through diversification. For example, holding a 2% portfolio position in stocks spread out through multiple sectors, such as financials, information technology, health care, utilities and consumer staples along with fixed-income assets such as government bonds, represents a diversified portfolio.
+The allocation per sector can be adjusted according to market conditions, but keeping the positions to just 2% per stock can even out the risk. Using stop-losses to close out positions is also recommended to curtail losses and eliminate exposure of underperforming companies. Investors are always susceptible to systemic risk when holding open positions overnight.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

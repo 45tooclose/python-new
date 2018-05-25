@@ -1,0 +1,79 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Goldman Sachs Group Inc. (GS) is set to become the first Wall Street bank to open up a bitcoin trading operation, according to a report by The New York Times published Thursday. The decentralized currency market has faced roadblocks breaking into the mainstream financial industry, as major hacks and other scandals taint the burgeoning digital asset class. However, a move by one of the most storied names in finance could open a major door for the legitimacy of the crypto space as well as bitcoin, the world's largest virtual coin by market capitalization. (See also: Are Cryptocurrencies "the New Derivatives"?)
+The bank's new cryptocurrency trading desk will offer forward bitcoin products, where there is no physical exchange of the underlying asset but an exchange of the quoted currency on the settlement date of the forward. While Goldman will not start off directly buying and selling bitcoins, a team at the bank is looking into the possibility of applying for regulatory approval to do so and examining how best to manage the additional risks associated with directly holding the digital asset, according to the Times. 
+Earlier this month, Goldman hired former cryptocurrency trader Justin Schmidt as head of digital asset markets in a move seen as facilitating the firm on its path to offering clients more exposure to cryptocurrencies. 
+Rana Yared, one of the Goldman executives responsible for overseeing the new trading operation's launch, told the Times that the bank is well aware of the risks associated with getting into crypto trading. 
+Gaining Legitimacy
+When bitcoin was created in 2009, its anonymous founder, known only as Satoshi Nakamoto, spoke about the potential for the cryptocurrency to replace Wall Street banks. 
+Trading at a price of $9,400 at 4:40 p.m. UTC on Thursday, bitcoin has gained 515% over the most recent 12 months. BTC surpassed the $1,000 mark for the first time in 2013, and broke the $2,000 threshold in May 2017. A bitcoin frenzy drove a spike in demand for the cryptocurrency in late 2017, when BTC neared $20,000—a new all-time high. 
+Amid the crypto craze of the past few years, hedge funds and large institutional investors, as well as tech companies such as Square Inc. (SQ), have joined retail investors around the world in conducting business surrounding the volatile digital assets.  n December, the Chicago Mercantile Exchange and the CBOE started allowing customers to trade bitcoin futures contracts. 
+Goldman Sachs' crypto operation, while not quite a full-fledged trading desk, marks the first major vote of confidence by a regulated financial institution in the digital coin market. (See also: Goldman Hires Former Crypto Trader.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

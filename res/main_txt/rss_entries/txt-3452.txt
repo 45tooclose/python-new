@@ -1,0 +1,87 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        There are many characteristics and skills required of traders to be successful in the financial markets. The ability to understand a company's fundamentals and the ability to determine the direction of a stock's trend are two key skills, but neither is as important as the ability to contain emotion and exercise discipline.
+Tutorial: Risk and Diversification
+Trading Psychology
+The psychological aspect of trading is extremely important. Traders often dart in and out of stocks on short notice, necessitating quick decisions. To accomplish this, they need a certain presence of mind. They also, by extension, need discipline, so they will stick with previously established trading plans and know when to book profits and losses. Emotions simply can't get in the way. (To read more about trading psychology, see Master Your Trading Mindtraps.)
+Understanding Fear
+When a trader gets bad news about a certain stock or the general market, it's not uncommon for the trader to get scared. They may overreact and feel compelled to liquidate their holdings and go to cash or to refrain from taking any risks. If they do that, they may avoid certain losses, but they also may miss out on gains.
+Traders need to understand what fear is - a natural reaction to what they perceive as a threat, in this case, to their profit or money-making potential. Quantifying the fear might help, and traders should consider pondering what they are afraid of, and why they are afraid of it.
+By pondering this issue ahead of time and knowing how they may instinctively react to or perceive certain things, a trader can hope to isolate and identify those feelings during a trading session, and then try to focus on moving past the emotional response. Of course, this is not easy, and may take practice, but it's necessary to the health of an investor's portfolio. (For more, see Understanding Investor Behavior.)
+Greed Is a Trader's Worst Enemy
+There's an old saying on Wall Street that "pigs get slaughtered." This adage refers to greedy investors hanging on to winning positions too long, trying to get every last tick. Greed can be devastating to returns, because a trader always runs the risk of getting whipsawed or blown out of a position.
+Greed is not easy to overcome. It's often based on an instinct to try to do better, to try to get just a little more. A trader should learn to recognize this instinct and develop a trading plan based upon rational business decisions, not emotional whims or potentially harmful instincts. (Keep reading about this in When Fear and Greed Take Over.)
+The Importance of Trading Rules and Plans
+To get their heads in the right place before they feel the emotional or psychological crunch, investors need to create trading rules. They should lay out guidelines based on their risk-reward tolerance for when they will enter a trade and exit it - whether through a profit target or stop loss - to take emotion out of the equation. Additionally, a trader might say if certain news, such as specific positive or negative earnings or macroeconomic news, comes out, then he or she will buy or sell a security. 
+Traders would also be wise to consider setting limits on the amount they are willing to win or lose in a day. If the profit target is hit, they take the money and run, and if losing trades hit a predetermined limit, they fold up their tent and go home, preventing further losses.
+Traders should learn as much as they can about their area of interest, educating themselves and, if possible, going to trading seminars and attending sell-side conferences. Also, it makes sense to plan out and devote as much time as possible to the research process. That means studying charts, speaking with management (if applicable), reading trade journals or doing other background work (such as macroeconomic analysis or industry analysis) so the trader is up to speed when the trading session starts. Knowledge can help a trader overcome fear, so it's a handy tool.
+In addition, it's important traders remain flexible and consider experimenting with new things from time to time. For example, they may consider using options to mitigate risk, or setting stop losses at different places. One of the best ways a trader can learn is by experimenting (within reason). This experience may also help reduce emotional influences.
+Finally, traders should periodically review and assess their performance. In addition to reviewing their returns and individual positions, traders should review how they prepared for a trading session, how up to date they are on the markets and how they're progressing in terms of ongoing education, among other things. This periodic assessment can help a trader correct mistakes, which may help enhance their overall returns. (For more, see 10 Steps to Building a Winning Trading Plan.)
+The Bottom Line
+While it's important for a trader to be able to read a balance sheet or a chart, there is a psychological component to trading that shouldn't be overlooked. Being aware of how fear and greed can impact trading, exercising discipline, and developing trading rules and plans are crucial to a trader's success. 
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

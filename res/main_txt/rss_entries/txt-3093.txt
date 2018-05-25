@@ -1,0 +1,250 @@
+
+
+
+    
+        
+        Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/ActiveTrading/ActiveTrading/IC-Video/Article");} else {return "/8397/INV-NA/ActiveTrading/ActiveTrading/IC-Video/Article";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/articles/active-trading/042114/overbought-or-oversold-use-relative-strength-index-find-out.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/L3R1p3oC.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/L3R1p3oC-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/content/video/overbought_or_overso/overboughtoroversoldusingthersitofindout.png?width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "100%",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "L3R1p3oC-G9NhEyAa.mp4";
+                
+          
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                    var initializeJWPlayerSetup = function () {
+                        if (new VideoInit().canRun()) {
+                            setUpJwpPlayer();
+                        } else {
+                            new VideoInit().callBack = setUpJwpPlayer;
+                        }
+                    }
+          initializeJWPlayerSetup();
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "L3R1p3oC-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "Overbought Or Oversold? Using The RSI To Find Out",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };    
+        
+            
+      
+
+    
+
+    
+        Technical Analysis in ActionTime for Big Cap Biotech (CELG, VRTX)Russian Stocks Heading Toward Breakout Levels (RSX, RSXJ)Where is Netflix Headed from Here? (NFLX, BIDU)3 ETFs to Trade the Breakout in Value Stocks (IWF)The Relative Strength Index (RSI) was created by J. Welles Wilder Jr. and introduced in his book, "New Concepts in Technical Trading Systems," published in 1978. Wilder was a mechanical engineer and real estate investor before going into market research and trading. He spent most of his life in Greensboro, N.C., before moving to New Zealand.
+ 
+RSI is one of several popular technical indicators developed by Wilder, including the Parabolic SAR, Average True Range (ATR) and the Average Directional Movement Index (ADX). Still widely used, these classic indicators are included in near all chart platforms and trading software.
+ 
+RSI is not to be confused with relative strength. Relative strength compares the performance of one asset to that of another.
+RSI Basics
+The Relative Strength Index is one of a group of technical indicators known as momentum oscillators. Other well-known momentum oscillators are the Moving Average Convergence Divergence (MACD) and the Stochastic Oscillator.
+ 
+[The Relative Strength Index is a useful indicator for determining when prices over overbought or oversold, but traders should use more than one indicator when making decisions. Investopedia's Technical Analysis Course takes an in-depth look at technical indicators and chart patterns that you need to know, as well as how to use them in the wild to improve your profitability.]
+ 
+RSI measures the velocity and magnitude of directional price moves and represents the data graphically by oscillating between 0 and 100. The indicator is calculated using the average gains and losses of an asset over a specified time period. The default look-back setting for the indicator suggested by Wilder is 14 periods.
+ 
+Lowering the look-back setting increases the indicator's sensitivity, creating more instances of overbought and oversold conditions. Raising the setting decreases sensitivity, causing fewer instances of overbought and oversold conditions. How overbought and oversold conditions are determined, and used, will be discussed in a moment.
+ 
+RSI is calculated using the following formula to create an oscillator that moves between 0 and 100.
+ 
+RSI = 100 - 100 / (1+RS) 
+ 
+Where RS = Average Gain / Average Loss over the number of periods selected in the look-back period (usually 14). 
+ 
+Generally, as the price of an asset rises, RSI will as well, because average gains will outstrip average losses. When the asset price falls, losses outstrip gains causing the indicator to fall. Gains or losses don't continue indefinitely, though. And this is where the RSI can help in making trading decisions.
+Overbought and Oversold Levels
+The most basic RSI application is to use it to identify areas that are potentially overbought or oversold. Movements above 70 indicate overbought conditions. Conversely, movements under 30 reflects oversold conditions. The 50 level represents a neutral market
+In terms of market analysis and trading signals, RSI moving above the horizontal 30 reference level is viewed as a bullish indicator, while the RSI moving below the horizontal 70 reference level is seen to be a bearish indicator. Since some assets are more volatile and move quicker than others, 80 and 20 are also frequently used overbought and oversold levels. 
+As with other momentum oscillators, overbought and oversold readings for RSI work best when prices are moving within a sideways range rather than trending up or down. 
+ 
+If using the RSI during trends, it is best to combine looking at the trend and then only taking trades in the trending direction. For example, if the trend is up, look to buy when the RSI crosses back above 30 from below. In a downtrend, look to sell or short when the RSI crosses back below 70 from above. In this way, trades are only taken in the trending direction, reducing the risk of potential false signals.
+ 
+A false signal occurs when the indicator gives a buy or sell signal where the price doesn't follow through in the anticipated direction.
+ 
+
+Price/Oscillator Divergence
+Wilder suggests that divergence between an asset's price movement and the RSI oscillator can signal a potential reversal. The reasoning is that in these instances, directional momentum does not confirm price.
+ 
+A bullish divergence forms when the underlying asset makes a lower low and RSI makes a higher low. RSI diverges from the bearish price action in that it shows strengthening momentum, indicating a potential upward reversal in price.
+ 
+A bearish divergence forms when the underlying asset makes a higher high and RSI forms a lower high. RSI diverges from the bullish price action in that it shows weakening momentum, indicating a potential downward reversal in price.
+ 
+Divergence can last for a long time. Prices may continue to rise even though the RSI is showing a divergence. Therefore, divergence should not be acted on alone. If there is divergence present, wait for the price to break in the direction of the divergence before acting. For example, if a stock is in an uptrend, and RSI is moving lower, sell once the price starts to break lower.
+ 
+
+Failure Swings
+Failure swing can also be used to spot price reversals. A bullish failure swing forms when RSI moves below 30, rises back above 30 and pulls back again, but holds above the 30 level. The failure swing is complete when the RSI breaks its recent high; this breakout is interpreted as a bullish signal.
+ 
+A bearish failure swing forms when RSI moves above 70, pulls back below 70 and rises again, but holds below 70. The failure swing is complete when RSI breaks its recent low; this breakout is interpreted as a bearish signal.
+ 
+A failure swing is essentially a more advanced form of the overbought/oversold trading conditions discussed prior. The trader is waiting for an oversold condition in which to buy, but instead of buying immediately when the RSI moves back above 30, the trader has the option to wait and see if the RSI holds above the 30 level on the next drop. If it does, and then starts to rise again, the trader buys. The reverse would be true for selling at the 70 levels after the RSI has reached overbought conditions.
+ 
+Here is how the RSI looks when making a failure swing.
+ 
+
+ 
+Here's a real-world example where a stock, in an overall uptrend, drops below 30 on the RSI. It then bounces but then drops below again. Following the next RSI rally, it holds above 30 and then rallies above the recent peak. That is the signal to buy.
+ 
+
+RSI Ranges
+During an uptrend, RSI tends to stay between different levels than during a downtrend. This makes sense, because the RSI is measuring gains versus losses. In an uptrend, there will be more gains, keeping the RSI at higher levels. In a downtrend, the RSI will tend to stay at lower levels.
+During an uptrend the RSI tends to stay above 30 and should hit 70 often. During a downtrend, it is rare to see the RSI above 70, and frequently hits 30 or below. These guidelines can aid in determining trend strength and spotting potential reversals. For example, if the RSI isn't able to reach 70 on a number of price swing in a row during an uptrend, and then drops below 30, the trend has weakened and could be reversing lower. 
+The reverse is true for a downtrend. If the downtrend is unable to reach 30 or below, and then rallies above 70, that downtrend has weakened and could be reversing to the upside.
+
+RSI Trend Line Breaks
+Trendlines can be used on the RSI oscillator itself, in the same way as on price charts, by connecting higher lows in an uptrend or lower highs in a downtrend. Breakouts above or below these trendlines can serve to indicate a potential reversal in price.
+ 
+These signals are especially prone to false signals. Since the indicator is bound between 0 and 100, there are plenty of opportunities to draw trendlines, yet not all of them will be important. Consider combining some of the other tactics discussed when utilizing trendline breaks. The chart below for example is an uptrend trendline break, but is a also a failure swing. 
+ 
+
+ 
+The Bottom Line
+Despite being developed over 30 years ago, RSI remains relevant today even though traders now have access to a vast array of sophisticated technical trading tools. To avoid misleading signals, the RSI is best used with an awareness of whether the market is trending or ranging. RSI can give important clues indicating potential trend reversals and can serve to compliment other indicators as part of a broader trading strategy.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

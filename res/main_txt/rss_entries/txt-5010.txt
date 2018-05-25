@@ -1,0 +1,81 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Celgene Corporation (NASDAQ: CELG) is an integrated biotechnology company that develops and sells therapies for the treatment of oncology and inflammatory diseases through gene and protein regulation. Celgene is most known for its blockbuster drug Revlimid, which treats multiple myeloma. Despite significant growth in this disease around the world, Celgene shows too much reliance on a single drug, and the company undertook a number of acquisitions to diversify its drug portfolio with immuno-oncology therapies.
+It was reported in January of 2018 that Celgene had entered into talks to buy biotech company Juno Therapeutics for an undisclosed sum. Celgene has been in the Juno business for a little while now, having invested $500 million into the company in September 2017. The landmark acquisition was completed in March 2018. 
+Celgene saw its stock plummet after announcing that it received a Refusal to File letter from the FDA for its new drug application. The price of Celgene stock fell by almost 8% in two hours after market open on February 28, 2018. As of May 4, 2018, shares of Celgene were trading at about $85. 
+Debt/Equity Ratio
+The debt/equity (D/E) ratio shows to what extent a company is leveraged in relations to its book value of equity. An increasing D/E ratio coupled with other leverage metrics can indicate problems a company may face in paying off its debts. As of May 2018, the company's most recent quarterly D/E ratio was 228.84. 
+One reason behind the high level of debt is the company's acquisition of Receptos, Inc. in August 2015, which allowed Celgene to add more oral immunology products to its product portfolio. While the current D/E ration may seem high, investors should look at other metrics to ascertain whether the company is capable of servicing its debt levels. In October 2017, Celgene issued senior notes that have maturity dates from August, 2018 to 2047 priced for $3 billion. With strong operating cash flows, Celgene is unlikely to experience trouble paying off its debt going forward.
+Operating Margin
+The operating margin is a useful metric that lets investors evaluate a company's ability to generate operating profits relative to its sales. From 2005 to 2016, Celgene's operating margin fluctuated between -64.94% in 2008 to 28.2% in 2016. More recently, as of May 4, 2018, the company's operating margin stood at 42.14% for the trailing 12-month period.
+Celgene's operating margin is determined to a large extent by its existing sales of drugs and research and development (R&D) expenses. In the 12-month period ending on January 17, 2018, Celgene's revenues stood at 12.50 billion, while its R&D expenses decreased from $1.6 million to $1.34 million in the third quarter of fiscal year 2017. Because R&D efforts bear a lot of uncertainty, the company's operating profits may continue to fluctuate. Also, Celgene's operating margin is likely to improve in the future because Revlimid has not reached its peak sales. 
+Return on Invested Capital
+The return on invested capital (ROIC) shows investors how much a company earned in profits on its capital, which is the sum of a company's net debt and its book value of equity. An ROIC that is higher than a company's cost of capital indicates that the company's growth is capable of delivering excess returns for its common shareholders. From 2012 to 2016, Celgene's average ROIC was about 11.65%. For the most recent trailing 12-month period, Celgene showed an ROIC of 13.63%.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

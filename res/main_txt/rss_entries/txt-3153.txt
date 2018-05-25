@@ -1,0 +1,143 @@
+
+
+    
+                          What is an 'Airbag Swap'
+
+      An airbag swap is a type of interest rate swap whose notional value adjusts in response to fluctuations in interest rates. The development of these derivatives was to provide a method for counterparties to link interest payments associated with a swap to the changes in interest rates.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Amortizing Swap                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Constant Maturity Swap - CMS                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Asset Swap                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Swap Curve                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Airbag Swap'
+      While the theoretical value of an airbag swap will adjust to changing interest rates, other derivatives such as a vanilla swap will use the same notional principal amount. In a vanilla swap, the notional principal amount remains static from inception as it determines interest rates for each leg of the swap.  The swap then makes payments based on the original notional principal for the duration of the swap. 
+Vanilla swaps have a floating leg which is usually connected to a common index rate, such as the London Interbank Offered Rate. The floating leg of the airbag swap links to a constant maturity swap (CMS) which periodically resets itself against the rate of a fixed-maturity instrument. 
+The CMS responds to changes in prevailing interest rates, and the counterparties recalculate the notional value of the loan based on this linkage. As a result, rising or falling interest rates change the notional value of the underlying loan. This fluctuation, in turn, changes the amount of interest paid as the interest rates get recalculated on a larger or smaller amount of notional principal. 
+When the counterparties set up the relationship between the floating leg of the swap and the notional value of the swap, they can do so to favor rate changes in either direction. Depending on the relationship between the floating leg and the CMS, the notional amount can move either in the same direction as rates or the opposite direction, depending on the effect the counterparties wish to achieve.
+In any case, a rise in the theoretical, or notional value of the swap leads to higher interest payments, and a fall in notional amount would reduce the number of interest payments. Airbag swaps are therefore useful for companies looking to hedge investments susceptible to interest rate fluctuations. The structuring of these instruments can generate more significant gains than vanilla swaps under the same circumstances. 
+Example of an Airbag Swap
+A company with a high sensitivity to rising interest rates due to increased redemptions in the bond market might seek to recoup some of its losses via an airbag swap designed to raise the notional value of the swap as rates increase. The increase in notional value would generate gains for the company since the swap's net payment at higher interest rates would be higher than its net amount at lower interest rates.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

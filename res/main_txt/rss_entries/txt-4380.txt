@@ -1,0 +1,84 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        The utilities sector is one of the favorite sectors of long-term investors because of the high barriers to entry and cash-recurring nature of the underlying business. These factors make the businesses in this sector difficult to compete against, and their relative stability makes them prime candidates for investment during times of uncertainty. In this article, we highlight major technical resistance levels that look to be standing in the way of a major move higher. Based on technical analysis, long-term bulls will need to see a close beyond resistance before betting on a move higher. (For more on this topic, check out: The Industry Handbook: The Utilities Industry.)
+Utilities Select Sector SPDR Fund (XLU)
+One of the most common exchange-traded products used by retail investors for gaining exposure to utilities is the Utilities Select Sector SPDR Fund. With total net assets of approximately $7 billion, a gross expense ratio of 0.13% and a diverse selection of 28 holdings that carry a weighted average market cap of $34.5 billion, XLU seems to be one of the more fundamentally solid ETFs in the market. Taking a look at the chart below, you can see that the price is currently trading near the combined resistance of its 200-day moving average and horizontal trendline. These two levels represent significant technical resistance that stands in the way of a move higher and could be used by the bears as a guide for determining the placement of sell orders. The $52 price point is the key level to watch, as bulls will likely want to take a position only on a confirmed break above that mark. (For more, see: How Many Different Types of Utility Stocks Are There?)
+
+Consolidated Edison, Inc. (ED)
+Founded in 1823, Consolidated Edison operates one of the world's largest energy-delivery systems. The company provides energy for 10 million people who live in New York City and Westchester County, New York. Taking a look at the chart below, you can see that the stock price is trading near the 200-day moving average in a similar pattern to that shown on the chart of XLU above. Technical traders will likely interpret this chart in the same way as the chart discussed above and will want to wait until the price breaks beyond $81 before betting on a move higher. (See also: Hesitant Traders Turn Their Attention to Utilities.)
+
+[Learn more about using moving averages to develop your trading strategy in Chapter 2 of the Technical Analysis course on the Investopedia Academy]
+Duke Energy Corporation (DUK)
+Another popular company among investors interested in utilities is Duke Energy. The company is one of the largest electric power holding companies in the United States and supplies energy to 7.4 million customers. Unsurprisingly, the daily chart pattern looks similar to those mentioned above, so by taking a weekly view, which you can see below, you'll find that the theme of nearby resistance persists. The close proximity of the intersecting trendlines will be an area that active traders will want to keep an eye on and will be used as a guide for placing orders. Bulls will want to wait for several consecutive closes above $81 before betting on a move higher. Currently, the bears are in control of the short-term momentum. (For further reading, see: Utilities Sector: Industries Snapshot.)
+
+The Bottom Line
+The utilities sector is often regarded as the go-to sector during times of heightened volatility and periods of uncertainty. While this thesis suggests that capital should be flowing into utilities, the nearby resistance levels present a risk that long-term traders will want to take note of. Most strategic traders will want to wait on the sidelines until the prices of the mentioned securities are able to make several consecutive closes above the major levels of resistance. (For additional reading, check out: Trust In Utilities.)
+Charts courtesy of StockCharts.com. At the time of writing, Casey Murphy did not own a position in any of the securities mentioned.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Chartadvisor-Article'
+    });
+                    
+            
+                

@@ -1,0 +1,81 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        As the digital currency market starts to creep back following a major decline earlier this year, one long-time banker suggests that 2017's high-flying run may repeat itself. Oki Matsumoto, CEO of Japanese financial services company Monex Group Inc., spoke at the Japan Society in New York on Tuesday, indicating that despite a pushback from global regulators, cryptocurrencies could take off in the same manner that derivatives did 38 years ago when they were equally disliked by regulators. The finance executive started his career in derivatives at Solomon Brothers in 1987. The entrepreneur then spent 12 years at Goldman Sachs, where he was responsible for starting the investment bank's yen-denmonated fixed-income trading desk. (See also: Already More ICOs in 2018 Than All of 2017: $6.3B.)
+“'Regulators really hated derivatives in 1980 but just soon after that they really embraced them," said Matsumoto. "What's happening in the crypto world today is very similar to derivatives in the 1980s, and sooner or later all of those regulatory frameworks will be fixed."
+The Japanese Wall Street veteran serves at the helm of Monex Group, which he founded in 1999 with Sony Corp. Earlier this week, Monex, whose main subsidiary engages in the online securities trading, completed its acquisition of rival exchange Coincheck, which made headlines earlier this year as the target of a $534 million hack. 
+Japan Remains Epicenter of Digital Trading
+Monex's CEO is upbeat on the deal's potential to add value to the company, noting that shares of Monex have doubled since it was announced last month. The decision for a regulated public company in Japan to buy a smaller digital currency trading company is symbolic in a country where digital currency platforms have faced major regulatory hurdles. In March, bitcoin fell on news that Japan was planning to order Binance, the world's largest cryptocurrency exchange by traded value, to stop operating in the country without a license.
+Despite setbacks, Japan remains an epicenter for digital asset trading, with trading volume of bitcoin skyrocketing 340% in the three-year period ended March 2017, according to a report from Japan's Financial Services Agency (FSA). At the end of March 2018, roughly 3.5 million Japanese citizens were trading cryptocurrencies on 17 domestic exchanges. 
+Following Derivatives' Path
+Matsumoto drew parallels between the lack of understanding surrounding cryptocurrency today, to the confusion surrounding derivatives in the early days. "Only a few people could understand derivatives, just the rocket scientists and those people ... But five years later, all the biggest schools in the world were teaching derivatives," said Monex's CEO. 
+While roadblocks such as a high tax of 55% on cryptocurrency in Japan may prevent retail investors from diving into the market head first, Matsumoto is optimistic on the long-term growth prospects for the space. 
+Trading at a price of $9,087.42 at 12:41 p.m. UTC, bitcoin reflects an over 500% gain in the most recent 12 months, and a more than 50% loss from highs reached in mid-December near $20,000. (See also: Crypto Funds Dropped 29% in March.)
+Investing in cryptocurrencies and other Initial Coin Offerings (“ICOs”) is highly risky and speculative, and this article is not a recommendation by Investopedia or the writer to invest in cryptocurrencies or other ICOs. Since each individual's situation is unique, a qualified professional should always be consulted before making any financial decisions. Investopedia makes no representations or warranties as to the accuracy or timeliness of the information contained herein. As of the date this article was written, the author owns cryptocurrency.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

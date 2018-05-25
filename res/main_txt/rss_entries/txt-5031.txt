@@ -1,0 +1,157 @@
+
+
+    
+                          What is 'Taxpayer Identification Number (TIN)'
+
+      The taxpayer identification number (TIN) is a 9-digit number assigned to tax-paying businesses and other entities for identification, reporting, and record-keeping purposes. The TIN helps the IRS keep track of these entities and manage their tax accounts. Corporations, partnerships, estates, trusts, as well as sole proprietors and other individuals, must use these numbers when filing tax returns and other tax-related documents.
+For sole proprietors, the TIN is their Social Security number or an employer identification number (EIN). For corporations, partnerships, trusts, and estates, this number is an EIN.
+This number is also known as the 95-number or tax-ID number.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            IRS Publication 908                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Specific Share Identification                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Issuer Identification Number (IIN)                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Specific Use                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Taxpayer Identification Number (TIN)'
+      The tax identification number (TIN) are nine-digit numbers, formatted like Social Security numbers. A TIN may be granted from either the Social Security Administration (SSA) or the Internal Revenue Service (IRS). The IRS uses the TIN to track individuals and business. The tax identification number (TIN) is an umbrella term and refers to any of the five primary types of identification numbers. 
+Types of TINs include 
+Social Security numbers (SSN)
+Employer identification numbers (EIN)
+Individual taxpayer identification number (ITIN)
+Adoption taxpayer identification number (ATIN)
+Preparer tax identification number (PTIN)
+The Social Security Administration issues Social Security numbers to U.S. citizens, as well as qualified lawful aliens. The IRS issues other types of taxpayer identification numbers as well. Certain resident and nonresident aliens who are unable to obtain Social Security numbers may file form W-7 with the IRS to get an individual taxpayer identification number (ITIN). The IRS authorizes acceptance agents, such as colleges, financial institutions, and accounting firms, to assist applicants in obtaining ITINs.
+Uses of TINs
+The IRS requires the use of taxpayer identification numbers on many tax-related documents. These documents include tax returns, statements, and reports. Banks and other businesses use TIN numbers when interacting with an entity.
+The tax identification number must appear on all materials submitted to the IRS to claim tax benefits, exclusions, or to pay taxes. For example, taxpayers filing annual tax returns must furnish a TIN on their return, and employers reporting wages paid to employees must furnish these employees' TINs.
+The IRS sometimes issues an adoption taxpayer identification number (ATIN) to a child who is being adopted in the United States if the child cannot obtain a Social Security number before the adopting individuals must file a tax return. These numbers are temporary.
+The IRS requires paid tax preparers to include their preparer individual taxpayer identification number (PTIN) on tax returns or claims for refunds that they prepare substantially or in full. Tax preparers may apply for these numbers by mail or online. Special rules apply to foreign tax preparers who are unable to obtain Social Security numbers.
+Employer Identification Number
+Employer identification numbers (EINs) are also known as federal employer identification numbers. The IRS requires businesses, including corporations and partnerships, as well as some trusts and estates, to use EINs. 
+Sole proprietors may use an EIN or their Social Security number. A sole proprietor who employs at least one individual, other than themselves, must obtain an EIN. In addition, the IRS requires entities to use an EIN under special circumstances, such as if they have a Keogh plan, file returns related to alcohol, tobacco, or firearms' or if they are involved with certain types of organizations.
+Obtaining an EIN is free and can be done online. The IRS advises that responsible parties ensure a business is legally formed before obtaining an EIN. Typically, a new EIN must be obtained if the business ownership or structure changes. The document assigning the EIN must be kept by the business or individual to whom it is assigned.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

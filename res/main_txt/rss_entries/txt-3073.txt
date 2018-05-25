@@ -1,0 +1,208 @@
+
+
+
+    
+        
+        Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/ActiveTrading/ActiveTrading/IC-Video/Article");} else {return "/8397/INV-NA/ActiveTrading/ActiveTrading/IC-Video/Article";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/trading/using-pivot-points-for-predictions/?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/px6LRYU3.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/px6LRYU3-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/thumbnails/live/168_pivotpoints_421x236.jpg?quality=80&width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "100%",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "px6LRYU3-G9NhEyAa.mp4";
+                
+          
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                    var initializeJWPlayerSetup = function () {
+                        if (new VideoInit().canRun()) {
+                            setUpJwpPlayer();
+                        } else {
+                            new VideoInit().callBack = setUpJwpPlayer;
+                        }
+                    }
+          initializeJWPlayerSetup();
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "px6LRYU3-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "Pivot Points",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };    
+        
+            
+      
+
+    
+
+    
+        Pivot points were originally developed by floor traders in the equity and commodity exchanges. They are calculated based on the high, low and closing prices of previous trading sessions, and are used by traders to predict support and resistance levels in the current or upcoming session. These support and resistance levels can be used by traders to determine entry and exit points, both for stop losses and profit taking.
+[Pivot points are a great way to identify areas of support and resistance, but they work best when combined with other kinds of technical analysis. Investopedia's Technical Analysis Course provides a comprehensive overview of both chart patterns and technical indicators, as well as how they can be used to make educated projections and manage risk.]
+How to Calculate Pivot Points
+There are several different methods for calculating pivot points, the most common of which is the five-point system. This system uses the previous day's high, low and close, along with two support levels and two resistance levels (totaling five price points) to derive a pivot point. The equations are as follows:
+Pivot Point (P) = (Previous High + Previous Low + Previous Close)/3
+Support 1 (S1) = (Pivot Point x 2) - Previous High
+Support 2 (S2) = Pivot Point - (Previos High - Previous Low)
+Resistance 1 (R1) = (Pivot Point x 2) - Previous Low
+Resistance 2 (R2) = Pivot Point + (Previous High - Previous Low)
+For a stock, which trades only during specific hours of the day, use the high, low, and close from the day's standard trading hours.
+In 24-hour markets, such as forex, pivot points are often calculated using New York closing time (4 p.m. EST) on a 24-hour cycle. Since the GMT is also often used in forex trading, some traders opt to use 23:59 GMT for the close of a trading session, and 00:00 GMT for the opening of the new session.
+While pivot points are typically applied to the chart using data from the previous day to provide support and resistance levels for the next day, it is also possible to use last week's data and make pivot points for next week. This would serve swing traders, and to a lesser extend day traders.
+Another common variation of the five-point system is the inclusion of the opening price in the formula:
+P = ((Today's O) + Yesterday's (H + L + C)) / 4
+Here, the opening price, "O," is added to the equation. The supports and resistances can then be calculated in the same manner as the five-point system, except with the use of the modified pivot point.
+Yet, another pivot point system was developed by Tom DeMark, president of Market Studies, Inc. This system uses the following rules:
+
+As you can see, there are many different pivot-point systems available. 
+While knowing how to calculate pivot points is important for understanding what you are using, most charting platforms calculate pivot points for us. Simply add the pivot points indicator to your chart and choose the settings you prefer.
+Interpreting and Using Pivot Points
+When calculating pivot points, the pivot point itself is the primary support/resistance. This means that the largest price movement is expected to occur at this price. The other support and resistance levels are less influential, but may still generate significant price movements.
+Pivot points can be used in two ways. The first way is for determining the overall market trend. If the pivot point price is broken in an upward movement, then the market is bullish. If the price drops through the pivot point, that is bearish.
+The second method is to use pivot point price levels to enter and exit the markets. For example, a trader might put in a limit order to buy 100 shares if the price breaks a resistance level. Alternatively, a trader might set a stop loss at or near a support level.
+
+While at times it appears the levels are very good at predicting price movement, there are also times when the levels appear to have no impact at all. Like any technical tool, profits won't likely come from relying on one indicator exclusively. 
+The Bottom Line
+Pivot points are a useful tool that can be added to any trader's toolbox. It enables anyone to quickly calculate levels that are likely to cause important price movement. The success of a pivot-point system, however, lies squarely on the shoulders of the trader, and on his or her ability to effectively use the pivot-point systems in conjunction with other forms of technical analysis. These other technical indicators can be anything from a MACD to candlestick patterns, or using a moving average to help establish the trend direction. The greater the number of positive indications for a trade, the greater the chances for success.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

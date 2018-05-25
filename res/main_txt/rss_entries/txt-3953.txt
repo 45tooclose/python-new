@@ -1,0 +1,205 @@
+
+
+
+Japanese Financial Watchdog Leaning on Crypto Exchanges to Drop Privacy Coins Favored by Criminals
+Japan’s Financial Services Agency is looking to stamp out the usage of cryptocurrencies which are difficult to track, and thus attractive to the “digital underground”.
+
+
+ by  Maryam
+Manzoor,
+15 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  Japan’s financial regulator is applying quiet pressure on cryptocurrency exchanges in the country, to convince them to stop handling digital currencies favored by criminals and hackers, including Monero, Dash, and Zcash.
+As per a report by Forbes, sources within the Financial Services Agency (FSA) confirmed that the regulator is looking to put an end to the usage of cryptocurrencies which are hard to track (and thus attractive to the criminal underworld), and is particularly averse to XMR, following reports that North Korea was mining the cryptocurrency using foreign computers and crypto mining viruses, in order to raise funds.
+Since these coins are impossible to track, they become ideal tools for illegal activities such as money laundering, the sale of illegal goods, or for obtaining ransom. Europol, the law enforcement agency of the European Union, released a report last year which warned that Monero, Dash, and Zcash were overtaking Bitcoin as criminals’ cryptocurrencies of choice.
+
+The FSA, which has been conducting inspections of all crypto exchanges in the country, has informed all exchanges that dealing with Monero, Dash, and Zcash will have a negative impact on their applications for approval and clearance. Earlier this year, Japanese crypto exchange Coincheck (which was hit by a massive $530 million hack in January this year) was reported to be delisting Monero and two other cryptocurrencies, in a bid to show better compliance with the FSA’s rules and regulations.
+Despite its reputation as a crypto-friendly country, Japan has ramped up efforts to keep the crypto industry aboveboard; the inspections of crypto exchanges, and the bid to discourage the usage of untraceable ‘privacy coins’ are part of the process. Last month, at a working group meeting on cryptocurrencies, Monero and Dash were both discussed as problematic digital currencies owing to their potential for usage in money laundering; a member of the group observed:
+
+“It should be seriously discussed as to whether any registered cryptocurrency exchange should be allowed to use such currencies.”
+
+There are currently no reports of an outright ban, and it is still legal, at present, to deal with XMR, DASH and ZEC in Japan; instead, the government appears to be taking the indirect route to bring the usage of these cryptocurrencies to an end. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

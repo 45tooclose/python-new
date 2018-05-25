@@ -1,0 +1,218 @@
+
+
+
+    
+        
+        Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/Investing/Investing/IC-Video/Article");} else {return "/8397/INV-NA/Investing/Investing/IC-Video/Article";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/articles/stocks/07/easycashflow.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/I6PDKJVc.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/I6PDKJVc-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/content/video/analyze_cash_flow_th/analyzecashflowtheeasyway.png?width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "100%",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "I6PDKJVc-G9NhEyAa.mp4";
+                
+          
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                    var initializeJWPlayerSetup = function () {
+                        if (new VideoInit().canRun()) {
+                            setUpJwpPlayer();
+                        } else {
+                            new VideoInit().callBack = setUpJwpPlayer;
+                        }
+                    }
+          initializeJWPlayerSetup();
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "I6PDKJVc-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "Analyze Cash Flow The Easy Way ",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };    
+        
+            
+      
+
+    
+
+    
+        The statement of cash flows shows how a company spends its money (cash outflows) and where the money comes from (cash inflows). The cash flow statement includes all cash inflows a company receives from its ongoing operations and external investment sources, as well as all cash outflows that pay for business activities and investments during a given quarter. In this article, we'll explain the cash flow statement and how it can help you analyze a company for investing. 
+Why The Cash Flow Statement Is Important
+There are two forms of accounting: cash and accrual.
+Accrual accounting is used by most public companies and is the accounting method where revenue is reported as income when it's earned rather than when the company receives payment. Expenses are reported when incurred even though no cash payments have been made.  
+For example, if a company records a sale, the revenue is recognized on the income statement, but the company may not receive cash until a later date. From an accounting standpoint, the company would be earning a profit on the income statement and be paying income taxes on it. However, no cash would have been exchanged. Also, the transaction would likely be an outflow of cash initially since it costs money for the company to buy inventory and manufacture the product to be sold. It's common for businesses to extend terms of thirty, sixty, or even ninety days for a customer to pay the invoice. The sale would be an accounts receivable with no impact on cash until collected. 
+Cash accounting is an accounting method in which payment receipts are recorded during the period they are received, and expenses are recorded in the period in which they are actually paid. In other words, revenues and expenses are recorded when cash is received and paid, respectively.
+A company's profit is shown as net income on the income statement. Net income is the bottom line for the company. However, because of accrual accounting, net income doesn't necessarily mean that all receivables were collected from their customers. 
+From an accounting standpoint, the company might be profitable, but if the receivables become past due or uncollected, the company could run into financial problems. Even profitable companies can fail to adequately manage their cash flow, which is why the cash flow statement is a critical tool for analysts and investors.
+The Statement of Cash Flows
+Cash flow statements have three distinct sections, each of which relates to a particular component – operations, investing and financing – of a company's business activities. Below is a typical statement of cash flows format:
+Cash Flow from Operations
+This section reports the amount of cash from the income statement that was originally reported on an accrual basis. A few of the items included in this section are accounts receivables, accounts payables, and income taxes payable. 
+If a client pays a receivable, it would be recorded as cash from operations. Changes in current assets or current liabilities (items due in one year or less) are recorded as cash flow from operations. 
+Cash Flow from Investing
+This section records the cash flow from sales and purchases of long-term investments like fixed assets that include property, plant, and equipment. Items included in this section are purchases of vehicles, furniture, buildings, or land. 
+Typically, investing transactions generate cash outflows, such as capital expenditures for plant, property and equipment, business acquisitions and the purchase of investment securities. Inflows come from the sale of assets, businesses, and securities. Investors typically monitor capital expenditures used for the maintenance of, and additions to, a company's physical assets to support the company's operation and competitiveness. In short, investors can see how a company is investing in itself. 
+Cash Flow from Financing
+Debt and equity transactions are reported in this section. Any cash flows that include payment of dividends, the repurchase or sale of stocks, and bonds would be considered cash flow for financing activities. Cash received from taking out a loan, or cash used to pay down long-term debt would be recorded in this section.
+For investors who prefer dividend-paying companies, this section is important since it shows cash dividends paid since cash, not net income is used to pay dividends to shareholders.
+Cash Flow Analysis
+A company's cash flow can be defined as the number that appears in the cash flow statement as net cash provided by operating activities, or "net operating cash flow." However, there is no universally-accepted definition. For instance, many financial professionals consider a company's cash flow to be the sum of its net income and depreciation (a non-cash charge in the income statement). While often coming close to net operating cash flow, the shortcut can be inaccurate and investors should stick with using the net operating cash flow figure.
+While cash flow analysis can include several ratios, the following indicators provide a starting point for an investor to measure the investment quality of a company's cash flow:
+Operating Cash Flow/Net Sales
+This ratio, which is expressed as a percentage of a company's net operating cash flow to its net sales, or revenue (from the income statement), tells us how many dollars of cash that's generated for every dollar of sales.
+There is no exact percentage to look for, but the higher the percentage, the better. It should also be noted that industry and company ratios will vary widely. Investors should track this indicator's performance historically to detect significant variances from the company's average cash flow/sales relationship along with how the company's ratio compares to its peers. Also, please monitor how cash flow increases as sales increase since it's important that they move at a similar rate over time.
+Free Cash Flow 
+Free cash flow is often defined as net operating cash flow minus capital expenditures. Free cash flow is an important measurement since it shows how efficient a company is at generating cash. Investors use free cash flow to measure whether a company might have enough cash, after funding operations and capital expenditures, to pay investors through dividends and share buybacks. 
+To calculate FCF, from the cash flow statement, find the item cash flow from operations (also referred to as "operating cash" or "net cash from operating activities") and subtract capital expenditures required for current operations from it. 
+You can go one step further by expanding what's included in the free cash flow number. For example, in addition to capital expenditures, you could also include dividends for the amount to be subtracted from net operating cash flow to arrive at a more comprehensive free cash flow figure. This figure could then be compared to sales, as shown earlier.
+As a practical matter, if a company has a history of dividend payments, it cannot easily suspend or eliminate them without causing shareholders some real pain. Even dividend payout reductions, while less injurious, are problematic for many shareholders. For some industries, investors consider dividend payments to be necessary cash outlays similar to capital expenditures.
+It's important to monitor free cash flow over multiple periods and compare the figures to companies within the same industry. If free cash flow is positive, it should indicate the company is able to meet its obligations including funding its operating activities and paying dividends.
+Comprehensive Free Cash Flow Coverage
+You can calculate a comprehensive free cash flow ratio by dividing the comprehensive free cash flow by net operating cash flow to get a percentage ratio. Again, the higher the percentage, the better.
+The Bottom Line
+Free cash flow is an important evaluative indicator for investors. It captures all the positive qualities of internally produced cash from a company's operations and monitors the use of cash for capital expenditures. If a company's cash generation is positive, it's a strong indicator that the company is in a good position to avoid excessive borrowing, expand its business, pay dividends, and to weather hard times.
+The term "cash cow," which is applied to companies with ample free cash flow, is not a very elegant term, but it is certainly one of the more appealing investment qualities you can apply to a company with this characteristic. 
+For more on cash flow using Macy's Inc (M) as an example, please read What's The Formula For Calculating Free Cash Flow?
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

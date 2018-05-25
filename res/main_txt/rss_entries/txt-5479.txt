@@ -1,0 +1,146 @@
+
+
+    
+                          What is 'Emirates Interbank Offered Rate (EIBOR)'
+
+      The Emirates Interbank Offered Rate, known by its abbreviation EIBOR, is the benchmark interest rate, stated in UAE dirham, for lending between banks within the United Arab Emirates (UAE) market. It is also the reference rate used by borrowers and lenders to conduct financial transactions in Dubai and the surrounding Emirates for such loans as mortgages and car loans.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Interbank Deposits                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Interbank Rate                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Interbank Call Money Market                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Interbank Market                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Emirates Interbank Offered Rate (EIBOR)'
+      The EIBOR, similar to the London Interbank Offered Rate (LIBOR), is the regional banking industry's interest rate for transferring funds and currency and for managing liquidity in the interbank marketplace. In other words, if a bank has a liquidity issue or otherwise needs money, they borrow from another bank at the EIBOR. This rate is also the benchmark basis for other transaction prices, including mortgages, consumer loans, and other Islamic finance.
+Before April 15, 2018, the United Emirates Central Bank published this rate, based on the average interest rates at which UAE banks offer to lend unsecured funds to other banks in the United Arab Emirates dirham (AED) wholesale money market. The dirham is the unit of currency in the UAE.
+After that date, Thomson Reuters Ltd took on this role. The bank will continue to publish the past historical data from October 2009, as well as the daily EIBOR fixings published going forward.
+The EIBOR is set each business day excluding Saturdays at 11:00 am local UAE time. For each tenor or maturity, the bank eliminates the two highest and two lowest contributed rates and takes the average of the remaining rates. Tenors range from overnight and one week to six and 12 months. Many Islamic banks use EIBOR rates as benchmarks for determining the rates for specific agreements called ijara. An ijara is similar to an installment leasing agreement.
+Changing Interbank Rate Calculations World Wide
+The Central Bank made the change for EIBOR calculations to bring about more accurate and transparent pricing. This change is part of the global adjustments made to these key interest rates in the wake of the LIBOR fixing scandal in 2012. Even more than regional benchmarks, such as EIBOR, LIBOR, which is a global benchmark, is under fire for its weaknesses concerning banks manipulating their contributions. 
+In Europe, Sterling Overnight Interbank Average rate (SONIA) will replace LIBOR as the benchmark by 2021. SONIA is based on actual bids and offers from the contributing banks and not indicated levels. The latter are subject to manipulation if the contributing bank wants to hide or enhance its capital position.
+Indeed, some banks in the region already announced interest in a new benchmark. In the UAE, the number of contributing banks dropped from 10 to eight. More importantly, under the new system, each bank must now justify their submissions. The highest and lowest contributions are still discarded before averaging the result.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

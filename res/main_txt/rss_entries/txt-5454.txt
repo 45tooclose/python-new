@@ -1,0 +1,77 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        At Berkshire Hathaway Inc.'s (BRK.A) annual shareholder meeting this Saturday, billionaire investor Warren Buffett admitted that he made the wrong call in not buying Google, now Alphabet Inc. (GOOGL), and Amazon.com Inc. (AMZN) in their early days. The 87-year-old CEO and philanthropist suggested that it was his own revered investing principles, along his limited technical savvy, that led him to pass on the investments. In a statement reported by CNBC, Buffett said that when he was weighing the investments, he felt that the share prices were not reflecting the two tech titans "far better" prospects, yet he failed to come to a conclusion and therefore stayed on the sidelines. 
+Trading up about 0.6% on Monday morning at $1,580.95, shares of e-commerce and cloud computing giant Amazon are up over 35% year-to-date (YTD) and more than 500% in the most recent five-year period. Mountain View, California-based search giant Alphabet is trading about flat YTD, slightly outperforming the S&P 500's 0.4% decline over the period, and has returned roughly 150% to shareholders in five years, while the S&P 500 has gained 65%. (See also: Alphabet Boosts Its Rival to Amazon’s Alexa.)
+Bezos Has Done 'Something Close to a Miracle'
+As for Amazon, the legendary investor said he had a "very very very high opinion" of its founder and leader Jeff Bezos when he first met him, yet he still underestimated the tech visionary. "I’ve watched Amazon from the start. I think what Jeff Bezos has done is something close to a miracle ... the problem is when I think something will be a miracle, I tend not to bet on it," Buffett said at his 2018 annual shareholder meeting.
+Buffett told CNBC that his lack of technical know-how caused him to use search engine AltaVista until his friend and fellow business mogul Bill Gates told him to switch to Google. He regrets not being more aware of Google, especially given Berkshire's subsidiary Geico was paying the company "a lot of money" at the time of its initial public offering (IPO). 
+“it would have been far better obviously if I had some insights into certain businesses,” said Buffett.
+Meanwhile, his Omaha-based conglomerate has doubled down on Apple Inc. (AAPL) stock. While Buffett owns about 5% of the iPhone maker after disclosing its latest investment, Buffett says he would "love to own 100% of it." (See also: Berkshire Hathaway Has Exited IBM: Buffett.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

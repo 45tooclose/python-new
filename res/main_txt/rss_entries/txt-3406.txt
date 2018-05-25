@@ -1,0 +1,105 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Most people know they need to make a will, but there’s another essential document you should also create and update every quarter.
+It has no legal standing, so it can not supersede a will, but a letter of intent (LOI), or letter of instruction, is a more personal and detailed document that you need to keep on hand in case of emergency. It should include everything from your financial and digital passwords and PINs to the music you want at your funeral. Give a copy to your spouse, partner, child or closest friend and to your executor.
+Your Words, Your Wishes
+Like a will, an LOI is a document you can tailor any way you wish. Unlike a will, which is accessed only after your death, a letter of instruction can be extremely helpful in other emergencies – an accident or medical situation that leaves you unable to communicate, for example.
+ It should include:
+A complete list of all your assets, including property such as artwork, boats, vehicles, jewelry and financial assets such as cash, mutual funds and other investments
+Some rough idea of your goods’ current market value (easily determined by an appraiser). You can even include where your heirs can sell them, such as the names and contact details of appropriate auction houses
+The names, passwords, PIN numbers and account numbers of all your liquid assets, including bank, brokerage, retirement and other investment accounts
+The passwords for all your email and social media accounts
+The names and contact information for any bankers, brokers, attorneys or other professionals who handle your assets
+Informal information regarding the dispersal of assets, such as who would get a sentimental possession or heirloom; the will may state that these articles are to be distributed according to the letter
+Charities for donations, if you prefer these to flowers at your funeral
+Where to find the most recent copies of all financial and Social Security statements, tax returns and legal documents, such as wills and trusts
+A list of all financial account beneficiaries and their contact information, if necessary
+The location of all titles and/or deeds for real estate property, rental property, oil and gas leases, etc.
+Your Social Security number
+The location of your birth certificate, any divorce and/or citizenship papers (or applications)
+The location (where to find the keys to) all safe deposit boxes
+Contact information for all your creditors, including those holding mortgages, credit cards and car loans
+Contact information for any and all insurance coverage, especially life insurance
+Care and placement of any pets
+Contact information for all retirement account or estate beneficiaries
+A Personal Note
+I’ve had a LOI since my early 20s, even when I was single and owned few assets. But I was traveling the world, often far from home, sometimes in rough conditions and often alone; if anything happened to me, others needed to know what to do with my belongings, my dog and even my body. Along with the above, mine includes my medical history (all physicals, tests and surgeries with dates, results, and names and phone numbers of every physician), down to my blood type. It lists my driver’s license and passport number, and the dates of expiry for each. I've also included all outstanding debt, with the amount I currently owe and the interest rate or APR.
+Little Known, but Valuable
+Despite how useful these letters are, few financial professionals think to mention them, says Joanne Giardini-Russell, a financial planner in Farmington Hills, Mich., who introduces the concept to clients with the evocative term "ethical will."
+“My industry does a very poor job of talking about important items,” she says. “They’ll show pie charts all day long, but not talk about the values of the person they are sitting with. They don’t like to talk about what’s important to people inside. Clients have heard the word ‘will’ and most of my clientele have a trust. I like the ethical will as sort of an overlay to the trust or will,” she says.
+Giardini-Russell often shares her own letter of intent as a template. “Client reaction is amazing – it’s such a simple thing to create and they look at me like I’m a genius,” she says.
+“This is not a well-known thing,” agrees Isabel Miranda, a lawyer specializing in trusts and estates in Bloomfield, N.J. “In the old days, this sort of document was normal, as people would specify where they wanted to be buried, if at all, whom to notify upon their death and what special gifts to make. It’s a private document, as opposed to the public nature of the reading of the will,” she explains.
+Leaving an Emotional Legacy
+What else should you include, beyond financial and logistical basics? 
+“The document is simply some of the things that we normally may not say, but they’re important things,” explains Giardini-Russell. “I recall a friend’s mother-in-law passing away – and she’d been sick for months. In planning the funeral the big dilemma was, ‘What side dish would Carol have liked with the ham?’ They decided on coleslaw. The little things have the surviving family completely perplexed.
+“The best part of these documents is that the person is writing it, and you don’t have to go to the attorney to have it done," Giardini-Russell adds. "It’s a supplement to a will or trust; it doesn’t replace those items, but it can put a warm and fuzzy face on the document.”
+Making time to create an ethical will also preserves your voice, says Miranda. “We never write letters anymore – when was the last time you wrote a letter? Although a letter of intent doesn't have to be hand-written, to have something in your loved one’s handwriting is very precious.” She personally treasures the letter of intent hand-written by her late grandfather, Paulino.
+The Bottom Line
+A letter of intent is a useful and helpful adjunct to other legally binding documents, such as a will, living will and medical proxy. It adds a personal voice to your legal documents and can offer a simple place to store essential information. Like other such documents, it should be reviewed and updated as needed, every quarter at a minimum.
+Ms. Miranda urges everyone to create one for its emotional value as well. “People tend to pour their heart into them. They tend to be very, very personal,” she notes. “It’s the last thing a person is saying in their own words. It’s a moral obligation.”
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

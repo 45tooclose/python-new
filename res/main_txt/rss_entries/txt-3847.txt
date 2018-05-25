@@ -1,0 +1,211 @@
+
+
+
+PBoC’s Yao Qian Takes Pragmatic Stance on Blockchain, Finds Shortcomings
+PBoC’s official responsible for the research of blockchain and cryptocurrency in China said that the distributed ledger technology had some shortcomings.
+
+
+ by  Anatol
+Antonovici,
+18 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  Yao Qian, director of the Digital Currency Institute at the People's Bank of China (PBoC), said that while blockchain had advantages, its shortcomings should be eliminated in order to “become the financial infrastructure of the future.” He was quoted on April 27 by state media agency Yicai.
+After listing several advantages of the distributed ledger technology, such as security, peer-to-peer aspect, reliability, and the use of smart contracts among others, Qian said that “because the blockchain technology initially served Bitcoin at an early stage, it has obvious shortcomings in some respects.”
+Qian noted that the main problems are related to the weak scaling potential and the need to improve data confidentiality and management. Qian said that since the public chain cannot be closed, correcting mistakes would be extremely difficult.
+
+“Once a problem arises, especially a security hole, it will be fatal,” he said.
+
+Qian believes that the ease of blockchain’s decentralization, probably by empowering a central governor, would solve this issue.
+
+“For example, in a multi-center system such as a coalition chain, upgrading the blockchain bottom by shutting down the system, or emergency intervention, data recovery, etc., are available methods when necessary, and they help to control risks and correct mistakes,” the head of PBoC’s cryptocurrency research institute said.
+
+To support his argument, Qian made reference to the DAO hacking attack in 2016, when about $60 million in Ethereum (ETH) was stolen.
+The absence of a centralized management mechanism means that such mistake can only be fixed by soft fork and hard forks, which eventually may result in confusion and separation, Qian concluded. Qian said that blockchain belonged to the public and served the public interest.
+
+“Blocking should not belong to anyone, let alone a small share of the super-rich,” he stated.
+
+Last year, we reported that Qian criticized Bitcoin and welcomed the creation of a state-backed national cryptocurrency. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

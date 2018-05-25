@@ -1,0 +1,81 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Drug store giant CVS Health Corporation (CVS) set its all-time intraday high of $113.65 at the end of July 2015 and has been generally slumping since then. The pharmacy stock declined under pressure from Amazon.com, Inc.'s (AMZN) plan to expand into the healthcare industry. CVS stock has been making a comeback since then, although it traded as low as $60.14 on March 27 as the company became aggressive with its takeover bid of health insurer Aetna Inc. (AET).
+CVS shares closed Monday at $69.83, down 3.7% year to date and in correction territory at 16.8% below the Jan. 29 high of $83.88. More importantly, the stock is 16.1% above its March 27 low of $60.14.
+Analysts expect CVS to deliver earnings per share of $1.40 when the company reports results before the opening bell on Wednesday, May 2. Some say that CVS paid too much for Aetna, which reported earnings before the markets opened on May 1. The insurance provider beat estimates and moved up about 1% in pre-market trading. Keep in mind that shareholders of Aetna approved the acquisition, but it still needs government approval. If approved, the deal will likely close in the second half of the year. Looking at CVS, the stock is too cheap to ignore, with a P/E ratio of just 10.81 and a dividend yield of 2.86%. (See also: Pharmacy Stocks Rise on News Amazon Is Backing Off.)
+The daily chart for CVS Health
+Courtesy of MetaStock Xenith
+The daily chart for CVS shows that the stock has been in a choppy pattern over the past 52 weeks, with the stock above its 50-day simple moving average of $65.90 and below its 200-day simple moving average of $73.42. Traders should consider this as a trading range. My semiannual and annual risky levels are above the chart at $100.53 and $104.11, respectively, which suggests significant upside potential. This week's value level is the horizontal line at $63.61.
+[Check out Chapter 2 of the Technical Analysis course on the Investopedia Academy to learn about using moving averages to develop your trading strategy.]
+The weekly chart for CVS Health
+Courtesy of MetaStock Xenith
+The weekly chart for CVS is positive, with the stock above its five-week modified moving average of $67.23. The stock is well below its 200-week simple moving average at $87.95 and has been below this "reversion to the mean" since the week of Nov. 11, 2016, when the average was $83.40. The 12 x 3 x 3 weekly slow stochastic reading is projected to rise to 30.49 this week, up from 18.80 on April 27 and rising above the oversold threshold of 20.00.
+Given these charts and analysis, investors should buy CVS shares on weakness to my weekly value level of $63.61 and reduce holdings on strength to the 200-week simple moving average of $87.95. (For more, see: How CVS Makes Its Money.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Chartadvisor-Article'
+    });
+                    
+            
+                

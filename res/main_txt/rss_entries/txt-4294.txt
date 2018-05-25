@@ -1,0 +1,62 @@
+
+
+
+    
+    
+    
+          
+    A:
+            In the United States, the average net interest margin (NIM) for banks was 3.10% in the first quarter of 2017. Though a rebound from the 30-year low of 2.95 in the first quarter of 2015, it's lower than a decade ago: The net interest margin for American banks in the first quarter of 2007 was 3.33%. A recent peak of 3.84% was reached in the first quarter of 2010. On the surface, this suggests that a typical net interest margin for American banks in the 21st century seems stuck between 3% and 4%.
+Notably, the average NIM figure for the five biggest banks in the country s still well below the average NIM figure for the U.S. banking industry. The top five (U.S. Bancorp, Citigroup, Wells Fargo, Bank of America and JP Morgan) averaged 2.59%. This disparity was almost unchanged from the Q1 of 2016. The gap is lessening, though: In the first quarter of 2015, banks with total bank assets between $50 million and $99 billion had net interest margins between 3.5% and 4.1%. Banks at or above $100 billion in assets had net interest margins between 2.5 and 2.8%.
+Explaining Net Interest Margin
+In finance, the net interest margin measures the difference between interest paid and interest received, adjusted relative to the amount of interest-generating assets.
+To illustrate, take the simple case where a bank made loans equal to $100 million in a year. From those loans, it generated $5.5 million in interest income. It also paid out $2.5 million in interest to its depositors.
+Calculate this bank's net interest margin with the following formula: net interest margin = ($5.5 million - $2.5 million) / $100 million = 0.03, or 3%.
+Net interest margin is not the same as – and does not correlate perfectly with – net interest income. Net interest income is the numerator in the equation for net interest margin, but the denominator (total assets) can change in proportions not reflected in the numerator.
+Net interest margin should not be confused with profitability, either. Most banks earn significant income from fees and service charges, none of which are affected by interest margins.
+Typical and Relative Net Interest Margin
+Several factors can change the typical net interest margin for banks. For example, the supply and demand for loanable funds helps establish market interest rates. Monetary policy and banking regulations from the Federal Reserve can change the demand for deposits and the demand for loans.
+If the demand for savings increases relative to the demand for loans, it is likely that the net interest margin will decrease. The opposite is true if the demand for loans is higher relative to savings.
+At the individual institutional level, net interest margin can range dramatically. In 2015, the net interest margin for the sixth-largest financial institution, Bank of New York Mellon Corporation, was only 0.92%. The seventh-largest, Capital One Financial, had a net interest margin of 6%. This doesn't necessarily mean that Capital One is more than six times as efficient as Bank of New York Mellon, since each company focuses on different financial instruments to earn income. However, it does suggest that Capital One has more flexibility in a changing-rate environment.
+        
+    
+
+    
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Deposit',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'FAQ'
+    });
+                

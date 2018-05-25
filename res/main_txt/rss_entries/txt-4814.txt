@@ -1,0 +1,151 @@
+
+
+    
+                          What is 'Tax Exempt'
+
+      Tax-exempt refers to income or transactions which are free from tax at the federal, state, or local level. The reporting of tax-exempt items may be on a taxpayer's individual or business tax return and shown for informational purposes only. The tax-exempt article is not part of any tax calculations.
+Tax-exempt may also refer to the status of a business or organization which has limits on the amount of income or gifts which are taxable.These organizations include religious and charitable institutions.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Tax Liability                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            What is                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Tax Deduction                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Tax Benefit                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Tax Exempt'
+      Not to be confused with a tax deduction, tax-exempt frees the taxpayer of any tax obligation to submit taxes on the tax-exempt transaction or income. Whereas, the use of a tax deduction is to reduce the tax obligation by lowering gross income.
+One common type of tax-exempt income is interest earned on municipal bonds, which are bonds issued by states and cities to raise funds for general operations or a specific project. When a taxpayer makes interest income on municipal bonds issued in their state of residence, the profit is exempt from both federal and state taxes.
+ Taxpayers receive IRS form 1099-INT for any investment interest they earn during the tax year. The reporting of tax-exempt interest is in box 8 of the form. This informational only data is not included in the calculation of personal income taxes.
+Examples of Capital Gain Tax Exemption
+A taxpayer may buy an asset and subsequently sell that asset for a profit. The profit is a capital gain which creates a taxable event. However, several types of capital gains are exempt from taxation. 
+A taxpayer can offset capital gains with other capital losses for the tax year. For example, an investor with $5,000 in gains and $3,000 in losses pays taxes on only $2,000 in capital gains. The amount of capital losses a taxpayer may claim in a given year has a cap of $3,000. When capital losses exceed this cap, the excess may be carried forward to offset gains in future years. 
+The tax code also allows taxpayers to exclude from federal taxes a specific portion of capital gains from the sale of a home. The rule was established to encourage homeowners to use more of their home sale gains to fund retirement.
+Alternative Minimum Tax and Exemptions
+The alternative minimum tax (AMT) is an alternative method for determining tax liability. AMT adds back specific tax-exempt items into the personal tax calculation. Municipal bond income, for example, is added to the AMT tax calculation. Individual taxpayers must include the AMT calculation with their original tax return and pay tax on the higher tax liability.
+Tax-Exempt Organizations
+A 501(c)(3) nonprofit corporation is a charitable organization that the IRS recognizes as tax-exempt. This type of organization does not pay income tax on its earnings or on the donations it receives. Also, any taxpayers donation may reduce a taxpayer's taxable income by the donation amount. This incentive encourages private charity and makes it easier for nonprofits to raise money.
+A 501(c)(3) is a charitable organization involved in religious, charitable, educational, literary, preventing cruelty to animals and children, fostering amateur local and international sports competition, testing for public safety, and scientific activities or operations.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Mortgage',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

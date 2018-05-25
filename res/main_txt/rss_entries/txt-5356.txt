@@ -1,0 +1,48 @@
+
+
+2018 could end up being a banner year for a much-hyped cryptocurrency creation.
+Heralded as a way to put true custody back into the hands of traders, decentralized exchanges have moved out of R&D phase and are enrolling early adopters. But before users can start rejoicing, there's a serious chicken-and-egg problem, one that entrepreneurs believe is preventing the model from challenging the Coinbases and Krakens of the world.
+In short, you need liquidity to get adoption, yet in order to get adoption, liquidity must be good, a fact acknowledged by even those who see the potential in more high-tech trading offerings.
+But more broadly, it's worth looking at how centralized exchanges solve this problem. Oftentimes, they make deals with market makers to incentivize them to create liquidity. These incentives usually come in the form of a rebate or reward that's exchanged for the guarantee a certain amount of what traders call "order book depth" is maintained at all times. 
+
+Some centralized exchanges will even employ temporary strategies to solve the problem, such as market making themselves with their own capital, and will basically replicate order books from other more liquid exchanges (plus a spread) to try to attract traders.
+There are some practical issues: decentralized exchanges are limited to trade in cryptos only. That means people can't actually use regular US dollars to buy a token. They first have to go to a regulated exchange to put in US dollars (or other government-backed currencies) to buy bitcoin or ether.
+Then, with bitcoin or ether, they can go to a decentralized exchange to buy the more tokens. As such, it's perhaps no surprise that to those familiar with more user-friendly Wall Street solutions, this can all seem a bit much.
+As Daniel Cawrey, CEO, Pactum Capital explains:
+"Most investors/traders are already intimidated by bitcoin. So, to have them jump through hoops to trade on a decentralized exchange to trade a token with a tiny market cap causes a lot of people to give up."
+Cawrey characterizes it as a question of cost and benefit. Essentially, most tokens don't do much in the way of volume, which makes the set-up hurdles even more pronounced.
+That said, there have been early successes.
+For example, AirSwap, the decentralised marketplace for ethereum tokens that launched last week, handled over $1 million worth of transactions on its first day of trading.
+A different take
+Still, those working to bring the business model to life see it differently.
+AirSwap, co-founded by former Virtu Financial trader Michael Oved, goes so far as to use a bulletin board-style system that emulates the way traditional foreign exchange traders interact directly with each other, peer to peer.
+The platform replaces the traditional order book with a kind of search engine called an "indexer," whereby traders can announce their intent to trade, making them discoverable by their peers using smart contracts. It currently trades some 25 tokens and that number is growing.
+In this way, AirSwap co-founder Don Mosites believes this selection is enough to overcome the issues Cawrey discussed, by offering a selection of markets that may be small today, but have been growing in volumes of late.
+Mosites said: "There are people all over the world looking to make trades, often in large amounts, but may not have the tools."
+"The first-day volume was a testament to the global community we've built, our 'peer discovery' system and the smart contract used by peers to make trades. There is a ton of demand for a simple and secure OTC system like this," he continued.
+Other approaches
+Yet, this isn't the only approach - smart developers are dropping IP all over the place with different ways to decentralize ethereum token trading, while attracting the necessary liquidity.
+For example, KyberNetwork (launched in April), has also gotten rid of the order book, and maintains a reserve warehouse controlled by a Kyber smart contract.
+In order to attract as much liquidity as possible from Singapore's burgeoning token economy, Kyber operates an open model - anyone can be a market maker or taker by interacting with the smart contracts.
+"We solve the liquidity problem by bringing the market makers to our platform - anyone with a substantial amount of idle assets or even the token issuers themselves," said Loi Luu, the co-founder of KyberNetwork. "They can get more profits on their idle assets by market making on our platform."
+Also looking to leverage the explosion in ethereum tokens is the 0x protocol, which offers exchange operators (relayers) building on top of its smart contract system, the choice of being open or closed.
+Using 0x in an entirely open and decentralised way, aspires to capture a networked liquidity effect. This means the smart contracts that essentially clear and execute trades are set so that the maker and taker of trades can be filled by any user.
+But 0x can also be used to create a closed order book, or matching model, where the smart contract is set so the taker of any trade is always the relayer.
+Trade-offs
+As with most things in a decentralized context, there are trade-offs.
+While openness may solve liquidity issues over time, it opens up an easy way of front-running trades. This can happen on ethereum when users observe market-moving orders and set a gas price for their own transaction higher than the transaction they're seeing.
+Amir Bandeali, the CTO of 0x, pointed out this issue shouldn't be put completely on decentralized exchanges.
+"This is not a problem that's specific to trading; front running is one of the larger issues of blockchains in general. If anyone submits a transaction to the blockchain, the entire transaction is public before it is mined," he said, adding:
+"But since decentralized exchanges are one of the first working use cases of blockchains, they have been getting a bad rap for this."
+To fortify the open approach, 0x is looking at introducing features like a trade execution coordinator, or an embeddable trade widget for open order books that can allow wallets and other applications to monetize by simply rebroadcasting orders from other relayers.
+Kyber, which is also open, removes the incentive to front run by limiting the transaction value per trade. The trade size is currently capped at SGD 5000 ($3,800) per trade for non-KYC'd users and SGD 10000 SGD for KYC'd users.
+Combining the 0x protocol with a closed order book model is Paradex, founded by trading platform veteran Ron Bernstein. In this design settlement of trades takes place on the ethereum blockchain, but a closed matching model seeks to retain features that professional traders require such as best-price guarantees and price/time priority.
+"The matching model does come with trade-offs," said Bandeali. "It makes your relayer much less accessible to smart contracts. One of the main benefits of the open order book model is that you can execute trades atomically with other transactions, including other trades. You can't really benefit from this using the matching model."
+Bernstein acknowledged that matching prevents Paradex from participating in 0x's aspiration for beneficial shared liquidity, but he insisted the trade-offs are incomparable.
+"There's a very small chance that aggregated or shared liquidity will be a mass adoption solution. It may be a temporary benefit while bootstrapping very new trading ecosystems like decentralized token trading," said Bernstein, adding:
+"Liquidity is solved by partnerships with professional liquidity providers, like those already operating on centralized exchanges - and we're courting a bunch of them."
+Missing piece image via Shutterstock
+var riuyojisrlntqyiu,riuyojisrlntqyiu_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){riuyojisrlntqyiu_poll(function(){if(window['om_loaded']){if(!riuyojisrlntqyiu){riuyojisrlntqyiu=new OptinMonsterApp();return riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="//a.optnmnstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;riuyojisrlntqyiu=new OptinMonsterApp();riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");
+
+The leader in blockchain news, CoinDesk is a media outlet that strives for the highest journalistic standards and abides by a strict set of editorial policies. CoinDesk is an independent operating subsidiary of Digital Currency Group, which invests in cryptocurrencies and blockchain startups.
+

@@ -1,0 +1,102 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Have you looked into converting your Traditional IRA to a Roth IRA? For many, this is a good tax move. With Roth IRAs there are no required minimum distributions (RMDs) at age 70.5, the money grows tax-deferred and qualified distributions are tax-free. One drawback is that you must treat the taxable amount of the conversion as ordinary income for the year the conversion occurs.
+You may discover that your IRA has both deductible (before-tax) and non-deductible (after-tax) amounts. You might feel that you can come up with a strategy to convert those after-tax contributions first to avoid owing taxes on the amount converted. On the surface, this seems like a sound plan, but, unfortunately, it is not possible. In this article, we'll show you why a plan to avoid taxes on after-tax contributions really is too good to be true.
+After-Tax Contributions Reduce Conversion Tax
+First of all, you might wonder how after-tax amounts even got into your traditional IRA.
+Well, traditional IRAs have deductibility limits, so, when you make contributions to your Traditional IRA, you are eligible to claim a tax deduction for the contribution as long you and/or your spouse (if you are married) are actively participating. If this is the case, your eligibility to deduct your contribution is determined by your modified adjusted gross income (MAGI) and your tax filing status.
+If you are unable to deduct your contributions, the amounts will be non-deductible (after-tax) contributions. Even if you are eligible to deduct your contributions, you can choose to treat them as non-deductible contributions. After-tax money could also end up in your Traditional IRA from rollovers from employer plans, such as qualified plans and 403(b) arrangements, as some of these plans allow both pretax and after-tax contributions.
+When you convert after-tax money from a Traditional IRA to a Roth IRA, the amount is tax-free because you have already paid taxes on those funds. The earnings, however, must be treated as ordinary taxable income.
+For example, suppose that over the years you have contributed $10,000 into your only non-Roth IRA and the contributions were either non-deductible, or you chose not to claim deductions for the amounts. This means that you have already paid taxes on these contributions. Let's also assume that you picked lousy investments, and the account is worth exactly what you had invested - $10,000. Now you want to convert the balance to a Roth IRA.
+Guess what? The conversion will be tax-free because you have already paid taxes on those funds. If the account had increased in value, you would owe income tax on only the earnings.
+On the other hand, if you had deducted those contributions over the years, you would have to include the $10,000 in your income. So, for someone in the 25% tax bracket, he or she would have to come up with $2,500 for the IRS to pay the federal taxes owed on the amount. State income taxes may also apply.
+You Can't Pick and Choose
+Staying with the $10,000 example, imagine that you had paid taxes on $2,000 of the $10,000 contributions. You might think that you could covert that $2,000 and exclude the amount from your taxable income. Then the $8,000 of before-tax money could continue to grow tax-deferred in the traditional IRA. However, this can't be done.
+You may also say to yourself: "I have several IRAs. One of them has only after-tax money, while the others have deductible contributions. I'll just convert the IRA with the after-tax amount and then I won't need to include the converted amount in my income." You can certainly convert whichever account you want, but that tax strategy won't work.
+The IRS wants its money sooner rather than later. Consequently, you can't select which dollars, after-tax or before-tax, to convert to your Roth IRA. Instead, the $2,000 that you convert would include a pro-rated amount of after-tax and pre-tax amounts, in proportion to the after-tax and pre-tax balances in all your Traditional, SEP and SIMPLE IRAs.
+Calculating the Conversion Tax For Before- and After-Tax Contributions
+The IRS considers all of your non-Roth IRA assets as one pool in the calculation formula when you convert all or part of any of those IRAs to a Roth, no matter how many of these accounts you own. This includes traditional IRAs, SEPs and SIMPLE IRAs. Each dollar converted will be proportionately divided between deductible and non-deductible contributions based on the total value of all of your non-Roth IRAs.
+With the above $10,000 example that had $2,000 in after-tax contributions, the $2,000 conversion would play out as follows:
+Total account value = $10,000
+After-tax contributions = $2,000
+Before-tax contributions = $8,000
+$2,000/$10,000 = 20%
+$2,000 converted x 20% = $400 converted tax-free
+$1,600 subject to income tax
+The same would apply to earnings in the account. Let's say your account had increased to $15,000, and you want to convert $2,000.
+After-tax contributions = $2,000
+Before-tax contributions = $8,000
+Earnings = $5,000
+$2,000/$15,000 = 13%
+$2,000 x 13% = $260 converted tax-free
+$1,740 subject to income tax
+What Should You Do?
+Although calculating the formula if you have multiple non-Roth accounts with deductible and non-deductible contributions can be a nuisance, the process can save you tax dollars, so keep good records of your IRA contributions. Don't count on your IRA custodian to do it for you - it is not required to do so. Instead, you must file IRS Form 8606 for each year you make non-deductible contributions or rollover after-tax amounts to your Traditional IRA. Form 8606 must also be filed for any year that you have an after-tax balance in your non-Roth IRAs and you distribute or convert any amount from any of those IRAs. This is the only way you'll know exactly how much of your IRA balance is after-tax amounts.
+The Bottom Line
+The same information will also come in handy when you begin taking RMDs or any other distributions from your Traditional, SEP or SIMPLE IRA, as only part of your distributions will be taxable. Before you convert to a Roth, calculate the tax liability. Make sure you have enough funds on hand to pay any taxes owed. It's better to pay the taxes from your non-retirement accounts, otherwise, you will need to include the amount that you withdraw to pay the taxes in your income for the year. This would mean that you may not only owe income taxes on the amount, but possibly early distribution penalties if you are under age 59.5 when the withdrawal occurs.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'IRA',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

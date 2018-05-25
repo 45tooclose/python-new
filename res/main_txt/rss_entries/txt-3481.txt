@@ -1,0 +1,45 @@
+
+
+ING is out to prove that startups aren't the only ones that can advance blockchain cryptography.
+Rather than waiting on the sidelines for innovation to arrive, the Netherlands-based bank is diving headlong into a problem that it turns out worries financial institutions as much as average cryptocurrency users. In fact, the bank first made a splash in November of last year by modifying an area of cryptography known as zero-knowledge proofs.
+Simply put, the code allows someone to prove that they have knowledge of a secret without revealing the secret itself.
+On their own, zero-knowledge proofs were a promising tool for financial institutions that were intrigued by the benefits of shared ledgers but wary of revealing too much data to their competitors. The technique, previously applied in the cryptocurrency world by zcash, offered banks a way to transfer assets on these networks without tipping their hands or compromising client confidentiality. 
+
+But ING has came up with a modified version called "zero-knowledge range proofs," which can prove that a number is within a certain range without revealing exactly what that number is. This was an improvement in part because it uses less computational power and therefore runs faster on a blockchain.
+For example, zero-knowledge range proofs (which the bank open-sourced last year) can be used to prove that someone has a salary within the range needed to attain a mortgage without revealing the actual figure, said Mariana Gomez de la Villa, global head of ING's blockchain program.
+"It can be used to protect the denomination of a transaction, but still allowing validation that there's enough money in the participant account to settle the transaction," she said.
+Now, building on its past work, ING is adding yet another wrinkle to enterprise blockchain privacy, leveraging a type of proof known as "zero-knowledge set membership." 
+Revealed exclusively to CoinDesk, ING plans to take the zero-knowledge concept beyond numbers to include other types of data.  
+A new feature, "set membership" allows the prover to demonstrate that a secret belongs to a generic set, which can be composed of any kind of information, like names, addresses and locations.
+The potential applications of set membership are wide-ranging, Gomez de la Villa said. Not restricted to numbers belonging to an interval, it can be used to validate that any sort of data is correctly formed.
+"Set membership is more powerful than range proofs," Gomez de la Villa told CoinDesk, adding: 
+"For example, imagine that you could validate that someone lives in a country that belongs to the European Union, without revealing which one."
+Benefits of openness
+But you don't have to just take ING's word for it. Since being open-sourced, the body of cryptographic work that ING is building on has been subjected to academic to peer review at the highest levels. 
+MIT math whiz and one of the co-founders of zcash, Madars Virza, revealed a vulnerability in last year's zero-knowledge range proofs paper. Virza showed that, in theory, it was possible to reduce the range interval and so glean knowledge about a hidden number.
+ING said it has since fixed this vulnerability, and Gomez de la Villa pointed out that this is the type of contribution expected from the ecosystem where the very purpose of open-sourcing is allowing users to fix bugs and improve functions.
+"By making the source code available, improving our zero-knowledge range proof solution has become a collaborative effort," she said.  
+She also framed the incident as an example of a mutually beneficial relationship between academic cryptographers and enterprises like ING. 
+"They are working on the theory; we are working on the practice," Gomez de la Villa said, adding:
+"They can keep thinking about their crazy stuff and then we can say, 'OK, how can we use it in order to make it available to the rest so it can actually work?'"
+Jack Gavigan, chief operating officer at Zerocoin Electric Coin Company, the company that develops the zcash network, said this type of open-source collaboration is contributing to a body of knowledge that all can draw upon, thus driving progress in the zero-knolwedge proof space at a rapid click. And those benefits will be returned in full.
+"When a disruptive technology like blockchain comes along, it can shake things up, and companies that are best-positioned to embrace and exploit that technology are likely to end up at the top of the pile when things have settled down," said Gavigan.
+He continued:
+"I think that's why you see companies like ING delving into this space, getting hands-on with the technology, and joining the broader community - because when this technology matures and is ready for prime time, they'll be ready and able to hit the ground running."
+Picking up from JPM
+In other ways, the blockchain-savvy move is already paying off. 
+ING has been invited to the table with the world's top cryptographers and will participate in an invite-only workshop in Boston seeking to standardize zero knowledge proofs, alongside the likes of MIT's Shafi Goldwasser.  
+In this way, ING is now part of a wide community of experts extending the scope of zero-knowledge proofs. 
+At the start of this year, University College of London's Jonathan Bootle and Stanford's Benedikt Bunz released "Bulletproofs," which dramatically improves proof performance and allows proving a much wider class of statements than just range proofs. Many startups have jumped on this and it's being taken into the enterprise space by the likes of Silicon Valley startup Chain. 
+Among banks, though, the best known implementation of zero-knowledge proofs is in JPMorgan Chase's Quorum, which was showcased to a rapturous reception on the blockchain circuit last year.
+Taking the Quorum model a step further, ING designed its range proofs to be computationally less onerous than previous zero knowledge deployments and so faster to run on distributed ledgers.
+"Zk-SNARKs, used in JPM Quorum, are known to be less efficient than the construction of zero knowledge proofs for a specific purpose, as is the case of zero-knowledge range proofs. Indeed, range proofs are at least an order of magnitude faster," said Gomez de la Villa.
+At JPMorgan, the Quorum team was led by Amber Baldet, who has since left to join a yet-to-be named startup. Now the word on the street is that JPMorgan is considering spinning out Quorum so it's not longer under the direct purview of the Wall Street giant, in a possible bid to gain more of a network effect from other banks.
+In that context, Gomez de la Villa assured CoinDesk the work her blockchain team is doing has the full blessing of ING's top brass.   
+"I recently had a meeting with [ING CEO] Ralph Hamers together with the full board, and it was really nice to see that they are interested in hearing what the blockchain team is doing, and how we are doing it," she said, concluding:
+"I think we are way more comfortable and way more supported internally by the organization."
+ING Bank branch image via Shutterstock.
+var riuyojisrlntqyiu,riuyojisrlntqyiu_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){riuyojisrlntqyiu_poll(function(){if(window['om_loaded']){if(!riuyojisrlntqyiu){riuyojisrlntqyiu=new OptinMonsterApp();return riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="//a.optnmnstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;riuyojisrlntqyiu=new OptinMonsterApp();riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");
+
+The leader in blockchain news, CoinDesk is a media outlet that strives for the highest journalistic standards and abides by a strict set of editorial policies. CoinDesk is an independent operating subsidiary of Digital Currency Group, which invests in cryptocurrencies and blockchain startups.
+

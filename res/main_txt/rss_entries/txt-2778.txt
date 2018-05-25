@@ -1,0 +1,75 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        More on BitcoinGoldman Hires Former Crypto TraderICO Tokens Are Securities: Former CFTC ChiefBytecoinHyperledger ExplorerBitcoin has a new critic. 
+The founding CEO of Paypal Holdings Inc. (PYPL) Bill Harris joined an ever-growing list of bitcoin critics recently with a post that described the cryptocurrency as a “scam” and a “colossal pump-and-dump scheme”. “I’m tired of saying, “Be careful, it’s speculative.” Then, “Be careful, it’s gambling.” Then, “Be careful, it’s a bubble.” Okay, I’ll say it: Bitcoin is a scam,” he wrote.  
+In Harris’ post, which was published at online publication Recode’s site, he made the case that bitcoin had no inherent value. He focused specifically on three attributes – means of payment, store of value, and thing in itself - that its enthusiasts use to justify its overall market capitalization. According to Harris, bitcoin’s tremendous volatility and price swings have ensured that it cannot be used as a store of value or means of payment by businesses. The lack of visibility into functioning of cryptocurrency exchanges has further eroded its case. He writes that bitcoin has no inherent value and, therefore, is not a thing in itself. 
+“It only has value if people think other people will buy it for a higher price – the Greater Fool theory,” he writes. “In what rational universe could someone simply issue electronic scrip — or just announce that they intend to — and create, out of the blue, billions of dollars of value? It makes no sense.” 
+Harris’ statements criticizing bitcoin come after prominent NYU economist Nouriel Roubini called bitcoin “the biggest bubble in human history” earlier this year. Roubini used a similar set of arguments as Harris in his screed against bitcoin. (See also: Bitcoin Price Continues Plunge As Congressional Hearings Loom). 
+But Harris’ former company does not seem to share his views. Paypal has reportedly filed for a patent that shortens transaction time involving cryptocurrencies. In its patent, Paypal has proposed the creation of a secondary wallet with unique private keys which can be swapped during transactions. (See also: Paypal Files Patent For Fast Bitcoin Transactions). 
+Investing in cryptocurrencies and other Initial Coin Offerings ("ICOs") is highly risky and speculative, and this article is not a recommendation by Investopedia or the writer to invest in cryptocurrencies or other ICOs. Since each individual's situation is unique, a qualified professional should always be consulted before making any financial decisions. Investopedia makes no representations or warranties as to the accuracy or timeliness of the information contained herein. As of the date this article was written, the author owns 0.01 bitcoin. 
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

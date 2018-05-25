@@ -1,0 +1,211 @@
+
+
+
+    
+        
+        Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/ETFMF/MF/IC-Video/Article");} else {return "/8397/INV-NA/ETFMF/MF/IC-Video/Article";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/articles/mutualfund/08/money-market.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/Ui7s9E62.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/Ui7s9E62-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/content/video/the_pros_and_cons_of/moneymarket.png?width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "100%",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "Ui7s9E62-G9NhEyAa.mp4";
+                
+          
+            document.addEventListener("DOMContentLoaded", function() {
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                        var initializeJWPlayerSetup = function () {
+                            if (new VideoInit().canRun()) {
+                                setUpJwpPlayer();
+                            } else {
+                                new VideoInit().callBack = setUpJwpPlayer;
+                            }
+                        }
+            initializeJWPlayerSetup();
+          });
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "Ui7s9E62-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "The Pros And Cons Of Money Market Funds ",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };    
+        
+            
+      
+
+    
+
+    
+        Money market investing carries a low single-digit return, and when compared to stocks or corporate debt issues, the risk to principal is generally quite low. However, there are a number of positives and negatives investors should be aware of when it comes to the money market. In this article, we'll take a look at these ups and downs and show you how the downs can greatly outweigh the ups.
+Advantages to Money Market Investing
+First, let's consider the advantages of putting your money in a money market account.
+1. A Great Place to Park Money
+When the stock market is extremely volatile and investors aren't sure where to invest their money, the money market can be a terrific safe haven. Why? As stated above, money market accounts and funds are often considered to have less risk than their stock and bond counterparts. That is because these types of funds typically invest in low-risk vehicles such as certificates of deposit (CDs), Treasury bills (T-bills) and short-term commercial paper. In addition, the money market often generates a low single-digit return for investors, which in a down market can still be quite attractive.  
+2. Liquidity Isn't Usually an Issue
+Money market funds don't generally invest in securities that trade minuscule volumes or tend to have little following. Rather, they generally trade in entities and/or securities that are in fairly high demand (such as T-bills). This means they tend to be more liquid, and investors can buy and sell them with comparative ease. Contrast this to, say, shares of a small-cap, Chinese biotech company. In some cases those shares may be highly liquid, but for most the audience is probably very limited. This means that getting into and out of such an investment could be difficult if the market were in a tailspin. (To learn more, see: Introduction To Money Market Mutual Funds.)
+Disadvantages of Investing in the Money Market
+Now let's talk about the disadvantages of having your funds in a money market account.
+1. Purchasing Power Can Suffer
+If an investor is generating a 3% return in their money market account, but inflation is humming along at 4%, the investor is essentially losing purchasing power each year. Over time, money market investing can actually make a person poorer in the sense that the dollars they earn may not keep pace with the rising cost of living.
+2. Expenses Can Take a Toll
+When investors are earning 2% or 3% in a money market account, even small annual fees can eat up a substantial chunk of the profit. This may make it even more difficult for money market investors to keep pace with inflation. Depending on the account or fund, fees can vary in their negative impact on returns. If, for example, an individual maintains $5,000 in a money market account that yields 3% annually, and the individual is charged $30 in fees, the total return can be impacted quite dramatically.
+$5,000 x 3% = $150 total yield
+$150 - $30 in fees = $120 profit
+The $30 in fees represents 20% of the total yield, a large deduction that considerably reduces the final profit. The above amount also does not factor in any tax liabilities that may be generated if the transaction were to take place outside of a retirement account. (For related reading, see: 3 Investment Fees That Are Negotiable.)
+3. FDIC Safety Net May Not Be There
+Money funds purchased at a bank are typically insured by the Federal Deposit Insurance Corporation (FDIC) for up to $100,000 per depositor, according to Care One Credit Counseling. However, money market mutual funds are not usually government insured. This means although money market mutual funds may still be considered a comparatively safe place to invest money, there is still an element of risk that all investors should be aware of. If an investor were to maintain a $20,000 money market account with a bank and the bank were to go belly up, the investor would likely be made whole again through this insurance coverage. Conversely, if a fund were to do the same thing, the investor may not be made whole again—at least not by the federal government.
+The 2008 financial crisis took a lot of the shine off the stellar reputation money market funds enjoyed up until then. A large money market fund broke the buck—the shares fell below $1.00—triggering a run on the whole money market industry. Since then, the industry has worked with the SEC to introduce stress tests and other measures to increase the resiliency and repair some of the reputation damage. (For related reading, see: 4 Factors to Know About Money Market Reform in 2016.)
+4. Returns May Vary
+While money market funds generally invest in government securities and other vehicles that are considered comparatively safe, they may also take some risks to obtain higher yields for their investors. For example, to try to capture another tenth of a percentage point of return, the fund may invest in bonds or commercial paper that carry additional risk. The point is that investing in the highest-yielding money market fund may not always be the smartest idea given the additional risk. Remember, the return a fund has posted in a previous year is not necessarily an indication of what it may generate in a future year.
+It's also important to note the alternative to the money market may not be desirable in some market situations either. For example, having dividends or proceeds from a stock sale sent directly to you (the investor) may not allow you to capture the same rate of return. In addition, reinvesting dividends in equities may only exacerbate return problems in a down market.
+5. Opportunity Lost
+Over time, common stocks have returned about 8-10% on average, including recessionary periods. By investing in a money market mutual fund, which may often yield just 2% or 3%, the investor may be missing out on an opportunity for a better rate of return. This can have a tremendous impact on an individual's ability to build wealth.
+The Bottom Line
+Money market investing can be a very advantageous thing to do, especially if you need a short-term, relatively safe place to park cash. However, before investing any money in a money market mutual fund, investors should first understand both the pros and the cons. Like any investment, those pros and cons make a money market fund ideal in some situations and potentially harmful in others. If you're in your 30s and holding your retirement savings in a money market fund, you're probably doing it wrong. (For related reading, see: Do Money Market Funds Pay?)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

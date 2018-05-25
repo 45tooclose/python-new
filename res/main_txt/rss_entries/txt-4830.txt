@@ -1,0 +1,79 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Bitcoin is reaching for the stars, literally! Though the most popular cryptocurrency has had its fair share of extreme highs and lows in terms of its valuation in recent times, a promotional activity by a Bitcoin mining firm called Miner One successfully managed to place a bitcoin mining rig at an altitude of more than 35,000 meters (almost 22 miles) and perform the mining activity. (See also: How Does Bitcoin Mining Work?)
+The launch was made using a hydrogen balloon, and the target of 35,000 meters was purposely selected to match Miner One’s earlier prediction that the cryptocurrency will hit a valuation of $35,000 this year.
+Dubbed as the Space Miner One, the specially built balloon and capsule assembly contained a specially-adapted application-specific integrated circuit (ASIC) capable of performing the necessary data processing for mining bitcoin at the designated height. The ASIC was accompanied by a Raspberry Pi 3 microcomputer, a battery for the necessary power supply and a satellite transmitter for data communication. It also contained necessary instruments for navigation and tracking and to shield the setup from extreme temperature and other space extremities. It had an attached parachute to bring back the assembly safely back to earth. The ambitious mission lasted around two and a half hours and successfully achieved a mining hashrate of 330 megahashes per second.
+Bitcoins in Space
+While there have been instances of broadcasting bitcoin blockchain data through satellite by companies like Blockstream, getting a mining device in space at the level of the stratosphere is still a one-of-a-kind event. The successful stunt has already led to ongoing discussions about the benefits of mining up in the sky with free and abundant solar energy. (See also: Is Bitcoin Mining Still Profitable?)
+In addition to the Space X rockets promising to take humans to Mars for exploration, one may soon see hundreds of such high-tech balloons up in the sky. If realistically implemented, this approach can make the energy-intensive, high-cost bitcoin mining a low-cost game, adding further to the popularity of bitcoin as a cryptocurrency for everyday’s use.
+“We are bullish on bitcoin because it remains the world’s most popular and proven application of blockchain technology. And we see growing interest and adoption, despite recent market doldrums,” said Miner One CEO Pranas Slušnys.
+Bitcoin was trading at a price of $9,466.57 on Thursday afternoon, up 3.33% over a 24-hour period. (See also: How Much Does It Cost to Mine Bitcoin Around the World?)
+Investing in cryptocurrencies and Initial Coin Offerings ("ICOs") is highly risky and speculative, and this article is not a recommendation by Investopedia or the writer to invest in cryptocurrencies or ICOs. Since each individual's situation is unique, a qualified professional should always be consulted before making any financial decisions. Investopedia makes no representations or warranties as to the accuracy or timeliness of the information contained herein. As of the date this article was written, the author owns no cryptocurrencies.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

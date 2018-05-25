@@ -1,0 +1,2 @@
+
+hello.mediumcontract Greeter {  string public message; function Greeter(string _message) public { message = _message;  }}contract HelloWorld is Greeter { function HelloWorld() Greeter("Hello World") public {}}

@@ -1,0 +1,144 @@
+
+
+    
+                          WHAT IS 'Biodiesel'
+
+      Biodiesel is a fuel derived from organic oils, such as vegetable oil, rather than petroleum. It can also be manufactured from animal fats or recycled restaurant grease.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Fuel Tax Credit                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Alternative Fuels Tax Credit                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Oil Refinery                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Cracking                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Biodiesel'
+      Biodiesel's use and production have been increasing in the United States since the passage of the Energy Policy Act of 2005. It's typically used for aircraft, vehicles and as heating oil. Biodiesel filling stations are common throughout Europe and they are becoming more common in North America.
+Biodiesel is made by combining alcohol, usually methanol, with vegetable oil, such as that found in soybeans, palm oil, animal fat or recycled cooking grease. Once biomass is converted into liquid fuel, it can be used for a variety of energy needs. Ethanol and biodiesel are often blended with hydrocarbon-based gasoline and diesel as additives to reduce vehicle emissions or may be used in their pure forms as renewable alternative fuels. Not to be confused with waste vegetable oils, or WVO, that are often used in converted diesel engines, biodiesel can be used in diesel engines that are un-modified.
+Biodiesel is produced in the U.S. and used in conventional diesel engines, directly substituting for or extending supplies of traditional petroleum diesel. Biodiesel has a positive energy balance meaning that biodiesel yields 4.56 units of energy for every unit of fossil energy consumed over its lifecycle. The price gap between traditional diesel and biodiesel is expected to narrow, as petroleum-based products become scarcer. Agricultural and environmental subsidies will also help with this.
+Benefits of Biodiesel
+Using biodiesel as a vehicle fuel increases energy security, improves air quality and the environment, and provides safety benefits. It is important to note that although biodiesel can be used in almost all modern diesel engines, it will degrade rubber components in older vehicles a lot faster than with traditional diesel. Older vehicles are recommended to upgrade their rubber parts with a non-reactive product known as FKM, if they are planning on using biodiesel in their vehicle. Biodiesel causes far less damage than petroleum diesel if spilled or released to the environment. It is safer than petroleum diesel because it is less combustible. The flashpoint for biodiesel is higher than 130°C, compared with about 52°C for petroleum diesel. Biodiesel is safe to handle, store, and transport.
+Biodiesel has proved to be an effective tool for cleaning up oil spills in coastal areas, due to its capacity for dissolving crude oil deposits. Once the biodiesel has broken down the crude and the crude has been removed, the biodiesel can be skimmed and trace amounts will biodegrade rapidly.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

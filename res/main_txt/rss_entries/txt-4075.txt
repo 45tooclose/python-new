@@ -1,0 +1,149 @@
+
+
+    
+                          What is 'Style Analysis'
+
+      Style analysis is the process of determining what type of investment behavior an investor or money manager employs when making investment decisions. Virtually all investors subscribe to a form of investment philosophy, and a prudent analysis of a money manager's style needs to be performed before an investor can determine whether the manager will be a good fit for his or her personal investment goals and preferences.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Diversified Common Stock Fund                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Style                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Hersey and Blanchard Model                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Management Risk                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Style Analysis'
+      There is virtually an unlimited number of investment styles; however, some of the most common types of investment styles are categorized as growth investing, value investing, large cap investing, small cap investing and active trading.
+Some money managers change their investment styles over time, opting to go with one approach while it is working well and then switching to another when the old approach seems to be losing its luster.
+Growth Investing Style
+Growth investing is a style and strategy that is focused on growing capital. Growth investors typically invest in stocks or companies whose earnings are expected to grow at an above-average rate compared to its industry or the overall market.
+These types of stocks carry a lot of risk because shareholders rely solely on the company's success to generate return on their investment. If the company's growth is unexpectedly slow, shareholders may end up facing a drop in share prices.
+Value Investing Style
+Value investors often seek out stocks that tend to trade at a lower price relative to their fundamentals, and are considered undervalued as a result. Value stocks are often identified as having traits such as a low price-to-earnings ratio or a high dividend yield.
+Value investors believe the market overreacts to news, whether good or bad, resulting in price movements that don't match up with a company's long-term fundamentals.
+Active Trading Style
+Active trading, also known as "day trading" or "swing trading" is considered a highly-speculative trading style. A day trader buys and sells securities with the intent of holding them for a short duration, often times no longer than a day.
+Active traders look to take advantage of short-term price movements in highly-liquid markets like stocks, options and foreign exchange. Most active traders use leverage (debt or borrowed capital) in an attempt to enhance the potential returns of their positions. A margin account allows you to borrow money from a broker for a fixed interest rate to purchase securities with the expectation of receiving high levels of returns.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

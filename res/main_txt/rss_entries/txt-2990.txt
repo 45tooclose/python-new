@@ -1,0 +1,77 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Oil prices are on the rise, giving new momentum to a number of energy sector stocks that have lagged in recent years. With oil prices hovering around levels not seen since late 2014, three of the largest oil-field-service providers Halliburton Co. (HAL), Schlumberger NV (SLB) and Baker Hughes, a GE Company (BHGE), all rounded out the first-quarter earnings season with optimistic results. As the shale boom continues and oil prices remain elevated, investors in these stocks should see their patience rewarded, according to the Wall Street Journal.
+Recent Performance
+As the prices of oil benchmarks West Texas Intermediate (WTI) and Brent Crude are up 13% and 12% year to date, respectively, Halliburton is up 8% on the year, while Schlumberger is up 3% and Baker Hughes is up 14%. Meanwhile, the S&P 500 is basically flat for the year.
+Despite Halliburton’s strong price performance, it is still trading at a discount to the S&P’s forward price to earnings ratio (P/E ratio) of 17.02, with a forward multiple of 15.52. However, both Schlumberger and Baker Hughes are now trading at forward multiples greater than the market benchmark, with forward P/E ratios of 21.85 and 22.77, respectively.
+Halliburton’s total revenue jumped 34% to $5.74 billion from $4.28 billion for the first-quarter of this year, helping earn the company a profit of 41 cents per share, in line with analyst forecasts. Much of that jump in revenue came from its North American operations, which saw an increase of nearly 58%, compared to a 9% increase in its revenue from international operations. (To read more, see: Halliburton Stock Could Enter 2018 Uptrend.)
+Shale Boom Still Alive
+The company noted that the increasing North American revenue should continue as customers are “actively redirecting spending” toward North America. Halliburton affirmed that shale deposits in the region should support “sustainable growth over time,” according to the Wall Street Journal.
+Such comments suggest that the shale boom is still alive and well, which should benefit the other oil-service providers like Schlumberger and Baker Hughes as well. The main concerns at the moment, however, relate to supply-chain bottlenecks and a shortage of workers. While the bottlenecks are being sorted out, rising wage costs will eat into profit margins.
+But, as long as oil prices remain high, and perhaps, keep rising, these companies should be able to deal with rising costs. With declining inventories of crude oil, gasoline, and other refined products, as well as continued strengthening of global growth and production restrictions from OPEC, it’s not hard to believe that those higher prices will be here to stay for awhile. And it’s not just the oil-field-service providers that will benefit, but exploration and refining companies as well. (To read more, see: 9 Energy Stocks Poised for Big Breakout As Oil Surges.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

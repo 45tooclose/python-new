@@ -1,0 +1,84 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Smartphone maker Xiaomi Corp. filed for its initial public offering (IPO) in early May, which is expected to be the largest of 2018. The Beijing-based company, headed by co-founder and Chief Executive Officer Lei Jun, did not disclose how much it plans to raise, but it could garner an enterprise value of as much as $100 billion.
+CEO's Aim: 'No. 1 In the World'
+Xiaomi's CEO founded the company after selling his software provider Kingsoft Corp. to Amazon.com Inc. (AMZN). The serial entrepreneur told Bloomberg that what drives him the most in his role at the helm of the smartphone manufacturer is not the money his firm stands to make but rather the opportunity to serve at the helm of a Chinese company and "to become No. 1 in the world," alongside national tech titans like Jack Ma's Alibaba Group (BABA), Pony Ma's Tencent Holdings and Robin Li's Baidu Inc. (BIDU). Lei and his employees own roughly 60% of the company. 
+The 48-year-old serial entrepreneur co-founded Xiaomi in 2010 with seven others, quickly establishing the company by selling discounted products with the same cutting-edge technology used by its competitors. With no physical store locations, the market entrant managed to use flash sales and consumer-generated hype to become the world's No. 3 smartphone manufacturer after Apple Inc. (AAPL) and South Korean competitor Samsung Electronics. In 2014, the company raised a whopping $1.1 billion in venture capital funding and become the world's most valuable startup before Uber Technologies rose to steal the title. 
+In 2017, Xiaomi reported 114.6 billion yuan ($18 billion) in sales, reflecting a 67% jump from the year prior. The firm posted a net loss of 43.89 billion yuan over the same period. Excluding one-time charges, profits came in at 5.36 billion yuan. Operating profits of $1.9 billion reflected a larger turnaround from a period of sustained losses over the years wherein the smartphone company saw its market share plummet. After Xiaomi's high-flying days in 2014, local competitors including Oppo, Vivo and Huawei flooded brick-and-mortar stores, where 85% of China's smartphones were sold, with smartphones as cost-competitive as Xiaomi's. 
+Xiaomi, struggling with manufacturing setbacks and frustrated customers, fell to fifth place in its domestic market and seventh globally in 2016, according to the IDC. Lei knew he had to do something drastic to turn around his business. Today, his company, which has been called a "Chinese phoenix," is projected to overtake Oppo, Huawei and Apple in the next year to become the world's second-largest smartphone vendor after Samsung. So how does Xiaomi make its money?
+Chinese Tech Giant Builds Partner Ecosystem
+At its low point in 2016, Xiaomi saw smartphone sales decline to 41 million, down from a reported 70 million in 2016, according to the IDC. Its billionaire founder, who has been dubbed "the Steve Jobs of China," decided his company would sell much more that smartphones.
+Initially, Xiaomi had funded itself on selling hardware products and online services, like many of its peers in the internet age. The company generated a bulk of its revenue from lower-margin device sales, and the majority of its profits from its online service business. Its hundreds of products, such as branded scooters, chargers, air purifiers, suitcases and smartphones, work as platforms for services such as cloud storage, and a $7.50 monthly subscription for thousands of hours of TV shows, movies, games and other offerings. Other services include a profitable online service offering small loans to Xiaomi phone users powered by a next-gen artificial intelligence engine that assesses credit worthiness, according to Wired. 
+Amid Xiaomi's roughest times, management decided to add a third leg to create the company's unique business model. The smartphone maker began to play on the offensive with investments in hundreds of startups, aiming to build out a physical retail presence well beyond the scope of smartphone sales. The goal was to create an ecosystem of partner startups offering a diverse range of internet-connected home and tech products, working to drive foot traffic at brick-and-mortar locations. 
+“Buying a phone or TV is a low-frequency event. How many times do you need to go back to the store?” said Wang Xiang, Xiaomi's senior vice president, in an interview with Wired. “But what if you also need a Bluetooth speaker, an internet-enabled rice cooker, or the first affordable air purifier in China—and each one of those products is not only best-in-class, but costs less than the existing products in that category? Our ecosystem even gives customers unusual new products that they never knew existed. So they keep coming back to Xiaomi’s Mi Home Store to see what we’ve got.”
+Devices Comprise Bulk of Sales 
+Xiaomi continues to make a bulk of its revenues on phones, which generate about $2 in revenue per unit and account for 70% of total sales, according to Counterpoint Research. Sales of other gadgets make up 20% of the business, as Xiaomi has promised that it will cap profits from its devices at 5%. Preloaded apps and services account for the remaining 10% of revenues, yet generate a net profit margin of 45% to 60%, according to Bloomberg, citing people familiar with the matter. 
+Moving forward, Xiaomi seeks to shift its reliance off its increasingly saturated domestic market, which accounts for 58% of its phone sales, according to Canalys. The company has invested $4 billion in its Chinese partner ecosystem, and plans to invest another $1 billion in similar partnerships with 100 startups in India, its largest market outside of China. The firm has announced new strategic partnerships including a deal with Baidu to develop conversational artificial intelligence products for the Internet of Things (IoT) market. (See also: Xiaomi Unveils iPhone X Rival at Half the Cost.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Medium-Article'
+    });
+                    
+            
+                

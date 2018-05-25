@@ -1,0 +1,53 @@
+
+
+
+    
+    
+    
+          
+    A:
+            A. An investment adviser must register with the state if it holds less than $25 million in assets.
+B. An investment adviser must register with the state if it holds less than $30 million in assets.
+C. An investment adviser must register with individual states if it is registered in fewer than five states; otherwise, it must register with the SEC.
+D. An investment adviser is exempt from registration in a state if it has five or fewer clients over a 12-month period in a state where it has no physical address.
+Correct answer: DSection 403 of the Uniform Securities Act specifically states, "a person without a place of business in this state if the person has had, during the preceding 12 months, not more than five clients that are resident in this state". In addition, in the comments portion of the act, it states, "Section 403(b)(2) is consistent with the National Securities Markets Improvement Act of 1996 which prohibits a state from regulating an investment adviser that does not have a place of business in this state and had fewer than six clients who were state residents during the preceding 12 months." Either way, the act is saying FIVE clients or LESS. Note: The exam may use the phrase "five or fewer".
+        
+    
+
+    
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '',
+     'leadGenVertical' : '',
+     'leadGenLayout' : '',
+     'leadGenPage' : ''
+    });
+                

@@ -1,0 +1,77 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        SoundHound Inc., a startup that works with customers across automotive, Internet of Things (IoT), consumer and enterprise service industries that want to create their own artificial intelligence-driven virtual assistants, announced the close of a $100 million mega-round to accelerate the global expansion of its platform that rivals Amazon.com Inc.'s (AMZN) Alexa and Alphabet Inc.'s (GOOGL) Google Assistant. (See also: Alphabet Boosts Its Rival to Amazon’s Alexa.)
+The Santa Clara, California-based company's latest round, announced on Wednesday, was led by Chinese Internet giant Tencent Holdings. Other strategic investors include traditional automaker Hyundia Motor Co., Samsung Electronics Inc., HTC, European carrier Orange S.A., Daimler AG, NVIDIA Corp. (NVDA) and Chinese appliance maker Midea Group. The latest round brings its total funding to $215 million, according to Crunchbase, while Business Insider indicated that it cements its worth to over $1 billion, citing a person familiar with the matter. 
+The 13-year-old startup hopes to gain traction with developers seeking the bypass options such as Amazon's Alexa, Google Assistant, Apple Inc.'s (AAPL) Siri and Microsoft Corp.'s (MSFT) Cortana. While the company was first well-known for its music-identifying app, its main product, called Houndify, is used to power a variety of conversational interfaces. The technology lets any software developer quickly and easily build a voice assistant, and is found in Hyundia vehicles, the NVIDIA Drive autonomous vehicle platform, Bunn coffee makers, and a home robot named Kuri from Mayfield Robotics. The Hound voice assistant can also be used for free via SoundHound iOS and Android apps. 
+SoundHound Vs. Amazon Alexa Fund
+Chief Executive Officer Kevyan Mohajer spoke in an interview with Business Insider about the attractiveness of the SoundHound platform to established companies that may be concerned about using virtual assistant from the tech giants. "If you're Mercedes Benz, and you work very hard to create this really good brand, and you integrate Amazon Alexa in your Mercedes Benz, then your user has to log into an Amazon account when they buy the product, or they might have to create one, and they have to call your Mercedes Benz 'Alexa,' and the data goes to Amazon and there's no differentiation," said the CEO, adding that big firms can re-brand, customize and differentiate Houndify's assistant, unlike other options on the market. 
+Mohajer views his company's strategic backers as representing a group of companies fighting the growing dominance of Amazon and its Alexa Fund. "Their response to us was the Alexa Fund, $100 million and basically they're gonna bribe companies to adopt the Alexa platform," said the SoundHound CEO. He views his company's funding strategy as the reverse of the online retail giant's venture arm, which offers money to small startups it hopes to be successful. 
+"The Houndify alliance fund went to big companies that are already successful, that already have successful products, we let them invest in us, to encourage them to adopt the Houndify platform," said Mohajer. The CEO says the latest round garnered more interest than hoped and will be used to help the firm open offices in China, Germany and elsewhere. (See also: Amazon Vs. Google: Smart Home War Escalates.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

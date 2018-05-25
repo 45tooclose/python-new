@@ -1,0 +1,205 @@
+
+
+
+    
+        
+        Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/Investing/Investing/IC-Video/Article");} else {return "/8397/INV-NA/Investing/Investing/IC-Video/Article";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/articles/basics/09/simplified-measuring-interpreting-volatility.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/F6w4wjBB.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/F6w4wjBB-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/thumbs/simplifiedapproachvolatility.png?width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "100%",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "F6w4wjBB-G9NhEyAa.mp4";
+                
+          
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                    var initializeJWPlayerSetup = function () {
+                        if (new VideoInit().canRun()) {
+                            setUpJwpPlayer();
+                        } else {
+                            new VideoInit().callBack = setUpJwpPlayer;
+                        }
+                    }
+          initializeJWPlayerSetup();
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "F6w4wjBB-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "A Simplified Approach To Calculating Volatility ",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };    
+        
+            
+      
+
+    
+
+    
+        Many investors have experienced abnormal levels of investment performance volatility during various periods of the market cycle. While volatility may be greater than anticipated at times, a case can also be made that the manner in which volatility is typically measured contributes to the problem of stocks seeming unexpectedly, unaccountably volatile. The purpose of this article is to discuss the issues associated with the traditional measure of volatility, and to explain a more intuitive approach that investors can use in order to help them evaluate the magnitude of risks.
+Traditional Measure of Volatility
+Most investors know that standard deviation is the typical statistic used to measure volatility. Standard deviation is simply defined as the square root of the average variance of the data from its mean. While this statistic is relatively easy to calculate, the assumptions behind its interpretation are more complex, which in turn raises concern about its accuracy. As a result, there is a certain level of skepticism surrounding its validity as an accurate measure of risk. (To learn more, see The Uses And Limits Of Volatility.)
+In order for standard deviation to be an accurate measure of risk, an assumption has to be made that investment performance data follows a normal distribution. In graphical terms, a normal distribution of data will plot on a chart in a manner that looks like a bell-shaped curve. If this standard holds true, then approximately 68% of the expected outcomes should lie between ±1 standard deviations from the investment's expected return, 95% should lie between ±2 standard deviations, and 99.7% should lie between ±3 standard deviations.
+For example, during the period of June 1, 1979 through June 1, 2009, the three-year rolling annualized average performance of the S&P 500 Index was 9.5%, and its standard deviation was 10%. Given these baseline parameters of performance, one would expect that 68% of the time the expected performance of the S&P 500 index would fall within a range of -0.5% and 19.5% (9.5% ±10%).
+Unfortunately, there are three main reasons why investment performance data may not be normally distributed. First, investment performance is typically skewed, which means that return distributions are typically asymmetrical. As a result, investors tend to experience abnormally high and low periods of performance. Second, investment performance typically exhibits a property known as kurtosis, which means that investment performance exhibits an abnormally large number of positive and/or negative periods of performance. Taken together, these problems warp the look of the bell-shaped curve, and distort the accuracy of standard deviation as a measure of risk.
+In addition to skewness and kurtosis, a problem known as heteroskedasticity is also a cause for concern. Heteroskedasticity simply means that the variance of the sample investment performance data is not constant over time. As a result, standard deviation tends to fluctuate based on the length of the time period used to make the calculation, or the period of time selected to make the calculation.
+Like skewness and kurtosis, the ramifications of heteroskedasticity will cause standard deviation to be an unreliable measure of risk. Taken collectively, these three problems can cause investors to misunderstand the potential volatility of their investments, and cause them to potentially take much more risk than anticipated. (To learn more, see our CFA Level 1- Quantitative Methods Exam Guide.)
+A Simplified Measure of Volatility
+Fortunately, there is a much easier and more accurate way to measure and examine risk, through a process known as the historical method. To utilize this method, investors simply need to graph the historical performance of their investments, by generating a chart known as a histogram.
+A histogram is a chart that plots the proportion of observations that fall within a host of category ranges. For example, in the chart below, the three-year rolling annualized average performance of the S&P 500 Index for the period of June 1, 1979 through June 1, 2009 has been constructed. The vertical axis represents the magnitude of the performance of the S&P 500 Index, and the horizontal axis represents the frequency in which the S&P 500 Index experienced such performance.
+
+Figure 1: S&P 500 Index Performance Histogram
+Source: Investopedia 2009
+As the chart illustrates, the use of a histogram allows investors to determine the percent of time in which the performance of an investment is within, above, or below a given range. For example, 16% of the S&P 500 Index performance observations achieved a return between 9% and 11.7%. In terms of performance below or above a threshold, it can also be determined that the S&P 500 Index experienced a loss greater than or equal to 1.1%, 16% of the time, and performance above 24.8%, 7.7% of the time.
+Comparing the Methods
+The use of the historical method via a histogram has three main advantages over the use of standard deviation. First, the historical method does not require that investment performance be normally distributed. Second, the impact of skewness and kurtosis is explicitly captured in the histogram chart, which provides investors with the necessary information to mitigate unexpected volatility surprise. Third, investors can examine the magnitude of gains and losses experienced.
+The only drawback to the historical method is that the histogram, like the use of standard deviation, suffers from the potential impact of heteroskedasticity. However, this should not be a surprise, as investors should understand that past performance is not indicative of future returns. In any event, even with this one caveat, the historical method still serves as an excellent baseline measure of investment risk, and should be used by investors for evaluating the magnitude and frequency of their potential gains and losses associated with their investment opportunities.
+Application of the Methodology
+How do investors generate a histogram in order to help them examine the risk attributes of their investments?
+One recommendation is to request the investment performance information from the investment management firms. However, the necessary information can also be obtained by gathering the monthly closing price of the investment asset, typically found through various sources, and then manually calculating investment performance.
+After performance information has been gathered, or manually calculated, a histogram can be constructed by importing the data into a software package, such as Microsoft Excel, and using the software's data analysis add-on feature. By utilizing this methodology, investors should be able to easily generate a histogram, which in turn should help them gauge the true volatility of their investment opportunities.
+The Bottom Line
+In practical terms, the utilization of a histogram should allow investors to examine the risk of their investments in a manner that will help them gauge the amount of money they stand to make or lose on an annual basis. Given this type of real-world applicability, investors should be less surprised when the markets fluctuate dramatically, and therefore they should feel much more content with their investment exposure during all economic environments. (For more, see Understanding Volatility Measurements.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

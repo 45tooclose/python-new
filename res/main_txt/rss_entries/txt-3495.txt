@@ -1,0 +1,144 @@
+
+
+    
+                          What is 'Capped Index '
+
+      Capped index is an equity index that has a limit on the weight of any single security. Thus, a capped index sets a maximum percentage on the relative weighting of a component that is determined by its market capitalization. The rationale behind a capped index is to prevent any single security from exerting a disproportionate influence on an index.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Capitalization-Weighted Index                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Russell Top 50 Index                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Price Cap Regulation                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Composite                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Capped Index '
+      Some capped indexes employ market capitalization to determine where each constituent in the index is weighted by its free float-adjusted market capitalization. Applying free float-adjusted market capitalization weighting may result in certain cases in large sector, geographical or company concentration. Capped indexes are often seen as an alternative to purely free float-adjusted market capitalization weighted indices by constraining the maximum sector, geographical or constituent weights.
+For example, in Canada, the S&P/TSX Capped Composite index that is maintained by Standard & Poor's restricts the weighting of any component to a maximum of 10 percent, regardless of its market capitalization. The S&P/TSX Capped Composite index was introduced in 2002, subsequent to the rise and fall of Nortel Networks, which at its peak accounted for almost one-third of the total market capitalization of all stocks on the former TSX-300 index.
+One advantage of a cap-weighted index is that it reflects the way markets actually behave. Larger companies do, in fact, have greater influence on the overall market than smaller companies. It’s also a self-rebalancing methodology, in that as a company’s price or outstanding share quantity changes, so do the proportions of stocks in the index.
+However, cap-weighted schemes aren’t perfect. Sometimes companies have shares that aren’t fully available for trade on the open market (such as government-held shares, or large privately-controlled holdings). In such cases, pure cap-weighted schemes would misrepresent the actual investable market cap available.
+Examples of Capped Index Guidelines
+In some instances, the calculation of the constituent capping factors are based on prices at market close on the second Friday of the review month, using shares in issue and investability weights as designated to take effect after close on the third Friday of the review month (i.e. taking effect on the review effective date).
+Calculation of capping factors should take into account any corporate actions/events that take effect after close on the second Friday of the review month up to and including the review effective date, if they have been announced and confirmed by the second Friday of the review month.
+Corporate actions and events announced after the second Friday of the review month that become effective up and including the review effective date will not result in any further adjustment.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

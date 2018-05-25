@@ -1,0 +1,75 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        PepsiCo Inc. (PEP) is facing some of the same sales struggles as many other beverage makers as consumers turn toward healthier drink options. Its new plan is in part to mirror Coca-Cola Co.’s (KO) successful strategy of investing more into its core carbonated beverage business, which is profitable but growing more slowly, while innovating toward other on-trend beverage options.
+The beverage giant said it will increase spending on advertising, including its upcoming Pepsi Generations campaign. Pepsi is also making strides in improving sales of its Gatorade sports drink brand, which now includes the newly launched and carbohydrate-free Gatorade Zero. Pepsi’s latest products include Lipton Ice Tea with a Splash of Juice and a home drink system called Drinkfinity.
+Pepsi reported better-than-expected first-quarter earnings and revenue on Thursday, with higher growth in developing markets. In Latin America, sales rose 14% year over year and in Sub-Saharan Africa sales rose 15%. In the Middle East, Asia and North Africa (MENA) region, sales rose about 7%.
+New Flavors, New Customers
+Overall, earnings were 96 cents per share, versus the 93 cents the Street expected. Revenue was $12.6 billion, up 4.3% from the year prior and up from $12.4 billion analysts expected. (See also: Goldman Sachs: Drink in These Beverage Stocks.)
+"North American beverages sector continues to work through some challenges," PepsiCo CEO Indra Nooyi told analysts. "The overwhelming driver is that, despite moderately increasing our media on trademark Pepsi over the past three years, our share ... has fallen dramatically relative to our key competitor, who has substantially stepped up their media spending on colas over the past two years." 
+In an effort to draw more Millennial customers, Coca-Cola added four new flavors to its Diet Coke brand earlier this year: cherry, orange, ginger lime and mango. It’s fourth-quarter results showed that the brand drew the strongest sales in eight years. (See also: Coca-Cola to Sell Alcoholic Beverages in Japan.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

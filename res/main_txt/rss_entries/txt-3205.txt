@@ -1,0 +1,91 @@
+
+
+
+    
+        
+            
+        
+          
+                
+      
+
+    
+
+    
+        In any economy, good or bad, businesses of all sizes have the potential to fail. But what happens to the employer-sponsored insurance benefits you have when your company files for bankruptcy? If you're fear that your firm might go belly-up, read on to find out how this will affect your benefits and what you can do to protect yourself.
+Employer-Based Insurance
+First, a quick refresher: An employer-based insurance plan is an agreement between your employer and an insurance company to offer coverage to the entire workforce as a group. Employees can purchase coverage through the group plan by completing the necessary paperwork and having premiums automatically deducted from their paychecks. There are several types of insurance provided by employers – some of the most common are health, life and disability. Some employers will offer forms of insurance coverage free of charge as a way of recruiting and retaining employees.
+What Type of Bankruptcy?
+If you find out that your company is filing for bankruptcy, the most important question to ask is "which type?" There are two main categories – technically known as chapters – of bankruptcy law under which a company can file: Chapter 11 and Chapter 7. Under a Chapter 11 bankruptcy, a company is able to financially reorganize itself and take cost-cutting measures, including layoffs or salary and benefit reductions, and continue operations. However, filing for Chapter 7 bankruptcy has much more direct and dire consequences for employees; the company shuts down completely and liquidates its assets to satisfy its creditors' financial claims. (If a company files for bankruptcy, stockholders have the most to lose. Find out why in An Overview Of Corporate Bankruptcy.)
+Chapter 11 Bankruptcy 
+If your employer files for Chapter 11 bankruptcy but you keep your job, you may be able to keep your group insurance coverage. However, a company may drop its employee insurance benefits, cut employees' hours or lay people off. Let's look at how your insurance coverage could be affected in those situations:
+Health Insurance: If your place of employment employs at least 20 people and you're laid off or your job status changes causing a loss of insurance coverage, you and your dependents will still be able to maintain your current policy, thanks to COBRA (the Consolidated Omnibus Budget Reconciliation Act). Confirm that your employer offers a conversion option that would allow you to get individual health coverage from the company if you lose your group plan benefits. (Learn more in Find Secure And Affordable Post-Work Health Insurance.)
+Under COBRA, group health insurance coverage can be maintained for up to 18 months. However, you will need to pay both your portion of the premium payment – which you may have been paying through paycheck withholdings –  and your employer's portion of the monthly premium amount, plus a 2% fee. After 18 months, in most states, COBRA ends and you will need to obtain new health insurance coverage – either through a new employer, by purchasing a new individual plan or by joining your spouse's plan. (Some states extend COBRA to 36 months.)
+If your employer chooses to drop its health insurance benefits as a result of a Chapter 11 bankruptcy filing, you will lose your health coverage. You cannot continue your coverage through COBRA because the group plan will no longer exist. Your employer is required to give you 60 days notification before your coverage ends. During that time, you should receive a "certificate of creditable coverage," which you will need in order to apply for a new policy. (Getting your own policy isn't easy or cheap, but in some cases it's well worth the effort. For more insight, check out Buying Private Health Insurance.)
+Life and Disability Insurance: If you have life or disability coverage through work and you lose coverage, either because your job has changed or been eliminated, or the company cancels its group plans, talk with your insurance administrator to find out if you can transfer from your group policy to an individual policy.
+Chapter 7 Bankruptcy 
+In the event that your company or employer files for Chapter 7 bankruptcy, you will lose all forms of employer-based group insurance coverage, as those plans no longer exist.
+As soon as you learn that your company is filing for Chapter 7 bankruptcy, check on any outstanding insurance claims that you have submitted for payment and reimbursement. If those claims are not paid out before the company closes, you may need to file a "proof of claims" with the bankruptcy court. (Learn how to read one of the most important documents you own; see Understand Your Insurance Contract.)
+If you elected to have money withheld from your paychecks to be deposited into a flexible spending account (FSA) for healthcare expenses, you should check with your company's benefits administrator to ensure that you will receive compensation for the sums withheld.
+Converting from Group to Individual Coverage
+Some insurance companies will allow you to convert from a canceled group plan to an individual plan. Typically, you will not have to provide any additional information when applying for an individual policy. However, you will need to complete some paperwork and cover the total premium payments.
+The rules for converting to a personal policy vary by state, so you will need to check with your state insurance association. There is a small window of time in which you are allowed to convert from a group to an individual plan, so be sure to file papers in time. Also keep in mind that some levels of coverage may change with an individual plan, so plan ahead to avoid any surprises. (What happens when insurance companies go bankrupt or face financial difficulty? Check out How Safe Is Your Insurance Policy?)
+The Bottom Line
+A company's bankruptcy can mean significant changes for your insurance coverage, whether you keep your job or your workplace shuts down. If you're concerned about your company's financial health and want to know how a bankruptcy could affect you, take time to review your current insurance coverage. Learn what options you would have so that you can continue enjoying the protection you currently have through your group coverage plans at work. (Learn all about Insurance in our Insurance Tutorial.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Deposit',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

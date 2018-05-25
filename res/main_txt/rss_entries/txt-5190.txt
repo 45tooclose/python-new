@@ -1,0 +1,56 @@
+
+
+
+    
+    
+    
+          
+    A:
+            Estate planning offers tools to establish and maintain effective control over cash, investment and real estate assets during a person's lifetime and upon death. While wills and beneficiary designations work well to ensure an estate plan meets the unique needs of the individual establishing the plan, each has its limits. Trust documents enhance estate planning and the effective transfer of assets to heirs. A trust created while the individual is still alive is an inter vivos trust, and one established upon the death of the individual is a testamentary trust.
+Inter Vivos Trust
+Also known as a living trust, an inter vivos trust is created for the purpose of estate planning while an individual is still living. It is drafted as either a revocable or irrevocable living trust, and allows the individual for whom the document was established to access assets such as cash, investments and real estate property named in the title of the trust while they are still alive. Inter vivos trusts that are revocable have more flexibility than those that are deemed irrevocable, but both types of living trusts bypass the probate process once the trust owner passes away.
+Testamentary Trust
+A testamentary trust is created when an individual dies, and is detailed in their last will and testament. Because the establishment of a testamentary trust does not happen until death, it is by nature irrevocable. A testamentary trust does not protect an individual's assets from the probate process, and as such, the distribution of cash, investments, real estate or other property may not conform to the trust owner's specific desires.
+(For related reading, see: Tips for When to Employ Living Trusts.)
+        
+    
+
+    
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'FAQ'
+    });
+                

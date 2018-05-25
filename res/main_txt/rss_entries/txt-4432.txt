@@ -1,0 +1,60 @@
+
+
+
+
+
+
+Home ›
+
+
+
+Articles ›
+
+
+
+The Evolving Debate Over EIP-999: Can (or Should) Trapped Ether Be Freed?
+
+
+
+
+
+
+
+
+Ethereum
+
+
+
+
+
+The Evolving Debate Over EIP-999: Can (or Should) Trapped Ether Be Freed?
+
+by Colin Harper 
+   05.02.18  12:25 PM
+
+
+
+
+
+
+514,000 ether worth over $320 million are locked up in Parity wallets. The community has a few feasible ways to restore them to their rightful owners.
+
+
+
+
+In November 2017, a pseudonymous actor exploited a vulnerability in Parity’s multi-signature Ethereum wallet library that rendered half a million ether inaccessible to their owners.Ironically, the culprit, Devops199, was trying to patch another vulnerability that allowed hackers to steal $32 million from Parity’s multi-signature wallet accounts back in July of 2017. While tinkering with the popular service’s smart contracts, Devops199 blundered his way into complete ownership of the library that houses the entirety of Parity’s multi-signature wallet accounts. Alerted to this mistake, he made another by killing the code he deployed. The fallout of this decision resulted in the library locking up roughly $150 million worth of ether, leaving the funds completely untouchable. Fast forward five months: The 514,000 inaccessible coins are worth over $320 million, and the community now has a few feasible options at its disposal to restore them to their rightful owners.The problem is that not everyone agrees on how the contract should be restored, nor does everyone agree that any action should be taken at all.Stick a Fork in It — Or Don’tOn April 4, 2018, Afri Schoedon gave owners of the 587 affected wallets a potential solution to their problem. The Parity developer published the EIP-999 commit to Github, a proposal to resurrect the funds from the pit of multi-signature purgatory by restoring the code-dead library. “This proposal suggests restoring the WalletLibrary by a patched version to allow the owners of the dependent multi-signature wallets regain access to their assets,” Schoedon wrote in the commit’s abstract. In the Rationale section of the commit, Schoedon continues to defend the patch as a low-consequence, satisfactory solution for all involved:“The total supply of Ether is neither changed nor does this proposal require the transfer of any tokens or assets including Ether. It is assumed that this change is aligned with the interests both of (A) Parity Technologies that intended to provide a smart-contracts library for multi-signature wallets to last forever for its users and (B) the users of the multi-signature wallets that meant to safely store their assets in a contract accessible any time they desire. Lastly, the client-side implementation cost of this proposal is estimated to be low.”Not everyone is on board with this proposal, though, even those affected by the vulnerability. At least, an informal coin vote on etherchain.org, wherein the affected users signed votes with the keys to their now defunct wallets, indicates as much. Out of the 639 votes recorded, 330 voted against the EIP-999 proposal, 300 voted for it, and 9 didn’t care either way. The vote, however, is in no way conclusive, and some community members are even calling it “fraud” outright, arguing that it doesn’t accurately reflect the community’s sentiment.There’s concern within the developer community that, if implemented, EIP-999 will fragment the community and code to the point of a hard fork. “The change that is proposed by EIP-999 would be incompatible with the current version because it would introduce a single transaction to restore the deleted multi-sig library contract,” Dan Phifer, CTO of Musiconomi, a project that lost funds to the vulnerability, told Bitcoin Magazine. “That transaction would not exist for any client that is running the upgrade, so the old and new software wouldn't agree about the state of the chain,” he continued. “If it's widely believed that the large majority of users will run the code containing the fix, then only that version of the chain will retain its value.”Although one of its own developers suggested EIP-999, Parity announced in a recent blog post that it is against forking Ethereum to recover user funds. “Let us make [it] clear: we have no intention to split the Ethereum chain,” the post reads (emphasis theirs). “We plan to continue to work with the community to find a path forward. We have all dedicated a great deal of time and effort to developing the Ethereum ecosystem, and have no intention of harming what we have helped build.”Two prominent Ethereum developers, Alex Van de Sande and Péter Szilágyi, have expressed a similar concern over this outcome. They’ve both voiced the opinion that the already contentious EIP-999 could evolve into a turf war over Ethereum’s code that would devolve into a chain split. Van de Sande has written about the topic extensively on his Medium blog and Szilágyi, in unpublished interview questions that he posted to Twitter, espouses the idea that “[the community] is trying to reach consensus here, not destroy [its] work.“It's not possible to unlock the coins without a hard fork,” Alex Van de Sande told Bitcoin Magazine in an interview. “If they [Parity?] moved with EIP-999 (which they now have publicly vowed not to do) then it would inevitably lead to a fork as we know there would be enough users on both sides to maintain both coins.”Indeed, the conflict represents crossroads that could fracture the community, even if it isn’t as dire as some outlets may present it. Van de Sande believes that Parity’s official announcement shows that “they saw the concern the community had and have stepped back” from the proposal.Still, Van de Sande has explored alternative solutions to the Parity dilemma in the event that the community can’t reach a consensus on a way forward. The two solutions, both of which he posits in a post on his Medium blog, could be accomplished without a code change. The first involves creating a “recovery token” whose supply would reflect a 1:1 ratio of the frozen funds. “The idea,” he expounds in our interview, “is that the tokens would have multiple sources of revenue, donation being one of them,” and users can redeem these recovery tokens for real ether by burning them through the token’s smart contract.In the same vein, the second solution involves a decentralized insurance fund. Basically, the community could create smart contract insurance policies to refund those who lost ether to Parity and to cover future losses, as well. Featuring its own insurance tokens, this system would pay out 90 percent of losses and would rely on community members to act as issuers/insurance brokers for others.While novel in design, neither of these solutions is without its faults, and Van de Sande admitted in our interview that “[it] would require a lot of work to build such [systems].” The first bets that the community will display a degree of extreme altruism, as $320 million is no small loss to cover via donations. Without proper funding, the recovery tokens would have nothing to buttress their value, as they function solely as a voucher for lost funds. The second proposal also raises questions as to the incentives insurance issuers will have to front funds and how these policies would properly manage risks and liabilities.Phifer told us that, while he appreciates “Alex's continued effort to find another solution to the stuck funds that would not require a hard fork,” he does not see these solutions (in their current form) as “viable,” an opinion he has stated publicly elsewhere. He suggests that alternative solutions like those Van de Sande proposes are creative and well-intended, but in trying to make everyone happy, they’re likely to fail some while appeasing others. Someone — or some people — will inevitably have needs ignored. In their separate interviews, however, both developers agreed on one key point: splitting Ethereum’s chain would come at a cost, and hard-forking is more complicated than a yes-or-no question.“It's true that there is a cost to a split chain if both versions continue to exist for an extended period of time,” Phifer said. “However, I don't think recognizing those costs helps to decide which solution is ‘right.’”Van de Sande suggested, “We need to differentiate between hard forks and contentious hard forks. Many of the EIPs in the eips.ethereum.org repository require a hard fork, but most of them are non-controversial improvements that can be bundled together in a planned hard fork that is likely going to get 100 percent support from the community. But [EIP-999 has] already generated enough controversy and infighting that we know [it] will not have 100 percent support.”Clearly, the debate has revisited concerns over code immutability and what role, if any, rescue forks should play to restore lost funds. Lurking in the background of the discussion, the in-fighting has reopened old wounds from Ethereum’s hard fork after the DAO hack. To this precedent, EIP-999 proponents see a parallel scenario where opponents see a dissimilar occurence entirely.Given that there was a strong consensus behind the DAO fork, the current debate has Van de Sande believing “that the DAO fork was the last of its kind.” Even so, Phifer insists that decentralized systems need a certain degree of flexibility to respond to events like the Parity multi-sig library fiasco. If a decentralized network’s selling point is individual asset ownership, to him, the question should not be if a hard fork acts like a bailout that conflicts with that blockchain’s decentralized vision; rather, he asks how “should a decentralized system behave when users are prevented from controlling the assets they own?”Following up on this argument, Phifer stated, “I would instead encourage people to consider what the primary value of blockchain technology is and if the rejection of EIP-999 and other such recovery efforts is consistent with those values.”Problems of PerspectiveOne Medium post by “pimpindots” challenges us to examine the problem from their perspective. The author reframes the debate, asking not “should we change the code” but “[should] people and projects be allowed to access their funds?” After all, the post points out, this isn’t a bailout as Parity itself wasn’t responsible for the losses; those affected had no control over one coder breaking the multi-sig library, and, in the aftermath, they’re left holding the pieces while everyone else around them argues whether or not they should be pieced back together. As always, the debate is more complicated than pimpindots’ portrayal or those previously examined. Even some of those individuals who lost funds to the bug, as the poll indicates, don’t want to change the code to retrieve them. Whatever action the community decides to take, the debate exposes a catch-22 for both decentralized community consensus and open source governance: In a realm where open source access to vulnerable systems can cause major problems, that same open source access can provide solutions to these problems, even if the community doesn’t agree with these solutions. Going forward, if open-source technologies give any users uninhibited access to its code, then the community needs to adopt policies for managing the hazards this presents. Without such contingency plans in place, we convey that we’re okay with code meddling until something goes horribly wrong; after that, it’s every man for himself and trying to rectify these changes runs contrary to the mantra “code is law.”
+
+
+
+#ether
+#Parity
+#eip999
+#ethereum
+#wallet
+
+
+
+
+
+
+

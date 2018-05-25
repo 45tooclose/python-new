@@ -1,0 +1,144 @@
+
+
+    
+                          What is an 'Inflation Derivatives'
+
+      Inflation derivatives are a subclass of derivative used by investors to manage the potential negative impact of rising inflation levels.
+Like other derivatives including options or futures, inflation derivatives allow individuals to participate in price movements of a market or index, in this case, a Consumer Price Index, a measurement of the general cost of goods and services in an economy. Doing so can help investors hedge against the risk of increasing prices eroding the real value of their investment portfolio.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Zero Coupon Inflation Swap                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Inflation Trade                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Underlying Security                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Forward Swap                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Inflation Derivatives'
+      Inflation derivatives describe a range of strategies from relatively simple swaps to more complex futures and options products. The most common form of an inflation derivative is an inflation swap, which allows an investor to secure an inflation-protected return relative to an index, like the CPI.
+In a swap, one investor agrees to pay a counterparty a fixed percentage of a notional amount in exchange for a floating rate payment or payments. The change in inflation over the course of the contract will determine the value of the installment. The calculation between the fixed and floating values is at predetermined intervals. Depending on the shift in the compounded inflation rate, one party will post collateral to the other party. 
+In so-called zero-coupon inflation swaps, a single payment is made by one party or the other at the maturity of the contract. This single-pay contrasts to swaps where the submission of payments happen throughout the deal in a series of exchanges.
+For example, take a five-year zero-coupon swap in which Party A agrees to pay a fixed rate of 2.5%, compounded annually, on an amount of $10,000 while Party B agrees to pay the compounded rate of inflation on that principle. If inflation outpaces 2.5%, Party A has come out on top, if not, Party B nets a profit. In either case, Party A has expertly used the swap to transfer their own inflation risk to another individual.
+While inflation swaps are often held through maturity, investors do have the option of trading them on exchanges or through over-the-counter markets before their contract expires. Again, if the rate of inflation on the swap is higher than the fixed rate the investor is paying on it, the sale will result in a positive return which is classified by the IRS as a capital gain.
+Alternatives to Inflation Derivatives
+Other inflation-hedged strategies include Treasury Inflation-Protected Securities (TIPS) and the use of commodities like gold and oil. But both have potential disadvantages when compared to inflation derivatives, including steep investment minimums, fees, and high volatility. Given their low premium requirements, a wide range of maturities, and low correlation to equities, inflation derivatives have become a common product for investors looking to manage inflation risk.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

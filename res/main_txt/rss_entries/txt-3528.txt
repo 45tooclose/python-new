@@ -1,0 +1,207 @@
+
+
+
+Comcast Ventures Betting on Blockchain, Bitcoin
+Comcast Ventures head Gil Beyda says he is confident about the potential of Bitcoin and blockchain technology, revealing that the VC firm has invested in four blockchain startups.
+
+
+ by  Anatol
+Antonovici,
+14 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  Gil Beyda, managing director of Comcast’s venture capital arm, has said he and his team are optimistic about the future of Bitcoin. Speaking to CNBC, he also praised the technology underpinning cryptocurrencies, blockchain, saying he is confident about its real-world applications.
+According to Beyda, there is real value in Bitcoin and blockchain. In 2017, people tried to speculate on the bullish trend but have now paused to reflect on the real applications of these technologies. However, as Beyda put it, we’ll see another surge again as people understand the potential of the technology.
+Comcast is the largest broadcast and cable television company in the world by revenue, and its affiliate Comcast Ventures invests in innovative businesses. Asked about where his venture capital firm would put money, Beyda said the team was excited about cryptocurrency and blockchain.
+
+“Irrespective of the price of Bitcoin, if it’s $10,000 or $10, we still believe that there’s core technology there that has the potential to disrupt many industries,” he stated.
+
+Beyda listed social media, content distribution, e-commerce, and voting as areas that can benefit from blockchain adoption.
+He also revealed that the firm had already invested in four blockchain-oriented ventures, with New York-based startup Blockdaemon being among them.
+
+Asked about when we could feel the impact of blockchain on a regular basis, Beyda said we are still at an early stage as a regulatory framework has yet to be established. “Blockchain is still waiting for that killer app,” he said, adding it will be a year or two before broader adoption.
+Venture capital firms find it challenging to accurately value projects in the era of initial coin offerings as there are many startups that target tens and even hundreds of millions of US dollars with only a great team and a whitepaper, Beyda also pointed out.
+This year, VC investments in cryptocurrency startups are expected to hit a record high by exceeding the 2017 tally. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

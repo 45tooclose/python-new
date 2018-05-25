@@ -1,0 +1,228 @@
+
+
+
+    
+        
+        Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/Investing/Investing/IC-Video/Article");} else {return "/8397/INV-NA/Investing/Investing/IC-Video/Article";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/articles/financial-theory/11/decisions-trees-finance.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/vyEm27d4.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/vyEm27d4-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/thumbs/usingdecisiontrees.png?width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "100%",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "vyEm27d4-G9NhEyAa.mp4";
+                
+          
+            document.addEventListener("DOMContentLoaded", function() {
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                        var initializeJWPlayerSetup = function () {
+                            if (new VideoInit().canRun()) {
+                                setUpJwpPlayer();
+                            } else {
+                                new VideoInit().callBack = setUpJwpPlayer;
+                            }
+                        }
+            initializeJWPlayerSetup();
+          });
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "vyEm27d4-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "Using Decision Trees In Finance ",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };    
+        
+            
+      
+
+    
+
+    
+        Decision trees are a major component of many finance, philosophy and decision analysis university classes, yet many students and graduates fail to understand the purpose behind studying this topic.
+However, these statistical representations often play an integral role in an corporate finance and economic forecasting setting, and also have been paramount to investment theory and practice.
+(For further reading, check out 7 Courses Finance Students Should Take and our Capital Budgeting tutorial.)
+Decision Tree Basics
+The basics of decision trees are organized as follows: An individual has to make a decision such as whether or not to undertake a capital project, or must chose between two competing ventures; this is often depicted with a decision node. The decision is based on the expected outcomes of undertaking the particular course of action; the outcome would be something like "earnings are expected to increase (decrease) by $5 million ($3 million)," and are represented with end nodes.
+However, since the events indicated by end nodes will be determined in the future, their occurrence is currently uncertain. As a result, chance nodes specify the probability of a specific end node coming to fruition.
+
+Decision tree analysis involves forecasting future outcomes and assigning probabilities to those events. As the list of potential outcomes, which are contingent on prior events, become more dynamic with complex decisions, Bayesian probability models have to be implemented to determine priori probabilities. Assigning probabilities and forecasting the net benefits/losses given certain economic states is a challenging feat beyond the scope of this article. Rather than these complicated issues, we will focus on the general purposes that decision trees serve in "the real world."
+Binomial Option Pricing in Decision Tree Analysis
+One of the most basic fundamental applications of decision tree analysis is for the purpose of option pricing. The binomial option pricing model uses discrete probabilities to determine the value of an option at expiration. The most basic binomial models assume that the value of the underlying asset will either move up or down, based on calculated probabilities, at the maturity date of the European option. Based on these expected payoff values, the price of the option can easily be determined.
+
+Figure 2: Binomial Option Pricing
+However, the situation becomes much more complex with American options, wherein the option can be exercised at any point until maturity. The binomial tree would factor in multiple paths that the underlying asset's price can take as time progresses.
+For example, the price can move up, down, down, up, up or any other combination of infinite paths. At every point in time, the future value of the option will be determined by the price path taken by the underlying security. Furthermore, the final price of the security is not limited to only two potential final values as in the above example. As the number of nodes in the binomial decision tree increases, eventually the model converges onto the Black-Scholes formula.
+
+Figure 3: Black Scholes
+Although the Black-Scholes formula provides an easier alternative to option pricing over decision trees, software is available which can create a binomial option pricing model with "infinite" nodes. This type of calculation often provides more accurate pricing information, especially for Bermuda Options and dividend paying stocks.
+(Find out how to carve your way into this valuation model niche. See Breaking Down Binomial Trees.)
+Using Decision Trees for Real Option Analysis
+Valuing real options, such as expansion options and abandonment options, must be done with the use of decision trees as their value cannot be determined via the Black-Scholes formula. Real options represent an actual decision that a company has the option to make – whether to expand or contract operations. Expansion (contraction) options are embedded in the project.
+For example, an oil and gas company can purchase a piece of land today, and if drilling operations are successful, it can buy an additional lot of land for a cheap price. If drilling is unsuccessful, the company will not exercise the option and it will expire worthless. Since real options provide significant value to corporate projects, they are an integral part of the capital budgeting decision.
+
+Figure 4: Real Option Analysis
+The decision of whether to purchase the option or not must usually be decided prior to project initiation. However, once the probabilities of success and failures are determined, decision trees can help clarify what the expected value is of potential capital budgeting decision. Companies will often accept what initially seems like negative net present value projects, but once the real option value is considered, the NPV actually becomes positive. A primary advantage of decision tree analysis is that it provides a comprehensive overview for the alternative scenarios of a decision.
+Decision Tree Applications for Competing Projects
+Similarly, decision trees are also applicable to marketing and business development operations. The general setting for these types of cases is similar to that of real option pricing. Basically, companies are constantly making decisions regarding product expansion, marketing operations, international expansion, international contraction, hiring employees or even merging with another company. Organizing all considered alternatives with a decision tree allows for a systematic means to evaluate these ideas simultaneously.
+This is not to suggest that when a business decides whether or not to hire an additional worker, a decision tree is used every time. However, decision tree do provide a general framework on how to go about determining the ideal solution to a problem and can help managers realize the consequences, either positive or negative, of their decision.
+For example, by formulating the issue of hiring additional staff with a decision tree, managers can determine the expected financial impact of such cases as hiring an employee who does not meet expectations and thus has to be let go. Essentially, this type of investigation can be used as a sensitivity analysis to quantify the impact of a wide range of uncertain variables. (How can you assign a value to what a company may do with its business in the future? We explain how it works. Check out Pin Down Stock Price With Real Options.)
+Pricing of Interest Rate Instruments with Binomial Trees
+Although not strictly a decision tree, a binomial tree is constructed in similar fashion and is used for similar purposes – to determine the impact of a fluctuating/uncertain variable. The upward and downward movement of interest rates has a significant impact on the price of fixed income securities and interest rate derivatives. Binomial trees enable investors to accurately valuate bonds with embedded call and put provisions using uncertainty regarding future interest rates.
+
+Figure 5: Pricing Interest Rate Instruments
+Because the Black-Scholes model is not applicable to valuating bonds and interest rate based options, the binomial model is the ideal alternative. Corporate projects are often valued with decision trees which factor various possible alternative states of the economy. Likewise the value of bonds, interest rate floors and caps, interest rate swaps and other type of investment tools can be determined by analyzing the effects of different interest rate environments.
+Decision Trees and Corporate Analysis
+Decision trees not only provide a useful investment tool, but also enable people and organizations to explore the ranging elements that could have a material impact of a decision.
+Prior to airing a multimillion Super-Bowl commercial, a firm will want to determine the different possible outcomes of their marketing campaign. The various issues that can influence the final success or failure of the expenditure can include such factors as: appeal of the commercial, state of the economy, actual quality of the product (for long term profitability), and similar competitor advertisements.
+Once the impact of these variables has been determined and the corresponding probabilities assigned, the company can make an informed decision as to whether or not proceed with the commercial.
+(Calculate whether the market is paying too much for a particular stock. Refer to DCF Valuation: The Stock Market Sanity Check.)
+
+Figure 6: Corporate Analysis
+ 
+The Bottom Line
+These examples provide an overview of a typical assessment which can benefit from utilizing a decision tree. Once all of the important variables are determined, these decisions trees become very complex. However, these instruments are often an essential tool in the investment analysis or management decision-making process.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

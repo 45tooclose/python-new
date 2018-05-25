@@ -1,0 +1,61 @@
+
+
+
+    
+    
+    
+          
+    A:
+            The only difference between an exponential moving average and a simple moving average is the sensitivity each one shows to changes in the data used in its calculation.
+More specifically, the exponential moving average (EMA) gives a higher weighting to recent prices, while the simple moving average (SMA) assigns equal weighting to all values. The two averages are similar because they are interpreted in the same manner and are both commonly used by technical traders to smooth out price fluctuations.
+[Moving averages are fundamental to many technical analysis strategies, but successful traders use a combination of techniques. Investopedia's Technical Analysis Course will show you how to identify patterns, signals, and technical indicators that drive the behavior of stock prices with over five hours of on-demand video, exercises, and interactive content.]
+The SMA is the most common type of average used by technical analysts and is calculated by dividing the sum of a set of prices by the total number of prices found in the series. For example, a seven-period moving average can be calculated by adding the following seven prices together and dividing the result by seven (the result is also known as an arithmetic mean average).
+Example
+			Given the following series of prices:
+			$10, $11, $12, $16, $17, $19, $20
+			The SMA calculation would look like this:
+			$10+$11+$12+$16+$17+$19+$20 = $105
+			7-period SMA = $105/7 = 15
+Since EMAs place a higher weighting on recent data than on older data, they are more reactive to the latest price changes than SMAs are, which makes the results from EMAs more timely and explains why the EMA is the preferred average among many traders. As you can see from the chart below, traders with a short-term perspective may not care about which average is used, since the difference between the two averages is usually a matter of mere cents. On the other hand, traders with a longer-term perspective should give more consideration to the average they use because the values can vary by a few dollars, which is enough of a price difference to ultimately prove influential on realized returns, especially when you are trading a large quantity of stock. (For related reading, see: Moving Average Strategies.)
+
+As with all technical indicators, there is no one type of average a trader can use to guarantee success. (To learn more, see Basics Of Moving Averages.)
+        
+    
+
+    
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'FAQ'
+    });
+                

@@ -1,0 +1,144 @@
+
+
+    
+                          What is 'Fiscal Agent'
+
+      A fiscal agent is an organization, such as a bank or trust company, that acts on behalf of another party performing various financial duties. A fiscal agent may assist in the redemption of bonds or coupons, handle tax issues, replace lost or damaged securities and perform various other finance-related tasks.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Agent Bank                     
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Corporate Agent                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Real Estate Agent                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Paying Agent                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Fiscal Agent'
+      Fiscal agents (or fiscal sponsors) are most often seen in the non-profit sector. Many non-profit organizations don't have a lot of experience managing the administrative aspects of a business, while others do not have the required 501(c)(3) status needed to legally operate one. In both cases, a fiscal agent can help by providing limited financial and legal oversight for groups and individuals. Those seeking a fiscal agent should do their homework, however, as the IRS rules governing such arrangements can be tricky.
+Fiscal Agents vs. Fiscal Sponsors
+The concept of “fiscal agency” references the arrangement of an established charity to act as the legal agent for a project conducted with another non-exempt organization. However, a fiscal agent does not retain the discretion and control that defines a fiscal sponsorship. Under agency law, the agent (tax-exempt organization) acts on behalf of the principal (project), who has the right and legal duty to direct and control the agent’s activities. The key difference between a fiscal sponsorship and a fiscal agency arrangement is that funds contributed to a non-exempt project that has a fiscal sponsor are tax deductible to the donor and those that are contributed to a project with a fiscal agent are not. Many organizations intend to form fiscal sponsorships so that they can raise tax-deductible contributions, but in most cases, their arrangement will fail to meet IRS criteria for a fiscal sponsorship.
+A fiscal sponsorship describes a relationship between a non-profit organization with 501(c)(3) tax exempt status and a project,conducted by a separate organization, group or individual that does not have 501(c)(3) status. Fiscal sponsorship permits the exempt sponsor to accept funds restricted for the sponsored project on the project’s behalf. The sponsor, in turn, accepts the responsibility to ensure funds are properly spent to achieve the project goals. This arrangement is useful for new charitable endeavors that want to “test the waters” before deciding whether to form an independent entity or another temporary project or coalition looking for a neutral party to administer funds.
+There are several models of fiscal agency and fiscal sponsorship. Accordingly, it is important for parties involved to accurately understand the nature of their relationship and indicate as such in a written agreement.
+ 
+ 
+ 
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

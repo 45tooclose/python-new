@@ -1,0 +1,62 @@
+
+
+
+
+
+
+Home ›
+
+
+
+Articles ›
+
+
+
+Popular Ether Wallet MEW Is Hijacked in DNS Attack
+
+
+
+
+
+
+
+
+Privacy & Security
+
+
+
+
+
+Popular Ether Wallet MEW Is Hijacked in DNS Attack
+
+by Amy Castor 
+   04.25.18  2:27 PM
+
+
+
+
+
+
+Popular Ether Wallet MEW Is Hijacked in DNS Attack
+
+
+
+
+MyEtherWallet, a popular web-based wallet for storing and transmitting the cryptocurrency ether (ETH), suffered a DNS attack that rerouted unsuspecting users to a Russian scam site into which some victims fed their login credentials.An unsigned SSL certificate warned users before entering the phony site but some bypassed the warning, resulting in a loss of funds. MyEtherWallet confirmed the attack in a statement on April 24, 2018. Hackers did not actually hack the MyEtherWallet platform itself but went after vulnerabilities in public-facing DNS servers instead. MyEtherWallet recommends users switch to Cloudflare DNS servers for the time being. DNS servers provide the correct IP address for an internet site’s name. If you type in “www.myetherwallet.com,” a DNS server will translate that into the IP address for that site. An SSL certificate protects against spoofed DNS answers by comparing the hostname you enter with the hostnames listed in the certificate. If no match is found, an SSL warning pops up. Normally when users attempt to visit myetherwallet.com, they are directed to Amazon Web Services, which hosts the site. But this time, according to cybersecurity firm CloudFlare, they were directed instead to a set of Russian IP addresses.According to Oracle's Internet Intelligence division, the hacker was able to hijack DNS entries after executing a BGP (short for Border Gateway Protocol) route hijack that redirected internet traffic meant for Amazon servers. BGP, a routing protocol used by the internet, is known for its vulnerabilities. Most of the affected users were employing Google’s recursive DNS service. “Little did we know this was part of an elaborate scheme to use the inherent security weaknesses of DNS and BGP to pilfer cryptocurrency, but that remarkable scenario appears to have taken place,” Oracle’s Doug Madory wrote in a blog post. DNS hijacks are not uncommon. Earlier this year, hackers hijacked the DNS server for BlackWallet.co, a web-based wallet for the Stellar Lumens cryptocurrency, redirecting $400,000 worth of lumens (XLM) to their own server. In late 2017, EtherDelta was also the victim of a DNS hijack, resulting in the loss of at least $267,000 in funds.
+
+
+
+#attacks
+#MEW
+#myetherwallet
+#hacks
+#dns
+#ether
+#ethereum
+
+
+
+
+
+
+

@@ -1,0 +1,80 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Microsoft Corporation (NYSE: MSFT) was formed in 1975 by Bill Gates and Paul Allen, as they rushed to create an operating system for the Altair 8800 microcomputer. The Altair 8800 was arguably the first microcomputer that kicked off the computer revolution, and with it came Altair Basic, a licensed version of Microsoft Basic. Microsoft Basic was the company's first licensed commercial product, as it licensed various versions to Apple Computers (NASDAQ: AAPL), Commodore and IBM (NYSE: IBM). Sales for the company were $16,005 in 1976.
+The iconic tipping point came when IBM was planning to launch a personal computer but lacked an operating system. While Microsoft did not have an operating system, Bill Gates successfully bluffed IBM to win the contract on Aug. 12, 1981. Rather than program one from scratch, Gates negotiated a deal to purchase the 86-DOS product from Seattle Computer Products for less than $100,000 and licensed it to IBM for a royalty fee on every PC it would produce. The IBM PC launch turned out to be an unprecedented success, catapulting Microsoft's sales to $55 million in 1983. Microsoft launched the first iteration of its Windows franchise in 1985.
+The company went public in 1986 at $21 per share. Since then, Microsoft has grown to revenue of $89.9 billion in 2017, through 121 subsidiaries in over 810 locations, with more than 112,000 employees worldwide. Microsoft's most popular brands include Windows, Office 365, Bing, MSN, Skype, Exchange and cloud applications Azure, SQL Server and .NET. Microsoft is a component in the big three benchmark indexes: Dow Jones Industrial Average index, Standard and Poor's 500 (S&P 500) index, and the Nasdaq-100 index.
+The following are the top four largest mutual fund holders of Microsoft shares:
+Vanguard Total Stock Market Index Fund (VTSMX)
+The  Vanguard Total Stock Market Index Fund ("VTSMX") is the largest mutual fund owner of Microsoft. The $672.4 billion fund owns 189,957,882 shares of Microsoft as of March 31, 2018. This mutual fund is designed to give broad exposure to the total US. stock market by including small-cap, mid-cap and large-cap growth and value stocks. Microsoft shares represent the second-largest position and 2.57% of net total assets in the portfolio of 3,618 stocks.  The minimum investment is $3,000
+Vanguard 500 Index Fund Investor Shares (VFINX)
+The industry's first index fund for individuals is the second-largest mutual fund holder of Microsoft. The Vanguard 500 Index Fund ("VFINX") owns 136,472,041 shares of the company as of March 31, 2018. The fund is invested in 507 stocks covering a diversified spectrum of the largest US. companies mirroring the S&P 500 index. The $400.6 billion fund has a 21.83% allocation of total net assets in the information technology sector, identical to the S&P 500 index. Microsoft shares represent the second-largest position and 3.11% of total assets. The minimum investment is $3,000.
+SPDR S&P 500 ETF (SPY)
+The one stop shop for an overview of the market, the SPDR S&P 500 ETF (SPY) was created in the early '90s, and was the first ever ETF (Exchange Traded Fund). The $254.03 billion fund owns 85,944,191 shares of Microsoft as of April 26, 2018. SPY tracks a market cap weighted index of large and midcap stocks, which are selected by the S&P committee. The fund is invested in 505 stocks, with a 21.79% allocation in the technology sector. Like VFINIX, Microsoft shares make up the second largest holding, and 3.14% of the fund's net assets. The ETF's minimum investment is $3,000.
+Vanguard Institutional Index Fund Institutional Shares (VINIX)
+The $227.8 billion Vanguard Institutional Index Fund Institutional Shares ("VINIX") is the fourth-largest mutual fund holder of Microsoft, with 75,145,153 shares. This institutional fund tracks the S&P 500 Index following a passively managed, full-replication approach invested in 506 stocks. The fund has a 21.83% allocation in information technology, nearly identical to the S&P 500 Index. Microsoft shares represent the second-largest position and 3.12% of total portfolio assets. This is the institutional version of the Vanguard 500 Index Fund ("VINIX") with identical holdings and allocations, but only for institutional investors. The minimum investment is $5 million.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

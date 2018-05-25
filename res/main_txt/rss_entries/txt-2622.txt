@@ -1,0 +1,142 @@
+
+
+    
+                          What is the 'Net Domestic Product - NDP'
+
+      The net domestic product (NDP) is an annual measure of the economic output of a nation that is adjusted to account for depreciation, calculated by subtracting depreciation from the gross domestic product (GDP).
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Depreciated Cost                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Fully Depreciated Asset                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Alternative Depreciation System ...                     
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Accelerated Depreciation                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Net Domestic Product - NDP'
+      Net domestic product accounts for capital that has been consumed over the year in the form of housing, vehicle, or machinery deterioration. The depreciation accounted for is often referred to as capital consumption allowance and represents the amount needed in order to replace those depreciated assets.
+Why Net Domestic Product is Used
+Though gross domestic product is frequently cited when assessing the economic health of a country, net domestic product puts into perspective the pace at which capital goods degrade and must be replaced.
+The frequency and scope of such replacements can vary by type of capital assets. Machinery that is put to regular use may need parts replaced on a regular basis until the entire piece of equipment is no longer usable. While that may take a number of years, barring unexpected damage or defects, there is a cycle of equipment failure and replacement. Part of the machinery in a factory’s production line may need to be replaced while another set of similar machines continues to function within the same factory. The acquisition of the replacement machinery would be factored into the depreciation aspect of the net domestic product.
+That differs from an expansion of factory operations, for example if a new site is opened adding to the total number of factories. The acquisition of new machines for the new factory would represent a gain because the demand was driven by the need to increase the scope of the operations rather serve as a replacement. This would mean the purchased machine would qualify as a gain for the net domestic product.
+The construction of new homes in on previously unused real estate can also represent a gain for the net domestic product if the residences are not intended to replace defunct or demolished property. For example, in many urban areas, efforts may be made to repurpose underutilized real estate that has fallen into disrepair. Instead expanding the sprawl of the city, older buildings might be torn down and replaced by new construction intended to fill the same use case as the predecessor building. Such an example would qualify as depreciation and replacement. By contrast, if a new housing community is developed, the construction of residences would be contributory to net domestic product.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

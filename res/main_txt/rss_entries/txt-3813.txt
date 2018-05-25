@@ -1,0 +1,140 @@
+
+
+    
+                          DEFINITION of 'Fine Print'
+
+      The "fine print" includes contract terms and conditions, disclosures or other important information that is not included in the main body of a document, but in footnotes or a supplemental document. Reading and understanding the fine print is essential when entering into an agreement. It often contains information that the issuer does not want to call to the recipient's attention, but that is essential for the recipient to know.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Terms And Conditions (Credit Card)                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Purchase APR                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Go-To Rate                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Limited Edition                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Fine Print'
+      The information in the fine print may be required by law or may be recommended by a company's legal department. For example, the fine print of a credit card agreement might include the card's introductory APR, the APR after the introductory period ends, the length of the introductory period, the APR for balance transfers and cash advances, the card's annual fee, its late payment fee and other crucial details. As another example, if an investor was reading a public company's financial report, he or she might have to read the fine print to learn about the company's accounting methods, long-term debt, employee stock ownership, pending litigation and other issues.
+Fine print is often controversial because of its deceptive nature. Its purpose is to make the reader believe that the offer is better than it might actually be. Though the real truth about the offer is technically available to a reader in the smaller print of the advertisement—thus virtually ensuring plausible deniability from claims of fraud—it is often designed to be overlooked. The unsuspecting viewer, who can instantly see all the attractive aspects of the offer, will, due to natural impulsive behavior, time constraints, and/or personal need, generally not bother to learn the caveats, instead focusing on the positives of an offer.
+Many offers, advertised in large print, only apply when certain conditions are met. In many cases, these conditions are difficult or nearly impossible to meet.
+Many highly regulated sectors, such as banking and financial services, complain of overly regulated mandates which require documents to be laden with legalese. Anyone who's obtained a conventional mortgage knows the weight fine print adds to the loan documents. Although well-intentioned, the myriad of clauses and caveats makes transparency and comprehension difficult.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

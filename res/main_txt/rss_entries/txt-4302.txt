@@ -1,0 +1,82 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Growth stocks have been the darlings of the bull market, and robust earnings projections for 2018 suggest to many that they will maintain their leadership. Chad Morganlander, a portfolio manager with the Washington Crossing Advisors division of Stifel Financial Corp. (SF), is not so sure. He recently pivoted to an overweight position in value stocks based on his belief, as shared with CNBC, that valuations for growth stocks remain stretched despite strong earnings reports for the first quarter. In particular, he thinks that technology stocks have enjoyed an outsized run, and suggests that value-oriented investors look instead to financial, health care and energy stocks.
+During the last five years, the S&P 500 Index (SPX) was up by 66%, propelled largely by the outperformance of growth stocks. The S&P 500 Value Index (SVX) was up by 46%, while the S&P 500 Growth Index (SGX) gained 85%, per S&P Dow Jones Indices.
+Stock Picks
+Within health care, Morganlander cited drugmakers Merck & Co. Inc. (MRK) and Pfizer Inc. (PFE) as attractive value plays with increasing profit margins, revenues and dividends. He did not name any financial or energy stocks in his discussion with Barron's.
+However, a panel of oil market experts convened by Barron's in February cited Genesis Energy LP (GEL) and Range Resources Corp. (RRC) as attractive buys with below-market forward P/E ratios and significant upside to their consensus price targets. Genesis currently has a forward P/E of 11.8, and a PEG ratio of 0.76, while the figures for Range are 12.8 and 0.33, per Yahoo Finance. (For more, see also: 7 Cheap Energy Stocks That Can Soar.)
+Within financial services, recent analysis by Credit Suisse Group AG suggests that custodian bank State Street Corp. (STT) and mutual fund complex  T. Rowe Price Group Inc. (TROW) meet the criteria employed by master value investor Warren Buffett, and thus may be plausible targets for him, per Barron's. The respective forward P/E ratios and PEG ratios for these stocks are, according to Yahoo Finance, 11.5 and 0.72 for State Street, and 14.8 and 1.21 for Price. (For more, see also: 6 Stocks Warren Buffett Might Buy Next.)
+Turning Towards Value
+"Value investors haven't lost money; they just made less money than more aggressive investors," notes fund manager Jean-Marie Eveillard, in another Barron's story. Moreover, Barron's indicates that the recent outperformance by growth stocks is the result of temporary conditions. In particular, the program of quantitative easing by the Federal Reserve that pushed interest rates down and stock prices up made investors "less discerning" about value-oriented fundamentals such as balance sheet strength, in Barron's judgment. (For more, see also: What Is the Value in Value Investing?)
+But interest rates are rising, and that environment has favored value stocks, according to analysis by Thomas Lee at FundStrat Global Advisors stretching back to 1928, Barron's adds. Also, value historically has outperformed growth when profits were accelerating, which is the backdrop today, Barron's notes.
+Analytic Problem
+The traditional metrics used to identify value stocks are becoming increasingly inadequate, per Barron's. Price to book (P/B) ratios always had the downside of having a denominator based on historical costs and accounting-related adjustments thereto, rather than on the theoretic fair market value of a company's assets. However, the limitations of this method are worsening in today's economy, Barron's adds, given that P/B ratios include only tangible physical assets.
+Meanwhile, as Barron's notes: "Today's service economy is filled with companies whose biggest assets are their brands, intellectual property, or customer loyalty, which don't show up on the balance sheet." The popularity of stock buybacks, or share repurchase programs, adds to the analytic problem, Barron's indicates, given that they reduce shareholder equity and thus can make a company seem distressed under the old analytic methods when it is not. The bottom line, it seems, is that reducing value investing to time-honored accounting-driven formulas is not as straightforward as it once may have seemed.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

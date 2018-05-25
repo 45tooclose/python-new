@@ -1,0 +1,177 @@
+
+
+    
+                          DEFINITION of 'Franchise P/E'
+
+      Franchise P/E is the present value of new business opportunities available to a business, on top of the company’s static value, its tangible P/E. It is a function of the excess return on those new investments — the franchise factor — relative to the size of the opportunity — the growth factor.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Franchise Factor                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Franchise                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Forward Price To Earnings - Forward ...                     
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Turnkey Business                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Franchise P/E'
+      Franchise P/E is mainly determined by the differences between the return on the new business opportunity and the cost of equity. Companies with high franchise P/E ratios are those that are able to continually capitalize on core strengths. Their franchise value measures their capacity to expand over time through investments that provide above-market returns. Companies that increase their asset turnover or widen their profit margin, will increase their Franchise P/E and its observed P/E ratio.
+A firm’s equity value, or market value is the sum of its tangible value and franchise value. Breaking down the P/E ratio results in two major components, the tangible P/E (the base P/E of a firm with constant earnings), and the franchise factor, which captures the returns associated with new investments. Franchise factor contributes to the P/E ratio in the same way that franchise value contributes to share value.
+Calculating Franchise P/E
+Franchise P/E = (observed) intrinsic P/E – tangible P/E = franchise factor * growth factor
+Intrinsic P/E = tangible P/E + franchise P/E:
+= P0/E1
+= d/(r-g) = 1/(r-g) * (1-g/ROE)
+= Tangible P/E + Franchise P/E = (1/r) + (FF*G)
+= (1/r) + (((1/r) - (1/ROE))* g/(r-g))
+where:
+r = required return on equity
+ROE = return on equity
+Franchise P/E = (1-g/ROE)
+FF = franchise factor = (1/r) - (1/ROE)
+G = growth factor = g/(r-g)
+g = ROE*b= ROE*(1-d)
+d = D1/E1 = 1-g/ROE
+Tangible P/E: the firm's static value
+Franchise P/E: the firm's growth value
+Franchise factor (FF): Incorporates the required return on new investments
+Growth factor (G): Factors in the present value of the excess return from new investments
+Intrinsic leading P/E = P0/E1 =(1-b)/(r-g)=(1/r)+[1/r-1/ROE]*g/(r-g)
+Intrinsic trailing P/E= P0/E0 =(1/r)+[1/r-1/ROE+(1-g/ROE)]*g/(r-g)
+Using the franchise factor the impact on a company's price-earnings ratio (P/E ratio) per unit growth in new investment can be calculated. For example, a franchise factor of 3 would indicate that the P/E ratio of a company would increase by three units for every unit of growth in the company's book value. The franchise factor can be calculated as the product of annual investment returns in excess of market returns and the duration of the returns:
+Franchise Factor (FF) x Growth Factor (G) = (1/r - 1/ROE) x g/(r-g) = how growth impacts the P/E ratio
+A higher asset turnover ratio increases the franchise P/E ratio, one of the components of the intrinsic P/E value. This is according to Du Pont analysis, which breaks up return on equity into three basic components: net profit margin, asset turnover and the equity multiplier.
+ROE = (net profit margin) * (asset turnover) * (equity multiplier)
+DuPont Equation:
+ROE (↑) = NI/E = NI/Revenue * Revenue/A (↑) * A/E
+g (↑) = ROE (↑) * (1-d)
+Intrinsic P/E = (1/r) + (((1/r) - (1/ROE(↑)))* g(↑)/(r-g(↑)))
+= (1/r) + (((1/r) - (1/ROE)(↓))* (g/(r-g))(↑))
+= intrinsic P/E (↑)
+And when firms pay out more dividends, a firm's intrinsic P/E value decreases:
+d (↑)
+g (↓) = ROE * (1-d(↑))
+Intrinsic P/E = (1/r) + (((1/r) - (1/ROE))* g(↓)/(r-g(↓)))
+= (1/r) + (((1/r) - (1/ROE))* (g/(r-g))(↓))
+= intrinsic P/E (↓)
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

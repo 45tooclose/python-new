@@ -1,0 +1,80 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Electric-hydrogen startup Nikola Motor Company is suing Tesla Inc. (TSLA) for allegedly stealing its design.
+Nikola’s founders said in a court filing that Tesla’s first electric heavy duty rig, the Semi, is “substantially” similar to its own truck that it first unveiled in May 2016 and that Tesla copied its patents. The Salt Lake City, Utah-based company added that it was awarded six design patents between February and April 2018 for its wrap windshield, mid-entry door, fuselage, fender, side cladding and the overall design of the Nikola One. 
+In the court filing, Nikola inserted a photo of its truck alongside the Tesla Semi to illustrate the similarities between the two models.
+
+Nikola is seeking damages “in excess of $2 billion” for the alleged theft, a figure that roughly reflects the jump in Tesla’s market capitalization after it unveiled the Semi. The startup claimed that the introduction of Tesla’s similar truck caused “confusion in the market” and hurt its ability to attract investors and partners.
+A Tesla spokesman rejected the allegations. “It’s patently obvious there is no merit to this lawsuit,” a spokesman at the company told Reuters in an email.
+According to the court filing, Nikola sent a cease-and-desist letter to Tesla in early November 2017, urging the electric automaker to delay the public unveiling of its Semi truck until the infringement issues were settled. Tesla didn’t respond to the request and then went on to give a preview of its new truck at an event in Hawthorne, California on Nov. 16. (See also: Tesla Surprises With New Supercar at Semi Truck Unveiling.)
+Tesla has yet to provide much details about the Semi. Mass production is not expected to begin until 2019, with the first deliveries due sometime in 2020. Several big companies, including PepsiCo Inc. (PEP), United Parcel Service Inc. (UPS) and Walmart Inc. (WMT) have already placed pre-orders, according to MarketWatch.
+Nikola and Tesla, who are both named after the famous investor Nikola Tesla, have feuded before. In April this year, Nikola took a swipe at Tesla for taking customer’s money in advance to finance its production obligations.
+The startup offered refunds on all deposits for reservations of its trucks, adding: “We want everyone to know we have never used a dollar of deposit money to operate the company on like other companies do.” (See also: Why Tesla Is Burning Through Cash.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

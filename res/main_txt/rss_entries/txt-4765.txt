@@ -1,0 +1,143 @@
+
+
+    
+                          What is 'Absolute Return Index'
+
+      The absolute return index is a stock index designed to measure absolute returns on an investment. It is a composite index made up of five other indexes.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Absolute Return                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Hedge Fund                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Hedge Fund Manager                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Natural Hedge                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Absolute Return Index'
+      The absolute return index was created to compare the performance of an individual hedge fund against the hedge fund market as a whole. Due to the nature of hedge funds, and the various strategies they use to earn a profit, success can look different from fund to fund. Hedge funds can be invested in just about anything, which further complicates the ability to compare earning. There are also different layers of risk associated with some investment funds. While one fund may have a larger return on investment, the risk may be greater. This can be beneficial, as the profit will be much higher if the investment pays off, but investors have the potential for greater losses if it does not.
+With the hedge fund absolute return index, investors can easily discern the success or failings of a particular investment as it stacks up against the market as a whole and can do so without having to sift through the intricate details of each transaction. The absolute return index can only be used when dealing with the hedge fund market, as other markets, including mutual funds, stocks and bonds, have their own metrics to determine profits.
+Additional metrics to Absolute Return Index
+Some hedge funds will have a benchmark, or performance standard, that they are trying to achieve to be considered a success. Others will have a set rate to hit; for example, a 20 percent return over 12 months may be considered very successful for a fund that invests heavily in real estate, but not as successful for a fund that invests in a foreign currency. Other considerations including how much capital the fund has to work with and associated costs and fees that the hedge fund management company assesses. A hedge fund manager can review these different metrics and advise investors on the best markets for their investment. Depending on long term goals and available capital, hedge funds may not be the best investment for everyone.
+Due to the many intricacies of hedge funds, there are additional risks to consider, such as the need for funds to be tied up for long periods of time, large amounts of capital being placed in a particular venture with little diversification and the use of borrowed money all increase the risk, but can also increase the reward.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

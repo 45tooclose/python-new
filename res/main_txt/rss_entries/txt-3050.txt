@@ -1,0 +1,84 @@
+
+
+
+    
+        
+            
+        
+          
+                
+      
+
+    
+
+    
+        Financial advisors who are looking for professional support outside their own businesses can join one or more of several key organizations dedicated to furthering financial planning in various capacities, such as fee-based planning, general financial services, and insurance sales. Although it is not necessary to join them all, membership with each major association comes with several benefits that can help advisors grow their practices. A list of the major financial planning-related organizations includes the following groups:
+The Financial Planning Association (FPA)
+This group considers itself to be the definitive association for Certified Financial Planners (CFPs). Founded in 2000 via a merger of the Institute of Certified Financial Planners (ICFP) and the International Association for Financial Planning (IAFP), it is dedicated to furthering the CFP credential, and the financial planning profession as a whole. The FPA launched a new website for consumers that is designed to educate users on the value of financial planning, and the specific ways in which it can benefit them. The site has several interactive tools, including tutorials, articles, and other literature, podcasts, a search engine for financial planners, and much more.
+Professional members have access to a plethora of benefits and tools that can help them grow their businesses and become better advisors. In the wake of the 9/11 attacks, this group created the National Planning Support Center, where FPA members provide pro bono financial planning to victims of terrorist attacks and other types of disasters. 
+The National Association of Insurance and Financial Advisors (NAIFA)
+Founded in 1890, this organization is by far the oldest professional financial advisory association in existence today. NAIFA recently celebrated its 125th birthday, and is geared towards providing insurance professionals, benefits specialists, and financial advisors with professional and legislative support. This organization recognizes the critical role that insurance plays in financial planning, and seeks to enhance the insurance industry by promoting ethical conduct among its members, as well as helping its members enhance their skills and level of education in the business.
+The National Association of Personal Financial Advisors (NAPFA)
+Unlike the FPA or NAIFA, which both work with several different types of advisors, using various types of platforms, such as broker-dealers, independent marketing organizations, or Registered Investment Advisory firms (RIAs), NAPFA was created solely for the benefit of financial planners who charge a fee for planning services and receive no commissions of any kind.
+Professional credentials, such as the CFP or Chartered Life Underwriter (CLU), are not required for membership, but members are required to sign and hold to a strict fiduciary oath on an annual basis. There is also a code of ethics that requires full disclosure of any possible conflicts of interest to clients.
+The Society of Financial Service Professionals 
+The second-oldest financial services professional association was founded in 1928 by the first graduating class of the American College in Bryn Mawr, Pennsylvania. Today it has over 11,000 members in 150 chapters nationwide. This group is the only one that requires that all member either carry a current credential, such as the CFP, CLU, or Chartered Financial Consultant (ChFC). It also has a code of professional conduct as well as a statement of diversity. 
+The Bottom Line
+Although these four organizations are by no means the only associations available to financial services professionals, they are among the most respected and well known in the industry today. Each one of them has local chapters that meet on a regular basis and sponsor local activities. To find a chapter near you, visit each association’s website for more information. (For more, see: Why the Best Financial Advisor Might Be You, Introduction to Financial Planning Organizations.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

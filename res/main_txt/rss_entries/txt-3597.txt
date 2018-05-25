@@ -1,0 +1,73 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+         
+Alphabet Inc. (GOOG), Google's parent company, paid its employees nearly $200,000 last year, placing it in fourth place in terms of median compensation among S&P 500 Index companies that disclose pay.
+Citing Alphabet, the Wall Street Journal reported that in 2017 it had median pay packages of more than $197,000, which was 18% below Facebook Inc. (FB) where the median salary was $240,000 in 2017. Excluding the two, which are embroiled in a talent war with other technology companies, the median salary for companies in the S&P 500 was $69,205, noted the Wall Street Journal. Google's and Facebook's compensation is higher than Amazon.com's (AMZN), the e-commerce giant, which pays a median salary of $28,446. The paper noted that the majority of Amazon workers are employed in warehouses and command salaries that are in line with the pay rate at other retailers’ warehouses. (See more: Alphabet Stock Pops Then Drops Following Earnings Report.)
+The highest median pay for an S&P company last year was Incyte Corp. (INCY), the biotech firm, which paid $253,000, noted the Wall Street Journal. Behind Facebook and ahead of Alphabet was Vertex Pharmaceuticals Inc. (VRTX) which had a median salary of $211,000. In general the tech industry pays employees more, with around half the companies saying they pay a median of about $85,000. Software and services companies tend to pay more than semiconductor and hardware companies, noted the Wall Street Journal. (See more: What Did the FAANG CEOs Make Last Year?)
+At the same time that Alphabet is paying out lofty salaries its chief executive Larry Page has committed to a pay rate of just $1. Mark Zuckerberg, the CEO of Facebook also is paid $1 but had overall compensation of $8.8 million last year, with a lot of it going to travel and security. Alphabet’s former chairman Eric Schmidt had a compensation of $4.7 million in 2017, which the Wall Street Journal noted is the highest among the big executives at Alphabet. Meanwhile, Sundar Pichai, the CEO of Alphabet’s search-engine unit, Google, received $199.7 million in compensation for 2016, in addition to a salary of $650,000, and another $372,000 toward costs for personal security services and air travel, reports news.com.au. In 2017, his salary was dropped to a token of $1. Over at Amazon, Jeff Bezos, was paid a total of $1.7 million in cash compensation in 2017. It’s comprised of $81,840 as his base salary, while the remaining $1.6 million covered expenses toward his security. Bezos also owns around 78.89 million shares of Amazon as of March 2018, representing a little over 16% ownership. He was just named the richest man in the world by Forbes.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

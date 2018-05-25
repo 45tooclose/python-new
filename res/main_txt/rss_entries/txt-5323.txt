@@ -1,0 +1,220 @@
+
+
+
+    
+        
+        Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/Investing/Investing/IC-Video/Article");} else {return "/8397/INV-NA/Investing/Investing/IC-Video/Article";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/articles/economics/11/difference-between-finance-and-economics.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/M9631ksm.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/M9631ksm-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/thumbs/differencebetweenfinanceecon.png?width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "100%",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "M9631ksm-G9NhEyAa.mp4";
+                
+          
+            document.addEventListener("DOMContentLoaded", function() {
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                        var initializeJWPlayerSetup = function () {
+                            if (new VideoInit().canRun()) {
+                                setUpJwpPlayer();
+                            } else {
+                                new VideoInit().callBack = setUpJwpPlayer;
+                            }
+                        }
+            initializeJWPlayerSetup();
+          });
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "M9631ksm-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "The Difference Between Finance And Economics ",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };    
+        
+            
+      
+
+    
+
+    
+        Although they are often taught and presented as separate disciplines, economics and finance are interrelated and inform and influence each other. Investors care about these studies because they also influence the markets to a great degree. In this article, we'll explore both finance and economics, how they differ, and what they can teach investors.
+Economics
+What Is Economics?
+Economics is a social science that studies the production, consumption, and distribution of goods and services, with the aim of explaining how economies work and how their agents interact. Although labeled a "social science" and often treated as one of the liberal arts, modern economics is in fact often very quantitative and heavily math-oriented in practice. There are two main branches of economics, macroeconomics, and microeconomics. 
+Macroeconomics is a branch of economics that studies how the aggregate economy behaves. In macroeconomics, a variety of economy-wide phenomena are thoroughly examined such as inflation, national income, gross domestic product or GDP, and changes in unemployment.
+Microeconomics is the study of economic tendencies, or what's likely to happen when individuals make certain choices or when the factors of production change. Just as macroeconomics focuses on how the aggregate economy behaves, microeconomics focuses on the smaller factors that affect choices made by individuals and companies.
+Microeconomics also explains what to expect if certain conditions change. If a manufacturer raises the prices of cars, microeconomics says consumers will tend to buy fewer than before. If a major copper mine collapses in South America, the price of copper will tend to increase, because supply is restricted.
+How Is Economics Useful?
+When economists succeed in their aims to understand how consumers and producers react to changing conditions, economics can provide powerful guidance and influence to policy-making at the national level. In other words, there are real consequences to how governments approach taxation, regulation, and government spending; economics can offer insight and analysis regarding these decisions.
+Economics can also help investors understand the potential ramifications of national policy and events on business conditions. Understanding economics can give investors the tools to predict macroeconomic conditions and understand the implications of those predictions on companies, stocks, and the financial markets. 
+Who Employs Economists?
+For those who choose to pursue a career in economics, academia is an option. Academics not only spend their time attempting to teach students the principles of economics but also researching within the field and formulating new theories and explanations of how markets work and how their agents interact.
+Economists are also employed in investment banks, consultant firms, and other corporations. The role of economists can include forecasting growth such as GDP, interest rates, inflation, and overall market conditions. Economists provide analysis and projections that might assist with the sale of a company's product or be used as input for managers and other decision-makers within the company. (To learn more about important contributions by economists, see How Influential Economists Changed Our History.)
+Economics In The Markets
+Economics can be used by market participants to help understand the causes and likely outcomes of market events and the impact on various sectors, companies, and the overall business cycle.
+The applications include understanding how changes in national income, inflation, long-term economic growth, and interest rates impact the markets and ultimately stocks. An important area of focus for economists is determining how changes in monetary policy by central banks like The Federal Reserve can impact the economy, both in the U.S. and globally.   
+Macroeconomics can be applied in tracking GDP, inflation, and deficits to help investors make more-informed decisions. Microeconomics could help an investor see why Apple Inc. stock prices might fall if consumers buy fewer iPhones. Microeconomics could also explain why a higher minimum wage might force a company to hire fewer workers. 
+For a more in-depth look at economics, please see the tutorial: Economics Basics.
+Finance
+What Is Finance?
+Finance in many respects is an offshoot of economics. Finance describes the management, creation and study of money, banking, credit, investments, assets and liabilities that make up financial systems, as well as the study of those financial instruments. Finance can be divided into three categories: public finance, corporate finance, and personal finance. 
+Finance typically focuses on the study of prices, interest rates, money flows and the financial markets. Thinking more broadly, finance tends to center around topics that include the time value of money, rates of return, cost of capital, optimal financial structures and the quantification of risk.
+How Is Finance Useful?
+Finance, as in the case of corporate finance, involves managing assets, liabilities, revenues and debt for a business. Businesses obtain financing through a variety of means, ranging from equity investments to credit arrangements. A firm might take out a loan from a bank, or arrange for a line of credit. Acquiring and managing debt properly can help a company expand and ultimately become more profitable.
+Personal finance defines all financial decisions and activities of an individual or household, including budgeting, insurance, mortgage planning, savings, and retirement planning.
+Public finance includes tax systems, government expenditures, budget procedures, stabilization policy and instruments, debt issues and other government concerns. 
+Finance As A Career
+A degree in finance is a common denominator among many of those who work on Wall Street as analysts, bankers, or fund managers. Likewise, many of those employed by commercial banks, insurance companies and other financial service providers have college backgrounds in finance. Apart from the finance industry itself, a degree in finance can be a pathway to senior management of companies and corporations. To learn more about a career in finance, please read Becoming A Financial Analyst.
+In The Markets
+Finance involves assessing the value of financial instruments such as the determination of fair value for a wide range of investment products. Finance includes the use of stock-pricing models like the capital asset pricing model (CAPM) and option models like Black-Scholes. Finance also includes determining the optimal dividend or debt policy for a corporation or the proper asset allocation strategy for an investor.
+It can also be argued that finance affects the markets with a seemingly constant stream of new products. Although many derivatives and advanced financial products have been maligned in the wake of the Great Recession, many of these instruments were designed to address and solve market demands and needs. For example, derivatives can be used to hedge risk for investors, hedge funds, or large banks, thus protecting the financial system from harm in the event of a recession. 
+For a more in-depth look into finance, please read Is finance an art or a science?
+The Bottom Line
+It's important for investors to avoid "either/or" arguments regarding economics and finance; both are important, and have valid applications. In many respects, the focus of economics is on the "big picture" such as how a country, region, or market is performing. Economics also focuses on public policy, while the focus of finance is more company or industry-specific. Finance also focuses on how companies and investors evaluate risk and return. Historically, economics has been more theoretical and finance more practical, but this has changed in the last 20 years.
+It is interesting to note, though, that the two disciplines seem to be converging in some respects. Both economists and finance professionals are being employed in governments, corporations, and the financial markets. At some fundamental level, there will always be a separation, but both are likely to remain very important to the economy, investors, and the markets for years to come.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

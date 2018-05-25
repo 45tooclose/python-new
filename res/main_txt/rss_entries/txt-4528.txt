@@ -1,0 +1,145 @@
+
+
+    
+                          What are 'Family Offices'
+
+      Family offices are private wealth management advisory firms that serve ultra-high-net-worth investors. They are different from traditional wealth management shops in that they offer a total outsourced solution to managing the financial and investment side of an affluent individual or family. For example, many family offices offer budgeting, insurance, charitable giving, family-owned businesses, wealth transfer and tax services.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Immediate Family                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Income Splitting                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Friends and Family Shares                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Wealth Management                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Family Offices'
+      Family offices are typically either defined as single family offices or multi-family offices – sometimes referred to as MFOs. Single family offices serve one ultra-affluent family while multi-family offices are more closely related to traditional private wealth management practices, seeking to build their business upon serving many clients. In addition, the family office can also handle non-financial issues such as private schooling, travel arrangements and miscellaneous other household arrangements.
+The Many Disciplines of a 'Family Office'
+Providing the advice and services for ultra-wealthy families under a comprehensive wealth management plan is far beyond the capacity of any one professional advisor. It requires a well-coordinated, collaborative effort by a team of professionals from the legal, insurance, investment, estate, business and tax disciplines to provide the scale of planning, advice and resources needed. Most family offices combine asset management, cash management, risk management, financial planning, lifestyle management and other services to provide each family with the essential elements for addressing the pivotal issues it faces as it navigates the complex world of wealth management.
+Legacy Planning and Management
+After a lifetime of accumulating wealth, high-net-worth families are confronted with several obstacles when trying to maximize their legacy, including confiscatory estate taxes, complex estate laws, and complicated family or business issues. A comprehensive wealth transfer plan must take into account all facets of the family’s wealth including the transfer or management of business interests, the disposition of the estate, management of family trusts, philanthropic desires and continuity of family governance. Family education is an important aspect of a family office; this includes educating family members on financial matters and instilling the family values to minimize intergenerational conflicts. Family offices work collaboratively with a team of advisors from each of the necessary disciplines to ensure the family’s wealth transfer plan is well-coordinated and optimized for its legacy desires.
+Lifestyle Management
+Many family offices act as a personal concierge for families, handling their personal affairs and catering to their lifestyle needs. This could include conducting background checks on personal and business staff; providing personal security for home and travel; aircraft and yacht management; travel planning and fulfillment; and streamlining business affairs.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

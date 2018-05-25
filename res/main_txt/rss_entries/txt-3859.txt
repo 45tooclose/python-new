@@ -1,0 +1,145 @@
+
+
+    
+                          What is 'Commodity-Product Spread'
+
+      The commodity-product spread is the difference between the price of a raw material commodity and the price of a finished product created from that commodity.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Ask                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Spread Option                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Spread                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Crack                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Commodity-Product Spread'
+      The commodity-product spread forms the basis of a number of popular trades in the futures market. To trade on the spread, an investor typically combines a long position in raw materials with a short position in a finished product related to the raw material.
+For corporations that produce finished goods, contracts based on the commodity-product spread act as a hedge against price volatility on both ends of the manufacturing cycle. This helps to protect a firm’s profits from rising costs if raw material prices rise or if prices for finished goods fall.
+Speculative trades based upon the commodity-product spread also exist. Speculators profit when the difference between the prices in the trade becomes larger. Note that a speculative trade could also involve switching the long and short legs of the spread depending on which direction the trader expects a price differential to go.
+Common commodity-product spreads
+One common commodity-product spread is the crack spread, which occurs between the price of crude oil and the price of refined oil products such as gasoline. The crush spread is also common and occurs between the price of soybeans and soybean meal. Energy markets follow the spark spread, which uses natural gas as the raw material component and electricity as the finished product. In all cases, taking a long position in the raw material against a short position against the finished product yields a return that implies the profit margin of the entity doing the processing.
+For example, suppose an oil refiner decides to hedge its profits against changes in gas prices. The refiner takes a short position in petroleum products and a long position in oil futures. This way, any loss in the refiner’s margin from a fall in gasoline prices should be offset by a gain in the hedge position. If the price of gasoline were to rise, however, the profitable refining margin would be offset by an unprofitable trade. This type of hedging activity locks in a certain level of profit by using changes in the spread to offset changes to the refiner’s bottom line.
+A speculator looking at the oil and gas market would take a similar position if they believed crack spreads were likely to widen. Since the speculator has no actual commodities to buy or sell, the result of the trade would be pure profit or loss, depending on whether the spread widened or narrowed.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

@@ -1,0 +1,44 @@
+
+
+Michael J. Casey is chairman of CoinDesk's advisory board and a senior advisor of blockchain research at MIT's Digital Currency Initiative.
+The following article originally appeared in CoinDesk Weekly, a custom-curated newsletter delivered every Sunday exclusively to our subscribers.
+
+
+Cryptocurrency advocates are constantly trying to convince non-experts of the advantages of permissionless blockchains, typically by explaining how a decentralized system of consensus-based record-keeping produces an immutable, censorship-resistant ledger. 
+
+But this doesn't exactly square with reality.
+There's a strong argument that first bitcoin, and now other permissionless cryptocurrencies, have become less decentralized over time, even as their value has grown.
+The culprits, many believe, are application-specific integrated circuits - the expensive, super-fast hashing chips known as ASICs, the engines driving the rigs in giant mining farms. They have so affected the market structure of blockchain networks that they are now the source of much division within their communities, stirring debates over potential forks in the code and exposing the need for blockchains to resolve one of their other core challenges: governance.
+The reason many crypto purists have a problem with ASICs is that individuals like you and I, using comparatively sluggish PCs or even more powerful graphics cards, can't compete with the ruthless efficiency with which the ASIC mining farms carry out the proof-of-work consensus test and win bitcoin rewards. If the little guy can't participate, they argue, the result is re-centralization.
+What's more, there's a dependency on a dominant chip manufacturer, Bitmain, creating a kind of vulnerable, trusted third-party relationship.
+Not everyone sees ASICs as a negative. There's a security argument, for example, that all that expensive, efficient hashing power makes for a more formidable expenditure barrier for a potential "51-percent attacker" to overcome.
+But the sense that ASICs are a danger to the decentralized dream of cryptocurrencies is widespread, which is why creators of different altcoins have made various engineering efforts to stave off the perceived threat.
+Short-lived fixes
+They've designed "ASIC-resistant" proof-of-work algorithms, altering them to require extra memory-based computing tasks beyond the basic hashing function. The idea is that this more complicated, multi-faceted workload depletes the singular advantage of ASICs - which are really just very fast one-trick ponies - and renders it worthless for chipmakers to expend capital developing them.
+But in many cases, this is now looking like a temporary fix, as chipmakers seem to be increasingly designing ASICs that can carry out all the tasks assigned by these "memory-hard" algorithms.
+These developments are sowing divisions within blockchain communities. Miners working with pre-ASIC devices - mostly graphic processing units, or GPUs - are supporting hard fork measures that would make new ASICs worthless again. But anyone who has invested in the new products is opposed to these anti-ASIC measures. Developers seem split between those who hold an ideological aversion to ASICs and others who support an expansion in network hashing power and efficiency.
+This brings us to governance.
+It would seem the ideal time for a particular cryptocurrency community to set up its plans for dealing with ASICs - which almost certainly means planning for a hard fork - occurs well before even the prospect of one of the fast chips being created for their particular coin.
+In bitcoin's case, it's far too late to do anything with the Core code. Even though one part of the community is so obsessed with decentralization that they fought a block-size increase on those grounds, there are such entrenched stakes in ASIC mining that it would be impossible to launch an ASIC-resistant code upgrade.
+But even with less-established communities, such as zcash and ethereum, the mere prospect of forthcoming ASICs is prompting divided views, as Rachel Rose O'Leary's reporting in CoinDesk shows.
+Vertcoin's model
+What may be needed is something along the lines of what vertcoin has achieved.
+Not content to simply build a proof-of-work algorithm that includes tasks  favoring GPUs over ASICs, the vertcoin community has also informally agreed upon a kind of pact to fork the code if and when a vertcoin ASIC appears.
+So far, the system has worked, perhaps because the mere threat of action by the vertcoin miners is enough to scare off would-be ASIC developers. That threat is backed by the fact that vertcoin has already smoothly forked twice to address issues separate from the ASIC threat.
+What I like about the vertcoin solution is that it recognizes effective governance is not just technical. It's not something you just embed in lines of code. You need that human component.
+Until now, this has kept the vertcoin mining community more or less solely using GPUs, which as lead developer James Lovejoy explained during a debate about ASICs at MIT with sia lead developer David Vorick, is a great equalizer.
+This is due to the fact that GPUs are relatively inexpensive and have uses beyond monolithic cryptocurrency mining. Whether to run a gaming solution or to mine a different coin, GPUs have a life after crypto, and that mitigates the cost of capital expenditure for all.
+But Vorick countered that this solution is far from perfect. Eventually, he argued, the economics of GPU mining could become so profitable that it would attract a dominant player, reintroducing third-party risks.
+Social compact
+What's needed is what Lovejoy terms "generalized commodity hardware," a greater degree of availability for a form of GPU mining equipment anyone can use.
+But how does one achieve that goal if the tendency is toward monopoly powers and dependence on a single company, whether it's a GPU producer like Nvidia or an ASIC maker like Bitmain?
+This, too, is where human governance matters.
+At the extreme end would be government intervention, such as anti-trust regulations. But that kind of defeats the purpose of cryptocurrencies. A better approach would be for communities to develop self-organized models of internal regulation and market structuring.
+Drawing again from the vertcoin example, miners and users could, say, agree to steer funds into mining equipment built on open-source standards or committed to commodity-like status.
+Whatever the solution to achieving decentralized mining, it appears to lie in combining on-chain software rules with another set of rules based in off-chain agreements.
+In other words, combining the protocol layer with the human layer.
+Bitcoin mining farm image via Shutterstock.
+var riuyojisrlntqyiu,riuyojisrlntqyiu_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){riuyojisrlntqyiu_poll(function(){if(window['om_loaded']){if(!riuyojisrlntqyiu){riuyojisrlntqyiu=new OptinMonsterApp();return riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="//a.optnmnstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;riuyojisrlntqyiu=new OptinMonsterApp();riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");
+
+The leader in blockchain news, CoinDesk is a media outlet that strives for the highest journalistic standards and abides by a strict set of editorial policies. CoinDesk is an independent operating subsidiary of Digital Currency Group, which invests in cryptocurrencies and blockchain startups.
+

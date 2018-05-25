@@ -1,0 +1,209 @@
+
+
+
+VeChain Technical Analysis: (VEN/BTC) Enters Critical Area; Could Be Make Or Break For VEN
+Nothing in this article is to be construed as investment advice. Neither the author nor the publication takes any responsibility or liability for any investments, profits or losses you may incur as a result of this information.
+
+
+ by  Ollie
+Leech,
+12 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  
+VEN has taken a temporary dip against BTC today as the #1 cryptocurrency starts to eye down $10,000, but still continues its upward trajectory.
+After bullishly rebounding off the 0.5 Fibonacci level last week, VeChain has now found the momentum it needed to begin recovering the damaging losses it endured over Q1.
+In the 4hr chart below we can see that VEN has climbed back into a key channel area between the 0.236 and 0.382 fib level, where the price action lingered before it broke bearish toward the end of February.
+VeChain’s performance within this channel over May will be vital in determining whether we will see VEN enter into the top 10 this year, or we see it lose investor confidence and tumble down the market cap leaderboard.
+
+As you can see by the white trend lines over VeChain’s recent bullish activity, VEN is rising sharply against the upper trending resistance; where it looks likely to test the 0.236 fib level shortly, if support continues in this fashion.
+Candles are holding well above the 10, 50 and 200 EMAs which tells us buying momentum is still strong behind VEN at this moment in time. Keep an eye out for any signs of the price action diverging toward the 50 (blue) line, which will be a strong indication of a downtrending reversal. For earlier warnings, a 20 EMA line could also be used but be aware of bear traps/ false reversals!
+Once we do see a retracement to the 0.236 level we will get an early cup and handle pattern beginning to show, that we seem to witness a lot over many alt-coin charts lately in light of the overall improving market sentiment (look at EOS/BTC as the most recent example).
+
+It’s worth noting that these patterns do not always play out as expected so be sure to do your due diligence on this particular pattern before entering the orderbook!   We should expect the first wave of bearish opposition to test the uptrend at around 62,000 Sats before it begins to correct. Depending on the market at this time we could see support shake off the bears early and break cleanly above this line, or see some extended oscillation between this resistance and the lower channel support at 60,700 Sats before VEN attempts to break out.
+VeChain (VEN) Price Targets
+A rebound off the lower support could create the cup handle that many investors might regard as a bullish indication, forcing a buying frenzy that could create big gains for the asset. With most of the market support for this particular asset comes from Asian investors, it’s well within reason to expect an extravagant surge for VEN once the ball starts rolling.
+A top price target for this opening surge would likely be around 70,000 Sats, 37.96% gain from the rebounding support area, before expecting resistance.   Alternatively we could see confidence completely depart from VeChain as investors anticipate a bearish continuation once it returns to the lower support - with the price likely to plummet back down to the 0.5 fib level at 41,670 Sats if it does happen. This would result in a -17.88% drop in the token’s price before the possibility of a correction. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

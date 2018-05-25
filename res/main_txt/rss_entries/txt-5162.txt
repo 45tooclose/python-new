@@ -1,0 +1,145 @@
+
+
+    
+                          What is 'Contraction Risk'
+
+      Contraction risk is a risk faced by the holder of fixed income securities. This risk happens when borrowers increase the rate at which they pay back the maturity value of the fixed income security. 
+Contraction risk is a component of prepayment risk that typically increases as interest rates decline. This inverse reaction is because a decline in rates may create an incentive for a borrower with a fixed-rate loan to prepay all or part of the outstanding balance. 
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Yield Maintenance                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Prepayment Risk                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Rule of 78                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Fixed Interest Rate                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Contraction Risk'
+      Contraction risk happens when borrowers pre-pay thereby reducing the duration of their note. The calculation of future return on a debt security, such as mortgage-backed securities, has a basis of the interest rate and length remaining on the underlying loans. When borrowers pre-pay a loan, they shorten the duration and thus reduce future interest payments.
+Prepayment risk is the risk involved with the premature return of principal on a fixed-income security. When the principal is returned early, future interest payments will not be paid on that part of the principal, meaning investors in associated fixed-income securities will not receive interest paid on the principal. 
+How Contraction Risk Effects Loans
+In a fixed-rate loan, contraction risk typically comes into play in declining interest rate environments. When interest rates are dropping, borrowers may want to refinance at the new, lower rates. In variable-rate loans, contraction risk happens when rates are rising as well as falling. This reaction is due to borrowers desire to pre-pay as much of their note as possible before interest rates go up.
+For example, consider a financial institution that offers a mortgage at an interest rate of 5 percent. That financial institution expects to earn interest on that investment for the 30-year life of the mortgage. However, if the interest rate declines to 3 percent, the borrower may refinance the loan, or accelerate payments. This prepayment reduces the number of years that they will pay interest to the investor. The borrower benefits by doing so because they will ultimately pay less in interest over the lifespan of the loan. The mortgage owner, however, ends up with a lower rate of return than initially expected. 
+Contraction risk, which typically takes place when interest rates decline, is the counterpart to extension risk, which usually takes place when interest rates increase. Whereas contraction risk happens when borrowers pre-pay a loan, shortening its duration, extension risk occurs when they do the opposite—they defer loan payments, increasing the length of the loan.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

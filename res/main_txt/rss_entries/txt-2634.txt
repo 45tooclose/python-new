@@ -1,0 +1,77 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        As America's largest global tech corporations fight more fiercely against one another in both enterprise and consumer markets, search giant Alphabet Inc.'s (GOOGL) Google is hoping a new revamp to its Gmail offering will help the service compete with Microsoft Corp.'s (MSFT) Outlook. (See also: FANG Stocks Shed Over $85B in Value on Tuesday.)
+On Wednesday, the Mountain View, California-based tech behemoth unveiled an expensive overhaul to the world's most popular email service. The update was reportedly two years in the making, according to Reuters, and equips Gmail with new security features and better offline functionality. 
+The software update is the most costly ever for Google's G Suite workplace tools as it seeks to steal market share away from Microsoft's market-leading Office workplace software bundle. Analysts peg G Suite's 2017 revenue at about $2 billion, about 10 times less than what Office generated last year, as reported by Reuters.
+Global Rollout for 1.4 Billion Users
+A substantial visual redesign for Gmail on the web comes alongside various new tools such as email snoozing, nudging and "confidential mode." Before the recent update, G Suite had added instant messaging and spreadsheet features. Gmail's newest update begins its global phased rollout today, with its 1.4 billion monthly users first receiving an invite to opt in. 
+In an interview with The Verge, Gmail's lead product manager, Jacob Bank, indicated that the overhaul is intended to make people "safer and more productive," a remark seemingly geared toward business-oriented consumers. For example, confidentiality mode allows senders to set expiration dates for emails or revoke them entirely, while integrated rights management (IRM) allows senders to block the forwarding, copying, downloading or printing of chosen messages.
+'Nudging' Replies to Forgotten Emails
+A shift to Google's own Tensor processing chips has also enabled smart-assistant features such as "suggested replies" to messages and "nudges" to respond to certain forgotten emails, reported Reuters. 
+The news comes as shares of Alphabet fell sharply on the company's most recent earnings report. While top and bottom line numbers exceeded consensus estimates, analysts were disappointing with a threefold increase in capital expenditures to $7.3 billion, alongside thinning margins and mounting fears of heightened regulation on its data-driven advertising business. Trading up about 0.3% on Wednesday afternoon at $1,026.27, GOOGL reflects a 2.5% decline year-to-date (YTD) and a 15.6% increase over 12 months, compared to the S&P 500's 1.7% slump and 10% incline over the same respective periods. MSFT stock is up nearly 8% YTD and 36% over the year. (See also: Alphabet: Profits and Expenses Surge in Q1.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

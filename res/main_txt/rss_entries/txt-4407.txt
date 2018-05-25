@@ -1,0 +1,82 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        The declining ethereum, which has been under pressure due to recent news of possible heightened scrutiny by regulators, got a new jolt today as the famous short seller Andrew Left took a short call on ether, the network’s native cryptocurrency. (See also: Ethereum Price Drops on News of SEC Scrutiny.)
+In an exclusive interview with CoinDesk, Left, the activist short seller behind Citron Research, mentioned that he considers both bitcoin and ether as “bubbles.” He further added that if had to choose one, he’d rather bet on ether's price to decline further.
+Bearish on Bitcoin
+While Left acknowledged “the appeal of a decentralized asset” based on the advantages offered by bitcoin, he remains uncertain about it being a winner. However, he is clear about ethereum and refutes the claims that its business model—which supports launching applications as well as crypto assets on the ethereum platform—will allow it to benefit in the long run.
+Justifying his call, Left drew parallel between the app-hosting model of ethereum and site- or content-hosted model of Oracle Corp (ORCL). Since Oracle does not own or necessarily benefit from the success of businesses that are hosted on its servers, Left believes that successful apps running on ethereum platform may not necessarily mean high profitability for the network and its cryptocurrency.
+CoinDesk mentions Left's views on ether: Bulls use a "circular argument"—that is, "it'll go up because it'll go up."
+Short Seller With a Long Record
+Left, who is popular for taking aggressively negative stances against companies based on his research criteria, has regularly made successful short calls on stocks. He has been shorting stocks full-time since 2001 and claims to have made big profits year after year.
+Based on their negative stance about a company, a short seller sells the company shares at a high price, and buys them back at a lower price at a later date, making profits through the difference in sell and buy prices.
+His successful calls on Valeant Pharmaceuticals International Inc. (VRX), a Canadian company marred with an accounting scandal, made him famous. In April last year, he went after Wayfair Inc. (W), the U.S.-based e-commerce company selling home goods. It was followed by his predictions of declines in the share price of NVIDIA Corp. (NVDA). (See also: Citron Research: Wayfair Is Like a Ponzi Scheme and Trader Who Called Valeant Short Predicts NVIDIA Decline.)
+In December, he came out with an interesting strategy to make high profits from the gap that existed between the prices of Bitcoin Investment Trust (GBTC), a publicly traded vehicle linked to the leading cryptocurrency, and of the then newly launched bitcoin futures contracts. (See also: Short Seller Andrew Left Feasts Off Bitcoin Fund's Fall.)
+Ethereum was trading at a price of $677 Wednesday morning, up around 4% over the previous 24-hour period. (See also: What Is Ether? Is It the Same as Ethereum?)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

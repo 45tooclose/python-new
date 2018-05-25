@@ -1,0 +1,143 @@
+
+
+    
+                          What is 'Dividend Arbitrage'
+
+      Dividend arbitrage is an options trading strategy that involves purchasing put options and an equivalent amount of underlying stock before the ex-dividend date and then exercising the put after collecting the dividend. When used on a security with low volatility (causing lower options premiums) and a high dividend, dividend arbitrage can create profits while assuming very low to no risk.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Dividend                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Unpaid Dividend                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Dividend Rate                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Capital Dividend                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Dividend Arbitrage'
+      Generally speaking, arbitrage exploits the price differences of identical or similar financial instruments on different markets for profit. It exists as a result of market inefficiencies and would not exist if the markets were all perfectly efficient.
+Dividend arbitrage is intended to create a risk-free profit by hedging the downside of a dividend-paying stock while waiting for upcoming dividends to be issued. If the stock drops in price by the time the dividend gets paid, the puts that were purchased provide protection.
+The ex-dividend date determines who receives the dividend that is about to be paid out. Following the ex-date, the price of shares should decline by the amount of the dividend being issued. Therefore, buying a stock for its dividend income alone will not provide the same results as when combined with the purchasing of puts.  
+Example of Dividend Arbitrage
+To illustrate how dividend arbitrage works, imagine that stock XYZABC is currently trading at $50 per share and is paying a $2 dividend in one week's time. A put option with expiry three weeks from now and a strike price of $60 is selling for $11. A trader wishing to structure a dividend arbitrage can purchase one contract for $1,100 and 100 shares for $5,000, for a total cost of $6,100. In one week's time, the trader will collect the $200 in dividends and the put option to sell the stock for $6,000. The total earned from the dividend and stock sale is $6,200, for a profit of $100 before fees and taxes.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

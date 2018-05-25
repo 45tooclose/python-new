@@ -1,0 +1,145 @@
+
+
+    
+                          DEFINITION of 'Sell-off'
+
+      A sell-off is the rapid and sustained selling of securities at high volumes that causes a sharp drop in the value of the traded securities. Sell-offs most commonly occur with liquid assets such as stocks, bonds, currencies and commodities. Unexpected adverse news can spark a sell-off, as can a market rumor, and the sell-off will continue until the selling action becomes exhausted or when the market believes that the value of the asset has readjusted to fair value. In the case of a market rumor, if proven false, the sell-off typically reverses course, sometimes in a matter of minutes.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Sell-Off                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Debt Security                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Commodity Index                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Corporate Bond                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Sell-off'
+      A sell-off of a security can occur at any moment as long as the market for trading the security is open. In the case of currencies and commodities that are traded around the clock, a U.S.-based trader may wake up in the morning and find out that there was a sell-off in the Japanese Yen or Brent crude oil. Stock trading is bound by market hours, although in certain markets, pre-market and post-market trading takes place. If negative news relevant to a particular company or asset class hits the market, a sell-off of securities may ensue.
+Consider the following situations that may cause a sell-off:
+After market close, a company gives sharply lower earnings guidance for the current fiscal year. In after-hours trading, there is a steep sell-off of the shares of the company.
+During market trading hours, a news report quickly spreads that customers of a restaurant fall ill to E. coli from consuming its food. The stock of the restaurant chain sells off, as the market now believes that earnings of the company will be severely impacted.
+A higher-than-expected inflation report is released in Germany, which triggers a sell-off in German bunds.
+China surprises the global market by providing a gross domestic product (GDP) growth rate forecast that is well below expectations. A major sell-off in many basic commodities takes place.
+A rumor during market hours that a company is about to announce a highly dilutive acquisition prompts a sell-off. However, the company releases a statement that no such talks with the alleged target have taken place, and the stock quickly makes a u-turn and heads back up.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

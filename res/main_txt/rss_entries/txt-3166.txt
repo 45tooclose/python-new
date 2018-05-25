@@ -1,0 +1,180 @@
+
+
+    
+                          DEFINITION of 'International Beta'
+
+      International beta (often known as "global beta") is a measure of the systematic risk or volatility of a stock or portfolio in relation to a global market, rather than a domestic market. The concept of international beta is especially relevant in the case of large multinational companies with worldwide operations whose stocks are more closely correlated with a global equity index than with the benchmark equity index in their country of domicile.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Beta                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Smart Beta                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Unlevered Beta                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Portable Alpha                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'International Beta'
+      Investors can use the basic capital asset pricing model (CAPM) to determine the expected return on an asset based on its domestic beta and expected domestic market return. Similarly, the global CAPM can be used to calculate expected returns on an asset based on its global beta and expected return from a global index, such as the Morgan Stanley World Index.
+The term "international beta" in the context of finance or portfolio theory should not be confused with international beta testing, which refers to the testing of software products in international markets.
+International Beta and Global CAPM
+As noted above the global capital asset pricing model (CAPM) can help investors calculate expected returns on an asset, based on its international beta. The global CAPM extends the concept of the traditional capital asset pricing model (CAPM) by incorporating foreign exchange risks (generally with a foreign currency risk premium).
+The global CAPM expands upon the traditional CAPM equation:
+
+In the international CAPM, in addition to getting compensated for the time value of money and the premium for deciding to take on market risk, investors are also rewarded for direct and indirect exposure to foreign currency. The ICAPM allows investors to account for the sensitivity to changes in foreign currency when investors hold an asset.
+International Beta and the Morgan Stanley World Index
+The Morgan Stanley Capital International All Country World Index Ex-U.S. (MSCI ACWI Ex-U.S.) can help investors who benchmark their U.S. and international stocks separately. The MSCI ACWE Ex-U.S. index provides a way to monitor international exposure apart from U.S. investments.
+The top holdings of the MSCI ACWI Ex-U.S. as of March 30, 2018 were as follows:
+
+Tencent Holdings
+
+
+Nestle
+
+
+Samsung Electronics Co.
+
+
+Alibaba
+
+
+Taiwan Semiconductor
+
+
+HSBC Holdings
+
+
+Novartis
+
+
+Toyota Motor Corp.
+
+
+Roche Holdings
+
+
+Royal Dutch Shell
+
+
+Total
+
+These holdings span China, South Korea, Great Britain, Japan, and Taiwan. Country weights include: Japan (16.78%), United Kingdom (11.79%), China (7.6%), France (7.45%), Germany (6.64%) and Other (49.69%).
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

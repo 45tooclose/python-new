@@ -1,0 +1,104 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Gold exchange-traded funds (ETFs) are one of the simplest ways to trade gold. There are gold ETFs with lots of liquidity, and, unlike futures, the ETFs don't expire. Gold ETFs also offer diversity: trade the price of gold, or trade an ETF related to gold producers. Gold, like other assets, moves in long-term trends. Those trends attract large numbers of traders at certain junctures, providing the most favorable day-trading conditions. Here's how to take advantage of this.
+ETFs vs. Trusts
+While the SPDR Gold Trust (GLD) and iShares Gold Trust (IAU) are often called ETFs, they are actually trusts. The trusts own physical gold. An ETF, on the other hand, is a fund that will typically invest in products that track gold's price, such as gold futures. ETFs and trusts are both acceptable for day-trading purposes.
+The aforementioned are the most liquid and actively traded gold trusts, with more than 5 million and 2 million shares, respectively – on average – exchanging hands daily. The iShares Gold Trust is about one-tenth the price of the SPDR Gold Trust, and it will therefore have smaller intraday movement in absolute dollar terms, but the lower price means larger quantities can be traded. The price and volume of the SPDR Gold Trust make it more favorable for day trading.
+Popular gold-miner ETFs – funds that buy gold-miner stocks and reflect their performance – are the Market Vectors Gold Miners ETF (GDX) and Market Vectors Junior Gold Miners Fund (GDXJ).
+When to Day-Trade Gold Trusts and ETFs
+​Volatility is a day-trader's friend. Frequent price movement, coupled with liquidity, creates greater potential for profits (and losses) in a short time.
+Focus on gold ETFs and trusts when the day-to-day price is fluctuating at least 2%. Apply a 14-day Average True Range (ATR) indicator to a gold daily chart, then divide the current ATR value by the ETF's or trust's current price, and multiply the result by 100. If the number isn't above 2, then the market is not ideal for day-trading gold ETFs or trusts.
+The Gold Miner and Junior Gold Miner ETFs are typically more volatile than the gold trusts. When the price of gold is steady, the gold miners may offer slightly more day-trading opportunities due to their greater volatility.
+Figure 1. Market Vectors Gold Miners ETF with ATR (14-day) Daily Chart
+
+Source: FreeStockCharts.com
+During the downtrend at left in Figure 1, the day-to-day movement is typically more than 2% (ATR reading divided by price). As the price moves into a more sideways period toward the end of 2013, the daily movement drops below 2% as the ATR continually declines. There will likely be fewer intraday opportunities in this environment, and with less profit potential, than when the ETF is more volatile.
+Day-Trading Gold Miner ETFs and Gold Trusts
+When the SPDR Gold Trust is moving more than 2% a day, focus on it. If the trust is moving less than 2%, trade one of the gold-miner ETFs. These are the recommended conditions for day trading, although the gold trusts and ETFs can be traded using the following method even during non-volatile (less than 2% daily movement) times.
+Trades are only taken in the trend's direction. For an uptrend, the price must have recently made a swing high, and you are looking to enter on a pullback. At some point during the pullback, the price must pause for at least two or three price bars (one- or two-minute chart). A pause is small consolidation where the price stops making progress to the downside and moves more laterally.
+Once the pause has occurred, buy when the price breaks above the pause's high, as we are going to assume the price will continue to trend higher. The pause must have a higher low than the former swing low. If it doesn't, it's a warning that the uptrend may be in danger, and no trade is taken.
+After the entry, place a stop loss just below the pullback low.
+Figure 2. Day Trade in SPDR Gold Trust
+
+Source: FreeStockCharts.com
+The tactic is the same for a downtrend; the price must have recently made a swing low, and you are looking to enter on a pullback (in this case, the pullback will be to the upside). At some point during the pullback, the price must pause for at least two or three price bars (one- or two-minute chart). Once the pause has occurred, short-sell when the price breaks below the pause's low, as we are going to assume the price will continue to trend lower. The pause must have a lower high than the former swing high. If it doesn't, it's a warning that the downtrend may be in danger, and no trade is taken.
+After the entry, place a stop loss just below the pullback low.
+Targets and Pitfalls
+The strategy attempts to capture trending moves in gold-related ETFs and trusts. This should ideally be done when there is adequate market volatility. Otherwise, the trends are more likely to run out of steam and not reach our profit target.
+The profit target is based on a multiple of our risk. When daily volatility is near 2%, aim for a profit target two times your risk. When volatility approaches 4% and there is a strong trend intraday and on the daily chart, aim for a profit target that is three or possibly even four times your risk.
+In figure 2, a long trade is taken at $122.33 and a stop is placed at $122.25, resulting in a risk of 8 cents per share. A target is therefore placed 16 cents (2 x 8 cents) above the entry price, giving a target of $122.49. During more volatile conditions, the target could be extended to 24 or 32 cents above the entry price (three- and four-times risk, respectively).
+The strategy is not without pitfalls. One of the main issues is that the pause within the pullback can be quite large, which in turn will make the stop and risk quite large. There may also be multiple pauses within a pullback; choosing which one to trade can be rather subjective. If there is no pause – just a sharp pullback and sharp move back in the trending direction – the strategy will leave you without a trade.
+The profit target is fixed at a multiple of risk in order to compensate traders for taking that risk. The price may show signs of a reversal, though, before the target is reached. 
+An optional step is to move the stop to just below new lows as they form during an uptrend, or move the stop down to just above new highs as they form during a downtrend. The stop is moving with the trend – acting as a trailing stop – and serves to lock in some of the gain or reduce the loss if the trend reverses.
+The Bottom Line
+Gold isn't always popular, so when the price of gold is barely moving, day traders should leave gold ETFs and trusts alone. When volatility increases, though, day trading is warranted. Focus on trading with the trend. Wait for a pullback and a pause in price. The pause is what provides the trigger to enter the trade. When the price breaks out of the pause/consolidation back in the trending direction, take the trade. Place a stop just outside the pause in price. Your target should compensate you for the risk you are taking; therefore, set a target of two times your risk – or potentially more in volatile conditions.
+(See also Investopedia's tutorial, "Top ETFs And What They Track," and our article, "The Gold Showdown: ETFs Vs. Futures.")
+Disclosure: At the time of writing, Cory Mitchell did not own any of the securities mentioned in this article.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

@@ -1,0 +1,110 @@
+
+
+
+    
+        
+            
+        
+          
+                
+      
+
+    
+
+    
+        The last five years before you retire may be some of the most critical years in terms of retirement planning, because you must determine within that period whether you can truly afford to quit work. The determination will hinge heavily on the amount of preparation you have done to date, and the results of such preparation. If you are financially prepared, then you may just need to maintain your program and continue on to your retirement goal. If you are not financially prepared, then you may be looking at more than five years of a modification to your planned retirement lifestyle.
+Let's take a look at an action plan you can use to determine your level of readiness as you start the five-year stretch.
+Assessing Your Readiness
+Incomplete retirement-needs analysis is the primary reason why many people who are approaching retirement are not financially ready for post-work life. Retirement-needs analysis frequently takes the simple approach of including current income, current income tax rate and projected income tax rate during retirement – and assumes that an average of 70%-80% of an individual's pre-retirement income will be sufficient. With five years to go, you cannot afford to make that mistake.
+To get a realistic determination of how much you will need for your retirement, your retirement-needs analysis must take a holistic approach. This means your analysis must take into consideration all aspects of your finances, including items that could affect your cash flow and/or expenditures.
+How long will you be in retirement? 
+With half a decade left until your planned retirement date, the key objective is to determine if you can in fact retire by then, based on your needs assessment. To make this determination, you must first determine how long you plan to, well, live. Unless you are clairvoyant, there is no way to be sure of this period. However, you can make a reasonable estimate based on your general level of health and family history. For instance, if your family members typically live until they reach the age of 80 and you are in good health, then you may want to assume that you will live until that age and factor that into your analysis.
+Do you need to insure your assets against illnesses?
+Besides life expectancy, you should also take your family's health history into consideration. Historically speaking, has your family been prone to long-term illnesses? If so, insuring your retirement assets should be high on your list of items that are included in your analysis. For instance, you may want to purchase long-term care (LTC) insurance to pay for any illness- or disability-related expenses you may incur. Lack of adequate insurance to cover expenses incurred as a result of a long-term illness could mean having to use your retirement savings to pay for such expenses, which could wipe out your nest egg in no time.
+What will your expenses be during retirement?
+Determining your projected expenses during retirement can be one of the easier parts of your needs analysis task. This is as simple as making a list of the items/events that will cost you money and determining how much they will cost. One good way to do this is to use your current budget as the starting point, and eliminate/lower the expenses that will no longer apply (such as the gasoline you use to commute to and from work) and add/increase the items that will be new expenses during retirement (such as higher home utility bills or cargivers).
+Establish Your Predetermined Income
+Figure out the income you will receive that is already guaranteed. This includes pension income from your current and former employers, if any, and your Social Security income. You can get an estimate of your Social Security benefits by using the calculators at the Social Security Administration website.
+Your possible sources of income should also take any property, real or intellectual, that you plan to liquidate to help finance your retirement into consideration. This should include real estate, royalties and rental properties.
+So, now that you have established your (projected) expenses, approximate time spent in retirement and amount of income that you will receive outside of your retirement savings, the next step is to determine the additional amount you will need to finance your retirement and whether your retirement savings will be sufficient to cover that amount. Let's take a look at an example:
+Let's assume the following:
+— You plan to retire in five years.
+— Your annual retirement expenses will be 75% of your pre-retirement income.
+— You plan to spend 20 years in retirement.
+— Your current annual income is $250,000 and you will receive an estimated salary increase of 5% per year.
+— Your estimated income from Social Security is $24,528 per year.
+— Your current retirement savings balance is $1.5 million, which you project will accrue interest at a rate of 8% per year.
+The results will be as follows:
+ 
+
+Calculator at http://www.choosetosave.org/
+This is only an estimate. Your particular facts and circumstances will likely produce different results. For instance, do you have more or less saved? Will you get more or less from Social Security? Will your income from other sources be higher or lower? Is your projected time in retirement longer or shorter? The key is that there is no one-size-fits-all solution for a retirement needs analysis. Furthermore, every aspect of your retirement needs income and expenditures – including those that must be projected – must be taken into consideration. Finally, don't forget to include the projected amount of income taxes you will be paying on the income you receive during retirement.
+Are You On Track?
+If the result of your retirement needs analysis shows that you are on track, the recommendation from your retirement advisor will likely be to stay on a path of maintenance. This means adding any recommended amounts – more if possible – to your nest egg and frequently rebalancing your portfolio so that it is suitable for your retirement horizon.
+If the results of your needs analysis show that you are not financially prepared to retire in five years, the next step is to determine the following:
+— Can you retire in five years if you make changes to your planned lifestyle resulting in a reduction in expenses?
+— If you can afford to add larger amounts to your nest egg each year, will that be sufficient to make up for the financial deficiency?
+— What if you decide to work on a part-time basis – will that make up for any financial deficiencies?
+— Will you have to change your projected retirement date to 10, 15, 20 years later?
+To determine options that are realistic, talk to your retirement advisor and come to an agreement as to what can work and what you find acceptable. In some cases, it may mean compromising.
+The Bottom Line
+For many, retirement is a highly anticipated life stage. However, it should only begin once the individual is financially prepared. The psychological effect of going into retirement mode, only to have to go back to work a few years after starting to enjoy retirement can be devastating for some people. As such, careful planning must be done to determine the point at which one can retire and have sufficient financial resources. This planning must include a holistic retirement needs analysis, which looks at all aspects of retirement finances.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

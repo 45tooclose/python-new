@@ -1,0 +1,145 @@
+
+
+    
+                          WHAT IS 'e-CBOT'
+
+      The e-CBOT is an electronic trading platform for trading futures and options contracts on the Chicago Board of Trade (CBOT). Contracts include those for metals and agricultural and financial products, among them flour, corn, rice, hay, soybeans, wheat, silver, gold and ethanol. Financial derivatives such as emission allowances, interest rate swaps and futures, and Dow Jones index futures and options on futures are available for trade as well.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Chicago Board of Trade - CBOT                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Platinum                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Open Outcry                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Globex                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'e-CBOT'
+      The more modern e-CBOT has largely replaced the original way to match buyers and sellers, the open outcry method. Most daily contracts are now traded via this automated system, where traders buy and sell contracts by bidding or offering a price and a quantity of contracts. 
+The e-CBOT facilitates the futures market, giving its participants, known as hedgers, a way to manage risk. The hedgers buy or sell contracts to protect against unfavorable price changes in corn or wheat, for example. 
+Speculators participate in the market as well. The difference with speculators is that they simply bet on which way they think prices are going to go. They have no interest in physically holding any of the commodities they are trading. However, their participation is particularly important because they bring liquidity to the market.
+Open outcry gives way to e-CBOT 
+For most of the CBOT’s history, which dates to April 3, 1948, trading took place via open outcry in one of the CBOT’s octagonal trading pits. In an open outcry setting, the traders in the pit announce the number of contracts they want to buy or sell and the price they want to pay or receive. They use their fingers to denote the quantity of contracts. If a trader’s palm faces out, it is an attempt to sell contracts. It is a buy signal when the trader’s palm faces in. 
+For example, a trader who wants to buy 10 contracts at a price of eight would yell eight for 10, stating price before quantity. The trader would turn a palm inward toward their face and put an index finger to the forehead to indicate 10; if the trader wanted to buy one, the trader would put an index finger to the chin. If the trader wanted to sell five contracts at a price of eight, the trader would yell five at eight, noting quantity before price. In this scenario, the trader would show a palm facing outward and five fingers.
+Trade via open outcry is from 7:20 a.m. to 3:15 p.m. Monday through Friday, which is limited compared to the e-CBOT’s 22-hour trading day.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

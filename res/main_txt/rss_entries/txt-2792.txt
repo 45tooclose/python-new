@@ -1,0 +1,140 @@
+
+
+    
+                          DEFINITION of 'Basis Value'
+
+      The basis value is the price of a fixed asset for taxation purposes. Basis value is an asset's base price upon which depreciation and amortization are calculated. It also forms the base price for a fixed asset to which capitalized expenses are added.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Written-Down Value                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Fully Depreciated Asset                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Book Value                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Replacement Cost                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Basis Value'
+      Basis value is especially important when it comes to disposal of an asset — as capital gains and any resulting taxes are driven by the basis value. For a given sale price, the higher the basis value and consequently depreciated book value, the lower will be the taxable capital gain.
+While the accounting departments of large companies closely track the basis values of their fixed assets, small companies that do not have full-time accountants may need to ensure that the basis value of their assets is accurate, and maintain all records in this connection.
+Improperly recording expenses, or failing to record them properly, may lead to inaccuracies and over-payment of tax. For example, a fixed asset for which capitalized expenses worth $50,000 have not been recorded, may have a book value (after depreciation) of $100,000 after five years. If it is subsequently sold for $130,000, the taxable gain is $30,000. On the other hand, if the capitalized expenses had been properly recorded, its book value would be significantly higher than $100,000 after five years, and the taxable gain, if it were sold for $130,000 would be much less than $30,000.
+The fair market value of an asset shouldn't be confused with basis value. The fair market value of a business or asset is the estimation of the price that would be paid to the owner upon a sale. The formula for determining a fair market value includes business worth and assets in the current financial markets. Determining fair market value is tricky, simply because the only way to prove true value is to sell the business and assets.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

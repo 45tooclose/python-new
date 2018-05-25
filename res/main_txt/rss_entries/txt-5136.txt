@@ -1,0 +1,77 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        In its quest to dominate China’s online retail sector and compete in other industries, Alibaba Group (BABA) may be spending toward lower margins and away from its “asset light” strategy.
+Alibaba has been snapping up companies that are generating losses as it tries to maintain a competitive edge against Tencent Holdings (TCEHY), which has been aggressively moving into online retail and payments.
+Alibaba’s investments have included areas like cloud computing and expansion oversea as well as brick-and-mortar retailers, logistics companies and microchip firms. Most recently, it said it will invest $2 billion in Lazada Group, a Southeast Asian e-commerce company. (See also: Alibaba To Invest In Ride Hailing Startup Grab.)
+Better-Than-Expected Results
+“During the past year we also doubled down on technology development, cloud computing, logistics, digital entertainment and local services so that we are in a position to capture consumption growth in China and other emerging markets,” said Alibaba CEO Daniel Zhang in a statement.
+The internet giant’s fourth-quarter results showed its operating margin slipped to 15%, down from 25% the same quarter in 2017. (See also: Alibaba Stock May Rebound 14% Over Short Term.)
+Alibaba also reported quarterly revenue grew 61% to $9.73 billion, topping Wall Street expectations for a 53% increase. Its core commerce business grew 62% year over year while its cloud computing business grew 103%. But as margins declined, its net income attributable to shareholders dropped 29% year-over-year. Alibaba shares are up 63% the past year and up 9.7% so far this year.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

@@ -1,0 +1,84 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        High value mergers among global or domestic business corporations have always attracted attention and spawned case studies, as they have interesting implications for business development. A well executed merger allows for higher returns for investors in the form of higher shareholder value, reduced operational costs for corporations, and increased revenue and sales. Through M&A, companies look for more diversification in their offerings, augmented production capacity, increased market share, and better utilization of operations.
+Investopedia looks at the largest mergers in the global history. Many of these include cross-border, high-value transactions, and some have had varying levels of success.
+America Online and Time Warner
+The largest merger in history took place in 2000, when America Online (AOL) merged with Time Warner Inc. (TWX) in a deal worth a staggering $165 billion. At the time, AOL was the largest internet provider in the U.S.. Riding high on its success and the massive market share that it had across the American households, AOL decided to merge with Time Warner, the mass media and entertainment conglomerate. The vision was that the new entity, AOL Time Warner, would become a dominant force in the news, publishing, music, entertainment, cable and Internet industries. After the merger, AOL became the largest technology company in America. However, the joint phase lasted less than a decade. As AOL lost value and the dot com bubble burst, the expected successes of the merger failed to materialize and AOL and Time Warner spun off to operate as independent companies.
+Dow Chemical and DuPont
+Announced in 2015 and completed in 2017, the $130 billion mega-merger of equals was executed to create highly focused businesses in agriculture, material science and specialty products. The merger was expected to deliver around $3 billion in cost synergies, and another $1 billion in expected upside from growth synergies from the merged entities. The combined company is operating as a holding company under the name DowDuPont Inc. (DWDP) and is listed on NYSE. Dow shareholders received a fixed exchange ratio of 1.00 share of DowDuPont for each Dow share they had, while DuPont shareholders received a fixed exchange ratio of 1.282 shares of DowDuPont for each DuPont share.
+Anheuser-Busch InBev and SABMiller
+The merger deal between the world’s two largest brewers, Anheuser-Busch InBev and SABMiller, was worth $104.3 billion and was executed in 2016. London-listed SABMiller agreed to merge with Belgium-based Anheuser-Busch InBev, and the deal combined SABMiller’s Castle Lager with InBev’s Budweiser, Stella Artois and Corona brands with an aim to take them into fast-growing African and Latin American markets.
+H J Heinz and Kraft Foods
+The $100 billion merger of H J Heinz Co. and The Kraft Foods Group was aimed to create a U.S. food giant, and the fifth largest food and drink company in the world. The deal was announced in the year 2015 and created a new merged entity with the name The Kraft Heinz Company. It brought leading household food brands - like Philadelphia, Capri Sun and Heinz Tomato Ketchup and HP sauce - under one roof. The revenues of the newly merged entity at the time were pegged at around $28 billion.
+Exxon and Mobil
+In November 1999, oil powerhouses Exxon Corp. and Mobil Corp. secured approval from the Federal Trade Commission to complete their $81 billion merger. Exxon was then the industry leader, while Mobil was number two in the field. The merger required extensive restructuring for the joint entity, which included a sell-off of more than 2,400 stations of the two companies spread across the United States. The deal was cited as one of the most successful in M&A history, and the joint entity continues to trade under the name Exxon Mobil Corp. (XOM) on NYSE.
+The Bottom Line
+While high value mergers and acquisitions always make headlines, not all of them result in success. Most get executed during the growth phase of a particular sector with high anticipation of success, but failures linked to other factors, like cultural integration, geographical and geopolitical issues, and market dynamics, often mar the expected success. (See also, Biggest Merger and Acquisition Disasters.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

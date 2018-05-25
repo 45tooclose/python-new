@@ -1,0 +1,85 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        The battle for market share of the U.S. mobile services area has been heating up in recent years. After many mergers and acquisitions (M&As), the main competitors can be narrowed down to a select few companies - AT&T, Inc. (NYSE: T), Verizon Communications, Inc. (NYSE: VZ), T-Mobile US (TMUS), Inc. and Sprint Corporation (NYSE: S). As these companies battle it out for market share, the next frontier is decidedly 5G. Sprint announced that it is looking to develop 5G technologies in association with its investor SoftBank and Qualcomm, just on the heels of a similar announcement by T-Mobile. Verizon and AT&T too, are working on their own 5G roll outs. (See also: Armed With New Spectrum, T-Mobile Dials Into 5G Network)
+With deep pockets of SoftBank backing it, besides investing in technology Sprint has also been aggressively pushing out new promotions and strategies to entice subscribers in an effort to come out on top of its competitors. That seems to be working for now, as SoftBank saw a big jump in its profits reported partially due to the rise in subscribers for Sprint.
+In January 2018, Sprint announced that noted turnaround strategist and former Altice CEO Michel Combes would join the telecom company as the new Chief Financial Officer. Combes has a history of saving failing companies from extinction, and it's hoped that he'll do the same for Sprint. 
+Sprint had a rather large public failing in November of 2017 when they failed to acquire T-Mobile. Both companies were hoping for a successful deal to gain traction against their much bigger rivals, AT&T and Verizon. On April 27, 2018, Reuters reported that T-mobile and Sprint will complete merger talks as early as next week. 
+Its Raining Deals
+Between April and May of 2017 alone, Sprint has flooded the market with a number of deals. Its latest offering was a plug-and-play small cell 'magic box' that allows LTE coverage over small areas. The company also gave more bang to its unlimited offer by unveiling a new Unlimited Freedom Plan that offers free talk, text and data for $40 for two lines. The launch of the new Samsung Galaxy S8 saw Sprint advertise a Two-for-One deal.
+With the release of the iPhone 7 in September last year, Sprint joined the other wireless providers offering eye-catching deals on the new phone by trading an older iPhone 6, iPhone 6Plus and even a Samsung Galaxy S7 edge. Although Verizon, AT&T et al offer something similar, there are ways that Sprint is trying to differentiate itself from other carriers with another option: leasing an iPhone. Customers are able to get plans with Sprint without paying for the phones and then they are able to exchange the phones for upgrades at the end of their contracts.
+Initiatives such as this are not just gimmicks to get a company some recognition. Sprint stated that it had seen some of its greatest sales ever after launching the new $1 iPhone deal it had in 2015 with the iPhone 6 series. It was the highest sales volume the company ever had during a holiday season. Sprint’s CEO Marcelo Claure announced this through his Twitter account at the time. This is a major accomplishment and proof that Sprint is able to match the sales of other carriers. Also, the fact that Sprint only started carrying the iPhone with the release of the iPhone 4S should not be overlooked.
+Long-Term Goals and Initiatives
+Sprint has a long-term goal that has been helping it gain market share. An example was when it bought a large number of Radio Shack stores and turned them into Sprint stores. The fundamentals of having quality retail stores are a major staple of Sprint’s long-term goals.
+
+The company also came out with a new initiative in early 2016 through Boost Mobile, a Sprint subsidiary, that offers a new option for owners of Sprint phones. Owners have the option of letting advertisements display each time they unlock their phones, which lowers the cost of their monthly bills. The plan is optional, as many users scoff at the idea of targeted advertising and may feel that this is too intrusive as an advertising method.
+In January 2017,  with an eye on expanding its subscriber base, Sprint made a move in the music streaming business by acquiring nearly a third of Jay Z's streaming business Tidal Music. Sprint has used Tidal in some interesting ways, like giving Sprint subscribers a complimentary 6 free months of the service. (See also: Sprint Acquires 33% in Jay Z’s Tidal Music Service)
+Sprint also began a popular ad campaign with Paul Marcarelli, also known as the "Can You Hear Me Now Guy." Marcarelli was formerly one of the main actors from Verizon's old ad campaigns, and his jump to Sprint helped to illustrate Sprints claims that they were "within 1% of Verizon's reliability."
+Sprint Claims Fastest Network
+Last year, Sprint announced that its LTE Plus network is faster than its old LTE network and also boldly claimed it’s the fastest of all networks, regardless of carrier. The claim comes from data it garnered from Nielsen Mobile Performance results. Nielsen pulls its speed information from mobile downloads and cites over 270 million people across the U.S. From the data, Sprint calculates that it is 5% faster than T-Mobile, 10% faster than Verizon and 24% faster than AT&T.
+Clearly Sprint not only plans to keep up with its competitors but to outpace them in other areas while coming up with new plans and ideas to grow its market share.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

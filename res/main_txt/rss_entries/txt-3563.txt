@@ -1,0 +1,78 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Warren Buffett, one of the world’s most influential investors, remains unconvinced about the merits of trading bitcoin and other cryptocurrencies.
+In an interview with Yahoo Finance ahead of Berkshire Hathaway Inc.’s (BRK.A) annual shareholder meeting, Buffett claimed that buying the leading digital currency, bitcoin, should not be considered a proper investment. “There’s two kinds of items that people buy and think they’re investing. One really is investing and the other isn’t,” he said in reference to bitcoin. (See also: Think Like Warren Buffett)
+The Oracle of Omaha, who previously admitted to knowing very little about cryptocurrencies, added during the interview that bitcoin is a speculative game and the equivalent of a “gamble” because no one knows exactly what it is. Unlike more mainstream investments, he said that digital coins don’t really produce anything and instead rely on “the next guy” paying more to generate returns.
+“If you buy something like a farm, an apartment house, or an interest in a business… You can do that on a private basis… And it’s a perfectly satisfactory investment,” said Buffett. “You look at the investment itself to deliver the return to you. Now, if you buy something like bitcoin or some cryptocurrency, you don’t really have anything that has produced anything. You’re just hoping the next guy pays more.”
+He added: “You aren’t investing when you do that. You’re speculating. There’s nothing wrong with it. If you wanna gamble somebody else will come along and pay more money tomorrow, that’s one kind of game. That is not investing.”
+Buffett a Long-term Bitcoin Skeptic
+This isn’t the first time that Buffett has criticized cryptocurrency investments. Several years ago, when digital coins began soaring in popularity, he described them as a “mirage.” The Oracle of Omaha said at the time that it was a “joke” to assign a value to something just because it can be used to transmit money and even compared them to checks.
+Buffett then spoke negatively about cryptocurrencies again in January. In an interview with CNBC, the popular investor was asked for his thoughts on JPMorgan Chase & Co (JPM) CEO Jamie Dimon’s admission that he was wrong to call bitcoin a fraud the prior year.
+Buffett responded that he was certain that every cryptocurrency would fall over the next five years. “In terms of cryptocurrencies, generally, I can almost say with certainty that they will come to a bad ending,” he said during the interview. (See also: Buffett: Cryptocurrency Will Come to a Bad End.)
+However, despite predicting their downfall, Buffett also refused to bet against the virtual currency market. “Why in the world should I take a long or short position of something I don’t know anything about?” he added. (See also: Bitcoin Crosses $9,000 Again: A Good Sign?)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

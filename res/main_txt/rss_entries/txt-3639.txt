@@ -1,0 +1,139 @@
+
+
+    
+                          DEFINITION of 'Put Ratio Backspread'
+
+      A put ratio backspread is an options trading strategy that combines short puts and long puts to create a position whose profit and loss potential depends on the ratio of these puts. A put ratio backspread is so called because it seeks to profit from the volatility of the underlying stock, and combines short and long puts in a certain ratio at the discretion of the options investor. It is constructed to have unlimited potential profit with limited loss, or limited potential profit with the prospect of unlimited loss, depending on how it is structured. The ratio of long to short puts is typically 2:1, 3:2 or 3:1.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Call Ratio Backspread                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Short Put                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Bull Put Spread                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Put On A Call                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Put Ratio Backspread'
+      A put ratio backspread combines short puts and long puts and seeks to profit from the volatility of the underlying stock. For example, a stock trading at $29.50 may have one-month puts trading as follows: $30 puts trading at $1.16 and $29 puts trading at 62 cents. A trader who is bearish on the underlying stock and wishes to structure a put ratio backspread that would profit from a decline in the stock, could buy two $29 put contracts for a total cost of $124 and sell short a $30 put contract to receive the $116 premium. (Remember that each option contract represents 100 shares.) The net cost of this 2:1 put ratio backspread, without taking commissions into account, is, therefore, $8.
+If the stock declines to $28 at expiration, the trade breaks even (leaving aside the marginal $8 cost of putting on the trade.) If the stock falls to $27 at option expiry, the gross gain is $100; at $26, the gross gain is $200 and so on.
+If, on the other hand, the stock appreciates to $30 by option expiry, the maximum loss is restricted to the cost of the trade or $8. The loss is restricted to $8 regardless of how high the stock trades by option expiry.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

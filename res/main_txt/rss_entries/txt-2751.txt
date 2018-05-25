@@ -1,0 +1,87 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        There are many different strategies that can be used to generate retirement income. But the big two are the systematic withdrawal approach and the bucket approach. According to a 2011 study, 75% of financial advisors frequently or always use a systematic withdrawal strategy and 38% frequently or always use a time-based segmentation approach, aka bucket strategy. (The numbers add up to more than 100% because some advisors use both approaches.)
+In this article we will look at the differences between these two strategies and examine the advantages or disadvantages of both.
+Comparing Strategies
+Bucket or segmentation strategies divide assets into different “buckets,” depending on the time remaining until withdrawal and the client’s risk appetite. For example, the first bucket may contain cash and cash equivalents needed over the next five years, while the last bucket may contain riskier equities that won’t have to be sold for a decade or more. These buckets can be rebalanced at any time to reflect changes in income requirements or risk tolerance. (For more, see: Will a Systematic Withdrawal Plan Work for You?)
+By contrast, the basic tenet of the systematic withdrawal approach is that you invest across a broad spectrum of asset classes and withdraw a proportionate amount each month. In other words, it treats all of a client’s assets alike, subtracting the required income from the total.The fully diversified portfolio is regularly rebalanced to account for these regular withdrawals over time. There’s only a single asset allocation target to maintain and there are predictable 4% to 5% annual withdrawals. (For more, see: Why the 4% Retirement Rule Is No Longer Safe.)
+Psychological Differences
+Financial advisors prefer to use the systematic withdrawal strategy since it’s an easier strategy to maintain and more predictable over the long run. Unfortunately, some clients have a hard time with these types of strategies when the market experiences a sharp downturn or correction. They may see the aggregate value of their retirement account trend lower and become worried, which could lead to risk-aversion and poor decision-making. (For more, see: Correction-wary? Consider These Dividend Stocks.)
+Bucket strategies are an excellent way to alleviate these concerns. Since short-term investments are held in cash or other liquid securities, the same market downturn may only affect long-term “buckets” that clients may be less concerned about, given the long time horizon until they need the distributions. These psychological benefits can in turn save significant sums of money by preventing panic-fueled decisions.
+These tendencies stem from so-called mental accounting local fallacies and cognitive biases that are common in finance. For example, people tend to spend more on a credit card than they would with cash; the expenditure doesn't feel as real, somehow. Similarly, clients may have the exact same amount of money in the same investments, but segregating the account into different labels can encourage them to take on different levels of risk. (For more, see: Behavioral Finance: Mental Accounting.)
+Allocation Similarities
+The bucket and systematic withdrawal strategies may seem like very different approaches on the surface, but they may be extremely similar when looking at portfolio allocations and performance (independent of client actions). According to a Principal Financial Group, Inc. (PFG) analysis, clients may feel more secure with a bucket strategy, but it may not provide financial benefits beyond the systematic withdrawal strategy, which is less complicated to manage.
+A bucket strategy often produces substantially similar asset allocations as the systematic withdrawal strategy, although different bucket portfolio allocation strategies can be used in different cases. For instance, a client may have 60% of his assets in cash and short-term bonds in the first couple buckets, and 40% of their assets in riskier equities and high-yield bonds in their second few buckets. All this is very similar to a 60/40 income/growth systematic allocation.
+In either case, the key for financial advisors is ensuring that the asset allocation is ideally suited for the individual client. Those willing to take on more risk will be more heavily weighted in equities, while those less willing to assume risk may be more heavily weighted in bonds, annuities or cash equivalents. Obviously, the client’s time horizon also plays an important role in establishing these same parameters — whether in bucket or in a portfolio.
+Implementation Challenges
+The bucket strategy has been very successful in terms of the psychological benefits to clients, but there are some challenges with implementation. In general, there is a lack of standardized tools to calculate allocations across buckets. There are a few frameworks that are used throughout the industry to help guide their creation, but there are no gold standards that everyone has come to expect to make things simpler. (For more, see: .)
+Portfolio reporting software may also have trouble with a bucket strategy, since these programs typically report on investments in aggregate or by account. While setting up separate accounts for each bucket may work in some cases, the costs of doing so may be too high and some mixtures of retirement and taxable accounts could create headaches for advisors. Rebalancing can also pose a challenge without the right tools in place to ensure proper allocations.
+The Bottom Line
+The bucket strategy and systematic withdrawal strategy are similar in theory, since asset allocations tend to be very similar between both options. That said, there’s a very real difference between the two strategies in practice, thanks to the effects of local fallacies and investors' cognitive biases. A bucket strategy often makes clients more comfortable with market declines and appropriate risk-taking than traditional systematic strategies do. For financial advisors, the key decision to make is whether the added costs and complexities associated with the bucket strategy are worth the psychological benefits to clients. This can depend on a number of factors, such as the client’s historical risk aversion and the advisor’s own comfort with maintaining these types of portfolios. In the end, both strategies have their own benefits and drawbacks that must be considered before implementation.
+For related reading see: Strategies for Withdrawing Retirement Income and Managing Retirement Account Withdrawals
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

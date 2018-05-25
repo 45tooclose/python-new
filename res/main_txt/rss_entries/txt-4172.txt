@@ -1,0 +1,80 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Founded by three Stanford University students, Snap Inc.'s (SNAP) SnapChat, has become one of the most popular social media platforms in the world, with 187 million active users as of the company's 2017 annual report. SnapChat took social media by storm with photos deleting after a few of seconds sending them to a friend. But in its war against Facebook and Twitter, the company is looking to reinvent itself. (See also: Will Snap's Bold Moves Against Facebook Be Enough?)
+But that reinvention didn't really go as planned as a redesign for the app has been widely criticized putting pressure on the company's stock. Snap went public on March 2, 2017, with an initial offering of $17 per share, however, all has not been well since. The company found it tough to increase its user base rapidly as well generate advertising revenue. Going against a stiff competition from the likes of Facebook, the company reported losses and investors have begun to give up, reflecting a sharp drop in its share price.
+Its 2017 earnings report saw a reversal in a trend of dismal reports where it reported $824.9 million revenue for the year against $404 million the year before. Net loss for the year, however, widened to nearly $3.4 billion, with almost 75% or $2.4 billion of that coming from stock-based compensation expense.
+Here's a look into the main people affected by Snap. Inc's recent troubles, the top three individual shareholders. 
+Robert ("Bobby") Murphy 
+One of the youngest billionaires on the planet (with a net worth of $3.2B), the 29 year old Bobby Murphy conceived of his photo-sharing app with Kappa Sigma fraternity mate Evan Spiegel. Murphy and Spiegel turned that idea into a global phenomenon, and Murphy has served as the Chief Technology Officer since the inception of the company. As of last SEC filing dated December 31, 2017, Murphy is the top shareholder in Snap stock, holding 87,977,075 shares of class A common stock. Murphy also owns 107,943,924 class C shares and 5,862,410 class B shares through a trust. 
+Evan Spiegel
+The public face of Snap, Evan Spiegel has gained a reputation as a disruptor in the tech industry, most well-known for turning down Mark Zuckerberg's offer to buy Snapchat for $3 billion. At 27 years old, Spiegel shares many similarities with frenemy Zuckerberg: A former college friend who wants credit or the company, a becoming a billionaire (with a net worth of $3.3B) in his early 20s, and a "move fast and break things" approach to product iteration. Spiegel is the second largest individual shareholder in Snap, with 83.3 million shares to his name as of a March 2018 filing. 
+Imran Khan
+Joining Snap in early 2015, the 39-year old Imran Khan is the resident grown up in the Snap house. Khan made headlines a few years before his move to Snap when he organized Alibaba Corp's (BABA) IPO in 2014, and he had a plan to bring the same strategy to Snap's public outing. He has served as the Chief Strategy Officer for Snap since joining the company, and has amassed a large pool of Snap stock for himself, making him the third largest shareholder with 9.5 million shares. 
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

@@ -1,0 +1,78 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        HSBC Holdings Plc. (HSBC) said it will not issue more share buybacks this year as it pursues “growth opportunities,” which was a surprise to some analysts who had expected $4 billion in share buybacks.
+Europe’s largest bank by assets returned $2 billion to shares holders so far this year with share repurchases, but it said that buyback would be the only one this year. HSBC did not detail its specific plans to for its capital but CEO John Flint said he would outline his strategic plan in the next few months, likely focusing on Asia. (See also: HSBC to Hire 1000 in China.)
+“The reality is Asia is where the economic growth is: rates, demographic, GDP,” Flint told Bloomberg. “The wealth creation is happening in Asia. So is it a concern? I don’t think so.”
+HSBC’s Rising Costs
+London-based HSBC, with about $2.7 trillion in assets, reported first-quarter costs that rose faster than revenue. Operating expenses increased 13% to $9.4 billion while revenue rose to $13.7 billion from $13.0 billion a year prior. On an adjusted basis, costs increased 8%, versus a 2% increase in revenue. HSBC reported a 4% decline in before-tax profit.
+HSBC also said it has reserved $897 million related to its role in selling toxic U.S. mortgage bonds amid ongoing discussion with the U.S. Department of Justice. Flint said the provision was necessary as those talks had progressed last quarter. (See also: HSBC CEO Faces Prolonged Tax Probe.)
+In Asia, where HSBC is investing about $100 billion, HSBC’s pretax profit increased 8%. In North America, profit fell 16% and in Europe, it declined 72%.
+HSBC shares were down about 3.8% premarket Friday. In the past year, the stock is up 19.8%.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

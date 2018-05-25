@@ -1,0 +1,206 @@
+
+
+
+    
+        
+        Loading the player...
+                  
+                    
+                      
+                      
+                    
+                      
+                      
+                        
+                  
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu="+(function() {if (typeof updateAup === 'function' && sem_pageview !== 'undefined' && sem_pageview == true) {return updateAup("/8397/INV-NA/ActiveTrading/ActiveTrading/IC-Video/Article");} else {return "/8397/INV-NA/ActiveTrading/ActiveTrading/IC-Video/Article";}})()+"&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&hl=en&description_url=http%3A%2F%2Fwww.investopedia.com/articles/optioninvestor/10/sell-puts-benefit-any-market.asp?utm_campaign=rss_headlines&utm_source=rss_www&utm_medium=referral";
+                var JWP_setup_obj = {
+                    playlist: [
+                {
+                sources: [
+                    {
+                        file:"https://content.jwplatform.com/manifests/8BL7nj9r.m3u8",
+                    },
+                    {
+                        file:"https://content.jwplatform.com/videos/8BL7nj9r-G9NhEyAa.mp4",
+                    }
+                ],
+                title:'',
+                image:"https://i.investopedia.com/content/video/how_to_sell_put_opti/howtosellputoptionstobenefit.png?width=680&height=680"
+                }
+                ],
+                //primary:"flash",
+                ga: {},
+                  mute: true,
+                width: "100%",
+                aspectratio: "16:9",
+                sharing: {},
+                listbar: false
+            };
+                    var isAutoPlay = "true";
+                    isAutoPlay = (isAutoPlay === 'true');
+                    var ns_st_ci = "8BL7nj9r-G9NhEyAa.mp4";
+                
+          
+            document.addEventListener("DOMContentLoaded", function() {
+                    var videoApplication0;
+                    var setUpJwpPlayer = function() {
+                        if (JWP_setup_obj.playlist.length == 1 && false == false) {
+                            if ("playlist" in videoPlaylistJson) {
+                            videoPlaylistJson.playlist.unshift(JWP_setup_obj.playlist[0]);
+                                JWP_setup_obj.playlist = videoPlaylistJson.playlist;
+                            }
+                        }
+                        
+                        var player_id = "JWPVideo";
+                        jwplayer.key = jwplayer_key;
+                        window.jwplayer_loaded = true;
+                        window.video_player;
+                        window.video_player = jwplayer(player_id).setup(JWP_setup_obj);
+                        jwplayer().setVolume(0);
+
+                        jwplayer().on('ready', function() {
+                            googletag.cmd.push(function() {
+                                adTagUrl += idc.genVideoTargetingParam();
+                                videoApplication0 = new VideoApplication(0, isAutoPlay, idc_device, adTagUrl);
+                            });
+                            trackJwpEvents(player_id);
+                            $(document).trigger( "jwplayer-initial-setup", window.video_player);
+                        });
+                    }
+                    
+                        var initializeJWPlayerSetup = function () {
+                            if (new VideoInit().canRun()) {
+                                setUpJwpPlayer();
+                            } else {
+                                new VideoInit().callBack = setUpJwpPlayer;
+                            }
+                        }
+            initializeJWPlayerSetup();
+          });
+              function trackJwpEvents(player_id) {
+                var jInst = jwplayer(player_id);
+                dataLayer.push({ 'event': 'jwplayerInitialized' });
+                window._cbv = window._cbv || [];
+                window._cbv.push(jInst);
+                  var sT = false;
+                var metadata_c = {
+                    c3: "www.investopedia.com",
+                    c4: "*null",
+                    c6: "*null",
+                    ns_st_ci: "8BL7nj9r-G9NhEyAa.mp4",
+                    ns_st_cl: "0",
+                    ns_st_st: _pageTaxonomy.Advertising,
+                    ns_st_pu: "Investopedia",
+                    ns_st_pr: "How To Sell Put Options To Benefit In Any Market ",
+                    ns_st_ep: "*null",
+                    ns_st_sn: "*null",
+                    ns_st_en: "*null",
+                    ns_st_ge: "Business/Finance"
+                };
+                jInst.on('play', function(event) {
+                    metadata_c.ns_st_cl = Math.round(this.getDuration())*1000;
+                    myStreamingTag.playVideoContentPart(metadata_c);
+                });
+                jInst.on('pause', function(event) {
+                    myStreamingTag.stop();
+                });
+                jInst.on('complete', function(event) {
+                    myStreamingTag.stop();
+                });
+              };    
+        
+            
+      
+
+    
+
+    
+        The sale of put options allows market players to gain bullish exposure, with the added benefit of potentially owning the underlying security at a future date, at a price below the current market price. A quick primer on options may be helpful in understanding how selling puts can benefit your investment strategy so let's examine a typical trading scenario as well as potential risks and rewards. 
+Call Options vs. Put Options
+An equity option is a derivative instrument that acquires its value from the underlying security. Buying a call option gives the holder the right to own the security at a predetermined price, known as the option exercise price. Conversely, a put option gives the owner the right to sell the underlying security at the option exercise price. Thus, buying a call option is a bullish bet - the owner makes money when the security goes up - while a put option is a bearish bet - the owner makes money when the security goes down.
+Selling a call or put option flips over this directional logic. More importantly, the holder takes on an obligation to the counter-party when selling an option because it carries a commitment to honor the position if the buyer of the option decides to exercise his or her right to own the security outright. 
+Here's a summary breakdown of buying vs. selling options.
+Buying a Call - You have the right to buy a security at a predetermined price.
+Selling a Call - You have an obligation to deliver the security at a predetermined price to the option buyer.
+Buying a Put - You have the right to sell a security at a predetermined price.
+Selling a Put - You have an obligation to buy the security at a predetermined price to the option buyer.
+Characteristics of Prudent Put Selling
+Sell puts only if you're comfortable owning the underlying security at the predetermined price because you're assuming an obligation to buy if the counter-party chooses to sell. In addition, only enter trades where the net price paid for the underlying security is attractive. This is the most important consideration in selling puts profitably in any market environment. (There are other reasons to sell puts, especially when executing more complex options strategies. Learn more in Iron Condors Fly On Fragile Wings and Advanced Option Trading: The Modified Butterfly Spread.)
+Other benefits of put selling can be exploited once this important pricing rule is satisfied. The ability to generate portfolio income sits at the top of this list because the seller keeps the entire premium if the sold put expires without exercise by the counter-party. Another key benefit: the opportunity to own the underlying security at a price below the current market price.
+Put Selling In Practice
+Let's look at an example of prudent put selling. Shares in Company A are dazzling investors with increasing profits from its revolutionary products. The stock is currently trading at $270 and the price-to-earnings ratio is under 20, a reasonable valuation for this company's fast growth track. If you're bullish their prospects, you can buy 100 shares for $27,000 plus commissions and fees. As an alternative, you could sell one Jan $250 put option expiring two years from now for just $30. That means the option will expire on the third Friday of January two years from now and has an exercise price of $250. One options contract covers 100 shares, allowing you to collect $3,000 in option premium over time, less commission. 
+By selling this option, you're agreeing to buy 100 shares of Company A for $250 no later than January two years from now. Clearly, since Company A shares are trading for $270 today, the put buyer isn't going to ask you to buy the shares for $250. So, you'll collect the premium while you wait. (Learn more about put option strategies in Bear Put Spreads: A Roaring Alternative To Short Selling.)
+If the stock drops to $250 in January two years from now, you'll be required to buy the 100 shares at that price, but you'll keep the premium of $30 per share so your net cost will be $220 per share. If shares never fall to $250, the option will expire worthless and you'll keep the entire $3,000 premium.
+Summing up, as an alternative to buying 100 shares for $27,000, you can sell the put and lower your net cost to $220 a share (or $22,000 if the price falls to $250 per share). If the option expires worthless, you get to keep the $30 per share premium, which represents a 12% return on a $250 buy price.
+You can see why it's prudent to sell puts on securities you'd love to own. If Company A declines, you'll be required to cough up $25,000 to buy the shares at $250 (having kept the $3,000 premium, your net cost will be $22,000). Keep in mind your broker can force you to sell other holdings to buy this position.If you don't have available cash in your account.
+[ Deciding the best time to sell a put requires both patience and an understanding of the long term risks and rewards. Learn how to "wait for the slow pitch" from veteran options trader Luke Downey in Investopedia Academy's Options for Beginners course. 
+The Bottom Line
+The sale of put options can be a prudent method to generate additional portfolio income while gaining exposure to securities you would like to own, but want to limit your initial capital investment. 
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

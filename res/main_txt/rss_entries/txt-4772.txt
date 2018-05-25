@@ -1,0 +1,78 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Shares of Square Inc. (SQ) sank as much as 7% Wednesday in after-hours trading on guidance for the June quarter that fell short of the Street's forecasts. Trading down about 0.9% on Thursday at $48.23, SQ has gained 39% year-to-date (YTD) and a whopping 163.5% over the recent 12 months, sharply outperforming the S&P 500's 2% loss and 9.8% return over the same respective periods. (See also: Square's Stock Is Facing Steeper Declines.)
+Citron Research’s Andrew Left, a well-known short seller, took to his Twitter Inc. (TWTR) account this week, suggesting that Wall Street is “drunk on Bitcoin nonsense" and favoring Jack Dorsey's payments processing company for "no reason." The Street has applauded the addition of simple bitcoin transactions into Square's Cash App, while Twitter and Square CEO Dorsey has promised to add more bitcoin-related functionality into its merchant services and payments processing platform in the future. 
+Left put a short-term $30 price target on Square, implying a 38% downside from Thursday morning. The Citron investor argued that the Silicon Valley fintech company's crypto business works to move investor focus away from a “long-term trajectory of contracting” margins and stiff competition in Square's core payments processing business. In reality, tweeted Left, Square "started as an innovative payment company" but is now "a collection of yawn businesses," adding that even with hypergrowth, the stock is still trading at least 40% above its fair value. 
+Bemoaning 'Bitcoin Hype'
+The card payments processor announced its bitcoin play when the price of the digital coin was coming off all-time highs near $20,000 in mid-December. On Wednesday, Square said it netted revenue of $200,00 from its new cash-to-bitcoin business in the first quarter. Bitcoin has been trading above $9,000 this week, making a comeback from lows earlier this year in which it plunged below $6,000. 
+In a research note, Left wrote, "SQ got caught in bitcoin hype and poor retail investors are being fooled because it has nothing to do with bitcoin. They don't even have a license for people to buy [bitcoin] in [New York] and it's less than 1% of the company's revenue. Retail investors should understand this." He accused the company of hiding "a bunch of low multiple, subscale business in its 'software and services' revenue," which he says has caused the stock's EV/sales multiple to re-rate from 10 times to 14 times in 2018, alongside the rest of SaaS companies. "But SQ isn't an SaaS business!" warned the SQ bear. 
+Left, who was among the first skeptics of Valeant Pharmaceuticals International Inc. (VRX), is bullish on Chinese internet giant Alibaba Group (BABA), which he dubbed the "anti-Square" in an interview with CNBC's "Fast Money." He applauded the tech giant's compelling growth story and its position as "the tollbooth to the Chinese middle class."
+In late January, the prominent short seller made the case for going long on shares of Jack Dorsey's other company, Twitter. In an interview with CNBC, Left highlighted Twitter's "dominant" position in the social media space as underestimated by investors. (See also: Prominent Short-Seller Bullish on Twitter.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

@@ -1,0 +1,142 @@
+
+
+    
+                          What is a 'Modified Pass-Through Certificate'
+
+      A modified pass-through certificate is a type of fixed-income security that passes through an undivided interest in a pool of underlying assets or loans. Federal agencies issue modified pass-through certificates and back them with federal loans of identical maturity and coupon date. This copying guarantees timely payment of interest to holders, mitigating default risk.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Pass-Through Certificate                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Pass-Through Security                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Gnomes                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Share Certificate                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Modified Pass-Through Certificate'
+      Modified pass-through certificates offer investors income through a pool of underlying securities, typically mortgages. The agencies that hold the loans guarantee interest payments to investors and make those payments regularly, whether the agency receives interest payments via the underlying note or not. The agencies pass principal payments along to investors as they come in, or by a specified date, whichever is sooner.
+Under this arrangement, the agency issuing the modified pass-through certificate takes on the risk of defaults in the underlying portfolio, since it guarantees payment of scheduled interest and principal to investors. Investors in modified pass-through certificates do retain prepayment risk, however, since early payments of principal get passed along as received. Prepayments reduce the amount of principal outstanding, so they also reduce the amount of scheduled interest in future periods.
+For example, suppose an investor purchases a modified pass-through certificate from the Government National Mortgage Association (GNMA), known as Ginnie Mae, consisting of a pool of mortgages. If several homeowners default on their loans and fail to make interest payments in a given period, the investor still receives scheduled payments of mortgage and principal from Ginnie Mae. On the other hand, if several homeowners pay off part or all of their mortgages, the investor will receive more in principal payments than scheduled for the month, but will also see a decrease in the value of planned interest payments for subsequent months.
+Modified Pass-Through Certificates Verses Other Pass-Through Products
+The differences between types of pass-through certificates revolve around the balance of risk taken on by the issuer and the investor. The two main risks involved in mortgage-backed securities are default risk, where homeowners fail to make payments, and prepayment risk, where homeowners pay back their principal more quickly than anticipated, reducing interest income on the overall loan. 
+A pass-through certificate backed by a government agency, such as a Ginnie Mae pass-through, already offers investors some reduction in default risk because the government guarantees the loans underlying the securities. Modified pass-through certificates protect investors entirely against default risk, but do not protect against prepayment risk. To mitigate prepayment risk in the underlying loan portfolio agencies also offer investors fully modified pass-through certificates, which guarantee timely payments of both interest and principal throughout the life of the underlying loans.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

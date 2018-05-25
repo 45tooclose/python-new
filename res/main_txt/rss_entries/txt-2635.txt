@@ -1,0 +1,146 @@
+
+
+    
+                          What are 'STARC Bands'
+
+      STARC bands are a type of technical indicator that is created by plotting two bands around a short-term simple moving average (SMA) of an underlying asset's price. The upper band is created by adding the value of the average true range (ATR) - a popular indicator used by technical traders - to the moving average. The lower band is created by subtracting the value of the ATR from the SMA.
+Upper STARC band = SMA + ATR
+Lower STARC band = SMA - ATR
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Bollinger Band®                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Turtle Channel                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Average True Range - ATR                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Shale Band                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'STARC Bands'
+      STARC bands were created by Manning Stoller. STARC is an acronym for Stoller Average Range Channels.
+STARC bands are a type of envelope channel with non-linear trendlines at the resistance and support levels. Envelope channels allow analysts to follow prices over a longer-range timeframe with trends and reversals flowing through the channel pattern’s development. Generally envelope channels can have trendlines based on multiple factors. STARC bands can be compared to Bollinger Bands which are one of the most popular envelope channels to construct. Both STARC bands and Bollinger Bands use moving average as the midpoint for channel development.
+STARC Band Construction
+The midpoint of a STARC band channel is drawn from the simple moving average of the charted security’s price. The SMA is the average o the security’s closing price over a specified number of periods. Generally 50 days is a common timeframe used for calculating a moving average.
+Calculating ATR 
+The average true range is unique to STARC band construction and is used in calculating the upper and lower trendlines. The average true range is calculated as a moving average, typically over a 14 day period. Each day’s value used in the average calculating is the greatest of the following: current high less the current low, the absolute value of the current high less the previous close, or the absolute value of the current low less the previous close. After arriving at the average true range, the average value is typically multiplied by a user-specific multiplier factor to broaden the width of the channel.
+STARC Band Indicators and Trading Strategies
+STARC bands follow basic price channel investing methodology. The top trendline is considered to show the security’s resistance price level and the bottom trendline is considered to show the security’s support price level. Thus, basic trading strategies involve selling when the security’s price reaches the resistance trendline and buying when the security’s price reaches the support trendline. Traders can use various average true range multipliers to influence the width of the bands for channel signal affects.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'ActiveTrading',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

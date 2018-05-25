@@ -1,0 +1,144 @@
+
+
+    
+                          What is 'Indirect Bidder'
+
+      An indirect bidder is an entity that purchases Treasury securities at auction through an intermediary, such as a dealer or bank. Indirect bidders include financial institutions, such as foreign central banks, but can also include domestic money managers making bids through primary dealers.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Direct Bidder                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Non-Competitive Tender                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Dutch Auction                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Note Auction                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Indirect Bidder'
+      The Treasury Department permits indirect bidding on a competitive and a noncompetitive basis. Competitive bids require the direct bidder to specify the desired return, with the dollar amount of securities won at auction depending on the highest competitive discount rate. A noncompetitive bid does not require the bidder to indicate a desired return. The Treasury accepts all noncompetitive bids, and then competitive bids, in order of increasing yield.
+After an auction has ended, the Treasury Department announces the dollar amount of securities purchased by primary dealers and other direct bidders, as well as by indirect bidders. The Treasury Department made in effort in the 2000s to be more forthcoming and honest about where all of the auction bids were coming from, which also helps reveal how the type of bids that are made affect variations in purchases, especially foreign investments.
+Treasury note purchases by indirect bidders are used as a proxy for investments made by foreign investors. They help the Treasury Department gauge the willingness of foreign banks to continue purchasing Treasury securities. Foreign entities make up a significant portion of the owners of outstanding Treasury securities, so the willingness of these organizations to continue buying securities has a major impact on the ability of the Treasury to raise funds. For example, in 2016, indirect bids from foreign governments went up from 56.6 percent in January to 65.5 percent in March in the Treasury inflation-protected securities auction, because the indirect bidders expected inflation to rise and hoped that buying in the TIPS would help protect themselves in a higher inflation market.
+What does indirect bidding accomplish?
+Indirect bids are good for foreign purchases of Treasure notes, which are securities with maturities of more than a year but not more than ten years. On the other hand, indirect bids are not helpful for Treasury bills, because they have original maturities of only one year or less. Indirect bidders also are used in the foreign purchases of Treasury securities because it leads to a situation where many investors are bidding indirectly together.
+According to an analysis by the Federal Reserve Bank of New York, indirect bidders account for approximately twenty-one percent of purchase shares for Treasure securities and just over seventeen percent for Treasury bills.  
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

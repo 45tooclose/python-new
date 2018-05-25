@@ -1,0 +1,145 @@
+
+
+    
+                          What is 'Affordability Index'
+
+      Affordability index is a measure of a population's ability to afford to purchase a particular item, such as a house, indexed to the population's income. An affordability index uses the value of 100 to represent the position of someone earning a population's median income, with values above 100 indicating that an item is less likely to be affordable and values below 100 indicating that an item is more affordable.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Working-age Population                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Affordable Care Act                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Making Home Affordable                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Monetary Item                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Affordability Index'
+      An affordability index is most often associated with housing costs. Housing affordability indexes often compare the cost of purchasing a home in different lacations. Points above 100 indicate that a typical family will be less likely to qualify for a mortgage on a home in the area, while a value of 100 indicates that the typical family can just barely afford to live there.
+Housing Affordability Indexes
+Housing affordability is an important issue – especially in many urban areas of the West, where median housing prices outpace prices nationally. At the end of 2003, the nation recorded a surge in the pace of home price appreciation; fourth quarter 2003 home prices rose at their fastest pace since 1979, a factor that tends to reduce housing affordability. Still, two commonly used housing affordability indexes indicated that housing remained relatively affordable in 2003. 
+The first is the composite Housing Affordability Index (HAI). This index is published monthly by the National Association of Realtors (NAR). It measures median household income relative to the income needed to purchase a median-priced house.
+The other real estate affordability index is the California Housing Affordability Index. Published monthly by the California Association of Realtors (CAR), this index tracks the percentage of California and national households that can afford to purchase a median-priced house. 
+Two key factors tend to offset the appreciation in housing prices nationally. First, home mortgage were near their lowest level in decades at the end of 2003, and low rates kept the cost of home ownership low. In addition, over most of the past decade, annual increases in median family incomes outpaced increases in home prices.
+The HAI tracks whether housing is becoming more or less affordable for the typical household. The HAI incorporates changes in key variables affecting affordability: housing prices, interest rates, and income. The HAI index has a value of 100 when the median-income family has sufficient income to purchase a median-priced existing home. A higher index number indicates that more households can afford to purchase a home. In December 2003, the composite HAI for the nation was 137.2, indicating that the typical household had 137.2 percent of the income necessary to purchase the typical home.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

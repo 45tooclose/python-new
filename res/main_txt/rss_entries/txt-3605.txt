@@ -1,0 +1,139 @@
+
+
+    
+                          DEFINITION of 'Full Nodes '
+
+      Full nodes are bitcoin nodes that download all transactions from the cryptocurrency’s blockchain and verify them against all consensus rules defined in its algorithm. They can be regarded as the fullest and most complete realization of bitcoin’s trustless mechanism because their checks obviate the need for a central authority. The result is that they can reject a transaction even if a majority of bitcoin’s network accepts it. 
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Full Nodes                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Bitcoin Mining                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Centralized Market                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            SelfKey (KEY)                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Full Nodes '
+      Any computer or system of computers that connects to bitcoin is considered a node. There are two types of nodes in bitcoin: full nodes and lightweight nodes. The former type of nodes is responsible for downloading the cryptocurrency’s entire blockchain and checking each transaction against all consensus rules. On the other hand, lightweight nodes download only headers of a block, meaning that they are privy only to metadata of each transaction within that block. Lightweight clients are dependent on full nodes to complete their task of verifying transactions. 
+Because they play such an important role in bitcoin’s network, full nodes have pre-defined hardware specifications and are required to run Bitcoin Core, the algorithm that powers bitcoin’s network. 
+It is important to note here that full nodes are different from bitcoin miners, which are responsible for generating blocks by competing with each other to solve puzzles. Once a block is created (and the miner rewarded with new bitcoin), it is the full node’s job to verify transactions contained within that block. Miners cannot interfere with the full node’s task. They can only reorder or remove transactions from within a given block. While there have been estimates, the exact number of full nodes in bitcoin’s network is not known.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

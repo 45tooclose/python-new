@@ -1,0 +1,144 @@
+
+
+    
+                          What is a 'Liability Swap'
+
+      A swap is a derivative contract through which two parties exchange the cash flows of financial instruments. These instruments can be almost anything, but most swaps involve cash flows based on a notional principal amount. Usually, the principal does not change hands. One cash flow is fixed, while the other is variable, that is, based on a benchmark interest rate, floating currency exchange rate, or index price.
+The terms, structure and useful results of a liability swap are the same as they are for an asset swap. Only the reasons why the counterparties engage in the swap contract dictates the name applied.
+Swaps do not trade on exchanges, and retail investors usually do not engage in swaps. Instead, swaps are over-the-counter contracts between businesses or financial institutions.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Swap                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Delayed Rate Setting Swap                     
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Swap Rate                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Forward Swap                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Liability Swap'
+      An asset swap is also similar in structure to a plain vanilla swap with the principal difference being the underlying assets within the swap contract. Rather than exchanging conventional, fixed and floating loan interest rates, the underlying are fixed and floating rate assets. Currency swaps are typically asset swaps.
+Institutions use liability swaps to transform the cash flow characteristics of the underlying assets to hedge currency, credit and interest rate risks. They will also use liability swaps to create a synthetic investment with more suitable cash flow characteristics. Typically, an asset swap involves transactions in which the investor acquires a bond position and then opens an interest rate swap with the bank that sold them the bond. The investor will pay a fixed rate and receive a floating rate. This trade transforms the fixed coupon of the bond into a floating coupon, which is typically tied to a benchmark rate such as London Interbank Offered Rate (LIBOR).
+Swap Mechanics
+As an example, XYZ may swap a six-month LIBOR interest rate for ABC's six-month fixed rate of 5% on a notional principal of $10 million dollars. Due to the split, XYZ will pay a fixed interest payment of 5%, instead of the floating rate.
+A swap will have an initial value of zero because the initial cash flows are the same. Over time, however, this will change as interest rates vary and the swap will have either a positive or negative value for each contract holder. In some instances, the swap can be marked-to-market periodically to clear out unrealized gains and losses by making any payments due.
+This swap allows the counterparties to change the nature of their liabilities. One of the parties may exchange a payment stream, perhaps for a loan, into another stream with different characteristics. The other party, maybe a bank, can use the loan capital to purchase a floating rate bond to cover the payments needed to pay the other party in the swap.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

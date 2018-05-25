@@ -1,0 +1,203 @@
+
+
+
+What is Homelend? A Blockchain-powered Solution Aims to Change Mortgage Loans
+The mortgage market is growing bigger than ever, but still follows archaic processes which are hardly efficient. A blockchain solution aims to change all that.
+
+
+ by  News
+Desk,
+11 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  Few things are dearer to the American dream than owning a home. Not only is it one of the smartest and simplest investments anyone can make, there is also a psychology behind being a homeowner that applies to all of us. Freedom. There’s something satisfying about owning the place where you lay your head down every night. But owning a home and having a home are two very different things.
+For most people, the only way they can afford a home is by taking out a mortgage from the bank. Eight million of these loans are given out each year in the United States alone. It's an experience hundreds of millions of Americans have gone through, and mortgage loans and our society are intricately woven together.
+By the end of 2018, the mortgage market globally and in the United States will reach $31 trillion and $14 trillion respectively. However high revenue does not mean it’s a well-oiled machine. In fact, the opposite is true, as the system is outdated and even primitive.
+
+The mortgage system is outdated because it involves multiple intermediaries which directly affects the cost for both buyers and lenders. Plus, with these extra intermediaries comes more inefficiencies, paperwork, and a drawn-out process. This, along with antiquated qualifications, can make it difficult for many, especially in younger generations, to receive a mortgage loan
+One solution to these problems is blockchain technology. Blockchain is revolutionizing the world through decentralized, peer-to-peer networks. Used in nearly every industry, blockchain can help streamline processes, cut out middlemen, and save and make everyone more money. All of this happens while the funds are securely transferred with appropriate levels of transparency.
+Homelend is a blockchain platform that is trying bring the revolutionary technology into the mortgage lending space. Doing so will bring an archaic system into the modern world while making it more user-friendly, efficient and cost-effective. Homelend can also help bring the younger generations into the housing market and keep the core fabric of our society strong.
+Homelend works by first bringing the two parties of borrowers and lenders together, without extra middlemen. Then, by utilizing distributed ledger technology (DLT) and smart contracts, the entirety of the process is streamlined. The result is an efficient, cost-effective and safe way to efficiently borrow and lend money for the purpose of buying a home. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

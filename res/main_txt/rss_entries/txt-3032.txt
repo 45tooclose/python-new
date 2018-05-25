@@ -1,0 +1,77 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Institutional investors are expected to continue boosting use of exchange-traded funds (ETFs), and the versatility offered by ETFs is a primary reason for the increased adoption, according to the 8th annual Greenwich Associates U.S. ETF Study. The study is done in conjunction with BlackRock, Inc. (BLK), parent company of iShares, the world's largest ETF sponsor.
+The study was conducted between October 2017 and February 2018, polling 180 institutional investors, most of which manage at least $25 billion in assets. About 20% of those surveyed manage at least $100 billion in assets, according to the study. Survey participants include registered investment advisors (RIAs), endowment managers, insurance companies and others. Institutional investors are using ETFs in a variety of ways, including as portfolio complements or alternatives to individual stocks, bonds, mutual funds and derivatives.
+"Institutions are making greater use of ETFs in strategic portfolio functions," said Greenwich Associates. "They are using ETFs to obtain investment exposures in 'core' portfolio allocations, and as building blocks in top-down strategies that create alpha through asset allocation, as opposed to security selection." About one-third of those surveyed said they plan to boost ETF allocations in the coming 12 months, with many eyeing increased use of fixed income ETFs as the Federal Reserve continues hiking interest rates. (See also: Institutional Investors Are in Love With ETFs.)
+Smart Beta
+The Greenwich Associates study also indicates that institutional investors are increasingly considering and using smart beta ETFs. "In particular, demand has increased for smart beta ETFs that apply factor-based investment strategies and other rules-based approaches," said Greenwich Associates. "The most popular product in that category: minimum-volatility ETFs that guard portfolios against increases in volatility  levels."
+Popular single-factor ETFs include the iShares Edge MSCI USA Momentum Factor ETF (MTUM), while the iShares Edge MSCI Min Vol USA ETF (USMV) is the largest domestic low volatility fund. The survey showed that 44% of respondents acknowledged investing in smart beta ETFs at the end of 2017, up from 37% at the end of 2016. Half of institutional investors currently using smart beta ETFs are using single-factor funds, while 53% are embracing multi-factor products, according to the survey. (For more, see: Survey Says: Investors Like Smart Beta.)
+Lifting Restrictions
+Previously, many institutional investors were prohibited from using ETFs due to internal policies, but that number is dwindling, potentially boding well for increased ETF adoption at the institutional level. The Greenwich study reports that just 9% of respondents in 2017 said that they were prohibited from using ETFs, down from 24% in the prior year.
+"Investors continue to turn to ETFs to express their views in fast-changing markets, said Ravi Goutam, head of the iShares Pensions, Foundation and Endowments team at BlackRock. "During volatile global equity market activity in February, clients utilized ETFs for efficient liquid market exposures through the secondary market. Institutions are also engaging with BlackRock to create solutions that use ETFs in innovative ways to drive absolute return and positive outcomes." (For additional reading, check out: Institutions Powering ETF Industry Growth.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

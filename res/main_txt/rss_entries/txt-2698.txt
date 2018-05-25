@@ -1,0 +1,207 @@
+
+
+
+Syscoin Technical Analysis: (SYS/BTC) Continues To Consolidate Well But When Can We Expect A Breakout?
+Nothing in this article is to be construed as investment advice. Neither the author nor the publication takes any responsibility or liability for any investments, profits or losses you may incur as a result of this information.
+
+
+ by  Ollie
+Leech,
+20 mins ago
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  
+Syscoin looking bullish in the current bear market, up 8.60% with strong support beginning to rally in anticipation of the 3.0 protocol announcement scheduled to go live in 4 days time.
+With Bitcoin flagging in the current market, SYS/BTC pairing accounts for over 91% of it’s 24hr volume as investors withdraw from the no.1 cryptocurrency in search of more profitable assets.
+Will this update create enough incentive for new investors to join in with the Syscoin community and drive the price back towards $1? Let’s take a look.
+
+Looking at the 1D chart above we can see a long consolidating pattern emerging in Syscoin’s price action.
+By connecting the higher highs and lower lows (excluding the oversold area that falls below the uptrending support) we can see SYS satisfy a bullish pennant that started forming back in March last year; just before we saw SYS explode to its all-time high above 10,000 Sats.   We can also see the candles retracing back to the 0.786 and 0.618 fibonacci levels both times when rebounding off the lower uptrending support area.  This is also true for the upper downtrending resistance, where the price action failed to test both 0.236 and 0.382 fib levels during their respective bull runs.   Following this guideline we should expect Syscoin to now begin consolidating between the 0.5 fib level support at 5,000 Sats and the resisting 0.382 fib level at 6,000 Sats, before expecting a breakout.   With the announcement due in a matter of day, we could see an early bullish departure from this pattern as investors pool together into SYS from BTC, which has been performing poorly in the market over the past few days.
+Confirmation of a bullish movement will come once the price begins to hold out well above the downtrending resistance and finds new support at this level. Keep an eye on momentum indicators and market depth at this time to get the best idea of how energised the bulls are feeling during the breakout movement.
+If the news is not sufficient enough to provide the breakout Syscoin needs to surpass the overbearing resistance, then new investors may get a late opportunity to buy in around the lower support area indicated in the chart above; as we all wait for the asset to continue consolidating towards an eventual breakout.
+Syscoin (SYS) Price Prediction
+At the present moment, SYS is attempting to break above the 6,000 Sats level at the 0.382 fib level but is being met with strong selling pressure.   We may have to wait for another few days before enough support can gather to break beyond this critical level.   Price targets once the breakout begins will be firstly at the 0.236 fib level (7,200 Sats), which will deliver a 19.33% return from the 6,000 Sat resistance line. 
+The second price target would likely be around the 9,000 Sat level (52.70% return) as the price action retraces back toward the 0% fib level, with an active support level beneath at 8,000 Sats once we see a correction.  
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

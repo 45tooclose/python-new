@@ -1,0 +1,102 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Technology remains fertile ground for young companies to try their hand at putting new tech solutions on the market. That means investors will find plenty of penny stocks to choose from. If you want to learn more about the process of trading penny stocks, Investopedia has a day trading course.
+We have selected four penny tech stocks for you to consider. These stocks were chosen based on their positions in their industries. In other words, we looked for stocks that have the potential to capture market share. All figures are current as of May 2, 2018. (See also: How to Pick Winning Penny Stocks.)
+Zix Corporation (ZIXI)
+Zix is an email provider. It focuses on secure messaging, marketing itself to corporate and government entities. The unique approach of encryption, coupled with avoiding downloading, makes this an attractive service.
+With sales rising 65% in five years, Zix is making headway. It tends to range in and out of the penny stock category, as it rises over $5 per share on occasion. As you might expect, the company is very small, with a market cap of just under $289 million. Revenues have been increasing steadily over the past four years. With data breaches and privacy concerns drawing ever more attention to cybersecurity issues, Zix shows promise for investors who are willing to take on the risk of a penny stock. (For more, see: How to Invest in Penny Stocks.)
+Average Volume: 274,480
+Market Cap: $288.603 million
+P/E Ratio (TTM): N/A
+EPS (TTM): -$0.15
+Glu Mobile Inc. (GLUU) 
+Glu Mobile makes games for smartphones. It has multiple titles that are gaining popularity for players who use phones or tablets. Many of the titles are based on action movies, while others are based on existing console games. Interestingly, its biggest selling title is a casual role-playing game based on the life of reality TV star Kim Kardashian.
+The company has worked its way out of debt and has strong cash reserves. Revenues have been rising over the past four quarters, but operating income is negative. Glu Mobile is spending on research and development to find its next hit. The potential for this stock is based on its industry, as games continue to grow in popularity and gamers are willing to try new games even if they are not from large companies. If Glu Mobile comes up with a hit game, it will likely send the stock soaring. (See also: Glu Mobile Buys Game Company Plain Vanilla.)
+Average Volume: 1,824,440
+Market Cap: $661.988 million
+P/E Ratio (TTM): N/A
+EPS (TTM): -$0.72
+Arotech Corporation (ARTX)
+This company has combined two of the hottest trends around today: drones and virtual reality. It creates technology for the military and law enforcement, offering simulations for use-of-force training. It also sells to the security and emergency services sectors and provides weapons simulations for aircraft and missile systems.
+Arotech has positioned itself as a significant provider of surveillance and attack technologies at a time when drones are gaining increased attention and artificial intelligence is being deployed. After several quarters of flat performance, revenue ticked up in the quarter that ended Sept. 30, 2017, and the company's operating income turned positive during that period. These are positive signals for Arotech, and the stock could offer room for additional growth based on the potential for the company and the sector. (For more, see: Top 6 Drone Stocks.)
+Average Volume: 119,726
+Market Cap: $86.061 million
+P/E Ratio (TTM): 22.76
+EPS (TTM): $0.14
+Plug Power Inc. (PLUG)
+Plug Power is a player in the burgeoning alternative energy industry, focusing on the field of hydrogen fuel cell technology. The company provides fuel cell solutions to the material handling and stationary power sectors. Based in Latham, New York, Plug Power has been in existence since 1997, indicating that there is some longevity to the story despite its current status as a penny stock.
+Operating income has been consistently negative for the past few years, and that trend continued in 2017. However, the stock price appears to have reached a bottom in the first few months of 2017, and it broke out in March and April on strong trading volume, with the shares doubling in value over that time frame. Although Plug Power saw its share price slide downward in November 2017 and again in early 2018, the stock could offer investors solid gains as the alternative energy industry gathers strength. (See also: Penny Stocks to Watch.)
+Average Volume: 3,778,219
+Market Cap: $427.491 million
+P/E Ratio (TTM): N/A
+EPS (TTM): -$0.60
+The Bottom Line
+The trouble with penny stocks is that investors have to make some guesses about the future. Very few penny stocks have a strong enough track record to indicate that they will survive and prosper. That said, the penny stocks on our list operate in significant industries and have the potential to be vital players in those industries. (See also: The Lowdown on Penny Stocks.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

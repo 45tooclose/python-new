@@ -1,0 +1,204 @@
+
+
+
+Verge Technical Analysis: (XVG/BTC) Dancing On Ice. Resting Along Key Support Level After Latest Announcement Fails To Ignite Support
+Nothing in this article is to be construed as investment advice. Neither the author nor the publication takes any responsibility or liability for any investments, profits or losses you may incur as a result of this information.
+
+
+ by  Ollie
+Leech,
+8 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+   
+XVG has approached the dangerzone again after the price action retraces back down to an important support area at the 0.382 fib level/ 805 Sats.   Looking at the 30min chart below we can see that Verge has slipped into a sideways channel in the last 24 hours between the 0.5 fib level at 831 Sats above and this key lower channel support area, where we were expecting it to breakout bullish following the recent news.
+Having already failed to break through the ceiling of this channel twice already, we can now see a bearish descending flag pattern emerge as support begins to depart from the alt-coin at the present time. This will be confirmed once the price action begins to hold beneath the lower support, which will flip to become a resisting point for XVG. 
+Looking at the EMA lines 50 (blue), 200 (red) and 500 (orange), we can see that the token’s price has started to cross below the 500 moving average, along with the fast moving 50 average. This indicates that the asset is losing momentum, with sellers starting to weigh heavily down on the buyers. This reversal of market sentiment is also apparent on other momentum indicators as we can see below.
+MACD is beginning to bearishly diverge below the signal line, with selling candles starting to form.   RSI is also downtrending toward the lower quartile of the channel.   Looking at the Bollinger Bands in the recent activity, we can also see that the candles are starting to drop below the lower band which also foreshadows a bearish market. 
+Be warned that this could be another bear trap in the making, so wait for further confirmation of a holding downtrend before shorting the asset. These false downtrends are designed to lure people into selling their tokens in anticipation of a further collapse, only to be mopped up by bullish traders who then drive the token back into an uptrend.
+   Verge (XVG) Price Prediction
+On the chart above we can see two bearish price targets below the base support, where VXG is likely to fall upon once the downtrend starts to pick up pace.   The first price target we’d expect is along the lower fib level at 0.236 (773 Sats) which results in a -4.03% loss from the base support line.  The second price target is further down at the 0.0 fib level (722 Sats) which results in a -10.30% drop from the base support price.  
+If we do get a second bear trap appear in the price action then a bullish price target is set at the channel ceiling at 0.5 fib level (831 Sats0, which would give us a 3.23% positive gain from the base support.   
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

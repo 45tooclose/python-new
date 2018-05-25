@@ -1,0 +1,139 @@
+
+
+    
+                          DEFINITION of 'Low Ball'
+
+      A low ball offer is a slang term for an offer that is significantly below the seller’s asking price, or a quote that is deliberately lower than the price the seller intends to charge. It also means to give a false estimate for something.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Right Of First Offer                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Negotiated Market                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Best And Final Offer                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Seller's Call                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Low Ball'
+      Low ball offers are most commonly used as a tactic to put pressure on a seller who might need to liquidate assets quickly. Alternatively, when negotiating a price, prospective buyers might begin negotiations with a low ball offer to gauge the seller's expectations of the asset’s fair value.
+Low ball offers are also used as a sales tactic that involves initially quoting a low price and then claiming the quote was a mistake and that the real price is higher. Some customers may accept the higher price because they have already decided to make the purchase.
+In the LIBOR scandal during the financial crisis in 2008, banks in the U.K., including  Barclays, Lloyds Banking Group and Royal Bank of Scotland kept LIBOR rates artificially low, by "lowballing” their LIBOR submissions. This false estimate not only helped them make a profit on their trading books, but made them seem more creditworthy than they really were. This lowballing allegedly contributed to the failure of a number of American banks.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

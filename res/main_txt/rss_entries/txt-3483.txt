@@ -1,0 +1,53 @@
+
+
+
+    
+    
+    
+          
+    A:
+            The stock market, particularly the NYSE and Nasdaq, is traditionally open between 9:30 a.m. and 4 p.m. Eastern. Over time, with the adoption of new technology and increased demand for trading, these hours have been extended to include what is known as pre-market and after-hours trading.
+The first place investors should look to find information about pre-market and after-market activity is their brokerage account's data service, if they have one. Often brokerage information services provide the most detailed off-hour market trading data, and they usually come free with a brokerage account. Investors will often be able to not only trade within this time period, but also see the current bid and ask prices for a specific security and the change in price compared to a previous period's close.
+If you don't have a brokerage account or your brokerage account doesn't provide this service, there are several free sites that give users access to pre- and after-hours market data. The Nasdaq website offers comprehensive quotes on shares listed on the Nasdaq, showing every trade - including the price, time and size of trades made in off-hours trading. For pre-market trading information, use the pre-market quotes service, and for after-hours information, use the after-hours quotes service. Although the NYSE's website does not offer such a detailed service, in terms of depth of information, the quoting service on its site shows you the last movements of the stocks during the off-hours market.
+Other services like Yahoo Finance will show the last trade made in the pre- and after-hours markets. These services will usually cover all stocks - whether they trade on the NYSE, Nasdaq or another exchange. 
+To learn more, see Activities You Can Take Advantage of in the Pre-Market and After-Hours Trading Sessions.
+        
+    
+
+    
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'FAQ'
+    });
+                

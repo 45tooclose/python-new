@@ -1,0 +1,88 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        With a market capitalization that exceeds $850 billion (as of May 1, 2018), Apple Inc. (AAPL) is one of the largest technology companies in the world and the front-runner to cross the $1 trillion milestone for its market value. 
+These are the top four mutual fund holders of Apple.
+ Vanguard Total Stock Market Index (VTSMX)
+The Vanguard Total Stock Market Index Fund is known on Wall Street as a one stop shop for a great variety of small and large cap stocks. They aim to capture returns of the entire stock market, holding 3,637 stocks. The index is methodical in investing in an array of stocks that accurately depict the entire landscape of the market. While it doesn't greatly differ from S&P 500 ETFs, it's investment in many small-cap stocks has kept it above others for several years. 
+The fund's expense ratio is 0.14%, just a few points below the category average. The fund's five year annualized return is 12.60%
+More than 19% of the fund's assets are invested in technology stocks. It is the largest fund investor in Apple, with more than 112.6 million shares in the company, amounting to 2.8% of all Apple stock. 
+Vanguard 500 Index Inv (VFINX)
+Another fund that tracks the S&P 500, VFINX gives different levels of weight to the stocks it invests in based on their position in the S&P list. With net assets of $400.6 billion as of March 31, 2018. 
+The expense ratio for VFINX is 0.14%. The fund has a five-year annualized return of 13.14%.
+The fund's asset allocation skews in favor of technology and financial services that form 24.90% and 14.70% of its portfolio respectively. The company has 89.9 million shares of Apple, making it the second largest mutual fund investor in Apple. 
+SPDR S&P 500 ETF (SPY)
+The Standard and Poor Depository Receipts, also known as a "spider", was put into the market in 1993 by State Street Global Advisors. The ETF's main function is to replicate the performance of the S&P 500. Each share of SPY owns a small portion in all 500 stocks in the S&P 500. SPY is bought and sold much like stocks, but instead of making a bet on one particular company, you're making a bet on the market as a whole. 
+The expense ratio for SPY is 0.09%, well bellow category average for other funds. The SPY dividend yield is 1.83%. The five-year annual return is 13.16%
+SPY is invested heavily in technology, with 24.77% of it's holdings dedicated to the sector. It also invests 14.7% of its funds in financial services. Apple is its top asset, with the fund holding 57.2 million shares (about 1% of all Apple stock). This is the third largest mutual fund owner of Apple.
+Vanguard Institutional Index Fund I (VINIX)
+This large-blend Vanguard Group fund, launched in 1990, is currently managed by Donald Butler. The fund seeks capital appreciation and dividend income through investing in all 500 stocks that make up the S&P 500 benchmark index. VINIX remains fully invested in equities at all times.
+The fund’s expense ratio is a very low 0.04%. The five-year annualized return is 12.93%.
+The top two market sectors represented in the underlying index and in the fund’s holdings are financials and technology, with tech accounting for approximately 24.90% of the fund’s portfolio holdings and Financials accounting for 14.70%. With 49.5 million shares, Apple makes up 3.78% of the fund’s assets as of March 31, 2018. The fund’s next three largest holdings are Microsoft, Alphabet, and Amazon.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '',
+     'leadGenVertical' : '',
+     'leadGenLayout' : '',
+     'leadGenPage' : ''
+    });
+                    
+            
+                

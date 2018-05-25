@@ -1,0 +1,109 @@
+
+
+
+
+Ethereum News
+ April 28, 2018 16:13
+ Ethereum Foundation Developer Proposes Smart Contract Insurance Fund
+
+
+
+
+ 
+
+
+Advertisement 
+
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1513203250972-0'); });
+
+
+ 
+Join our community of 10 000 traders on Hacked.com for just $39 per month.
+Ethereum Foundation developer Alex Van de Sande has unveiled a proposal for an insurance pool that he believes will mitigate the risk of network splits stemming from a desire to recover funds frozen due to code faults in smart contracts.
+Van de Sande, who is team lead for the Mist browser, wrote in a blog post that creating a recovery contract with a dedicated insurance fund would reduce the incentive that a person or group — e.g. the owners of the more than $320 million in ETH that was rendered unspendable after Parity’s multi-signature wallet contract library self-destructed — would have to pursue a contentious hard fork to regain some or all of the value lost due to the bug.
+Here’s how the system would work.
+Developers would insure their smart contracts by locking up Ether for a predetermined period of years in a recovery contract. In exchange, they would receive an equal number of “recover-ether tokens,” which they could then either hold or sell to speculators.
+If the Ether insured by the contracts becomes frozen (hacks and other exploits in which the tokens remain liquid would not be covered by the fund), the recovery process would allow recover-ether holders to redeem their tokens for an equivalent percentage of the pool’s funds at a 90 percent rate, with the remaining 10 percent used to fund the general insurance fund of all tokens.
+On the other hand, if the lock-up period passes and no recovery process is initiated, the recover-tokens would be automatically destroyed and the issuer would receive back their locked Ether — and would keep any profits realized by selling recover-tokens at the outset.
+The recovery contract would be governed by token holders, who could vote on decisions such as which contracts the fund should insure.
+One hurdle to the proposed system would seem to be that the recover-tokens would likely be classified as securities by many regulatory agencies.
+However, perhaps the most controversial component of Van de Sande’s proposal involves launching the fund with more than 513,000 ETH in liabilities by issuing recovery tokens to the victims of code fault in Parity’s multi-signature wallet contract library.
+In addition to mitigating the risk of a contentious network split, which, to be clear, Parity says it has “no intention” of pursuing, Van de Sande argues that this would turn the victims — a group that includes many of Ethereum’s top developers — into stakeholders in the new fund. This, in turn, would likely give the pool a greater chance of gaining traction when it launches.
+Featured image from Shutterstock.
+Follow us on Telegram.
+Advertisement
+
+
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1513203355638-0'); });
+
+
+
+
+
+
+POSTED IN:  Ethereum News, News 
+
+TAGS:  debt token, ethereum insurance, parity multi-sig bug, parity wallet bug, recovery token 
+
+
+
+
+AUTHOR
+Josiah Wilmoth
+
+
+
+Share post
+
+ 
+
+
+
+
+Josiah is a full-time journalist at CCN. A former ancient and medieval literature teacher, he has been reporting on cryptocurrency since 2014. He lives in rural North Carolina with his wife and children. Follow him on Twitter @Y3llowb1ackbird or email him directly at josiah.wilmoth(at)ccn.com.
+
+
+
+
+
+
+
+
+
+	/* <![CDATA[ */
+		var disqus_url = 'https://www.ccn.com/ethereum-foundation-developer-proposes-smart-contract-insurance-fund/';
+		var disqus_identifier = '135742 https://www.ccn.com/?p=135742';
+		var disqus_container_id = 'disqus_thread';
+		var disqus_domain = 'disqus.com';
+		var disqus_shortname = 'cryptocoinsnews';
+		var disqus_title = "Ethereum Foundation Developer Proposes Smart Contract Insurance Fund";
+		var disqus_config = function () {
+			var config = this; // Access to the config object
+			config.language = '';
+
+			/* Add the ability to add javascript callbacks */
+			
+			/*
+			   All currently supported events:
+				* preData — fires just before we request for initial data
+				* preInit - fires after we get initial data but before we load any dependencies
+				* onInit  - fires when all dependencies are resolved but before dtpl template is rendered
+				* afterRender - fires when template is rendered but before we show it
+				* onReady - everything is done
+			 */
+
+			config.callbacks.preData.push(function() {
+				// clear out the container (its filled for SEO/legacy purposes)
+				document.getElementById(disqus_container_id).innerHTML = '';
+			});
+								};
+	/* ]]> */
+	
+
+	/* <![CDATA[ */
+		var DsqLocal = {
+			'trackbacks': [
+				],
+			'trackback_url': "https:\/\/www.ccn.com\/ethereum-foundation-developer-proposes-smart-contract-insurance-fund\/trackback\/"		};
+	/* ]]> */
+	

@@ -1,0 +1,169 @@
+
+
+    
+                          What is 'Form 1099-Misc'
+
+      Form 1099-Misc (miscellaneous) is a tax form that reports miscellaneous income for non-employees. The 1099-Misc form covers rent, royalties, self-employment and independent contractor income, crop insurance proceeds, and several other kinds of miscellaneous income.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Safe Deposit Box                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Black Box Model                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Style Box                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Independent Contractor                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Form 1099-Misc'
+      Every year, millions of Americans prepare and file tax returns. The Internal Revenue Service (IRS) has created many forms to satisfy different filers' needs and circumstances. Depending on the complexity of a taxpayer's situation, more than one form may be filed. 
+One tax form frequently submitted to the IRS annually is Form 1099, which was designed for people who earn income that is not classified as a wage, salary, or tip. The 1099 form has multiple variants, which the IRS refers to as Information Returns. The IRS matches the information provided and reported on these forms by a broker, investment fund company, government agency, and others to the information provided by the individuals on their individual tax returns. 
+ One of the most popular versions of the 1099 Form is the 1099-Miscellaneous Income (MISC), which is to be reported by independent contractors, freelancers, sole-proprietors, or self-employed individuals. Other variations include
+Dividends (1099-DIV)
+Interest payments (1099-INT)
+Traditional IRA withdrawals (1099-R)
+Unemployment compensation (1099-G)
+Real estate transactions (1099-S)
+The ‘Miscellaneous' term attached to Form 1099 refers to income not categorized by the IRS on other tax forms. If you are an independent contractor, such as a consultant, artist, web developer, or freelance writer, providing services to other individuals or businesses in exchange for a fee, the fee earned is a type of miscellaneous taxable income. The income is required to be reported to the IRS on the 1099-Misc form. Contract workers would receive multiple 1099-Misc forms if they provided services for more than one client.
+How Does the 1099-MISC Work?
+A business or client who pays a vendor for their services must issue form 1099-Misc to the payee by January 31st of the following year. A copy is sent to the IRS by the end of February if filing manually,  or the 31st of March if filing electronically. 
+Since the 1099-Misc is an information return, meaning it’s created for informational purposes only and not for attachment to income tax forms filed with the state and federal government, only one form should be issued to each contract worker. A client is required to only generate and issue the 1099-Misc if $600 or more was paid to a non-employee within a calendar year. Amounts of $600 or less do not need to be reported to the IRS. A freelancer who earns, $300, from ten different clients during the year must still report and pay taxes on the income even though they will not receive 1099-Misc forms from each of the ten clients.
+In addition to using Form 1099-Misc to report payments made to a non-employee, a client should also use the form to indicate an amount of at least $10 in royalties and at least $600 for non-services. Non-service items include rent, attorney fees, medical and healthcare, prizes and awards to non-employees, fish purchased from a fish vendor, etc.
+Before a Form 1099-Misc can be prepared for a vendor, a W-9 form must be requested and received from each contractor. In summary, the W-9 form is a record that certifies the non-employee’s name, address, taxpayer identification number, Social Security Number, Foreign Account Tax Compliance Act (FATCA) code, and US citizenship or residency status.
+For each 1099-Misc form prepared for a contract worker, the client will have to include information about its business, such as business name, address, and Federal Employer ID number. In addition to the payment or proceed amounts that will be entered in one or more of the boxes above, the client must have the payee’s taxpayer identification number (TIN) on the form.
+Form 1099-Misc has 18 boxes which are: 
+Box 1 – Rental payments made to the individual contractor or freelancer
+Box 2 – Total of any royalties paid above $10
+Box 3 – Other income payments that do not fit in any other boxes on the form, such as prizes and awards to non-employees
+Box 4 – Any federal income tax withheld from the contractor’s payment
+Box 5 – Payments made to a fishing boat contractor
+Box 6 – Value of medical and healthcare benefits provided to an independent contractor
+Box 7 – Payments made to contract workers for services provided to the client
+Box 8 – Payment or reimbursement made to an investor whose shares were lent to a short-seller
+Box 9 – This box is to be checked only if $5,000 or more worth of consumer products were sold to a person on a commission-basis for resale purposes
+Box 10 – An insurance company would fill out this box if it paid $600 or more to farmers
+Boxes 11 and 12 – Both boxes are blank on the sheet
+Box 13 – The amount more than any parachute payment over the base amount paid to an employee who has left the company
+Box 14 – $600 or more paid to an attorney for providing legal services
+Box 15a and 15b – Any contributions made to a section 409A retirement plan.
+Boxes 16 to 18 – These boxes are only provided for convenience to track state income information and do not need to be completed by the payer. Information for more than one state will need to be entered in another 1099-Misc form.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

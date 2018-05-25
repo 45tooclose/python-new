@@ -1,0 +1,77 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Shopify Inc. (SHOP) shares wobbled ahead of the company's first quarter financial results on Tuesday morning. Revenue rose 68.3% to $214.34 million – beating consensus estimates by $12.17 million – while earnings per share of four cents beat consensus estimates by nine cents per share. Despite the strong revenue growth, the stock lost momentum and moved lower by Wednesday morning following the conference call.
+Analysts remain largely bullish on the stock following the financial results. Piper Jaffray analysts called the pullback a buying opportunity and reiterated the firm's Overweight rating and price target of $155 per share, while Baird analysts said that the strong quarter was overshadowed by a mix shift to merchant solutions and trimmed its price target to $150 from $158 per share. Meanwhile, Citron is concerned over Shopify's exposure to President Trump's policies. (See also: Facebook Woes Could Be Shopify's Downfall: Analyst.)
+
+From a technical standpoint, the stock briefly touched the 50-day moving average at $132.36 before moving lower toward trendline support. The relative strength index (RSI) appears neutral with a reading of 47.52, but the moving average convergence divergence (MACD) remains in a bullish uptrend below the zero line. These indicators suggest that the stock could have some more upside before seeing any bearish momentum.
+[Check out Chapter 2 of the Technical Analysis course on the Investopedia Academy to learn about using moving averages to develop your trading strategy.]
+Traders should watch for a breakdown from lower trendline and S1 support levels at $119.28 toward the 200-day moving average at $113.53 or S2 support at $104.92. If the stock rebounds from these levels, traders should watch for a breakout from the 50-day moving average toward R1 resistance at $141.21 or R2 resistance at $148.78. The stock's fundamentals remain bullish, but bearish sentiment could be building following Trump's bearish tweets. (For more, see: Shopify Stock Has Bullish Signs All Over It.) 
+Chart courtesy of StockChart.com. The author holds no position in the stock(s) mentioned except through passively managed index funds. 
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Chartadvisor-Article'
+    });
+                    
+            
+                

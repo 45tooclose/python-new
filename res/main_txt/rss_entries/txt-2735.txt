@@ -1,0 +1,141 @@
+
+
+    
+                          What is 'Inflation-Linked Savings Bonds (I Bonds)'
+
+      Inflation-linked savings bonds are U.S. government-issued debt securities similar to regular savings bonds, except they offer an investor inflationary protection, as their yields are tied to the inflation rate.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Bond Yield                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Series I Bond                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Treasury Bond - T-Bond                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Bond                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Inflation-Linked Savings Bonds (I Bonds)'
+      Inflation-linked savings bonds are available directly from the U.S. Treasury. These debt securities are an exceptionally low-risk investment suitable for the most risk-averse investor. They have virtually zero default risk and inflationary risk. These bonds are sold at face value and pay par upon maturity, which occurs 30 years after purchase. I-bonds not held for at least five years are subject to a redemption penalty. Federal taxes on interest are deferred until redemption or maturity. Savings bonds are not transferrable and must either be held or redeemed.
+While relatively risk-free assets such as these usually offer some of the lowest rates of return, it is important to note that I-bonds are usually exempt from income tax. They therefore provide a more attractive after-tax return. Inflation-linked savings bonds pay interest based on the consumer price index, which includes items like food, rent, prescription drugs, and even tobacco products. This can lead to some deviation from the inflation experienced by any one person.
+Compare the yields on ordinary bonds to inflation-linked bonds to get a sense of the "breakeven" rate – the inflation rate at which an inflation-linked bond will match the yield on an ordinary bond. Comparing the inflation-linked bond yield to a standard bond or note with a similar maturity date is a good way to gauge investors' expectations for inflation, and help an investor determine whether or not an inflation-linked bond is a better place to keep their savings. 
+Inflation-Linked Savings Bonds vs. TIPS
+Unlike Treasury Inflation-Protected Securities (TIPS), series I savings bonds do not adjust for inflation with increases or decreases in the principal. Rather, the inflation rate is simply added to the fixed rate of interest paid on the bond. Series I-bonds also have the advantage of being protected from loss – they cannot and will not suffer declines in their value due to negative inflation (deflation). Inflation-linked savings bonds are tax-deferred investments and bear the protection against value loss. On the other hand, TIPS disburse a half yearly coupon rate and carry moderately complicated tax applications, are susceptible to value loss and usually carry an increased fixed rate. For this reason, inflation-linked savings bonds are more popular than TIPS.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

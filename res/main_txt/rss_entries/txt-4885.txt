@@ -1,0 +1,95 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Mention conservative investing, and people think of putting money away in the biggest, most stable and risk-averse enterprises and assets, which in turn guarantees safety of principal (if the invested capital happens to also appreciate in value, that's even better). While it's true that some industries (such as utilities) are defined as conservative, simply buying the large, well-known companies does not fulfill the goal of a successful conservative investment approach. Instead, such a viewpoint increases the confusion between acting conservatively and behaving conventionally.
+Definitions
+Conservative investing, when understood and applied properly, is not a low-risk, low-return strategy. Investors must understand two definitions to appreciate the appropriate means by which to invest conservatively.
+A conservative investment is one that carries the greatest likelihood of preserving the purchasing power of one's capital with the least amount of risk.
+Conservative investing is the understanding of what a conservative investment is, and then following a specific course of action needed to properly determine whether or not particular investments are indeed conservative investments.
+Where many investors falter in attempting to invest conservatively is blindly assuming that, by purchasing any security that qualifies as a conservative investment, they are in fact conservative investors. In other words, such investors simply focus on the first definition.
+Such a viewpoint is limited and costly. A successful conservative investment approach requires not only an understanding of what a conservative investment is, but – more importantly – the correct approach to take in order to identify what truly qualifies as a conservative investment.
+Characteristics of a Conservative Investment
+If, based on the first definition, investors already know what qualifies as a conservative investment, they needs to know which characteristics define a conservative investment, which is where the second definition comes into play. There are three broad categories which investors can use to identify a conservative investment.
+The Safety Factor
+	Clearly, any conservative investment should be able to weather market storms better than the rest. In order to do this, certain characteristics must stand out. First, a business should have a low cost of production.
+Being a low-cost producer has the principal advantage that, when a bad year hits the industry, the chance of still churning out a profit or reporting a smaller net loss is available. Second, a business should have a strong research and marketing department. A company that cannot compete by staying abreast of market changes and trends is doomed in the long run. Finally, management should possess financial skill. In doing so, it will be well versed in things such as per unit cost of production, maximizing return on investment capital, and other essential elements of business success.
+
+The People Factor
+	This is a rather self-explanatory qualification for a conservative investment. But take notice that excellent people can only be beneficial after a business has demonstrated the signs of the above-mentioned quality. Take note of Warren Buffett's advice:"When a management team with a reputation for brilliance tackles a business with a reputation for bad economics, it is the reputation of the business that remains intact."
+A small company can succeed on the heels of one or two exceptionally-talented people. But as a business grows, people throughout the organization must be counted if the company is to succeed and remain a conservative investment.
+
+Characteristics of the Business
+	This third quality requires a little more work for investors, but is well worth the effort. Here, the goal is to determine what advantages (or disadvantages) may prevent the business from growing and earning more profits, despite satisfying the first two conditions. One important thing to consider is the competitive landscape of the industry; the existence of many competitors or the relative ease with which new competition can enter can affect the best of companies. The potential for excessive regulation could also be a game changer.
+Even when a company satisfies the obvious conditions of being a conservative investment, you should always remember to consider this third condition.
+Those Who Fail and Those Who Pass
+Great examples of those businesses that pass the test include names such as Coca-Cola (KO), Walmart (WMT) and Johnson & Johnson (JNJ). These companies have demonstrated time and time again the strengths of their franchises. Even more importantly, these companies will likely continue to have very favorable future prospects. Coke essentially competes with Pepsi and no one else. What's more, it's unlikely that entrepreneurs are sitting in garages thinking about creating the next great soft drink company.
+The existence and continued sucdess of Walmart should raise a red flag for most other retailers, save for Target. Remember Circuit City, which used to be number two in electronics stores? It's now bankrupt, in no small part due to Walmart. Of course, once a passing company has been identified, the stock price only matters in determining the value gained.
+The Bottom Line
+Investing conservatively is not about simply identifying large, well-known businesses, but also going through a process that identifies why a particular company qualifies as a conservative investment. And as you can see from the names of conservative investment companies above, being a conservative investor can lead to some of the most dependable and respectable returns in the market.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

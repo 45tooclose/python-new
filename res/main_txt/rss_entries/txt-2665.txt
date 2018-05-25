@@ -1,0 +1,143 @@
+
+
+    
+                          What is a 'Customer's Loan Consent'
+
+      A customer's loan consent is an agreement signed by a customer permitting a broker-dealer to loan out the customer's securities. This kind of activity may be to lend a security out to another customer who wants to borrow them as a part of a short selling transaction. A customer's loan-consent form also authorizes a broker-dealer firm to borrow margined securities up to to the limits of the customer's debit balance. This is done if it is necessary for the firm to cover other short positions by the firm, or the customer's failure to complete delivery.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Long Market Value                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Credit Balance                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Securities Lending                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Free Credit Balance                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      Breaking Down 'Customer's Loan Consent'
+      A customer's loan consent awards to broker-dealers far greater flexibility in managing a customer's margin account. For example, since only securities that trade above a certain dollar amount are marginable — $5 for some brokers — the broker would not be able to borrow securities that trade below that threshold. This makes it very difficult, or impossible, to find shares to borrow for a short sale for securities trading at low prices.
+Customer's Loan Consent and Account Opening
+A customer's loan consent form will be part of the initial paperwork when an individual opens an account with a broker-dealer. It is generally part of signing a margin account which includes a margin agreement that spells out the terms and conditions under which credit will be extended. In fact, a customer's loan consent agreement is not compulsory as part if a margin account; a customer is not required to agree to it. However, if a customer decides to not sign a loan consent a broker-dealer may decline to open a margin account for them.
+Signing a customer's loan consent and later participating in a short selling transaction by loan out shares to another investor has no effect on the customer's ability to sell their shares via a long transaction.
+Customer's Loan Consent Examples
+ Charles Schwab & Co. provides clear disclosures in their loan consent language (Section 11: Loan Consent):
+"You agree that property held in your Margin Account, now or in the future, may be borrowed (either separately or together with the property of others) by us (acting as principal) or by others. You agree that Schwab may receive and retain certain benefits (including, but not limited to, interest on collateral posted for such loans) to which you will not be entitled. You acknowledge that, in certain circumstances, such borrowings could limit your ability to exercise voting rights or receive dividends, in whole or in part, with respect to the property lent. You understand that for property that is lent by Schwab, the dividends paid on such property will go to the borrower. No compensation or other reimbursements will be due to you in connection with such borrowings. However, if you are allocated a substitute payment in lieu of dividends, you understand that such a payment may not be entitled to the same tax treatment as may have been applied to the receipt of a dividend. You agree that Schwab is not required to compensate you for any differential tax treatment between dividends and payments in lieu of dividends. Schwab may allocate payments in lieu of dividends by any mechanism permitted by law, including by using a lottery allocation system."
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

@@ -1,0 +1,90 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Energy stocks have had a strong run lately, up by 11% for the three weeks through April 27, versus a mere 1% gain for the S&P 500 Index (SPX), according to Goldman Sachs Group Inc. (GS). "Current crude oil price dynamics and recent stock momentum create an appealing shorter-term opportunity for tactical investors," Goldman says. Among 16 stocks that they rate as buys are these nine: Williams Companies Inc. (WMB), Cabot Oil & Gas Corp. (COG), Noble Energy Inc. (NBL), Halliburton Co. (HAL), Occidental Petroleum Corp. (OXY), ConocoPhillips (COP), TechnipFMC PLC (FTI), Pioneer Natural Resources Co. (PXD) and EOG Resources Inc. (EOG).
+Key Data
+Goldman estimates that its group of short-term oil plays "will grow EPS by a median of 94% in 2018 compared with the consensus forecast of 16% for the median S&P 500 stock." The stocks listed above are the top 9 on the list of 16, in terms of the future gains implied by Goldman's price targets. Here are those gain forecasts, plus Goldman's projections of sales and EPS growth in 2018, and the consensus forward P/E ratios:
+Williams: +45% to target, -21% sales growth, +44% EPS growth, 27x forward EPS
+Cabot: +30%, +17%, +94%, 22x
+Noble: +28%, +13%, +245%, 34x
+Halliburton: +20%, +21%, +99%, 19x
+Occidental: +17%, +56%, +463%, 23x
+ConocoPhillips: +16%, +42%, +458%, 19x
+TechnipFMC: +16%, -18%, -18%, 24x
+Pioneer: +15% +39%, +192%,  30x
+EOG: +15%, +56%, +431%, 26x
+Data is as of April 26, as presented in Goldman's U.S. Weekly Kickstart report dated April 27. Williams and Occidental also stand out for dividend yields of 5.3% and 4.0%, respectively, far above the list median of 1.6% and the S&P 500 median of 1.8%, per Goldman. (For more, see also: Top 4 Alternative Energy Stocks as of May 2018.)
+Strategic Caution
+The recent rally in energy stocks has been driven by "improving cash flows and capex discipline," Goldman says, while warning that "decelerating economic growth poses a risk to the sector, and positioning and valuation are less compelling than many expect." Noting that strong worldwide GDP growth has driven increased demand for oil, Goldman sees a marked deceleration in their Current [Economic] Activity Indicators, and they expect oil prices to stall later in 2018, with increased supply being another factor weighing on prices.
+Regarding positioning, Goldman finds that hedge funds and large cap mutual funds are, contrary to clients' perceptions, actually slightly overweight in energy stocks. Concerning energy stock valuations, they have come down recently as the result of improving earnings reports, but on a relative basis, compared to the S&P 500, they are roughly at their 10-year averages, Goldman finds. This based on Goldman's analysis of six valuation metrics, EV/sales, EV/EBITDA, price-to-book (P/B), FCF yield, PEG ratio, and P/E ratio.
+Moreover, Goldman adds, energy stocks are a high-beta group with greater ups and downs than the stock market overall, meaning that outperformance versus the S&P 500 can swing rapidly to underperformance. The median consensus forward P/E on Goldman's list of 16 energy stocks is 22 times earnings, versus 17 times for the S&P 500. (For more, see also: Here's 8 Energy Stocks to Power Your Portfolio in 2018.)
+High on Oil
+A more upbeat outlook for oil was sounded by Craig Johnson, chief market technician at Piper Jaffray, in remarks on CNBC. "We're overweight the space," he said regarding energy stocks, adding, "We think there's lots of leverage in there." He noted that his firm is avoiding laggards Exxon Mobil Corp. (XOM) and Chevron Corp. (CVX), however, which are pulling down the overall performance of the energy sector and related ETFs.
+Larry McDonald, editor of the Bear Traps Report, told CNBC, "For most of the year the companies have dramatically underperformed the commodity, but over the last month there's a real catch-up going on." For example, CNBC indicates, the price of oil was up by almost 13% for the year-to-date through April 27, while the Energy Select Sector SPDR Fund (XLE) had risen by only about 3%. Johnson estimated that, minus Exxon and Chevron, the ETF would have posted a YTD gain of more than 7% through April. He expects the ETF to revisit its 52-week high of $78, about 7% above its May 3 value.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

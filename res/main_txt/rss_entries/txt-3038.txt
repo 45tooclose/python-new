@@ -1,0 +1,211 @@
+
+
+
+BBVA Conducts World’s First Corporate Loan Deal on Blockchain
+BBVA conducted the world’s first corporate loan transaction using blockchain technology in one of its recent pilots. The deal was carried out with Spain’s IT company Indra.
+
+
+ by  Anatol
+Antonovici,
+24 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  Banco Bilbao Vizcaya Argentaria (BBVA) became the first multinational bank to release a loan by applying distributed ledger technology (DLT), commonly known as blockchain. The bank, which is headquartered in Bilbao, Spain, said that it conducted the whole process for a €75m corporate loan, which included the terms negotiation and the closing of the deal. During the process, both the bank and the borrowing company were able to monitor how the deal was evolving.
+For the experiment, BBVA applied a private, Hyperldger-based blockchain for the negotiation and completion of the deal. Once the loan contract was negotiated, a hash related to the transaction’s documentation was registered on Ethereum’s public blockchain (testnet), thus ensuring the immutability of the deal.
+
+BBVA said that the negotiation time for the loan was reduced from several days to hours, and it praised the results, saying that it was as a “significant advance in the exploitation of [blockchain] technology” in both public and private environments.
+
+BBVA’s chief executive Carlos Torres Vila reportedly said: “Blockchain can offer clear advantages for all sides in the corporate loan market in terms of efficiency, transparency, security.”
+“It’s another strong example of how disruptive technology can be used to add value to financial services, something that is central to our strategy,” he added.
+
+Vila said that BBVA had more transactions to be carried out in a similar manner, besides the current one conducted with Spanish telecoms firm Indra.
+BBVA is a member of Hyperledger, which backed the current loan transaction with its technology, R3 consortium, and the Ethereum Enterprise Alliance. At the moment, the bank is conducting more blockchain pilots for a variety of use cases in the banking sector, such as international payments, Forex, and international trade.
+Indra is a leading consulting and technology firm. It provides proprietary solutions worldwide in Transport and Defense Markets and is the top IT services provider in Spain and Latin America.
+
+Borja Ochoa, Indra’s director of financial services, said that blockchain was “destined to become one of the technologies that will change the way we interact with products and financial services.”
+“This pilot served as an opportunity to take part in the first corporate loan operation based on blockchain technology in the world,” he added.
+
+Both Indra and BBVA are members of the Spanish national blockchain consortium called Alastria.Last year, BBVA and Wave ran a successful blockchain pilot to conduct an international trade transaction between Spain and Mexico. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

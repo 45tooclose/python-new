@@ -1,0 +1,141 @@
+
+
+    
+                          What is 'Bitcoin Mining'
+
+      Bitcoin mining is the process by which transactions are verified and added to the public ledger, known as the block chain, and also the means through which new bitcoin are released. Anyone with access to the internet and suitable hardware can participate in mining. The mining process involves compiling recent transactions into blocks and trying to solve a computationally difficult puzzle.  The participant who first solves the puzzle gets to place the next block on the block chain and claim the rewards.  The rewards, which incentivize mining, are both the transaction fees associated with the transactions compiled in the block as well as newly released bitcoin. (Related: How Does Bitcoin Mining Work?)
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Block Reward                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Block (Bitcoin Block)                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Application-Specific Integrated ...                     
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Bitcoin Unlimited                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Bitcoin Mining'
+      The amount of new bitcoin released with each mined block is called the block reward. The block reward is halved every 210,000 blocks, or roughly every 4 years. The block reward started at 50 in 2009, is now 12.5 in 2018, and will continue to decrease. This diminishing block reward will result in a total release of bitcoin that approaches 21 million.  
+[ Mining cryptocurrencies has been a popular way to make money in the cryptocurrency market, but Bitcoin and other coins have become increasingly expensive to mine. If you're interested in an alternative, Investopedia's Crypto Trading Course will show you how to profit by trading cryptocurrencies. You'll learn topics like how to set up a wallet, research various coins, and technical analysis techniques from a Wall Street veteran that has become a cryptocurrency trader. ]
+How hard are the puzzles involved in mining? Well, that depends on how much effort is being put into mining across the network. The difficulty of the mining can be adjusted, and is adjusted by the protocol every 2016 blocks, or roughly every 2 weeks. The difficulty adjusts itself with the aim of keeping the rate of block discovery constant. Thus if more computational power is employed in mining, then the difficulty will adjust upwards to make mining harder.  And if computational power is taken off of the network, the opposite happens. The difficulty adjusts downward to make mining easier.
+In addition to being the means of generating new bitcoin, bitcoin mining creates the blockchain that verifies bitcoin transactions. The block reward is gleaned by placing a new block on the blockchain, which acts as an advancing public ledger of verified transaction. This is an essential function for bitcoin's operation as it enables the currency to be safely and predictably created without the centralized regulation in the form of a bank or federal government. Blocks must to be a validated by a proof-of-work (Bitcoin uses Hashcash), which can only be obtained by expending a great deal of processing power. Once a block is obtained a message is broadcast to the mining network and verified by all recipients. 
+In the earliest days of Bitcoin, mining was done with CPUs from normal desktop computers.  Graphics cards, or graphics processing units (GPUs), are more effective at mining than CPUs and as Bitcoin gained popularity, GPUs became dominant.  Eventually, hardware known as an ASIC, which stands for Application-Specific Integrated Circuit, was designed specifically for mining bitcoin.  The first ones were released in 2013 and have been improved upon since, with more efficient designs coming to market.  Mining is competitive and today can only be done profitably with the latest ASICs.  When using CPUs, GPUs, or even the older ASICs, the cost of energy consumption is greater than the revenue generated.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

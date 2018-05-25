@@ -1,0 +1,214 @@
+
+
+
+Barclays CEO Shoots Down Crypto Trading Desk Rumors
+Barclays is not launching a cryptocurrency desk just yet, CEO Jes Staley has made clear.
+
+
+ by  Komfie
+Manalo,
+13 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  Barclays is not jumping on the cryptocurrency bandwagon, at least not yet, as CEO Jes Staley has clarified. The UK banking behemoth does not currently have any plans to set up a digital currency trading desk, he told investors gathered for the annual meeting on Tuesday.
+Staley’s remarks defied recent rumors that the London-based institution was in “preliminary discussions” with clients and was holding internal talks over the launch of a crypto trading desk. According to the CEO, Barclays is catering to the cryptocurrency trading needs of its clients elsewhere.
+However, he acknowledged that the bank was looking into virtual currency trading and other blockchain-related opportunities but remains concerned about rules and regulations as well as the excessive volatility of cryptocurrencies.
+
+Staley told investors at the meeting:
+
+“Cryptocurrency is a real challenge for us because, on the one hand, there is the innovative side of it and wanting to stay in the forefront of technology's improvement in finance. On the other side of it, there is the possibility of cryptocurrencies being used for activities that the bank wants to have no part of.”
+
+Speculations that Barclays was planning on unveiling a digital currency trading desk emerged last month, when spokesman Andrew Smith told Bloomberg:
+
+“We constantly monitor developments in the digital currency space and will continue to have a dialog with our clients on their needs and intentions in this market.”
+
+Aside from Staley’s blessing, a digital currency trading desk within Barclays will also require the approval of investment banking division head Tim Throsby.
+Goldman makes crypto hires in prelude to crypto desk
+Late in April, Goldman Sachs hired cryptocurrency trader Justin Schmidt in a move many saw as a prelude to the launch of a crypto trading desk. Schmidt will head the bank’s digital asset markets for its securities division. He formerly president of Seven Eight Capital and ex-portfolio manager at LMR Partners.
+Goldman Sachs commented on the hiring of Schmidt:
+
+“In response to client interest in various digital products, we are exploring how best to serve them in the space. At this point, we have not reached a conclusion on the scope of our digital asset offering.”
+ 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

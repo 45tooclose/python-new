@@ -1,0 +1,142 @@
+
+
+    
+                          What is 'Note Against Bond Spread - NOB'
+
+      A note against bond spread is a spread within futures contracts created by offsetting positions in 30-year treasury bond futures with positions in 10-year treasury note contracts.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Five Against Note Spread - FAN                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Yield Curve Risk                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            High-Yield Bond Spread                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            30-Year Treasury                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Note Against Bond Spread - NOB'
+      Also known as the note over bond spread, the note against bond spread gives traders and investors a means with which to play anticipated changes in the yield curve. The yield curve is simply the difference between short-term and long-term interest rates. One example would be the difference in yield on the five-year note versus the 30-year bond.
+With the NOB, the position a futures trader will take depends upon their perception of the yield curve. Yields have an inverse relationship to prices. When yields are down, prices on Treasuries will increase and vice versa. So, if a flat yield curve is expected, the investor will take a long position in the bond and a short in the note contract. If the yield curve is steep, the investor will short the bond and take a long position in the note contract.
+Bond yields are charted over varying time frames and maturity levels, and the “steepness” and “flatness” in the curves can indicate potential changes in interest rates as well as economic expectations. Typically, strong economies have steepening yield curves - the longer maturity yields increase more than the shorter maturity yields. Weak economies have flattening yield curves - the longer maturity yields decrease more than the shorter maturity yields. 
+Calculating ‘Note Against Bond Spread – NOB’
+The Chicago Mercantile Exchange, or CME, publishes a spread ratio that determines how many contracts should be used. A spread ratio of 3:1, for example, means the NOB will be comprised of 3 three ten-year note futures contracts to a single bond futures contract. Whether you buy the ten-year notes and sell the bond or vice versa depends on your market forecast. If you believe the yield curve will flatten, you would sell the ten-year notes and buy the bond. If you believe the yield curve will steepen, you would buy the ten-year notes and sell the bond.
+The NOB spread is designed to take advantage of changes in the yield curve rather than trying to profit from fluctuations in the outright treasury futures contracts. In other words, traders are only concerned with changes in the curve and are not concerned about whether bonds or notes are simply rising or falling.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

@@ -1,0 +1,145 @@
+
+
+    
+                          What is a 'Non-Equity Option'
+
+      A non-equity option is a derivative contract for which the underlying assets are instruments other than equities. Typically, that means a stock index, physical commodity or futures contract, but almost any asset is optionable in the over-the-counter market. These underlying assets include fixed income securities, real estate or currencies.
+As with other options, non-equity options give the holder the right, but not the obligation transact the underlying asset at a specified price on or before a specified date.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Financial Instrument                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Call Option                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Exotic Option                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Primary Instrument                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Non-Equity Option'
+      Options, similar to all derivatives, allow investors to speculate on or hedge against movements of the underlying assets. Non-equity options will enable them to do so on instruments which are not exchange-traded equities.
+All strategies available to exchange-traded options are also available for non-equity options. These include simple puts and calls, as well as combinations, which are strategies using two or more options. Notable examples of combinations include vertical spreads, strangles, and iron butterflies. 
+For exchange-traded non-equity options, such as gold options or currency options, the exchange itself sets strike prices, expiration dates, and contract sizes. For over-the-counter versions, the buyer and seller set all terms and become counterparties to the trade. 
+Options Contracts
+The terms of an option contract specify the underlying security, the price at which the underlying security can be transacted, called the strike price, and the expiration date of the contract. An exchange-traded equity option covers 100 shares per options contract, but a non-equity option might include 10 ounces of palladium, $100,000 par value in a corporate bond or, if the counterparties so agree, $17,000 par value in bonds. Anything is possible in the over-the-counter market, as long as two parties are willing to trade.
+In a call option transaction, opening a position happens when a contract or contracts are bought from the seller, also called the writer. In the trade, the buyer pays the seller a premium to assume the obligation of selling shares at the strike price. If the seller holds the underlying asset which is being sold, the position is called a covered call.
+The major problem with over-the-counter non-equity options is that liquidity is limited because there is no guaranteed way to close the option position before expiration. To offset a position, one of the parties must find another party with whom to create the opposite option contract. If that is not possible, the investor could buy or sell another option in a related area to partially offset the movements of the original underlying asset.
+For exchange-traded options, the process is much more straightforward as all the investor needs to do is offset the position at the exchange.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

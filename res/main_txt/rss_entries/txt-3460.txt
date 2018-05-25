@@ -1,0 +1,99 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        When an investor separates a single portfolio into two portfolios, an alpha portfolio and a beta portfolio, he or she will have more control over the entire combination of risks to which he or she is exposed. By individually selecting your exposure to alpha and beta, you can enhance returns by consistently maintaining desired risk levels within your aggregate portfolio. Read on to learn how this can work for you.
+See also: Adding Alpha Without Adding Risk
+The ABCs
+Before we start, you'll need to understand a few key terms and concepts, namely alpha, beta, systematic risk and idiosyncratic risk.
+Beta - The return generated from a portfolio that can be attributed to overall market returns. Exposure to beta is equivalent to exposure to systematic risk.
+
+Alpha - The portion of a portfolio's return that cannot be attributed to market returns, and is thus independent from them. Exposure to alpha is equivalent to exposure to idiosyncratic risk.
+
+Systematic Risk - The risk that comes from investing in any security within the market. The level of systematic risk that an individual security possesses depends on how correlated it is with the overall market. This is quantitatively represented by beta exposure.
+
+Idiosyncratic Risk - The risk that comes from investing in a single security (or investment class). The level of idiosyncratic risk an individual security possesses is highly dependent on its own unique characteristics. This is quantitatively represented by alpha exposure. (Note: A single alpha position has its own idiosyncratic risk. When a portfolio contains more than one alpha position, the portfolio will then reflect each alpha position's idiosyncratic risk collectively.)
+Alpha-Beta Framework
+This measurement of portfolio returns is called the alpha-beta framework. An equation is derived with linear regression analysis by using the portfolio's return compared to the return of the market over the same period of time. The equation calculated from the regression analysis will be a simple line equation that "best fits" the data. The slope of the line produced from this equation is the portfolio's beta, and the y-intercept (the part that cannot be explained by market returns) is the alpha that was generated. (For related reading, see: Beta: Gauging Price Fluctuations.)
+The Beta Exposure Component
+A portfolio that is constructed of multiple equities will inherently have some beta exposure. Beta exposure in an individual security is not a fixed value over a given period of time. This translates to systematic risk that cannot be held at a steady value. By separating the beta component, an investor can keep a controlled set amount of beta exposure in accordance with his or her own risk tolerance. This helps enhance portfolio returns by producing more consistent portfolio returns.
+Alpha and beta expose portfolios to idiosyncratic risk and systematic risk, respectively; however, this is not necessarily a negative thing. The degree of risk to which an investor is exposed is correlated to the degree of potential return that can be expected.
+Before you can choose a level of beta exposure, you must first choose an index that you feel represents the overall market. The overall equity market is usually represented by the S&P 500 Index. This is the most widely used index to gauge market movement, as it has a wide variety of investment options.
+If you feel the S&P 500 does not accurately represent the market as a whole, there are plenty of other indexes that you will find that may suit you better. There is a limitation, however, as many of the other indexes do not have the wide variety of investment options that the S&P 500 does. This usually limits individuals to using the S&P 500 index to obtain beta exposure.
+After selecting an index, you must choose a desired level of beta exposure for your portfolio. If you invest 50% of your capital in an S&P 500 Index fund and keep the rest in cash, your portfolio has a beta of 0.5. If you invest 70% of your capital in an S&P 500 Index fund and keep the rest in cash, your portfolio beta is 0.7. This is because the S&P 500 represents the overall market, which means that it will have a beta of 1. Choosing a beta exposure is highly individual, and will be based on many factors. If a manager was benchmarked to some sort of market index, that manager would probably opt to have a high level of beta exposure. If the manager was aiming for an absolute return, he or she would probably opt to have a rather low beta exposure.
+Ways of Obtaining Beta Exposure
+There are three basic ways to obtain beta exposure: buy an index fund, buy a futures contract or buy some combination of both an index fund and futures contracts.
+There are advantages and disadvantages to each option. When using an index fund to obtain beta exposure, the manager must use a large amount of cash to establish the position. The advantage, however, is that there is no limited time horizon on buying an index fund itself. When buying index futures to obtain beta exposure, an investor only needs a portion of the cash to control the same sized position as buying the index itself. The disadvantage is that one must choose a settlement date for a futures contract, and this turnover can create higher transaction costs. (Read more about indexes in Index Investing.)
+The Alpha Component
+For an investment to be considered pure alpha, its returns must be completely independent from the returns attributed to beta. Some strategies that exemplify the definition of pure alpha are statistical arbitrage, equity neutral hedged strategies and selling liquidity premiums in the fixed-income market.
+Some portfolio managers use their alpha portfolios to buy individual equities. This method is not pure alpha, but rather the manager's skill in equity selection. This creates a positive alpha return, but it is what is referred to as "tainted alpha." It is tainted because of the consequential beta exposure that goes along with the purchase of the individual equity, which keeps this return from being pure alpha.
+Individual investors trying to replicate this strategy will find the latter scenario of producing tainted alpha to be the preferred method of execution. This is due to the inability to invest in the professionally run, privately owned funds (casually called hedge funds) that specialize in pure alpha strategies. (To learn more about hedge funds, see A Brief History of the Hedge Fund.)
+There is something of a debate on how this alpha portfolio should be allocated. One methodology states that a portfolio manager should make one large alpha "bet" with the alpha portfolio's capital set aside for alpha generation. This would result in the purchase of a sole individual investment, and it would use the entire amount of capital set within the alpha portfolio.
+There is some dissent among investors though, because some say a single alpha investment is too risky, and a manager should hold numerous alpha positions for risk diversification purposes. (Keep reading about alpha in Understanding Volatility Measurements.)
+The Bottom Line
+Some might question why you would want to have beta exposure within a portfolio. After all, if you could fully invest in pure alpha sources and expose yourself solely to the uncorrelated returns through exposure to pure idiosyncratic risk, wouldn't you do so? The reason lies in the benefits of passively capturing gains over the long term that have historically occurred with beta exposure.
+In order to have more control over the total risk to which an investor is exposed in an aggregate portfolio, he or she must separate this portfolio into two portfolios: an alpha portfolio and a beta portfolio. From here the investor must decide what level of beta exposure would be most advantageous. The excess capital from this decision is then put to use in a separate alpha portfolio to create the best alpha-beta framework.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

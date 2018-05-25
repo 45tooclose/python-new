@@ -1,0 +1,75 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Advanced Micro Devices, Inc. (AMD) shares rose more than 20% on Thursday after the company reported better-than-expected first quarter financial results. Revenue rose nearly 40% to $1.65 billion – beating consensus estimates by $80 million – and earnings per share of 11 cents beat consensus estimates by two cents per share. Management also projected second quarter revenue of $1.675 billion to $1.775 billion versus a consensus of $1.58 billion.
+On CNBC, CEO Lisa Su indicated that cryptocurrency mining accounts for just 10% of revenue, which is less than the market had assumed. That's good news given the decline in bitcoin prices between March and April, although the recent recovery has offset many of those losses. Stifel analysts also raised their price target on AMD stock to $14.00 per share, which represents a 44% premium to the market price at the close on April 25, 2018. (See also: AMD Buyers in Charge After Months of Weak Action.)
+
+From a technical standpoint, the stock briefly hit S1 support at $8.95 in early April before rebounding to the pivot point  and 50-day moving average at around $10.92 earlier this week. The relative strength index (RSI) is slightly overbought with a reading of 60.22, but the moving average convergence divergence (MACD) remains in a bullish uptrend. These indicators suggest that the stock could have more room to run moving into next week.
+[Learn more about supplemental technical indicators like the RSI and the MACD in Chapter 4 of the Technical Analysis course on the Investopedia Academy]
+Traders should watch for a breakout from upper trendline resistance to R1 resistance and the 200-day moving average at around $11.94 on the upside. If the stock fails to break out, traders could be looking at a move back down to the pivot point support levels or lower trendline resistance at around $9.75. The favorable Q1 financial results suggest that traders should maintain a bullish bias on the stock for the time being. (For more, see: AMD Jumps 13% on Results, Crypto Mining Craze.)
+Chart courtesy of StockCharts.com. The author holds no position in the stock(s) mentioned except through passively managed index funds. 
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Chartadvisor-Article'
+    });
+                    
+            
+                

@@ -1,0 +1,86 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Research by Goldman Sachs Group Inc. (GS) indicates that a key driver of future stock price gains lies in building for the future through aggressive capital investment and spending on research and development (R&D). "We expect investors will reward firms prioritizing investing for future growth," as they write in a recent report. (For more, see also: 8 Stocks Spending Big for Future Growth.)
+In that earlier article we discussed eight of Goldman's recommended stocks. Here are nine more, eight of which have outperformed the S&P 500 Index (SPX) by large margins for the year-to-date: Archer-Daniels-Midland Co. (ADM), Noble Energy Inc. (NBL), HCA Healthcare Inc. (HCA), Hewlett Packard Enterprise Co. (HPE), Seagate Technology PLC (STX), United Continental Holdings Inc. (UAL), CenturyLink Inc. (CTL), The AES Corp. (AES) and Merck & Co. Inc. (MRK).
+Key Data
+For these nine stocks, here are their YTD price moves through the close on April 26, their forward P/E ratios, forecasted 2018 growth rates for EPS and sales, and their combined capex and R&D spending as a percentage of market cap:
+ADM: +15.3% YTD, 20x P/E, +20% EPS, +3% sales, 5% capex + R&D spending
+Noble: +17.4%, 39x, +164%, +8%, 18%
+HCA: +8.9%, 11x, +25%, +5%, 10%
+Hewlett Packard: +21.6%, 12x, +7%, -2%, 15%
+Seagate: +43.3%, 12x, +17%, +2%, 11%
+United Continental: -1.2%, 8x, +17%, +7%, 27%
+CenturyLink: +14.9%, 18x, -42%,+ 35%, 22%
+AES: +13.8%, 10x, +9%, NM, 29%
+Merck: +6.5%, 14x, +3%, +4%, 7%
+Forward P/E ratios are on a next-12-month (NTM) basis. With the exception of YTD price moves through April 26, all other data is as of April 19, per the April 20 edition of Goldman's U.S. Weekly Kickstart report. The S&P 500 was down by 0.2% YTD through April 26.
+Better Than Buybacks
+Looking for an edge, many investors are piling into stocks that should be propped up by aggressive share repurchase programs. Early indications are that U.S. companies will spend over $800 billion to buy back their own stock in 2018, up by 52% from 2017. (For more, see also: Record Stock Buybacks Will Fire Up the Bull Market.)
+However, Goldman finds that, since the 2016 presidential election, companies that returned the most cash to investors in the form of dividends and share repurchases have lagged the market, despite "a long-term track record of outperformance." More specifically, they write: "Our sector-neutral basket of stocks with the highest combined buyback and dividend yield (GSTHCASH) has underperformed the S&P 500 by 2 pp [percentage points] while firms with the highest trailing buyback yield [spending on buybacks divided by market cap] (GSTHREPO) have essentially matched the broad market since the election. We expect cash return strategies will continue to lag going forward as interest rates rise and yield-based strategies become less attractive."
+By contrast, as described in our earlier report on Goldman's findings (referenced above), their basket of stocks with high rates of investment for the future outperformed the S&P 500 by an impressive 10 percentage points in 2017. While these stocks have been in the doldrums so far in 2018, Goldman expects a turnaround.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                

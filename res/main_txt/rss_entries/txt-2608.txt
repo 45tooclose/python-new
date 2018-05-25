@@ -1,0 +1,101 @@
+
+
+
+    
+        
+            
+        
+          
+                
+      
+
+    
+
+    
+        Encompassing a broad range of money topics – from balancing a checkbook to developing a household budget and planning for retirement – financial literacy shapes the way we view and handle money.
+Non-profit Money Management International, a provider of financial education and counseling services, has created a 30-step path to financial wellness. To help you get started: five financial improvements from its list with some of Investopedia's best articles to kick-start (or jump-start) your journey to financial literacy.
+1. Identify your Starting Point
+If you don't know where you are financially, it can be challenging to plan for where you want to be next year, five years from now or decades down the road in retirement. That's why it is important to identify your starting point.
+Calculating your net worth is the best way to gauge both your current financial health and your progress over time. Net worth is the amount by which assets exceed liabilities and can provide a wake-up call if you are off track – or confirmation that you are doing well.
+Suggested Investopedia reading:
+The Complete Guide to Calculating Your Net Worth – This guide explains why it's important to calculate your net worth and provides step-by-step instructions for making the calculation. Also included are tips for building your net worth. 
+2. Set Your Priorities
+Creating a list of needs and wants can help you set financial priorities. Needs are things you must have in order to survive: food, shelter, clothing, healthcare and transportation. Wants, on the other hand, are things you would like to have, but aren't necessary for survival. Many people get into financial trouble by spending too much on wants and don't have enough left over for their needs.
+Knowing the difference between the two, and being mindful of the distinction when making spending choices, goes a long way when it comes to your financial wellness. You'll need to rank your needs as well as your wants in order to clearly define where your money should go first. This not only applies to your current expenses, but to your goals – which can also fall into the categories of wants and needs. For example, Needless to say: saving for a tropical vacation falls into the wants column, while stashing cash for retirement is a definite need.
+Suggested Investopedia reading:
+Five Rules to Improve Your Financial Health – This article covers five broad personal finance rules that can help you set your priorities and achieve financial goals. It also pinpoints a variety of areas where you may be losing money without realizing it.
+3. Document Your Spending
+Most people could tell you how much money they make in a year. Fewer could state how much money they spend, however, and fewer still could explain how and where they spend it. One of the best ways to figure out your cash flow – what comes in and what goes out – is to create a budget, or a personal spending plan.
+A budget forces you to put down on paper all of your income and expenses, and this can be an indispensable tool for helping you meet financial obligations now and in the future. As an added bonus, a budget can be a real eye-opener when it comes to spending choices. Many people are surprised to find out just how much money they are spending on superfluous goods and services.
+Suggested Investopedia reading:
+The Complete Guide to Planning a Yearly Budget – This in-depth guide explains why it’s important to develop a budget and provides step-by-step instructions for creating your own annual budget, with tips for making accurate projections. 
+4. Pay Down Your Debt
+Most people have debt – mortgage and auto loans, credit cards, medical bills, student loans and the like. What makes living with debt so costly is not just the interest and fees, but because it can prevent people from ever “getting ahead” with their financial goals. It can also be an emotional drain on individuals and families.
+While the best strategy is to avoid getting into debt to begin with (by making practical spending choices and living within one’s means), there are strategies to pay down and get out from under the debt people have already acquired. 
+Suggested Investopedia reading: 
+Digging Out of Debt in 8 Steps – This slideshow demonstrates steps you can take to get out of debt – from acknowledging your financial missteps and checking your credit report, to finding the money to help pay down your accumulated expenses. 
+5. Secure your Financial Future
+Due to dire financial circumstances, many people adopt “I’ll never retire” as a retirement plan. This approach has several major flaws.
+Firstly, you can’t always control when you retire. You could lose the job that you’ve held for decades, suffer an illness or injury, or be forced to care for a loved one – any of which could lead to an unplanned retirement. Secondly, saying you won't retire is often an excuse for those who don’t want to spend the time and energy to develop a real plan, or who simply don’t know how.
+Learning more about your retirement options is an essential part of securing your financial future. Even if you can’t save much, every bit helps. Once you've developed a plan, you could end up making better spending choices now that you have a goal in mind.
+Suggested Investopedia reading:
+Analyzing the Best Retirement Plans and Investment Options – As the title suggests, this guide covers a variety of retirement plans and investment options, from annuities and bond, to mutual funds and stocks. 
+The Bottom Line
+Even though you may have completed your education, you're not done acquiring financial literacy. It's best to be proactive. Even if you didn't learn money skills at home or at school, it's never too late to catch up.  Re-aligning your focus and adjusting your finances now will make all the difference for your future. 
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

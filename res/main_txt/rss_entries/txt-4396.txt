@@ -1,0 +1,84 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Salesforce.com Inc. (NYSE: CRM) is a provider of software-based customer relationship management (CRM) solutions to large and small corporations. An early adaptor to cloud-based computing, the company was an innovator of selling software as a service that is accessed online, as opposed to being hosted on a client’s computer system. The firm has been rapidly expanding the range and variability of its software offerings to serve the needs of companies of all sizes. It has revenues of $8.4 billion in 2017 and a market cap of $91.52 billion as of March 21, 2018. Its main competitor is Oracle Corp. (NYSE: ORCL), whose chairman, Larry Ellison, was an early investor in Salesforce.com.
+On March 20, 2018, the company announced its plan to acquire MuleSoft, Inc. (MULE) for $6.5 billion, which represented a 36% premium over the closing price on March 19, 2018. The acquisition was completed on May 2, 2018. 
+Salesforce.com has been a popular holding for many mutual fund portfolio managers. The five largest mutual fund investors in the company’s stock hold a combined total of more than 10.4% of the firm’s outstanding shares. 
+Fidelity Contrafund (FCNTX)
+The  Fidelity Contrafund ("FCNTX") is a large-cap growth fund that seeks capital appreciation. The four-star Morningstar rated fund has $91.65 billion of assets under management (AUM), an expense ratio of 0.74%, a 28.99% turnover rate and a five-year annualized total return of 15.25% (as of May 2, 2018). Its comparative index is the S&P 500 Index, which it slightly outperforms on a regular basis. Fidelity Contrafund is the largest mutual fund investment in Salesforce, with 27.1 million shares. The fund has 2.55% of assets invested in Salesforce.com, which is 3.70% of the firm’s outstanding shares.
+Vanguard Total Stock Market Index Fund (VTSMX)
+The  Vanguard Total Stock Market Index Fund ("VTSMX") is a passively managed index fund. It tracks the CRSP US Total Market Index, which includes all companies regularly traded on NASDAQ and the New York Stock Exchange. The four-star Morningstar rated fund has AUM of $672.4 billion, an expense ratio of 0.14%, a turnover rate of 3.1% and a five-year annualized total return of 12.60% (as of April 30, 2018). It owns 2.31% of Salesforce.com’s common stock, which accounts for 0.29% of the fund's net assets.
+Vangaurd 500 Index Inv (VFINX)
+The Vanguard 500 Index Inv ("VFINX") is a large-blend growth fund that tracks the performance of the S&P 500. The four-star Morningstar rated fund has AUM of $400.6 billion, an expense ratio of 0.14%, a 3.1% turnover rate and a five-year annualized total return of 12.80% (as of December 31, 2017) The fund owns 12.2 million, or 1.66%, of Salesforce.com’s shares, which equates to 0.35% of the fund’s assets.
+Fidelity Growth Company Fund (FDGRX)
+The Fidelity Growth Company Fund ("FDGRX") is a large-cap growth fund that seeks capital appreciation. The five-star Morningstar rated fund has $42.5 billion AUM, an expense ratio of 0.85%, an 15% turnover rate and a five-year annualized total return of 19.01% (as of March 31, 2018). The fund’s comparative index is the Russell 3000 Growth Index, which it steadily outperforms. Salesforce.com comprises 2.83% of the fund's holdings and representing 1.41% of the company’s outstanding common stock, or 10.3 million shares.
+The Fidelity Growth Company Fund is currently closed to new investors.
+ T. Rowe Price Blue Chip Growth Fund (TRBCX)
+ The T. Rowe Price Blue Chip Growth Fund ("TRBCX") invests in the common stocks of large and medium-sized blue chip companies. The four-star Morningstar rated fund has AUM of $50 billion, an expense ratio of .72%, a turnover rate of 5.9% and a five-year annualized total return of 18.39% as of April 30, 2018. The fund invests 1.98% of its net assets in 1.17%, or 8.6 million, of Salesforce.com’s outstanding shares. 
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Short-Article'
+    });
+                    
+            
+                

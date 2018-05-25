@@ -1,0 +1,203 @@
+
+
+
+Kind Ads Virtual Crypto Summit Goes On Air, Don’t Miss Crypto’s Biggest Online Conference
+Kind Ads is hosting the biggest virtual crypto summit with top industry experts ready to share their insights and opinions. The event will be streamed online, May 4th, 2018 - and everyone is invited.
+
+
+ by  News
+Desk,
+12 mins ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+  Do you often miss exciting crypto industry events because they take place too far from your location or tickets cost a fortune? This time it's different! The first virtual crypto summit, organized by Kind Ads, will be held online with tickets free for all attendees. It means that everyone interested is welcome to join the stream on May 4 from 6:00 a.m. PST to 3:30 p.m. PST.
+More than ten world-class crypto industry experts will come to share their views on the most burning issues of the cryptocurrency world, including the future of digital money, content rights and user protection in the crypto age. Speakers include Neil Patel, founder & CEO of CrazyEgg, Eran Eyal, founder & CEO of Shopin, and Daniel Schwartzkopff, founder & CEO of Crypto20.
+Hunain Naseer, Head of Content at Cryptovest.com is also among the speakers, and will be discussing stablecoins.
+
+The Virtual Summit aims to educate anyone with an internet connection about crypto. Participants will be able to learn from the best talents in the marketing and advertising space and gain a greater in-depth understanding of what's going on in the crypto world while dispelling myths and misconceptions. All participants will have access to the live and recorded content broadcasted during the summit.
+To take part, just sign up for the event at the Kind Ads Virtual Summit website and claim your free ticket. Those who sign up and join the official Kind Ads Telegram channel will get a chance to win a Solid Gold Bitcoin Bracelet worth €2,000 or one of 50 Silver Bitcoin Bracelets and 100 Trezors.
+What is Kind Ads
+Kind Ads is a project that joins advertisers, publishers, and consumers into a single ecosystem. It builds a bridge between publishers, advertisers, and users by taking advertising on a decentralized platform and cutting out intermediaries from the value-added chain. This decentralized technology allows advertisers to work directly with publishers and run effective targeted advertising campaigns across multiple channels with transparent statistics and efficient promotion campaign results for both publishers and advertisers. Users and app developers participating in the Kind Ads ecosystem will also be rewarded and incentivized with Kind Ads tokens. 
+
+
+function twitter_getEmbedJsonByUrl(url, callback){
+	if(url){
+		$.ajax({
+    		url: "https://api.twitter.com/1/statuses/oembed.json?url="+url,
+    		dataType: "jsonp",
+    		async: false,
+    		success: function(data){
+    			callback(data.html, data);   
+    		}
+		});
+	}
+}
+
+function twitter_verifyUrl(url){
+	try{
+		var urlb=url.split('twitter.com/');
+		var urlc=urlb[1].split('/');
+		var user=urlc[0];
+		var status=urlc[1];
+		var id=urlc[2];
+		if(user && status && id)return true;
+		
+	} catch(e){
+		
+	}
+	return false;
+}
+
+function twitter_parseContentElement(element){
+	var atags=element.getElementsByTagName('a');
+	var nod;
+	if(atags && atags.length){
+		for(var i=0;i<atags.length;i++){
+			nod=atags[i];
+			if((nod.host=='twitter.com' || nod.hostname=='twitter.com') && twitter_verifyUrl(nod.href)){
+				(function(nod){
+					twitter_getEmbedJsonByUrl(nod.href, function(html,json){
+						nod.innerHTML=html;
+						nod.classList.add("twitterembedurl");
+					});
+				})(nod);
+			}
+		}
+	}
+}
+
+function twitter_initContentParser(){
+	var defcls='twitterembedcontainer';
+	var markcls='twitterembedcontainerm';
+	var twicont=document.getElementsByClassName(defcls);
+	for(var i=0;i<twicont.length;i++){
+		if(!twicont[i].classList.contains(markcls)){
+    		twitter_parseContentElement(twicont[i]);
+    		twicont[i].classList.add(markcls);
+		}
+	}
+}
+
+ 
+×
+
+
+
+
+.modalimagetarget {
+    cursor: pointer;
+}
+
+.modalimagetarget:hover {opacity: 0.7;}
+
+.modalImg {
+    display: none;
+    position: fixed;
+    z-index: 10000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modalImg .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modalImg .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modalImg .modal-content, .modalImg .caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes  zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.modalImg .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modalImg .close:hover,
+.modalImg .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 700px){
+    .modalImg .modal-content {
+        width: 100%;
+    }
+}
+
+
+function componentModalImageInit(){
+	var modal = document.getElementById('modalimage');
+	var imgs = document.getElementsByClassName('modalimagetarget');
+	var img;
+	var modalImg = modal.getElementsByClassName("modal-content")[0];
+	var captionText = modal.getElementsByClassName("caption")[0];
+	
+	$('.mainContainer').on('click', '.modalimagetarget', function(e){
+		var img=$(this);
+		modal.style.display = "block";
+	    modalImg.src = img.attr('src');
+	});
+	
+	var close = modal.getElementsByClassName("close")[0];
+	close.onclick = function() { 
+	    modal.style.display = "none";
+	};
+	modal.onclick=close.onclick;
+}
+
+ 

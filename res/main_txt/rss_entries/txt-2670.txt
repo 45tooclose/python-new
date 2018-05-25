@@ -1,0 +1,88 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Stablecoins are a new breed of cryptocoins that are gaining popularity as they aim to tackle the problem of cryptocurrency volatility. Popular stablecoins include Tether, MakerDao’s DAI, Basecoin, and TrueUSD. This article looks at what stablecoins are, how they work, how they ensure price stability, as well as their potential. (See also, The Safest Currencies in the World.)
+What are Stablecoins?
+A currency is used as a medium of exchange and a mode of storage of value, and its value has to be stable. The world’s most popular cryptocurrency, Bitcoin, has recently seen high levels of volatility. Between mid-November and mid-December of last year, it shot from $5,940 to above $19,190, and then it fell to levels of $6,900 by early February. Even on an intraday basis, it is not uncommon to see cryptocurrencies jump or fall by 10 percent in a 24-hour period.
+Swings of this magnitude are not characteristics of a stable currency, but they make for speculative trading instruments like derivatives which are attractive to speculators but impractical for mainstream use. This has led to serious questions about the viability of present day popular cryptocurrencies as a reliable mode of transactions. (For more, see Is Bitcoin Failing As a Currency?)
+Enter a new class of cryptocurrencies, called stablecoins, which aim to offer price stability and steady valuations. A model cryptocoin should retain its purchasing power and have the minimum possible inflation, sufficient enough to encourage spending the coins instead of storing them. Stablecoins attempt to achieve this ideal behavior.
+Since a cryptocurrency operates on a global level and is not controlled by any central authority (like a central bank), it offers the best of both worlds – the security, anonymity and decentralized features of a cryptocurrency, and the low volatility of a fiat currency.
+How Do Stablecoins (attempt to) Maintain Steady Valuations?
+Present-day fiat currencies are pegged to an underlying asset such as gold.
+Similarly, stablecoins attempt to achieve little or no volatility as they are tied to price-stable assets like the U.S. dollar or gold. Different stablecoins use different methods to achieve price stability, and those can be broadly categorized in the following three groups:
+Fiat-collateralized stablecoins: These stablecoins use a particular amount of a standard fiat currency, like the U.S. dollar, as collateral to issue cryptocoins. Other forms of collateral can include precious metals like gold and silver, as well as commodities like oil.
+With the number of cryptocoins issued in a 1:1 ratio against the pegged fiat currency, this method is one of the simplest ways to create and operate a stable cryptocurrency. It is also being viewed as a possible solution that can be adopted by central banks to issue their own versions of cryptocurrencies.
+However, this method requires a custodian to hold the fiat currency or commodity collateral, and guarantee the issuance as well redemption of the stablecoin tokens. It also requires operational processes, like frequent audits and valuations, to ensure that collateral valuations are being maintained up to the mark. Tether (USDT) and TrueUSD are popular cryptocoins that have a value equivalent to that of a single U.S. dollar, and are backed by dollar deposits.
+Crypto-collateralized stablecoins: Crypto-collateralized stablecoins are similar to fiat-collateralized stablecoins, except that their underlying collateral is another cryptocurrency instead of a real-world tangible commodity or a fiat currency. To accommodate the adverse impact of the collateral cryptocurrency's volatility, the stablecoins are “over-collateralized” – that is, a higher valued-cryptocurrency is used to issue lesser valued-stablecoins. For instance, $1,000 worth of bitcoins may be required to issue $500 worth of stablecoins. Even if bitcoin loses 30 percent of its value, the stablecoins will still remain covered. Additionally, more frequent audits and regular top-up for any shortfalls in collateral value will keep the stablecoins covered. MakerDAO’s DAI allows for using a basket of crypto-assets as collateral. It is pegged against the U.S. dollar and is completely backed by ethereum.
+However, in case the collateral cryptocurrency goes completely bust, if there are procedural issues with the audit process, or if demands of additional top-up of collateral are not met in time, the stablecoin valuations will plummet, defeating the whole purpose of stablecoins. Such scenarios are the reasons that this approached is discouraged by many stablecoin proponents.
+Non-collateralized stablecoins: These stablecoins are not backed by any collateral, but operate in such a way that they are expected to retain a stable value. For example, a non-collateralized stablecoin can incorporate a rule that ensures adjusting the quantity of coin supply in proportion to the changes in the value of the coin. This is akin to the actions performed by a central bank which increases or reduces the printing of bank notes to keep the fiat currency stable. It can be achieved by implementing a smart contract on a decentralized platform that can run in an autonomous manner. Basecoin is pegged to $1 USD and follows a non-collateralized approach. It uses a consensus to reduce and increase the supply of the coin on a need basis.
+The Future Potential
+The increasing adoption of stablecoins will act as an important catalyst to popularize the use of cryptocurrencies as a mainstream medium of everyday transactions, as well as for other applications. Such applications may include using them for trading of goods and services over blockchain networks, decentralized insurance solution, derivatives contracts, financial applications like consumer loans, and prediction markets. Such transactions are not possible if the transacting currency remains volatile which brings the inherent risk of one of the transacting parties losing the monetary value due to price volatility.
+The Bottom Line
+Stablecoins offer the best of both worlds – a decentralized, anonymous and global payment mechanism like a cryptocurrency, and steady valuations like a stable fiat currency. While stablecoins continue to gain popularity, the increasing number of new launches and the variety of customized collateral methods to achieve the objective of price stability may lead to different outcomes and varying levels of success. Despite all claims of a foolproof working mechanism, extreme events may still mar their working, as even fiat currencies like the Saudi Arabian riyal, the Venezuelan bolivar, and the Zimbabwean dollar have seen wide swings. (For more, see Top 8 Most Tradable Currencies.)
+Investing in cryptocurrencies and Initial Coin Offerings ("ICOs") is highly risky and speculative, and this article is not a recommendation by Investopedia or the writer to invest in cryptocurrencies or ICOs. Since each individual's situation is unique, a qualified professional should always be consulted before making any financial decisions. Investopedia makes no representations or warranties as to the accuracy or timeliness of the information contained herein. As of the date this article was written, the author owns no cryptocurrencies.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

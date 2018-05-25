@@ -1,0 +1,141 @@
+
+
+    
+                          WHAT IS 'Crush Spread'
+
+      A crush spread is a trading strategy used in the soybean futures market. A soybean crush spread is often used by traders to manage risk by combining separate soybean, soybean oil and soybean meal futures positions into a single position. The crush spread position is used to hedge the margin between soybean futures and soybean oil and soybean meal futures. A crush spread is similar to a crack spread in the crude oil market in that it is multiple positions in a single category combined into one position.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Intercommodity Spread                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Supply Curve                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Commodity Futures Contract                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Gross Processing Margin - GPM                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Crush Spread'
+      A crush spread as a trading strategy involves taking a long position on soybean futures and a short position on soybean oil and soybean meal futures. A reverse crush spread involves taking a short position on soybean futures and a long position on soybean oil and soybean meal futures. By simultaneously purchasing soybean futures and selling soybean meal futures, a trader is attempting to establish an artificial position in the processing of soybeans, created through the spread. This means that the trader assumes that if the processing costs of the soybeans is undervalued, the spread will increase and the trader will make money by buying soybeans that will go up in price and selling soybean oil and soybean meal that will go down in price. The reverse is also true. The trader assumes that if the processing costs of the soybeans was overvalued, the reverse crush spread will make money by selling soybean futures that will decrease and buying soybean oil and soybean meal futures that will increase in value.
+Since the spread relationship between the futures will vary over time, traders can gain directional exposure to the movements.
+Using Crush Spreads
+A crush spread position is primarily used only by hedgers and speculators. Hedgers are people who are involved in the production of soybeans, soybean oil and soybean meal. Trading futures on the very products they are producing is a way of mitigating risk that the cost of their products will go down. They can balance out this risk of taking a loss on the actual product sales by making money on the crush spread of the soybeans and processed soybeans. Since a crush spread strategy exposes overinflated processing costs by increasing the costs of soybean oil and soybean meal futures relative to the costs of soybean futures, hedgers presumably could influence a crush spread by maintaining processing costs.
+Speculators are looking for mispricing in the market and will use a crush spread or a reverse crush spread to take advantage of mispricing of soybeans, soybean oil or soybean meal.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

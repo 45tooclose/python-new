@@ -1,0 +1,142 @@
+
+
+    
+                          DEFINITION of 'Negative Watch'
+
+      Negative watch is a status that the credit-rating agencies (Standard and Poor's, Moody's and Fitch) give a company while they are deciding whether to lower that company's credit rating. Once a ratings agency places a company on negative watch, there is a 50% chance that the company’s rating will officially decline in the next three months.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Moody's                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Credit Rating                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Insurance Company Credit Rating ...                     
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Credit Agency                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Negative Watch'
+      When a rating agency downgrades a company's credit rating, it is a signal that the company will likely underperform compared to its peers. Having its credit rating downgraded is a big blow for a business, because it will have to pay a higher rate of interest to borrow funds. This is in addition to the negative reputation it receives in the public eye. A downgraded credit rating signifies that a company is not solvent enough to repay its debts. For example, the company may not have enough free cash flow (FCF) to meet its long-term obligations, or there might be a larger issue at stake with regards to its position in the industry and ability to acquire new contracts or retain customers and guarantee future revenues.
+Ratings agencies may also place entire countries on negative watch in addition to companies. For example, Fitch announced that the rising budget deficit in the United States could jeopardize the nation’s credit rating. This would put the nation in a difficult position as the United States is used to receiving a pristine (triple-A) rating. In 2011 Standard and Poor’s did downgrade U.S.’s debt on the heels on the financial crisis. In April 2018 Fitch forecast that the U.S. government budget deficit could hit 5% of domestic GDP by the end of the year, and climb to 6% by the end of 2019. Models also projected that these debt levels could surge to 129% in 2027. If this pace continues, Fitch could downgrade the U.S. sovereign credit status to negative from stable. This negative watch would signal an impending ratings downgrade.
+Negative Watch and Default Premium
+Companies and countries placed on negative watch could eventually pay a default premium to access capital for growth. A default premium is the additional amount a borrower must pay to compensate a lender for assuming default risk. Investors often measure the default premium as the yield on an issuance over and above a government bond yield of similar coupon and maturity. For example, if a company issues a 10-year bond, an investor can compare this to a U.S. Treasury bond of a 10-year maturity.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

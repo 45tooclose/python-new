@@ -1,0 +1,146 @@
+
+
+    
+                          What is a 'Paper Profit (Paper Loss)'
+
+      A paper profit (or paper loss) is an unrealized capital gain (or capital loss) in an investment. For a purchased long investment, it is the difference between the current price and the purchase price. For a sold or short investment, it is the difference between the price when sold short and the current price.
+Paper profits or losses only become realized, or actual money profits or losses, when the investment position is closed.
+Portfolio valuations, mutual fund net asset values (NAV) and some tax treatments may depend on paper profits and losses. This dependency is called mark-to-market (MTM).
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Unrealized Loss                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Paper Millionaire                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Capital Loss                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Short-Term Paper                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Paper Profit (Paper Loss)'
+      Paper profits and losses are the same as unrealized gains and unrealized losses. The profit only exists in the investor's, or business entity's ledger and it will remain that way until the asset positions are closed out and settled in real money.
+Investors may hold on to paper profits because they believe the underlying asset will continue to appreciate in value. Alternatively, they may hold the profit for tax purposes, hoping to push any tax burden into the next tax year. The investor may also hold the asset to turn short-term capital gains into long-term capital gains. 
+The psychology for holding paper losses can be different as investors hope for a rebound in the underlying asset to recoup some or all of their paper losses. Holders of paper losses also consider tax treatment before realizing losses.
+Understanding the Difference Between Paper and Actual Profits
+Investors commonly justify poor investment decisions because of paper gains or losses. Consider these three examples.
+Although an investor officially recognizes a transaction when he or she sells the investment security, or cover a short position, many investors believe they haven't lost any money in a sinking investment because they haven't yet sold it. Even though there is no capital loss for tax purposes, there is still a loss in value. Keep in mind that a 25% loss in value on paper still requires a 33.3% gain on the remaining value just to break even. The odds that the investment will make money go down when paper losses mount
+On the flip side, the dot-com boom saw many "paper millionaires" created from restricted stock or options. The rules for these employee incentive rewards made it impossible for people to sell their stock and realize their wealth. Consequently, after the dot-com market crashed, many paper millionaires went broke.
+Perhaps a more relevant example for most investors is the case when they successfully pick a stock and watch it soar in price. They feel great about it and want even more gains. That leads them to ignore bad news and hold their position even though the price of the stock starts to fall. Their paper profit evaporates. Their euphoria blinded them to the signs that it was time to get out, even it if meant leaving some profit on the table.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

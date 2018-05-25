@@ -1,0 +1,143 @@
+
+
+    
+                          What is a '48-Hour Rule '
+
+      The 48-hour rule is a requirement that sellers of to-be-announced mortgage-backed securities (MBS) communicate all pool information regarding the transactions to buyers before 3 p.m. EST 48 hours before the settlement date of the trade. The Securities Industry And Financial Markets Association (SIFMA) enforces this rule. SIFMA was formerly known as the Public Securities Association or Bond Market Association.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Original Face                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Guarantee Fees                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Current Face                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Agency MBS Purchase                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN '48-Hour Rule '
+      The 48-hour rule was created to bring transparency to to-be-announced (TBA) trade settlements. The TBA market deals with mortgage-backed securities (MBS). At the time a TBA trade is made, the specific MBS that the seller will deliver to the buyer is not designated.
+A TBA trade is effectively a contract to buy or sell mortgage-backed securities (MBS) on a specific date. It does not include information regarding the pool number, the number of pools or the exact amount involved in the transaction. This exclusion of data is due to the TBA market assuming that MBS pools are more or less interchangeable. 
+The TBA process benefits buyers and sellers because it increases the liquidity of the MBS market by taking thousands of different MBS with different characteristics and trading them through a handful of contracts. Buyers and sellers of TBA trades agree on a few necessary parameters such as issuer maturity, coupon, price, par amount and settlement date. The specific securities involved in the trade are announced 48-hours before the settlement.
+Assume that the agreed upon settlement date between the buyer and the seller is July 14. The 48-hour rule requires that on July 12 by 3 p.m. EST the seller will have informed the buyer of the exact details of the MBS that will be delivered on July 14. This two-day period is also known as the 48-hour day.
+Mortgage-Backed Securities
+An MBS is a bond that is secured, or backed, by mortgage loans. Loans with similar traits are grouped to form a pool. The pool is then sold to stand as collateral for the associated MBS. The issuance of interest and principal payments to investors is at a rate based on the principal and interest payments made by the borrowers of the underlying mortgages. Investors receive interest payments on a monthly basis rather than semiannually.
+The TBA market was established in the 1970s to facilitate the trading of MBS issued by Fannie Mae, Freddie Mac, and Ginnie Mae. It allows mortgage lenders to hedge their origination pipelines. The TBA market is the most liquid secondary market for mortgage loans, resulting in high levels of market activity. In fact, the amount of money traded on the TBA market is second only to the U.S. Treasury market.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

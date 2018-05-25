@@ -1,0 +1,146 @@
+
+
+    
+                          What is 'Business Cycle Indicators (BCI)'
+
+      Business cycle indicators (BCI) are a composite of leading, lagging and coincident indexes created by the Conference Board and used to forecast changes in the direction of the overall economy of a country. They can be used to confirm or predict the peaks and troughs of the business cycle. and are published for the U.S., Mexico, France, the U.K., South Korea, Japan, Germany, Australia and Spain.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Peak                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Accounting Cycle                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            CB Leading Index                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Underwriting Cycle                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Business Cycle Indicators (BCI)'
+      Interpretation of business cycle indicators involves much more than simply reading graphs. An economy is much too complex to be summarized with just a few statistics.
+Business cycles comprise periodic fluctuations of economic activity, such as production and employment. There's usually a rise in activity that reaches a high point, or peak, followed by a decline in output and employment until the economy reaches a bottom, known as a trough. Although past business cycles may show patterns that are likely to be repeated to some degree, business cycles can start and end quite quickly for reasons that aren't always predictable. Thus, investors, traders and corporations must realize that it is unreasonable to believe that any single indicator, or even set of indicators, always gives true signals and never fails to foresee a turning point in an economy.
+ 
+Leading Business Cycle Indicators
+Leading indicators measure economic activity in which shifts may predict the onset of a business cycle. Examples of leading indicators include average weekly work hours in manufacturing, factory orders for goods, housing permits and stock prices. Changes in these metrics could signal a shift in business cycle. The Conference Board notes that leading indicators receive the most attention because of their strong tendency to shift in advance of a business cycle. Other leading indicators include the index of consumer expectations, average weekly claims for unemployment insurance and the interest rate spread. 
+According to the Conference Board, leading indicators are most meaningful when they are included as part of a framework that includes coincident and lagging indicators as they help provide needed statistical context for understanding the true nature of economic activity.
+Lagging Business Cycle Indicators
+Lagging indicators confirm the trend that leading indicators predict. Lagging indicators shift after an economy has entered a period of fluctuation. Lagging indicators highlighted by the Conference Board include the average length of unemployment, labor cost per unit of manufacturing output, the average prime rate, the consumer price index and commercial lending activity.
+Coincident Business Cycle Indicators
+Coincident indicators are aggregate measures of economic activity that shift as a business cycle progresses. Examples of coincident indicators include the unemployment rate, personal income levels and industrial production.
+
+            
+      
+            
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

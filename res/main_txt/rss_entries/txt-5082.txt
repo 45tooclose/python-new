@@ -1,0 +1,154 @@
+
+
+    
+                          DEFINITION of 'Listing Agreement'
+
+      1.) A listing agreement is a document in which a property owner (as principal) contracts with a real estate broker (as agent) to find a buyer for the owner's property. The owner executes the listing agreement to give a real estate broker the authority to act as the owner's agent in the sale of the owner's property, for which the owner agrees to pay a commission.
+2.) A listing agreement can also cover documentation for an company’s listing of its securities on an exchange, such as the New York Stock Exchange (NYSE).
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Real Estate Agent                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Exclusive Listing                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Broker Price Opinion - BPO                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Broker's Open House                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Listing Agreement'
+      1.) In the first definition, a listing agreement authorizes the broker to represent the principal and the principal's property to third parties, including securing and submitting offers for the property. Under the provisions of real estate license laws, only a broker can act as an agent to list, sell or rent another person's real estate, and in most states, listing agreements must be in writing. Because the same considerations arise in nearly all real estate transactions, most listing agreements require similar information, including a description of the property (which should have lists of any personal property that will be left with the real estate when it is sold, and of any fixtures and appliances that aren't included), listing price, broker's duties, seller's duties, broker's compensation, terms for mediation, a listing-agreement termination date, and additional terms and conditions. There are several different types of listing agreements:
+Open listing
+The seller employs any number of brokers as agents
+Non-exclusive type of listing
+The selling broker is the only broker entitled to a commission
+The seller retains the right to sell the property independently without any obligation
+Exclusive-agency listing
+The seller employs one broker to act as the exclusive agent of the property owner
+The broker receives a commission only if he or she is the procuring cause of the sale
+The seller retains the right to sell the property independently without obligation
+Exclusive-right-to-sell listing
+One broker is appointed as the sole agent of the seller and has exclusive authorization to represent the property
+The broker receives a commission no matter who sells the property while the listing agreement is in effect
+Listing Agreement and Trading Exchanges
+In order to trade on major exchanges, companies must complete listing agreements with the exchanges themselves. They must meet certain criteria; for example, in 2018 the NYSE had a key listing requirement that stipulated aggregate shareholders equity for last three fiscal years of greater than or equal to $10 million, a global market capitalization of $200 million, and a minimum share price of $4. In addition, for initial public offerings and secondaries issuers must have 400 shareholders. Other major exchanges include the Tokyo Stock Exchange or TSE, the New York Stock Exchange (NYSE), the Nasdaq, and the London Stock Exchange (LSE).
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

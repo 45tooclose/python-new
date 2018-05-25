@@ -1,0 +1,38 @@
+
+
+Bitcoin cash's next software upgrade may be even more ambitious than its first - and that's no small feat given last time it broke off from bitcoin in acrimonious fashion.
+In fact, the update, announced in November and slated for May 15, packages together a number of features that all seem about helping the network process more transactions than the original bitcoin (while adding more variety to features). Perhaps most notably, the change will quadruple bitcoin cash's block size parameter from 8 MB to 32 MB, allowing for vastly more transactions per block.
+But while that might sound aggressive given bitcoin's more limited approach, those who have been following the cryptocurrency might be surprised that such an aggressive shift wasn't pursued sooner.
+After all, last fall, bitcoin cash's developers chose to ignore the protests of bitcoin's more seasoned developers, who had long argued that increasing the block size and moving the cryptocurrency forward too fast could jeopardize the more than $157 billion network. 
+
+But that contrarian mentality has proved, at least partially, attractive - one bitcoin cash is going for a little less than $1,500 a coin, making it's market cap more than $24 billion.
+Indeed, Joshua Yabut, who contributes to the bitcoin cash protocol's main software implementation, BitcoinABC, said he doesn't expect any protest at all when users are finally given the choice to upgrade software.
+Yabut told CoinDesk:
+"Block size increases are kind of non-controversial at this point, but it's nice to see on-chain scaling happen."
+Another area where the upcoming bitcoin cash hard fork looks to scale up is through the increase of the "OP_RETURN field," where users can store added data on the blockchain, from 80 to 220 bytes.
+It's an easy change, but one that bitcoin cash developers say could have positive consequences, as the OP_RETURN function has been traditionally used by services that require time-stamping, asset creation, rights management and other use cases that expand the capabilities of blockchains
+Return of the smart contracts
+Not only did bitcoin cash developers pack in features, but they've also added back some of the old capabilities that bitcoin creator Satoshi Nakamoto stripped from the protocol early on.
+The most notable here is the addition of new kinds of smart contracts, or dynamic if-then programming statements that can give added functionality to how bitcoin cash tokens can pass between users.
+In this case, the specific smart contracts in question were deactivated after Satoshi Nakamoto realized they could provide an attack vector, but bitcoin cash developers believe they've had enough time to seal up the holes.
+"Essentially out of an abundance of caution and lack of time to fully explore and fix the edge cases that needed to be addressed, the decision was taken to simply disable any opcodes around which there were doubts or even hints of doubts," said nChain developer Steve Shadders, in a blog post describing the features in bitcoin cash's hard fork.
+It's notable that bitcoin cash is rolling these out now since bitcoin contributor Johnson Lau proposed re-adding these same smart contracts to bitcoin in February, a context that adds a bit of competition to the mix.
+"Seven years have passed and the edge cases around these opcodes are much better understood now. Additionally, the decision to disable them was taken hastily and under duress," Shadders continues in the blog post. "The [bitcoin cash] community now has had the luxury of time to address these issues thoroughly."
+Yet, since there are still potential vulnerabilities in some of the smart contracts, bitcoin cash will only be unveiling a few of them this time.
+Yabut told CoinDesk:
+"It's the first step for enabling smart contracts with the protocol which will allow us to compete with ethereum later on."
+The future of bitcoin cash
+But while most of the bitcoin cash community is excited about the change, there has been some pushback - or at least skepticism - from a minority of users.
+Much of those concerns stem from the fact that these sweeping changes weren't put to a community-wide vote before being coded. As such, some worry about the "governance model" of bitcoin cash, a term that denotes how developers and the miners of the cryptocurrency organize around the future upgrades.
+Users, this group says, are simply not getting a chance to debate on the merits of specific changes.
+Even still, the bundle of code changes doesn't seem to be so controversial it puts bitcoin cash in any danger from something serious like the network split that created it.
+All software implementations of bitcoin cash, including bitcoinABC, bitcoin unlimited and bitcoin classic, have agreed to upgrade. And there hasn't been a huge uproar from miners, node, exchanges, wallets and other services, which will also need to upgrade to the new software to support the changes.
+One of the reasons many feel good about this hard fork is that the developers decided to eliminate several features that were potentially more contentious.
+For instance, OP_GROUP, a change aimed at launching features for asset creation on bitcoin cash, was thrown out when it became known that competing proposals for these features might be on the horizon. Yet, if those proposals don't make it to the protocol relatively quickly, bitcoin cash developers don't plan on waiting - putting the opcode up for consideration on the cryptocurrency's next hard fork, slated for October.
+Meanwhile, some bitcoin cash users wonder whether the block size parameter needs to be much (much) bigger to make room for an onslaught of data-heavy bitcoin cash projects, such as Memo, a recently launched censorship-resistant social network.
+As such, bitcoin cash might continue to display ambition that can't be slowed down.
+Big metal fork image via Shutterstock
+var riuyojisrlntqyiu,riuyojisrlntqyiu_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){riuyojisrlntqyiu_poll(function(){if(window['om_loaded']){if(!riuyojisrlntqyiu){riuyojisrlntqyiu=new OptinMonsterApp();return riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="//a.optnmnstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;riuyojisrlntqyiu=new OptinMonsterApp();riuyojisrlntqyiu.init({"u":"22940.522647","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");
+
+The leader in blockchain news, CoinDesk is a media outlet that strives for the highest journalistic standards and abides by a strict set of editorial policies. CoinDesk is an independent operating subsidiary of Digital Currency Group, which invests in cryptocurrencies and blockchain startups.
+

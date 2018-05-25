@@ -1,0 +1,146 @@
+
+
+    
+                          DEFINITION of 'Xetra'
+
+      Xetra is an all-electronic trading system, based in Frankfurt, Germany. Launched in 1997 and operated by the Deutsche Börse, the Xetra platform offers increased flexibility for seeing order depth within the markets and offers trading in stocks, funds, bonds, warrants and commodities contracts.
+The Xetra system was originally created for use on the Frankfurt Stock Exchange, but has expanded to be used by various stock exchanges throughout Europe.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            DAX                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Market Depth                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Currency Warrants                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Call Warrant                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Xetra'
+      As noted above the Deutsche Börse Group operates Xetra. A diversified exchange organization, Deutsche Börse Group has a range of products and services that span the financial industry’s value chain, including listing, trading, clearing and settlement, along with custody services, liquidity management, and more.
+Deutsche Börse Group has more than 5,000 employees, with headquarters in the financial center of Frankfurt/Rhine-Main, and branches in Luxembourg, Prague, London, Zurich and Moscow, New York, Chicago, Hong Kong, Singapore, Beijing, and Tokyo.
+Xetra was one of the first global electronic trade systems and has grown to account for more than 90% of all stock trades on the Frankfurt Exchange or FRA. The FRA is one of the oldest exchanges in the world and includes notable indices, such as the DAX, the VDAX and the Eurostoxx 50. FRA hours are 9:30am to 5:30pm on weekdays.
+In addition to opening up the German markets for increased foreign investment, it is currently being used by stock exchanges in Ireland, Vienna and Shanghai.
+Xetra and Electronic Trading Systems
+In 1969 the first automated system for direct trading among U.S. institutions launched, Instinet (originally named Institutional Networks). Nasdaq followed in 1971. This began as an automated quotation system where trading occurred over the phone although broker-dealers were able to see the prices other firms were offering.The New York Stock Exchange (NYSE) subsequently launched their Designated Order Turnaround (DOT) system. This allowed brokers to route orders directly to specialists on the floor. In 1984, SuperDOT emerged, expanding the number of shares sent to the floor at one time to nearly 100,000. Nasdaq soon offered the Small Order Execution System (SOES) to compete with NYSE.  
+Today electronic trading dominates the public markets; however with greater connectivity comes greater cybersecurity threats. While individuals remain at some level of cyber-attack risk, larger entities such as businesses and government systems are often the main targets. The U.S. Department of Homeland Security uses high-tech cybersecurity measures to protect sensitive government information from other countries, nation-states, and individual hackers. Any financial system that stores credit card information from its users is at a high risk; along with systems like exchanges.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

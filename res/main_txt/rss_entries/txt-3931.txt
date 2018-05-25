@@ -1,0 +1,147 @@
+
+
+    
+                          What is 'Endorser'
+
+      An endorser is a person who is authorized to sign a negotiable security in order to transfer ownership from one party to another or to approve the terms and conditions of a contract. Endorsing a check before it is cashed or deposited is the most common and widely known example, but an endorser is also required to complete such transactions as transferring a car title or trading a financial security.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Endorsement                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Alternate Employer Endorsement                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Transfer                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Book Transfer                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Endorser'
+      Most people endorse a check to cash it, deposit it or sign it over to someone else. Signatures are usually required on the back of a check or financial instrument. Incorrectly endorsing a check can result in the bank returning the check to the issuer.
+Best Practices for an Endorser
+To properly endorse a check, the name signed on the back of the check needs to match the payee name written on the front of the check. If payee name was misspelled or written incorrectly, sign it with the incorrect version, and then sign again using the correct name. Most checks have a small section for you to write in, known as the endorsement area. Try to keep your entire signature and any other instructions in that area.
+The easiest way to endorse (but also the most dangerous) is to simply sign the check without adding any restrictions. To use that method, known as a blank endorsement, sign your name in the endorsement area. But only do this if you’re about to deposit the check or cash it. For example, a blank endorsement might make sense if you’re in a bank lobby or making a remote deposit at home.
+If you’ll mail the check, deposit it at an ATM, or carry it around for a while, use another method: Either leave the check unsigned until you’re ready to deposit, or add a restriction to the endorsement. Do this because blank endorsements are risky because somebody else can steal the endorsed check and cash it or deposit to a different account.
+A restrictive endorsement helps ensure that a check gets deposited into a particular account. To do this, include your account number with your endorsement, and provide instructions saying the money can only be deposited to your account.
+A payee can also sign a check over to somebody else, effectively paying that person with the check you received. To do so, write "Pay to the order of..." and name the new payee. Be aware that some banks do not allow this type of endorsement because the technique is sometimes used fraudulently.
+You don't have to endorse checks. Some banks allow you to deposit checks without a signature, account number, or anything else on the back.
+You can also skip the endorsement altogether. With no endorsement, nobody can see your signature or your account number unless your bank adds the account number during processing.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

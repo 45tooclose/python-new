@@ -1,0 +1,143 @@
+
+
+    
+                          What is 'Flip-Flop Note'
+
+      A flip-flop note is a type of fixed-income security that allows its holder to choose a payment stream from two different sources of debt. Flip-flop notes provide investors with two options of return, allowing them to choose the underlying debt with the higher yield for the period. Broken down even more simply, a flip-flop note lets investors choose between two different types of debt. A flip-flop note is actually an embedded option for investors.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Fixed-Rate Bond                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Zero Coupon Swap                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Debt Fund                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Debt Security                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Flip-Flop Note'
+      All flip-flop notes are technically debt securities that are packed by two debt types: one has a variable interest rate and the other has a fixed interest rate. This meant that the individual or entity who holds the flip-flop note gets to choose which interest rate should be used at any time. Flip-flopping between the two rates allow the holder to earn income from the interest rate based on which type of debt is yielding more interest at the moment.
+According to the Dictionary of Financial Risk Management, a flip-flop note can also let the borrower shorten or lengthen the term of the note based on the kind of opportunities that are available on the note reset date. This means that the borrower does not get to choose the change in the interest rate based on a whim or the wind; it has to be done when the bond’s reset date is up. When the reset date comes, the investor has the option to choose to lengthen or shorten the term of the investment, whether it’s a bond or a note, based on the current interest rates.
+Example of a flip-flop note
+For example, a typical flip-flop note could be comprised of a fixed-rated debt and a floating-coupon bond. If the floating interest rate drops below the fixed coupon, the investor can choose to receive income from the fixed-rate debt. Inversely, when the floating rate exceeds the fixed coupon, the investor would switch to the floating-rate debt for income. In this situation, the flip-flop note is similar to a floating-rate bond with an interest rate floor.
+A flip-flop note could also allow an investor to switch between two types of securities for their investment; for example, a flip-flop note could be used to switch from a long-term bond to a short-term fixed-rate note or fixed security. In some cases, a flip-flop note can also be used to switch from notes to equities.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

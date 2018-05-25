@@ -1,0 +1,88 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        With e-commerce sales soaring in China, shares of online retail giant Alibaba Group Holding Ltd. (BABA) have been soaring to fresh all-time highs in recent months, and its not surprising that there are a number of options for the investor interested in ETFs holding Alibaba.
+Alibaba shares grew by more than 57% over the past year as Chinese consumers shift their shopping habits toward internet retailers. About 15.5% of retail purchases were made online last year in China. E-commerce sales reached $749 billion in 2016 in China, up 26.2% from the year prior, according to the National Bureau of Statistics in China. (For more, see also: Alibaba to Bring US Businesses Online to China.)
+Active buyers on Alibaba’s China retail marketplace hit 454 million annually in the 2017 fiscal year that ended March 31. That’s up 11 million from the year prior. Now the world’s largest retailer, Alibaba has been increasing spending on video and entertainment to drive growth, and the company reported lower-than-expected fourth quarter earnings in May as a result. But revenue increased 60% to $5.6 billion, which is the highest revenue growth rate since its IPO in September 2014.
+Here are 5 ETFs with significant holdings in this growing Chinese online retailer.
+1. iShares Core MSCI Emerging Markets ETF
+The iShares Core MSCI Emerging Markets ETF (IEMG) provides exposure to a broad range of companies in emerging markets. It seeks to track the investment results of the MSCI Emerging Markets Investable Market Index and is comprised of holdings from across the globe, including China, Korea, India, Brazil, and South Africa.
+The ETF's holdings in Alibaba make up 3.4% of its portfolio and are valued at about $1.7 billion. The fund's total holdings grew by about 23.87% over the last year.
+2. iShares MSCI China ETF
+The iShares MSCI China ETF (MCHI​), which follows the MCSI China Index, rose more than 38% in the last year.The fund follows the top 85% of equity securities in China and is weighted by their market capitalization. About 12.90% of its portfolio is in Alibaba, its second-largest holding after Tencent Holdings Ltd. Alibaba’s market cap is $459.8 billion.
+3. KraneShares Trust ETF
+​The KraneShares Trust (KWEB​) follows publicly traded internet companies based in China. Also called KraneShares CSI China Internet ETF, KraneShares Trust manages $575.7 million in net assets, investing the majority of its funds in the technology sector.
+Alibaba stock comprises 8.62% of KraneShares’ portfolio, the second-largest holding after Tencent Holdings Ltd., which comprises 8.76% of the portfolio. The ETF’s 720,791 shares have a market value of about $5131.5 million. KWEB shares have increased about 5% in the las six months. (For more, see also: Alibaba Aims to Become World’s Fifth Largest Economy by 2036.)
+4. BLDRS Emerging Markets 50 ADR Index ETF
+The BLDRS Emerging Markets 50 ADR Index ETF (ADRE​) follows the BNY Mellon Emerging Markets 50 ADR Index investing in consumer staples, healthcare, financials and energy. But it invests the most in information technology, which comprises 43.96% of its portfolio. More than 38% of BLDRS Emergering Markets' investments are in Chinese companies like Alibaba, which is its current top holding.
+Alibaba accounts for 16.99% of the BLDRS Emerging Markets ADR Index fund. The ETF's shares increased 17.74% in the last year.
+5. SPDR S&P China ETF
+The SPDR S&P China ETF (GXC) fund, which tracks the S&P/Citigroup BMI China Index, increased 36.04% in the last year. The fund has $1.16 billion in net assets, and about 11.16 % is invested in Alibaba through 709,906 shares.
+SPDR S&P China ETF also invests in companies like Tencent Holdings Ltd., China Construction Bank Corp., and China Mobile Limited.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '',
+     'leadGenVertical' : '',
+     'leadGenLayout' : '',
+     'leadGenPage' : ''
+    });
+                    
+            
+                

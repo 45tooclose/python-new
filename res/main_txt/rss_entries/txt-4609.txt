@@ -1,0 +1,146 @@
+
+
+    
+                          What is the 'Trickle-Down Effect'
+
+      The trickle-down effect, in marketing, refers to the phenomenon of fashion trends flowing from the upper classes to the lower classes in a society. Similarly, it may also refer to how new consumer products – when first introduced into the market – are especially costly and only affordable by the wealthy, but as a product matures its price will begin to fall so it may be more widely adopted by the general public. Finally, the trickle-down effect is a phenomenon where an advertisement is rapidly disseminated by word of mouth or by viral marketing. 
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Viral Site                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Social Media Marketing (SMM)                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Business-to-Business Advertising                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Friends and Family Shares                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      Breaking Down 'Trickle-Down Effect'
+      The trickle-down effect in advertising works under the assumption that social classes are influenced by the higher social classes. The lower classes seek to imitate the fashions of the higher classes to lay claim to higher status themselves, while the higher classes seek to differentiate themselves by creating or adopting new fashion trends. Such behavior leads to greater innovation and accelerated change. 
+Trickle-Down Effect History
+The trickle-down effect can trace its origins to the 19th Century, with the work of Rudolf von Jhering, who was the first to write about cultural diffusion. He traced how fashions filtered down from the upper classes to the lower classes. The key position of von Jhering's work was that the value of fashion is reduced to nothing when it has been adopted by everyone. As such, the upper classes are compelled to find and adopt new fashion trends, which the lower classes will eventually adopt as well.
+The trickle-down effect is incorporated into the theory of conspicuous consumption by Thorstein Veblen in The Theory of the Leisure Class, which says that individuals buy luxury goods and services to display their wealth to others. In a more modern context, the trickle-down effect is applied not to classes but to age, ethnicity or gender by Grand McCracken in Culture and Consumption.
+Trickle-Down Effect in Advertising
+In advertising, the trickle-down effect works when an ad is so compelling, either because of its uniqueness, humor, entertainment value or other outstanding trait, that people are excited to share it with their friends, family and coworkers. When the trickle-down effect works, it can generate a great deal of exposure for a company in a short period of time and, in some cases, at a low cost. The trickle-down effect commonly employs social media, and an advertisement that goes viral through these channels can gain mass media coverage as a news story, giving the ad mass distribution without the costs traditionally associated with advertising through mainstream channels.
+Trickle-Down Effect and Trickle-Down Theory
+The trickle-down effect is only tangentially related to the trickle-down theory of economics, which posits that rewarding the wealthy or businesses with tax cuts will stimulate an economy and will benefit society. 
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

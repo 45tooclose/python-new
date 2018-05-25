@@ -1,0 +1,89 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        If you're a current or soon-to-be retiree, you’re probably looking for creative ways to boost your nest egg and gain future income.
+Many retirees choose to invest in rental properties in an up-and-coming area. However, this kind of real estate venture comes with property-management responsibilities, including constant calls from those annoying renters about leaky faucets and squeaky door hinges. This is precisely why some retirees are opting to invest in vacant land instead.
+Less kindly known as land speculation, purchasing vacant land for potential future gain is a high-risk investment. The secret is to find inexpensive land in currently undeveloped areas that are expected to see a building boom in the near future. While choosing the right spot can be a tricky proposition, if you play your cards right you could eventually sell your land to a commercial real estate company or developer for a major return. (See also: Uncover the Next Real Estate Hot Spot).
+Thinking about placing your bets on a vacant lot? Here are five U.S. states where you can buy dirt-cheap land – and where your investment might just pay off in the long run.
+Tennessee
+This landlocked southern state is most famous for Nashville, its centrally located capital. The heart of the country music scene, Nashville is the home of the Grand Ole Opry, the Country Music Hall of Fame and a legendary stretch of honky-tonks and dance halls. Memphis, located in southwest Tennessee, is another hot spot, where tourists flock to see Elvis Presley’s Graceland. The Smoky Mountains in eastern Tennessee, located along the North Carolina border, offer a peaceful area to fish, hike and take in majestic mountain views. Tennessee also offers another major advantage: no state income tax.
+Even with such a variety of attractions, land in Tennessee is relatively inexpensive. For instance, in Unicoi County, located in the state’s mountainous northeast, the average sales amount for a 251,911 square foot lot is $59,408. That’s only $0.37 per square foot. As Tennessee continues to grow, you could potentially profit from a land purchase in the Volunteer State. 
+Arkansas
+Known as the Natural State, Arkansas borders the Mississippi River and is well known for its abundance of outdoor recreation opportunities, from fishing, hunting and hiking to mountain biking, golfing and boating. The state’s diverse geography includes mountains, dense forests, lowlands and countless lakes, rivers, reservoirs and streams.
+Arkansas also has a low cost of living, growing economy and mounting population. The state’s population is on course to exceed three million by the end of 2017. The cheapest land in the Natural State can be found in Clay County, nestled in the northeast corner of Arkansas, where land is going for just $0.07 per square foot, with the average sale price of just $43,083 for an 830,617 square foot lot.
+West Virginia
+It’s no wonder West Virginia is known as the Mountain State. Situated entirely in the Appalachian region, the terrain is almost entirely mountainous. Harpers Ferry, located in the northeast part of the state where the Shenandoah River meets the Potomac, is a popular tourist destination. Site of the famous pre-Civil War raid by John Brown, the town is surrounded by a national historic park, with many of the buildings open to the public as living-history museums.
+West Virginia is also home to one of the fastest growing economies in the nation. The state’s gross domestic product (GDP) climbed by 6.84% in 2017, the highest in the nation. The largest industry in the Mountain State is still coal mining, which accounted for 98% of West Virginia’s growth. Although the state’s economy is growing, you can still find extremely affordable land in West Virginia. In Morgan County, just an hour outside of Harpers Ferry, a square foot of vacant land will cost you a mere $0.44. With an average lot size of 277,623 square feet, that comes out to $29,450.
+New Mexico
+Often called the Land of Enchantment, New Mexico boasts an array of striking landscapes, from the Chihuahuan Desert to the Sangre de Cristo Mountains. The southwestern state’s capital, Sante Fe, is a popular tourist destination well known for its upscale spas, magnificent Spanish colonial architecture and vibrant cultural scene. This thriving city is home to the Georgia O’Keeffe museum and the open-air Sante Fe Opera.
+To top it off, New Mexico’s population is on the rise, showing a 1.3% increase from 2010 to 2015. In other words, the Land of Enchantment could also be the land of opportunity for retirees looking to buy valuable vacant land. In Quay County, land costs an average of $1.96 per square foot, and the average land sale amount is $55,918. (See also: New Mexico’s Economy: The 6 Industries Driving GDP Growth.)
+Arizona
+Best known for its perpetually sunny weather and, of course, the Grand Canyon, Arizona has long been a hot spot for tourists craving a taste of the southwest. It’s also the sixth largest state in the U.S. with a rapidly rising population, which grew an extraordinary 6.8% between 2010 and 2015. Arizona’s job market is quite healthy as compared to many other states.
+Even with those numbers, you can still score inexpensive land in the Grand Canyon State. In Santa Cruz County, located in southern Arizona along the Mexico border, the average price of land is $1.77, with an average sales amount of $45,420 for 91,088 square feet.
+The Bottom Line
+Even if you happen to find dirt-cheap land in one of these five states, keep in mind that any land purchase is an exceedingly high-risk investment – especially for less experienced, short-term investors. Because raw land is the most illiquid type of real estate investment, it can take many years to sell some land parcels. Before you purchase a plot of land, carefully consider the area’s growth expectancy as well as all zoning requirements, topography and tax obligations associated with owning the land. And make sure it has water and possible access to utilities if you hope to develop it.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '',
+     'leadGenVertical' : '',
+     'leadGenLayout' : '',
+     'leadGenPage' : ''
+    });
+                    
+            
+                

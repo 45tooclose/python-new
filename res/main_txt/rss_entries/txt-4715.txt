@@ -1,0 +1,77 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        CVS Health Corporation (CVS) shares moved nearly 2% lower on Wednesday after the company released its first quarter financial results. Revenue rose 2.7% to $45.69 billion – missing consensus analyst forecasts by $90 million – but earnings per share of $1.48 beat consensus estimates by seven cents per share. Management anticipates second quarter (non-GAAP) EPS of $1.59 to $1.64 and adjusted operating profit of zero to 3.25%.
+The bearish sentiment may have been due to the company's decision to suspend its share repurchase program and keep dividends flat in the near term. These efforts are designed to maintain its leverage ratio at a 3x level and keep its balance sheet strong. Management also indicated that FY18 operating profit would be weighted more toward the first half of the fiscal year, which limits the potential for future earnings surprises. (See also: CVS Health Reports Earnings in Recovery Mode.)
+
+From a technical standpoint, the stock briefly hit $70.00 before turning lower toward trendline and 50-day moving average support levels at around $65.26. The relative strength index (RSI) has declined to neutral levels with a reading of 46.56, but the moving average convergence divergence  (MACD) could see a near-term bearish crossover. These indicators suggest that traders should maintain a bearish bias on the stock.
+[Check out Chapter 4 of the Technical Analysis course on the Investopedia Academy to learn more about supplemental indicators like the MACD and the RSI.]
+Traders should watch for a breakdown from trendline and 50-day moving average support levels at around $65.00 to S1 support at $62.85 or prior lows of around $60.00. A further breakdown from those lows could lead to S2 support at around $55.88. If the stock rebounds from these support levels, traders should watch for a breakout from pivot point resistance at $66.97 to upper trendline resistance at around $70.00. (For more, see: How CVS Makes Its Money.)
+Chart courtesy of StockCharts.com. The author holds no position in the stock(s) mentioned except through passively managed index funds. 
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Chartadvisor-Article'
+    });
+                    
+            
+                

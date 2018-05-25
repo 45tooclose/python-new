@@ -1,0 +1,95 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        A depositary receipt (DR) is a type of negotiable (transferable) financial security that is traded on a local stock exchange but represents a security, usually in the form of equity, that is issued by a foreign publicly listed company. The DR, which is a physical certificate, allows investors to hold shares in equity of other countries. One of the most common types of DRs is the American depositary receipt (ADR), which has been offering companies, investors and traders global investment opportunities since the 1920s.
+Tutorial: ADR Basics 
+Since that time, DRs have spread to other parts of the globe in the form of global depositary receipts (GDRs) (the other most common type of DR), European DRs and international DRs. ADRs are typically traded on a U.S. national stock exchange, such as the New York Stock Exchange (NYSE), while GDRs are commonly listed on European stock exchanges such as the London Stock Exchange. Both ADRs and GDRs are usually denominated in U.S. dollars, but can also be denominated in euros.
+How Does a Depositary Receipt Work?
+The DR is created when a foreign company wishes to list its already publicly traded shares or debt securities on a foreign stock exchange. Before it can be listed to a particular stock exchange, the company in question will first have to meet certain requirements put forth by the exchange. Initial public offerings (IPOs), however, can also issue a DR. DRs can be traded publicly or over-the-counter (OTC). Let us look at an example of how an ADR is created and traded:
+
+Example
+			Say a gas company in Russia has fulfilled the requirements for DR listing and now wants to list its publicly traded shares on the NYSE in the form of an ADR. Before the gas company\'s shares are traded freely on the exchange, a U.S.broker, through an international office or a local brokerage house in Russia, would purchase the domestic shares from the Russian market and then have them delivered to the local (Russian) custodian bank of the depository bank. The depository bank is the American institution that issues the ADRs in America. In this example, the depository bank is the Bank of New York. Once the Bank of New York\'s local custodian bank in Russia receives the shares, this custodian bank verifies the delivery of the shares by informing the Bank of New York that the shares can now be issued in the United States. The Bank of New York then delivers the ADRs to the broker who initially purchased them.
+Based on a determined ADR ratio, each ADR may be issued as representing one or more of the Russian local shares, and the price of each ADR would be issued in U.S. dollars converted from the equivalent Russian price of the shares being held by the depository bank. The ADRs now represent the local Russian shares held by the depository, and can now be freely traded equity on the NYSE.
+After the process whereby the new ADR of the Russian gas company is issued, the ADR can be traded freely among investors and transferred from the buyer to the seller on the NYSE, through a procedure known as intra-market trading. All ADR transactions of the Russian gas company will now take place in U.S. dollars and are settled like any other U.S. transaction on the NYSE. The ADR investor holds privileges like those granted to shareholders of ordinary shares, such as voting rights and cash dividends. The rights of the ADR holder are stated on the ADR certificate.
+
+Depositary Receipt Pricing and Cross-Trading
+When any DR is traded, the broker will aim to find the best price of the share in question. They will therefore compare the U.S. dollar price of the ADR with the U.S. dollar equivalent price of the local share on the domestic market. If the ADR of the Russian gas company is trading at US$12 per share and the share trading on the Russian market is trading at $11 per share (converted from Russian rubles to dollars), a broker would aim to buy more local shares from Russia and issue ADRs on the U.S. market. This action then causes the local Russian price and the price of the ADR to reach parity. The continual buying and selling in both markets, however, usually keeps the prices of the ADR and the security on the home market in close range of one another. Because of this minimal price differential, most ADRs are traded by means of intramarket trading.
+(Learn more about ADRs in ADRs: Invest Offshore Without Leaving Home.)
+A U.S. broker may also sell ADRs back into the local Russian market. This is known as cross-border trading. When this happens, an amount of ADRs is canceled by the depository and the local shares are released from the custodian bank and delivered back to the Russian broker who bought them. The Russian broker pays for them in roubles, which are converted into dollars by the U.S. broker.
+The Benefits of Depositary Receipts
+The DR functions as a means to increase global trade, which in turn can help increase not only volumes on local and foreign markets but also the exchange of information, technology, regulatory procedures as well as market transparency. Thus, instead of being faced with impediments to foreign investment, as is often the case in many emerging markets, the DR investor and company can both benefit from investment abroad.
+(Learn more about investing in emerging markets in Equity Valuation In Emerging Markets.)
+Let's take a closer a look at the benefits:
+For the Company
+A company may opt to issue a DR to obtain greater exposure and raise capital in the world market. Issuing DRs has the added benefit of increasing the share's liquidity while boosting the company's prestige on its local market ("the company is traded internationally"). Depositary receipts encourage an international shareholder base, and provide expatriates living abroad with an easier opportunity to invest in their home countries. Moreover, in many countries, especially those with emerging markets, obstacles often prevent foreign investors from entering the local market. By issuing a DR, a company can still encourage investment from abroad without having to worry about barriers to entry that a foreign investor might face.
+For the Investor
+Buying into a DR immediately turns an investors' portfolio into a global one. Investors gain the benefits of diversification while trading in their own market under familiar settlement and clearance conditions. More importantly, DR investors will be able to reap the benefits of these usually higher risk, higher return equities, without having to endure the added risks of going directly into foreign markets, which may pose lack of transparency or instability resulting from changing regulatory procedures. It is important to remember that an investor will still bear some foreign-exchange risk, stemming from uncertainties in emerging economies and societies. On the other hand, the investor can also benefit from competitive rates the U.S. dollar and euro have to most foreign currencies.
+The Bottom Line
+Giving you the opportunity to add the benefits of foreign investment while bypassing the unnecessary risks of investing outside your own borders, you may want to consider adding these securities to your portfolio. As with any security, however, investing in DRs requires an understanding of why they are used, and how they are issued and traded.
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Article'
+    });
+                    
+            
+                

@@ -1,0 +1,146 @@
+
+
+    
+                          What is 'Secular'?
+
+      Secular is a descriptive term used to refer to market activities occurring over the long term. Secular can also be used in reference to certain stocks that are not affected by short-term trends. Secular trends are not considered seasonal or cyclical; instead, they remain consistent over time while secular stocks maintain a certain trajectory regardless of current economic trends.
+
+      
+        Next Up
+        
+          
+            
+                                            
+                                            
+                                        
+            
+                        
+                
+                                            Secular Market                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Trending Market                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            
+                                        
+            
+                        
+                
+                                            Trend                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                                
+                                
+            
+                        
+                
+                                            Momentum                    
+                
+                            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+      
+      
+        $('.related-carousel-table .list').append('<li class="item next"><a href="#"></a></li>');
+        $('.related-carousel-table .next a').attr('href', $('.related-carousel-table .item:first a').attr('href'));
+      
+
+      
+      BREAKING DOWN 'Secular'
+      Secular trends and secular stocks are those that are expected to remain moving in the same direction over the long term. The clean energy movement has been seen as a newer secular trend and is expected to remain relevant for the foreseeable future. Within the stock market, technology firms such as Netflix, Inc. and Google are considered secular because short-term economic trends have minimal lasting impact on their long-term performance.
+Secular movements can proceed in either a positive or negative direction; therefore, the term is not necessarily associated with growth. In addition, secular can refer to subtle or dramatic movements as the degree of change is not identified by the term. The defining characteristics are the long-term nature of the movement and the lack of impact of short-term trends on associated activity.
+Secular Trends
+It is important for investors to identify secular trends in markets, not just short-term trends, to develop a long-term investment strategy. Examples of secular trends include an aging population (which will tend to have different spending and savings habits than a younger population), the expansion of a particular technology (such as the internet) and heavy reliance on certain commodities (such as oil). While they are considered long term, secular trends are not permanent.
+Secular Stocks
+A stock is considered secular when the associated company earnings remain constant regardless of other trends occurring within the market. Companies are often considered secular when the primary business relates to consumer staples or products that are consistently used in most households. Customer staples can include personal care items, such as shampoo and toilet paper, as well as various food item producers and certain pharmaceutical companies.
+Stocks for the Long Run
+In his book "Stocks for the Long Run," Jeremy Siegel, an economics PhD and finance professor at the Wharton School, University of Pennsylvania, argues that equity securities (particular U.S. equities) will likely outperform the other major asset classes on a secular basis or over the long term. He supports his argument with the fact that between 1871 and 2001, during any rolling 30-year period (a period long enough to be considered secular), stocks outperformed all other asset classes, in particular bonds and T-bills.
+
+            
+      
+            
+    
+        
+          document.addEventListener("DOMContentLoaded", function() {
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram)) {
+              // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+              var articleTags = $("meta[property='article:tag']").attr("content");
+
+              if (articleTags == undefined) {
+                articleTags = '';
+              }
+              if ((articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram)) {
+                var textNote = {
+                  divId: "AdSlot_BC-TextNote",
+                  sizes: "",
+                  position: "BC-Textnote",
+                  isOutOfPage: true,
+                  targeting: {Location: 'BC-Textnote'},
+                };
+                                  idc.displayAd(textNote);
+                  
+
+                                  //renderAd();
+                                }
+            }
+          });
+        
+    
+
+            
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Term'
+    });
+                          
+    
+  

@@ -1,0 +1,74 @@
+
+
+
+    
+        
+            
+      
+
+    
+
+    
+        Silicon Valley legend Steve Wozniak, who started Apple Inc. (AAPL) alongside Steve Jobs in 1976, chooses to keep his money far outside of the financial markets, looking down upon the growing trend of "engineers as rock stars," according to CNBC, citing a Fortune interview with the entrepreneur. Despite being an instrumental figure in the development of the largest company in the world by market capitalization, the tech executive has repeatedly shunned making money and building wealth as a force behind his endeavors. (See also: Wozniak Turns Tesla Critic—Doesn't Trust Elon Musk.)
+Wozniak is no longer involved with Apple, despite noting during a panel discussion earlier this year in Mountain View, California, that he is still "technically an employee" at Apple and is "the only person who's been on the payroll since day one," although his check is just a small fraction of what he made decades ago.  
+"We didn't start a company to make money," said Wozniak, who also recounted at the talk at the Computer History Museum how he'd given away enough of his personal pre-initial public offering (IPO) Apple stock options to 80 other employees, "so they could buy a house." 
+Money Corrupts Values, Says Apple Co-Founder
+Earlier this month, "Woz" explained to Fortune in an interview why he chooses to stay away from money. "I do not invest. I didn't want to be near money, because it could corrupt your values." In 1980, the co-founder offered $10 million of his own stock to early Apple employees, a move which Jobs did not participate in. From the beginning, Wozniak said he was working to build something innovative and new, in line with Apple's initial mission and the ideals of its former Chief Executive Officer Steve Jobs. Current CEO Tim Cook once told college students, "don't work for money—it will wear out fast, or you'll never make enough and you will never be happy, one or the other." Cook recommended finding "the intersection of doing something you're passionate about and at the same time something that is in the service of other people." 
+Instead of investing to get rich, and entering that "super 'more than you could ever need' category," Wozniak has invested in projects that are important to him and that he sees as improving the world. The engineer has invested in a handful of museums in his hometown of San Jose, California. The Apple co-founder also launched an online technology education service in late 2017 called Woz U. (See also: Steve Wozniak Sold All His Bitcoin: Bought It At $700.)
+
+                          
+            
+            // Trigger the code only:
+              // - in UK
+              // - at least 4 paragraphs in content
+              // - no IC Rectangle in the page
+              if ($('.content-box').find('p').length > 4 && !$('#AdSlot_IC-Rectangle').length) {
+                dataLayer.push({
+                  'event': 'includeIpmOutstream'
+                });
+              }
+            
+          
+                
+      
+            
+    
+
+        
+    
+        
+            if (!noDfp || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                // If content has the tag "partner-content-original" do not output a textnote ad unit on the page
+                var articleTags = $("meta[property='article:tag']").attr("content");
+
+                if (articleTags == undefined) {
+                    articleTags = '';
+                }
+                if ( (articleTags.indexOf('partner-content-original') == -1) || (typeof contentProgram !== "undefined" && contentProgram) ) {
+                    var textNote = {
+                        divId: "AdSlot_BC-TextNote",
+                        sizes: "",
+                        position: "BC-Textnote",
+                        isOutOfPage: true,
+                        targeting: { Location : 'BC-Textnote' },
+                    };
+                                            idc.displayAd(textNote);
+                    
+
+                                //renderAd();
+                                }
+            }
+        
+    
+
+        
+    dataLayer.push({
+     'event': 'includeLeadGenTable',
+     'leadGenTier' : '1',
+     'leadGenVertical' : 'Broker',
+     'leadGenLayout' : '',
+     'leadGenPage' : 'Daily-Blog'
+    });
+                    
+            
+                
