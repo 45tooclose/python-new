@@ -154,7 +154,7 @@ class MysqlConnector:
         #return(query)
         self.execute_query(query)
 
-    def check_inser(self,query):
+    def check_insert(self,query):
         pass
 
     def check_datatype(self,val):

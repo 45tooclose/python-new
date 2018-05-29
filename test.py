@@ -1,10 +1,26 @@
-f_name = None
-loc = "../res/main_text/"
-iterator =1
+json_dic={'id': "id value",
+          'title': "title vlaue",
+            'title_detail' : ["one","two"],
+            'link': "link value",
+            'published_parsed':" parssed value",
+            'tags': {'term':"raz"},
+            'author': 'heh',
+            'summary': "summary"}
 
-if f_name is None:
-    f_name = "txt-" + str(iterator) + ".txt"
-    if loc is not None:
-        f_name = loc + f_name+1
 
-print(f_name)
+
+json_dic_list = ['id',
+                 'title',
+                 ['title_detail', 'base'],
+                 'link',
+                 'published_parsed',
+                 ['tags', 'term'],
+                 'author',
+                 'summary']
+
+
+for v in json_dic_list:
+    if type(v) is list:
+        print ("list",v)
+    else:
+        print(v)

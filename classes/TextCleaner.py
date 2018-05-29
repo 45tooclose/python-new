@@ -128,14 +128,15 @@ class TextCleaner:
         self.clear_digits()
         self.clear_multispace()
         self.lower_text()
-    def clear_text_light(self):
+
+    def clear_text_base(self):
         self.clear_binded_words()
         self.clear_links()
         self.find_special_chars()
         self.clear_dates()
-        self.clear_special_char_no_punctuation()
         self.clear_digits()
         self.clear_multispace()
+
 
     def get_text(self):
         return self.text

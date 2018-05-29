@@ -2,6 +2,8 @@ from requests import get
 from lxml import html
 import io
 import json
+
+
 def main():
     result = get("https://coinmarketcap.com/exchanges/volume/24-hour/all")
     root = html.fromstring(result.content)

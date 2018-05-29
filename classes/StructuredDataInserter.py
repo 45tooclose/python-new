@@ -1,6 +1,8 @@
 from MysqlConnector import MysqlConnector
 from TextCleaner import TextCleaner
 import io
+
+
 class StructuredDataInserter:
 
     mysqlc= MysqlConnector()
