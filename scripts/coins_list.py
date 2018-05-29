@@ -48,7 +48,7 @@ class coins_list:
 
     def write_file(self,f_name):
         with io.open(f_name,'w',encoding="utf-8") as f:
-            json.dump(self.symbol_dict,f,ensure_ascii=False)
+            json.dump(self.symbol_dict,f,indent=4,separators=(',', ': '), ensure_ascii=False)
 
 def main():
     file_name = "../res/txt_corp/listings.json"
