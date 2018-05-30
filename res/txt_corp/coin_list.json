@@ -1,1595 +1,7963 @@
 {
-    "bitcoin": "BTC",
-    "litecoin": "LTC",
-    "namecoin": "NMC",
-    "terracoin": "TRC",
-    "peercoin": "PPC",
-    "novacoin": "NVC",
-    "feathercoin": "FTC",
-    "mincoin": "MNC",
-    "freicoin": "FRC",
-    "ixcoin": "IXC",
-    "bitbar": "BTB",
-    "worldcoin": "WDC",
-    "digitalcoin": "DGC",
-    "goldcoin": "GLD",
-    "argentum": "ARG",
-    "fastcoin": "FST",
-    "bitgem": "BTG",
-    "phoenixcoin": "PXC",
-    "megacoin": "MEC",
-    "infinitecoin": "IFC",
-    "primecoin": "XPM",
-    "anoncoin": "ANC",
-    "casinocoin": "CSC",
-    "bullion": "CBX",
-    "emerald": "EMD",
-    "globalcoin": "GLC",
-    "ripple": "XRP",
-    "quark": "QRK",
-    "zetacoin": "ZET",
-    "securecoin": "SRC",
-    "sexcoin": "SXC",
-    "tagcoin": "TAG",
-    "i0coin": "I0C",
-    "florincoin": "FLO",
-    "nxt": "NXT",
-    "unobtanium": "UNO",
-    "joulecoin": "XJO",
-    "datacoin": "DTC",
-    "betacoin": "BET",
-    "grandcoin": "GDC",
-    "deutsche-emark": "DEM",
-    "dogecoin": "DOGE",
-    "netcoin": "NET",
-    "philosopher-stones": "PHS",
-    "diamond": "DMD",
-    "hobonickels": "HBN",
-    "tigercoin": "TGC",
-    "orbitcoin": "ORB",
-    "omni": "OMNI",
-    "catcoin": "CAT",
-    "fedoracoin": "TIPS",
-    "ronpaulcoin": "RPC",
-    "mooncoin": "MOON",
-    "dimecoin": "DIME",
-    "42-coin": "42",
-    "vertcoin": "VTC",
-    "klondikecoin": "KDC",
-    "redcoin": "RED",
-    "digibyte": "DGB",
-    "smartcoin": "SMC",
-    "teslacoin": "TES",
-    "karmacoin": "KARMA",
-    "noblecoin": "NOBL",
-    "reddcoin": "RDD",
-    "nyancoin": "NYAN",
-    "ultracoin": "UTC",
-    "potcoin": "POT",
-    "blakecoin": "BLC",
-    "maxcoin": "MAX",
-    "qubitcoin": "Q2C",
-    "huntercoin": "HUC",
-    "dash": "DASH",
-    "counterparty": "XCP",
-    "cachecoin": "CACH",
-    "topcoin": "TOP",
-    "icoin": "ICN",
-    "mintcoin": "MINT",
-    "aricoin": "ARI",
-    "dopecoin": "DOPE",
-    "auroracoin": "AUR",
-    "animecoin": "ANI",
-    "pesetacoin": "PTC",
-    "marscoin": "MARS",
-    "cashcoin": "CASH",
-    "riecoin": "RIC",
-    "pandacoin-pnd": "PND",
-    "mazacoin": "MZC",
-    "uniform-fiscal-object": "UFO",
-    "blackcoin": "BLK",
-    "litebar": "LTB",
-    "photon": "PHO",
-    "zeitcoin": "ZEIT",
-    "myriad": "XMY",
-    "skeincoin": "SKC",
-    "einsteinium": "EMC2",
-    "bitcoin-scrypt": "BTCS",
-    "coin": "CNO",
-    "eccoin": "ECC",
-    "monacoin": "MONA",
-    "rubycoin": "RBY",
-    "belacoin": "BELA",
-    "fluttercoin": "FLT",
-    "octocoin": "888",
-    "faircoin": "FAIR",
-    "solarcoin": "SLR",
-    "e-gulden": "EFL",
-    "gulden": "NLG",
-    "polcoin": "PLC",
-    "groestlcoin": "GRS",
-    "petrodollar": "XPD",
-    "plncoin": "PLNC",
-    "whitecoin": "XWC",
-    "asiacoin": "AC",
-    "popularcoin": "POP",
-    "bitstar": "BITS",
-    "quebecoin": "QBC",
-    "cannacoin": "CCN",
-    "slothcoin": "SLOTH",
-    "bluecoin": "BLU",
-    "maidsafecoin": "MAID",
-    "bitcoin-plus": "XBC",
-    "btctalkcoin": "TALK",
-    "newyorkcoin": "NYC",
-    "canada-ecoin": "CDN",
-    "guncoin": "GUN",
-    "pinkcoin": "PINK",
-    "dreamcoin": "DRM",
-    "coffeecoin": "CFC",
-    "energycoin": "ENRG",
-    "vericoin": "VRC",
-    "tekcoin": "TEK",
-    "monero": "XMR",
-    "litecoin-plus": "LCP",
-    "curecoin": "CURE",
-    "unbreakablecoin": "UNB",
-    "cryptcoin": "CRYPT",
-    "quazarcoin": "QCN",
-    "supercoin": "SUPER",
-    "qora": "QORA",
-    "boostcoin": "BOST",
-    "hyper": "HYPER",
-    "bitquark": "BTQ",
-    "motocoin": "MOTO",
-    "cloakcoin": "CLOAK",
-    "bitsend": "BSD",
-    "coin2-1": "C2",
-    "fantomcoin": "FCN",
-    "bytecoin-bcn": "BCN",
-    "artbyte": "ABY",
-    "nav-coin": "NAV",
-    "uro": "URO",
-    "granitecoin": "GRN",
-    "donationcoin": "DON",
-    "piggycoin": "PIGGY",
-    "startcoin": "START",
-    "korecoin": "KORE",
-    "digitalnote": "XDN",
-    "boolberry": "BBR",
-    "shacoin": "SHA",
-    "blazecoin": "BLZ",
-    "hempcoin": "THC",
-    "britcoin": "BRIT",
-    "stealth": "XST",
-    "trustplus": "TRUST",
-    "clams": "CLAM",
-    "quatloo": "QTL",
-    "bitshares": "BTS",
-    "bitcoindark": "BTCD",
-    "truckcoin": "TRK",
-    "viacoin": "VIA",
-    "firecoin": "FIRE",
-    "triangles": "TRI",
-    "shadowcash": "SDC",
-    "iocoin": "IOC",
-    "cryptonite": "XCN",
-    "carboncoin": "CARBON",
-    "cannabiscoin": "CANN",
-    "stellar": "XLM",
-    "titcoin": "TIT",
-    "virtacoin": "VTA",
-    "hyperstake": "HYP",
-    "joincoin": "J",
-    "syscoin": "SYS",
-    "bitmark": "BTM",
-    "halcyon": "HAL",
-    "storjcoin-x": "SJCX",
-    "neoscoin": "NEOS",
-    "emercoin": "EMC",
-    "rabbitcoin": "RBBT",
-    "burst": "BURST",
-    "gamecredits": "GAME",
-    "wearesatoshi": "WSX",
-    "ubiq": "UBQ",
-    "bunnycoin": "BUN",
-    "opal": "OPAL",
-    "acoin": "ACOIN",
-    "foldingcoin": "FLDC",
-    "bitusd": "BITUSD",
-    "bitcny": "BITCNY",
-    "bitbtc": "BITBTC",
-    "nubits": "USNBT",
-    "sterlingcoin": "SLG",
-    "magi": "XMG",
-    "exclusivecoin": "EXCL",
-    "trollcoin": "TROLL",
-    "supernet-unity": "UNITY",
-    "globalboost-y": "BSTY",
-    "digitalprice": "DP",
-    "prime-xi": "PXI",
-    "bitswift": "SWIFT",
-    "dashcoin": "DSH",
-    "aurumcoin": "AU",
-    "sativacoin": "STV",
-    "verge": "XVG",
-    "nushares": "NSR",
-    "spreadcoin": "SPR",
-    "rimbit": "RBT",
-    "monetaryunit": "MUE",
-    "blocknet": "BLOCK",
-    "gapcoin": "GAP",
-    "tittiecoin": "TTC",
-    "crown": "CRW",
-    "bitbay": "BAY",
-    "blitzcash": "BLITZ",
-    "gcn-coin": "GCN",
-    "quotient": "XQN",
-    "bytecent": "BYC",
-    "bitcoinfast": "BCF",
-    "okcash": "OK",
-    "paycoin2": "XPY",
-    "vtorrent": "VTR",
-    "bitgold": "BITGOLD",
-    "unitus": "UIS",
-    "goldpieces": "GP",
-    "circuits-of-value": "COVAL",
-    "nexus": "NXS",
-    "sooncoin": "SOON",
-    "metalcoin": "METAL",
-    "incakoin": "NKA",
-    "smileycoin": "SMLY",
-    "ambercoin": "AMBER",
-    "machinecoin": "MAC",
-    "bitsilver": "BITSILVER",
-    "dotcoin": "DOT",
-    "kobocoin": "KOBO",
-    "paycon": "CON",
-    "bean-cash": "BITB",
-    "geocoin": "GEO",
-    "tether": "USDT",
-    "wild-beast-block": "WBB",
-    "gridcoin": "GRC",
-    "vcash": "XVC",
-    "x-coin": "XCO",
-    "sharkcoin": "SAK",
-    "bitz": "BITZ",
-    "litedoge": "LDOGE",
-    "uncoin": "UNC",
-    "songcoin": "SONG",
-    "woodcoin": "LOG",
-    "selfiecoin": "SLFI",
-    "crave": "CRAVE",
-    "pura": "PURA",
-    "nem": "XEM",
-    "8bit": "8BIT",
-    "leacoin": "LEA",
-    "neutron": "NTRN",
-    "xaurum": "XAUR",
-    "californium": "CF",
-    "advanced-internet-blocks": "AIB",
-    "eggcoin": "EGG",
-    "sphere": "SPHR",
-    "mediccoin": "MEDIC",
-    "bubble": "BUB",
-    "bitshares-music": "MUSE",
-    "universal-currency": "UNIT",
-    "shellcoin": "SHELL",
-    "crypto": "CTO",
-    "parkbyte": "PKB",
-    "arbit": "ARB",
-    "gambit": "GAM",
-    "bata": "BTA",
-    "audiocoin": "ADC",
-    "synergy": "SNRG",
-    "biteur": "BITEUR",
-    "unicoin": "UNIC",
-    "fujicoin": "FJC",
-    "europecoin": "ERC",
-    "the-cypherfunks": "FUNK",
-    "hexx": "HXX",
-    "ratecoin": "XRA",
-    "metal-music-coin": "MTLMC3",
-    "crevacoin": "CREVA",
-    "irishcoin": "IRL",
-    "bitzeny": "ZNY",
-    "cycling-coin": "CYC",
-    "bowscoin": "BSC",
-    "anarchistsprime": "ACP",
-    "tagrcoin": "TAGR",
-    "compucoin": "CPN",
-    "chaincoin": "CHC",
-    "sprouts": "SPRTS",
-    "helleniccoin": "HNC",
-    "capricoin": "CPC",
-    "flaxscript": "FLAX",
-    "cthulhu-offerings": "OFF",
-    "bios-crypto": "BIOS",
-    "manna": "MANNA",
-    "axiom": "AXIOM",
-    "leocoin": "LEO",
-    "aeon": "AEON",
-    "ethereum": "ETH",
-    "sjwcoin": "SJW",
-    "transfercoin": "TX",
-    "guccionecoin": "GCC",
-    "amsterdamcoin": "AMS",
-    "eurocoin": "EUC",
-    "siacoin": "SC",
-    "global-currency-reserve": "GCR",
-    "deltacredits": "DCRE",
-    "satoshimadness": "MAD",
-    "shift": "SHIFT",
-    "vector": "VEC2",
-    "bolivarcoin": "BOLI",
-    "spacecoin": "SPACE",
-    "flycoin": "FLY",
-    "bitcrystals": "BCY",
-    "pakcoin": "PAK",
-    "influxcoin": "INFX",
-    "expanse": "EXP",
-    "steps": "STEPS",
-    "sibcoin": "SIB",
-    "islacoin": "ISL",
-    "swing": "SWING",
-    "factom": "FCT",
-    "parallelcoin": "DUO",
-    "save-and-gain": "SANDG",
-    "prototanium": "PR",
-    "digicube": "CUBE",
-    "augur": "REP",
-    "stronghands": "SHND",
-    "paccoin": "$PAC",
-    "1337coin": "1337",
-    "money": "$$$",
-    "soilcoin": "SOIL",
-    "secretcoin": "SCRT",
-    "draftcoin": "DFT",
-    "obits": "OBITS",
-    "synereo": "AMP",
-    "gbcgoldcoin": "GBC",
-    "x2": "X2",
-    "clubcoin": "CLUB",
-    "adzcoin": "ADZ",
-    "mindcoin": "MND",
-    "moin": "MOIN",
-    "avatarcoin": "AV",
-    "russiacoin": "RC",
-    "evergreencoin": "EGC",
-    "opescoin": "OPES",
-    "creditbit": "CRB",
-    "radium": "RADS",
-    "litecred": "LTCR",
-    "yocoin": "YOC",
-    "salus": "SLS",
-    "francs": "FRN",
-    "evil-coin": "EVIL",
-    "decred": "DCR",
-    "pivx": "PIVX",
-    "safe-exchange-coin": "SAFEX",
-    "hempcoin-hmp": "HMP",
-    "rubies": "RBIES",
-    "asiadigicoin": "ADCN",
-    "destiny": "DES",
-    "kilocoin": "KLC",
-    "trumpcoin": "TRUMP",
-    "memetic": "MEME",
-    "c-bit": "XCT",
-    "independent-money-system": "IMS",
-    "hodlcoin": "HODL",
-    "bigup": "BIGUP",
-    "nevacoin": "NEVA",
-    "bumbacoin": "BUMBA",
-    "revolutionvr": "RVR",
-    "posex": "PEX",
-    "cabbage": "CAB",
-    "mojocoin": "MOJO",
-    "goldmaxcoin": "GMX",
-    "lisk": "LSK",
-    "edrcoin": "EDRC",
-    "postcoin": "POST",
-    "operand": "OP",
-    "berncash": "BERN",
-    "qwark": "QWARK",
-    "digixdao": "DGD",
-    "steem": "STEEM",
-    "fantasy-cash": "FANS",
-    "espers": "ESP",
-    "fuzzballs": "FUZZ",
-    "darklisk": "DISK",
-    "hicoin": "XHI",
-    "aquariuscoin": "ARCO",
-    "bitcoin-21": "XBTC21",
-    "elcoin-el": "EL",
-    "zurcoin": "ZUR",
-    "sixeleven": "611",
-    "2give": "2GIVE",
-    "platinumbar": "XPTX",
-    "alphabitcoinfund": "ABC",
-    "lanacoin": "LANA",
-    "ponzicoin": "PONZI",
-    "teslacoilcoin": "TESLA",
-    "martexcoin": "MXT",
-    "nullex": "NLX",
-    "richcoin": "RICHX",
-    "prismchain": "PRM",
-    "waves": "WAVES",
-    "newbium": "NEWB",
-    "ico-openledger": "ICOO",
-    "ion": "ION",
-    "high-voltage": "HVCO",
-    "mineum": "MNM",
-    "revolvercoin": "XRE",
-    "goldblocks": "GB",
-    "breakout": "BRK",
-    "debitcoin": "DBTC",
-    "comet": "CMT",
-    "rise": "RISE",
-    "chesscoin": "CHESS",
-    "library-credit": "LBC",
-    "putincoin": "PUT",
-    "breakout-stake": "BRX",
-    "syndicate": "SYNX",
-    "cryptojacks": "CJ",
-    "reecoin": "REE",
-    "heat-ledger": "HEAT",
-    "letitride": "LIR",
-    "dappster": "DLISK",
-    "steem-dollars": "SBD",
-    "linkedcoin": "LKC",
-    "chronos": "CRX",
-    "ardor": "ARDR",
-    "ethereum-classic": "ETC",
-    "808coin": "808",
-    "first-bitcoin": "BIT",
-    "pokecoin": "POKE",
-    "elementrem": "ELE",
-    "ugain": "GAIN",
-    "karbo": "KRB",
-    "vaperscoin": "VPRC",
-    "stratis": "STRAT",
-    "president-trump": "PRES",
-    "aces": "ACES",
-    "president-johnson": "GARY",
-    "tajcoin": "TAJ",
-    "todaycoin": "TODAY",
-    "px": "PX",
-    "e-dinar-coin": "EDR",
-    "bittokens": "BXT",
-    "techshares": "THS",
-    "artex-coin": "ATX",
-    "agrolifecoin": "AGLC",
-    "experience-points": "XP",
-    "veltor": "VLT",
-    "b3coin": "KB3",
-    "blockpay": "BLOCKPAY",
-    "golfcoin": "GOLF",
-    "neo": "NEO",
-    "jewels": "JWL",
-    "lomocoin": "LMC",
-    "bitcloud": "BTDX",
-    "nolimitcoin": "NLC2",
-    "sportscoin": "SPORT",
-    "veriumreserve": "VRM",
-    "zayedcoin": "ZYD",
-    "jin-coin": "JIN",
-    "tao": "XTO",
-    "pluton": "PLU",
-    "tellurion": "TELL",
-    "shilling": "SH",
-    "dollarcoin": "DLC",
-    "mustangcoin": "MST",
-    "beatcoin": "XBTS",
-    "proud-money": "PROUD",
-    "sequence": "SEQ",
-    "omicron": "OMC",
-    "firstblood": "1ST",
-    "pepe-cash": "PEPECASH",
-    "iconomi": "ICN",
-    "singulardtv": "SNGLS",
-    "caliphcoin": "CALC",
-    "zcoin": "XZC",
-    "rcoin": "RCN",
-    "atomic-coin": "ATOM",
-    "jobscoin": "JOBS",
-    "triggers": "TRIG",
-    "sakuracoin": "SKR",
-    "royalcoin": "ROYAL",
-    "levocoin": "LEVO",
-    "arcticcoin": "ARC",
-    "cubits": "QBT",
-    "dynamiccoin": "DMC",
-    "zcash": "ZEC",
-    "impulsecoin": "IMPS",
-    "allsafe": "ASAFE2",
-    "bipcoin": "BIP",
-    "zclassic": "ZCL",
-    "zoin": "ZOI",
-    "wa-space": "WA",
-    "lykke": "LKK",
-    "golem-network-tokens": "GNT",
-    "zetamicron": "ZMC",
-    "bitcurrency": "BTCR",
-    "regacoin": "REGA",
-    "luckchain": "BASH",
-    "internet-of-people": "IOP",
-    "veros": "VRS",
-    "hush": "HUSH",
-    "kurrent": "KURT",
-    "creatio": "XCRE",
-    "rawcoin2": "XRC",
-    "pascal-coin": "PASC",
-    "eternity": "ENT",
-    "incent": "INCNT",
-    "decent": "DCT",
-    "nodecoin": "NODC",
-    "golos": "GOLOS",
-    "nexium": "NXC",
-    "shorty": "SHORTY",
-    "vslice": "VSL",
-    "dollar-online": "DOLLAR",
-    "vault-coin": "VLTC",
-    "pabyosi-coin-special": "PCS",
-    "t-coin": "TCOIN",
-    "byteball": "GBYTE",
-    "bitpark-coin": "BPC",
-    "posw-coin": "POSW",
-    "luna-coin": "LUNA",
-    "fargocoin": "FRGC",
-    "wings": "WINGS",
-    "dix-asset": "DIX",
-    "gameunits": "UNITS",
-    "darcrus": "DAR",
-    "inflationcoin": "IFLT",
-    "spectrecoin": "XSPEC",
-    "safe-trade-coin": "XSTC",
-    "landcoin": "LDCN",
-    "benjirolls": "BENJI",
-    "cryptocarbon": "CCRB",
-    "purevidz": "VIDZ",
-    "bitconnect": "BCC",
-    "icobid": "ICOB",
-    "ibank": "IBANK",
-    "maker": "MKR",
-    "printerium": "PRX",
-    "digital-rupees": "DRS",
-    "komodo": "KMD",
-    "firstcoin": "FRST",
-    "magnum": "MGM",
-    "tattoocoin": "TSE",
-    "solarflarecoin": "SFC",
-    "zilbercoin": "ZBC",
-    "waves-community-token": "WCT",
-    "iconic": "ICON",
-    "kushcoin": "KUSH",
-    "lepen": "LEPEN",
-    "global-cryptocurrency": "GCC",
-    "avoncoin": "ACN",
-    "doubloon": "BOAT",
-    "eryllium": "ERY",
-    "elysium": "ELS",
-    "golos-gold": "GBG",
-    "cryptoworldx-token": "CWXT",
-    "centurion": "CNT",
-    "marijuanacoin": "MAR",
-    "master-swiscoin": "MSCN",
-    "kashhcoin": "KASHH",
-    "melon": "MLN",
-    "allion": "ALL",
-    "prcoin": "PRC",
-    "chronobank": "TIME",
-    "argus": "ARGUS",
-    "renos": "RNS",
-    "ur": "UR",
-    "swarm-city": "SWT",
-    "piecoin": "PIE",
-    "marxcoin": "MARX",
-    "visio": "VISIO",
-    "nano": "NANO",
-    "levoplus": "LVPS",
-    "geertcoin": "GEERT",
-    "pascal-lite": "PASL",
-    "milocoin": "MILO",
-    "musicoin": "MUSIC",
-    "zero": "ZER",
-    "biobar": "BIOB",
-    "honey": "HONEY",
-    "netko": "NETKO",
-    "ark": "ARK",
-    "dynamic": "DYN",
-    "tokes": "TKS",
-    "mercury": "MER",
-    "taas": "TAAS",
-    "soarcoin": "SOAR",
-    "edgeless": "EDG",
-    "bankcoin": "B@",
-    "zsecoin": "ZSE",
-    "healthywormcoin": "WORM",
-    "databits": "DTB",
-    "bestchain": "BEST",
-    "universe": "UNI",
-    "solaris": "XLR",
-    "impact": "IMX",
-    "tristar-coin": "TSTR",
-    "asch": "XAS",
-    "scorecoin": "SCORE",
-    "dubaicoin-dbix": "DBIX",
-    "darsek": "KED",
-    "guppy": "GUP",
-    "ultimate-secure-cash": "USC",
-    "e-coin": "ECN",
-    "skycoin": "SKY",
-    "blazercoin": "BLAZR",
-    "atmos": "ATMOS",
-    "ethereum-movie-venture": "EMV",
-    "inpay": "INPAY",
-    "happycoin": "HPC",
-    "zennies": "ZENI",
-    "coinonat": "CXT",
-    "internet-of-things": "XOT",
-    "concoin": "CONX",
-    "ebittree-coin": "EBT",
-    "fazzcoin": "FAZZ",
-    "xtrabytes": "XBY",
-    "rlc": "RLC",
-    "trust": "TRST",
-    "deuscoin": "DEUS",
-    "altcoin-alt": "ALT",
-    "wavesgo": "WGO",
-    "macron": "MCRN",
-    "dashs": "DASHS",
-    "tattoocoin-limited": "TLE",
-    "procurrency": "PROC",
-    "speedcash": "SCS",
-    "bitcore": "BTX",
-    "bitvolt": "VOLT",
-    "lunyr": "LUN",
-    "gnosis-gno": "GNO",
-    "tokencard": "TKN",
-    "condensate": "RAIN",
-    "gold-pressed-latinum": "GPL",
-    "humaniq": "HMQ",
-    "funcoin": "FUNC",
-    "iticoin": "ITI",
-    "minereum": "MNE",
-    "cannation": "CNNC",
-    "creativecoin": "CREA",
-    "etheroll": "DICE",
-    "insanecoin-insn": "INSN",
-    "halloween-coin": "HALLO",
-    "aragon": "ANT",
-    "prizm": "PZM",
-    "roulettetoken": "RLT",
-    "qtum": "QTUM",
-    "ecocoin": "ECO",
-    "equitrader": "EQT",
-    "digital-money-bits": "DMB",
-    "apx": "APX",
-    "mcap": "MCAP",
-    "project-x": "NANOX",
-    "theresa-may-coin": "MAY",
-    "sumokoin": "SUMO",
-    "zengold": "ZENGOLD",
-    "basic-attention-token": "BAT",
-    "zencash": "ZEN",
-    "ethbits": "ETBS",
-    "aeternity": "AE",
-    "version": "V",
-    "metaverse": "ETP",
-    "eboostcoin": "EBST",
-    "aidos-kuneen": "ADK",
-    "stex": "STEX",
-    "patientory": "PTOY",
-    "quantum": "QAU",
-    "veritaseum": "VERI",
-    "electra": "ECA",
-    "quantum-resistant-ledger": "QRL",
-    "encryptotel": "ETT",
-    "mobilego": "MGO",
-    "ammo-reloaded": "AMMO",
-    "neuro": "NRO",
-    "peerplays-ppy": "PPY",
-    "iota": "MIOTA",
-    "mysterium": "MYST",
-    "legends-room": "LGD",
-    "sonm": "SNM",
-    "linx": "LINX",
-    "zrcoin": "ZRC",
-    "bancor": "BNT",
-    "cheapcoin": "CHEAP",
-    "cofound-it": "CFI",
-    "globaltoken": "GLT",
-    "numeraire": "NMR",
-    "octanox": "OTX",
-    "unify": "UNIFY",
-    "elastic": "XEL",
-    "coupecoin": "COUPE",
-    "miners-reward-token": "MRT",
-    "bitok": "BITOK",
-    "huncoin": "HNC",
-    "kingn-coin": "KNC",
-    "dinastycoin": "DCY",
-    "leviar": "XLC",
-    "onix": "ONX",
-    "bitcoin-planet": "BTPL",
-    "gxchain": "GXS",
-    "goodomy": "GOOD",
-    "antimatter": "ANTX",
-    "bitradio": "BRO",
-    "flash": "FLASH",
-    "pirate-blocks": "SKULL",
-    "funfair": "FUN",
-    "tenx": "PAY",
-    "status": "SNT",
-    "chancoin": "CHAN",
-    "ergo": "EFYT",
-    "briacoin": "BRIA",
-    "eos": "EOS",
-    "turbocoin": "TURBO",
-    "adx-net": "ADX",
-    "denarius-dnr": "DNR",
-    "dao-casino": "BET",
-    "storj": "STORJ",
-    "bnrtxcoin": "BNX",
-    "socialcoin-socc": "SOCC",
-    "adtoken": "ADT",
-    "monaco": "MCO",
-    "cryptoping": "PING",
-    "useless-ethereum-token": "UET",
-    "wagerr": "WGR",
-    "slevin": "SLEVIN",
-    "ecobit": "ECOB",
-    "universalroyalcoin": "UNRC",
-    "polybius": "PLBT",
-    "gas": "GAS",
-    "suncontract": "SNC",
-    "jetcoin": "JET",
-    "metal": "MTL",
-    "populous": "PPT",
-    "women": "WOMEN",
-    "virta-unique-coin": "VUC",
-    "bitdeal": "BDL",
-    "sphre-air": "XID",
-    "daxxcoin": "DAXX",
-    "futurexe": "FXE",
-    "rupee": "RUP",
-    "fincoin": "FNC",
-    "global-tour-coin": "GTC",
-    "peepcoin": "PCN",
-    "sovereign-hero": "HERO",
-    "santiment": "SAN",
-    "omisego": "OMG",
-    "terranova": "TER",
-    "cvcoin": "CVCOIN",
-    "nimiq": "NET",
-    "rialto": "XRL",
-    "linda": "LINDA",
-    "embers": "MBRS",
-    "civic": "CVC",
-    "ethos": "ETHOS",
-    "bit20": "BTWTY",
-    "starta": "STA",
-    "rsgpcoin": "RSGP",
-    "bitcoal": "COAL",
-    "litebitcoin": "LBTC",
-    "particl": "PART",
-    "primulon": "PRIMU",
-    "smartcash": "SMART",
-    "skincoin": "SKIN",
-    "bitcoin-cash": "BCH",
-    "harmonycoin-hmc": "HMC",
-    "toacoin": "TOA",
-    "pillar": "PLR",
-    "royalties": "XRY",
-    "signatum": "SIGT",
-    "coimatic-2": "CTIC2",
-    "oraclechain": "OCT",
-    "binance-coin": "BNB",
-    "300-token": "300",
-    "primalbase": "PBT",
-    "campuscoin": "CMPCO",
-    "embercoin": "EMB",
-    "ixledger": "IXT",
-    "geysercoin": "GSR",
-    "mothership": "MSP",
-    "aseancoin": "ASN",
-    "birds": "BIRDS",
-    "cream": "CRM",
-    "blakestar": "ERA",
-    "kekcoin": "KEK",
-    "oax": "OAX",
-    "district0x": "DNT",
-    "fundyourselfnow": "FYN",
-    "stox": "STX",
-    "minex": "MINEX",
-    "blox": "CDT",
-    "wink": "WINK",
-    "bytom": "BTM",
-    "centra": "CTR",
-    "mao-zedong": "MAO",
-    "first-bitcoin-capital": "BITCF",
-    "neverdie": "NDC",
-    "blocktix": "TIX",
-    "dentacoin": "DCN",
-    "rupaya": "RUPX",
-    "shadow-token": "SHDW",
-    "deeponion": "ONION",
-    "blockcat": "CAT",
-    "adshares": "ADST",
-    "digital-developers-fund": "DDF",
-    "bitasean": "BAS",
-    "dent": "DENT",
-    "monster-byte": "MBI",
-    "investfeed": "IFT",
-    "coinonatx": "XCXT",
-    "etheriya": "RIYA",
-    "the-champcoin": "TCC",
-    "0x": "ZRX",
-    "bolenum": "BLN",
-    "smoke": "SMOKE",
-    "yoyow": "YOYOW",
-    "growers-international": "GRWI",
-    "mybit-token": "MYB",
-    "hshare": "HSR",
-    "vechain": "VEN",
-    "trueflip": "TFL",
-    "xtd-coin": "XTD",
-    "nebulas-token": "NAS",
-    "atmcoin": "ATMC",
-    "dalecoin": "DALC",
-    "protean": "PRN",
-    "ox-fina": "OX",
-    "adcoin": "ACC",
-    "biblepay": "BBP",
-    "bitqy": "BQ",
-    "achain": "ACT",
-    "namocoin": "NAMO",
-    "sigmacoin": "SIGMA",
-    "monacocoin": "XMCC",
-    "tierion": "TNT",
-    "waltonchain": "WTC",
-    "brat": "BRAT",
-    "ulatech": "ULA",
-    "primas": "PST",
-    "opus": "OPT",
-    "suretly": "SUR",
-    "loopring": "LRC",
-    "litecoin-ultra": "LTCU",
-    "poet": "POE",
-    "fujinto": "NTO",
-    "starcredits": "STRC",
-    "kronecoin": "KRONE",
-    "cyder": "CYDER",
-    "masternodecoin": "MTNC",
-    "monetha": "MTH",
-    "aventus": "AVT",
-    "agrello-delta": "DLT",
-    "hive-project": "HVN",
-    "vsync-vsx": "VSX",
-    "magnetcoin": "MAGN",
-    "moeda-loyalty-points": "MDA",
-    "neblio": "NEBL",
-    "vivo": "VIVO",
-    "tron": "TRX",
-    "oceanlab": "OCL",
-    "imbrex": "REX",
-    "buzzcoin": "BUZZ",
-    "credo": "CREDO",
-    "droxne": "DRXNE",
-    "bowhead": "AHT",
-    "decentraland": "MANA",
-    "indorse-token": "IND",
-    "xpa": "XPA",
-    "sociall": "SCL",
-    "atbcoin": "ATB",
-    "iquant": "IQT",
-    "ethereum-dark": "ETHD",
-    "propy": "PRO",
-    "chainlink": "LINK",
-    "blackmoon": "BMC",
-    "wi-coin": "WIC",
-    "elixir": "ELIX",
-    "billionaire-token": "XBL",
-    "kyber-network": "KNC",
-    "vibe": "VIBE",
-    "substratum": "SUB",
-    "chronologic": "DAY",
-    "chips": "CHIPS",
-    "trackr": "TKR",
-    "lampix": "PIX",
-    "coss": "COSS",
-    "bitdice": "CSNO",
-    "rivetz": "RVT",
-    "kin": "KIN",
-    "interzone": "ITZ",
-    "target-coin": "TGT",
-    "salt": "SALT",
-    "india-coin": "INDIA",
-    "ormeus-coin": "ORME",
-    "kolion": "KLN",
-    "musiconomi": "MCI",
-    "colossusxt": "COLX",
-    "trezarcoin": "TZC",
-    "hodl-bucks": "HDLB",
-    "obsidian": "ODN",
-    "cobinhood": "COB",
-    "regalcoin": "REC",
-    "msd": "MSD",
-    "bismuth": "BIS",
-    "cardano": "ADA",
-    "tezos": "XTZ",
-    "voisecom": "VOISE",
-    "infinity-economics": "XIN",
-    "attention-token-of-media": "ATM",
-    "macro1": "MCR",
-    "kickico": "KICK",
-    "encryptotel-eth": "ETT",
-    "viberate": "VIB",
-    "rchain": "RHOC",
-    "internxt": "INXT",
-    "whalecoin": "WHL",
-    "flik": "FLIK",
-    "ethbet": "EBET",
-    "cryptonex": "CNX",
-    "wild-crypto": "WILD",
-    "real": "REAL",
-    "hubii-network": "HBT",
-    "crystal-clear": "CCT",
-    "bridgecoin": "BCO",
-    "everex": "EVX",
-    "paypie": "PPP",
-    "airtoken": "AIR",
-    "postoken": "POS",
-    "senderon": "SDRN",
-    "alis": "ALIS",
-    "bitcoinz": "BTCZ",
-    "hellogold": "HGT",
-    "cindicator": "CND",
-    "enigma-project": "ENG",
-    "coimatic-3": "CTIC3",
-    "bastonet": "BSN",
-    "zeusshield": "ZSC",
-    "ethereumcash": "ECASH",
-    "corion": "COR",
-    "swisscoin": "SIC",
-    "authorship": "ATS",
-    "royal-kingdom-coin": "RKC",
-    "akuya-coin": "AKY",
-    "exchangen": "EXN",
-    "piplcoin": "PIPL",
-    "eidoo": "EDO",
-    "airswap": "AST",
-    "change": "CAG",
-    "blockmason": "BCPT",
-    "aion": "AION",
-    "tracto": "TRCT",
-    "maecenas": "ART",
-    "xgox": "XGOX",
-    "everus": "EVR",
-    "dutch-coin": "DUTCH",
-    "open-trading-network": "OTN",
-    "domraider": "DRT",
-    "request-network": "REQ",
-    "segwit2x": "B2X",
-    "ethereum-gold": "ETG",
-    "ethereum-blue": "BLUE",
-    "runners": "RUNNERS",
-    "life": "LIFE",
-    "hedge": "HDG",
-    "modum": "MOD",
-    "amber": "AMB",
-    "icos": "ICOS",
-    "bitcoin-gold": "BTG",
-    "kucoin-shares": "KCS",
-    "exrnchain": "EXRN",
-    "clearpoll": "POLL",
-    "latoken": "LA",
-    "exchange-union": "XUC",
-    "nuls": "NULS",
-    "bitcoin-red": "BTCRED",
-    "paragon": "PRG",
-    "boscoin": "BOS",
-    "ripio-credit-network": "RCN",
-    "xios": "XIOS",
-    "mercury-protocol": "GMT",
-    "icon": "ICX",
-    "javascript-token": "JS",
-    "ethereum-lite": "ELITE",
-    "intelligent-trading-foundation": "ITT",
-    "iethereum": "IETH",
-    "pirl": "PIRL",
-    "xenon": "XNN",
-    "luxcoin": "LUX",
-    "ereal": "EREAL",
-    "network-token": "NTWK",
-    "dovu": "DOVU",
-    "red-pulse": "RPX",
-    "bt2-cst": "BT2",
-    "playercoin": "PLACO",
-    "roofs": "ROOFS",
-    "fapcoin": "FAP",
-    "btcmoon": "BTCM",
-    "etherparty": "FUEL",
-    "ellaism": "ELLA",
-    "vulcano": "VULC",
-    "qvolta": "QVT",
-    "russian-mining-coin": "RMC",
-    "flypme": "FYP",
-    "ebtcnew": "EBTC",
-    "bitbase": "BTBc",
-    "enjin-coin": "ENJ",
-    "power-ledger": "POWR",
-    "grid": "GRID",
-    "revain": "R",
-    "atlant": "ATL",
-    "electroneum": "ETN",
-    "high-gain": "HIGH",
-    "minexcoin": "MNX",
-    "altcommunity-coin": "SONO",
-    "force": "FOR",
-    "streamr-datacoin": "DATA",
-    "shield-xsh": "XSH",
-    "pure": "PURE",
-    "eltcoin": "ELTCOIN",
-    "desire": "DSR",
-    "unikoin-gold": "UKG",
-    "credence-coin": "CRDNC",
-    "autonio": "NIO",
-    "cartaxi-token": "CTX",
-    "aeron": "ARN",
-    "starcash-network": "STARS",
-    "phore": "PHR",
-    "farad": "FRD",
-    "innova": "INN",
-    "raiden-network-token": "RDN",
-    "delphy": "DPY",
-    "zephyr": "ZEPH",
-    "dcorp": "DRP",
-    "erc20": "ERC20",
-    "tiesdb": "TIE",
-    "blockpool": "BPL",
-    "grimcoin": "GRIM",
-    "zcash-gold": "ZCG",
-    "oxycoin": "OXY",
-    "abjcoin": "ABJ",
-    "emphy": "EPY",
-    "interstellar-holdings": "HOLD",
-    "neo-gold": "NEOG",
-    "decent-bet": "DBET",
-    "decision-token": "HST",
-    "sharechain": "SSS",
-    "upfiring": "UFR",
-    "hat-exchange": "HAT",
-    "student-coin": "STU",
-    "genesis-vision": "GVT",
-    "eaglecoin": "EAGLE",
-    "ea-coin": "EAG",
-    "privatix": "PRIX",
-    "intensecoin": "ITNS",
-    "pluscoin": "PLC",
-    "ebitcoin-cash": "EBCH",
-    "sisa": "SISA",
-    "astro": "ASTRO",
-    "paypex": "PAYX",
-    "gold-reward-token": "GRX",
-    "aerium": "AERM",
-    "bitserial": "BTE",
-    "sugar-exchange": "SGR",
-    "viuly": "VIU",
-    "alqo": "ALQO",
-    "gobyte": "GBX",
-    "win-coin": "WC",
-    "oyster": "PRL",
-    "b2bx": "B2B",
-    "phantomx": "PNX",
-    "copico": "XCPO",
-    "digipulse": "DGPT",
-    "encrypgen": "DNA",
-    "ink": "INK",
-    "bodhi": "BOT",
-    "quantstamp": "QSP",
-    "qash": "QASH",
-    "zozocoin": "ZZC",
-    "energo": "TSL",
-    "publica": "PBL",
-    "magnet": "MAG",
-    "spankchain": "SPANK",
-    "votecoin": "VOT",
-    "bitcoin-diamond": "BCD",
-    "blockv": "VEE",
-    "poly-ai": "AI",
-    "accelerator-network": "ACC",
-    "triaconta": "TRIA",
-    "plexcoin": "PLX",
-    "divi": "DIVX",
-    "monkey-project": "MONK",
-    "flixxo": "FLIXX",
-    "glasscoin": "GLS",
-    "anryze": "RYZ",
-    "time-new-bank": "TNB",
-    "mywish": "WISH",
-    "eventchain": "EVC",
-    "ethlend": "LEND",
-    "ongsocial": "ONG",
-    "ccore": "CCO",
-    "qbao": "QBT",
-    "dragonchain": "DRGN",
-    "payfair": "PFR",
-    "presearch": "PRE",
-    "cybermiles": "CMT",
-    "blockcdn": "BCDN",
-    "cappasity": "CAPP",
-    "eroscoin": "ERO",
-    "magiccoin": "MAGE",
-    "iot-chain": "ITC",
-    "jiyo": "JIYO",
-    "social-send": "SEND",
-    "bonpay": "BON",
-    "nekonium": "NUKO",
-    "snovio": "SNOV",
-    "strikebitclub": "SBC",
-    "bulwark": "BWK",
-    "sagacoin": "SAGA",
-    "comsa-eth": "CMS",
-    "kubera-coin": "KBR",
-    "tokugawa": "TOK",
-    "pioneer-coin": "PCOIN",
-    "comsa-xem": "CMS",
-    "wabi": "WABI",
-    "crowdcoin": "CRC",
-    "wandx": "WAND",
-    "sportyco": "SPF",
-    "verify": "CRED",
-    "soma": "SCT",
-    "uquid-coin": "UQC",
-    "medishares": "MDS",
-    "prochain": "PRA",
-    "ignis": "IGNIS",
-    "smartmesh": "SMT",
-    "hollywoodcoin": "HWC",
-    "playkey": "PKT",
-    "filecoin": "FIL",
-    "bitcoinx": "BCX",
-    "super-bitcoin": "SBTC",
-    "datum": "DAT",
-    "trident": "TRDT",
-    "bitair": "BTCA",
-    "micromoney": "AMM",
-    "lockchain": "LOC",
-    "worldcore": "WRC",
-    "gifto": "GTO",
-    "yenten": "YTN",
-    "genaro-network": "GNX",
-    "davorcoin": "DAV",
-    "united-bitcoin": "UBTC",
-    "starbase": "STAR",
-    "ost": "OST",
-    "storm": "STORM",
-    "dynamic-trading-rights": "DTR",
-    "aelf": "ELF",
-    "wax": "WAX",
-    "medibloc": "MED",
-    "dew": "DEW",
-    "naga": "NGC",
-    "bread": "BRD",
-    "bibox-token": "BIX",
-    "dai": "DAI",
-    "sophiatx": "SPHTX",
-    "bounty0x": "BNTY",
-    "ace": "ACE",
-    "dimcoin": "DIM",
-    "sirin-labs-token": "SRN",
-    "cryptopay": "CPAY",
-    "html-coin": "HTML",
-    "deepbrain-chain": "DBC",
-    "homeblockcoin": "HBC",
-    "neumark": "NEU",
-    "utrust": "UTK",
-    "qlink": "QLC",
-    "farstcoin": "FRCT",
-    "herocoin": "PLAY",
-    "bigone-token": "BIG",
-    "matryx": "MTX",
-    "madcoin": "MDC",
-    "olympus-labs": "MOT",
-    "hyper-pay": "HPY",
-    "pylon-network": "PYLNT",
-    "entcash": "ENT",
-    "straks": "STAK",
-    "fidentiax": "FDX",
-    "bitclave": "CAT",
-    "lightning-bitcoin": "LBTC",
-    "game": "GTC",
-    "lamden": "TAU",
-    "escoro": "ESC",
-    "bloomtoken": "BLT",
-    "swftcoin": "SWFTC",
-    "covesting": "COV",
-    "canyacoin": "CAN",
-    "appcoins": "APPC",
-    "high-performance-blockchain": "HPB",
-    "waykichain": "WICC",
-    "numuscash": "NUMUS",
-    "measurable-data-token": "MDT",
-    "mixin": "XIN",
-    "gamechain": "GCS",
-    "numus": "NMS",
-    "coinlancer": "CL",
-    "cryptopiafeeshares": "CEFS",
-    "get-protocol": "GET",
-    "op-coin": "OPC",
-    "cfun": "CFUN",
-    "aidoc": "AIDOC",
-    "content-and-ad-network": "CAN",
-    "polis": "POLIS",
-    "hacken": "HKN",
-    "show": "SHOW",
-    "steneum-coin": "STN",
-    "zap": "ZAP",
-    "tokenclub": "TCT",
-    "fairgame": "FAIR",
-    "aigang": "AIX",
-    "rebl": "REBL",
-    "ins-ecosystem": "INS",
-    "bitcoin-god": "GOD",
-    "uttoken": "UTT",
-    "commodity-ad-network": "CDX",
-    "trade-token": "TIO",
-    "bitdegree": "BDG",
-    "qunqun": "QUN",
-    "topchain": "TOPC",
-    "leverj": "LEV",
-    "karma": "KRM",
-    "kcash": "KCASH",
-    "atn": "ATN",
-    "spectre-dividend": "SXDT",
-    "spectre-utility": "SXUT",
-    "jingtum-tech": "SWTC",
-    "vezt": "VZT",
-    "cloud": "CLD",
-    "ucom": "UCOM",
-    "bitcoin-atom": "BCA",
-    "ugchain": "UGC",
-    "bankex": "BKX",
-    "echolink": "EKO",
-    "bottos": "BTO",
-    "aware": "AWR",
-    "telcoin": "TEL",
-    "ignition": "IC",
-    "weth": "WETH",
-    "hackspace-capital": "HAC",
-    "selfkey": "KEY",
-    "internet-node-token": "INT",
-    "oneroot-network": "RNT",
-    "global-jobcoin": "GJC",
-    "sense": "SENSE",
-    "moac": "MOAC",
-    "tokyo": "TOKC",
-    "iostoken": "IOST",
-    "investdigital": "IDT",
-    "aichain": "AIT",
-    "qube": "QUBE",
-    "etherdelta-token": "EDT",
-    "spacechain": "SPC",
-    "galactrum": "ORE",
-    "harvest-masternode-coin": "HC",
-    "ethorse": "HORSE",
-    "realchain": "RCT",
-    "arbitragect": "ARCT",
-    "theta-token": "THETA",
-    "maverick-chain": "MVC",
-    "profile-utility-token": "PUT",
-    "nitro": "NOX",
-    "insurepal": "IPL",
-    "idex-membership": "IDXM",
-    "aurora-dao": "AURA",
-    "singularitynet": "AGI",
-    "gatcoin": "GAT",
-    "sharex": "SEXC",
-    "chatcoin": "CHAT",
-    "scryinfo": "DDD",
-    "mobius": "MOBI",
-    "hydro-protocol": "HOT",
-    "titanium-blockchain": "BAR",
-    "starchain": "STC",
-    "ipchain": "IPC",
-    "maggie": "MAG",
-    "lightchain": "LIGHT",
-    "reftoken": "REF",
-    "yee": "YEE",
-    "acute-angle-cloud": "AAC",
-    "selfsell": "SSC",
-    "read": "READ",
-    "molecular-future": "MOF",
-    "trinity-network-credit": "TNC",
-    "c20": "C20",
-    "block-array": "ARY",
-    "data": "DTA",
-    "crypterium": "CRPT",
-    "sparks": "SPK",
-    "carvertical": "CV",
-    "tokenbox": "TBX",
-    "educare": "EKT",
-    "unlimitedip": "UIP",
-    "pressone": "PRS",
-    "ofcoin": "OF",
-    "true-chain": "TRUE",
-    "odyssey": "OCN",
-    "indahash": "IDH",
-    "qbic": "QBIC",
-    "guess": "GUESS",
-    "aidcoin": "AID",
-    "devery": "EVE",
-    "blockport": "BPT",
-    "axpire": "AXP",
-    "origintrail": "TRAC",
-    "linkeye": "LET",
-    "zilliqa": "ZIL",
-    "coinmeet": "MEET",
-    "smartlands": "SLT",
-    "fortuna": "FOTA",
-    "all-sports": "SOC",
-    "matrix-ai-network": "MAN",
-    "garlicoin": "GRLC",
-    "ruff": "RUFF",
-    "nework": "NKC",
-    "coinfi": "COFI",
-    "equal": "EQL",
-    "halalchain": "HLC",
-    "zeepin": "ZPT",
-    "cpchain": "CPC",
-    "oceanchain": "OC",
-    "hi-mutual-society": "HMC",
-    "candy": "CANDY",
-    "speed-mining-service": "SMS",
-    "electronic-pk-chain": "EPC",
-    "valuechain": "VLC",
-    "bitwhite": "BTW",
-    "cargox": "CXO",
-    "travelflex": "TRF",
-    "elastos": "ELA",
-    "stk": "STK",
-    "pareto-network": "PARETO",
-    "polymath-network": "POLY",
-    "medical-chain": "MTN",
-    "jibrel-network": "JNT",
-    "swissborg": "CHSB",
-    "zilla": "ZLA",
-    "adbank": "ADB",
-    "huobi-token": "HT",
-    "dmarket": "DMT",
-    "iungo": "ING",
-    "bluzelle": "BLZ",
-    "swarm-fund": "SWM",
-    "thekey": "TKY",
-    "drp-utility": "DRPU",
-    "ethersportz": "ESZ",
-    "datawallet": "DXT",
-    "wepower": "WPR",
-    "ucash": "UCASH",
-    "goldmint": "MNTP",
-    "shekel": "JEW",
-    "acchain": "ACC",
-    "mktcoin": "MLM",
-    "animation-vision-cash": "AVH",
-    "locicoin": "LOCI",
-    "indicoin": "INDI",
-    "jesus-coin": "JC",
-    "biocoin": "BIO",
-    "superior-coin": "SUP",
-    "tigereum": "TIG",
-    "universa": "UTNP",
-    "alphacat": "ACAT",
-    "envion": "EVN",
-    "sureremit": "RMT",
-    "dether": "DTH",
-    "cashaa": "CAS",
-    "fusion": "FSN",
-    "w3coin": "W3C",
-    "etherecash": "ECH",
-    "restart-energy-mwat": "MWAT",
-    "gladius-token": "GLA",
-    "dadi": "DADI",
-    "neurotoken": "NTK",
-    "gems-protocol": "GEM",
-    "republic-protocol": "REN",
-    "litecoin-cash": "LCC",
-    "storiqa": "STQ",
-    "tidex-token": "TDX",
-    "copytrack": "CPY",
-    "nucleus-vision": "NCASH",
-    "arcblock": "ABT",
-    "remme": "REM",
-    "experty": "EXY",
-    "poa-network": "POA",
-    "ink-protocol": "XNK",
-    "rock": "RKT",
-    "bezop": "BEZ",
-    "iht-real-estate-protocol": "IHT",
-    "refereum": "RFR",
-    "lympo": "LYM",
-    "sether": "SETH",
-    "credits": "CS",
-    "bee-token": "BEE",
-    "insights-network": "INSTAR",
-    "cube": "AUTO",
-    "eztoken": "EZT",
-    "bit-tube": "TUBE",
-    "education-ecosystem": "LEDU",
-    "trueusd": "TUSD",
-    "hoqu": "HQX",
-    "startercoin": "STAC",
-    "ontology": "ONT",
-    "datx": "DATX",
-    "jet8": "J8T",
-    "coinpoker": "CHP",
-    "tomochain": "TOMO",
-    "graft": "GRFT",
-    "babb": "BAX",
-    "electrifyasia": "ELEC",
-    "bitcoin-private": "BTCP",
-    "tokenomy": "TEN",
-    "ravencoin": "RVN",
-    "te-food": "TFD",
-    "shipchain": "SHIP",
-    "leadcoin": "LDC",
-    "sharpe-platform-token": "SHP",
-    "lala-world": "LALA",
-    "octoin-coin": "OCC",
-    "debitum-network": "DEB",
-    "centrality": "CENNZ",
-    "havven": "HAV",
-    "fluz-fluz": "FLUZ",
-    "loom-network": "LOOM",
-    "guaranteed-ethurance-token-extra": "GETX",
-    "hirematch": "HIRE",
-    "dropil": "DROP",
-    "banca": "BANCA",
-    "dragon-coins": "DRG",
-    "latiumx": "LATX",
-    "nanjcoin": "NANJ",
-    "ckusd": "CKUSD",
-    "uptoken": "UP",
-    "banyan-network": "BBN",
-    "noah-coin": "NOAH",
-    "legolas-exchange": "LGO",
-    "1world": "1WO",
-    "napoleonx": "NPX",
-    "pundi-x": "NPXS",
-    "bitcoin-green": "BITG",
-    "bnktothefuture": "BFT",
-    "wanchain": "WAN",
-    "amlt": "AMLT",
-    "mithril": "MITH",
-    "lendroid-support-token": "LST",
-    "peculium": "PCL",
-    "signal-token": "SIG",
-    "bitrent": "RNTB",
-    "titanium-bar": "TBAR",
-    "blitzpredict": "XBP",
-    "blocklancer": "LNC",
-    "stipend": "SPD",
-    "ip-exchange": "IPSX",
-    "stockchain": "SCC",
-    "bitstation": "BSTN",
-    "switcheo": "SWTH",
-    "consensus": "SEN",
-    "clearcoin": "CLR",
-    "sentinel-chain": "SENC",
-    "vice-industry-token": "VIT",
-    "friends": "FDZ",
-    "tokenpay": "TPAY",
-    "rentberry": "BERRY",
-    "stellite": "XTL",
-    "polyswarm": "NCT",
-    "odem": "ODE",
-    "monero-original": "XMO",
-    "stakenet": "XSN",
-    "xinfin-network": "XDCE",
-    "tokendesk": "TDS",
-    "belugapay": "BBI",
-    "fidelium": "FID",
-    "cortex": "CTXC",
-    "arbitracoin": "ATC",
-    "wawllet": "WIN",
-    "apex": "CPX",
-    "cybervein": "CVT",
-    "sentinel": "SENT",
-    "eosdac": "EOSDAC",
-    "u-network": "UUU",
-    "adhive": "ADH",
-    "snipcoin": "SNIP",
-    "bitsum": "BSM",
-    "deviantcoin": "DEV",
-    "commerceblock": "CBT",
-    "greenmed": "GRMD",
-    "curriculum-vitae": "CVH",
-    "auctus": "AUC",
-    "budbo": "BUBO",
-    "monero-classic": "XMC",
-    "daneel": "DAN",
-    "brahmaos": "BRM",
-    "syncfab": "MFG",
-    "dignity": "DIG",
-    "aditus": "ADI",
-    "tripio": "TRIO",
-    "haven-protocol": "XHV",
-    "starcointv": "KST",
-    "crycash": "CRC",
-    "dero": "DERO",
-    "effect-ai": "EFX",
-    "fintrux-network": "FTX",
-    "earth-token": "EARTH",
-    "mark-space": "MRK",
-    "pixie-coin": "PXC",
-    "cropcoin": "CROP",
-    "srcoin": "SRCOIN",
-    "chainium": "CHX",
-    "masari": "MSR",
-    "dock": "DOCK",
-    "phi-token": "PHI",
-    "linker-coin": "LNC",
-    "b2bcoin": "BBC",
-    "decentralized-machine-learning": "DML",
-    "helbiz": "HBZ",
-    "origami": "ORI",
-    "holo": "HOT",
-    "trakinvest": "TRAK",
-    "aphelion": "APH",
-    "zebi": "ZCO",
-    "lendingblock": "LND",
-    "proxeus": "XES",
-    "vipstar-coin": "VIPS",
-    "rublix": "RBLX",
-    "biotron": "BTRN",
-    "penta": "PNT",
-    "nebula-ai": "NBAI",
-    "loopring-neo": "LRN",
-    "nexo": "NEXO",
-    "verime": "VME",
-    "daex": "DAX",
-    "hade-platform": "HADE",
-    "hydrogen": "HYDRO",
-    "sharder": "SS",
-    "trustnote": "TTT",
-    "bitcoin-interest": "BCI",
-    "betterbetting": "BETR",
-    "transcodium": "TNS",
-    "amon": "AMN",
-    "plancoin": "PLAN",
-    "crowd-machine": "CMCT",
-    "morpheus-labs": "MITX",
-    "live-stars": "LIVE",
-    "docademic": "MTC",
-    "mytoken": "MT",
-    "key": "KEY",
-    "nexty": "NTY",
-    "connectjob": "CJT",
-    "boutspro": "BOUTS",
-    "policypal-network": "PAL",
-    "cybereits": "CRE",
-    "parkgene": "GENE",
-    "apr-coin": "APR",
-    "ac3": "AC3",
-    "fuzex": "FXT",
-    "zippie": "ZIPT",
-    "skrumble-network": "SKM",
-    "daostack": "GEN",
-    "bezant": "BZNT",
-    "tokenstars": "TEAM",
-    "fitrova": "FRV",
-    "utrum": "OOT",
-    "aston": "ATX",
-    "freyrchain": "FREC",
-    "edu-coin": "EDU",
-    "content-neutrality-network": "CNN",
-    "insurchain": "INSUR",
-    "global-social-chain": "GSC",
-    "super-game-chain": "SGCC",
-    "digix-gold-token": "DGX",
-    "influence-chain": "INC",
-    "intelligent-investment-chain": "IIC",
-    "sakura-bloom": "SKB",
-    "bank-coin": "BANK",
-    "nper": "NPER"
+    "Bitcoin": [
+        "BTC",
+        "Bitcoin",
+        "bitcoin"
+    ],
+    "Litecoin": [
+        "LTC",
+        "Litecoin",
+        "litecoin"
+    ],
+    "Namecoin": [
+        "NMC",
+        "Namecoin",
+        "namecoin"
+    ],
+    "Terracoin": [
+        "TRC",
+        "Terracoin",
+        "terracoin"
+    ],
+    "Peercoin": [
+        "PPC",
+        "Peercoin",
+        "peercoin"
+    ],
+    "Novacoin": [
+        "NVC",
+        "Novacoin",
+        "novacoin"
+    ],
+    "Feathercoin": [
+        "FTC",
+        "Feathercoin",
+        "feathercoin"
+    ],
+    "Mincoin": [
+        "MNC",
+        "Mincoin",
+        "mincoin"
+    ],
+    "Freicoin": [
+        "FRC",
+        "Freicoin",
+        "freicoin"
+    ],
+    "Ixcoin": [
+        "IXC",
+        "Ixcoin",
+        "ixcoin"
+    ],
+    "BitBar": [
+        "BTB",
+        "BitBar",
+        "bitbar"
+    ],
+    "WorldCoin": [
+        "WDC",
+        "WorldCoin",
+        "worldcoin"
+    ],
+    "Digitalcoin": [
+        "DGC",
+        "Digitalcoin",
+        "digitalcoin"
+    ],
+    "GoldCoin": [
+        "GLD",
+        "GoldCoin",
+        "goldcoin"
+    ],
+    "Argentum": [
+        "ARG",
+        "Argentum",
+        "argentum"
+    ],
+    "Fastcoin": [
+        "FST",
+        "Fastcoin",
+        "fastcoin"
+    ],
+    "Bitgem": [
+        "BTG",
+        "Bitgem",
+        "bitgem"
+    ],
+    "Phoenixcoin": [
+        "PXC",
+        "Phoenixcoin",
+        "phoenixcoin"
+    ],
+    "Megacoin": [
+        "MEC",
+        "Megacoin",
+        "megacoin"
+    ],
+    "Infinitecoin": [
+        "IFC",
+        "Infinitecoin",
+        "infinitecoin"
+    ],
+    "Primecoin": [
+        "XPM",
+        "Primecoin",
+        "primecoin"
+    ],
+    "Anoncoin": [
+        "ANC",
+        "Anoncoin",
+        "anoncoin"
+    ],
+    "CasinoCoin": [
+        "CSC",
+        "CasinoCoin",
+        "casinocoin"
+    ],
+    "Bullion": [
+        "CBX",
+        "Bullion",
+        "bullion"
+    ],
+    "Emerald Crypto": [
+        "EMD",
+        "Emerald Crypto",
+        "emerald"
+    ],
+    "GlobalCoin": [
+        "GLC",
+        "GlobalCoin",
+        "globalcoin"
+    ],
+    "Ripple": [
+        "XRP",
+        "Ripple",
+        "ripple"
+    ],
+    "Quark": [
+        "QRK",
+        "Quark",
+        "quark"
+    ],
+    "Zetacoin": [
+        "ZET",
+        "Zetacoin",
+        "zetacoin"
+    ],
+    "SecureCoin": [
+        "SRC",
+        "SecureCoin",
+        "securecoin"
+    ],
+    "Sexcoin": [
+        "SXC",
+        "Sexcoin",
+        "sexcoin"
+    ],
+    "TagCoin": [
+        "TAG",
+        "TagCoin",
+        "tagcoin"
+    ],
+    "I0Coin": [
+        "I0C",
+        "I0Coin",
+        "i0coin"
+    ],
+    "FlorinCoin": [
+        "FLO",
+        "FlorinCoin",
+        "florincoin"
+    ],
+    "Nxt": [
+        "NXT",
+        "Nxt",
+        "nxt"
+    ],
+    "Unobtanium": [
+        "UNO",
+        "Unobtanium",
+        "unobtanium"
+    ],
+    "Joulecoin": [
+        "XJO",
+        "Joulecoin",
+        "joulecoin"
+    ],
+    "Datacoin": [
+        "DTC",
+        "Datacoin",
+        "datacoin"
+    ],
+    "BetaCoin": [
+        "BET",
+        "BetaCoin",
+        "betacoin"
+    ],
+    "GrandCoin": [
+        "GDC",
+        "GrandCoin",
+        "grandcoin"
+    ],
+    "Deutsche eMark": [
+        "DEM",
+        "Deutsche eMark",
+        "deutsche-emark"
+    ],
+    "Dogecoin": [
+        "DOGE",
+        "Dogecoin",
+        "dogecoin"
+    ],
+    "NetCoin": [
+        "NET",
+        "NetCoin",
+        "netcoin"
+    ],
+    "Philosopher Stones": [
+        "PHS",
+        "Philosopher Stones",
+        "philosopher-stones"
+    ],
+    "Diamond": [
+        "DMD",
+        "Diamond",
+        "diamond"
+    ],
+    "HoboNickels": [
+        "HBN",
+        "HoboNickels",
+        "hobonickels"
+    ],
+    "Tigercoin": [
+        "TGC",
+        "Tigercoin",
+        "tigercoin"
+    ],
+    "Orbitcoin": [
+        "ORB",
+        "Orbitcoin",
+        "orbitcoin"
+    ],
+    "Omni": [
+        "OMNI",
+        "Omni",
+        "omni"
+    ],
+    "Catcoin": [
+        "CAT",
+        "Catcoin",
+        "catcoin"
+    ],
+    "FedoraCoin": [
+        "TIPS",
+        "FedoraCoin",
+        "fedoracoin"
+    ],
+    "RonPaulCoin": [
+        "RPC",
+        "RonPaulCoin",
+        "ronpaulcoin"
+    ],
+    "Mooncoin": [
+        "MOON",
+        "Mooncoin",
+        "mooncoin"
+    ],
+    "Dimecoin": [
+        "DIME",
+        "Dimecoin",
+        "dimecoin"
+    ],
+    "42-coin": [
+        "42",
+        "42-coin",
+        "42-coin"
+    ],
+    "Vertcoin": [
+        "VTC",
+        "Vertcoin",
+        "vertcoin"
+    ],
+    "KlondikeCoin": [
+        "KDC",
+        "KlondikeCoin",
+        "klondikecoin"
+    ],
+    "RedCoin": [
+        "RED",
+        "RedCoin",
+        "redcoin"
+    ],
+    "DigiByte": [
+        "DGB",
+        "DigiByte",
+        "digibyte"
+    ],
+    "SmartCoin": [
+        "SMC",
+        "SmartCoin",
+        "smartcoin"
+    ],
+    "TeslaCoin": [
+        "TES",
+        "TeslaCoin",
+        "teslacoin"
+    ],
+    "Karmacoin": [
+        "KARMA",
+        "Karmacoin",
+        "karmacoin"
+    ],
+    "NobleCoin": [
+        "NOBL",
+        "NobleCoin",
+        "noblecoin"
+    ],
+    "ReddCoin": [
+        "RDD",
+        "ReddCoin",
+        "reddcoin"
+    ],
+    "Nyancoin": [
+        "NYAN",
+        "Nyancoin",
+        "nyancoin"
+    ],
+    "UltraCoin": [
+        "UTC",
+        "UltraCoin",
+        "ultracoin"
+    ],
+    "PotCoin": [
+        "POT",
+        "PotCoin",
+        "potcoin"
+    ],
+    "Blakecoin": [
+        "BLC",
+        "Blakecoin",
+        "blakecoin"
+    ],
+    "MaxCoin": [
+        "MAX",
+        "MaxCoin",
+        "maxcoin"
+    ],
+    "QubitCoin": [
+        "Q2C",
+        "QubitCoin",
+        "qubitcoin"
+    ],
+    "HunterCoin": [
+        "HUC",
+        "HunterCoin",
+        "huntercoin"
+    ],
+    "Dash": [
+        "DASH",
+        "Dash",
+        "dash"
+    ],
+    "Counterparty": [
+        "XCP",
+        "Counterparty",
+        "counterparty"
+    ],
+    "CacheCoin": [
+        "CACH",
+        "CacheCoin",
+        "cachecoin"
+    ],
+    "TopCoin": [
+        "TOP",
+        "TopCoin",
+        "topcoin"
+    ],
+    "iCoin": [
+        "ICN",
+        "iCoin",
+        "icoin"
+    ],
+    "Mintcoin": [
+        "MINT",
+        "Mintcoin",
+        "mintcoin"
+    ],
+    "Aricoin": [
+        "ARI",
+        "Aricoin",
+        "aricoin"
+    ],
+    "DopeCoin": [
+        "DOPE",
+        "DopeCoin",
+        "dopecoin"
+    ],
+    "Auroracoin": [
+        "AUR",
+        "Auroracoin",
+        "auroracoin"
+    ],
+    "Animecoin": [
+        "ANI",
+        "Animecoin",
+        "animecoin"
+    ],
+    "Pesetacoin": [
+        "PTC",
+        "Pesetacoin",
+        "pesetacoin"
+    ],
+    "Marscoin": [
+        "MARS",
+        "Marscoin",
+        "marscoin"
+    ],
+    "Cashcoin": [
+        "CASH",
+        "Cashcoin",
+        "cashcoin"
+    ],
+    "Riecoin": [
+        "RIC",
+        "Riecoin",
+        "riecoin"
+    ],
+    "Pandacoin": [
+        "PND",
+        "Pandacoin",
+        "pandacoin-pnd"
+    ],
+    "MAZA": [
+        "MZC",
+        "MAZA",
+        "mazacoin"
+    ],
+    "Uniform Fiscal Object": [
+        "UFO",
+        "Uniform Fiscal Object",
+        "uniform-fiscal-object"
+    ],
+    "BlackCoin": [
+        "BLK",
+        "BlackCoin",
+        "blackcoin"
+    ],
+    "LiteBar": [
+        "LTB",
+        "LiteBar",
+        "litebar"
+    ],
+    "Photon": [
+        "PHO",
+        "Photon",
+        "photon"
+    ],
+    "Zeitcoin": [
+        "ZEIT",
+        "Zeitcoin",
+        "zeitcoin"
+    ],
+    "Myriad": [
+        "XMY",
+        "Myriad",
+        "myriad"
+    ],
+    "Skeincoin": [
+        "SKC",
+        "Skeincoin",
+        "skeincoin"
+    ],
+    "Einsteinium": [
+        "EMC2",
+        "Einsteinium",
+        "einsteinium"
+    ],
+    "Bitcoin Scrypt": [
+        "BTCS",
+        "Bitcoin Scrypt",
+        "bitcoin-scrypt"
+    ],
+    "Coin(O)": [
+        "CNO",
+        "Coin(O)",
+        "coin"
+    ],
+    "ECC": [
+        "ECC",
+        "ECC",
+        "eccoin"
+    ],
+    "MonaCoin": [
+        "MONA",
+        "MonaCoin",
+        "monacoin"
+    ],
+    "Rubycoin": [
+        "RBY",
+        "Rubycoin",
+        "rubycoin"
+    ],
+    "Bela": [
+        "BELA",
+        "Bela",
+        "belacoin"
+    ],
+    "FlutterCoin": [
+        "FLT",
+        "FlutterCoin",
+        "fluttercoin"
+    ],
+    "OctoCoin": [
+        "888",
+        "OctoCoin",
+        "octocoin"
+    ],
+    "FairCoin": [
+        "FAIR",
+        "FairCoin",
+        "faircoin"
+    ],
+    "SolarCoin": [
+        "SLR",
+        "SolarCoin",
+        "solarcoin"
+    ],
+    "e-Gulden": [
+        "EFL",
+        "e-Gulden",
+        "e-gulden"
+    ],
+    "Gulden": [
+        "NLG",
+        "Gulden",
+        "gulden"
+    ],
+    "Polcoin": [
+        "PLC",
+        "Polcoin",
+        "polcoin"
+    ],
+    "Groestlcoin": [
+        "GRS",
+        "Groestlcoin",
+        "groestlcoin"
+    ],
+    "PetroDollar": [
+        "XPD",
+        "PetroDollar",
+        "petrodollar"
+    ],
+    "PLNcoin": [
+        "PLNC",
+        "PLNcoin",
+        "plncoin"
+    ],
+    "WhiteCoin": [
+        "XWC",
+        "WhiteCoin",
+        "whitecoin"
+    ],
+    "AsiaCoin": [
+        "AC",
+        "AsiaCoin",
+        "asiacoin"
+    ],
+    "PopularCoin": [
+        "POP",
+        "PopularCoin",
+        "popularcoin"
+    ],
+    "Bitstar": [
+        "BITS",
+        "Bitstar",
+        "bitstar"
+    ],
+    "Quebecoin": [
+        "QBC",
+        "Quebecoin",
+        "quebecoin"
+    ],
+    "CannaCoin": [
+        "CCN",
+        "CannaCoin",
+        "cannacoin"
+    ],
+    "Slothcoin": [
+        "SLOTH",
+        "Slothcoin",
+        "slothcoin"
+    ],
+    "BlueCoin": [
+        "BLU",
+        "BlueCoin",
+        "bluecoin"
+    ],
+    "MaidSafeCoin": [
+        "MAID",
+        "MaidSafeCoin",
+        "maidsafecoin"
+    ],
+    "Bitcoin Plus": [
+        "XBC",
+        "Bitcoin Plus",
+        "bitcoin-plus"
+    ],
+    "BTCtalkcoin": [
+        "TALK",
+        "BTCtalkcoin",
+        "btctalkcoin"
+    ],
+    "NewYorkCoin": [
+        "NYC",
+        "NewYorkCoin",
+        "newyorkcoin"
+    ],
+    "Canada eCoin": [
+        "CDN",
+        "Canada eCoin",
+        "canada-ecoin"
+    ],
+    "Guncoin": [
+        "GUN",
+        "Guncoin",
+        "guncoin"
+    ],
+    "PinkCoin": [
+        "PINK",
+        "PinkCoin",
+        "pinkcoin"
+    ],
+    "Dreamcoin": [
+        "DRM",
+        "Dreamcoin",
+        "dreamcoin"
+    ],
+    "CoffeeCoin": [
+        "CFC",
+        "CoffeeCoin",
+        "coffeecoin"
+    ],
+    "Energycoin": [
+        "ENRG",
+        "Energycoin",
+        "energycoin"
+    ],
+    "VeriCoin": [
+        "VRC",
+        "VeriCoin",
+        "vericoin"
+    ],
+    "TEKcoin": [
+        "TEK",
+        "TEKcoin",
+        "tekcoin"
+    ],
+    "Monero": [
+        "XMR",
+        "Monero",
+        "monero"
+    ],
+    "Litecoin Plus": [
+        "LCP",
+        "Litecoin Plus",
+        "litecoin-plus"
+    ],
+    "Curecoin": [
+        "CURE",
+        "Curecoin",
+        "curecoin"
+    ],
+    "UnbreakableCoin": [
+        "UNB",
+        "UnbreakableCoin",
+        "unbreakablecoin"
+    ],
+    "CryptCoin": [
+        "CRYPT",
+        "CryptCoin",
+        "cryptcoin"
+    ],
+    "QuazarCoin": [
+        "QCN",
+        "QuazarCoin",
+        "quazarcoin"
+    ],
+    "SuperCoin": [
+        "SUPER",
+        "SuperCoin",
+        "supercoin"
+    ],
+    "Qora": [
+        "QORA",
+        "Qora",
+        "qora"
+    ],
+    "BoostCoin": [
+        "BOST",
+        "BoostCoin",
+        "boostcoin"
+    ],
+    "Hyper": [
+        "HYPER",
+        "Hyper",
+        "hyper"
+    ],
+    "BitQuark": [
+        "BTQ",
+        "BitQuark",
+        "bitquark"
+    ],
+    "Motocoin": [
+        "MOTO",
+        "Motocoin",
+        "motocoin"
+    ],
+    "CloakCoin": [
+        "CLOAK",
+        "CloakCoin",
+        "cloakcoin"
+    ],
+    "BitSend": [
+        "BSD",
+        "BitSend",
+        "bitsend"
+    ],
+    "Coin2.1": [
+        "C2",
+        "Coin2.1",
+        "coin2-1"
+    ],
+    "Fantomcoin": [
+        "FCN",
+        "Fantomcoin",
+        "fantomcoin"
+    ],
+    "Bytecoin": [
+        "BCN",
+        "Bytecoin",
+        "bytecoin-bcn"
+    ],
+    "ArtByte": [
+        "ABY",
+        "ArtByte",
+        "artbyte"
+    ],
+    "NavCoin": [
+        "NAV",
+        "NavCoin",
+        "nav-coin"
+    ],
+    "Uro": [
+        "URO",
+        "Uro",
+        "uro"
+    ],
+    "Granite": [
+        "GRN",
+        "Granite",
+        "granitecoin"
+    ],
+    "Donationcoin": [
+        "DON",
+        "Donationcoin",
+        "donationcoin"
+    ],
+    "Piggycoin": [
+        "PIGGY",
+        "Piggycoin",
+        "piggycoin"
+    ],
+    "Startcoin": [
+        "START",
+        "Startcoin",
+        "startcoin"
+    ],
+    "Kore": [
+        "KORE",
+        "Kore",
+        "korecoin"
+    ],
+    "DigitalNote": [
+        "XDN",
+        "DigitalNote",
+        "digitalnote"
+    ],
+    "Boolberry": [
+        "BBR",
+        "Boolberry",
+        "boolberry"
+    ],
+    "SHACoin": [
+        "SHA",
+        "SHACoin",
+        "shacoin"
+    ],
+    "BlazeCoin": [
+        "BLZ",
+        "BlazeCoin",
+        "blazecoin"
+    ],
+    "HempCoin": [
+        "HMP",
+        "HempCoin",
+        "hempcoin-hmp"
+    ],
+    "BritCoin": [
+        "BRIT",
+        "BritCoin",
+        "britcoin"
+    ],
+    "Stealth": [
+        "XST",
+        "Stealth",
+        "stealth"
+    ],
+    "TrustPlus": [
+        "TRUST",
+        "TrustPlus",
+        "trustplus"
+    ],
+    "Clams": [
+        "CLAM",
+        "Clams",
+        "clams"
+    ],
+    "Quatloo": [
+        "QTL",
+        "Quatloo",
+        "quatloo"
+    ],
+    "BitShares": [
+        "BTS",
+        "BitShares",
+        "bitshares"
+    ],
+    "BitcoinDark": [
+        "BTCD",
+        "BitcoinDark",
+        "bitcoindark"
+    ],
+    "Truckcoin": [
+        "TRK",
+        "Truckcoin",
+        "truckcoin"
+    ],
+    "Viacoin": [
+        "VIA",
+        "Viacoin",
+        "viacoin"
+    ],
+    "Firecoin": [
+        "FIRE",
+        "Firecoin",
+        "firecoin"
+    ],
+    "Triangles": [
+        "TRI",
+        "Triangles",
+        "triangles"
+    ],
+    "ShadowCash": [
+        "SDC",
+        "ShadowCash",
+        "shadowcash"
+    ],
+    "I/O Coin": [
+        "IOC",
+        "I/O Coin",
+        "iocoin"
+    ],
+    "Cryptonite": [
+        "XCN",
+        "Cryptonite",
+        "cryptonite"
+    ],
+    "Carboncoin": [
+        "CARBON",
+        "Carboncoin",
+        "carboncoin"
+    ],
+    "CannabisCoin": [
+        "CANN",
+        "CannabisCoin",
+        "cannabiscoin"
+    ],
+    "Stellar": [
+        "XLM",
+        "Stellar",
+        "stellar"
+    ],
+    "Titcoin": [
+        "TIT",
+        "Titcoin",
+        "titcoin"
+    ],
+    "Virtacoin": [
+        "VTA",
+        "Virtacoin",
+        "virtacoin"
+    ],
+    "HyperStake": [
+        "HYP",
+        "HyperStake",
+        "hyperstake"
+    ],
+    "Joincoin": [
+        "J",
+        "Joincoin",
+        "joincoin"
+    ],
+    "Syscoin": [
+        "SYS",
+        "Syscoin",
+        "syscoin"
+    ],
+    "Bitmark": [
+        "BTM",
+        "Bitmark",
+        "bitmark"
+    ],
+    "Halcyon": [
+        "HAL",
+        "Halcyon",
+        "halcyon"
+    ],
+    "Storjcoin X": [
+        "SJCX",
+        "Storjcoin X",
+        "storjcoin-x"
+    ],
+    "NeosCoin": [
+        "NEOS",
+        "NeosCoin",
+        "neoscoin"
+    ],
+    "Emercoin": [
+        "EMC",
+        "Emercoin",
+        "emercoin"
+    ],
+    "RabbitCoin": [
+        "RBBT",
+        "RabbitCoin",
+        "rabbitcoin"
+    ],
+    "Burst": [
+        "BURST",
+        "Burst",
+        "burst"
+    ],
+    "GameCredits": [
+        "GAME",
+        "GameCredits",
+        "gamecredits"
+    ],
+    "WeAreSatoshi": [
+        "WSX",
+        "WeAreSatoshi",
+        "wearesatoshi"
+    ],
+    "Ubiq": [
+        "UBQ",
+        "Ubiq",
+        "ubiq"
+    ],
+    "BunnyCoin": [
+        "BUN",
+        "BunnyCoin",
+        "bunnycoin"
+    ],
+    "Opal": [
+        "OPAL",
+        "Opal",
+        "opal"
+    ],
+    "Acoin": [
+        "ACOIN",
+        "Acoin",
+        "acoin"
+    ],
+    "FoldingCoin": [
+        "FLDC",
+        "FoldingCoin",
+        "foldingcoin"
+    ],
+    "bitUSD": [
+        "BITUSD",
+        "bitUSD",
+        "bitusd"
+    ],
+    "bitCNY": [
+        "BITCNY",
+        "bitCNY",
+        "bitcny"
+    ],
+    "bitBTC": [
+        "BITBTC",
+        "bitBTC",
+        "bitbtc"
+    ],
+    "NuBits": [
+        "USNBT",
+        "NuBits",
+        "nubits"
+    ],
+    "Sterlingcoin": [
+        "SLG",
+        "Sterlingcoin",
+        "sterlingcoin"
+    ],
+    "Magi": [
+        "XMG",
+        "Magi",
+        "magi"
+    ],
+    "ExclusiveCoin": [
+        "EXCL",
+        "ExclusiveCoin",
+        "exclusivecoin"
+    ],
+    "Trollcoin": [
+        "TROLL",
+        "Trollcoin",
+        "trollcoin"
+    ],
+    "SuperNET": [
+        "UNITY",
+        "SuperNET",
+        "supernet-unity"
+    ],
+    "GlobalBoost-Y": [
+        "BSTY",
+        "GlobalBoost-Y",
+        "globalboost-y"
+    ],
+    "DigitalPrice": [
+        "DP",
+        "DigitalPrice",
+        "digitalprice"
+    ],
+    "Prime-XI": [
+        "PXI",
+        "Prime-XI",
+        "prime-xi"
+    ],
+    "Bitswift": [
+        "SWIFT",
+        "Bitswift",
+        "bitswift"
+    ],
+    "Dashcoin": [
+        "DSH",
+        "Dashcoin",
+        "dashcoin"
+    ],
+    "AurumCoin": [
+        "AU",
+        "AurumCoin",
+        "aurumcoin"
+    ],
+    "Sativacoin": [
+        "STV",
+        "Sativacoin",
+        "sativacoin"
+    ],
+    "Verge": [
+        "XVG",
+        "Verge",
+        "verge"
+    ],
+    "NuShares": [
+        "NSR",
+        "NuShares",
+        "nushares"
+    ],
+    "SpreadCoin": [
+        "SPR",
+        "SpreadCoin",
+        "spreadcoin"
+    ],
+    "Rimbit": [
+        "RBT",
+        "Rimbit",
+        "rimbit"
+    ],
+    "MonetaryUnit": [
+        "MUE",
+        "MonetaryUnit",
+        "monetaryunit"
+    ],
+    "Blocknet": [
+        "BLOCK",
+        "Blocknet",
+        "blocknet"
+    ],
+    "Gapcoin": [
+        "GAP",
+        "Gapcoin",
+        "gapcoin"
+    ],
+    "TittieCoin": [
+        "TTC",
+        "TittieCoin",
+        "tittiecoin"
+    ],
+    "Crown": [
+        "CRW",
+        "Crown",
+        "crown"
+    ],
+    "BitBay": [
+        "BAY",
+        "BitBay",
+        "bitbay"
+    ],
+    "Blitzcash": [
+        "BLITZ",
+        "Blitzcash",
+        "blitzcash"
+    ],
+    "GCN Coin": [
+        "GCN",
+        "GCN Coin",
+        "gcn-coin"
+    ],
+    "Quotient": [
+        "XQN",
+        "Quotient",
+        "quotient"
+    ],
+    "Bytecent": [
+        "BYC",
+        "Bytecent",
+        "bytecent"
+    ],
+    "Bitcoin Fast": [
+        "BCF",
+        "Bitcoin Fast",
+        "bitcoinfast"
+    ],
+    "OKCash": [
+        "OK",
+        "OKCash",
+        "okcash"
+    ],
+    "PayCoin": [
+        "XPY",
+        "PayCoin",
+        "paycoin2"
+    ],
+    "vTorrent": [
+        "VTR",
+        "vTorrent",
+        "vtorrent"
+    ],
+    "bitGold": [
+        "BITGOLD",
+        "bitGold",
+        "bitgold"
+    ],
+    "Unitus": [
+        "UIS",
+        "Unitus",
+        "unitus"
+    ],
+    "GoldPieces": [
+        "GP",
+        "GoldPieces",
+        "goldpieces"
+    ],
+    "Circuits of Value": [
+        "COVAL",
+        "Circuits of Value",
+        "circuits-of-value"
+    ],
+    "Nexus": [
+        "NXS",
+        "Nexus",
+        "nexus"
+    ],
+    "SoonCoin": [
+        "SOON",
+        "SoonCoin",
+        "sooncoin"
+    ],
+    "MetalCoin": [
+        "METAL",
+        "MetalCoin",
+        "metalcoin"
+    ],
+    "IncaKoin": [
+        "NKA",
+        "IncaKoin",
+        "incakoin"
+    ],
+    "SmileyCoin": [
+        "SMLY",
+        "SmileyCoin",
+        "smileycoin"
+    ],
+    "AmberCoin": [
+        "AMBER",
+        "AmberCoin",
+        "ambercoin"
+    ],
+    "Machinecoin": [
+        "MAC",
+        "Machinecoin",
+        "machinecoin"
+    ],
+    "bitSilver": [
+        "BITSILVER",
+        "bitSilver",
+        "bitsilver"
+    ],
+    "Dotcoin": [
+        "DOT",
+        "Dotcoin",
+        "dotcoin"
+    ],
+    "Kobocoin": [
+        "KOBO",
+        "Kobocoin",
+        "kobocoin"
+    ],
+    "PayCon": [
+        "CON",
+        "PayCon",
+        "paycon"
+    ],
+    "Bean Cash": [
+        "BITB",
+        "Bean Cash",
+        "bean-cash"
+    ],
+    "GeoCoin": [
+        "GEO",
+        "GeoCoin",
+        "geocoin"
+    ],
+    "Tether": [
+        "USDT",
+        "Tether",
+        "tether"
+    ],
+    "Wild Beast Block": [
+        "WBB",
+        "Wild Beast Block",
+        "wild-beast-block"
+    ],
+    "GridCoin": [
+        "GRC",
+        "GridCoin",
+        "gridcoin"
+    ],
+    "Vcash": [
+        "XVC",
+        "Vcash",
+        "vcash"
+    ],
+    "X-Coin": [
+        "XCO",
+        "X-Coin",
+        "x-coin"
+    ],
+    "Sharkcoin": [
+        "SAK",
+        "Sharkcoin",
+        "sharkcoin"
+    ],
+    "Bitz": [
+        "BITZ",
+        "Bitz",
+        "bitz"
+    ],
+    "LiteDoge": [
+        "LDOGE",
+        "LiteDoge",
+        "litedoge"
+    ],
+    "UNCoin": [
+        "UNC",
+        "UNCoin",
+        "uncoin"
+    ],
+    "SongCoin": [
+        "SONG",
+        "SongCoin",
+        "songcoin"
+    ],
+    "Woodcoin": [
+        "LOG",
+        "Woodcoin",
+        "woodcoin"
+    ],
+    "Selfiecoin": [
+        "SLFI",
+        "Selfiecoin",
+        "selfiecoin"
+    ],
+    "Crave": [
+        "CRAVE",
+        "Crave",
+        "crave"
+    ],
+    "Pura": [
+        "PURA",
+        "Pura",
+        "pura"
+    ],
+    "NEM": [
+        "XEM",
+        "NEM",
+        "nem"
+    ],
+    "8Bit": [
+        "8BIT",
+        "8Bit",
+        "8bit"
+    ],
+    "LeaCoin": [
+        "LEA",
+        "LeaCoin",
+        "leacoin"
+    ],
+    "Neutron": [
+        "NTRN",
+        "Neutron",
+        "neutron"
+    ],
+    "Xaurum": [
+        "XAUR",
+        "Xaurum",
+        "xaurum"
+    ],
+    "Californium": [
+        "CF",
+        "Californium",
+        "californium"
+    ],
+    "Advanced Internet Blocks": [
+        "AIB",
+        "Advanced Internet Blocks",
+        "advanced-internet-blocks"
+    ],
+    "EggCoin": [
+        "EGG",
+        "EggCoin",
+        "eggcoin"
+    ],
+    "Sphere": [
+        "SPHR",
+        "Sphere",
+        "sphere"
+    ],
+    "MedicCoin": [
+        "MEDIC",
+        "MedicCoin",
+        "mediccoin"
+    ],
+    "Bubble": [
+        "BUB",
+        "Bubble",
+        "bubble"
+    ],
+    "MUSE": [
+        "MUSE",
+        "MUSE",
+        "bitshares-music"
+    ],
+    "Universal Currency": [
+        "UNIT",
+        "Universal Currency",
+        "universal-currency"
+    ],
+    "ShellCoin": [
+        "SHELL",
+        "ShellCoin",
+        "shellcoin"
+    ],
+    "Crypto": [
+        "CTO",
+        "Crypto",
+        "crypto"
+    ],
+    "ParkByte": [
+        "PKB",
+        "ParkByte",
+        "parkbyte"
+    ],
+    "ARbit": [
+        "ARB",
+        "ARbit",
+        "arbit"
+    ],
+    "Gambit": [
+        "GAM",
+        "Gambit",
+        "gambit"
+    ],
+    "Bata": [
+        "BTA",
+        "Bata",
+        "bata"
+    ],
+    "AudioCoin": [
+        "ADC",
+        "AudioCoin",
+        "audiocoin"
+    ],
+    "Synergy": [
+        "SNRG",
+        "Synergy",
+        "synergy"
+    ],
+    "bitEUR": [
+        "BITEUR",
+        "bitEUR",
+        "biteur"
+    ],
+    "UniCoin": [
+        "UNIC",
+        "UniCoin",
+        "unicoin"
+    ],
+    "FujiCoin": [
+        "FJC",
+        "FujiCoin",
+        "fujicoin"
+    ],
+    "EuropeCoin": [
+        "ERC",
+        "EuropeCoin",
+        "europecoin"
+    ],
+    "The Cypherfunks": [
+        "FUNK",
+        "The Cypherfunks",
+        "the-cypherfunks"
+    ],
+    "Hexx": [
+        "HXX",
+        "Hexx",
+        "hexx"
+    ],
+    "Ratecoin": [
+        "XRA",
+        "Ratecoin",
+        "ratecoin"
+    ],
+    "Metal Music Coin": [
+        "MTLMC3",
+        "Metal Music Coin",
+        "metal-music-coin"
+    ],
+    "CrevaCoin": [
+        "CREVA",
+        "CrevaCoin",
+        "crevacoin"
+    ],
+    "IrishCoin": [
+        "IRL",
+        "IrishCoin",
+        "irishcoin"
+    ],
+    "Bitzeny": [
+        "ZNY",
+        "Bitzeny",
+        "bitzeny"
+    ],
+    "Cycling Coin": [
+        "CYC",
+        "Cycling Coin",
+        "cycling-coin"
+    ],
+    "BowsCoin": [
+        "BSC",
+        "BowsCoin",
+        "bowscoin"
+    ],
+    "AnarchistsPrime": [
+        "ACP",
+        "AnarchistsPrime",
+        "anarchistsprime"
+    ],
+    "TAGRcoin": [
+        "TAGR",
+        "TAGRcoin",
+        "tagrcoin"
+    ],
+    "CompuCoin": [
+        "CPN",
+        "CompuCoin",
+        "compucoin"
+    ],
+    "ChainCoin": [
+        "CHC",
+        "ChainCoin",
+        "chaincoin"
+    ],
+    "Sprouts": [
+        "SPRTS",
+        "Sprouts",
+        "sprouts"
+    ],
+    "Helleniccoin": [
+        "HNC",
+        "Helleniccoin",
+        "helleniccoin"
+    ],
+    "Capricoin": [
+        "CPC",
+        "Capricoin",
+        "capricoin"
+    ],
+    "Flaxscript": [
+        "FLAX",
+        "Flaxscript",
+        "flaxscript"
+    ],
+    "Cthulhu Offerings": [
+        "OFF",
+        "Cthulhu Offerings",
+        "cthulhu-offerings"
+    ],
+    "BiosCrypto": [
+        "BIOS",
+        "BiosCrypto",
+        "bios-crypto"
+    ],
+    "Manna": [
+        "MANNA",
+        "Manna",
+        "manna"
+    ],
+    "Axiom": [
+        "AXIOM",
+        "Axiom",
+        "axiom"
+    ],
+    "LEOcoin": [
+        "LEO",
+        "LEOcoin",
+        "leocoin"
+    ],
+    "Aeon": [
+        "AEON",
+        "Aeon",
+        "aeon"
+    ],
+    "Ethereum": [
+        "ETH",
+        "Ethereum",
+        "ethereum"
+    ],
+    "SJWCoin": [
+        "SJW",
+        "SJWCoin",
+        "sjwcoin"
+    ],
+    "TransferCoin": [
+        "TX",
+        "TransferCoin",
+        "transfercoin"
+    ],
+    "GuccioneCoin": [
+        "GCC",
+        "GuccioneCoin",
+        "guccionecoin"
+    ],
+    "AmsterdamCoin": [
+        "AMS",
+        "AmsterdamCoin",
+        "amsterdamcoin"
+    ],
+    "Eurocoin": [
+        "EUC",
+        "Eurocoin",
+        "eurocoin"
+    ],
+    "Siacoin": [
+        "SC",
+        "Siacoin",
+        "siacoin"
+    ],
+    "Global Currency Reserve": [
+        "GCR",
+        "Global Currency Reserve",
+        "global-currency-reserve"
+    ],
+    "DeltaCredits": [
+        "DCRE",
+        "DeltaCredits",
+        "deltacredits"
+    ],
+    "SatoshiMadness": [
+        "MAD",
+        "SatoshiMadness",
+        "satoshimadness"
+    ],
+    "Shift": [
+        "SHIFT",
+        "Shift",
+        "shift"
+    ],
+    "VectorAI": [
+        "VEC2",
+        "VectorAI",
+        "vector"
+    ],
+    "Bolivarcoin": [
+        "BOLI",
+        "Bolivarcoin",
+        "bolivarcoin"
+    ],
+    "SpaceCoin": [
+        "SPACE",
+        "SpaceCoin",
+        "spacecoin"
+    ],
+    "Flycoin": [
+        "FLY",
+        "Flycoin",
+        "flycoin"
+    ],
+    "Bitcrystals": [
+        "BCY",
+        "Bitcrystals",
+        "bitcrystals"
+    ],
+    "Pakcoin": [
+        "PAK",
+        "Pakcoin",
+        "pakcoin"
+    ],
+    "Influxcoin": [
+        "INFX",
+        "Influxcoin",
+        "influxcoin"
+    ],
+    "Expanse": [
+        "EXP",
+        "Expanse",
+        "expanse"
+    ],
+    "Steps": [
+        "STEPS",
+        "Steps",
+        "steps"
+    ],
+    "SIBCoin": [
+        "SIB",
+        "SIBCoin",
+        "sibcoin"
+    ],
+    "IslaCoin": [
+        "ISL",
+        "IslaCoin",
+        "islacoin"
+    ],
+    "Swing": [
+        "SWING",
+        "Swing",
+        "swing"
+    ],
+    "Factom": [
+        "FCT",
+        "Factom",
+        "factom"
+    ],
+    "ParallelCoin": [
+        "DUO",
+        "ParallelCoin",
+        "parallelcoin"
+    ],
+    "Save and Gain": [
+        "SANDG",
+        "Save and Gain",
+        "save-and-gain"
+    ],
+    "Prototanium": [
+        "PR",
+        "Prototanium",
+        "prototanium"
+    ],
+    "DigiCube": [
+        "CUBE",
+        "DigiCube",
+        "digicube"
+    ],
+    "Augur": [
+        "REP",
+        "Augur",
+        "augur"
+    ],
+    "StrongHands": [
+        "SHND",
+        "StrongHands",
+        "stronghands"
+    ],
+    "PACcoin": [
+        "$PAC",
+        "PACcoin",
+        "paccoin"
+    ],
+    "Elite": [
+        "1337",
+        "Elite",
+        "1337coin"
+    ],
+    "Money": [
+        "$$$",
+        "Money",
+        "money"
+    ],
+    "SOILcoin": [
+        "SOIL",
+        "SOILcoin",
+        "soilcoin"
+    ],
+    "SecretCoin": [
+        "SCRT",
+        "SecretCoin",
+        "secretcoin"
+    ],
+    "DraftCoin": [
+        "DFT",
+        "DraftCoin",
+        "draftcoin"
+    ],
+    "OBITS": [
+        "OBITS",
+        "OBITS",
+        "obits"
+    ],
+    "Synereo": [
+        "AMP",
+        "Synereo",
+        "synereo"
+    ],
+    "GBCGoldCoin": [
+        "GBC",
+        "GBCGoldCoin",
+        "gbcgoldcoin"
+    ],
+    "X2": [
+        "X2",
+        "X2",
+        "x2"
+    ],
+    "ClubCoin": [
+        "CLUB",
+        "ClubCoin",
+        "clubcoin"
+    ],
+    "Adzcoin": [
+        "ADZ",
+        "Adzcoin",
+        "adzcoin"
+    ],
+    "MindCoin": [
+        "MND",
+        "MindCoin",
+        "mindcoin"
+    ],
+    "Moin": [
+        "MOIN",
+        "Moin",
+        "moin"
+    ],
+    "AvatarCoin": [
+        "AV",
+        "AvatarCoin",
+        "avatarcoin"
+    ],
+    "RussiaCoin": [
+        "RC",
+        "RussiaCoin",
+        "russiacoin"
+    ],
+    "EverGreenCoin": [
+        "EGC",
+        "EverGreenCoin",
+        "evergreencoin"
+    ],
+    "Opescoin": [
+        "OPES",
+        "Opescoin",
+        "opescoin"
+    ],
+    "Creditbit": [
+        "CRB",
+        "Creditbit",
+        "creditbit"
+    ],
+    "Radium": [
+        "RADS",
+        "Radium",
+        "radium"
+    ],
+    "Litecred": [
+        "LTCR",
+        "Litecred",
+        "litecred"
+    ],
+    "Yocoin": [
+        "YOC",
+        "Yocoin",
+        "yocoin"
+    ],
+    "SaluS": [
+        "SLS",
+        "SaluS",
+        "salus"
+    ],
+    "Francs": [
+        "FRN",
+        "Francs",
+        "francs"
+    ],
+    "Evil Coin": [
+        "EVIL",
+        "Evil Coin",
+        "evil-coin"
+    ],
+    "Decred": [
+        "DCR",
+        "Decred",
+        "decred"
+    ],
+    "PIVX": [
+        "PIVX",
+        "PIVX",
+        "pivx"
+    ],
+    "Safe Exchange Coin": [
+        "SAFEX",
+        "Safe Exchange Coin",
+        "safe-exchange-coin"
+    ],
+    "Rubies": [
+        "RBIES",
+        "Rubies",
+        "rubies"
+    ],
+    "Asiadigicoin": [
+        "ADCN",
+        "Asiadigicoin",
+        "asiadigicoin"
+    ],
+    "Destiny": [
+        "DES",
+        "Destiny",
+        "destiny"
+    ],
+    "KiloCoin": [
+        "KLC",
+        "KiloCoin",
+        "kilocoin"
+    ],
+    "TrumpCoin": [
+        "TRUMP",
+        "TrumpCoin",
+        "trumpcoin"
+    ],
+    "Memetic / PepeCoin": [
+        "MEME",
+        "Memetic / PepeCoin",
+        "memetic"
+    ],
+    "C-Bit": [
+        "XCT",
+        "C-Bit",
+        "c-bit"
+    ],
+    "Independent Money System": [
+        "IMS",
+        "Independent Money System",
+        "independent-money-system"
+    ],
+    "HOdlcoin": [
+        "HODL",
+        "HOdlcoin",
+        "hodlcoin"
+    ],
+    "BigUp": [
+        "BIGUP",
+        "BigUp",
+        "bigup"
+    ],
+    "NevaCoin": [
+        "NEVA",
+        "NevaCoin",
+        "nevacoin"
+    ],
+    "BumbaCoin": [
+        "BUMBA",
+        "BumbaCoin",
+        "bumbacoin"
+    ],
+    "RevolutionVR": [
+        "RVR",
+        "RevolutionVR",
+        "revolutionvr"
+    ],
+    "PosEx": [
+        "PEX",
+        "PosEx",
+        "posex"
+    ],
+    "Cabbage": [
+        "CAB",
+        "Cabbage",
+        "cabbage"
+    ],
+    "MojoCoin": [
+        "MOJO",
+        "MojoCoin",
+        "mojocoin"
+    ],
+    "GoldMaxCoin": [
+        "GMX",
+        "GoldMaxCoin",
+        "goldmaxcoin"
+    ],
+    "Lisk": [
+        "LSK",
+        "Lisk",
+        "lisk"
+    ],
+    "EDRCoin": [
+        "EDRC",
+        "EDRCoin",
+        "edrcoin"
+    ],
+    "PostCoin": [
+        "POST",
+        "PostCoin",
+        "postcoin"
+    ],
+    "Operand": [
+        "OP",
+        "Operand",
+        "operand"
+    ],
+    "BERNcash": [
+        "BERN",
+        "BERNcash",
+        "berncash"
+    ],
+    "Qwark": [
+        "QWARK",
+        "Qwark",
+        "qwark"
+    ],
+    "DigixDAO": [
+        "DGD",
+        "DigixDAO",
+        "digixdao"
+    ],
+    "Steem": [
+        "STEEM",
+        "Steem",
+        "steem"
+    ],
+    "Fantasy Cash": [
+        "FANS",
+        "Fantasy Cash",
+        "fantasy-cash"
+    ],
+    "Espers": [
+        "ESP",
+        "Espers",
+        "espers"
+    ],
+    "FuzzBalls": [
+        "FUZZ",
+        "FuzzBalls",
+        "fuzzballs"
+    ],
+    "DarkLisk": [
+        "DISK",
+        "DarkLisk",
+        "darklisk"
+    ],
+    "HiCoin": [
+        "XHI",
+        "HiCoin",
+        "hicoin"
+    ],
+    "AquariusCoin": [
+        "ARCO",
+        "AquariusCoin",
+        "aquariuscoin"
+    ],
+    "Bitcoin 21": [
+        "XBTC21",
+        "Bitcoin 21",
+        "bitcoin-21"
+    ],
+    "Elcoin": [
+        "EL",
+        "Elcoin",
+        "elcoin-el"
+    ],
+    "Zurcoin": [
+        "ZUR",
+        "Zurcoin",
+        "zurcoin"
+    ],
+    "SixEleven": [
+        "611",
+        "SixEleven",
+        "sixeleven"
+    ],
+    "2GIVE": [
+        "2GIVE",
+        "2GIVE",
+        "2give"
+    ],
+    "PlatinumBAR": [
+        "XPTX",
+        "PlatinumBAR",
+        "platinumbar"
+    ],
+    "Alphabit": [
+        "ABC",
+        "Alphabit",
+        "alphabitcoinfund"
+    ],
+    "LanaCoin": [
+        "LANA",
+        "LanaCoin",
+        "lanacoin"
+    ],
+    "PonziCoin": [
+        "PONZI",
+        "PonziCoin",
+        "ponzicoin"
+    ],
+    "TeslaCoilCoin": [
+        "TESLA",
+        "TeslaCoilCoin",
+        "teslacoilcoin"
+    ],
+    "MarteXcoin": [
+        "MXT",
+        "MarteXcoin",
+        "martexcoin"
+    ],
+    "Nullex": [
+        "NLX",
+        "Nullex",
+        "nullex"
+    ],
+    "RichCoin": [
+        "RICHX",
+        "RichCoin",
+        "richcoin"
+    ],
+    "PrismChain": [
+        "PRM",
+        "PrismChain",
+        "prismchain"
+    ],
+    "Waves": [
+        "WAVES",
+        "Waves",
+        "waves"
+    ],
+    "Newbium": [
+        "NEWB",
+        "Newbium",
+        "newbium"
+    ],
+    "ICO OpenLedger": [
+        "ICOO",
+        "ICO OpenLedger",
+        "ico-openledger"
+    ],
+    "ION": [
+        "ION",
+        "ION",
+        "ion"
+    ],
+    "High Voltage": [
+        "HVCO",
+        "High Voltage",
+        "high-voltage"
+    ],
+    "Mineum": [
+        "MNM",
+        "Mineum",
+        "mineum"
+    ],
+    "RevolverCoin": [
+        "XRE",
+        "RevolverCoin",
+        "revolvercoin"
+    ],
+    "GoldBlocks": [
+        "GB",
+        "GoldBlocks",
+        "goldblocks"
+    ],
+    "Breakout": [
+        "BRK",
+        "Breakout",
+        "breakout"
+    ],
+    "Debitcoin": [
+        "DBTC",
+        "Debitcoin",
+        "debitcoin"
+    ],
+    "Comet": [
+        "CMT",
+        "Comet",
+        "comet"
+    ],
+    "Rise": [
+        "RISE",
+        "Rise",
+        "rise"
+    ],
+    "ChessCoin": [
+        "CHESS",
+        "ChessCoin",
+        "chesscoin"
+    ],
+    "LBRY Credits": [
+        "LBC",
+        "LBRY Credits",
+        "library-credit"
+    ],
+    "PutinCoin": [
+        "PUT",
+        "PutinCoin",
+        "putincoin"
+    ],
+    "Breakout Stake": [
+        "BRX",
+        "Breakout Stake",
+        "breakout-stake"
+    ],
+    "Syndicate": [
+        "SYNX",
+        "Syndicate",
+        "syndicate"
+    ],
+    "Cryptojacks": [
+        "CJ",
+        "Cryptojacks",
+        "cryptojacks"
+    ],
+    "ReeCoin": [
+        "REE",
+        "ReeCoin",
+        "reecoin"
+    ],
+    "HEAT": [
+        "HEAT",
+        "HEAT",
+        "heat-ledger"
+    ],
+    "LetItRide": [
+        "LIR",
+        "LetItRide",
+        "letitride"
+    ],
+    "DAPPSTER": [
+        "DLISK",
+        "DAPPSTER",
+        "dappster"
+    ],
+    "Steem Dollars": [
+        "SBD",
+        "Steem Dollars",
+        "steem-dollars"
+    ],
+    "LinkedCoin": [
+        "LKC",
+        "LinkedCoin",
+        "linkedcoin"
+    ],
+    "Chronos": [
+        "CRX",
+        "Chronos",
+        "chronos"
+    ],
+    "Ardor": [
+        "ARDR",
+        "Ardor",
+        "ardor"
+    ],
+    "Ethereum Classic": [
+        "ETC",
+        "Ethereum Classic",
+        "ethereum-classic"
+    ],
+    "808Coin": [
+        "808",
+        "808Coin",
+        "808coin"
+    ],
+    "First Bitcoin": [
+        "BIT",
+        "First Bitcoin",
+        "first-bitcoin"
+    ],
+    "PokeCoin": [
+        "POKE",
+        "PokeCoin",
+        "pokecoin"
+    ],
+    "Elementrem": [
+        "ELE",
+        "Elementrem",
+        "elementrem"
+    ],
+    "UGAIN": [
+        "GAIN",
+        "UGAIN",
+        "ugain"
+    ],
+    "Karbo": [
+        "KRB",
+        "Karbo",
+        "karbo"
+    ],
+    "VapersCoin": [
+        "VPRC",
+        "VapersCoin",
+        "vaperscoin"
+    ],
+    "Stratis": [
+        "STRAT",
+        "Stratis",
+        "stratis"
+    ],
+    "President Trump": [
+        "PRES",
+        "President Trump",
+        "president-trump"
+    ],
+    "Aces": [
+        "ACES",
+        "Aces",
+        "aces"
+    ],
+    "President Johnson": [
+        "GARY",
+        "President Johnson",
+        "president-johnson"
+    ],
+    "TajCoin": [
+        "TAJ",
+        "TajCoin",
+        "tajcoin"
+    ],
+    "TodayCoin": [
+        "TODAY",
+        "TodayCoin",
+        "todaycoin"
+    ],
+    "PX": [
+        "PX",
+        "PX",
+        "px"
+    ],
+    "E-Dinar Coin": [
+        "EDR",
+        "E-Dinar Coin",
+        "e-dinar-coin"
+    ],
+    "BitTokens": [
+        "BXT",
+        "BitTokens",
+        "bittokens"
+    ],
+    "TechShares": [
+        "THS",
+        "TechShares",
+        "techshares"
+    ],
+    "Artex Coin": [
+        "ATX",
+        "Artex Coin",
+        "artex-coin"
+    ],
+    "AgrolifeCoin": [
+        "AGLC",
+        "AgrolifeCoin",
+        "agrolifecoin"
+    ],
+    "Experience Points": [
+        "XP",
+        "Experience Points",
+        "experience-points"
+    ],
+    "Veltor": [
+        "VLT",
+        "Veltor",
+        "veltor"
+    ],
+    "B3Coin": [
+        "KB3",
+        "B3Coin",
+        "b3coin"
+    ],
+    "BlockPay": [
+        "BLOCKPAY",
+        "BlockPay",
+        "blockpay"
+    ],
+    "Golfcoin": [
+        "GOLF",
+        "Golfcoin",
+        "golfcoin"
+    ],
+    "NEO": [
+        "NEO",
+        "NEO",
+        "neo"
+    ],
+    "Jewels": [
+        "JWL",
+        "Jewels",
+        "jewels"
+    ],
+    "LoMoCoin": [
+        "LMC",
+        "LoMoCoin",
+        "lomocoin"
+    ],
+    "Bitcloud": [
+        "BTDX",
+        "Bitcloud",
+        "bitcloud"
+    ],
+    "NoLimitCoin": [
+        "NLC2",
+        "NoLimitCoin",
+        "nolimitcoin"
+    ],
+    "SportsCoin": [
+        "SPORT",
+        "SportsCoin",
+        "sportscoin"
+    ],
+    "VeriumReserve": [
+        "VRM",
+        "VeriumReserve",
+        "veriumreserve"
+    ],
+    "Zayedcoin": [
+        "ZYD",
+        "Zayedcoin",
+        "zayedcoin"
+    ],
+    "Jin Coin": [
+        "JIN",
+        "Jin Coin",
+        "jin-coin"
+    ],
+    "Tao": [
+        "XTO",
+        "Tao",
+        "tao"
+    ],
+    "Pluton": [
+        "PLU",
+        "Pluton",
+        "pluton"
+    ],
+    "Tellurion": [
+        "TELL",
+        "Tellurion",
+        "tellurion"
+    ],
+    "Shilling": [
+        "SH",
+        "Shilling",
+        "shilling"
+    ],
+    "Dollarcoin": [
+        "DLC",
+        "Dollarcoin",
+        "dollarcoin"
+    ],
+    "MustangCoin": [
+        "MST",
+        "MustangCoin",
+        "mustangcoin"
+    ],
+    "Beatcoin": [
+        "XBTS",
+        "Beatcoin",
+        "beatcoin"
+    ],
+    "PROUD Money": [
+        "PROUD",
+        "PROUD Money",
+        "proud-money"
+    ],
+    "Sequence": [
+        "SEQ",
+        "Sequence",
+        "sequence"
+    ],
+    "Omicron": [
+        "OMC",
+        "Omicron",
+        "omicron"
+    ],
+    "FirstBlood": [
+        "1ST",
+        "FirstBlood",
+        "firstblood"
+    ],
+    "Pepe Cash": [
+        "PEPECASH",
+        "Pepe Cash",
+        "pepe-cash"
+    ],
+    "Iconomi": [
+        "ICN",
+        "Iconomi",
+        "iconomi"
+    ],
+    "SingularDTV": [
+        "SNGLS",
+        "SingularDTV",
+        "singulardtv"
+    ],
+    "CaliphCoin": [
+        "CALC",
+        "CaliphCoin",
+        "caliphcoin"
+    ],
+    "ZCoin": [
+        "XZC",
+        "ZCoin",
+        "zcoin"
+    ],
+    "Rcoin": [
+        "RCN",
+        "Rcoin",
+        "rcoin"
+    ],
+    "Atomic Coin": [
+        "ATOM",
+        "Atomic Coin",
+        "atomic-coin"
+    ],
+    "JobsCoin": [
+        "JOBS",
+        "JobsCoin",
+        "jobscoin"
+    ],
+    "Triggers": [
+        "TRIG",
+        "Triggers",
+        "triggers"
+    ],
+    "Sakuracoin": [
+        "SKR",
+        "Sakuracoin",
+        "sakuracoin"
+    ],
+    "RoyalCoin": [
+        "ROYAL",
+        "RoyalCoin",
+        "royalcoin"
+    ],
+    "Levocoin": [
+        "LEVO",
+        "Levocoin",
+        "levocoin"
+    ],
+    "Advanced Technology Coin": [
+        "ARC",
+        "Advanced Technology Coin",
+        "arcticcoin"
+    ],
+    "Cubits": [
+        "QBT",
+        "Cubits",
+        "cubits"
+    ],
+    "DynamicCoin": [
+        "DMC",
+        "DynamicCoin",
+        "dynamiccoin"
+    ],
+    "Zcash": [
+        "ZEC",
+        "Zcash",
+        "zcash"
+    ],
+    "ImpulseCoin": [
+        "IMPS",
+        "ImpulseCoin",
+        "impulsecoin"
+    ],
+    "AllSafe": [
+        "ASAFE2",
+        "AllSafe",
+        "allsafe"
+    ],
+    "BipCoin": [
+        "BIP",
+        "BipCoin",
+        "bipcoin"
+    ],
+    "ZClassic": [
+        "ZCL",
+        "ZClassic",
+        "zclassic"
+    ],
+    "Zoin": [
+        "ZOI",
+        "Zoin",
+        "zoin"
+    ],
+    "WA Space": [
+        "WA",
+        "WA Space",
+        "wa-space"
+    ],
+    "Lykke": [
+        "LKK",
+        "Lykke",
+        "lykke"
+    ],
+    "Golem": [
+        "GNT",
+        "Golem",
+        "golem-network-tokens"
+    ],
+    "ZetaMicron": [
+        "ZMC",
+        "ZetaMicron",
+        "zetamicron"
+    ],
+    "Bitcurrency": [
+        "BTCR",
+        "Bitcurrency",
+        "bitcurrency"
+    ],
+    "Regacoin": [
+        "REGA",
+        "Regacoin",
+        "regacoin"
+    ],
+    "LuckChain": [
+        "BASH",
+        "LuckChain",
+        "luckchain"
+    ],
+    "Internet of People": [
+        "IOP",
+        "Internet of People",
+        "internet-of-people"
+    ],
+    "Veros": [
+        "VRS",
+        "Veros",
+        "veros"
+    ],
+    "Hush": [
+        "HUSH",
+        "Hush",
+        "hush"
+    ],
+    "Kurrent": [
+        "KURT",
+        "Kurrent",
+        "kurrent"
+    ],
+    "Creatio": [
+        "XCRE",
+        "Creatio",
+        "creatio"
+    ],
+    "Rawcoin": [
+        "XRC",
+        "Rawcoin",
+        "rawcoin2"
+    ],
+    "Pascal Coin": [
+        "PASC",
+        "Pascal Coin",
+        "pascal-coin"
+    ],
+    "Eternity": [
+        "ENT",
+        "Eternity",
+        "eternity"
+    ],
+    "Incent": [
+        "INCNT",
+        "Incent",
+        "incent"
+    ],
+    "DECENT": [
+        "DCT",
+        "DECENT",
+        "decent"
+    ],
+    "NodeCoin": [
+        "NODC",
+        "NodeCoin",
+        "nodecoin"
+    ],
+    "Golos": [
+        "GOLOS",
+        "Golos",
+        "golos"
+    ],
+    "Nexium": [
+        "NXC",
+        "Nexium",
+        "nexium"
+    ],
+    "Shorty": [
+        "SHORTY",
+        "Shorty",
+        "shorty"
+    ],
+    "vSlice": [
+        "VSL",
+        "vSlice",
+        "vslice"
+    ],
+    "Dollar Online": [
+        "DOLLAR",
+        "Dollar Online",
+        "dollar-online"
+    ],
+    "Vault Coin": [
+        "VLTC",
+        "Vault Coin",
+        "vault-coin"
+    ],
+    "Pabyosi Coin (Special)": [
+        "PCS",
+        "Pabyosi Coin (Special)",
+        "pabyosi-coin-special"
+    ],
+    "T-coin": [
+        "TCOIN",
+        "T-coin",
+        "t-coin"
+    ],
+    "Byteball Bytes": [
+        "GBYTE",
+        "Byteball Bytes",
+        "byteball"
+    ],
+    "Bitpark Coin": [
+        "BPC",
+        "Bitpark Coin",
+        "bitpark-coin"
+    ],
+    "PoSW Coin": [
+        "POSW",
+        "PoSW Coin",
+        "posw-coin"
+    ],
+    "Luna Coin": [
+        "LUNA",
+        "Luna Coin",
+        "luna-coin"
+    ],
+    "Fargocoin": [
+        "FRGC",
+        "Fargocoin",
+        "fargocoin"
+    ],
+    "Wings": [
+        "WINGS",
+        "Wings",
+        "wings"
+    ],
+    "Dix Asset": [
+        "DIX",
+        "Dix Asset",
+        "dix-asset"
+    ],
+    "GameUnits": [
+        "UNITS",
+        "GameUnits",
+        "gameunits"
+    ],
+    "Darcrus": [
+        "DAR",
+        "Darcrus",
+        "darcrus"
+    ],
+    "InflationCoin": [
+        "IFLT",
+        "InflationCoin",
+        "inflationcoin"
+    ],
+    "Spectrecoin": [
+        "XSPEC",
+        "Spectrecoin",
+        "spectrecoin"
+    ],
+    "Safe Trade Coin": [
+        "XSTC",
+        "Safe Trade Coin",
+        "safe-trade-coin"
+    ],
+    "LandCoin": [
+        "LDCN",
+        "LandCoin",
+        "landcoin"
+    ],
+    "BenjiRolls": [
+        "BENJI",
+        "BenjiRolls",
+        "benjirolls"
+    ],
+    "CryptoCarbon": [
+        "CCRB",
+        "CryptoCarbon",
+        "cryptocarbon"
+    ],
+    "PureVidz": [
+        "VIDZ",
+        "PureVidz",
+        "purevidz"
+    ],
+    "BitConnect": [
+        "BCC",
+        "BitConnect",
+        "bitconnect"
+    ],
+    "ICOBID": [
+        "ICOB",
+        "ICOBID",
+        "icobid"
+    ],
+    "iBank": [
+        "IBANK",
+        "iBank",
+        "ibank"
+    ],
+    "Maker": [
+        "MKR",
+        "Maker",
+        "maker"
+    ],
+    "Printerium": [
+        "PRX",
+        "Printerium",
+        "printerium"
+    ],
+    "Digital Rupees": [
+        "DRS",
+        "Digital Rupees",
+        "digital-rupees"
+    ],
+    "Komodo": [
+        "KMD",
+        "Komodo",
+        "komodo"
+    ],
+    "FirstCoin": [
+        "FRST",
+        "FirstCoin",
+        "firstcoin"
+    ],
+    "Magnum": [
+        "MGM",
+        "Magnum",
+        "magnum"
+    ],
+    "Tattoocoin (Standard Edition)": [
+        "TSE",
+        "Tattoocoin (Standard Edition)",
+        "tattoocoin"
+    ],
+    "Solarflarecoin": [
+        "SFC",
+        "Solarflarecoin",
+        "solarflarecoin"
+    ],
+    "Zilbercoin": [
+        "ZBC",
+        "Zilbercoin",
+        "zilbercoin"
+    ],
+    "Waves Community Token": [
+        "WCT",
+        "Waves Community Token",
+        "waves-community-token"
+    ],
+    "Iconic": [
+        "ICON",
+        "Iconic",
+        "iconic"
+    ],
+    "KushCoin": [
+        "KUSH",
+        "KushCoin",
+        "kushcoin"
+    ],
+    "LePen": [
+        "LEPEN",
+        "LePen",
+        "lepen"
+    ],
+    "Global Cryptocurrency": [
+        "GCC",
+        "Global Cryptocurrency",
+        "global-cryptocurrency"
+    ],
+    "Avoncoin": [
+        "ACN",
+        "Avoncoin",
+        "avoncoin"
+    ],
+    "BOAT": [
+        "BOAT",
+        "BOAT",
+        "doubloon"
+    ],
+    "Eryllium": [
+        "ERY",
+        "Eryllium",
+        "eryllium"
+    ],
+    "Elysium": [
+        "ELS",
+        "Elysium",
+        "elysium"
+    ],
+    "Golos Gold": [
+        "GBG",
+        "Golos Gold",
+        "golos-gold"
+    ],
+    "CryptoWorldX Token": [
+        "CWXT",
+        "CryptoWorldX Token",
+        "cryptoworldx-token"
+    ],
+    "Centurion": [
+        "CNT",
+        "Centurion",
+        "centurion"
+    ],
+    "Marijuanacoin": [
+        "MAR",
+        "Marijuanacoin",
+        "marijuanacoin"
+    ],
+    "Master Swiscoin": [
+        "MSCN",
+        "Master Swiscoin",
+        "master-swiscoin"
+    ],
+    "KashhCoin": [
+        "KASHH",
+        "KashhCoin",
+        "kashhcoin"
+    ],
+    "Melon": [
+        "MLN",
+        "Melon",
+        "melon"
+    ],
+    "Allion": [
+        "ALL",
+        "Allion",
+        "allion"
+    ],
+    "PRCoin": [
+        "PRC",
+        "PRCoin",
+        "prcoin"
+    ],
+    "Chronobank": [
+        "TIME",
+        "Chronobank",
+        "chronobank"
+    ],
+    "Argus": [
+        "ARGUS",
+        "Argus",
+        "argus"
+    ],
+    "Renos": [
+        "RNS",
+        "Renos",
+        "renos"
+    ],
+    "UR": [
+        "UR",
+        "UR",
+        "ur"
+    ],
+    "Swarm City": [
+        "SWT",
+        "Swarm City",
+        "swarm-city"
+    ],
+    "PIECoin": [
+        "PIE",
+        "PIECoin",
+        "piecoin"
+    ],
+    "MarxCoin": [
+        "MARX",
+        "MarxCoin",
+        "marxcoin"
+    ],
+    "Visio": [
+        "VISIO",
+        "Visio",
+        "visio"
+    ],
+    "Nano": [
+        "NANO",
+        "Nano",
+        "nano"
+    ],
+    "LevoPlus": [
+        "LVPS",
+        "LevoPlus",
+        "levoplus"
+    ],
+    "GeertCoin": [
+        "GEERT",
+        "GeertCoin",
+        "geertcoin"
+    ],
+    "Pascal Lite": [
+        "PASL",
+        "Pascal Lite",
+        "pascal-lite"
+    ],
+    "MiloCoin": [
+        "MILO",
+        "MiloCoin",
+        "milocoin"
+    ],
+    "Musicoin": [
+        "MUSIC",
+        "Musicoin",
+        "musicoin"
+    ],
+    "Zero": [
+        "ZER",
+        "Zero",
+        "zero"
+    ],
+    "BioBar": [
+        "BIOB",
+        "BioBar",
+        "biobar"
+    ],
+    "Honey": [
+        "HONEY",
+        "Honey",
+        "honey"
+    ],
+    "Netko": [
+        "NETKO",
+        "Netko",
+        "netko"
+    ],
+    "Ark": [
+        "ARK",
+        "Ark",
+        "ark"
+    ],
+    "Dynamic": [
+        "DYN",
+        "Dynamic",
+        "dynamic"
+    ],
+    "Tokes": [
+        "TKS",
+        "Tokes",
+        "tokes"
+    ],
+    "Mercury": [
+        "MER",
+        "Mercury",
+        "mercury"
+    ],
+    "TaaS": [
+        "TAAS",
+        "TaaS",
+        "taas"
+    ],
+    "Soarcoin": [
+        "SOAR",
+        "Soarcoin",
+        "soarcoin"
+    ],
+    "Edgeless": [
+        "EDG",
+        "Edgeless",
+        "edgeless"
+    ],
+    "Bankcoin": [
+        "B@",
+        "Bankcoin",
+        "bankcoin"
+    ],
+    "ZSEcoin": [
+        "ZSE",
+        "ZSEcoin",
+        "zsecoin"
+    ],
+    "HealthyWormCoin": [
+        "WORM",
+        "HealthyWormCoin",
+        "healthywormcoin"
+    ],
+    "Databits": [
+        "DTB",
+        "Databits",
+        "databits"
+    ],
+    "BestChain": [
+        "BEST",
+        "BestChain",
+        "bestchain"
+    ],
+    "Universe": [
+        "UNI",
+        "Universe",
+        "universe"
+    ],
+    "Solaris": [
+        "XLR",
+        "Solaris",
+        "solaris"
+    ],
+    "Impact": [
+        "IMX",
+        "Impact",
+        "impact"
+    ],
+    "Tristar Coin": [
+        "TSTR",
+        "Tristar Coin",
+        "tristar-coin"
+    ],
+    "Asch": [
+        "XAS",
+        "Asch",
+        "asch"
+    ],
+    "Scorecoin": [
+        "SCORE",
+        "Scorecoin",
+        "scorecoin"
+    ],
+    "DubaiCoin": [
+        "DBIX",
+        "DubaiCoin",
+        "dubaicoin-dbix"
+    ],
+    "Darsek": [
+        "KED",
+        "Darsek",
+        "darsek"
+    ],
+    "Matchpool": [
+        "GUP",
+        "Matchpool",
+        "guppy"
+    ],
+    "Ultimate Secure Cash": [
+        "USC",
+        "Ultimate Secure Cash",
+        "ultimate-secure-cash"
+    ],
+    "E-coin": [
+        "ECN",
+        "E-coin",
+        "e-coin"
+    ],
+    "Skycoin": [
+        "SKY",
+        "Skycoin",
+        "skycoin"
+    ],
+    "BlazerCoin": [
+        "BLAZR",
+        "BlazerCoin",
+        "blazercoin"
+    ],
+    "Atmos": [
+        "ATMOS",
+        "Atmos",
+        "atmos"
+    ],
+    "Ethereum Movie Venture": [
+        "EMV",
+        "Ethereum Movie Venture",
+        "ethereum-movie-venture"
+    ],
+    "InPay": [
+        "INPAY",
+        "InPay",
+        "inpay"
+    ],
+    "Happycoin": [
+        "HPC",
+        "Happycoin",
+        "happycoin"
+    ],
+    "Zennies": [
+        "ZENI",
+        "Zennies",
+        "zennies"
+    ],
+    "Coinonat": [
+        "CXT",
+        "Coinonat",
+        "coinonat"
+    ],
+    "Internet of Things": [
+        "XOT",
+        "Internet of Things",
+        "internet-of-things"
+    ],
+    "Concoin": [
+        "CONX",
+        "Concoin",
+        "concoin"
+    ],
+    "Ebittree Coin": [
+        "EBT",
+        "Ebittree Coin",
+        "ebittree-coin"
+    ],
+    "Fazzcoin": [
+        "FAZZ",
+        "Fazzcoin",
+        "fazzcoin"
+    ],
+    "XTRABYTES": [
+        "XBY",
+        "XTRABYTES",
+        "xtrabytes"
+    ],
+    "iExec RLC": [
+        "RLC",
+        "iExec RLC",
+        "rlc"
+    ],
+    "WeTrust": [
+        "TRST",
+        "WeTrust",
+        "trust"
+    ],
+    "DeusCoin": [
+        "DEUS",
+        "DeusCoin",
+        "deuscoin"
+    ],
+    "Altcoin": [
+        "ALT",
+        "Altcoin",
+        "altcoin-alt"
+    ],
+    "WavesGo": [
+        "WGO",
+        "WavesGo",
+        "wavesgo"
+    ],
+    "MACRON": [
+        "MCRN",
+        "MACRON",
+        "macron"
+    ],
+    "Dashs": [
+        "DASHS",
+        "Dashs",
+        "dashs"
+    ],
+    "Tattoocoin (Limited Edition)": [
+        "TLE",
+        "Tattoocoin (Limited Edition)",
+        "tattoocoin-limited"
+    ],
+    "ProCurrency": [
+        "PROC",
+        "ProCurrency",
+        "procurrency"
+    ],
+    "SpeedCash": [
+        "SCS",
+        "SpeedCash",
+        "speedcash"
+    ],
+    "Bitcore": [
+        "BTX",
+        "Bitcore",
+        "bitcore"
+    ],
+    "Bitvolt": [
+        "VOLT",
+        "Bitvolt",
+        "bitvolt"
+    ],
+    "Lunyr": [
+        "LUN",
+        "Lunyr",
+        "lunyr"
+    ],
+    "Gnosis": [
+        "GNO",
+        "Gnosis",
+        "gnosis-gno"
+    ],
+    "TokenCard": [
+        "TKN",
+        "TokenCard",
+        "tokencard"
+    ],
+    "Condensate": [
+        "RAIN",
+        "Condensate",
+        "condensate"
+    ],
+    "Gold Pressed Latinum": [
+        "GPL",
+        "Gold Pressed Latinum",
+        "gold-pressed-latinum"
+    ],
+    "Humaniq": [
+        "HMQ",
+        "Humaniq",
+        "humaniq"
+    ],
+    "FUNCoin": [
+        "FUNC",
+        "FUNCoin",
+        "funcoin"
+    ],
+    "iTicoin": [
+        "ITI",
+        "iTicoin",
+        "iticoin"
+    ],
+    "Minereum": [
+        "MNE",
+        "Minereum",
+        "minereum"
+    ],
+    "Cannation": [
+        "CNNC",
+        "Cannation",
+        "cannation"
+    ],
+    "Creativecoin": [
+        "CREA",
+        "Creativecoin",
+        "creativecoin"
+    ],
+    "Etheroll": [
+        "DICE",
+        "Etheroll",
+        "etheroll"
+    ],
+    "InsaneCoin": [
+        "INSN",
+        "InsaneCoin",
+        "insanecoin-insn"
+    ],
+    "Halloween Coin": [
+        "HALLO",
+        "Halloween Coin",
+        "halloween-coin"
+    ],
+    "Aragon": [
+        "ANT",
+        "Aragon",
+        "aragon"
+    ],
+    "PRIZM": [
+        "PZM",
+        "PRIZM",
+        "prizm"
+    ],
+    "RouletteToken": [
+        "RLT",
+        "RouletteToken",
+        "roulettetoken"
+    ],
+    "Qtum": [
+        "QTUM",
+        "Qtum",
+        "qtum"
+    ],
+    "EcoCoin": [
+        "ECO",
+        "EcoCoin",
+        "ecocoin"
+    ],
+    "EquiTrader": [
+        "EQT",
+        "EquiTrader",
+        "equitrader"
+    ],
+    "Digital Money Bits": [
+        "DMB",
+        "Digital Money Bits",
+        "digital-money-bits"
+    ],
+    "APX": [
+        "APX",
+        "APX",
+        "apx"
+    ],
+    "MCAP": [
+        "MCAP",
+        "MCAP",
+        "mcap"
+    ],
+    "Project-X": [
+        "NANOX",
+        "Project-X",
+        "project-x"
+    ],
+    "Theresa May Coin": [
+        "MAY",
+        "Theresa May Coin",
+        "theresa-may-coin"
+    ],
+    "Sumokoin": [
+        "SUMO",
+        "Sumokoin",
+        "sumokoin"
+    ],
+    "ZenGold": [
+        "ZENGOLD",
+        "ZenGold",
+        "zengold"
+    ],
+    "Basic Attention Token": [
+        "BAT",
+        "Basic Attention Token",
+        "basic-attention-token"
+    ],
+    "ZenCash": [
+        "ZEN",
+        "ZenCash",
+        "zencash"
+    ],
+    "Ethbits": [
+        "ETBS",
+        "Ethbits",
+        "ethbits"
+    ],
+    "Aeternity": [
+        "AE",
+        "Aeternity",
+        "aeternity"
+    ],
+    "Version": [
+        "V",
+        "Version",
+        "version"
+    ],
+    "Metaverse ETP": [
+        "ETP",
+        "Metaverse ETP",
+        "metaverse"
+    ],
+    "eBoost": [
+        "EBST",
+        "eBoost",
+        "eboostcoin"
+    ],
+    "Aidos Kuneen": [
+        "ADK",
+        "Aidos Kuneen",
+        "aidos-kuneen"
+    ],
+    "STEX": [
+        "STEX",
+        "STEX",
+        "stex"
+    ],
+    "Patientory": [
+        "PTOY",
+        "Patientory",
+        "patientory"
+    ],
+    "Quantum": [
+        "QAU",
+        "Quantum",
+        "quantum"
+    ],
+    "Veritaseum": [
+        "VERI",
+        "Veritaseum",
+        "veritaseum"
+    ],
+    "Electra": [
+        "ECA",
+        "Electra",
+        "electra"
+    ],
+    "Quantum Resistant Ledger": [
+        "QRL",
+        "Quantum Resistant Ledger",
+        "quantum-resistant-ledger"
+    ],
+    "EncryptoTel [WAVES]": [
+        "ETT",
+        "EncryptoTel [WAVES]",
+        "encryptotel"
+    ],
+    "MobileGo": [
+        "MGO",
+        "MobileGo",
+        "mobilego"
+    ],
+    "Ammo Reloaded": [
+        "AMMO",
+        "Ammo Reloaded",
+        "ammo-reloaded"
+    ],
+    "Neuro": [
+        "NRO",
+        "Neuro",
+        "neuro"
+    ],
+    "Peerplays": [
+        "PPY",
+        "Peerplays",
+        "peerplays-ppy"
+    ],
+    "IOTA": [
+        "MIOTA",
+        "IOTA",
+        "iota"
+    ],
+    "Mysterium": [
+        "MYST",
+        "Mysterium",
+        "mysterium"
+    ],
+    "Legends Room": [
+        "LGD",
+        "Legends Room",
+        "legends-room"
+    ],
+    "SONM": [
+        "SNM",
+        "SONM",
+        "sonm"
+    ],
+    "Linx": [
+        "LINX",
+        "Linx",
+        "linx"
+    ],
+    "ZrCoin": [
+        "ZRC",
+        "ZrCoin",
+        "zrcoin"
+    ],
+    "Bancor": [
+        "BNT",
+        "Bancor",
+        "bancor"
+    ],
+    "Cheapcoin": [
+        "CHEAP",
+        "Cheapcoin",
+        "cheapcoin"
+    ],
+    "Cofound.it": [
+        "CFI",
+        "Cofound.it",
+        "cofound-it"
+    ],
+    "GlobalToken": [
+        "GLT",
+        "GlobalToken",
+        "globaltoken"
+    ],
+    "Numeraire": [
+        "NMR",
+        "Numeraire",
+        "numeraire"
+    ],
+    "Octanox": [
+        "OTX",
+        "Octanox",
+        "octanox"
+    ],
+    "Unify": [
+        "UNIFY",
+        "Unify",
+        "unify"
+    ],
+    "Elastic": [
+        "XEL",
+        "Elastic",
+        "elastic"
+    ],
+    "Coupecoin": [
+        "COUPE",
+        "Coupecoin",
+        "coupecoin"
+    ],
+    "Miners' Reward Token": [
+        "MRT",
+        "Miners' Reward Token",
+        "miners-reward-token"
+    ],
+    "Bitok": [
+        "BITOK",
+        "Bitok",
+        "bitok"
+    ],
+    "Huncoin": [
+        "HNC",
+        "Huncoin",
+        "huncoin"
+    ],
+    "KingN Coin": [
+        "KNC",
+        "KingN Coin",
+        "kingn-coin"
+    ],
+    "Dinastycoin": [
+        "DCY",
+        "Dinastycoin",
+        "dinastycoin"
+    ],
+    "Leviar": [
+        "XLC",
+        "Leviar",
+        "leviar"
+    ],
+    "Onix": [
+        "ONX",
+        "Onix",
+        "onix"
+    ],
+    "Bitcoin Planet": [
+        "BTPL",
+        "Bitcoin Planet",
+        "bitcoin-planet"
+    ],
+    "GXChain": [
+        "GXS",
+        "GXChain",
+        "gxchain"
+    ],
+    "Goodomy": [
+        "GOOD",
+        "Goodomy",
+        "goodomy"
+    ],
+    "Antimatter": [
+        "ANTX",
+        "Antimatter",
+        "antimatter"
+    ],
+    "Bitradio": [
+        "BRO",
+        "Bitradio",
+        "bitradio"
+    ],
+    "Flash": [
+        "FLASH",
+        "Flash",
+        "flash"
+    ],
+    "Pirate Blocks": [
+        "SKULL",
+        "Pirate Blocks",
+        "pirate-blocks"
+    ],
+    "FunFair": [
+        "FUN",
+        "FunFair",
+        "funfair"
+    ],
+    "TenX": [
+        "PAY",
+        "TenX",
+        "tenx"
+    ],
+    "Status": [
+        "SNT",
+        "Status",
+        "status"
+    ],
+    "ChanCoin": [
+        "CHAN",
+        "ChanCoin",
+        "chancoin"
+    ],
+    "Ergo": [
+        "EFYT",
+        "Ergo",
+        "ergo"
+    ],
+    "BriaCoin": [
+        "BRIA",
+        "BriaCoin",
+        "briacoin"
+    ],
+    "EOS": [
+        "EOS",
+        "EOS",
+        "eos"
+    ],
+    "TurboCoin": [
+        "TURBO",
+        "TurboCoin",
+        "turbocoin"
+    ],
+    "AdEx": [
+        "ADX",
+        "AdEx",
+        "adx-net"
+    ],
+    "Denarius": [
+        "DNR",
+        "Denarius",
+        "denarius-dnr"
+    ],
+    "DAO.Casino": [
+        "BET",
+        "DAO.Casino",
+        "dao-casino"
+    ],
+    "Storj": [
+        "STORJ",
+        "Storj",
+        "storj"
+    ],
+    "BnrtxCoin": [
+        "BNX",
+        "BnrtxCoin",
+        "bnrtxcoin"
+    ],
+    "SocialCoin": [
+        "SOCC",
+        "SocialCoin",
+        "socialcoin-socc"
+    ],
+    "adToken": [
+        "ADT",
+        "adToken",
+        "adtoken"
+    ],
+    "Monaco": [
+        "MCO",
+        "Monaco",
+        "monaco"
+    ],
+    "CryptoPing": [
+        "PING",
+        "CryptoPing",
+        "cryptoping"
+    ],
+    "Useless Ethereum Token": [
+        "UET",
+        "Useless Ethereum Token",
+        "useless-ethereum-token"
+    ],
+    "Wagerr": [
+        "WGR",
+        "Wagerr",
+        "wagerr"
+    ],
+    "Slevin": [
+        "SLEVIN",
+        "Slevin",
+        "slevin"
+    ],
+    "Ecobit": [
+        "ECOB",
+        "Ecobit",
+        "ecobit"
+    ],
+    "UniversalRoyalCoin": [
+        "UNRC",
+        "UniversalRoyalCoin",
+        "universalroyalcoin"
+    ],
+    "Polybius": [
+        "PLBT",
+        "Polybius",
+        "polybius"
+    ],
+    "Gas": [
+        "GAS",
+        "Gas",
+        "gas"
+    ],
+    "SunContract": [
+        "SNC",
+        "SunContract",
+        "suncontract"
+    ],
+    "Jetcoin": [
+        "JET",
+        "Jetcoin",
+        "jetcoin"
+    ],
+    "Metal": [
+        "MTL",
+        "Metal",
+        "metal"
+    ],
+    "Populous": [
+        "PPT",
+        "Populous",
+        "populous"
+    ],
+    "WomenCoin": [
+        "WOMEN",
+        "WomenCoin",
+        "women"
+    ],
+    "Virta Unique Coin": [
+        "VUC",
+        "Virta Unique Coin",
+        "virta-unique-coin"
+    ],
+    "Bitdeal": [
+        "BDL",
+        "Bitdeal",
+        "bitdeal"
+    ],
+    "Sphre AIR ": [
+        "XID",
+        "Sphre AIR ",
+        "sphre-air"
+    ],
+    "DaxxCoin": [
+        "DAXX",
+        "DaxxCoin",
+        "daxxcoin"
+    ],
+    "FuturXe": [
+        "FXE",
+        "FuturXe",
+        "futurexe"
+    ],
+    "Rupee": [
+        "RUP",
+        "Rupee",
+        "rupee"
+    ],
+    "FinCoin": [
+        "FNC",
+        "FinCoin",
+        "fincoin"
+    ],
+    "Global Tour Coin": [
+        "GTC",
+        "Global Tour Coin",
+        "global-tour-coin"
+    ],
+    "PeepCoin": [
+        "PCN",
+        "PeepCoin",
+        "peepcoin"
+    ],
+    "Sovereign Hero": [
+        "HERO",
+        "Sovereign Hero",
+        "sovereign-hero"
+    ],
+    "Santiment Network Token": [
+        "SAN",
+        "Santiment Network Token",
+        "santiment"
+    ],
+    "OmiseGO": [
+        "OMG",
+        "OmiseGO",
+        "omisego"
+    ],
+    "TerraNova": [
+        "TER",
+        "TerraNova",
+        "terranova"
+    ],
+    "CVCoin": [
+        "CVCOIN",
+        "CVCoin",
+        "cvcoin"
+    ],
+    "Nimiq Exchange Token": [
+        "NET",
+        "Nimiq Exchange Token",
+        "nimiq"
+    ],
+    "Rialto": [
+        "XRL",
+        "Rialto",
+        "rialto"
+    ],
+    "Linda": [
+        "LINDA",
+        "Linda",
+        "linda"
+    ],
+    "Embers": [
+        "MBRS",
+        "Embers",
+        "embers"
+    ],
+    "Civic": [
+        "CVC",
+        "Civic",
+        "civic"
+    ],
+    "Ethos": [
+        "ETHOS",
+        "Ethos",
+        "ethos"
+    ],
+    "Bit20": [
+        "BTWTY",
+        "Bit20",
+        "bit20"
+    ],
+    "Starta": [
+        "STA",
+        "Starta",
+        "starta"
+    ],
+    "RSGPcoin": [
+        "RSGP",
+        "RSGPcoin",
+        "rsgpcoin"
+    ],
+    "BitCoal": [
+        "COAL",
+        "BitCoal",
+        "bitcoal"
+    ],
+    "LiteBitcoin": [
+        "LBTC",
+        "LiteBitcoin",
+        "litebitcoin"
+    ],
+    "Particl": [
+        "PART",
+        "Particl",
+        "particl"
+    ],
+    "Primulon": [
+        "PRIMU",
+        "Primulon",
+        "primulon"
+    ],
+    "SmartCash": [
+        "SMART",
+        "SmartCash",
+        "smartcash"
+    ],
+    "SkinCoin": [
+        "SKIN",
+        "SkinCoin",
+        "skincoin"
+    ],
+    "Bitcoin Cash": [
+        "BCH",
+        "Bitcoin Cash",
+        "bitcoin-cash"
+    ],
+    "HarmonyCoin": [
+        "HMC",
+        "HarmonyCoin",
+        "harmonycoin-hmc"
+    ],
+    "ToaCoin": [
+        "TOA",
+        "ToaCoin",
+        "toacoin"
+    ],
+    "Pillar": [
+        "PLR",
+        "Pillar",
+        "pillar"
+    ],
+    "Royalties": [
+        "XRY",
+        "Royalties",
+        "royalties"
+    ],
+    "Signatum": [
+        "SIGT",
+        "Signatum",
+        "signatum"
+    ],
+    "Coimatic 2.0": [
+        "CTIC2",
+        "Coimatic 2.0",
+        "coimatic-2"
+    ],
+    "OracleChain": [
+        "OCT",
+        "OracleChain",
+        "oraclechain"
+    ],
+    "Binance Coin": [
+        "BNB",
+        "Binance Coin",
+        "binance-coin"
+    ],
+    "300 Token": [
+        "300",
+        "300 Token",
+        "300-token"
+    ],
+    "Primalbase Token": [
+        "PBT",
+        "Primalbase Token",
+        "primalbase"
+    ],
+    "CampusCoin": [
+        "CMPCO",
+        "CampusCoin",
+        "campuscoin"
+    ],
+    "EmberCoin": [
+        "EMB",
+        "EmberCoin",
+        "embercoin"
+    ],
+    "iXledger": [
+        "IXT",
+        "iXledger",
+        "ixledger"
+    ],
+    "GeyserCoin": [
+        "GSR",
+        "GeyserCoin",
+        "geysercoin"
+    ],
+    "Mothership": [
+        "MSP",
+        "Mothership",
+        "mothership"
+    ],
+    "Aseancoin": [
+        "ASN",
+        "Aseancoin",
+        "aseancoin"
+    ],
+    "Birds": [
+        "BIRDS",
+        "Birds",
+        "birds"
+    ],
+    "Cream": [
+        "CRM",
+        "Cream",
+        "cream"
+    ],
+    "ERA": [
+        "ERA",
+        "ERA",
+        "blakestar"
+    ],
+    "KekCoin": [
+        "KEK",
+        "KekCoin",
+        "kekcoin"
+    ],
+    "OAX": [
+        "OAX",
+        "OAX",
+        "oax"
+    ],
+    "district0x": [
+        "DNT",
+        "district0x",
+        "district0x"
+    ],
+    "FundYourselfNow": [
+        "FYN",
+        "FundYourselfNow",
+        "fundyourselfnow"
+    ],
+    "Stox": [
+        "STX",
+        "Stox",
+        "stox"
+    ],
+    "Minex": [
+        "MINEX",
+        "Minex",
+        "minex"
+    ],
+    "Blox": [
+        "CDT",
+        "Blox",
+        "blox"
+    ],
+    "Wink": [
+        "WINK",
+        "Wink",
+        "wink"
+    ],
+    "Bytom": [
+        "BTM",
+        "Bytom",
+        "bytom"
+    ],
+    "Centra": [
+        "CTR",
+        "Centra",
+        "centra"
+    ],
+    "Mao Zedong": [
+        "MAO",
+        "Mao Zedong",
+        "mao-zedong"
+    ],
+    "First Bitcoin Capital": [
+        "BITCF",
+        "First Bitcoin Capital",
+        "first-bitcoin-capital"
+    ],
+    "NEVERDIE": [
+        "NDC",
+        "NEVERDIE",
+        "neverdie"
+    ],
+    "Blocktix": [
+        "TIX",
+        "Blocktix",
+        "blocktix"
+    ],
+    "Dentacoin": [
+        "DCN",
+        "Dentacoin",
+        "dentacoin"
+    ],
+    "Rupaya": [
+        "RUPX",
+        "Rupaya",
+        "rupaya"
+    ],
+    "Shadow Token": [
+        "SHDW",
+        "Shadow Token",
+        "shadow-token"
+    ],
+    "DeepOnion": [
+        "ONION",
+        "DeepOnion",
+        "deeponion"
+    ],
+    "BlockCAT": [
+        "CAT",
+        "BlockCAT",
+        "blockcat"
+    ],
+    "AdShares": [
+        "ADST",
+        "AdShares",
+        "adshares"
+    ],
+    "DigitalDevelopersFund": [
+        "DDF",
+        "DigitalDevelopersFund",
+        "digital-developers-fund"
+    ],
+    "BitAsean": [
+        "BAS",
+        "BitAsean",
+        "bitasean"
+    ],
+    "Dent": [
+        "DENT",
+        "Dent",
+        "dent"
+    ],
+    "Monster Byte": [
+        "MBI",
+        "Monster Byte",
+        "monster-byte"
+    ],
+    "InvestFeed": [
+        "IFT",
+        "InvestFeed",
+        "investfeed"
+    ],
+    "CoinonatX": [
+        "XCXT",
+        "CoinonatX",
+        "coinonatx"
+    ],
+    "Etheriya": [
+        "RIYA",
+        "Etheriya",
+        "etheriya"
+    ],
+    "The ChampCoin": [
+        "TCC",
+        "The ChampCoin",
+        "the-champcoin"
+    ],
+    "0x": [
+        "ZRX",
+        "0x",
+        "0x"
+    ],
+    "Bolenum": [
+        "BLN",
+        "Bolenum",
+        "bolenum"
+    ],
+    "Smoke": [
+        "SMOKE",
+        "Smoke",
+        "smoke"
+    ],
+    "YOYOW": [
+        "YOYOW",
+        "YOYOW",
+        "yoyow"
+    ],
+    "Growers International": [
+        "GRWI",
+        "Growers International",
+        "growers-international"
+    ],
+    "MyBit Token": [
+        "MYB",
+        "MyBit Token",
+        "mybit-token"
+    ],
+    "Hshare": [
+        "HSR",
+        "Hshare",
+        "hshare"
+    ],
+    "VeChain": [
+        "VEN",
+        "VeChain",
+        "vechain"
+    ],
+    "TrueFlip": [
+        "TFL",
+        "TrueFlip",
+        "trueflip"
+    ],
+    "XTD Coin": [
+        "XTD",
+        "XTD Coin",
+        "xtd-coin"
+    ],
+    "Nebulas": [
+        "NAS",
+        "Nebulas",
+        "nebulas-token"
+    ],
+    "ATMCoin": [
+        "ATMC",
+        "ATMCoin",
+        "atmcoin"
+    ],
+    "Dalecoin": [
+        "DALC",
+        "Dalecoin",
+        "dalecoin"
+    ],
+    "Protean": [
+        "PRN",
+        "Protean",
+        "protean"
+    ],
+    "OX Fina": [
+        "OX",
+        "OX Fina",
+        "ox-fina"
+    ],
+    "AdCoin": [
+        "ACC",
+        "AdCoin",
+        "adcoin"
+    ],
+    "BiblePay": [
+        "BBP",
+        "BiblePay",
+        "biblepay"
+    ],
+    "bitqy": [
+        "BQ",
+        "bitqy",
+        "bitqy"
+    ],
+    "Achain": [
+        "ACT",
+        "Achain",
+        "achain"
+    ],
+    "NamoCoin": [
+        "NAMO",
+        "NamoCoin",
+        "namocoin"
+    ],
+    "SIGMAcoin": [
+        "SIGMA",
+        "SIGMAcoin",
+        "sigmacoin"
+    ],
+    "Monoeci": [
+        "XMCC",
+        "Monoeci",
+        "monacocoin"
+    ],
+    "Tierion": [
+        "TNT",
+        "Tierion",
+        "tierion"
+    ],
+    "Waltonchain": [
+        "WTC",
+        "Waltonchain",
+        "waltonchain"
+    ],
+    "BROTHER": [
+        "BRAT",
+        "BROTHER",
+        "brat"
+    ],
+    "Ulatech": [
+        "ULA",
+        "Ulatech",
+        "ulatech"
+    ],
+    "Primas": [
+        "PST",
+        "Primas",
+        "primas"
+    ],
+    "Opus": [
+        "OPT",
+        "Opus",
+        "opus"
+    ],
+    "Suretly": [
+        "SUR",
+        "Suretly",
+        "suretly"
+    ],
+    "Loopring": [
+        "LRC",
+        "Loopring",
+        "loopring"
+    ],
+    "LiteCoin Ultra": [
+        "LTCU",
+        "LiteCoin Ultra",
+        "litecoin-ultra"
+    ],
+    "Po.et": [
+        "POE",
+        "Po.et",
+        "poet"
+    ],
+    "Fujinto": [
+        "NTO",
+        "Fujinto",
+        "fujinto"
+    ],
+    "StarCredits": [
+        "STRC",
+        "StarCredits",
+        "starcredits"
+    ],
+    "Kronecoin": [
+        "KRONE",
+        "Kronecoin",
+        "kronecoin"
+    ],
+    "Cyder": [
+        "CYDER",
+        "Cyder",
+        "cyder"
+    ],
+    "Masternodecoin": [
+        "MTNC",
+        "Masternodecoin",
+        "masternodecoin"
+    ],
+    "Monetha": [
+        "MTH",
+        "Monetha",
+        "monetha"
+    ],
+    "Aventus": [
+        "AVT",
+        "Aventus",
+        "aventus"
+    ],
+    "Agrello": [
+        "DLT",
+        "Agrello",
+        "agrello-delta"
+    ],
+    "Hive Project": [
+        "HVN",
+        "Hive Project",
+        "hive-project"
+    ],
+    "Vsync": [
+        "VSX",
+        "Vsync",
+        "vsync-vsx"
+    ],
+    "Magnetcoin": [
+        "MAGN",
+        "Magnetcoin",
+        "magnetcoin"
+    ],
+    "Moeda Loyalty Points": [
+        "MDA",
+        "Moeda Loyalty Points",
+        "moeda-loyalty-points"
+    ],
+    "Neblio": [
+        "NEBL",
+        "Neblio",
+        "neblio"
+    ],
+    "VIVO": [
+        "VIVO",
+        "VIVO",
+        "vivo"
+    ],
+    "TRON": [
+        "TRX",
+        "TRON",
+        "tron"
+    ],
+    "Oceanlab": [
+        "OCL",
+        "Oceanlab",
+        "oceanlab"
+    ],
+    "imbrex": [
+        "REX",
+        "imbrex",
+        "imbrex"
+    ],
+    "BuzzCoin": [
+        "BUZZ",
+        "BuzzCoin",
+        "buzzcoin"
+    ],
+    "Credo": [
+        "CREDO",
+        "Credo",
+        "credo"
+    ],
+    "DROXNE": [
+        "DRXNE",
+        "DROXNE",
+        "droxne"
+    ],
+    "Bowhead": [
+        "AHT",
+        "Bowhead",
+        "bowhead"
+    ],
+    "Decentraland": [
+        "MANA",
+        "Decentraland",
+        "decentraland"
+    ],
+    "Indorse Token": [
+        "IND",
+        "Indorse Token",
+        "indorse-token"
+    ],
+    "XPA": [
+        "XPA",
+        "XPA",
+        "xpa"
+    ],
+    "Sociall": [
+        "SCL",
+        "Sociall",
+        "sociall"
+    ],
+    "ATBCoin": [
+        "ATB",
+        "ATBCoin",
+        "atbcoin"
+    ],
+    "iQuant": [
+        "IQT",
+        "iQuant",
+        "iquant"
+    ],
+    "Ethereum Dark": [
+        "ETHD",
+        "Ethereum Dark",
+        "ethereum-dark"
+    ],
+    "Propy": [
+        "PRO",
+        "Propy",
+        "propy"
+    ],
+    "ChainLink": [
+        "LINK",
+        "ChainLink",
+        "chainlink"
+    ],
+    "Blackmoon": [
+        "BMC",
+        "Blackmoon",
+        "blackmoon"
+    ],
+    "Wi Coin": [
+        "WIC",
+        "Wi Coin",
+        "wi-coin"
+    ],
+    "Elixir": [
+        "ELIX",
+        "Elixir",
+        "elixir"
+    ],
+    "Billionaire Token": [
+        "XBL",
+        "Billionaire Token",
+        "billionaire-token"
+    ],
+    "Kyber Network": [
+        "KNC",
+        "Kyber Network",
+        "kyber-network"
+    ],
+    "VIBE": [
+        "VIBE",
+        "VIBE",
+        "vibe"
+    ],
+    "Substratum": [
+        "SUB",
+        "Substratum",
+        "substratum"
+    ],
+    "Chronologic": [
+        "DAY",
+        "Chronologic",
+        "chronologic"
+    ],
+    "CHIPS": [
+        "CHIPS",
+        "CHIPS",
+        "chips"
+    ],
+    "CryptoInsight": [
+        "TKR",
+        "CryptoInsight",
+        "trackr"
+    ],
+    "Lampix": [
+        "PIX",
+        "Lampix",
+        "lampix"
+    ],
+    "COSS": [
+        "COSS",
+        "COSS",
+        "coss"
+    ],
+    "BitDice": [
+        "CSNO",
+        "BitDice",
+        "bitdice"
+    ],
+    "Rivetz": [
+        "RVT",
+        "Rivetz",
+        "rivetz"
+    ],
+    "Kin": [
+        "KIN",
+        "Kin",
+        "kin"
+    ],
+    "Interzone": [
+        "ITZ",
+        "Interzone",
+        "interzone"
+    ],
+    "Target Coin": [
+        "TGT",
+        "Target Coin",
+        "target-coin"
+    ],
+    "SALT": [
+        "SALT",
+        "SALT",
+        "salt"
+    ],
+    "India Coin": [
+        "INDIA",
+        "India Coin",
+        "india-coin"
+    ],
+    "Ormeus Coin": [
+        "ORME",
+        "Ormeus Coin",
+        "ormeus-coin"
+    ],
+    "Kolion": [
+        "KLN",
+        "Kolion",
+        "kolion"
+    ],
+    "Musiconomi": [
+        "MCI",
+        "Musiconomi",
+        "musiconomi"
+    ],
+    "ColossusXT": [
+        "COLX",
+        "ColossusXT",
+        "colossusxt"
+    ],
+    "TrezarCoin": [
+        "TZC",
+        "TrezarCoin",
+        "trezarcoin"
+    ],
+    "HODL Bucks": [
+        "HDLB",
+        "HODL Bucks",
+        "hodl-bucks"
+    ],
+    "Obsidian": [
+        "ODN",
+        "Obsidian",
+        "obsidian"
+    ],
+    "Cobinhood": [
+        "COB",
+        "Cobinhood",
+        "cobinhood"
+    ],
+    "Regalcoin": [
+        "REC",
+        "Regalcoin",
+        "regalcoin"
+    ],
+    "MSD": [
+        "MSD",
+        "MSD",
+        "msd"
+    ],
+    "Bismuth": [
+        "BIS",
+        "Bismuth",
+        "bismuth"
+    ],
+    "Cardano": [
+        "ADA",
+        "Cardano",
+        "cardano"
+    ],
+    "Tezos (Pre-Launch)": [
+        "XTZ",
+        "Tezos (Pre-Launch)",
+        "tezos"
+    ],
+    "Voise": [
+        "VOISE",
+        "Voise",
+        "voisecom"
+    ],
+    "Infinity Economics": [
+        "XIN",
+        "Infinity Economics",
+        "infinity-economics"
+    ],
+    "ATMChain": [
+        "ATM",
+        "ATMChain",
+        "attention-token-of-media"
+    ],
+    "Macro": [
+        "MCR",
+        "Macro",
+        "macro1"
+    ],
+    "KickCoin": [
+        "KICK",
+        "KickCoin",
+        "kickico"
+    ],
+    "EncryptoTel [ETH]": [
+        "ETT",
+        "EncryptoTel [ETH]",
+        "encryptotel-eth"
+    ],
+    "Viberate": [
+        "VIB",
+        "Viberate",
+        "viberate"
+    ],
+    "RChain": [
+        "RHOC",
+        "RChain",
+        "rchain"
+    ],
+    "Internxt": [
+        "INXT",
+        "Internxt",
+        "internxt"
+    ],
+    "WhaleCoin": [
+        "WHL",
+        "WhaleCoin",
+        "whalecoin"
+    ],
+    "FLiK": [
+        "FLIK",
+        "FLiK",
+        "flik"
+    ],
+    "EthBet": [
+        "EBET",
+        "EthBet",
+        "ethbet"
+    ],
+    "Cryptonex": [
+        "CNX",
+        "Cryptonex",
+        "cryptonex"
+    ],
+    "Wild Crypto": [
+        "WILD",
+        "Wild Crypto",
+        "wild-crypto"
+    ],
+    "REAL": [
+        "REAL",
+        "REAL",
+        "real"
+    ],
+    "Hubii Network": [
+        "HBT",
+        "Hubii Network",
+        "hubii-network"
+    ],
+    "Crystal Clear ": [
+        "CCT",
+        "Crystal Clear ",
+        "crystal-clear"
+    ],
+    "BridgeCoin": [
+        "BCO",
+        "BridgeCoin",
+        "bridgecoin"
+    ],
+    "Everex": [
+        "EVX",
+        "Everex",
+        "everex"
+    ],
+    "PayPie": [
+        "PPP",
+        "PayPie",
+        "paypie"
+    ],
+    "AirToken": [
+        "AIR",
+        "AirToken",
+        "airtoken"
+    ],
+    "PoSToken": [
+        "POS",
+        "PoSToken",
+        "postoken"
+    ],
+    "Senderon": [
+        "SDRN",
+        "Senderon",
+        "senderon"
+    ],
+    "ALIS": [
+        "ALIS",
+        "ALIS",
+        "alis"
+    ],
+    "BitcoinZ": [
+        "BTCZ",
+        "BitcoinZ",
+        "bitcoinz"
+    ],
+    "HelloGold": [
+        "HGT",
+        "HelloGold",
+        "hellogold"
+    ],
+    "Cindicator": [
+        "CND",
+        "Cindicator",
+        "cindicator"
+    ],
+    "Enigma": [
+        "ENG",
+        "Enigma",
+        "enigma-project"
+    ],
+    "Coimatic 3.0": [
+        "CTIC3",
+        "Coimatic 3.0",
+        "coimatic-3"
+    ],
+    "Bastonet": [
+        "BSN",
+        "Bastonet",
+        "bastonet"
+    ],
+    "Zeusshield": [
+        "ZSC",
+        "Zeusshield",
+        "zeusshield"
+    ],
+    "Ethereum Cash": [
+        "ECASH",
+        "Ethereum Cash",
+        "ethereumcash"
+    ],
+    "CORION": [
+        "COR",
+        "CORION",
+        "corion"
+    ],
+    "Swisscoin": [
+        "SIC",
+        "Swisscoin",
+        "swisscoin"
+    ],
+    "Authorship": [
+        "ATS",
+        "Authorship",
+        "authorship"
+    ],
+    "Royal Kingdom Coin": [
+        "RKC",
+        "Royal Kingdom Coin",
+        "royal-kingdom-coin"
+    ],
+    "Akuya Coin": [
+        "AKY",
+        "Akuya Coin",
+        "akuya-coin"
+    ],
+    "ExchangeN": [
+        "EXN",
+        "ExchangeN",
+        "exchangen"
+    ],
+    "PiplCoin": [
+        "PIPL",
+        "PiplCoin",
+        "piplcoin"
+    ],
+    "Eidoo": [
+        "EDO",
+        "Eidoo",
+        "eidoo"
+    ],
+    "AirSwap": [
+        "AST",
+        "AirSwap",
+        "airswap"
+    ],
+    "Change": [
+        "CAG",
+        "Change",
+        "change"
+    ],
+    "BlockMason Credit Protocol": [
+        "BCPT",
+        "BlockMason Credit Protocol",
+        "blockmason"
+    ],
+    "Aion": [
+        "AION",
+        "Aion",
+        "aion"
+    ],
+    "Tracto": [
+        "TRCT",
+        "Tracto",
+        "tracto"
+    ],
+    "Maecenas": [
+        "ART",
+        "Maecenas",
+        "maecenas"
+    ],
+    "XGOX": [
+        "XGOX",
+        "XGOX",
+        "xgox"
+    ],
+    "Everus": [
+        "EVR",
+        "Everus",
+        "everus"
+    ],
+    "Dutch Coin": [
+        "DUTCH",
+        "Dutch Coin",
+        "dutch-coin"
+    ],
+    "Open Trading Network": [
+        "OTN",
+        "Open Trading Network",
+        "open-trading-network"
+    ],
+    "DomRaider": [
+        "DRT",
+        "DomRaider",
+        "domraider"
+    ],
+    "Request Network": [
+        "REQ",
+        "Request Network",
+        "request-network"
+    ],
+    "SegWit2x": [
+        "B2X",
+        "SegWit2x",
+        "segwit2x"
+    ],
+    "Ethereum Gold": [
+        "ETG",
+        "Ethereum Gold",
+        "ethereum-gold"
+    ],
+    "Blue Protocol": [
+        "BLUE",
+        "Blue Protocol",
+        "ethereum-blue"
+    ],
+    "Runners": [
+        "RUNNERS",
+        "Runners",
+        "runners"
+    ],
+    "LIFE": [
+        "LIFE",
+        "LIFE",
+        "life"
+    ],
+    "Hedge": [
+        "HDG",
+        "Hedge",
+        "hedge"
+    ],
+    "Modum": [
+        "MOD",
+        "Modum",
+        "modum"
+    ],
+    "Ambrosus": [
+        "AMB",
+        "Ambrosus",
+        "amber"
+    ],
+    "ICOS": [
+        "ICOS",
+        "ICOS",
+        "icos"
+    ],
+    "Bitcoin Gold": [
+        "BTG",
+        "Bitcoin Gold",
+        "bitcoin-gold"
+    ],
+    "KuCoin Shares": [
+        "KCS",
+        "KuCoin Shares",
+        "kucoin-shares"
+    ],
+    "EXRNchain": [
+        "EXRN",
+        "EXRNchain",
+        "exrnchain"
+    ],
+    "ClearPoll": [
+        "POLL",
+        "ClearPoll",
+        "clearpoll"
+    ],
+    "LATOKEN": [
+        "LA",
+        "LATOKEN",
+        "latoken"
+    ],
+    "Exchange Union": [
+        "XUC",
+        "Exchange Union",
+        "exchange-union"
+    ],
+    "Nuls": [
+        "NULS",
+        "Nuls",
+        "nuls"
+    ],
+    "Bitcoin Red": [
+        "BTCRED",
+        "Bitcoin Red",
+        "bitcoin-red"
+    ],
+    "Paragon": [
+        "PRG",
+        "Paragon",
+        "paragon"
+    ],
+    "BOScoin": [
+        "BOS",
+        "BOScoin",
+        "boscoin"
+    ],
+    "Ripio Credit Network": [
+        "RCN",
+        "Ripio Credit Network",
+        "ripio-credit-network"
+    ],
+    "Xios": [
+        "XIOS",
+        "Xios",
+        "xios"
+    ],
+    "Mercury Protocol": [
+        "GMT",
+        "Mercury Protocol",
+        "mercury-protocol"
+    ],
+    "ICON": [
+        "ICX",
+        "ICON",
+        "icon"
+    ],
+    "JavaScript Token": [
+        "JS",
+        "JavaScript Token",
+        "javascript-token"
+    ],
+    "Ethereum Lite": [
+        "ELITE",
+        "Ethereum Lite",
+        "ethereum-lite"
+    ],
+    "Intelligent Trading Foundation": [
+        "ITT",
+        "Intelligent Trading Foundation",
+        "intelligent-trading-foundation"
+    ],
+    "iEthereum": [
+        "IETH",
+        "iEthereum",
+        "iethereum"
+    ],
+    "Pirl": [
+        "PIRL",
+        "Pirl",
+        "pirl"
+    ],
+    "Xenon": [
+        "XNN",
+        "Xenon",
+        "xenon"
+    ],
+    "LUXCoin": [
+        "LUX",
+        "LUXCoin",
+        "luxcoin"
+    ],
+    "eREAL": [
+        "EREAL",
+        "eREAL",
+        "ereal"
+    ],
+    "Network Token": [
+        "NTWK",
+        "Network Token",
+        "network-token"
+    ],
+    "Dovu": [
+        "DOVU",
+        "Dovu",
+        "dovu"
+    ],
+    "Red Pulse": [
+        "RPX",
+        "Red Pulse",
+        "red-pulse"
+    ],
+    "BT2 [CST]": [
+        "BT2",
+        "BT2 [CST]",
+        "bt2-cst"
+    ],
+    "PlayerCoin": [
+        "PLACO",
+        "PlayerCoin",
+        "playercoin"
+    ],
+    "Roofs": [
+        "ROOFS",
+        "Roofs",
+        "roofs"
+    ],
+    "FAPcoin": [
+        "FAP",
+        "FAPcoin",
+        "fapcoin"
+    ],
+    "BTCMoon": [
+        "BTCM",
+        "BTCMoon",
+        "btcmoon"
+    ],
+    "Etherparty": [
+        "FUEL",
+        "Etherparty",
+        "etherparty"
+    ],
+    "Ellaism": [
+        "ELLA",
+        "Ellaism",
+        "ellaism"
+    ],
+    "Vulcano": [
+        "VULC",
+        "Vulcano",
+        "vulcano"
+    ],
+    "Qvolta": [
+        "QVT",
+        "Qvolta",
+        "qvolta"
+    ],
+    "Russian Miner Coin": [
+        "RMC",
+        "Russian Miner Coin",
+        "russian-mining-coin"
+    ],
+    "FlypMe": [
+        "FYP",
+        "FlypMe",
+        "flypme"
+    ],
+    "eBitcoin": [
+        "EBTC",
+        "eBitcoin",
+        "ebtcnew"
+    ],
+    "Bitbase": [
+        "BTBc",
+        "Bitbase",
+        "bitbase"
+    ],
+    "Enjin Coin": [
+        "ENJ",
+        "Enjin Coin",
+        "enjin-coin"
+    ],
+    "Power Ledger": [
+        "POWR",
+        "Power Ledger",
+        "power-ledger"
+    ],
+    "Grid+": [
+        "GRID",
+        "Grid+",
+        "grid"
+    ],
+    "Revain": [
+        "R",
+        "Revain",
+        "revain"
+    ],
+    "ATLANT": [
+        "ATL",
+        "ATLANT",
+        "atlant"
+    ],
+    "Electroneum": [
+        "ETN",
+        "Electroneum",
+        "electroneum"
+    ],
+    "High Gain": [
+        "HIGH",
+        "High Gain",
+        "high-gain"
+    ],
+    "MinexCoin": [
+        "MNX",
+        "MinexCoin",
+        "minexcoin"
+    ],
+    "SONO": [
+        "SONO",
+        "SONO",
+        "altcommunity-coin"
+    ],
+    "FORCE": [
+        "FOR",
+        "FORCE",
+        "force"
+    ],
+    "Streamr DATAcoin": [
+        "DATA",
+        "Streamr DATAcoin",
+        "streamr-datacoin"
+    ],
+    "SHIELD": [
+        "XSH",
+        "SHIELD",
+        "shield-xsh"
+    ],
+    "Pure": [
+        "PURE",
+        "Pure",
+        "pure"
+    ],
+    "ELTCOIN": [
+        "ELTCOIN",
+        "ELTCOIN",
+        "eltcoin"
+    ],
+    "Desire": [
+        "DSR",
+        "Desire",
+        "desire"
+    ],
+    "Unikoin Gold": [
+        "UKG",
+        "Unikoin Gold",
+        "unikoin-gold"
+    ],
+    "Credence Coin": [
+        "CRDNC",
+        "Credence Coin",
+        "credence-coin"
+    ],
+    "Autonio": [
+        "NIO",
+        "Autonio",
+        "autonio"
+    ],
+    "CarTaxi Token": [
+        "CTX",
+        "CarTaxi Token",
+        "cartaxi-token"
+    ],
+    "Aeron": [
+        "ARN",
+        "Aeron",
+        "aeron"
+    ],
+    "StarCash Network": [
+        "STARS",
+        "StarCash Network",
+        "starcash-network"
+    ],
+    "Phore": [
+        "PHR",
+        "Phore",
+        "phore"
+    ],
+    "Farad": [
+        "FRD",
+        "Farad",
+        "farad"
+    ],
+    "Innova": [
+        "INN",
+        "Innova",
+        "innova"
+    ],
+    "Raiden Network Token": [
+        "RDN",
+        "Raiden Network Token",
+        "raiden-network-token"
+    ],
+    "Delphy": [
+        "DPY",
+        "Delphy",
+        "delphy"
+    ],
+    "Zephyr": [
+        "ZEPH",
+        "Zephyr",
+        "zephyr"
+    ],
+    "DCORP": [
+        "DRP",
+        "DCORP",
+        "dcorp"
+    ],
+    "ERC20": [
+        "ERC20",
+        "ERC20",
+        "erc20"
+    ],
+    "Ties.DB": [
+        "TIE",
+        "Ties.DB",
+        "tiesdb"
+    ],
+    "Blockpool": [
+        "BPL",
+        "Blockpool",
+        "blockpool"
+    ],
+    "Grimcoin": [
+        "GRIM",
+        "Grimcoin",
+        "grimcoin"
+    ],
+    "Zlancer": [
+        "ZCG",
+        "Zlancer",
+        "zcash-gold"
+    ],
+    "Oxycoin": [
+        "OXY",
+        "Oxycoin",
+        "oxycoin"
+    ],
+    "Abjcoin": [
+        "ABJ",
+        "Abjcoin",
+        "abjcoin"
+    ],
+    "Emphy": [
+        "EPY",
+        "Emphy",
+        "emphy"
+    ],
+    "Interstellar Holdings": [
+        "HOLD",
+        "Interstellar Holdings",
+        "interstellar-holdings"
+    ],
+    "NEO GOLD": [
+        "NEOG",
+        "NEO GOLD",
+        "neo-gold"
+    ],
+    "DecentBet": [
+        "DBET",
+        "DecentBet",
+        "decent-bet"
+    ],
+    "Decision Token": [
+        "HST",
+        "Decision Token",
+        "decision-token"
+    ],
+    "Sharechain": [
+        "SSS",
+        "Sharechain",
+        "sharechain"
+    ],
+    "Upfiring": [
+        "UFR",
+        "Upfiring",
+        "upfiring"
+    ],
+    "Hat.Exchange": [
+        "HAT",
+        "Hat.Exchange",
+        "hat-exchange"
+    ],
+    "bitJob": [
+        "STU",
+        "bitJob",
+        "student-coin"
+    ],
+    "Genesis Vision": [
+        "GVT",
+        "Genesis Vision",
+        "genesis-vision"
+    ],
+    "EagleCoin": [
+        "EAGLE",
+        "EagleCoin",
+        "eaglecoin"
+    ],
+    "EA Coin": [
+        "EAG",
+        "EA Coin",
+        "ea-coin"
+    ],
+    "Privatix": [
+        "PRIX",
+        "Privatix",
+        "privatix"
+    ],
+    "IntenseCoin": [
+        "ITNS",
+        "IntenseCoin",
+        "intensecoin"
+    ],
+    "PlusCoin": [
+        "PLC",
+        "PlusCoin",
+        "pluscoin"
+    ],
+    "EBCH": [
+        "EBCH",
+        "EBCH",
+        "ebitcoin-cash"
+    ],
+    "SISA": [
+        "SISA",
+        "SISA",
+        "sisa"
+    ],
+    "Astro": [
+        "ASTRO",
+        "Astro",
+        "astro"
+    ],
+    "Paypex": [
+        "PAYX",
+        "Paypex",
+        "paypex"
+    ],
+    "GOLD Reward Token": [
+        "GRX",
+        "GOLD Reward Token",
+        "gold-reward-token"
+    ],
+    "Aerium": [
+        "AERM",
+        "Aerium",
+        "aerium"
+    ],
+    "BitSerial": [
+        "BTE",
+        "BitSerial",
+        "bitserial"
+    ],
+    "Sugar Exchange": [
+        "SGR",
+        "Sugar Exchange",
+        "sugar-exchange"
+    ],
+    "Viuly": [
+        "VIU",
+        "Viuly",
+        "viuly"
+    ],
+    "ALQO": [
+        "ALQO",
+        "ALQO",
+        "alqo"
+    ],
+    "GoByte": [
+        "GBX",
+        "GoByte",
+        "gobyte"
+    ],
+    "WINCOIN": [
+        "WC",
+        "WINCOIN",
+        "win-coin"
+    ],
+    "Oyster": [
+        "PRL",
+        "Oyster",
+        "oyster"
+    ],
+    "B2BX": [
+        "B2B",
+        "B2BX",
+        "b2bx"
+    ],
+    "Phantomx": [
+        "PNX",
+        "Phantomx",
+        "phantomx"
+    ],
+    "Copico": [
+        "XCPO",
+        "Copico",
+        "copico"
+    ],
+    "DigiPulse": [
+        "DGPT",
+        "DigiPulse",
+        "digipulse"
+    ],
+    "EncrypGen": [
+        "DNA",
+        "EncrypGen",
+        "encrypgen"
+    ],
+    "Ink": [
+        "INK",
+        "Ink",
+        "ink"
+    ],
+    "Bodhi": [
+        "BOT",
+        "Bodhi",
+        "bodhi"
+    ],
+    "Quantstamp": [
+        "QSP",
+        "Quantstamp",
+        "quantstamp"
+    ],
+    "QASH": [
+        "QASH",
+        "QASH",
+        "qash"
+    ],
+    "ZoZoCoin": [
+        "ZZC",
+        "ZoZoCoin",
+        "zozocoin"
+    ],
+    "Energo": [
+        "TSL",
+        "Energo",
+        "energo"
+    ],
+    "Publica": [
+        "PBL",
+        "Publica",
+        "publica"
+    ],
+    "Magnet": [
+        "MAG",
+        "Magnet",
+        "magnet"
+    ],
+    "SpankChain": [
+        "SPANK",
+        "SpankChain",
+        "spankchain"
+    ],
+    "VoteCoin": [
+        "VOT",
+        "VoteCoin",
+        "votecoin"
+    ],
+    "Bitcoin Diamond": [
+        "BCD",
+        "Bitcoin Diamond",
+        "bitcoin-diamond"
+    ],
+    "BLOCKv": [
+        "VEE",
+        "BLOCKv",
+        "blockv"
+    ],
+    "POLY AI": [
+        "AI",
+        "POLY AI",
+        "poly-ai"
+    ],
+    "Accelerator Network": [
+        "ACC",
+        "Accelerator Network",
+        "accelerator-network"
+    ],
+    "Triaconta": [
+        "TRIA",
+        "Triaconta",
+        "triaconta"
+    ],
+    "PlexCoin": [
+        "PLX",
+        "PlexCoin",
+        "plexcoin"
+    ],
+    "Divi": [
+        "DIVX",
+        "Divi",
+        "divi"
+    ],
+    "Monkey Project": [
+        "MONK",
+        "Monkey Project",
+        "monkey-project"
+    ],
+    "Flixxo": [
+        "FLIXX",
+        "Flixxo",
+        "flixxo"
+    ],
+    "GlassCoin": [
+        "GLS",
+        "GlassCoin",
+        "glasscoin"
+    ],
+    "ANRYZE": [
+        "RYZ",
+        "ANRYZE",
+        "anryze"
+    ],
+    "Time New Bank": [
+        "TNB",
+        "Time New Bank",
+        "time-new-bank"
+    ],
+    "MyWish": [
+        "WISH",
+        "MyWish",
+        "mywish"
+    ],
+    "EventChain": [
+        "EVC",
+        "EventChain",
+        "eventchain"
+    ],
+    "ETHLend": [
+        "LEND",
+        "ETHLend",
+        "ethlend"
+    ],
+    "onG.social": [
+        "ONG",
+        "onG.social",
+        "ongsocial"
+    ],
+    "Ccore": [
+        "CCO",
+        "Ccore",
+        "ccore"
+    ],
+    "Qbao": [
+        "QBT",
+        "Qbao",
+        "qbao"
+    ],
+    "Dragonchain": [
+        "DRGN",
+        "Dragonchain",
+        "dragonchain"
+    ],
+    "Payfair": [
+        "PFR",
+        "Payfair",
+        "payfair"
+    ],
+    "Presearch": [
+        "PRE",
+        "Presearch",
+        "presearch"
+    ],
+    "CyberMiles": [
+        "CMT",
+        "CyberMiles",
+        "cybermiles"
+    ],
+    "BlockCDN": [
+        "BCDN",
+        "BlockCDN",
+        "blockcdn"
+    ],
+    "Cappasity": [
+        "CAPP",
+        "Cappasity",
+        "cappasity"
+    ],
+    "Eroscoin": [
+        "ERO",
+        "Eroscoin",
+        "eroscoin"
+    ],
+    "MagicCoin": [
+        "MAGE",
+        "MagicCoin",
+        "magiccoin"
+    ],
+    "IoT Chain": [
+        "ITC",
+        "IoT Chain",
+        "iot-chain"
+    ],
+    "Jiyo": [
+        "JIYO",
+        "Jiyo",
+        "jiyo"
+    ],
+    "Social Send": [
+        "SEND",
+        "Social Send",
+        "social-send"
+    ],
+    "Bonpay": [
+        "BON",
+        "Bonpay",
+        "bonpay"
+    ],
+    "Nekonium": [
+        "NUKO",
+        "Nekonium",
+        "nekonium"
+    ],
+    "Snovio": [
+        "SNOV",
+        "Snovio",
+        "snovio"
+    ],
+    "StrikeBitClub": [
+        "SBC",
+        "StrikeBitClub",
+        "strikebitclub"
+    ],
+    "Bulwark": [
+        "BWK",
+        "Bulwark",
+        "bulwark"
+    ],
+    "SagaCoin": [
+        "SAGA",
+        "SagaCoin",
+        "sagacoin"
+    ],
+    "COMSA [ETH]": [
+        "CMS",
+        "COMSA [ETH]",
+        "comsa-eth"
+    ],
+    "Kubera Coin": [
+        "KBR",
+        "Kubera Coin",
+        "kubera-coin"
+    ],
+    "Tokugawa": [
+        "TOK",
+        "Tokugawa",
+        "tokugawa"
+    ],
+    "Pioneer Coin": [
+        "PCOIN",
+        "Pioneer Coin",
+        "pioneer-coin"
+    ],
+    "COMSA [XEM]": [
+        "CMS",
+        "COMSA [XEM]",
+        "comsa-xem"
+    ],
+    "WaBi": [
+        "WABI",
+        "WaBi",
+        "wabi"
+    ],
+    "CrowdCoin": [
+        "CRC",
+        "CrowdCoin",
+        "crowdcoin"
+    ],
+    "WandX": [
+        "WAND",
+        "WandX",
+        "wandx"
+    ],
+    "SportyCo": [
+        "SPF",
+        "SportyCo",
+        "sportyco"
+    ],
+    "Verify": [
+        "CRED",
+        "Verify",
+        "verify"
+    ],
+    "Soma": [
+        "SCT",
+        "Soma",
+        "soma"
+    ],
+    "Uquid Coin": [
+        "UQC",
+        "Uquid Coin",
+        "uquid-coin"
+    ],
+    "MediShares": [
+        "MDS",
+        "MediShares",
+        "medishares"
+    ],
+    "ProChain": [
+        "PRA",
+        "ProChain",
+        "prochain"
+    ],
+    "Ignis": [
+        "IGNIS",
+        "Ignis",
+        "ignis"
+    ],
+    "SmartMesh": [
+        "SMT",
+        "SmartMesh",
+        "smartmesh"
+    ],
+    "HollyWoodCoin": [
+        "HWC",
+        "HollyWoodCoin",
+        "hollywoodcoin"
+    ],
+    "Playkey": [
+        "PKT",
+        "Playkey",
+        "playkey"
+    ],
+    "Filecoin [Futures]": [
+        "FIL",
+        "Filecoin [Futures]",
+        "filecoin"
+    ],
+    "BitcoinX": [
+        "BCX",
+        "BitcoinX",
+        "bitcoinx"
+    ],
+    "Super Bitcoin": [
+        "SBTC",
+        "Super Bitcoin",
+        "super-bitcoin"
+    ],
+    "Datum": [
+        "DAT",
+        "Datum",
+        "datum"
+    ],
+    "Trident Group": [
+        "TRDT",
+        "Trident Group",
+        "trident"
+    ],
+    "Bitair": [
+        "BTCA",
+        "Bitair",
+        "bitair"
+    ],
+    "MicroMoney": [
+        "AMM",
+        "MicroMoney",
+        "micromoney"
+    ],
+    "LockTrip": [
+        "LOC",
+        "LockTrip",
+        "lockchain"
+    ],
+    "Worldcore": [
+        "WRC",
+        "Worldcore",
+        "worldcore"
+    ],
+    "Gifto": [
+        "GTO",
+        "Gifto",
+        "gifto"
+    ],
+    "YENTEN": [
+        "YTN",
+        "YENTEN",
+        "yenten"
+    ],
+    "Genaro Network": [
+        "GNX",
+        "Genaro Network",
+        "genaro-network"
+    ],
+    "DavorCoin": [
+        "DAV",
+        "DavorCoin",
+        "davorcoin"
+    ],
+    "United Bitcoin": [
+        "UBTC",
+        "United Bitcoin",
+        "united-bitcoin"
+    ],
+    "Starbase": [
+        "STAR",
+        "Starbase",
+        "starbase"
+    ],
+    "OST": [
+        "OST",
+        "OST",
+        "ost"
+    ],
+    "Storm": [
+        "STORM",
+        "Storm",
+        "storm"
+    ],
+    "Dynamic Trading Rights": [
+        "DTR",
+        "Dynamic Trading Rights",
+        "dynamic-trading-rights"
+    ],
+    "aelf": [
+        "ELF",
+        "aelf",
+        "aelf"
+    ],
+    "WAX": [
+        "WAX",
+        "WAX",
+        "wax"
+    ],
+    "MediBloc": [
+        "MED",
+        "MediBloc",
+        "medibloc"
+    ],
+    "DEW": [
+        "DEW",
+        "DEW",
+        "dew"
+    ],
+    "NAGA": [
+        "NGC",
+        "NAGA",
+        "naga"
+    ],
+    "Bread": [
+        "BRD",
+        "Bread",
+        "bread"
+    ],
+    "Bibox Token": [
+        "BIX",
+        "Bibox Token",
+        "bibox-token"
+    ],
+    "Dai": [
+        "DAI",
+        "Dai",
+        "dai"
+    ],
+    "SophiaTX": [
+        "SPHTX",
+        "SophiaTX",
+        "sophiatx"
+    ],
+    "Bounty0x": [
+        "BNTY",
+        "Bounty0x",
+        "bounty0x"
+    ],
+    "Ace": [
+        "ACE",
+        "Ace",
+        "ace"
+    ],
+    "DIMCOIN": [
+        "DIM",
+        "DIMCOIN",
+        "dimcoin"
+    ],
+    "SIRIN LABS Token": [
+        "SRN",
+        "SIRIN LABS Token",
+        "sirin-labs-token"
+    ],
+    "Cryptopay": [
+        "CPAY",
+        "Cryptopay",
+        "cryptopay"
+    ],
+    "HTMLCOIN": [
+        "HTML",
+        "HTMLCOIN",
+        "html-coin"
+    ],
+    "DeepBrain Chain": [
+        "DBC",
+        "DeepBrain Chain",
+        "deepbrain-chain"
+    ],
+    "HomeBlockCoin": [
+        "HBC",
+        "HomeBlockCoin",
+        "homeblockcoin"
+    ],
+    "Neumark": [
+        "NEU",
+        "Neumark",
+        "neumark"
+    ],
+    "UTRUST": [
+        "UTK",
+        "UTRUST",
+        "utrust"
+    ],
+    "QLINK": [
+        "QLC",
+        "QLINK",
+        "qlink"
+    ],
+    "Farstcoin": [
+        "FRCT",
+        "Farstcoin",
+        "farstcoin"
+    ],
+    "HEROcoin": [
+        "PLAY",
+        "HEROcoin",
+        "herocoin"
+    ],
+    "BigONE Token": [
+        "BIG",
+        "BigONE Token",
+        "bigone-token"
+    ],
+    "Matryx": [
+        "MTX",
+        "Matryx",
+        "matryx"
+    ],
+    "Madcoin": [
+        "MDC",
+        "Madcoin",
+        "madcoin"
+    ],
+    "Olympus Labs": [
+        "MOT",
+        "Olympus Labs",
+        "olympus-labs"
+    ],
+    "Hyper Pay": [
+        "HPY",
+        "Hyper Pay",
+        "hyper-pay"
+    ],
+    "Pylon Network": [
+        "PYLNT",
+        "Pylon Network",
+        "pylon-network"
+    ],
+    "ENTCash": [
+        "ENT",
+        "ENTCash",
+        "entcash"
+    ],
+    "STRAKS": [
+        "STAK",
+        "STRAKS",
+        "straks"
+    ],
+    "FidentiaX": [
+        "FDX",
+        "FidentiaX",
+        "fidentiax"
+    ],
+    "BitClave": [
+        "CAT",
+        "BitClave",
+        "bitclave"
+    ],
+    "Lightning Bitcoin": [
+        "LBTC",
+        "Lightning Bitcoin",
+        "lightning-bitcoin"
+    ],
+    "Game.com": [
+        "GTC",
+        "Game.com",
+        "game"
+    ],
+    "Lamden": [
+        "TAU",
+        "Lamden",
+        "lamden"
+    ],
+    "Escroco": [
+        "ESC",
+        "Escroco",
+        "escoro"
+    ],
+    "Bloom": [
+        "BLT",
+        "Bloom",
+        "bloomtoken"
+    ],
+    "SwftCoin": [
+        "SWFTC",
+        "SwftCoin",
+        "swftcoin"
+    ],
+    "Covesting": [
+        "COV",
+        "Covesting",
+        "covesting"
+    ],
+    "CanYaCoin": [
+        "CAN",
+        "CanYaCoin",
+        "canyacoin"
+    ],
+    "AppCoins": [
+        "APPC",
+        "AppCoins",
+        "appcoins"
+    ],
+    "High Performance Blockchain": [
+        "HPB",
+        "High Performance Blockchain",
+        "high-performance-blockchain"
+    ],
+    "WaykiChain": [
+        "WICC",
+        "WaykiChain",
+        "waykichain"
+    ],
+    "NumusCash": [
+        "NUMUS",
+        "NumusCash",
+        "numuscash"
+    ],
+    "Measurable Data Token": [
+        "MDT",
+        "Measurable Data Token",
+        "measurable-data-token"
+    ],
+    "Mixin": [
+        "XIN",
+        "Mixin",
+        "mixin"
+    ],
+    "GameChain System": [
+        "GCS",
+        "GameChain System",
+        "gamechain"
+    ],
+    "Numus": [
+        "NMS",
+        "Numus",
+        "numus"
+    ],
+    "Coinlancer": [
+        "CL",
+        "Coinlancer",
+        "coinlancer"
+    ],
+    "CryptopiaFeeShares": [
+        "CEFS",
+        "CryptopiaFeeShares",
+        "cryptopiafeeshares"
+    ],
+    "GET Protocol": [
+        "GET",
+        "GET Protocol",
+        "get-protocol"
+    ],
+    "OP Coin": [
+        "OPC",
+        "OP Coin",
+        "op-coin"
+    ],
+    "CFun": [
+        "CFUN",
+        "CFun",
+        "cfun"
+    ],
+    "AI Doctor": [
+        "AIDOC",
+        "AI Doctor",
+        "aidoc"
+    ],
+    "Content and AD Network": [
+        "CAN",
+        "Content and AD Network",
+        "content-and-ad-network"
+    ],
+    "Polis": [
+        "POLIS",
+        "Polis",
+        "polis"
+    ],
+    "Hacken": [
+        "HKN",
+        "Hacken",
+        "hacken"
+    ],
+    "Show": [
+        "SHOW",
+        "Show",
+        "show"
+    ],
+    "Steneum Coin": [
+        "STN",
+        "Steneum Coin",
+        "steneum-coin"
+    ],
+    "Zap": [
+        "ZAP",
+        "Zap",
+        "zap"
+    ],
+    "TokenClub": [
+        "TCT",
+        "TokenClub",
+        "tokenclub"
+    ],
+    "FairGame": [
+        "FAIR",
+        "FairGame",
+        "fairgame"
+    ],
+    "Aigang": [
+        "AIX",
+        "Aigang",
+        "aigang"
+    ],
+    "REBL": [
+        "REBL",
+        "REBL",
+        "rebl"
+    ],
+    "INS Ecosystem": [
+        "INS",
+        "INS Ecosystem",
+        "ins-ecosystem"
+    ],
+    "Bitcoin God": [
+        "GOD",
+        "Bitcoin God",
+        "bitcoin-god"
+    ],
+    "United Traders Token": [
+        "UTT",
+        "United Traders Token",
+        "uttoken"
+    ],
+    "Commodity Ad Network": [
+        "CDX",
+        "Commodity Ad Network",
+        "commodity-ad-network"
+    ],
+    "Trade Token": [
+        "TIO",
+        "Trade Token",
+        "trade-token"
+    ],
+    "BitDegree": [
+        "BDG",
+        "BitDegree",
+        "bitdegree"
+    ],
+    "QunQun": [
+        "QUN",
+        "QunQun",
+        "qunqun"
+    ],
+    "TopChain": [
+        "TOPC",
+        "TopChain",
+        "topchain"
+    ],
+    "Leverj": [
+        "LEV",
+        "Leverj",
+        "leverj"
+    ],
+    "Karma": [
+        "KRM",
+        "Karma",
+        "karma"
+    ],
+    "Kcash": [
+        "KCASH",
+        "Kcash",
+        "kcash"
+    ],
+    "ATN": [
+        "ATN",
+        "ATN",
+        "atn"
+    ],
+    "Spectre.ai Dividend Token": [
+        "SXDT",
+        "Spectre.ai Dividend Token",
+        "spectre-dividend"
+    ],
+    "Spectre.ai Utility Token": [
+        "SXUT",
+        "Spectre.ai Utility Token",
+        "spectre-utility"
+    ],
+    "Jingtum Tech": [
+        "SWTC",
+        "Jingtum Tech",
+        "jingtum-tech"
+    ],
+    "Vezt": [
+        "VZT",
+        "Vezt",
+        "vezt"
+    ],
+    "Cloud": [
+        "CLD",
+        "Cloud",
+        "cloud"
+    ],
+    "United Crypto Community": [
+        "UCOM",
+        "United Crypto Community",
+        "ucom"
+    ],
+    "Bitcoin Atom": [
+        "BCA",
+        "Bitcoin Atom",
+        "bitcoin-atom"
+    ],
+    "ugChain": [
+        "UGC",
+        "ugChain",
+        "ugchain"
+    ],
+    "Bankex": [
+        "BKX",
+        "Bankex",
+        "bankex"
+    ],
+    "EchoLink": [
+        "EKO",
+        "EchoLink",
+        "echolink"
+    ],
+    "Bottos": [
+        "BTO",
+        "Bottos",
+        "bottos"
+    ],
+    "AWARE": [
+        "AWR",
+        "AWARE",
+        "aware"
+    ],
+    "Telcoin": [
+        "TEL",
+        "Telcoin",
+        "telcoin"
+    ],
+    "Ignition": [
+        "IC",
+        "Ignition",
+        "ignition"
+    ],
+    "WETH": [
+        "WETH",
+        "WETH",
+        "weth"
+    ],
+    "Hackspace Capital": [
+        "HAC",
+        "Hackspace Capital",
+        "hackspace-capital"
+    ],
+    "Selfkey": [
+        "KEY",
+        "Selfkey",
+        "selfkey"
+    ],
+    "Internet Node Token": [
+        "INT",
+        "Internet Node Token",
+        "internet-node-token"
+    ],
+    "OneRoot Network": [
+        "RNT",
+        "OneRoot Network",
+        "oneroot-network"
+    ],
+    "Global Jobcoin": [
+        "GJC",
+        "Global Jobcoin",
+        "global-jobcoin"
+    ],
+    "Sense": [
+        "SENSE",
+        "Sense",
+        "sense"
+    ],
+    "MOAC": [
+        "MOAC",
+        "MOAC",
+        "moac"
+    ],
+    "TOKYO": [
+        "TOKC",
+        "TOKYO",
+        "tokyo"
+    ],
+    "IOStoken": [
+        "IOST",
+        "IOStoken",
+        "iostoken"
+    ],
+    "InvestDigital": [
+        "IDT",
+        "InvestDigital",
+        "investdigital"
+    ],
+    "AICHAIN": [
+        "AIT",
+        "AICHAIN",
+        "aichain"
+    ],
+    "Qube": [
+        "QUBE",
+        "Qube",
+        "qube"
+    ],
+    "EtherDelta Token": [
+        "EDT",
+        "EtherDelta Token",
+        "etherdelta-token"
+    ],
+    "SpaceChain": [
+        "SPC",
+        "SpaceChain",
+        "spacechain"
+    ],
+    "Galactrum": [
+        "ORE",
+        "Galactrum",
+        "galactrum"
+    ],
+    "Harvest Masternode Coin": [
+        "HC",
+        "Harvest Masternode Coin",
+        "harvest-masternode-coin"
+    ],
+    "Ethorse": [
+        "HORSE",
+        "Ethorse",
+        "ethorse"
+    ],
+    "RealChain": [
+        "RCT",
+        "RealChain",
+        "realchain"
+    ],
+    "ArbitrageCT": [
+        "ARCT",
+        "ArbitrageCT",
+        "arbitragect"
+    ],
+    "Theta Token": [
+        "THETA",
+        "Theta Token",
+        "theta-token"
+    ],
+    "Maverick Chain": [
+        "MVC",
+        "Maverick Chain",
+        "maverick-chain"
+    ],
+    "Profile Utility Token": [
+        "PUT",
+        "Profile Utility Token",
+        "profile-utility-token"
+    ],
+    "Nitro": [
+        "NOX",
+        "Nitro",
+        "nitro"
+    ],
+    "InsurePal": [
+        "IPL",
+        "InsurePal",
+        "insurepal"
+    ],
+    "IDEX Membership": [
+        "IDXM",
+        "IDEX Membership",
+        "idex-membership"
+    ],
+    "Aurora DAO": [
+        "AURA",
+        "Aurora DAO",
+        "aurora-dao"
+    ],
+    "SingularityNET": [
+        "AGI",
+        "SingularityNET",
+        "singularitynet"
+    ],
+    "Gatcoin": [
+        "GAT",
+        "Gatcoin",
+        "gatcoin"
+    ],
+    "ShareX": [
+        "SEXC",
+        "ShareX",
+        "sharex"
+    ],
+    "ChatCoin": [
+        "CHAT",
+        "ChatCoin",
+        "chatcoin"
+    ],
+    "Scry.info": [
+        "DDD",
+        "Scry.info",
+        "scryinfo"
+    ],
+    "Mobius": [
+        "MOBI",
+        "Mobius",
+        "mobius"
+    ],
+    "Hydro Protocol": [
+        "HOT",
+        "Hydro Protocol",
+        "hydro-protocol"
+    ],
+    "Titanium Blockchain": [
+        "BAR",
+        "Titanium Blockchain",
+        "titanium-blockchain"
+    ],
+    "StarChain": [
+        "STC",
+        "StarChain",
+        "starchain"
+    ],
+    "IPChain": [
+        "IPC",
+        "IPChain",
+        "ipchain"
+    ],
+    "Maggie": [
+        "MAG",
+        "Maggie",
+        "maggie"
+    ],
+    "LightChain": [
+        "LIGHT",
+        "LightChain",
+        "lightchain"
+    ],
+    "RefToken": [
+        "REF",
+        "RefToken",
+        "reftoken"
+    ],
+    "YEE": [
+        "YEE",
+        "YEE",
+        "yee"
+    ],
+    "Acute Angle Cloud": [
+        "AAC",
+        "Acute Angle Cloud",
+        "acute-angle-cloud"
+    ],
+    "SelfSell": [
+        "SSC",
+        "SelfSell",
+        "selfsell"
+    ],
+    "Read": [
+        "READ",
+        "Read",
+        "read"
+    ],
+    "Molecular Future": [
+        "MOF",
+        "Molecular Future",
+        "molecular-future"
+    ],
+    "Trinity Network Credit": [
+        "TNC",
+        "Trinity Network Credit",
+        "trinity-network-credit"
+    ],
+    "CRYPTO20": [
+        "C20",
+        "CRYPTO20",
+        "c20"
+    ],
+    "Block Array": [
+        "ARY",
+        "Block Array",
+        "block-array"
+    ],
+    "DATA": [
+        "DTA",
+        "DATA",
+        "data"
+    ],
+    "Crypterium": [
+        "CRPT",
+        "Crypterium",
+        "crypterium"
+    ],
+    "Sparks": [
+        "SPK",
+        "Sparks",
+        "sparks"
+    ],
+    "carVertical": [
+        "CV",
+        "carVertical",
+        "carvertical"
+    ],
+    "Tokenbox": [
+        "TBX",
+        "Tokenbox",
+        "tokenbox"
+    ],
+    "EDUCare": [
+        "EKT",
+        "EDUCare",
+        "educare"
+    ],
+    "UnlimitedIP": [
+        "UIP",
+        "UnlimitedIP",
+        "unlimitedip"
+    ],
+    "PressOne": [
+        "PRS",
+        "PressOne",
+        "pressone"
+    ],
+    "OFCOIN": [
+        "OF",
+        "OFCOIN",
+        "ofcoin"
+    ],
+    "True Chain": [
+        "TRUE",
+        "True Chain",
+        "true-chain"
+    ],
+    "Odyssey": [
+        "OCN",
+        "Odyssey",
+        "odyssey"
+    ],
+    "indaHash": [
+        "IDH",
+        "indaHash",
+        "indahash"
+    ],
+    "Qbic": [
+        "QBIC",
+        "Qbic",
+        "qbic"
+    ],
+    "Peerguess": [
+        "GUESS",
+        "Peerguess",
+        "guess"
+    ],
+    "AidCoin": [
+        "AID",
+        "AidCoin",
+        "aidcoin"
+    ],
+    "Devery": [
+        "EVE",
+        "Devery",
+        "devery"
+    ],
+    "Blockport": [
+        "BPT",
+        "Blockport",
+        "blockport"
+    ],
+    "aXpire": [
+        "AXP",
+        "aXpire",
+        "axpire"
+    ],
+    "OriginTrail": [
+        "TRAC",
+        "OriginTrail",
+        "origintrail"
+    ],
+    "LinkEye": [
+        "LET",
+        "LinkEye",
+        "linkeye"
+    ],
+    "Zilliqa": [
+        "ZIL",
+        "Zilliqa",
+        "zilliqa"
+    ],
+    "CoinMeet": [
+        "MEET",
+        "CoinMeet",
+        "coinmeet"
+    ],
+    "Smartlands": [
+        "SLT",
+        "Smartlands",
+        "smartlands"
+    ],
+    "Fortuna": [
+        "FOTA",
+        "Fortuna",
+        "fortuna"
+    ],
+    "All Sports": [
+        "SOC",
+        "All Sports",
+        "all-sports"
+    ],
+    "Matrix AI Network": [
+        "MAN",
+        "Matrix AI Network",
+        "matrix-ai-network"
+    ],
+    "Garlicoin": [
+        "GRLC",
+        "Garlicoin",
+        "garlicoin"
+    ],
+    "Ruff": [
+        "RUFF",
+        "Ruff",
+        "ruff"
+    ],
+    "Nework": [
+        "NKC",
+        "Nework",
+        "nework"
+    ],
+    "CoinFi": [
+        "COFI",
+        "CoinFi",
+        "coinfi"
+    ],
+    "Equal": [
+        "EQL",
+        "Equal",
+        "equal"
+    ],
+    "HalalChain": [
+        "HLC",
+        "HalalChain",
+        "halalchain"
+    ],
+    "Zeepin": [
+        "ZPT",
+        "Zeepin",
+        "zeepin"
+    ],
+    "CPChain": [
+        "CPC",
+        "CPChain",
+        "cpchain"
+    ],
+    "OceanChain": [
+        "OC",
+        "OceanChain",
+        "oceanchain"
+    ],
+    "Hi Mutual Society": [
+        "HMC",
+        "Hi Mutual Society",
+        "hi-mutual-society"
+    ],
+    "Candy": [
+        "CANDY",
+        "Candy",
+        "candy"
+    ],
+    "Speed Mining Service": [
+        "SMS",
+        "Speed Mining Service",
+        "speed-mining-service"
+    ],
+    "Electronic PK Chain": [
+        "EPC",
+        "Electronic PK Chain",
+        "electronic-pk-chain"
+    ],
+    "ValueChain": [
+        "VLC",
+        "ValueChain",
+        "valuechain"
+    ],
+    "BitWhite": [
+        "BTW",
+        "BitWhite",
+        "bitwhite"
+    ],
+    "CargoX": [
+        "CXO",
+        "CargoX",
+        "cargox"
+    ],
+    "Travelflex": [
+        "TRF",
+        "Travelflex",
+        "travelflex"
+    ],
+    "Elastos": [
+        "ELA",
+        "Elastos",
+        "elastos"
+    ],
+    "STK": [
+        "STK",
+        "STK",
+        "stk"
+    ],
+    "Pareto Network": [
+        "PARETO",
+        "Pareto Network",
+        "pareto-network"
+    ],
+    "Polymath": [
+        "POLY",
+        "Polymath",
+        "polymath-network"
+    ],
+    "Medicalchain": [
+        "MTN",
+        "Medicalchain",
+        "medical-chain"
+    ],
+    "Jibrel Network": [
+        "JNT",
+        "Jibrel Network",
+        "jibrel-network"
+    ],
+    "SwissBorg": [
+        "CHSB",
+        "SwissBorg",
+        "swissborg"
+    ],
+    "Zilla": [
+        "ZLA",
+        "Zilla",
+        "zilla"
+    ],
+    "adbank": [
+        "ADB",
+        "adbank",
+        "adbank"
+    ],
+    "Huobi Token": [
+        "HT",
+        "Huobi Token",
+        "huobi-token"
+    ],
+    "DMarket": [
+        "DMT",
+        "DMarket",
+        "dmarket"
+    ],
+    "Iungo": [
+        "ING",
+        "Iungo",
+        "iungo"
+    ],
+    "Bluzelle": [
+        "BLZ",
+        "Bluzelle",
+        "bluzelle"
+    ],
+    "Swarm": [
+        "SWM",
+        "Swarm",
+        "swarm-fund"
+    ],
+    "THEKEY": [
+        "TKY",
+        "THEKEY",
+        "thekey"
+    ],
+    "DRP Utility": [
+        "DRPU",
+        "DRP Utility",
+        "drp-utility"
+    ],
+    "EtherSportz": [
+        "ESZ",
+        "EtherSportz",
+        "ethersportz"
+    ],
+    "Datawallet": [
+        "DXT",
+        "Datawallet",
+        "datawallet"
+    ],
+    "WePower": [
+        "WPR",
+        "WePower",
+        "wepower"
+    ],
+    "U.CASH": [
+        "UCASH",
+        "U.CASH",
+        "ucash"
+    ],
+    "GoldMint": [
+        "MNTP",
+        "GoldMint",
+        "goldmint"
+    ],
+    "Shekel": [
+        "JEW",
+        "Shekel",
+        "shekel"
+    ],
+    "ACChain": [
+        "ACC",
+        "ACChain",
+        "acchain"
+    ],
+    "MktCoin": [
+        "MLM",
+        "MktCoin",
+        "mktcoin"
+    ],
+    "Animation Vision Cash": [
+        "AVH",
+        "Animation Vision Cash",
+        "animation-vision-cash"
+    ],
+    "LOCIcoin": [
+        "LOCI",
+        "LOCIcoin",
+        "locicoin"
+    ],
+    "Indicoin": [
+        "INDI",
+        "Indicoin",
+        "indicoin"
+    ],
+    "Jesus Coin": [
+        "JC",
+        "Jesus Coin",
+        "jesus-coin"
+    ],
+    "BioCoin": [
+        "BIO",
+        "BioCoin",
+        "biocoin"
+    ],
+    "Superior Coin": [
+        "SUP",
+        "Superior Coin",
+        "superior-coin"
+    ],
+    "Tigereum": [
+        "TIG",
+        "Tigereum",
+        "tigereum"
+    ],
+    "Universa": [
+        "UTNP",
+        "Universa",
+        "universa"
+    ],
+    "Alphacat": [
+        "ACAT",
+        "Alphacat",
+        "alphacat"
+    ],
+    "Envion": [
+        "EVN",
+        "Envion",
+        "envion"
+    ],
+    "SureRemit": [
+        "RMT",
+        "SureRemit",
+        "sureremit"
+    ],
+    "Dether": [
+        "DTH",
+        "Dether",
+        "dether"
+    ],
+    "Cashaa": [
+        "CAS",
+        "Cashaa",
+        "cashaa"
+    ],
+    "Fusion": [
+        "FSN",
+        "Fusion",
+        "fusion"
+    ],
+    "W3Coin": [
+        "W3C",
+        "W3Coin",
+        "w3coin"
+    ],
+    "Etherecash": [
+        "ECH",
+        "Etherecash",
+        "etherecash"
+    ],
+    "Restart Energy MWAT": [
+        "MWAT",
+        "Restart Energy MWAT",
+        "restart-energy-mwat"
+    ],
+    "Gladius Token": [
+        "GLA",
+        "Gladius Token",
+        "gladius-token"
+    ],
+    "DADI": [
+        "DADI",
+        "DADI",
+        "dadi"
+    ],
+    "Neurotoken": [
+        "NTK",
+        "Neurotoken",
+        "neurotoken"
+    ],
+    "Gems ": [
+        "GEM",
+        "Gems ",
+        "gems-protocol"
+    ],
+    "Republic Protocol": [
+        "REN",
+        "Republic Protocol",
+        "republic-protocol"
+    ],
+    "Litecoin Cash": [
+        "LCC",
+        "Litecoin Cash",
+        "litecoin-cash"
+    ],
+    "Storiqa": [
+        "STQ",
+        "Storiqa",
+        "storiqa"
+    ],
+    "Tidex Token": [
+        "TDX",
+        "Tidex Token",
+        "tidex-token"
+    ],
+    "COPYTRACK": [
+        "CPY",
+        "COPYTRACK",
+        "copytrack"
+    ],
+    "Nucleus Vision": [
+        "NCASH",
+        "Nucleus Vision",
+        "nucleus-vision"
+    ],
+    "Arcblock": [
+        "ABT",
+        "Arcblock",
+        "arcblock"
+    ],
+    "Remme": [
+        "REM",
+        "Remme",
+        "remme"
+    ],
+    "Experty": [
+        "EXY",
+        "Experty",
+        "experty"
+    ],
+    "POA Network": [
+        "POA",
+        "POA Network",
+        "poa-network"
+    ],
+    "Ink Protocol": [
+        "XNK",
+        "Ink Protocol",
+        "ink-protocol"
+    ],
+    "Rock": [
+        "RKT",
+        "Rock",
+        "rock"
+    ],
+    "Bezop": [
+        "BEZ",
+        "Bezop",
+        "bezop"
+    ],
+    "IHT Real Estate Protocol": [
+        "IHT",
+        "IHT Real Estate Protocol",
+        "iht-real-estate-protocol"
+    ],
+    "Refereum": [
+        "RFR",
+        "Refereum",
+        "refereum"
+    ],
+    "Lympo": [
+        "LYM",
+        "Lympo",
+        "lympo"
+    ],
+    "Sether": [
+        "SETH",
+        "Sether",
+        "sether"
+    ],
+    "Credits": [
+        "CS",
+        "Credits",
+        "credits"
+    ],
+    "Bee Token": [
+        "BEE",
+        "Bee Token",
+        "bee-token"
+    ],
+    "Insights Network": [
+        "INSTAR",
+        "Insights Network",
+        "insights-network"
+    ],
+    "Cube": [
+        "AUTO",
+        "Cube",
+        "cube"
+    ],
+    "EZToken": [
+        "EZT",
+        "EZToken",
+        "eztoken"
+    ],
+    "BitTube": [
+        "TUBE",
+        "BitTube",
+        "bit-tube"
+    ],
+    "Education Ecosystem": [
+        "LEDU",
+        "Education Ecosystem",
+        "education-ecosystem"
+    ],
+    "TrueUSD": [
+        "TUSD",
+        "TrueUSD",
+        "trueusd"
+    ],
+    "HOQU": [
+        "HQX",
+        "HOQU",
+        "hoqu"
+    ],
+    "StarterCoin": [
+        "STAC",
+        "StarterCoin",
+        "startercoin"
+    ],
+    "Ontology": [
+        "ONT",
+        "Ontology",
+        "ontology"
+    ],
+    "DATx": [
+        "DATX",
+        "DATx",
+        "datx"
+    ],
+    "JET8": [
+        "J8T",
+        "JET8",
+        "jet8"
+    ],
+    "CoinPoker": [
+        "CHP",
+        "CoinPoker",
+        "coinpoker"
+    ],
+    "TomoChain": [
+        "TOMO",
+        "TomoChain",
+        "tomochain"
+    ],
+    "Graft": [
+        "GRFT",
+        "Graft",
+        "graft"
+    ],
+    "BABB": [
+        "BAX",
+        "BABB",
+        "babb"
+    ],
+    "Electrify.Asia": [
+        "ELEC",
+        "Electrify.Asia",
+        "electrifyasia"
+    ],
+    "Bitcoin Private": [
+        "BTCP",
+        "Bitcoin Private",
+        "bitcoin-private"
+    ],
+    "Tokenomy": [
+        "TEN",
+        "Tokenomy",
+        "tokenomy"
+    ],
+    "Ravencoin": [
+        "RVN",
+        "Ravencoin",
+        "ravencoin"
+    ],
+    "TE-FOOD": [
+        "TFD",
+        "TE-FOOD",
+        "te-food"
+    ],
+    "ShipChain": [
+        "SHIP",
+        "ShipChain",
+        "shipchain"
+    ],
+    "Leadcoin": [
+        "LDC",
+        "Leadcoin",
+        "leadcoin"
+    ],
+    "Sharpe Platform Token": [
+        "SHP",
+        "Sharpe Platform Token",
+        "sharpe-platform-token"
+    ],
+    "LALA World": [
+        "LALA",
+        "LALA World",
+        "lala-world"
+    ],
+    "Octoin Coin": [
+        "OCC",
+        "Octoin Coin",
+        "octoin-coin"
+    ],
+    "Debitum": [
+        "DEB",
+        "Debitum",
+        "debitum-network"
+    ],
+    "Centrality": [
+        "CENNZ",
+        "Centrality",
+        "centrality"
+    ],
+    "Havven": [
+        "HAV",
+        "Havven",
+        "havven"
+    ],
+    "Fluz Fluz": [
+        "FLUZ",
+        "Fluz Fluz",
+        "fluz-fluz"
+    ],
+    "Loom Network": [
+        "LOOM",
+        "Loom Network",
+        "loom-network"
+    ],
+    "Guaranteed Ethurance Token Extra": [
+        "GETX",
+        "Guaranteed Ethurance Token Extra",
+        "guaranteed-ethurance-token-extra"
+    ],
+    "HireMatch": [
+        "HIRE",
+        "HireMatch",
+        "hirematch"
+    ],
+    "Dropil": [
+        "DROP",
+        "Dropil",
+        "dropil"
+    ],
+    "Banca": [
+        "BANCA",
+        "Banca",
+        "banca"
+    ],
+    "Dragon Coins": [
+        "DRG",
+        "Dragon Coins",
+        "dragon-coins"
+    ],
+    "LatiumX": [
+        "LATX",
+        "LatiumX",
+        "latiumx"
+    ],
+    "NANJCOIN": [
+        "NANJ",
+        "NANJCOIN",
+        "nanjcoin"
+    ],
+    "CK USD": [
+        "CKUSD",
+        "CK USD",
+        "ckusd"
+    ],
+    "UpToken": [
+        "UP",
+        "UpToken",
+        "uptoken"
+    ],
+    "Banyan Network": [
+        "BBN",
+        "Banyan Network",
+        "banyan-network"
+    ],
+    "Noah Coin": [
+        "NOAH",
+        "Noah Coin",
+        "noah-coin"
+    ],
+    "Legolas Exchange": [
+        "LGO",
+        "Legolas Exchange",
+        "legolas-exchange"
+    ],
+    "1World": [
+        "1WO",
+        "1World",
+        "1world"
+    ],
+    "NaPoleonX": [
+        "NPX",
+        "NaPoleonX",
+        "napoleonx"
+    ],
+    "Pundi X": [
+        "NPXS",
+        "Pundi X",
+        "pundi-x"
+    ],
+    "Bitcoin Green": [
+        "BITG",
+        "Bitcoin Green",
+        "bitcoin-green"
+    ],
+    "BnkToTheFuture": [
+        "BFT",
+        "BnkToTheFuture",
+        "bnktothefuture"
+    ],
+    "Wanchain": [
+        "WAN",
+        "Wanchain",
+        "wanchain"
+    ],
+    "AMLT Token": [
+        "AMLT",
+        "AMLT Token",
+        "amlt"
+    ],
+    "Mithril": [
+        "MITH",
+        "Mithril",
+        "mithril"
+    ],
+    "Lendroid Support Token": [
+        "LST",
+        "Lendroid Support Token",
+        "lendroid-support-token"
+    ],
+    "Peculium": [
+        "PCL",
+        "Peculium",
+        "peculium"
+    ],
+    "Spectiv": [
+        "SIG",
+        "Spectiv",
+        "signal-token"
+    ],
+    "BitRent": [
+        "RNTB",
+        "BitRent",
+        "bitrent"
+    ],
+    "Titanium BAR": [
+        "TBAR",
+        "Titanium BAR",
+        "titanium-bar"
+    ],
+    "BlitzPredict": [
+        "XBP",
+        "BlitzPredict",
+        "blitzpredict"
+    ],
+    "Blocklancer": [
+        "LNC",
+        "Blocklancer",
+        "blocklancer"
+    ],
+    "Stipend": [
+        "SPD",
+        "Stipend",
+        "stipend"
+    ],
+    "IP Exchange": [
+        "IPSX",
+        "IP Exchange",
+        "ip-exchange"
+    ],
+    "StockChain": [
+        "SCC",
+        "StockChain",
+        "stockchain"
+    ],
+    "BitStation": [
+        "BSTN",
+        "BitStation",
+        "bitstation"
+    ],
+    "Switcheo": [
+        "SWTH",
+        "Switcheo",
+        "switcheo"
+    ],
+    "Consensus": [
+        "SEN",
+        "Consensus",
+        "consensus"
+    ],
+    "ClearCoin": [
+        "CLR",
+        "ClearCoin",
+        "clearcoin"
+    ],
+    "Sentinel Chain": [
+        "SENC",
+        "Sentinel Chain",
+        "sentinel-chain"
+    ],
+    "Vice Industry Token": [
+        "VIT",
+        "Vice Industry Token",
+        "vice-industry-token"
+    ],
+    "Friendz": [
+        "FDZ",
+        "Friendz",
+        "friends"
+    ],
+    "TokenPay": [
+        "TPAY",
+        "TokenPay",
+        "tokenpay"
+    ],
+    "Rentberry": [
+        "BERRY",
+        "Rentberry",
+        "rentberry"
+    ],
+    "Stellite": [
+        "XTL",
+        "Stellite",
+        "stellite"
+    ],
+    "PolySwarm": [
+        "NCT",
+        "PolySwarm",
+        "polyswarm"
+    ],
+    "ODEM": [
+        "ODE",
+        "ODEM",
+        "odem"
+    ],
+    "Monero Original": [
+        "XMO",
+        "Monero Original",
+        "monero-original"
+    ],
+    "StakeNet": [
+        "XSN",
+        "StakeNet",
+        "stakenet"
+    ],
+    "XinFin Network": [
+        "XDCE",
+        "XinFin Network",
+        "xinfin-network"
+    ],
+    "TokenDesk": [
+        "TDS",
+        "TokenDesk",
+        "tokendesk"
+    ],
+    "BelugaPay": [
+        "BBI",
+        "BelugaPay",
+        "belugapay"
+    ],
+    "Fidelium": [
+        "FID",
+        "Fidelium",
+        "fidelium"
+    ],
+    "Cortex": [
+        "CTXC",
+        "Cortex",
+        "cortex"
+    ],
+    "Arbitracoin": [
+        "ATC",
+        "Arbitracoin",
+        "arbitracoin"
+    ],
+    "WCOIN": [
+        "WIN",
+        "WCOIN",
+        "wawllet"
+    ],
+    "Apex": [
+        "CPX",
+        "Apex",
+        "apex"
+    ],
+    "CyberVein": [
+        "CVT",
+        "CyberVein",
+        "cybervein"
+    ],
+    "Sentinel": [
+        "SENT",
+        "Sentinel",
+        "sentinel"
+    ],
+    "eosDAC": [
+        "EOSDAC",
+        "eosDAC",
+        "eosdac"
+    ],
+    "U Network": [
+        "UUU",
+        "U Network",
+        "u-network"
+    ],
+    "AdHive": [
+        "ADH",
+        "AdHive",
+        "adhive"
+    ],
+    "SnipCoin": [
+        "SNIP",
+        "SnipCoin",
+        "snipcoin"
+    ],
+    "Bitsum": [
+        "BSM",
+        "Bitsum",
+        "bitsum"
+    ],
+    "DeviantCoin": [
+        "DEV",
+        "DeviantCoin",
+        "deviantcoin"
+    ],
+    "CommerceBlock": [
+        "CBT",
+        "CommerceBlock",
+        "commerceblock"
+    ],
+    "GreenMed": [
+        "GRMD",
+        "GreenMed",
+        "greenmed"
+    ],
+    "Curriculum Vitae": [
+        "CVH",
+        "Curriculum Vitae",
+        "curriculum-vitae"
+    ],
+    "Auctus": [
+        "AUC",
+        "Auctus",
+        "auctus"
+    ],
+    "Budbo": [
+        "BUBO",
+        "Budbo",
+        "budbo"
+    ],
+    "Monero Classic": [
+        "XMC",
+        "Monero Classic",
+        "monero-classic"
+    ],
+    "Daneel": [
+        "DAN",
+        "Daneel",
+        "daneel"
+    ],
+    "BrahmaOS": [
+        "BRM",
+        "BrahmaOS",
+        "brahmaos"
+    ],
+    "SyncFab": [
+        "MFG",
+        "SyncFab",
+        "syncfab"
+    ],
+    "Dignity": [
+        "DIG",
+        "Dignity",
+        "dignity"
+    ],
+    "Aditus": [
+        "ADI",
+        "Aditus",
+        "aditus"
+    ],
+    "Tripio": [
+        "TRIO",
+        "Tripio",
+        "tripio"
+    ],
+    "Haven Protocol": [
+        "XHV",
+        "Haven Protocol",
+        "haven-protocol"
+    ],
+    "StarCoin": [
+        "KST",
+        "StarCoin",
+        "starcointv"
+    ],
+    "CryCash": [
+        "CRC",
+        "CryCash",
+        "crycash"
+    ],
+    "Dero": [
+        "DERO",
+        "Dero",
+        "dero"
+    ],
+    "Effect.AI": [
+        "EFX",
+        "Effect.AI",
+        "effect-ai"
+    ],
+    "FintruX Network": [
+        "FTX",
+        "FintruX Network",
+        "fintrux-network"
+    ],
+    "Earth Token": [
+        "EARTH",
+        "Earth Token",
+        "earth-token"
+    ],
+    "MARK.SPACE": [
+        "MRK",
+        "MARK.SPACE",
+        "mark-space"
+    ],
+    "Pixie Coin": [
+        "PXC",
+        "Pixie Coin",
+        "pixie-coin"
+    ],
+    "Cropcoin": [
+        "CROP",
+        "Cropcoin",
+        "cropcoin"
+    ],
+    "SRCOIN": [
+        "SRCOIN",
+        "SRCOIN",
+        "srcoin"
+    ],
+    "Chainium": [
+        "CHX",
+        "Chainium",
+        "chainium"
+    ],
+    "Masari": [
+        "MSR",
+        "Masari",
+        "masari"
+    ],
+    "Dock": [
+        "DOCK",
+        "Dock",
+        "dock"
+    ],
+    "PHI Token": [
+        "PHI",
+        "PHI Token",
+        "phi-token"
+    ],
+    "Linker Coin": [
+        "LNC",
+        "Linker Coin",
+        "linker-coin"
+    ],
+    "B2Bcoin": [
+        "BBC",
+        "B2Bcoin",
+        "b2bcoin"
+    ],
+    "Decentralized Machine Learning": [
+        "DML",
+        "Decentralized Machine Learning",
+        "decentralized-machine-learning"
+    ],
+    "Helbiz": [
+        "HBZ",
+        "Helbiz",
+        "helbiz"
+    ],
+    "Origami": [
+        "ORI",
+        "Origami",
+        "origami"
+    ],
+    "Holo": [
+        "HOT",
+        "Holo",
+        "holo"
+    ],
+    "TrakInvest": [
+        "TRAK",
+        "TrakInvest",
+        "trakinvest"
+    ],
+    "Aphelion": [
+        "APH",
+        "Aphelion",
+        "aphelion"
+    ],
+    "Zebi": [
+        "ZCO",
+        "Zebi",
+        "zebi"
+    ],
+    "Lendingblock": [
+        "LND",
+        "Lendingblock",
+        "lendingblock"
+    ],
+    "Proxeus": [
+        "XES",
+        "Proxeus",
+        "proxeus"
+    ],
+    "Vipstar Coin": [
+        "VIPS",
+        "Vipstar Coin",
+        "vipstar-coin"
+    ],
+    "Rublix": [
+        "RBLX",
+        "Rublix",
+        "rublix"
+    ],
+    "Biotron": [
+        "BTRN",
+        "Biotron",
+        "biotron"
+    ],
+    "Penta": [
+        "PNT",
+        "Penta",
+        "penta"
+    ],
+    "Nebula AI": [
+        "NBAI",
+        "Nebula AI",
+        "nebula-ai"
+    ],
+    "Loopring [NEO]": [
+        "LRN",
+        "Loopring [NEO]",
+        "loopring-neo"
+    ],
+    "Nexo": [
+        "NEXO",
+        "Nexo",
+        "nexo"
+    ],
+    "VeriME": [
+        "VME",
+        "VeriME",
+        "verime"
+    ],
+    "DAEX": [
+        "DAX",
+        "DAEX",
+        "daex"
+    ],
+    "Hade Platform": [
+        "HADE",
+        "Hade Platform",
+        "hade-platform"
+    ],
+    "Hydrogen": [
+        "HYDRO",
+        "Hydrogen",
+        "hydrogen"
+    ],
+    "Sharder": [
+        "SS",
+        "Sharder",
+        "sharder"
+    ],
+    "TrustNote": [
+        "TTT",
+        "TrustNote",
+        "trustnote"
+    ],
+    "Bitcoin Interest": [
+        "BCI",
+        "Bitcoin Interest",
+        "bitcoin-interest"
+    ],
+    "BetterBetting": [
+        "BETR",
+        "BetterBetting",
+        "betterbetting"
+    ],
+    "Transcodium": [
+        "TNS",
+        "Transcodium",
+        "transcodium"
+    ],
+    "Amon": [
+        "AMN",
+        "Amon",
+        "amon"
+    ],
+    "Plancoin": [
+        "PLAN",
+        "Plancoin",
+        "plancoin"
+    ],
+    "Crowd Machine": [
+        "CMCT",
+        "Crowd Machine",
+        "crowd-machine"
+    ],
+    "Morpheus Labs": [
+        "MITX",
+        "Morpheus Labs",
+        "morpheus-labs"
+    ],
+    "Live Stars": [
+        "LIVE",
+        "Live Stars",
+        "live-stars"
+    ],
+    "Docademic": [
+        "MTC",
+        "Docademic",
+        "docademic"
+    ],
+    "MyToken": [
+        "MT",
+        "MyToken",
+        "mytoken"
+    ],
+    "KEY": [
+        "KEY",
+        "KEY",
+        "key"
+    ],
+    "Nexty": [
+        "NTY",
+        "Nexty",
+        "nexty"
+    ],
+    "ConnectJob": [
+        "CJT",
+        "ConnectJob",
+        "connectjob"
+    ],
+    "BoutsPro": [
+        "BOUTS",
+        "BoutsPro",
+        "boutspro"
+    ],
+    "PolicyPal Network": [
+        "PAL",
+        "PolicyPal Network",
+        "policypal-network"
+    ],
+    "Cybereits": [
+        "CRE",
+        "Cybereits",
+        "cybereits"
+    ],
+    "Parkgene": [
+        "GENE",
+        "Parkgene",
+        "parkgene"
+    ],
+    "APR Coin": [
+        "APR",
+        "APR Coin",
+        "apr-coin"
+    ],
+    "AC3": [
+        "AC3",
+        "AC3",
+        "ac3"
+    ],
+    "FuzeX": [
+        "FXT",
+        "FuzeX",
+        "fuzex"
+    ],
+    "Zippie": [
+        "ZIPT",
+        "Zippie",
+        "zippie"
+    ],
+    "Skrumble Network": [
+        "SKM",
+        "Skrumble Network",
+        "skrumble-network"
+    ],
+    "DAOstack": [
+        "GEN",
+        "DAOstack",
+        "daostack"
+    ],
+    "Bezant": [
+        "BZNT",
+        "Bezant",
+        "bezant"
+    ],
+    "TokenStars": [
+        "TEAM",
+        "TokenStars",
+        "tokenstars"
+    ],
+    "Fitrova": [
+        "FRV",
+        "Fitrova",
+        "fitrova"
+    ],
+    "Utrum": [
+        "OOT",
+        "Utrum",
+        "utrum"
+    ],
+    "Aston": [
+        "ATX",
+        "Aston",
+        "aston"
+    ],
+    "Freyrchain": [
+        "FREC",
+        "Freyrchain",
+        "freyrchain"
+    ],
+    "EduCoin": [
+        "EDU",
+        "EduCoin",
+        "edu-coin"
+    ],
+    "Content Neutrality Network": [
+        "CNN",
+        "Content Neutrality Network",
+        "content-neutrality-network"
+    ],
+    "InsurChain": [
+        "INSUR",
+        "InsurChain",
+        "insurchain"
+    ],
+    "Global Social Chain": [
+        "GSC",
+        "Global Social Chain",
+        "global-social-chain"
+    ],
+    "Super Game Chain": [
+        "SGCC",
+        "Super Game Chain",
+        "super-game-chain"
+    ],
+    "Digix Gold Token": [
+        "DGX",
+        "Digix Gold Token",
+        "digix-gold-token"
+    ],
+    "Influence Chain": [
+        "INC",
+        "Influence Chain",
+        "influence-chain"
+    ],
+    "Intelligent Investment Chain": [
+        "IIC",
+        "Intelligent Investment Chain",
+        "intelligent-investment-chain"
+    ],
+    "Sakura Bloom": [
+        "SKB",
+        "Sakura Bloom",
+        "sakura-bloom"
+    ],
+    "Bank Coin": [
+        "BANK",
+        "Bank Coin",
+        "bank-coin"
+    ],
+    "NPER": [
+        "NPER",
+        "NPER",
+        "nper"
+    ],
+    "length": "1592"
 }
