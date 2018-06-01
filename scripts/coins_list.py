@@ -56,15 +56,13 @@ class coins_list:
             json.dump(self.symbol_dict,f,indent=4,separators=(',', ': '), ensure_ascii=False)
 
 def main():
-    file_name = "../res/txt_corp/listings.json"
+    PATH_COIN_SOURCE = "../res/txt_corp/listings.json"
+    PATH_COIN_LIST = "../res/txt_corp/coin_list.json"
 
     cl = coins_list()
-    cl.open_file(file_name)
+    cl.open_file(PATH_COIN_SOURCE)
     cl.create_symbol_dict()
-
-    file_name ="../res/txt_corp/coin_list.json"
-
-    cl.write_file(file_name)
+    cl.write_file(PATH_COIN_LIST)
 
 
 if __name__ == "__main__":

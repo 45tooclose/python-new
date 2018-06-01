@@ -144,6 +144,7 @@ class MysqlConnector:
                     query += ")"
                 else:
                     query += ","
+
         else:
             for i, val in enumerate(values):
                 query += self.check_datatype(val)

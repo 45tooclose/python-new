@@ -3,15 +3,14 @@ from lxml import html
 import io
 import json
 
+def create_symbol_dict():
+    PATH_COINCAP_SITE="https://coinmarketcap.com/exchanges/volume/24-hour/all"
+    result = get(PATH_COINCAP_SITE)
+    market_list = []
 
-def main():
-    result = get("https://coinmarketcap.com/exchanges/volume/24-hour/all")
-    print("before get")
     root = html.fromstring(result.content)
-    print("after get")
     markets = root.xpath('//td/h3/a')
 
-    market_list=[]
 
     for market in markets:
         print(market.text_content())
@@ -21,6 +20,9 @@ def main():
 
     with io.open("../res/txt_corp/market_list.json", "w", encoding="utf-8") as f:
         json.dump(json_dict,f,indent=4,separators=(',', ': '),ensure_ascii=False)
+
+def main():
+    create_symbol_dict()
 
 if __name__ == '__main__':
     main()
