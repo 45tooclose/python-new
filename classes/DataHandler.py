@@ -3,7 +3,7 @@ from TextCleaner import TextCleaner
 import io
 
 
-class StructuredDataInserter:
+class DataHandler:
 
     mysqlc= MysqlConnector()
 
@@ -15,7 +15,7 @@ class StructuredDataInserter:
     def clean_text(self,txt):
         txtc = TextCleaner(txt=txt)
 
-        #Cleaning everything but not lowering text
+        #Cleaning everything but dont lower text
         txtc.clear_binded_words()
         txtc.clear_links()
         txtc.find_special_chars()

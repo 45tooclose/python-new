@@ -1,6 +1,6 @@
-from StructuredDataInserter import StructuredDataInserter
+from DataHandler import DataHandler
 
-sdi =StructuredDataInserter()
+sdi =DataHandler()
 
 data = sdi.get_data('rss_entries','id,text')
 for row in data:

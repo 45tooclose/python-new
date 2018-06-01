@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ab4c4fe-12c8-4cb7-89d2-61a848377e21" name="Default" comment="Added sample text">
-      <change afterPath="$PROJECT_DIR$/scripts/clean_ambiguous.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python-new.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-new.iml" afterDir="false" />
+    <list default="true" id="3ab4c4fe-12c8-4cb7-89d2-61a848377e21" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/MysqlConnector.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/MysqlConnector.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/txt_corp/technical_words.json" beforeDir="false" afterPath="$PROJECT_DIR$/res/txt_corp/technical_words.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/clean_bad_coins.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/coins_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/coins_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/market_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/market_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/misc_scripts.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/misc_scripts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/words_to_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Coin_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/StructuredDataInserter.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/DataHandler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Coin_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/coin_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/rss_entries_getter.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/rss_entries_getter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/rss_medium_getter.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/rss_medium_getter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/text_to_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/text_to_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/txtfiles.gitgnore" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,17 +22,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Coin_search.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scripts/Coin_search.py">
+      <file leaf-file-name="coin_search.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/coin_search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+            <state relative-caret-position="221">
+              <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
-                <element signature="e#146#263#0" />
                 <element signature="e#303#404#0" />
-                <element signature="e#475#1894#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataHandler.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes/DataHandler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MysqlConnector.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes/MysqlConnector.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1944">
+              <caret line="145" column="32" lean-forward="true" selection-start-line="145" selection-start-column="32" selection-end-line="145" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rss_entries_getter.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/rss_entries_getter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rss_medium_getter.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/rss_medium_getter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -56,9 +89,9 @@
       <find>write</find>
       <find>Nano</find>
       <find>ETH</find>
-      <find />
+      <find>File ope</find>
       <find>Btc</find>
-      <find />
+      <find>myriad |</find>
       <find>myriad|read|get|part|GMT|Crypto|verify|UNIT|plan|true|post|let|live</find>
       <find>NEM</find>
       <find>Best</find>
@@ -107,7 +140,6 @@
         <option value="$PROJECT_DIR$/scripts/rss_medium_getter.py" />
         <option value="$PROJECT_DIR$/classes/TextTokenizer.py" />
         <option value="$PROJECT_DIR$/scripts/text_to_file.py" />
-        <option value="$PROJECT_DIR$/classes/StructuredDataInserter.py" />
         <option value="$PROJECT_DIR$/classes/TextCleaner.py" />
         <option value="$PROJECT_DIR$/scripts/text_classifier.py" />
         <option value="$PROJECT_DIR$/scripts/tokenizer.py" />
@@ -118,13 +150,17 @@
         <option value="$PROJECT_DIR$/scripts/market_list.py" />
         <option value="$PROJECT_DIR$/scripts/misc_scripts.py" />
         <option value="$PROJECT_DIR$/scripts/words_to_list.py" />
+        <option value="$PROJECT_DIR$/scripts/clean_ambiguous.py" />
+        <option value="$PROJECT_DIR$/scripts/Coin_search.py" />
+        <option value="$PROJECT_DIR$/classes/StructuredDataInserter.py" />
+        <option value="$PROJECT_DIR$/classes/DataHandler.py" />
+        <option value="$PROJECT_DIR$/scripts/coin_search.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="705" />
-    <option name="y" value="5" />
-    <option name="width" value="1208" />
+    <option name="x" value="-30" />
+    <option name="width" value="1006" />
     <option name="height" value="1023" />
   </component>
   <component name="ProjectView">
@@ -132,6 +168,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,7 +201,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -179,141 +215,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Kamil\Documents\GitHub\python-new\scripts" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/misc.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/python-new.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/classes/MysqlConnector.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/classes/StructuredDataInserter.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/classes/TextCleaner.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/res/txt_corp/coin_list.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/res/txt_corp/market_list.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/scripts/coins_list.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/scripts/market_list.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/scripts/tokenizer.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/test.py</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/classes/__pycache__/TextCleaner.cpython-36.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/res/txt_corp/Weird Acronymes.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/res/txt_corp/ambiguous_coins.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/res/txt_corp/ambiguous_coins_readme.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/res/txt_corp/coin_list_clean.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/res/txt_corp/coin_list_clean_sorted.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/res/txt_corp/technical_words.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/res/txt_corp/technical_words_with_origin.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/scripts/__pycache__/tokenizer.cpython-36.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/scripts/clean_bad_coins.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/scripts/misc_scripts.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/scripts/text_classifier.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/scripts/words_to_list.py</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/res/tmp/kek.txt</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -340,7 +241,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/Coin_search.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Kamil\Documents\GitHub\python-new\scripts\coin_search.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -448,7 +349,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Kamil\Documents\GitHub\python-new\scripts\Coin_search.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Kamil\Documents\GitHub\python-new\scripts\coin_search.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -620,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527804113219</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Refactoring and optimization">
+      <created>1527851880673</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1527851880673</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView">
@@ -633,37 +541,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="889" y="5" width="1024" height="1023" extended-state="0" />
+    <frame x="-30" y="0" width="1006" height="1023" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7132867" visible="true" weight="0.2464503" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.45091513" visible="true" weight="0.23863636" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.0" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.17951319" side_tool="true" visible="true" weight="0.35367233" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4963119" weight="0.30392158" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.33687943" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.1780822" side_tool="true" weight="0.3453159" />
+      <window_info anchor="bottom" x="1923" y="88" width="916" height="867" id="Run" order="2" type="WINDOWED" weight="1.0" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32316384" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49894625" weight="0.3278867" />
-      <window_info anchor="bottom" x="973" y="164" width="717" height="794" id="Run" order="2" type="WINDOWED" weight="1.0" />
-      <window_info id="Structure" order="1" sideWeight="0.28671327" side_tool="true" visible="true" weight="0.2464503" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.7777778" weight="0.23542354" />
-      <window_info id="Favorites" order="2" sideWeight="0.54990923" side_tool="true" weight="0.16485754" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.82048684" visible="true" weight="0.35367233" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32403433" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.45091513" visible="true" weight="0.2400835" />
       <window_info id="Structure" order="1" sideWeight="0.54908484" side_tool="true" weight="0.12802951" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.7777778" visible="true" weight="0.23502825" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.82191783" weight="0.2607296" />
+      <window_info id="Favorites" order="2" sideWeight="0.5049505" side_tool="true" weight="0.2574178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.0" />
-      <window_info anchor="bottom" x="1923" y="88" width="916" height="867" id="Run" order="2" type="WINDOWED" weight="1.0" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.82191783" weight="0.2607296" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.1780822" side_tool="true" weight="0.3453159" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="2" sideWeight="0.5049505" side_tool="true" weight="0.2574178" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.7777778" weight="0.23542354" />
-      <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49894625" weight="0.3278867" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4963119" weight="0.30392158" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -687,7 +585,8 @@
     <MESSAGE value="Added Tokenizer" />
     <MESSAGE value="Refactor, filtering of misleading coins" />
     <MESSAGE value="Added files from coin cleaning" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added files from coin cleaning" />
+    <MESSAGE value="Refactoring and optimization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring and optimization" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -709,7 +608,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="107" />
+      <option name="time" value="112" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -900,27 +799,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/json2sql" />
     <entry file="file://$PROJECT_DIR$/classes/TextTokenizer.py" />
-    <entry file="file://$PROJECT_DIR$/classes/StructuredDataInserter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/rss_entries_getter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/rss_medium_getter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/txt_corp/coin_list.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-130212">
@@ -956,13 +834,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/MysqlConnector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2380">
-          <caret line="145" column="32" lean-forward="true" selection-start-line="145" selection-start-column="32" selection-end-line="145" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classes/db_connection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1921">
@@ -974,9 +845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2170">
           <caret line="155" column="11" lean-forward="true" selection-start-line="155" selection-start-column="11" selection-end-line="155" selection-end-column="11" />
-          <folding>
-            <element signature="e#1#10#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -998,9 +866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1022,36 +887,61 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="63" column="27" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
-          <folding>
-            <element signature="e#399#490#0" />
-            <element signature="e#557#1053#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/text_to_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/clean_ambiguous.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        <state relative-caret-position="372">
+          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/Coin_search.py">
+    <entry file="file://$PROJECT_DIR$/scripts/text_to_file.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+        <state relative-caret-position="102">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/rss_medium_getter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/rss_entries_getter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/MysqlConnector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1944">
+          <caret line="145" column="32" lean-forward="true" selection-start-line="145" selection-start-column="32" selection-end-line="145" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/DataHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/coin_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
-            <element signature="e#146#263#0" />
             <element signature="e#303#404#0" />
-            <element signature="e#475#1894#0" />
           </folding>
         </state>
       </provider>

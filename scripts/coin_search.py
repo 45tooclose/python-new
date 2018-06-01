@@ -5,7 +5,7 @@ import numpy as np
 
 from os import listdir
 from os.path import isfile, join
-
+from  MysqlConnector import  MysqlConnector
 
 
 
@@ -21,6 +21,7 @@ def write_file(f_name,some_list):
 
 def search_for_coins(ids, save_origin_word=False,from_db=False,):
 
+    msqlc = MysqlConnector()
     PATH_COIN_LIST='../res/txt_corp/coin_list_clean.json'
     PATH_OUTPUT='../res/txt_corp/technical_words.json'
 
@@ -38,8 +39,8 @@ def search_for_coins(ids, save_origin_word=False,from_db=False,):
         text=""
         if not from_db:
             text = open_file("../res/main_txt/rss_entries/txt-" + str(i) + ".txt")  # for rss_entries
-
         else:
+            text=""
             pass
 
         text = tokenizer.lemmatize(text)
@@ -68,6 +69,7 @@ def search_for_coins(ids, save_origin_word=False,from_db=False,):
 
         technical_words["txt-" + str(i)] = tags
 
+    #Save File to PATH_OUTPUT
     f = open(PATH_OUTPUT, "w+")
     json.dump(technical_words, f, indent=4, separators=(',', ': '), ensure_ascii="false")
     f.close()

@@ -1,6 +1,6 @@
-from StructuredDataInserter import StructuredDataInserter
+from DataHandler import DataHandler
 
-sdi = StructuredDataInserter()
+sdi = DataHandler()
 medium_columns = 'id,entry_id,text'
 medium_table = 'rss_entries'
 
