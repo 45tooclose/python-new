@@ -11,22 +11,22 @@ with open('../res/txt_corp/ambiguous_coins.txt') as f:
     amb=f.read()
     amb_split=amb.split(sep="\n")
     tmp_list=[]
+
     for word in amb_split:
         x = word.split(sep=",")
+
         tmp_list.append(x)
 
 for item in tmp_list:
     x="None"
+    print(item)
     if item[1]==" None":
         item[1]=""
-for item in tmp_list:
-    print(item)
+
 for item in tmp_list:
     for key,value in coin_dict.items():
-        print(key,len(item))
         if key==item[0]:
             print(" found" )
-            print(item[0],item[1])
             if len(item)>2:
                 coin_dict[key]=[item[1].strip(),item[2].strip()]
             else:

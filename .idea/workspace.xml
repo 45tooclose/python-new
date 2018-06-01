@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ab4c4fe-12c8-4cb7-89d2-61a848377e21" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/res/txt_corp/ambiguous_coins_readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/txt_corp/coin_list_clean_sorted.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/txt_corp/technical_words_with_origin.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/misc_scripts.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/res/txt_corp/ambiguous_coins.txt" beforeDir="false" afterPath="$PROJECT_DIR$/res/txt_corp/ambiguous_coins.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/res/txt_corp/coin_list_clean.json" beforeDir="false" afterPath="$PROJECT_DIR$/res/txt_corp/coin_list_clean.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/txt_corp/technical_words.json" beforeDir="false" afterPath="$PROJECT_DIR$/res/txt_corp/technical_words.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/txt_corp/technical_words_with_origin.json" beforeDir="false" afterPath="$PROJECT_DIR$/res/txt_corp/technical_words_with_origin.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/clean_bad_coins.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/clean_bad_coins.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/words_to_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/words_to_list.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
@@ -26,13 +22,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="488">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+              <caret line="56" column="27" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clean_bad_coins.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/clean_bad_coins.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="11" selection-start-column="11" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="words_to_list.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/words_to_list.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -111,16 +128,16 @@
         <option value="$PROJECT_DIR$/scripts/tokenizer.py" />
         <option value="$PROJECT_DIR$/scripts/market_list.py" />
         <option value="$PROJECT_DIR$/scripts/coins_list.py" />
-        <option value="$PROJECT_DIR$/scripts/words_to_list.py" />
-        <option value="$PROJECT_DIR$/scripts/clean_bad_coins.py" />
         <option value="$PROJECT_DIR$/scripts/misc_scripts.py" />
         <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/scripts/clean_bad_coins.py" />
+        <option value="$PROJECT_DIR$/scripts/words_to_list.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="631" />
-    <option name="width" value="1296" />
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -194,7 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.words_to_list">
     <configuration name="Unnamed (1)" type="PythonConfigurationType" factoryName="Python">
       <module name="python-new" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -332,9 +349,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.words_to_list" />
         <item itemvalue="Python.clean_bad_coins" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.market_list" />
         <item itemvalue="Python.coins_list" />
       </list>
@@ -480,7 +497,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527721072968</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Added files from coin cleaning">
+      <created>1527804113219</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1527804113219</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView">
@@ -493,19 +517,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="631" y="0" width="1296" height="1047" extended-state="0" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.45091513" visible="true" weight="0.1796875" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.45091513" visible="true" weight="0.2400835" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.0" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.1780822" side_tool="true" weight="0.3453159" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32453245" />
+      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32403433" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49894625" weight="0.3278867" />
-      <window_info anchor="bottom" x="1999" y="110" width="1190" height="867" id="Run" order="2" type="WINDOWED" weight="1.0" />
+      <window_info anchor="bottom" x="1923" y="88" width="916" height="867" id="Run" order="2" type="WINDOWED" weight="1.0" />
       <window_info id="Structure" order="1" sideWeight="0.54908484" side_tool="true" weight="0.12802951" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.7777778" weight="0.23542354" />
       <window_info id="Favorites" order="2" sideWeight="0.5049505" side_tool="true" weight="0.2574178" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.82191783" visible="true" weight="0.2607296" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.82191783" weight="0.2607296" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -878,23 +902,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/clean_bad_coins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/words_to_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="58" column="57" selection-start-line="58" selection-start-column="57" selection-end-line="58" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/misc_scripts.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -915,9 +922,26 @@
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="488">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <caret line="56" column="27" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/clean_bad_coins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/words_to_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>

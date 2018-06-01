@@ -69,7 +69,7 @@ def main():
 
     # GETting actual file names from folder
     AMOUNT_OF_FILES = onlyfiles
-    search_for_coins(AMOUNT_OF_FILES,save_origin=True)
+    search_for_coins(AMOUNT_OF_FILES)
 
 
 
